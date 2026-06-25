@@ -23,3 +23,32 @@ _One page per file in `sources/`. None yet._
 How to read this wiki: start here, follow links. Anything marked `> Unverified:` or `> Inference:` is not directly supported by a source — treat it with extra suspicion.
 
 Want to *understand* something here, not just look it up? Ask the agent to teach it — Socratically, or by quizzing you and grading hard. It will point you to record what you learned in the [learning log](learning-log.md). See [teaching mode](../AGENTS.md) in the schema.
+## Pages
+
+- [[n1-summary]]
+- [[g1-summary]]
+- [[concepts/VAWT]]
+- [[concepts/Darrieus Turbine]]
+- [[concepts/Savonius Turbine]]
+- [[concepts/CFD]]
+- [[concepts/Annual Energy Output]]
+- [[concepts/Lift vs Drag]]
+- [[questions/Lift vs Drag VAWT – Research Question]]
+- [[methods/CFD]]
+- [[methods/AEO Calculation]]
+- [[methods/Bin Method]]
+## Summaries
+- [[summaries/HRI2526-summary]]
+- [[summaries/n2-summary]]
+- [[summaries/g2-summary]]
+
+## Concepts
+- [[concepts/VAWT]]
+- [[concepts/Darrieus Turbine]]
+- [[concepts/Savonius Turbine]]
+- [[concepts/Hybrid VAWT]]
+- [[concepts/Wind Turbine Parameters]]
+- [[concepts/Urban Wind Conditions]]
+- [[concepts/Scaling Effects]]
+- [[concepts/Economic Viability of VAWTs]]
+- [[concepts/HAWT vs VAWT]]
