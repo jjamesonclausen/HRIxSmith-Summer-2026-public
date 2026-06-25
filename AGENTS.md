@@ -107,3 +107,4 @@ This wiki is not only for retrieval. It exists to help the human *understand*, n
 Fluency is not understanding. Your job is to provoke and check the human's thinking, not to replace it.
 anna's edit take two
 what if i do this now?
+attempt number three
