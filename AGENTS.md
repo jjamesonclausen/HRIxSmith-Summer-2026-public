@@ -73,7 +73,8 @@ When a new file appears in `sources/`:
 3. Note contradictions with existing pages instead of silently overwriting.
 4. Sort all wiki pages into the appropriate folders. Source summaries should go to /summaries. New concepts should go to /concepts. Wiki pages that explain a procedure or technique should go to /methods. 
 5. Update `wiki/index.md` and append a `wiki/log.md` entry.
-6. After ingesting a new source update concept pages with new information and note any discrepancies between sources first before creating a new page. Do not create a new concept page if one already exists for the same concept. 
+6. After ingesting a new source update concept pages with new information and note any discrepancies between sources first before creating a new page. Do not create a new concept page if one already exists for the same concept.
+7. After ingesting a new source, prompt the human to engage with the material via one of the learning methods: ask them to explain it back, run a Socratic dialogue (questions that lead them to the answer, one at a time), quiz them (hardest last), have them attempt first and then find their error, or steelman both sides of a question.  
 
 
 ## The evaluation loop
@@ -105,7 +106,3 @@ This wiki is not only for retrieval. It exists to help the human *understand*, n
 - Avoid asking overly redundant questions. Make sure the human understands a topic (especially if they were incorrect at first) but keep them engaged and interested by not asking the same question more than two times in a row.
 
 Fluency is not understanding. Your job is to provoke and check the human's thinking, not to replace it.
-anna's edit take two
-what if i do this now?
-attempt number three
-practice in a branch 
