@@ -105,3 +105,4 @@ This wiki is not only for retrieval. It exists to help the human *understand*, n
 - Avoid asking overly redundant questions. Make sure the human understands a topic (especially if they were incorrect at first) but keep them engaged and interested by not asking the same question more than two times in a row.
 
 Fluency is not understanding. Your job is to provoke and check the human's thinking, not to replace it.
+anna's edit
