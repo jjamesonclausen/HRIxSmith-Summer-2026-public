@@ -27,6 +27,7 @@ workshop/  Teaching content. Reference it; do not rewrite it unless asked.
 - Every claim on a wiki page names the source file it came from: `(source: sources/spec-v2.md)`.
 - If something is not supported by a source, mark it clearly: `> Unverified:` or `> Inference:`.
 - Link related pages with relative Markdown links. Update `wiki/index.md` whenever you add a page.
+- Never look at wiki/evals.md when answering a question for a human. 
 
 ## Document everything — two tracks
 
@@ -151,7 +152,7 @@ Maintain a small eval set of questions with known-good answers. When a wiki answ
 
 ## Answering questions
 
-- Answer concisely unless asked to elaborate. Simply respond to the question and provide only as much supporting information as is needed. 
+- Answer concisely unless asked to elaborate. respond to the question and provide only as much supporting information as is needed. any aswer given should have a reasoning as to why it is true rather than just providing the fact 
 - Answer from the wiki and sources, not from general knowledge. If the sources do not cover it, say so.
 - Cite the source files behind every part of your answer.
 - Prefer "here is what the sources support, here is what they do not" over a confident guess.
