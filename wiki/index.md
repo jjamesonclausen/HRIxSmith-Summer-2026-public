@@ -12,11 +12,11 @@ The map of this knowledge base. The agent keeps this current: every page it crea
 
 ## Concepts
 
-_Concept and entity pages live in [`concepts/`](concepts/). None yet — they appear here as you ingest sources._
+ _Concept and entity pages live in [`concepts/`](concepts/). They appear here as you ingest sources._
 
 ## Source summaries
 
-_One page per file in `sources/`. None yet._
+ _One page per file in `sources/`._
 
 ---
 
@@ -41,6 +41,7 @@ Want to *understand* something here, not just look it up? Ask the agent to teach
 - [[summaries/HRI2526-summary]]
 - [[summaries/n2-summary]]
 - [[summaries/g2-summary]]
+- [[summaries/vj2-summary]]
 
 ## Concepts
 - [[concepts/VAWT]]

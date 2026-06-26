@@ -124,3 +124,20 @@ Decisions:
 
 Open:
 - Consider renaming file to `Lift vs Drag (VAWT).md` for clarity and consistency
+
+### 2026-06-26 — Ingest vj2.md
+
+Task: Convert the Savonius-Darrieus hybrid PDF into Markdown and ingest it.
+
+Actions:
+- Created `sources/vj2.md` from the PDF in Downloads
+- Created `wiki/summaries/vj2-summary.md`
+- Updated `wiki/concepts/Hybrid VAWT.md` with the paper's CFD torque results
+- Updated `wiki/index.md` to link the new summary
+
+Decisions:
+- Kept the source conversion as a standalone markdown file under `sources/`
+- Merged the paper's key result into the existing Hybrid VAWT concept instead of creating a duplicate concept page
+
+Open:
+- None

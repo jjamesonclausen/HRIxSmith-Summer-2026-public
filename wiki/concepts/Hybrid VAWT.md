@@ -20,6 +20,10 @@ Tradeoffs:
 - Design requires balancing competing mechanisms (source: sources/HRI2526.md)
 
 - Potential interference: outer Darrieus may reduce wind capture of inner Savonius at low speeds. (source: sources/n2.md)
+- CFD case study: a helical Savonius inside a helical Darrieus rotor gained 10.5% torque after removing the Savonius shaft and 22.3% after moving the Savonius rotor outside the Darrieus rotor. (source: sources/vj2.md)
+
+Method note:
+- SolidWorks Flow Simulation was used on a 3D domain with nine attack angles from 0 to 120 degrees. (source: sources/vj2.md)
 
 See also:
 - [[VAWT]]
