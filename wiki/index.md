@@ -40,12 +40,14 @@ Want to *understand* something here, not just look it up? Ask the agent to teach
 - [[methods/Kriging Surrogate Model]]
 - [[methods/CST Parameterization]]
 - [[methods/Multi-Island Genetic Algorithm]]
+- [[methods/Blade Element-Momentum Model]]
 ## Summaries
 - [[summaries/HRI2526-summary]]
 - [[summaries/n2-summary]]
 - [[summaries/vj1-summary]]
 - [[summaries/va2-summary]]
 - [[summaries/vj3-summary]]
+- [[summaries/vj4-summary]]
 
 ## Concepts
 - [[concepts/VAWT]]

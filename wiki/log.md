@@ -258,3 +258,51 @@ Decisions:
 
 Open:
 - Could add a narrower `Turbulence Intensity` concept later if another source uses it heavily
+
+### 2026-06-26 — Ingest HRI2526 source update
+
+Task: Fold the latest HRI rooftop VAWT report details into the wiki.
+
+Actions:
+- Expanded `summaries/HRI2526-summary.md` with the report structure, rooftop wind data, CFD results, wake comparison, scaling, and economic conclusions
+- Added report-specific detail and figure links to `concepts/Hybrid VAWT.md`, `concepts/Urban Wind Conditions.md`, `concepts/Scaling Effects.md`, `concepts/Economic Viability of VAWTs.md`, and `concepts/Darrieus Turbine.md`
+- Added report-specific detail and figure links to `methods/Wind Tunnel Testing.md` and `methods/CFD.md`
+
+Decisions:
+- Kept the existing concept pages and enriched them instead of creating duplicate report-only pages
+- Used the report figures that most directly support the summarized claims
+
+Open:
+- The report still contains many additional figures and appendices that could be linked later if they become relevant to a specific question
+
+### 2026-06-26 — Convert Blade Architectures PDF
+
+Task: Convert `sources/Blade Architectures.pdf` into Markdown using the source naming rules.
+
+Actions:
+- Created `sources/vj4.md` with the paper title, authors, abstract, section structure, tables, symbols, and references
+- Removed the original PDF from `sources/`
+
+Decisions:
+- Used the next available `vj` sequence number for the new source file
+- Kept the paper as a source document only for now; wiki ingestion can be done next if needed
+
+Open:
+- The PDF figure images were not separately extracted in this workspace, so the Markdown preserves figure captions but not embedded image files
+
+### 2026-06-26 — Ingest Blade Architectures source
+
+Task: Add the new small-VAWT blade architecture paper to the wiki.
+
+Actions:
+- Created `summaries/vj4-summary.md`
+- Created `methods/Blade Element-Momentum Model.md`
+- Updated `concepts/Darrieus Turbine.md` and `concepts/H-VAWT.md` with the paper's findings
+- Updated `wiki/index.md` with the new summary and method pages
+
+Decisions:
+- Reused existing Darrieus and H-VAWT pages rather than creating duplicate blade-architecture concept pages
+- Put the predictor under methods because the paper uses it as an analysis workflow rather than a standalone concept
+
+Open:
+- The source PDF did not yield separate extracted figure files in this workspace

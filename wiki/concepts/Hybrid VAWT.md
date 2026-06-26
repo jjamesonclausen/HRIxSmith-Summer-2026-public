@@ -3,15 +3,23 @@
 Vertical axis wind turbine combining Darrieus (lift-based) and Savonius (drag-based) rotors. (source: sources/HRI2526.md)
 
 ![Figure 3: CAD model of the initial configuration of the proposed hybrid wind turbine](../images/vj2-fig3a.jpg)
+![Figure 9: Hybrid VAWT with inner classical Savonius and outer H-rotor Darrieus](../images/hri2526-fig9.jpg)
+![Figure 14: Final CAD Model of the Helical Hybrid VAWT](../images/hri2526-fig14.jpg)
 
 Purpose:
 - Improve self-starting via Savonius rotor (source: sources/HRI2526.md)
 - Improve efficiency at higher wind speeds via Darrieus rotor (source: sources/HRI2526.md)
+- In the HRI phase 1 report, this was the selected design after screening 200+ concepts and testing four prototypes. (source: sources/HRI2526.md)
 
 Typical configuration:
 - Outer Darrieus rotor
 - Inner Savonius rotor
 (source: sources/HRI2526.md)
+
+Final HRI configuration:
+- Asymmetrical helical Darrieus blades surrounding a widened internal helical Savonius rotor. (source: sources/HRI2526.md)
+- Optimized blade overlap ratio. (source: sources/HRI2526.md)
+- CFD reported Cp 0.19 at TSR 1 for the selected concept. (source: sources/HRI2526.md)
 
 Advantages:
 - Better performance across a wider range of wind speeds (source: sources/HRI2526.md)
