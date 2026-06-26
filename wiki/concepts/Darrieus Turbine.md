@@ -2,6 +2,8 @@
 
 Lift-based VAWT using airfoil blades to generate lift and rotation. (source: sources/n1.md, sources/va1.md)
 
+![Figure 2: Darrieus generator examples](../images/vj2-fig2a.jpg)
+
 - Higher efficiency (~30–40%) but poor self-starting capability. (source: sources/n1.md)
 - Performs better at higher wind speeds. (source: sources/va1.md)
 

@@ -225,6 +225,21 @@ Decisions:
 Open:
 - The HRI report contains many figures; the extracted images are saved in `images/hri2526-fig*.jpg` for reference
 
+### 2026-06-26 — Add inline figure links
+
+Task: Add helpful inline figure links to wiki pages using the newly extracted HRI and hybrid-turbine images.
+
+Actions:
+- Added representative extracted figures to `summaries/HRI2526-summary.md`
+- Added inline figures to `concepts/Hybrid VAWT.md`, `concepts/Darrieus Turbine.md`, and `concepts/Savonius Turbine.md`
+- Verified the linked image files exist in `images/`
+
+Decisions:
+- Kept image links on the pages that gain the most explanatory value from them
+
+Open:
+- None
+
 ### 2026-06-26 — Ingest vj3 turbulence article
 
 Task: Convert and ingest the new wind-turbulence PDF.

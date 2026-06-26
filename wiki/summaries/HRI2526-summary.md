@@ -4,6 +4,9 @@ Summary of `sources/HRI2526.md`. (source: sources/HRI2526.md)
 
 Phase 1 project exploring rooftop VAWTs for urban energy generation.
 
+![Extracted figure from the HRI report](../../images/hri2526-fig1.jpg)
+![Extracted figure from the HRI report](../../images/hri2526-fig2.jpg)
+
 Key points:
 - Explored 200+ concepts, narrowed to 4 prototypes (source: sources/HRI2526.md)
 - Selected helical hybrid (Darrieus + Savonius) design (source: sources/HRI2526.md)

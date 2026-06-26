@@ -2,6 +2,8 @@
 
 Vertical axis wind turbine combining Darrieus (lift-based) and Savonius (drag-based) rotors. (source: sources/HRI2526.md)
 
+![Figure 3: CAD model of the initial configuration of the proposed hybrid wind turbine](../images/vj2-fig3a.jpg)
+
 Purpose:
 - Improve self-starting via Savonius rotor (source: sources/HRI2526.md)
 - Improve efficiency at higher wind speeds via Darrieus rotor (source: sources/HRI2526.md)
@@ -21,6 +23,8 @@ Tradeoffs:
 
 - Potential interference: outer Darrieus may reduce wind capture of inner Savonius at low speeds. (source: sources/n2.md)
 - CFD case study: a helical Savonius inside a helical Darrieus rotor gained 10.5% torque after removing the Savonius shaft and 22.3% after moving the Savonius rotor outside the Darrieus rotor. (source: sources/vj2.md)
+
+![Figure 8: Torque values calculated for each configuration](../images/vj2-fig8.jpg)
 
 Method note:
 - SolidWorks Flow Simulation was used on a 3D domain with nine attack angles from 0 to 120 degrees. (source: sources/vj2.md)

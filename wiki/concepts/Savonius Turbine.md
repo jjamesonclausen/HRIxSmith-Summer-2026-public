@@ -2,6 +2,8 @@
 
 Drag-based VAWT using scooped blades. (source: sources/n1.md, sources/va1.md)
 
+![Figure 1: Basic design of a Savonius rotor](../images/vj2-fig1.jpg)
+
 - Self-starting and effective at low wind speeds. (source: sources/n1.md, sources/va1.md)
 - Low efficiency due to high drag. (source: sources/n1.md)
 
