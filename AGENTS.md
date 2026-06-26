@@ -110,13 +110,14 @@ To handle figures:
 Repository instructions:
 
 20. Create a new Markdown file for the paper.  
-21. Name the file according to its content and who uploaded it. If the paper is about vertical axis wind turbines (VAWTs) it should be named 'v(initial)#.md' where the initial is 'a' or 'j' depending on if Anna or Julie added the file and the number increases by one for each file that person adds. If the source is about fluid mechanics and is not directly related to VAWTs, it should be named 'f(initial)#.md'.
+21. Name the file according to its content and who uploaded it. If the paper is about vertical axis wind turbines (VAWTs) it should be named 'v(initial)#.md' where the initial is 'a' or 'j' depending on if Anna or Julie added the file and the number increases by one for each file that person adds. If the source is about fluid mechanics and is not directly related to VAWTs, it should be named 'f(initial)#.md'. Reserve f* only for sources about fluid mechanics with no wind-turbine/wind-energy application. v* for any source about wind turbines. if uncertain about catigorization ask before naming instead of inferring
    - Example, the second source file added by Anna, about fluid mechanics: `fa2.md`  
 3. Place the file in /sources.  
 4. Add the converted Markdown content to that file.   
 5. Do not modify unrelated files.
 6. Delete the PDF file when you are finished.
 7. Proceed to ingesting the source. See the rules below.
+
 
 After making the change, report:
 
