@@ -306,3 +306,35 @@ Decisions:
 
 Open:
 - The source PDF did not yield separate extracted figure files in this workspace
+
+### 2026-06-26 — Ingest va3.md
+
+Task: Convert the vertical-axis wind turbine article into source markdown and ingest it.
+
+Actions:
+- Appended a figure gallery to `sources/va3.md`
+- Created `wiki/summaries/va3-summary.md`
+- Enriched `VAWT`, `Darrieus Turbine`, `Savonius Turbine`, and `HAWT vs VAWT` with source-grounded details from `va3.md`
+- Updated `wiki/index.md` to link the new summary
+
+Decisions:
+- Kept the source conversion in `sources/` and the synthesis in wiki pages
+- Renamed the extracted JPGs to `va3-fig*` and corrected the 24–26 figure links to match the paper captions
+
+Open:
+- A few unused extracted JPGs remain in `images/` without wiki links; they may be extraction artifacts or unassigned figures
+
+### 2026-06-26 � Normalize leftover va3 image names
+
+Task: Fix the remaining `va3` extracted JPG names.
+
+Actions:
+- Renamed `va3-page-09-page09-img02.jpg` to `va3-page-09-img02.jpg`
+- Renamed `va3-page-37-page37-img03.jpg` to `va3-page-37-img03.jpg`
+- Renamed `va3-page-37-page37-img04.jpg` to `va3-page-37-img04.jpg`
+
+Decisions:
+- Used the fallback naming rule because the remaining three images did not have a clean, verifiable figure-number mapping from the source text export
+
+Open:
+- These three assets remain unlinked in wiki pages unless a later pass identifies their exact figure numbers

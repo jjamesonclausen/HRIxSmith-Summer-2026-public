@@ -12,6 +12,10 @@ Wind turbine with a vertical rotor axis that can accept wind from any direction.
 - Urban environments have lower average wind speeds but higher turbulence due to surface roughness and obstacles. (source: sources/HRI2526.md)
 - Power output scales with the cube of wind velocity, making low-speed environments challenging. (source: sources/HRI2526.md)
 - Currently less mature with lower market penetration compared to HAWTs. (source: sources/HRI2526.md)
+- Tip speed ratio α > 1 suggests lift-based operation, while α < 1 indicates mostly drag-based behavior. (source: sources/va3.md)
+- Small VAWTs can be easier to manufacture and maintain because the generator sits at ground level, and the article cites 10 m / 3-5 kW machines as a low-cost scale target. (source: sources/va3.md)
+- Correctly positioned VAWT arrays can exploit wake interactions to improve downstream turbine output. (source: sources/va3.md)
+- The source frames VAWTs as quieter, less visible, and more suitable for constrained sites than large HAWTs. (source: sources/va3.md)
 
 Additional advantages:
 - No yaw system required, reducing mechanical complexity and cost. (source: sources/vj1.md)

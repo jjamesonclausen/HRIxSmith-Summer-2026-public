@@ -48,6 +48,7 @@ Want to *understand* something here, not just look it up? Ask the agent to teach
 - [[summaries/va2-summary]]
 - [[summaries/vj3-summary]]
 - [[summaries/vj4-summary]]
+- [[summaries/va3-summary]]
 
 ## Concepts
 - [[concepts/VAWT]]
