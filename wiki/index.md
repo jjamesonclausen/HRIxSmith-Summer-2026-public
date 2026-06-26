@@ -45,6 +45,7 @@ Want to *understand* something here, not just look it up? Ask the agent to teach
 - [[summaries/n2-summary]]
 - [[summaries/vj1-summary]]
 - [[summaries/va2-summary]]
+- [[summaries/vj3-summary]]
 
 ## Concepts
 - [[concepts/VAWT]]
@@ -57,3 +58,4 @@ Want to *understand* something here, not just look it up? Ask the agent to teach
 - [[concepts/Economic Viability of VAWTs]]
 - [[concepts/HAWT vs VAWT]]
 - [[concepts/H-VAWT]]
+- [[concepts/Atmospheric Turbulence]]

@@ -176,3 +176,22 @@ Decisions:
 
 Open:
 - Figure assets were preserved as placeholders in the markdown source
+
+### 2026-06-26 — Ingest vj3 turbulence article
+
+Task: Convert and ingest the new wind-turbulence PDF.
+
+Actions:
+- Converted the PDF into `sources/vj3.md`
+- Extracted the two embedded figures into `images/vj3-fig1.jpg` and `images/vj3-fig2.jpg`
+- Created `summaries/vj3-summary.md`
+- Created `concepts/Atmospheric Turbulence.md`
+- Updated `wiki/index.md` with the new summary and concept
+- Deleted the original PDF after conversion
+
+Decisions:
+- Treated atmospheric turbulence as its own reusable concept instead of folding it into urban wind conditions
+- Kept the source summary separate from the concept synthesis
+
+Open:
+- Could add a narrower `Turbulence Intensity` concept later if another source uses it heavily
