@@ -1,9 +1,9 @@
 ## Darrieus Turbine
 
-Lift-based VAWT using airfoil blades to generate lift and rotation. (source: sources/n1.md, sources/g1.md)
+Lift-based VAWT using airfoil blades to generate lift and rotation. (source: sources/n1.md, sources/va1.md)
 
 - Higher efficiency (~30–40%) but poor self-starting capability. (source: sources/n1.md)
-- Performs better at higher wind speeds. (source: sources/g1.md)
+- Performs better at higher wind speeds. (source: sources/va1.md)
 
 - Uses airfoil blades creating pressure differences to generate lift. (source: sources/HRI2526.md)
 - Can operate at tip speed ratios greater than 1. (source: sources/HRI2526.md)

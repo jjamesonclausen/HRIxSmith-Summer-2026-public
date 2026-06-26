@@ -12,8 +12,8 @@ Key metrics used to evaluate wind turbine performance. (source: sources/HRI2526.
 - Swept area: area covered by turbine blades, typically height × diameter for VAWTs (source: sources/HRI2526.md)
 - Reynolds number: indicates flow regime (laminar vs turbulent) (source: sources/HRI2526.md)
 
-- Betz limit: theoretical maximum power coefficient (~0.59). (source: sources/g2.md)
-- Solidity: ratio of blade area to swept area; influences performance and structural tradeoffs. (source: sources/g2.md)
+- Betz limit: theoretical maximum power coefficient (~0.59). (source: sources/vj1.md)
+- Solidity: ratio of blade area to swept area; influences performance and structural tradeoffs. (source: sources/vj1.md)
 
 These parameters are often visualized using a power curve, which relates wind speed to power output. (source: sources/HRI2526.md)
 

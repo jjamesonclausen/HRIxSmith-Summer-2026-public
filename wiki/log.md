@@ -2,7 +2,7 @@
 
 ### 2026-06-24
 
-- Ingested sources/n1.md and sources/g1.md
+- Ingested sources/n1.md and sources/va1.md
 - Created summary pages for each source
 - Extracted key concepts into separate wiki pages
 - Updated wiki/index.md with new pages
@@ -10,9 +10,9 @@
 - Reorganized concept pages under concepts/ namespace in index (logical grouping; files not yet moved)
 - Moved concept pages into wiki/concepts/ directory to match schema
 - Created methods/ namespace and moved CFD page (analysis method)
-- Extracted AEO calculation and Bin Method from sources/g1.md into methods/
+- Extracted AEO calculation and Bin Method from sources/va1.md into methods/
 - Updated index to include methods pages and fixed question namespace link
-- Anna added summaries folder in wiki and moved g1 and n1 summaries to it
+- Anna added summaries folder in wiki and moved va1 and n1 summaries to it
 
 Open questions:
 - Need deeper breakdown of aerodynamic concepts (stall, TSR)
@@ -92,12 +92,12 @@ Decisions:
 Open:
 - Consider a dedicated "Inefficiency Mechanisms" concept if reused across turbines
 
-### 2026-06-25 — Ingest g2.md
+### 2026-06-25 — Ingest vj1.md
 
 Task: Integrate academic comparative study without duplicating concepts.
 
 Actions:
-- Created `summaries/g2-summary.md`
+- Created `summaries/vj1-summary.md`
 - Enriched VAWT concept with structural, maintenance, and noise advantages
 - Added Betz limit and solidity to Wind Turbine Parameters
 - Created `concepts/HAWT vs VAWT.md` for consolidated comparison
@@ -124,3 +124,20 @@ Decisions:
 
 Open:
 - Consider renaming file to `Lift vs Drag (VAWT).md` for clarity and consistency
+
+### 2026-06-26 — Rename source references
+
+Task: Update wiki references after `g1.md` and `g2.md` were renamed to `va1.md` and `vj1.md`.
+
+Actions:
+- Updated all wiki citations from `sources/g1.md` to `sources/va1.md`
+- Updated all wiki citations from `sources/g2.md` to `sources/vj1.md`
+- Renamed source summary pages to `va1-summary.md` and `vj1-summary.md`
+- Updated `wiki/index.md` links to the renamed summary pages
+
+Decisions:
+- Kept the content changes limited to wiki references and did not touch `sources/`
+- Normalized summary-page titles to match the new source IDs
+
+Open:
+- None

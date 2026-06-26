@@ -1,18 +1,18 @@
 ## HAWT vs VAWT
 
-Comparison between horizontal axis wind turbines (HAWTs) and vertical axis wind turbines (VAWTs). (source: sources/g2.md, sources/HRI2526.md)
+Comparison between horizontal axis wind turbines (HAWTs) and vertical axis wind turbines (VAWTs). (source: sources/vj1.md, sources/HRI2526.md)
 
 HAWTs:
-- Higher maturity and widespread deployment (source: sources/g2.md)
-- Higher typical efficiency (CP ~0.40–0.50) (source: sources/g2.md)
-- Require yaw and often pitch systems (source: sources/g2.md)
-- More complex structure and maintenance (source: sources/g2.md)
+- Higher maturity and widespread deployment (source: sources/vj1.md)
+- Higher typical efficiency (CP ~0.40–0.50) (source: sources/vj1.md)
+- Require yaw and often pitch systems (source: sources/vj1.md)
+- More complex structure and maintenance (source: sources/vj1.md)
 
 VAWTs:
-- Omnidirectional, no yaw system needed (source: sources/g2.md)
+- Omnidirectional, no yaw system needed (source: sources/vj1.md)
 - Better suited for turbulent and urban environments (source: sources/HRI2526.md)
-- Simpler structure with ground-level generator (source: sources/g2.md)
-- Lower maturity and optimization (source: sources/g2.md)
+- Simpler structure with ground-level generator (source: sources/vj1.md)
+- Lower maturity and optimization (source: sources/vj1.md)
 
 Tradeoff summary:
 - HAWTs: optimized, efficient, dominant at large scale

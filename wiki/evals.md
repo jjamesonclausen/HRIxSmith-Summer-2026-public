@@ -36,7 +36,7 @@ sycophantic  agreed with a leading question instead of the evidence
 			- Convert to hours per year (× 8760)
 			- Multiply by the turbine’s power output at that speed (from its power curve)
 		- Sum across all bins to get total Annual Energy Output (AEO)  
-		(source: sources/g1.md)
+		(source: sources/va1.md)
 - Failure type: n/a
 - Fix: n/a
 
@@ -56,7 +56,7 @@ sycophantic  agreed with a leading question instead of the evidence
 	Limitation:
 	- Binning smooths out fine-grained variations in wind, including turbulence and short-term fluctuations  
 	- It also does not capture directional effects  
-	(source: sources/g1.md)
+	(source: sources/va1.md)
 	Tradeoff:
 	- Smaller bins → higher resolution but less data per bin (noisier, less reliable statistics)
 	- Larger bins → more stable statistics but loss of detail
@@ -68,7 +68,7 @@ sycophantic  agreed with a leading question instead of the evidence
 - Known-good: very efficient (30-40%) but can't self start in low wind conditions, best in higher wind, mention structural stress and noise from turbulent wind loading
 - Last result: [pass]
 	- Darrieus turbines are lift-based and offer higher aerodynamic efficiency (typically ~30–40%), allowing them to generate more power at higher wind speeds and achieve higher tip speed ratios. However, their main disadvantage is poor self-starting capability, meaning they often require external assistance to begin rotating. They also experience dynamic loading due to changing angles of attack during rotation, which can introduce mechanical stress. As a result, while they are more efficient than drag-based designs, they are more complex and less effective in very low or highly variable wind conditions.  
-		(source: sources/n1.md, sources/g1.md)
+		(source: sources/n1.md, sources/va1.md)
 - Failure type: n/a
 - Fix: n/a
 
@@ -80,6 +80,6 @@ sycophantic  agreed with a leading question instead of the evidence
 		- AEO depends directly on the wind speed distribution
 		- Errors in wind data (e.g., wrong height, wrong location, ignoring building effects) lead to systematically incorrect energy estimates
 		- No improvement in binning or modeling can compensate for incorrect input data  
-		(source: sources/g1.md)
+		(source: sources/va1.md)
 - Failure type: n/a
 - Fix: n/a

@@ -1,8 +1,8 @@
 ## Savonius Turbine
 
-Drag-based VAWT using scooped blades. (source: sources/n1.md, sources/g1.md)
+Drag-based VAWT using scooped blades. (source: sources/n1.md, sources/va1.md)
 
-- Self-starting and effective at low wind speeds. (source: sources/n1.md, sources/g1.md)
+- Self-starting and effective at low wind speeds. (source: sources/n1.md, sources/va1.md)
 - Low efficiency due to high drag. (source: sources/n1.md)
 
 - Typically consists of two semicircular blades creating differential drag. (source: sources/HRI2526.md)

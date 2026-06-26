@@ -26,7 +26,7 @@ Want to *understand* something here, not just look it up? Ask the agent to teach
 ## Pages
 
 - [[n1-summary]]
-- [[g1-summary]]
+- [[va1-summary]]
 - [[concepts/VAWT]]
 - [[concepts/Darrieus Turbine]]
 - [[concepts/Savonius Turbine]]
@@ -40,7 +40,7 @@ Want to *understand* something here, not just look it up? Ask the agent to teach
 ## Summaries
 - [[summaries/HRI2526-summary]]
 - [[summaries/n2-summary]]
-- [[summaries/g2-summary]]
+- [[summaries/vj1-summary]]
 
 ## Concepts
 - [[concepts/VAWT]]
