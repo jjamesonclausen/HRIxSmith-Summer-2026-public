@@ -191,6 +191,40 @@ Decisions:
 Open:
 - None
 
+### 2026-06-26 — Figure audit
+
+Task: Ensure source markdown files retain figure captions and link extracted images where available.
+
+Actions:
+- Confirmed `sources/va2.md` and `sources/vj3.md` already link extracted images in `images/`
+- Added explicit missing-figure notes to `sources/vj2.md` and `sources/HRI2526.md`
+- Added helpful figure links from `va2` into `H-VAWT`, `Kriging Surrogate Model`, `CST Parameterization`, and `Multi-Island Genetic Algorithm`
+
+Decisions:
+- Kept missing figures as `> Unverified:` placeholders instead of inventing image files
+- Prioritized the most reusable figures for wiki pages
+
+Open:
+- `sources/vj2.md` and `sources/HRI2526.md` still need PDFs if you want extracted figure images
+
+### 2026-06-26 — Extract vj2 and HRI figures
+
+Task: Rename existing `va2` figure files to the AGENTS naming scheme and extract figures from the new `vj2` and `HRI2526` PDFs.
+
+Actions:
+- Renamed all `va2` image files to `va2-fig*.jpg`
+- Extracted hybrid turbine figures to `images/vj2-fig*.jpg`
+- Extracted report figures to `images/hri2526-fig*.jpg`
+- Updated `sources/va2.md`, `sources/vj2.md`, and `sources/HRI2526.md` to point at the extracted images
+- Updated wiki figure links that referenced `va2`
+
+Decisions:
+- Used cropped figure blocks from the PDFs rather than leaving placeholder file names
+- Kept the HRI report captions in place and linked representative extracted figures near the top
+
+Open:
+- The HRI report contains many figures; the extracted images are saved in `images/hri2526-fig*.jpg` for reference
+
 ### 2026-06-26 — Ingest vj3 turbulence article
 
 Task: Convert and ingest the new wind-turbulence PDF.
