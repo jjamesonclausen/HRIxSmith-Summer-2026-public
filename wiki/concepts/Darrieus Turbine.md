@@ -13,6 +13,7 @@ Lift-based VAWT using airfoil blades to generate lift and rotation. (source: sou
 
 Related:
 - [[VAWT]]
+- [[H-VAWT]]
 - [[Savonius Turbine]]
 - [[Hybrid VAWT]]
 - [[Wind Turbine Parameters]]

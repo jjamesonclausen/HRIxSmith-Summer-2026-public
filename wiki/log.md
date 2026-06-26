@@ -176,3 +176,17 @@ Decisions:
 
 Open:
 - Figure assets were preserved as placeholders in the markdown source
+
+### 2026-06-26 — Link H-VAWT to Darrieus
+
+Task: Clarify that H-VAWT is a subtype of lift-based Darrieus turbines.
+
+Actions:
+- Added a `[[Darrieus Turbine]]` link to `concepts/H-VAWT.md`
+- Added a `[[H-VAWT]]` link to `concepts/Darrieus Turbine.md`
+
+Decisions:
+- Kept the change to cross-links only
+
+Open:
+- None
