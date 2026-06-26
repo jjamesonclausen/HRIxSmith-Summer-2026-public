@@ -65,6 +65,51 @@ Watch for these in yourself and name them when they happen:
 
 End substantive answers with what is **uncertain** and what to **check or ask next**.
 
+## Converting a pdf source to Markdown
+When a new pdf file appears in `sources/`:
+Convert the paper PDF into clean Markdown and add it to /sources as a `.md` file.
+
+1. Read the PDF.  
+2. Convert the full paper into Markdown.  
+3. Preserve the paper's structure:  
+   - Title  
+   - Authors  
+   - Abstract  
+   - Section headings  
+   - Subsections  
+   - Paragraphs  
+   - Equations  
+   - Tables  
+   - Figures and captions  
+   - Footnotes  
+   - References  
+4. Do not summarize the paper.  
+5. Do not add commentary.  
+6. Do not invent missing content.  
+7. Fix obvious PDF line-break and spacing issues.  
+8. Remove repeated page headers, footers, and page numbers.  
+9. Convert tables to Markdown tables when possible.  
+10. For figures, keep the caption and add a Markdown image placeholder like: `![Figure 1: caption text](figure-1)` Save all figures as images in the /images folder and add a link to access them.
+11. Keep citations, equations, symbols, and technical terms as accurate as possible.  
+12. If text is unreadable, write `[unreadable]`.
+
+Repository instructions:
+
+1. Create a new Markdown file for the paper.  
+2. Name the file according to its content and who uploaded it. If the paper is about vertical axis wind turbines (VAWTs) it should be named 'v(initial)#.md' where the initial is 'a' or 'j' depending on if Anna or Julie added the file and the number increases by one for each file that person adds. If the source is about fluid mechanics and is not directly related to VAWTs, it should be named 'f(initial)#.md'.
+   - Example, the second source file added by Anna, about fluid mechanics: `fa2.md`  
+3. Place the file in /sources.  
+4. Add the converted Markdown content to that file.   
+5. Do not modify unrelated files.
+6. Delete the PDF file when you are finished.
+7. Proceed to ingesting the source. See the rules below.
+
+After making the change, report:
+
+- The path of the new `.md` file  
+- Any content that could not be converted cleanly
+- That you are about to ingest it.
+
 ## Ingesting a source
 
 When a new file appears in `sources/`:
