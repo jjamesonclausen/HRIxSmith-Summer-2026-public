@@ -88,15 +88,29 @@ Convert the paper PDF into clean Markdown and add it to /sources as a `.md` file
 6. Do not invent missing content.  
 7. Fix obvious PDF line-break and spacing issues.  
 8. Remove repeated page headers, footers, and page numbers.  
-9. Convert tables to Markdown tables when possible.  
-10. For figures, keep the caption and add a Markdown image placeholder like: `![Figure 1: caption text](figure-1)` Save all figures as images in the /images folder and add a link to access them.
-11. Keep citations, equations, symbols, and technical terms as accurate as possible.  
-12. If text is unreadable, write `[unreadable]`.
+9. Convert tables to Markdown tables when possible.
+10. Keep citations, equations, symbols, and technical terms as accurate as possible.  
+11. If text is unreadable, write `[unreadable]`.
+
+To handle figures:
+
+12. Extract every figure from the PDF into `images/` as a `.jpg` file.
+13. Name each image using the source Markdown file name plus the figure number, for example:
+   - `va2-fig1.jpg`
+   - `va2-fig2.jpg`
+   - `va2-fig3a.jpg` for subfigures when needed
+14. In the converted `.md` file, keep the original figure caption text.
+15. Immediately below or near each caption, add a Markdown image link to the extracted file, for example:
+   - `![Figure 1: caption text](../images/va2-fig1.jpg)`
+16. Do not omit figure captions.
+17. Do not invent missing figure content.
+18. If a figure cannot be extracted cleanly, note that clearly in the Markdown source with `[unreadable]` or `> Unverified:`.
+19. Preserve the paper’s structure and keep figure numbering consistent with the original PDF.
 
 Repository instructions:
 
-1. Create a new Markdown file for the paper.  
-2. Name the file according to its content and who uploaded it. If the paper is about vertical axis wind turbines (VAWTs) it should be named 'v(initial)#.md' where the initial is 'a' or 'j' depending on if Anna or Julie added the file and the number increases by one for each file that person adds. If the source is about fluid mechanics and is not directly related to VAWTs, it should be named 'f(initial)#.md'.
+20. Create a new Markdown file for the paper.  
+21. Name the file according to its content and who uploaded it. If the paper is about vertical axis wind turbines (VAWTs) it should be named 'v(initial)#.md' where the initial is 'a' or 'j' depending on if Anna or Julie added the file and the number increases by one for each file that person adds. If the source is about fluid mechanics and is not directly related to VAWTs, it should be named 'f(initial)#.md'.
    - Example, the second source file added by Anna, about fluid mechanics: `fa2.md`  
 3. Place the file in /sources.  
 4. Add the converted Markdown content to that file.   
@@ -113,13 +127,15 @@ After making the change, report:
 ## Ingesting a source
 
 When a new file appears in `sources/`:
-1. Read it fully. Summarize it on its own wiki and label the new summary 'source-summary.md' This should be a high level review of the content of that source. It doesn't matter if the content is repeated in other locations.
+1. Read it fully, and be sure to look at any figures that may have been extracted to images/. Summarize the source on its own wiki and label the new summary 'source-summary.md' This should be a high level review of the content of that source. It doesn't matter if the content is repeated in other locations. 
 2. Extract entities/concepts; create or update their pages, with source citations. These should have clear names that differentiate them from other concepts. Include references to other relevant wiki pages. Concept pages should combine information across sources when available.
-3. Note contradictions with existing pages instead of silently overwriting.
-4. Sort all wiki pages into the appropriate folders. Source summaries should go to /summaries. New concepts should go to /concepts. Wiki pages that explain a procedure or technique should go to /methods. 
-5. Update `wiki/index.md` and append a `wiki/log.md` entry.
-6. After ingesting a new source update concept pages with new information and note any discrepancies between sources first before creating a new page. Do not create a new concept page if one already exists for the same concept.
-7. After ingesting a new source, prompt the human to engage with the material via one of the learning methods: ask them to explain it back, run a Socratic dialogue (questions that lead them to the answer, one at a time), quiz them (hardest last), have them attempt first and then find their error, or steelman both sides of a question.  
+3. If there are relevant figures add a Markdown image link to the wiki files (summary, concepts, and/or methods), for example:
+   - `![Figure 1: caption text](../images/va2-fig1.jpg)`
+4. Note contradictions with existing pages instead of silently overwriting.
+5. Sort all wiki pages into the appropriate folders. Source summaries should go to /summaries. New concepts should go to /concepts. Wiki pages that explain a procedure or technique should go to /methods. 
+6. Update `wiki/index.md` and append a `wiki/log.md` entry.
+7. After ingesting a new source update concept pages with new information and note any discrepancies between sources first before creating a new page. Do not create a new concept page if one already exists for the same concept.
+8. After ingesting a new source, prompt the human to engage with the material via one of the learning methods: ask them to explain it back, run a Socratic dialogue (questions that lead them to the answer, one at a time), quiz them (hardest last), have them attempt first and then find their error, or steelman both sides of a question.  
 
 
 ## The evaluation loop
