@@ -24,6 +24,7 @@ Structural/operational traits:
 
 Performance context:
 - Potential efficiency comparable to HAWTs, but historically less optimized due to lower investment. (source: sources/vj1.md)
+- H-type airfoil optimization with CST, Kriging, and MIGA improved Cp by 14.2% at TSR > 1.5 and average efficiency by 9.8%. (source: sources/va2.md)
 
 Inefficiencies:
 - Blades pass through their own wake, reducing efficiency. (source: sources/n2.md)
@@ -37,6 +38,7 @@ Types of VAWTs:
 - [[Darrieus Turbine]] (lift-based)
 - [[Savonius Turbine]] (drag-based)
 - [[Hybrid VAWT]] (combination)
+- [[H-VAWT]] (H-type / H-rotor)
 
 Related:
 - [[Lift vs Drag]]

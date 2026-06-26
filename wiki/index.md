@@ -37,10 +37,14 @@ Want to *understand* something here, not just look it up? Ask the agent to teach
 - [[methods/CFD]]
 - [[methods/AEO Calculation]]
 - [[methods/Bin Method]]
+- [[methods/Kriging Surrogate Model]]
+- [[methods/CST Parameterization]]
+- [[methods/Multi-Island Genetic Algorithm]]
 ## Summaries
 - [[summaries/HRI2526-summary]]
 - [[summaries/n2-summary]]
 - [[summaries/vj1-summary]]
+- [[summaries/va2-summary]]
 
 ## Concepts
 - [[concepts/VAWT]]
@@ -52,3 +56,4 @@ Want to *understand* something here, not just look it up? Ask the agent to teach
 - [[concepts/Scaling Effects]]
 - [[concepts/Economic Viability of VAWTs]]
 - [[concepts/HAWT vs VAWT]]
+- [[concepts/H-VAWT]]

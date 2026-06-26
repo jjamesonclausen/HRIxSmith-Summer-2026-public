@@ -127,11 +127,11 @@ Open:
 
 ### 2026-06-26 — Rename source references
 
-Task: Update wiki references after `g1.md` and `g2.md` were renamed to `va1.md` and `vj1.md`.
+Task: Update wiki references after the source files were renamed to `va1.md` and `vj1.md`.
 
 Actions:
-- Updated all wiki citations from `sources/g1.md` to `sources/va1.md`
-- Updated all wiki citations from `sources/g2.md` to `sources/vj1.md`
+- Updated all wiki citations to use `sources/va1.md`
+- Updated all wiki citations to use `sources/vj1.md`
 - Renamed source summary pages to `va1-summary.md` and `vj1-summary.md`
 - Updated `wiki/index.md` links to the renamed summary pages
 
@@ -158,3 +158,21 @@ Decisions:
 
 Open:
 - None
+
+### 2026-06-26 — Ingest va2.md
+
+Task: Convert and ingest the new VAWT airfoil optimization PDF.
+
+Actions:
+- Converted the PDF into `sources/va2.md`
+- Deleted the original PDF after conversion
+- Created `summaries/va2-summary.md`
+- Added concept pages for H-VAWT and the optimization methods it uses
+- Updated `VAWT` and `wiki/index.md` with links to the new pages
+
+Decisions:
+- Kept the paper content in the source markdown and the synthesis in wiki pages
+- Split reusable techniques into method pages rather than a single umbrella page
+
+Open:
+- Figure assets were preserved as placeholders in the markdown source
