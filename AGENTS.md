@@ -67,8 +67,8 @@ Watch for these in yourself and name them when they happen:
 End substantive answers with what is **uncertain** and what to **check or ask next**.
 
 ## Converting a pdf source to Markdown
-When a new pdf file appears in `sources/`:
-Automatically convert the paper PDF into a clean Markdown and add it to /sources as a `.md` file.
+When a new pdf file appears in `pdfs/`:
+Automatically convert the paper PDF into a clean Markdown and add it to `sources/` as a `.md` file.
 
 1. Read the PDF.  
 2. Convert the full paper into Markdown.  
@@ -113,27 +113,27 @@ Repository instructions:
 20. Create a new Markdown file for the paper.  
 21. Name the file according to its content and who uploaded it. If the paper is about vertical axis wind turbines (VAWTs) it should be named 'v(initial)#.md' where the initial is 'a' or 'j' depending on if Anna or Julie added the file and the number increases by one for each file that person adds. If the source is about fluid mechanics and is not directly related to VAWTs, it should be named 'f(initial)#.md'. Reserve f* only for sources about fluid mechanics with no wind-turbine/wind-energy application. v* for any source about wind turbines. if uncertain about catigorization ask before naming instead of inferring
    - Example, the second source file added by Anna, about fluid mechanics: `fa2.md`  
-3. Place the file in /sources.  
-4. Add the converted Markdown content to that file.   
-5. Do not modify unrelated files.
-6. Delete the PDF file when you are finished.
-7. Proceed to ingesting the source. See the rules below.
+20. Confirm that the `.md` file preserves the format, headings, and figure numbering as the original `.pdf` file.
+21. Place the file in `/sources`.  
+22. Add the converted Markdown content to that file.   
+23. Do not modify unrelated files.
+24. Delete the PDF file when you are finished.
+25. Proceed to ingesting the source. See the rules below.
 
 After making the change, report:
 
 - The path of the new `.md` file  
 - Any content that could not be converted cleanly
 - That you are about to ingest it.
-
 ## Ingesting a source
 
-When a new file appears in `sources/` or when you have just converted a pdf source into a .md file, automatically do the following:
-1. Read it fully, and be sure to look at any figures that may have been extracted to images/. Summarize the source on its own wiki and label the new summary 'source-summary.md' This should be a high level review of the content of that source. It doesn't matter if the content is repeated in other locations. 
+When a new file appears in `sources/` or when you have just converted a `.pdf` source into a `.md` file, automatically do the following:
+1. Read it fully, and be sure to look at any figures that may have been extracted to `images/`. Summarize the source on its own wiki and label the new summary `source-summary.md` This should be a high level review of the content of that source. It doesn't matter if the content is repeated in other locations. 
 2. Extract entities/concepts; create or update their pages, with source citations. These should have clear names that differentiate them from other concepts. Include references to other relevant wiki pages. Concept pages should combine information across sources when available.
 3. If there are relevant figures add a Markdown image link to the wiki files (summary, concepts, and/or methods), for example:
    - `![Figure 1: caption text](../images/va2-fig1.jpg)`
 4. Note contradictions with existing pages instead of silently overwriting.
-5. Sort all wiki pages into the appropriate folders. Source summaries should go to /summaries. New concepts should go to /concepts. Wiki pages that explain a procedure or technique should go to /methods. 
+5. Sort all wiki pages into the appropriate folders. Source summaries should go to `summaries/`. New concepts should go to `concepts/`. Wiki pages that explain a procedure or technique should go to `methods/` 
 6. Update `wiki/index.md` and append a `wiki/log.md` entry.
 7. After ingesting a new source update concept pages with new information and note any discrepancies between sources first before creating a new page. Do not create a new concept page if one already exists for the same concept.
 8. After ingesting a new source, prompt the human to engage with the material via one of the learning methods: ask them to explain it back, run a Socratic dialogue (questions that lead them to the answer, one at a time), quiz them (hardest last), have them attempt first and then find their error, or steelman both sides of a question.  
@@ -151,7 +151,7 @@ Maintain a small eval set of questions with known-good answers. When a wiki answ
 
 ## Answering questions
 
-- Answer concisely unless asked to elaborate. respond to the question and provide only as much supporting information as is needed. any aswer given should have a reasoning as to why it is true rather than just providing the fact 
+- Answer concisely unless asked to elaborate. respond to the question and provide only as much supporting information as is needed. any answer given should have a reasoning as to why it is true rather than just providing the fact 
 - Answer from the wiki and sources, not from general knowledge. If the sources do not cover it, say so.
 - Cite the source files behind every part of your answer.
 - Prefer "here is what the sources support, here is what they do not" over a confident guess.
