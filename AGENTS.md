@@ -112,7 +112,7 @@ Automatically convert the paper PDF into a clean Markdown and add it to `sources
 20. Do not omit figure captions.
 21. Do not invent missing figure content.
 22. If a figure cannot be extracted cleanly, note that clearly in the Markdown source with `[unreadable]` or `> Unverified:`.
-23. Preserve the paper’s structure and keep figure numbering consistent with the original PDF.
+23. Preserve the paper’s structure, link figures in their original locations and keep figure numbering consistent with the original PDF.
 24.  Before marking the conversion complete, verify that each extracted image matches the visible figure in the PDF.
 25. If figure extraction is not possible with the available tools, stop and ask the human before finishing.
 
