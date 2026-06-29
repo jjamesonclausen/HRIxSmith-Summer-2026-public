@@ -39,6 +39,7 @@ Inefficiencies:
 - The same review notes that 2-D CFD often over-predicts Darrieus performance, while 3-D models better capture tip losses and secondary flow. (source: sources/vj6.md)
 - The review treats power coefficient, torque, flow separation, and wake dynamics as key CFD outputs for VAWT analysis. (source: sources/vj6.md)
 - Straight-bladed VAWT blade material matters because fatigue resistance, stiffness, density, and corrosion resistance affect lifetime and cost. (source: sources/vj7.md)
+- A contra-rotating VAWT can improve stability and wind-energy recovery, but the paper reports lower pre-optimization Cp than an isolated VAWT. (source: sources/vj8.md)
 
 Deployment considerations:
 - Performance improves significantly in higher wind environments (e.g., tall buildings, bridges). (source: sources/n2.md)

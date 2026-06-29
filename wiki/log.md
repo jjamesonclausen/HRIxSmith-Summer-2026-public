@@ -257,6 +257,23 @@ Decisions:
 Open:
 - The OCR source is rough in places, but the main technical claims and figures are captured
 
+### 2026-06-29 — Ingest vj8.md
+
+Task: Convert the contra-rotating VAWT optimization paper into Markdown and ingest it.
+
+Actions:
+- Created `sources/vj8.md` from the rendered PDF/OCR text
+- Extracted `images/vj8-fig1.jpg` through `images/vj8-fig20.jpg`
+- Created `wiki/summaries/vj8-summary.md`
+- Updated `wiki/methods/CFD.md`, `wiki/concepts/VAWT.md`, and `wiki/index.md`
+
+Decisions:
+- Kept the source as `vj8.md` because it is another Julie VAWT source
+- Folded the optimization workflow into existing CFD and VAWT pages rather than creating a duplicate concept page
+
+Open:
+- The OCR source is usable but still rough in a few figure captions and section sentences
+
 ### 2026-06-26 — Extract vj2 and HRI figures
 
 Task: Rename existing `va2` figure files to the AGENTS naming scheme and extract figures from the new `vj2` and `HRI2526` PDFs.
