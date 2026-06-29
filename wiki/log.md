@@ -274,6 +274,20 @@ Decisions:
 Open:
 - The OCR source is usable but still rough in a few figure captions and section sentences
 
+### 2026-06-29 — Rewrite vj8 source raw
+
+Task: Replace the paraphrased `sources/vj8.md` with a raw OCR-backed source file.
+
+Actions:
+- Rewrote `sources/vj8.md` from the OCR transcript without paraphrasing the paper text
+- Kept figure links only as inserted markdown references
+
+Decisions:
+- Followed the user's instruction to avoid editing source text when creating source markdown
+
+Open:
+- None
+
 ### 2026-06-26 — Extract vj2 and HRI figures
 
 Task: Rename existing `va2` figure files to the AGENTS naming scheme and extract figures from the new `vj2` and `HRI2526` PDFs.
