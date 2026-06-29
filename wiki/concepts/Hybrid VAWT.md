@@ -20,6 +20,7 @@ Final HRI configuration:
 - Asymmetrical helical Darrieus blades surrounding a widened internal helical Savonius rotor. (source: sources/HRI2526.md)
 - Optimized blade overlap ratio. (source: sources/HRI2526.md)
 - CFD reported Cp 0.19 at TSR 1 for the selected concept. (source: sources/HRI2526.md)
+- The report treated this concept as the best-performing of the four prototyped designs after wind tunnel testing and screening of 200+ initial concepts. (source: sources/HRI2526.md)
 
 Advantages:
 - Better performance across a wider range of wind speeds (source: sources/HRI2526.md)

@@ -18,6 +18,8 @@ Lift-based VAWT using airfoil blades to generate lift and rotation. (source: sou
 - It uses two or more flexible airfoil blades attached to the top and bottom of a rotating vertical shaft. (source: sources/va3.md)
 - In a small-VAWT BE-M study, three-bladed and helical Darrieus variants reduced pulsating loads compared with two-bladed and straight-bladed variants. (source: sources/vj4.md)
 - The same study found the cambered DU 06-W-200 profile improved low-TSR start-up but underperformed in medium-low wind exploitation. (source: sources/vj4.md)
+- A dynamic-stall CFD study modeled a 2D single-bladed Darrieus rotor at Re = 50,000 and λ = 2, and found DES gave the best validation against PIV data. (source: sources/vj5.md)
+- The paper emphasizes that leading-edge shedding and trailing-edge wake roll-up are the key unsteady features to match. (source: sources/vj5.md)
 
 Related:
 - [[VAWT]]
@@ -25,5 +27,6 @@ Related:
 - [[Savonius Turbine]]
 - [[Hybrid VAWT]]
 - [[Wind Turbine Parameters]]
+- [[Dynamic Stall]]
 
 #concepts 

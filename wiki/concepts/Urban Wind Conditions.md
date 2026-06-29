@@ -7,6 +7,7 @@ Characteristics of airflow in built environments. (source: sources/HRI2526.md)
 - Flow obstruction creates localized բարձր (higher) velocity regions and complex wake patterns. (source: sources/HRI2526.md)
 - Increased turbulence intensity leads to fluctuating loads on turbines. (source: sources/HRI2526.md)
 - In the McConnell Hall roof data analyzed by the HRI team, the 2025 daily average wind speed was 0.67 m/s and the average daily high was 4.02 m/s. (source: sources/HRI2526.md)
+![Figure 16: Wind Data from McConnell Rooftop](../../images/hri2526-fig16.jpg)
 
 Implications:
 - Reduces overall power potential due to cubic dependence on wind speed. (source: sources/HRI2526.md)

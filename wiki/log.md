@@ -207,6 +207,24 @@ Decisions:
 Open:
 - `sources/vj2.md` and `sources/HRI2526.md` still need PDFs if you want extracted figure images
 
+### 2026-06-29 — Ingest vj6.md
+
+Task: Convert the CFD review PDF into Markdown and ingest it.
+
+Actions:
+- Created `sources/vj6.md` from the rendered PDF/OCR text
+- Extracted 21 figure crops to `images/vj6-fig*.jpg`
+- Created `wiki/summaries/vj6-summary.md`
+- Updated `wiki/methods/CFD.md`, `wiki/concepts/VAWT.md`, `wiki/concepts/Dynamic Stall.md`, and `wiki/concepts/Wind Turbine Parameters.md`
+- Updated `wiki/index.md` and appended this log entry
+
+Decisions:
+- Kept the paper as `vj6.md` because it is a VAWT source added by Julie
+- Treated the review as a source for reusable CFD-method and VAWT-concept updates rather than a new standalone concept page
+
+Open:
+- None
+
 ### 2026-06-26 — Extract vj2 and HRI figures
 
 Task: Rename existing `va2` figure files to the AGENTS naming scheme and extract figures from the new `vj2` and `HRI2526` PDFs.
@@ -307,34 +325,54 @@ Decisions:
 Open:
 - The source PDF did not yield separate extracted figure files in this workspace
 
-### 2026-06-26 — Ingest va3.md
 
-Task: Convert the vertical-axis wind turbine article into source markdown and ingest it.
+### 2026-06-26 — Extract Blade Architectures figures
 
-Actions:
-- Appended a figure gallery to `sources/va3.md`
-- Created `wiki/summaries/va3-summary.md`
-- Enriched `VAWT`, `Darrieus Turbine`, `Savonius Turbine`, and `HAWT vs VAWT` with source-grounded details from `va3.md`
-- Updated `wiki/index.md` to link the new summary
-
-Decisions:
-- Kept the source conversion in `sources/` and the synthesis in wiki pages
-- Renamed the extracted JPGs to `va3-fig*` and corrected the 24–26 figure links to match the paper captions
-
-Open:
-- A few unused extracted JPGs remain in `images/` without wiki links; they may be extraction artifacts or unassigned figures
-
-### 2026-06-26 � Normalize leftover va3 image names
-
-Task: Fix the remaining `va3` extracted JPG names.
+Task: Extract figures from `sources/Blade Architectures.pdf` and save them using the `vj4-fig*.jpg` naming scheme.
 
 Actions:
-- Renamed `va3-page-09-page09-img02.jpg` to `va3-page-09-img02.jpg`
-- Renamed `va3-page-37-page37-img03.jpg` to `va3-page-37-img03.jpg`
-- Renamed `va3-page-37-page37-img04.jpg` to `va3-page-37-img04.jpg`
+- Rendered the PDF pages with a local Node/pdfjs pipeline
+- Cropped figures 1 through 12 into `images/vj4-fig1.jpg` through `images/vj4-fig12.jpg`
+- Linked the new images from `sources/vj4.md`, `summaries/vj4-summary.md`, and `methods/Blade Element-Momentum Model.md`
 
 Decisions:
-- Used the fallback naming rule because the remaining three images did not have a clean, verifiable figure-number mapping from the source text export
+- Used page-render crops because no direct PDF image extractor was installed in the workspace
+- Kept the crop regions broad enough to preserve figure captions where possible
 
 Open:
-- These three assets remain unlinked in wiki pages unless a later pass identifies their exact figure numbers
+- None
+
+### 2026-06-29 — HRI2526 summary cleanup
+
+Task: Finish the HRI2526 ingest by tightening the summary and figure links.
+
+Actions:
+- Added the remaining HRI report figures to `summaries/HRI2526-summary.md`
+- Added the rooftop wind-data figure to `concepts/Urban Wind Conditions.md`
+- Added the 10 kWh/year and >5,000 year breakeven result to `concepts/Economic Viability of VAWTs.md`
+- Strengthened `concepts/Hybrid VAWT.md` with the report's selected-design context
+
+Decisions:
+- Kept the update focused on reusable wiki pages rather than creating new report-specific pages
+
+Open:
+- None
+
+### 2026-06-29 — Ingest torque_from_wind
+
+Task: Convert the new VAWT dynamic-stall PDF into a source markdown file and extract its figures.
+
+Actions:
+- Created `sources/vj5.md` from `sources/torque_from_wind.pdf`
+- Rendered the PDF figures into `images/vj5-fig*.jpg`
+- Created `summaries/vj5-summary.md`
+- Added `concepts/Dynamic Stall.md`
+- Updated `concepts/VAWT.md`, `concepts/Darrieus Turbine.md`, `methods/CFD.md`, and `wiki/index.md`
+
+Decisions:
+- Used the Julie `vj` naming sequence because the source was added by Julie
+- Kept dynamic stall as a new reusable concept instead of burying it inside VAWT or CFD
+- Folded the CFD/PIV comparison into the existing CFD method page
+
+Open:
+- None

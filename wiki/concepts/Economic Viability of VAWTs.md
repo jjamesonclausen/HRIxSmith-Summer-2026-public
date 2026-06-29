@@ -6,6 +6,7 @@ Findings:
 - Low predicted power output in urban rooftop environments. (source: sources/HRI2526.md)
 - Long breakeven period makes current designs impractical. (source: sources/HRI2526.md)
 - The HRI phase 1 report concluded the selected helical hybrid was not viable for low-wind rooftop energy generation. (source: sources/HRI2526.md)
+- The report estimated about 10 kWh/year of output and a breakeven period over 5,000 years at the current cost and Cp assumptions. (source: sources/HRI2526.md)
 
 Drivers:
 - Low wind speeds reduce energy generation. (source: sources/HRI2526.md)

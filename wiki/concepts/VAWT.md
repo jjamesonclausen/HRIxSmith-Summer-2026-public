@@ -34,6 +34,10 @@ Inefficiencies:
 - Blades pass through their own wake, reducing efficiency. (source: sources/n2.md)
 - Dynamic stall from changing angle of attack causes losses. (source: sources/n2.md)
 - Drag-based designs suffer from returning blade opposing motion. (source: sources/n2.md)
+- Dynamic stall is especially important at low tip speed ratios, where vortex shedding and wake roll-up strongly affect loads and power. (source: sources/vj5.md)
+- The CFD review reiterates that VAWTs are attractive for urban use because they capture wind from any direction and fit constrained sites, but they still face dynamic stall and blade-wake challenges. (source: sources/vj6.md)
+- The same review notes that 2-D CFD often over-predicts Darrieus performance, while 3-D models better capture tip losses and secondary flow. (source: sources/vj6.md)
+- The review treats power coefficient, torque, flow separation, and wake dynamics as key CFD outputs for VAWT analysis. (source: sources/vj6.md)
 
 Deployment considerations:
 - Performance improves significantly in higher wind environments (e.g., tall buildings, bridges). (source: sources/n2.md)
@@ -43,6 +47,7 @@ Types of VAWTs:
 - [[Savonius Turbine]] (drag-based)
 - [[Hybrid VAWT]] (combination)
 - [[H-VAWT]] (H-type / H-rotor)
+- [[Dynamic Stall]]
 
 Related:
 - [[Lift vs Drag]]

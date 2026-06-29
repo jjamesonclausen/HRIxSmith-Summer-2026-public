@@ -9,12 +9,18 @@ Phase 1 project exploring rooftop VAWTs for urban energy generation for HRI/99P 
 ![Figure 14: Final CAD Model of the Helical Hybrid VAWT](../../images/hri2526-fig14.jpg)
 ![Figure 16: Wind Data from McConnell Rooftop](../../images/hri2526-fig16.jpg)
 ![Figure 17: CFD Flow volume with stationary and rotating domains](../../images/hri2526-fig17.jpg)
+![Figure 18: Validation velocity profile comparison](../../images/hri2526-fig18.jpg)
+![Figure 19: Helical hybrid velocity field](../../images/hri2526-fig19.jpg)
+![Figure 20: Wake profile analysis of small scale helical hybrid](../../images/hri2526-fig20.jpg)
+![Figure 21: CAD for 3D printed segment of full-scale VAWT](../../images/hri2526-fig21.jpg)
 
 Key points:
 - Explored 200+ concepts, narrowed to 4 prototypes, and tested them as 3D-printed models in a 12 in x 12 in wind tunnel. (source: sources/HRI2526.md)
 - Selected a helical hybrid configuration combining a helical Darrieus rotor with an internal Savonius rotor. (source: sources/HRI2526.md)
 - Used wind tunnel testing, rooftop wind data analysis, CFD, wake comparison, and scaling analysis. (source: sources/HRI2526.md)
 - Found low economic viability in low-wind rooftop environments because power output was low and the breakeven period was impractical. (source: sources/HRI2526.md)
+- Reported CFD validation on a classical Savonius at Cp 0.24 and the selected helical hybrid at Cp 0.19 at TSR 1. (source: sources/HRI2526.md)
+- Estimated annual production of about 10 kWh/year and a breakeven period greater than 5,000 years for the current design. (source: sources/HRI2526.md)
 
 Findings:
 - Rooftop wind data for McConnell Hall showed an average high wind speed of 4.02 m/s and a daily average of 0.67 m/s for 2025. (source: sources/HRI2526.md)
@@ -22,6 +28,7 @@ Findings:
 - The selected helical hybrid reached Cp 0.19 at TSR 1 in CFD. (source: sources/HRI2526.md)
 - Wake comparison showed the CFD wake shape was similar to the wind tunnel result, but point velocities were higher in CFD. (source: sources/HRI2526.md)
 - Scaling analysis emphasized how hard it is to transfer small-scale prototype behavior to full-scale rooftop conditions. (source: sources/HRI2526.md)
+- The report recommended improving the wind tunnel setup, exploring higher wind environments, or advancing CFD toward a digital twin. (source: sources/HRI2526.md)
 
 Recommendations:
 - Improve testing setup. (source: sources/HRI2526.md)
