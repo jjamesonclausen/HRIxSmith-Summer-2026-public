@@ -46,3 +46,5 @@ Types of VAWTs:
 
 Related:
 - [[Lift vs Drag]]
+
+#concepts 

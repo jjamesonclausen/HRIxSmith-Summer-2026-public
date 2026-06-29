@@ -12,3 +12,5 @@ Vertical-axis wind turbine with straight blades arranged around the rotor, often
 - The helical configuration widened the range near maximum CP and reduced fatigue-driving oscillations. (source: sources/vj4.md)
 
 Related: [[VAWT]], [[Darrieus Turbine]], [[HAWT vs VAWT]], [[Kriging Surrogate Model]], [[CST Parameterization]], [[Multi-Island Genetic Algorithm]]
+ 
+#concepts 

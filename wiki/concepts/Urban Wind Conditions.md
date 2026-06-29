@@ -18,3 +18,5 @@ Related:
 - [[Wind Turbine Parameters]]
 - [[CFD]]
 - [[Atmospheric Turbulence]]
+
+#concepts 

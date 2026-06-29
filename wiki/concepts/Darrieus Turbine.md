@@ -25,3 +25,5 @@ Related:
 - [[Savonius Turbine]]
 - [[Hybrid VAWT]]
 - [[Wind Turbine Parameters]]
+
+#concepts 

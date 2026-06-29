@@ -42,3 +42,5 @@ Based on the sources, what further research is needed to determine whether lift-
 - Generalizability beyond the Trieste case study. (source: sources/va1.md)
 
 > Inference: The relative advantage likely depends strongly on site-specific wind conditions and building effects.
+
+#concepts 
