@@ -391,3 +391,20 @@ Decisions:
 
 Open:
 - None
+
+### 2026-06-29 — Reorganize wiki index
+
+Task: Clean up `wiki/index.md` so pages are grouped by folder instead of listed together.
+
+Actions:
+- Moved all summary pages into a dedicated `Source summaries` section
+- Kept concept pages under `Concepts`
+- Added a dedicated `Methods` section for technique pages
+- Removed the old mixed `Pages` list
+- Fixed the broken research-question link to use the actual `concepts/` path
+
+Decisions:
+- Kept the index alphabetical within each folder section for easier scanning
+
+Open:
+- None
