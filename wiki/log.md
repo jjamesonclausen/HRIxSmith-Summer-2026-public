@@ -207,6 +207,24 @@ Decisions:
 Open:
 - `sources/vj2.md` and `sources/HRI2526.md` still need PDFs if you want extracted figure images
 
+### 2026-06-29 — Ingest vj6.md
+
+Task: Convert the CFD review PDF into Markdown and ingest it.
+
+Actions:
+- Created `sources/vj6.md` from the rendered PDF/OCR text
+- Extracted 21 figure crops to `images/vj6-fig*.jpg`
+- Created `wiki/summaries/vj6-summary.md`
+- Updated `wiki/methods/CFD.md`, `wiki/concepts/VAWT.md`, `wiki/concepts/Dynamic Stall.md`, and `wiki/concepts/Wind Turbine Parameters.md`
+- Updated `wiki/index.md` and appended this log entry
+
+Decisions:
+- Kept the paper as `vj6.md` because it is a VAWT source added by Julie
+- Treated the review as a source for reusable CFD-method and VAWT-concept updates rather than a new standalone concept page
+
+Open:
+- None
+
 ### 2026-06-26 — Extract vj2 and HRI figures
 
 Task: Rename existing `va2` figure files to the AGENTS naming scheme and extract figures from the new `vj2` and `HRI2526` PDFs.

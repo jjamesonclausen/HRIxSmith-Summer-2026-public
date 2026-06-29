@@ -14,6 +14,7 @@ Key metrics used to evaluate wind turbine performance. (source: sources/HRI2526.
 
 - Betz limit: theoretical maximum power coefficient (~0.59). (source: sources/vj1.md)
 - Solidity: ratio of blade area to swept area; influences performance and structural tradeoffs. (source: sources/vj1.md)
+- The CFD review repeatedly uses power coefficient, torque, flow separation, and wake dynamics as the main performance indicators for VAWT studies. (source: sources/vj6.md)
 
 These parameters are often visualized using a power curve, which relates wind speed to power output. (source: sources/HRI2526.md)
 

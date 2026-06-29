@@ -28,6 +28,7 @@ Want to *understand* something here, not just look it up? Ask the agent to teach
 - [[n1-summary]]
 - [[va1-summary]]
 - [[vj5-summary]]
+- [[vj6-summary]]
 - [[concepts/VAWT]]
 - [[concepts/Darrieus Turbine]]
 - [[concepts/Savonius Turbine]]
@@ -50,6 +51,7 @@ Want to *understand* something here, not just look it up? Ask the agent to teach
 - [[summaries/vj3-summary]]
 - [[summaries/vj4-summary]]
 - [[summaries/va3-summary]]
+- [[summaries/vj6-summary]]
 
 ## Concepts
 - [[concepts/VAWT]]
