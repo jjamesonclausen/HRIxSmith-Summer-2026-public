@@ -38,6 +38,7 @@ Inefficiencies:
 - The CFD review reiterates that VAWTs are attractive for urban use because they capture wind from any direction and fit constrained sites, but they still face dynamic stall and blade-wake challenges. (source: sources/vj6.md)
 - The same review notes that 2-D CFD often over-predicts Darrieus performance, while 3-D models better capture tip losses and secondary flow. (source: sources/vj6.md)
 - The review treats power coefficient, torque, flow separation, and wake dynamics as key CFD outputs for VAWT analysis. (source: sources/vj6.md)
+- Straight-bladed VAWT blade material matters because fatigue resistance, stiffness, density, and corrosion resistance affect lifetime and cost. (source: sources/vj7.md)
 
 Deployment considerations:
 - Performance improves significantly in higher wind environments (e.g., tall buildings, bridges). (source: sources/n2.md)
