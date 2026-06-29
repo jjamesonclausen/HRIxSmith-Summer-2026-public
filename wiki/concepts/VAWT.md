@@ -34,6 +34,7 @@ Inefficiencies:
 - Blades pass through their own wake, reducing efficiency. (source: sources/n2.md)
 - Dynamic stall from changing angle of attack causes losses. (source: sources/n2.md)
 - Drag-based designs suffer from returning blade opposing motion. (source: sources/n2.md)
+- Dynamic stall is especially important at low tip speed ratios, where vortex shedding and wake roll-up strongly affect loads and power. (source: sources/vj5.md)
 
 Deployment considerations:
 - Performance improves significantly in higher wind environments (e.g., tall buildings, bridges). (source: sources/n2.md)
@@ -43,6 +44,7 @@ Types of VAWTs:
 - [[Savonius Turbine]] (drag-based)
 - [[Hybrid VAWT]] (combination)
 - [[H-VAWT]] (H-type / H-rotor)
+- [[Dynamic Stall]]
 
 Related:
 - [[Lift vs Drag]]

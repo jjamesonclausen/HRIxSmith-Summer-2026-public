@@ -323,3 +323,38 @@ Decisions:
 
 Open:
 - None
+
+### 2026-06-29 — HRI2526 summary cleanup
+
+Task: Finish the HRI2526 ingest by tightening the summary and figure links.
+
+Actions:
+- Added the remaining HRI report figures to `summaries/HRI2526-summary.md`
+- Added the rooftop wind-data figure to `concepts/Urban Wind Conditions.md`
+- Added the 10 kWh/year and >5,000 year breakeven result to `concepts/Economic Viability of VAWTs.md`
+- Strengthened `concepts/Hybrid VAWT.md` with the report's selected-design context
+
+Decisions:
+- Kept the update focused on reusable wiki pages rather than creating new report-specific pages
+
+Open:
+- None
+
+### 2026-06-29 — Ingest torque_from_wind
+
+Task: Convert the new VAWT dynamic-stall PDF into a source markdown file and extract its figures.
+
+Actions:
+- Created `sources/vj5.md` from `sources/torque_from_wind.pdf`
+- Rendered the PDF figures into `images/vj5-fig*.jpg`
+- Created `summaries/vj5-summary.md`
+- Added `concepts/Dynamic Stall.md`
+- Updated `concepts/VAWT.md`, `concepts/Darrieus Turbine.md`, `methods/CFD.md`, and `wiki/index.md`
+
+Decisions:
+- Used the Julie `vj` naming sequence because the source was added by Julie
+- Kept dynamic stall as a new reusable concept instead of burying it inside VAWT or CFD
+- Folded the CFD/PIV comparison into the existing CFD method page
+
+Open:
+- None

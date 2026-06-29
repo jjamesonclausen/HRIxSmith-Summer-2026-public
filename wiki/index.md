@@ -27,6 +27,7 @@ Want to *understand* something here, not just look it up? Ask the agent to teach
 
 - [[n1-summary]]
 - [[va1-summary]]
+- [[vj5-summary]]
 - [[concepts/VAWT]]
 - [[concepts/Darrieus Turbine]]
 - [[concepts/Savonius Turbine]]
@@ -62,3 +63,4 @@ Want to *understand* something here, not just look it up? Ask the agent to teach
 - [[concepts/HAWT vs VAWT]]
 - [[concepts/H-VAWT]]
 - [[concepts/Atmospheric Turbulence]]
+- [[concepts/Dynamic Stall]]
