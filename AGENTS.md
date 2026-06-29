@@ -127,9 +127,10 @@ Automatically convert the paper PDF into a clean Markdown and add it to `sources
    - Example, the second source file added by Anna, about fluid mechanics: `fa2.md`  
 28. Place the file in `/sources`.  
 29. Add the converted Markdown content to that file. 
-30. Confirm that the `.md` file preserves the format, headings, and figure numbering as the original `.pdf` file.
-31. Do not modify unrelated files.
-32. Proceed to ingesting the source. See the rules below.
+30. Add a `#summaries` tag underneath the file title.
+31. Confirm that the `.md` file preserves the format, headings, and figure numbering as the original `.pdf` file.
+32. Do not modify unrelated files.
+33. Proceed to ingesting the source. See the rules below.
 
 So in summary when a source is added to `PDFs/` you take it turn it into an md preserving all text but fixing formatting and create images from the pdf and refence them in the new md file. Once this new md file is in `sources/` do not edit it unless told to directly. 
 After making the change, report:
@@ -145,12 +146,15 @@ When you have just converted a `.pdf` source into a `.md` file, automatically do
 3. Create a source summary page in `wiki/summaries/` named after the source, eg. `va2-summary.md` .
 4. Summarize the source at a high level on that page, using only what the source supports. 
 5. Extract key concepts and methods from the source. 
-6. For each concept or metho, update the existing wiki page if one already exists.
+6. For each concept or method, update the existing wiki page if one already exists.
 7. If no existing wiki page covers the concept or method, create a new page in the appropriate folder:
 	- `wiki/concepts/` for concepts and entities
 	- `wiki/methods/` for procedures and techniques
-8. If the source contradicts an existing wiki page, note the discrepancy on both pages but do not overwrite it anywhere.
-9. If there are any related figures add a Markdown image link to the wiki files (summary, concepts, and/or methods), for example:
+8. Add the appropriate tag to the top of the file:
+	- `#concepts` for concepts and entities
+	- `#methods` for procedures and techniques
+9. If the source contradicts an existing wiki page, note the discrepancy on both pages but do not overwrite it anywhere.
+10. If there are any related figures add a Markdown image link to the wiki files (summary, concepts, and/or methods), for example:
    - `![Figure 1: caption text](../images/va2-fig1.jpg)`
 10. Note contradictions with existing pages instead of silently overwriting.
 11. 10. Update `wiki/index.md` so it points to any new or changed wiki pages.
