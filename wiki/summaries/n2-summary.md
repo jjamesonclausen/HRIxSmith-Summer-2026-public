@@ -14,3 +14,5 @@ Additional insights:
 - Inefficiencies arise from wake interaction, dynamic stall, and negative torque. (source: sources/n2.md)
 - Higher wind environments (e.g., skyscrapers, bridges) significantly improve feasibility. (source: sources/n2.md)
 - CFD recommended as primary future optimization pathway. (source: sources/n2.md)
+
+#summaries

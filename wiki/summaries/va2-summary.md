@@ -20,3 +20,5 @@ Inference notes:
 - `Inference:` the surrogate model is the cheap evaluator, while MIGA is the search procedure that proposes candidates. (source: sources/va2.md)
 
 Related concepts: [[H-VAWT]], [[Kriging Surrogate Model]], [[CST Parameterization]], [[Multi-Island Genetic Algorithm]]
+
+#summaries

@@ -12,3 +12,5 @@ Overview of vertical-axis wind turbines (VAWTs), including comparisons with hori
 - Urban airflow is turbulent and complex, affecting turbine performance. (source: sources/n1.md)
 
 Related concepts: [[VAWT]], [[Darrieus Turbine]], [[Savonius Turbine]], [[CFD]]
+
+#summaries

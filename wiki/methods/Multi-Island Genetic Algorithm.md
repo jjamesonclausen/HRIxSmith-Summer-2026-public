@@ -10,3 +10,5 @@ A genetic algorithm variant that splits the population into multiple islands tha
 - The optimizer was coupled to a Kriging surrogate to reduce CFD evaluations. (source: sources/va2.md)
 
 Related: [[Kriging Surrogate Model]], [[CST Parameterization]], [[CFD]]
+
+#methods

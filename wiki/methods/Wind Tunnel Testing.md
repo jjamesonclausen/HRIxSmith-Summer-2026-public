@@ -23,3 +23,5 @@ Related:
 - [[Wind Turbine Parameters]]
 - [[Urban Wind Conditions]]
 - [[CFD]]
+
+#methods

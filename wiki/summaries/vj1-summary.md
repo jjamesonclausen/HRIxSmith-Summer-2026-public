@@ -23,3 +23,5 @@ Tradeoffs:
 Cost insights:
 - Cost depends on energy output (CP), manufacturing, installation, and maintenance (source: sources/vj1.md)
 - VAWTs may be cost-competitive if scaled and optimized (source: sources/vj1.md)
+
+#summaries

@@ -13,3 +13,5 @@ Key points:
 - Aluminum is common but suffers from poor fatigue properties under cyclic loading. (source: sources/vj7.md)
 - Wood, aluminum, and fiberglass composites are the main material families discussed. (source: sources/vj7.md)
 - The paper concludes that pultruded FRP is a strong alternative to aluminum for SB-VAWT blades. (source: sources/vj7.md)
+
+#summaries

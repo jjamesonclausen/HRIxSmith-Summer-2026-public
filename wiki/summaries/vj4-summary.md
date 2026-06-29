@@ -23,3 +23,5 @@ See also:
 - [[concepts/Darrieus Turbine]]
 - [[concepts/H-VAWT]]
 - [[methods/Blade Element-Momentum Model]]
+
+#summaries

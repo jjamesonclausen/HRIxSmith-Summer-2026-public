@@ -10,3 +10,5 @@ A surrogate modeling method used to approximate expensive objective functions wi
 - The surrogate reduces direct CFD calls during airfoil optimization. (source: sources/va2.md)
 
 Related: [[CST Parameterization]], [[Multi-Island Genetic Algorithm]], [[CFD]]
+
+#methods

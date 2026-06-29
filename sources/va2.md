@@ -1,3 +1,4 @@
+#sources
 # Airfoil Optimization Design of Vertical-Axis Wind Turbine Based on Kriging Surrogate Model and MIGA
 
 Quan Wang 1,2,* and Zhaogang Zhang 1,2

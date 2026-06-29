@@ -10,3 +10,5 @@ Class/Shape Transformation (CST) is a geometry representation method for definin
 - Leading-edge radius, thickness, and trailing-edge thickness are controlled through selected coefficients. (source: sources/va2.md)
 
 Related: [[H-VAWT]], [[Kriging Surrogate Model]], [[Multi-Island Genetic Algorithm]]
+
+#methods

@@ -12,3 +12,5 @@ Summary of `sources/va6.md`. (source: sources/va6.md)
 ![Figure 4: peak efficiencies](../../images/va6-fig4.jpg)
 
 Related concepts: [[HAWT vs VAWT]], [[VAWT]], [[Wind Turbine Parameters]]
+
+#summaries

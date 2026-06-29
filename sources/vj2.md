@@ -1,3 +1,4 @@
+#sources
 # ANALYSIS AND OPTIMIZATION OF A SAVONIUS-DARRIEUS HYBRID WIND TURBINE
 
 Edmond Maican, Liliana Dumitrescu, Radu Radoi, Oleg Ciobanu, Dragos Preda

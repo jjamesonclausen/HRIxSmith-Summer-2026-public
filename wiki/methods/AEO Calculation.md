@@ -12,3 +12,5 @@ Method for estimating the annual energy output (AEO) of a wind turbine using win
 > Inference: Accuracy depends heavily on quality of wind data and validity of the turbine power curve.
 
 Related: [[methods/Bin Method]], [[concepts/Annual Energy Output]]
+
+#methods

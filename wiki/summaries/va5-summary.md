@@ -13,3 +13,5 @@ Summary of `sources/va5.md`. (source: sources/va5.md)
 ![Figure 5-8: CAD design, assembly, turbine specifications, and observation table](../../images/va5-fig4.jpg)
 
 Related concepts: [[J-Type VAWT]], [[VAWT]], [[Savonius Turbine]], [[Wind Turbine Parameters]]
+
+#summaries

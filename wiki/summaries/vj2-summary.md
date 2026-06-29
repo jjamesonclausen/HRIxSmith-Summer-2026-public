@@ -14,3 +14,5 @@ Key points:
 Method and result notes:
 - Uses SolidWorks Flow Simulation on a 3D domain with mesh refinement. (source: sources/vj2.md)
 - Concludes that both shaft removal and moving the Savonius rotor outside the Darrieus rotor improve torque. (source: sources/vj2.md)
+
+#summaries

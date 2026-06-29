@@ -20,3 +20,5 @@ Findings:
 - LES improved vorticity prediction but triggered wake roll-up too early. (source: sources/vj5.md)
 - DES best reproduced experimental vortex location and wake phase. (source: sources/vj5.md)
 - Recommended future work on turbulence sub-models, wall treatment, and airfoil-shape effects. (source: sources/vj5.md)
+
+#summaries

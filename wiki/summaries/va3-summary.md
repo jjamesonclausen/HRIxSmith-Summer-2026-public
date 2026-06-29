@@ -18,3 +18,5 @@ Figures:
 - Figure 26: ![Figure 26: Helical wind turbine with generator at its base](../../images/va3-fig24.jpg)
 
 Related concepts: [[VAWT]], [[Darrieus Turbine]], [[Savonius Turbine]], [[H-VAWT]], [[Hybrid VAWT]], [[HAWT vs VAWT]]
+
+#summaries

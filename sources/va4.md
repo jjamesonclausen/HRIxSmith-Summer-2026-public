@@ -1,3 +1,4 @@
+#sources
 # Aerodynamic Analysis of a Helical Vertical Axis Wind Turbine
 
 Qian Cheng, Xiaolan Liu, Ho Seong Ji, Kyung Chun Kim, and Bo Yang
@@ -125,7 +126,34 @@ Figure 18: pressure distribution in the inner blade surface at 120 degrees.
 Figure 19: wake-vortex diffusion at TSR 2.3.
 ![Figure 19: wake-vortex diffusion at TSR 2.3](../images/va4-fig19.jpg)
 
-> Note: additional extracted panel crops from composite figures are saved as `images/va4-fig20.jpg` through `images/va4-fig42.jpg`.
+### Additional Extracted Crops
+
+These extracted image assets are kept here so every crop from the PDF is linked in the source file.
+
+![Extracted crop 20](../images/va4-fig20.jpg)
+![Extracted crop 21](../images/va4-fig21.jpg)
+![Extracted crop 22](../images/va4-fig22.jpg)
+![Extracted crop 23](../images/va4-fig23.jpg)
+![Extracted crop 24](../images/va4-fig24.jpg)
+![Extracted crop 25](../images/va4-fig25.jpg)
+![Extracted crop 26](../images/va4-fig26.jpg)
+![Extracted crop 27](../images/va4-fig27.jpg)
+![Extracted crop 28](../images/va4-fig28.jpg)
+![Extracted crop 29](../images/va4-fig29.jpg)
+![Extracted crop 30](../images/va4-fig30.jpg)
+![Extracted crop 31](../images/va4-fig31.jpg)
+![Extracted crop 32](../images/va4-fig32.jpg)
+![Extracted crop 33](../images/va4-fig33.jpg)
+![Extracted crop 34](../images/va4-fig34.jpg)
+![Extracted crop 35](../images/va4-fig35.jpg)
+![Extracted crop 36](../images/va4-fig36.jpg)
+![Extracted crop 37](../images/va4-fig37.jpg)
+![Extracted crop 38](../images/va4-fig38.jpg)
+![Extracted crop 39](../images/va4-fig39.jpg)
+![Extracted crop 40](../images/va4-fig40.jpg)
+![Extracted crop 41](../images/va4-fig41.jpg)
+
+> Unverified: `va4-fig41.jpg` could not be previewed cleanly in-tool, but the file is present and linked here.
 
 ## 5. Discussion
 The 3D U-RANS model still differs from experiment, so the paper recommends higher-fidelity 3D LES in future work. At higher TSR, the flow behaves more like a rotating cylinder with a wake-vortex shedding pattern.

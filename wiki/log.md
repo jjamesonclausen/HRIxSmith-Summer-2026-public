@@ -609,3 +609,19 @@ Decisions:
 
 Open:
 - None
+
+### 2026-06-29 — Rework va4 image extraction
+
+Task: Re-do the `va4.md` image extraction so the source file explicitly links every extracted crop.
+
+Actions:
+- Replaced the vague `va4-fig20.jpg` through `va4-fig42.jpg` note in `sources/va4.md`
+- Added explicit Markdown image links for every extracted crop currently present, `va4-fig20.jpg` through `va4-fig41.jpg`
+- Marked `va4-fig41.jpg` as preview-unverified because the in-tool image preview could not render it cleanly
+
+Decisions:
+- Kept the existing figure captions intact and only changed the extraction block below Figure 19
+- Used a generic crop label for the extra assets because their one-to-one figure mapping is not cleanly recoverable from the cropped files alone
+
+Open:
+- Verify whether `va4-fig41.jpg` should be renamed or re-extracted if the original PDF becomes available again

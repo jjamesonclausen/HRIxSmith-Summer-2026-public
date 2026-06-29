@@ -16,3 +16,5 @@ Figures:
 - ![Figure 2: Power Curve Variability with Turbulence Intensity](../../images/vj3-fig2.jpg)
 
 Related concepts: [[Atmospheric Turbulence]], [[Urban Wind Conditions]], [[HAWT vs VAWT]]
+
+#summaries

@@ -15,3 +15,5 @@ Key points:
 - 2-D CFD is useful for early study but tends to over-predict Darrieus performance; 3-D models capture tip losses and secondary flow better. (source: sources/vj6.md)
 - Validation against experiments, especially wind tunnel and PIV data, is treated as essential. (source: sources/vj6.md)
 - CFD is positioned as the detailed but expensive option between analytical models and physical testing. (source: sources/vj6.md)
+
+#summaries

@@ -14,3 +14,5 @@ Related:
 - [[Darrieus Turbine]]
 - [[H-VAWT]]
 - [[Wind Turbine Parameters]]
+
+#methods

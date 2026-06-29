@@ -14,3 +14,5 @@ Summary of `sources/va4.md`. (source: sources/va4.md)
 ![Figure 14: 2D LES versus 3D U-RANS power coefficient](../../images/va4-fig14.jpg)
 
 Related concepts: [[Helical VAWT]], [[VAWT]], [[Darrieus Turbine]], [[Dynamic Stall]], [[CFD]]
+
+#summaries

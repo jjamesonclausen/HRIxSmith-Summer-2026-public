@@ -9,3 +9,5 @@ Comparison of lift-driven and drag-driven VAWTs for low-wind urban environments,
 - CFD and better site-specific wind data are important for accurate predictions. (source: sources/va1.md)
 
 Related concepts: [[VAWT]], [[Annual Energy Output]], [[Lift vs Drag]]
+
+#summaries

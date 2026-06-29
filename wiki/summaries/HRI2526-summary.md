@@ -34,3 +34,5 @@ Recommendations:
 - Improve testing setup. (source: sources/HRI2526.md)
 - Explore higher wind environments. (source: sources/HRI2526.md)
 - Develop higher-fidelity CFD toward a digital twin. (source: sources/HRI2526.md)
+
+#summaries
