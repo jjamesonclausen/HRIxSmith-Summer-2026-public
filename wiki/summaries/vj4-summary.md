@@ -4,6 +4,9 @@ Summary of `sources/vj4.md`. (source: sources/vj4.md)
 
 This paper compares small VAWT blade architectures using a BE-M load predictor and experimental validation. (source: sources/vj4.md)
 
+![Figure 1: Possible variants of Darrieus VAWT](../../images/vj4-fig1.jpg)
+![Figure 6: Power coefficient CP curves at different TSRs](../../images/vj4-fig6.jpg)
+
 Key points:
 - Compares two- vs three-bladed rotors, symmetrical vs cambered airfoils, and straight vs helical blade layouts. (source: sources/vj4.md)
 - Validates the BE-M predictor against Sandia Darrieus data and tangential force measurements. (source: sources/vj4.md)
