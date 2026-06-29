@@ -103,15 +103,17 @@ To handle figures:
 14. In the converted `.md` file, keep the original figure caption text.
 15. Immediately below or near each caption, add a Markdown image link to the extracted file, for example:
    - `![Figure 1: caption text](../images/va2-fig1.jpg)`
-16. Do not omit figure captions.
-17. Do not invent missing figure content.
-18. If a figure cannot be extracted cleanly, note that clearly in the Markdown source with `[unreadable]` or `> Unverified:`.
-19. Preserve the paper’s structure and keep figure numbering consistent with the original PDF.
+16. The converted `.md` file must include a Markdown image link for every extracted figure.
+17. Do not omit figure captions.
+18. Do not invent missing figure content.
+19. If a figure cannot be extracted cleanly, note that clearly in the Markdown source with `[unreadable]` or `> Unverified:`.
+20. Preserve the paper’s structure and keep figure numbering consistent with the original PDF.
+21. If figure extraction is not possible with the available tools, stop and ask the human before finishing.
 
 Repository instructions:
 
-20. Create a new Markdown file for the paper.  
-21. Name the file according to its content and who uploaded it. If the paper is about vertical axis wind turbines (VAWTs) it should be named 'v(initial)#.md' where the initial is 'a' or 'j' depending on if Anna or Julie added the file and the number increases by one for each file that person adds. If the source is about fluid mechanics and is not directly related to VAWTs, it should be named 'f(initial)#.md'. Reserve f* only for sources about fluid mechanics with no wind-turbine/wind-energy application. v* for any source about wind turbines. if uncertain about catigorization ask before naming instead of inferring
+22. Create a new Markdown file for the paper.  
+23. Name the file according to its content and who uploaded it. If the paper is about vertical axis wind turbines (VAWTs) it should be named 'v(initial)#.md' where the initial is 'a' or 'j' depending on if Anna or Julie added the file and the number increases by one for each file that person adds. If the source is about fluid mechanics and is not directly related to VAWTs, it should be named 'f(initial)#.md'. Reserve f* only for sources about fluid mechanics with no wind-turbine/wind-energy application. v* for any source about wind turbines. if uncertain about categorization ask before naming instead of inferring
    - Example, the second source file added by Anna, about fluid mechanics: `fa2.md`  
 20. Confirm that the `.md` file preserves the format, headings, and figure numbering as the original `.pdf` file.
 21. Place the file in `/sources`.  
@@ -133,9 +135,10 @@ When a new file appears in `sources/` or when you have just converted a `.pdf` s
    - `![Figure 1: caption text](../images/va2-fig1.jpg)`
 4. Note contradictions with existing pages instead of silently overwriting.
 5. Sort all wiki pages into the appropriate folders. Source summaries should go to `summaries/`. New concepts should go to `concepts/`. Wiki pages that explain a procedure or technique should go to `methods/` 
-6. Update `wiki/index.md` and append a `wiki/log.md` entry.
-7. After ingesting a new source update concept pages with new information and note any discrepancies between sources first before creating a new page. Do not create a new concept page if one already exists for the same concept.
-8. After ingesting a new source, prompt the human to engage with the material via one of the learning methods: ask them to explain it back, run a Socratic dialogue (questions that lead them to the answer, one at a time), quiz them (hardest last), have them attempt first and then find their error, or steelman both sides of a question.  
+6. If there are figures, make sure they are linked to the wiki pages where they are relevant. Do NOT mark the ingest complete until figure extraction and linking are done.
+7. Update `wiki/index.md` and append a `wiki/log.md` entry.
+8. After ingesting a new source update concept pages with new information and note any discrepancies between sources first before creating a new page. Do not create a new concept page if one already exists for the same concept.
+9. After ingesting a new source, prompt the human to engage with the material via one of the learning methods: ask them to explain it back, run a Socratic dialogue (questions that lead them to the answer, one at a time), quiz them (hardest last), have them attempt first and then find their error, or steelman both sides of a question.  
 
 
 ## The evaluation loop
