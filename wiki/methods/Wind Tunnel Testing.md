@@ -2,7 +2,7 @@
 
 Experimental method used to evaluate turbine performance at small scale. (source: sources/HRI2526.md)
 
-![Figure 12: Wind Tunnel Testing Setup](../images/hri2526-fig12.jpg)
+![Figure 12: Wind Tunnel Testing Setup](../../images/hri2526-fig12.jpg)
 
 Setup:
 - Small-scale 3D printed turbines mounted on a vertical rod with bearings. (source: sources/HRI2526.md)

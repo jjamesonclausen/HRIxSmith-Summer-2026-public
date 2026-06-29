@@ -15,6 +15,17 @@ Key metrics used to evaluate wind turbine performance. (source: sources/HRI2526.
 - Betz limit: theoretical maximum power coefficient (~0.59). (source: sources/vj1.md)
 - Solidity: ratio of blade area to swept area; influences performance and structural tradeoffs. (source: sources/vj1.md)
 - The CFD review repeatedly uses power coefficient, torque, flow separation, and wake dynamics as the main performance indicators for VAWT studies. (source: sources/vj6.md)
+- The helical VAWT case found peak power coefficient near TSR 1.8 and used power fluctuation as a stability metric. (source: sources/va4.md)
+- The rooftop J-type design in va5 targets 35 W output, 3 m/s cut-in speed, and 6.67 m/s rated speed. (source: sources/va5.md)
+- The comparison paper reports peak efficiencies of 50% for a three-blade HAWT and 40% for a Darrieus VAWT, with tip-speed ratios of 14.3 and 5.1 respectively. (source: sources/va6.md)
+- It also reports power coefficients around 0.5 for HAWTs and 0.4 for VAWTs. (source: sources/va6.md)
+
+## Figures
+
+![Figure 6: power coefficient versus TSR at Re = 60,800](../../images/va4-fig6.jpg)
+![Figure 6: power versus wind speed](../../images/va6-fig6.jpg)
+![Figure 4: peak efficiencies](../../images/va6-fig4.jpg)
+![Figure 5-8: CAD design, assembly, turbine specifications, and observation table](../../images/va5-fig4.jpg)
 
 These parameters are often visualized using a power curve, which relates wind speed to power output. (source: sources/HRI2526.md)
 

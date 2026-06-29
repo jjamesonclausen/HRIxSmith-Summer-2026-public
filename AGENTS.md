@@ -102,13 +102,15 @@ To handle figures:
    - `va2-fig3a.jpg` for subfigures when needed
 14. In the converted `.md` file, keep the original figure caption text.
 15. Immediately below or near each caption, add a Markdown image link to the extracted file, for example:
-   - `![Figure 1: caption text](../images/va2-fig1.jpg)`
+    - `![Figure 1: caption text](../images/va2-fig1.jpg)`
 16. The converted `.md` file must include a Markdown image link for every extracted figure.
 17. Do not omit figure captions.
 18. Do not invent missing figure content.
 19. If a figure cannot be extracted cleanly, note that clearly in the Markdown source with `[unreadable]` or `> Unverified:`.
 20. Preserve the paper’s structure and keep figure numbering consistent with the original PDF.
 21. If figure extraction is not possible with the available tools, stop and ask the human before finishing.
+22. Use the correct relative path from the file’s own folder: `sources/*.md` links figures with `../images/...`, while `wiki/*/*.md` links figures with `../../images/...`.
+23. Before adding a figure link, verify the path from the file location, not from the repo root.
 
 Repository instructions:
 

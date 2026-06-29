@@ -2,7 +2,7 @@
 
 Numerical method for simulating fluid flow by dividing the domain into discrete cells. (source: sources/n1.md, sources/va1.md)
 
-![Figure 17: CFD Flow volume with stationary and rotating domains](../images/hri2526-fig17.jpg)
+![Figure 17: CFD Flow volume with stationary and rotating domains](../../images/hri2526-fig17.jpg)
 
 - Used to model wind flow and turbine performance. (source: sources/n1.md)
 - Requires careful setup, boundary conditions, and mesh quality. (source: sources/n1.md)
@@ -15,3 +15,10 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 - A later review organized VAWT CFD around problem definition, meshing, equation discretisation, boundary conditions, numerical solution, and post-processing. (source: sources/vj6.md)
 - That review also emphasized static/dynamic meshing, turbulence-model choice, near-wall resolution, and experimental validation. (source: sources/vj6.md)
 - It framed CFD as the detailed middle ground between lower-fidelity models and wind-tunnel experiments. (source: sources/vj6.md)
+- The helical-VAWT study used 2D LES for blade-scale flow and 3D U-RANS with SST k-omega for the full rotor. (source: sources/va4.md)
+- It found that 3D effects such as tip vortex and second flow reduce performance relative to 2D predictions. (source: sources/va4.md)
+
+## Figures
+
+![Figure 11: streamlines showing wake-vortex interaction](../../images/va4-fig11.jpg)
+![Figure 14: 2D LES versus 3D U-RANS power coefficient](../../images/va4-fig14.jpg)

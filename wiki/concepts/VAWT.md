@@ -30,6 +30,12 @@ Performance context:
 - Potential efficiency comparable to HAWTs, but historically less optimized due to lower investment. (source: sources/vj1.md)
 - H-type airfoil optimization with CST, Kriging, and MIGA improved Cp by 14.2% at TSR > 1.5 and average efficiency by 9.8%. (source: sources/va2.md)
 
+## Figures
+
+![Figure 1: configurations for shaft and rotor orientation](../../images/va5-fig1.jpg)
+![Figure 1: VAWT and HAWT parts](../../images/va6-fig1.jpg)
+![Figure 4: peak efficiencies](../../images/va6-fig4.jpg)
+
 Inefficiencies:
 - Blades pass through their own wake, reducing efficiency. (source: sources/n2.md)
 - Dynamic stall from changing angle of attack causes losses. (source: sources/n2.md)
@@ -39,6 +45,8 @@ Inefficiencies:
 - The same review notes that 2-D CFD often over-predicts Darrieus performance, while 3-D models better capture tip losses and secondary flow. (source: sources/vj6.md)
 - The review treats power coefficient, torque, flow separation, and wake dynamics as key CFD outputs for VAWT analysis. (source: sources/vj6.md)
 - Straight-bladed VAWT blade material matters because fatigue resistance, stiffness, density, and corrosion resistance affect lifetime and cost. (source: sources/vj7.md)
+- Helical VAWTs can smooth power output because blade phases are spread across the rotation. (source: sources/va4.md)
+- Small J-type drag VAWTs can be designed for rooftop electrification and low-cost domestic loads. (source: sources/va5.md)
 
 Deployment considerations:
 - Performance improves significantly in higher wind environments (e.g., tall buildings, bridges). (source: sources/n2.md)
@@ -48,6 +56,8 @@ Types of VAWTs:
 - [[Savonius Turbine]] (drag-based)
 - [[Hybrid VAWT]] (combination)
 - [[H-VAWT]] (H-type / H-rotor)
+- [[Helical VAWT]]
+- [[J-Type VAWT]]
 - [[Dynamic Stall]]
 
 Related:

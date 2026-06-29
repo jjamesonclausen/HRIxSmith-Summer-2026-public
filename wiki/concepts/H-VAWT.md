@@ -2,7 +2,7 @@
 
 Vertical-axis wind turbine with straight blades arranged around the rotor, often used as a benchmark for aerodynamic modeling and optimization. (source: sources/va2.md)
 
-![Figure 1: Schematic of VAWT blade forces at different azimuthal angles](../images/va2-fig1.jpg)
+![Figure 1: Schematic of VAWT blade forces at different azimuthal angles](../../images/va2-fig1.jpg)
 
 - The paper validates an H-VAWT CFD model against the Musgrove wind-tunnel experiment. (source: sources/va2.md)
 - The study uses a NACA0015 baseline airfoil and evaluates performance across tip-speed ratios. (source: sources/va2.md)

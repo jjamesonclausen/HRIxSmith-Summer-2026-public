@@ -425,3 +425,127 @@ Decisions:
 
 Open:
 - None
+
+### 2026-06-29 — Ingest va4.md
+
+Task: Convert the helical VAWT CFD paper into Markdown and ingest it.
+
+Actions:
+- Created `sources/va4.md`
+- Created `wiki/summaries/va4-summary.md`
+- Added `wiki/concepts/Helical VAWT.md`
+- Updated `wiki/concepts/VAWT.md`, `wiki/concepts/Darrieus Turbine.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/methods/CFD.md`, and `wiki/index.md`
+
+Decisions:
+- Kept the helical rotor as its own concept because it is distinct from the existing H-VAWT page
+- Folded the solver and flow-mechanism details into the existing CFD method page instead of creating new method pages
+
+Open:
+- Figure images were not extracted in this workspace, so the source file contains figure captions without image links
+
+### 2026-06-29 — Ingest va5.md
+
+Task: Convert the rooftop J-type VAWT design paper into Markdown and ingest it.
+
+Actions:
+- Created `sources/va5.md`
+- Created `wiki/summaries/va5-summary.md`
+- Added `wiki/concepts/J-Type VAWT.md`
+- Updated `wiki/concepts/VAWT.md`, `wiki/concepts/Savonius Turbine.md`, `wiki/concepts/Wind Turbine Parameters.md`, and `wiki/index.md`
+
+Decisions:
+- Kept the J-type rotor as its own concept because it is a distinct low-cost drag design
+- Merged the design targets into the Wind Turbine Parameters page as a concrete example
+
+Open:
+- Figure images were not extracted in this workspace
+
+### 2026-06-29 — Ingest va6.md
+
+Task: Convert the HAWT/VAWT comparison paper into Markdown and ingest it.
+
+Actions:
+- Created `sources/va6.md`
+- Created `wiki/summaries/va6-summary.md`
+- Updated `wiki/concepts/HAWT vs VAWT.md`, `wiki/concepts/Wind Turbine Parameters.md`, and `wiki/index.md`
+
+Decisions:
+- Kept the comparison content in the existing HAWT vs VAWT page instead of creating a new comparison page
+- Folded the paper's example performance numbers into Wind Turbine Parameters as reference values
+
+Open:
+- Figure images were not extracted in this workspace
+
+### 2026-06-29 — Extract va4 va5 va6 figures
+
+Task: Extract the figure images for `va4.md`, `va5.md`, and `va6.md` and wire them into the source markdowns.
+
+Actions:
+- Used the existing temp `pdfextract` tool to render image crops from the three PDFs
+- Copied the extracted crops into `images/` as `va4-fig*.jpg`, `va5-fig*.jpg`, and `va6-fig*.jpg`
+- Updated `sources/va4.md`, `sources/va5.md`, and `sources/va6.md` to reference the extracted images
+
+Decisions:
+- Kept the sequential numbering from extraction order for the saved image files
+- Left a short note in each source file for additional composite-panel crops
+
+Open:
+- None
+
+### 2026-06-29 — Link va4 va5 va6 figures in wiki
+
+Task: Link the extracted `va4`, `va5`, and `va6` figures into the relevant wiki pages.
+
+Actions:
+- Added figure sections to `wiki/summaries/va4-summary.md`, `wiki/summaries/va5-summary.md`, and `wiki/summaries/va6-summary.md`
+- Added figure sections to `wiki/concepts/Helical VAWT.md`, `wiki/concepts/J-Type VAWT.md`, and `wiki/concepts/HAWT vs VAWT.md`
+
+Decisions:
+- Linked representative figures on the summary and concept pages rather than duplicating every crop across the wiki
+
+Open:
+- None
+
+### 2026-06-29 — Expand figure links
+
+Task: Add figure links to the broader wiki pages where the captions and content are directly useful, while keeping the source markdown figure blocks intact.
+
+Actions:
+- Added `va4`, `va5`, and `va6` figures to `wiki/concepts/VAWT.md`
+- Added `va4`, `va5`, and `va6` figures to `wiki/concepts/Wind Turbine Parameters.md`
+- Added `va4` figures to `wiki/methods/CFD.md`
+- Added more `va5` and `va6` figures to `wiki/concepts/J-Type VAWT.md` and `wiki/concepts/HAWT vs VAWT.md`
+
+Decisions:
+- Preferred pages where the figure captions clarify the written claims instead of duplicating every figure everywhere
+
+Open:
+- The source markdown still includes a note for extra composite crops that do not have clean standalone captions
+
+### 2026-06-29 — Fix wiki image paths
+
+Task: Fix broken image links in wiki notes where Obsidian was resolving `../images/...` against `wiki/` instead of the repo root `images/` folder.
+
+Actions:
+- Updated image links in `wiki/concepts/`, `wiki/summaries/`, and `wiki/methods/` from `../images/...` to `../../images/...`
+- Confirmed `sources/*.md` image links were already correct and left them unchanged
+
+Decisions:
+- Kept the source markdown relative paths as-is because they already point correctly from `sources/` to the root `images/` directory
+
+Open:
+- None
+
+### 2026-06-29 — Tighten AGENTS figure-path rule
+
+Task: Update `AGENTS.md` so future wiki figure links use the correct relative path from the file location.
+
+Actions:
+- Added an explicit rule for `sources/*.md` vs `wiki/*/*.md` image paths
+- Added a requirement to verify image paths from the file’s own folder before adding links
+
+Decisions:
+- Kept the rule minimal and specific to the path-depth bug that caused the broken Obsidian links
+
+Open:
+- None
