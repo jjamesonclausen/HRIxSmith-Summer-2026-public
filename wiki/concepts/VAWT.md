@@ -47,6 +47,7 @@ Inefficiencies:
 - Straight-bladed VAWT blade material matters because fatigue resistance, stiffness, density, and corrosion resistance affect lifetime and cost. (source: sources/vj7.md)
 - Helical VAWTs can smooth power output because blade phases are spread across the rotation. (source: sources/va4.md)
 - Small J-type drag VAWTs can be designed for rooftop electrification and low-cost domestic loads. (source: sources/va5.md)
+- A contra-rotating VAWT can improve stability and wind-energy recovery, but the paper reports lower pre-optimization Cp than an isolated VAWT. (source: sources/vj8.md)
 
 Deployment considerations:
 - Performance improves significantly in higher wind environments (e.g., tall buildings, bridges). (source: sources/n2.md)

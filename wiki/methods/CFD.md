@@ -22,3 +22,4 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 
 ![Figure 11: streamlines showing wake-vortex interaction](../../images/va4-fig11.jpg)
 ![Figure 14: 2D LES versus 3D U-RANS power coefficient](../../images/va4-fig14.jpg)
+- The CRVAWT optimization paper used STAR-CCM+ CFD, validated an isolated VAWT against wind-tunnel data, and then used the simulation outputs in a response-surface optimization workflow. (source: sources/vj8.md)

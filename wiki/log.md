@@ -257,6 +257,66 @@ Decisions:
 Open:
 - The OCR source is rough in places, but the main technical claims and figures are captured
 
+### 2026-06-29 — Ingest vj8.md
+
+Task: Convert the contra-rotating VAWT optimization paper into Markdown and ingest it.
+
+Actions:
+- Created `sources/vj8.md` from the rendered PDF/OCR text
+- Extracted `images/vj8-fig1.jpg` through `images/vj8-fig20.jpg`
+- Created `wiki/summaries/vj8-summary.md`
+- Updated `wiki/methods/CFD.md`, `wiki/concepts/VAWT.md`, and `wiki/index.md`
+
+Decisions:
+- Kept the source as `vj8.md` because it is another Julie VAWT source
+- Folded the optimization workflow into existing CFD and VAWT pages rather than creating a duplicate concept page
+
+Open:
+- The OCR source is usable but still rough in a few figure captions and section sentences
+
+### 2026-06-29 — Rewrite vj8 source raw
+
+Task: Replace the paraphrased `sources/vj8.md` with a raw OCR-backed source file.
+
+Actions:
+- Rewrote `sources/vj8.md` from the OCR transcript without paraphrasing the paper text
+- Kept figure links only as inserted markdown references
+
+Decisions:
+- Followed the user's instruction to avoid editing source text when creating source markdown
+
+Open:
+- None
+
+### 2026-06-29 — Clean vj8 formatting
+
+Task: Remove header/footer noise and obvious OCR fragments from `sources/vj8.md` without changing the source content.
+
+Actions:
+- Removed repeated journal headers, page markers, and standalone numeric artifacts
+- Dropped obvious short OCR noise lines from the intro figure block
+- Kept the paper text and figure captions intact
+
+Decisions:
+- Applied formatting-only cleanup, no paraphrase or content rewrite
+
+Open:
+- A few OCR typos remain in the paper text because they are part of the source transcription
+
+### 2026-06-29 — Fix vj8 title block
+
+Task: Restore the paper title and clean the author block in `sources/vj8.md`.
+
+Actions:
+- Restored the title as a top-level Markdown heading
+- Kept a single formatted author block under it
+
+Decisions:
+- Formatting only; no content rewrite
+
+Open:
+- None
+
 ### 2026-06-26 — Extract vj2 and HRI figures
 
 Task: Rename existing `va2` figure files to the AGENTS naming scheme and extract figures from the new `vj2` and `HRI2526` PDFs.
