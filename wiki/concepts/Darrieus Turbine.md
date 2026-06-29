@@ -28,3 +28,5 @@ Related:
 - [[Hybrid VAWT]]
 - [[Wind Turbine Parameters]]
 - [[Dynamic Stall]]
+
+#concepts 

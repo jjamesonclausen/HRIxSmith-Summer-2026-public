@@ -22,3 +22,5 @@ Related:
 - [[VAWT]]
 - [[Darrieus Turbine]]
 - [[Savonius Turbine]]
+
+#concepts 

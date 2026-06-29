@@ -27,3 +27,5 @@ Related:
 - [[Darrieus Turbine]]
 - [[Savonius Turbine]]
 - [[Hybrid VAWT]]
+
+#concepts 

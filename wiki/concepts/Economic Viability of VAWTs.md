@@ -25,3 +25,5 @@ Related:
 - [[VAWT]]
 - [[Urban Wind Conditions]]
 - [[Wind Turbine Parameters]]
+
+#concepts 

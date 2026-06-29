@@ -16,3 +16,5 @@ Related:
 - [[Wind Tunnel Testing]]
 - [[CFD]]
 - [[Wind Turbine Parameters]]
+
+#concepts 

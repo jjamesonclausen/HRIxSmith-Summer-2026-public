@@ -28,3 +28,5 @@ Related:
 - [[Urban Wind Conditions]]
 - [[HAWT vs VAWT]]
 - [[VAWT]]
+
+#concepts 

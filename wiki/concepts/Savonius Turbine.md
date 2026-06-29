@@ -28,3 +28,5 @@ Related:
 - [[Darrieus Turbine]]
 - [[Hybrid VAWT]]
 - [[Wind Turbine Parameters]]
+
+#concepts 

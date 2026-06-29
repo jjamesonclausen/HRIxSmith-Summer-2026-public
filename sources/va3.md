@@ -1,4 +1,4 @@
-﻿# Vertical Axis Wind Turbines
+# Vertical Axis Wind Turbines
 
 > Source: C:\Users\annaf\OneDrive\Documents\Obsidian Vault\Intro-to-Applied-AI-Engineering\sources\Vertical_Axis_Wind_Turbines.pdf
 
