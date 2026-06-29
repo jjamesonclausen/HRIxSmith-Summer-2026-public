@@ -67,7 +67,7 @@ Watch for these in yourself and name them when they happen:
 End substantive answers with what is **uncertain** and what to **check or ask next**.
 
 ## Converting a pdf source to Markdown
-When a new pdf file appears in `pdfs/`:
+When a new pdf file appears in `PDFs/`:
 Automatically convert the paper PDF into a clean Markdown and add it to `sources/` as a `.md` file.
 
 1. Read the PDF.  
@@ -117,8 +117,7 @@ Repository instructions:
 21. Place the file in `/sources`.  
 22. Add the converted Markdown content to that file.   
 23. Do not modify unrelated files.
-24. Delete the PDF file when you are finished.
-25. Proceed to ingesting the source. See the rules below.
+24. Proceed to ingesting the source. See the rules below.
 
 After making the change, report:
 
