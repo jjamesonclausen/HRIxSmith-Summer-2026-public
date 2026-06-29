@@ -23,7 +23,7 @@ workshop/  Teaching content. Reference it; do not rewrite it unless asked.
 
 ## Wiki conventions
 
-- One page per concept, entity, or decision. include detail while maintain clairty and organization. 
+- One page per concept, entity, or decision. include detail while maintain clarity and organization. 
 - Every claim on a wiki page names the source file it came from: `(source: sources/spec-v2.md)`.
 - If something is not supported by a source, mark it clearly: `> Unverified:` or `> Inference:`.
 - Link related pages with relative Markdown links. Update `wiki/index.md` whenever you add a page.
@@ -68,7 +68,7 @@ End substantive answers with what is **uncertain** and what to **check or ask ne
 
 ## Converting a pdf source to Markdown
 When a new pdf file appears in `sources/`:
-Convert the paper PDF into clean Markdown and add it to /sources as a `.md` file.
+Automatically convert the paper PDF into a clean Markdown and add it to /sources as a `.md` file.
 
 1. Read the PDF.  
 2. Convert the full paper into Markdown.  
@@ -119,7 +119,6 @@ Repository instructions:
 6. Delete the PDF file when you are finished.
 7. Proceed to ingesting the source. See the rules below.
 
-
 After making the change, report:
 
 - The path of the new `.md` file  
@@ -128,7 +127,7 @@ After making the change, report:
 
 ## Ingesting a source
 
-When a new file appears in `sources/`:
+When a new file appears in `sources/` or when you have just converted a pdf source into a .md file, automatically do the following:
 1. Read it fully, and be sure to look at any figures that may have been extracted to images/. Summarize the source on its own wiki and label the new summary 'source-summary.md' This should be a high level review of the content of that source. It doesn't matter if the content is repeated in other locations. 
 2. Extract entities/concepts; create or update their pages, with source citations. These should have clear names that differentiate them from other concepts. Include references to other relevant wiki pages. Concept pages should combine information across sources when available.
 3. If there are relevant figures add a Markdown image link to the wiki files (summary, concepts, and/or methods), for example:
