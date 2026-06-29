@@ -240,6 +240,23 @@ Decisions:
 Open:
 - A few figure references still inherit minor OCR spelling issues from the PDF
 
+### 2026-06-29 — Ingest vj7.md
+
+Task: Convert the straight-bladed VAWT materials paper into Markdown and ingest it.
+
+Actions:
+- Created `sources/vj7.md` from the rendered PDF/OCR text
+- Extracted `images/vj7-fig1.jpg`, `images/vj7-fig2.jpg`, and `images/vj7-fig3.jpg`
+- Created `wiki/summaries/vj7-summary.md`
+- Updated `wiki/concepts/VAWT.md` and `wiki/index.md`
+
+Decisions:
+- Kept the source as `vj7.md` because it is another Julie VAWT source
+- Treated blade material and fatigue as a VAWT concept update rather than creating a separate page
+
+Open:
+- The OCR source is rough in places, but the main technical claims and figures are captured
+
 ### 2026-06-26 — Extract vj2 and HRI figures
 
 Task: Rename existing `va2` figure files to the AGENTS naming scheme and extract figures from the new `vj2` and `HRI2526` PDFs.
