@@ -1,27 +1,14 @@
-===== PAGE 1 =====
-ELSEVIER
-Journal of Cleaner Production 435 (2024) 140475
-Contents lists available at ScienceDirect
-Journal of Cleaner Production
-journal homepage: www.elsevier.com/locate/jclepro
-Cleaner
-Prod tion
-Check for
-updates
-Parameter optimization method of contra-rotating vertical axis wind
-turbine: Based on numerical simulation and response surface
+## Parameter optimization method of contra-rotating vertical axis wind turbine: Based on numerical simulation and response surface
+
+## Authors
+
 Peng Zheng a, Hexiang Zhang a, Zutao Zhang ' , Waleed Salman a, Mansour Abdelrahman
-a
+
 a School of Mechanical Engineering, Southwest Jiaotong University, Chengdu 610031, PR China
-b
 Chengdu Technological University, Chengdu 611730, PR China
-ARTICLE INFO
 Handling Editor: Jin-Kuk Kim
 Keywords:
-Contra-rotating vertical axis wind turbine
 (CRVAWT)
-Computational fluid mechanics (CFD)
-Improved delayed detached eddy simulation
 (IDDES)
 Response surface
 Parameter optimization
@@ -61,7 +48,6 @@ developed, and occupies an important position in the renewable energy
 * Corresponding author.
 E-mail address: zzt@swjtu.edu.cn (Z. Zhang).
 https://doi.org/10.1016/j.jclepro.2023.140475
-industry (
 Sadorsky, 2021 b), (Masdari et al., 2019). Moreover, according
 to the 2022 National Electricity Industry Statistics Published (NEIB) by
 the National Energy Administration of China (NEAC), China's installed
@@ -77,52 +63,9 @@ energy generation with vertical axis turbines (Kumar et al., 2018), Pope
 et al., 2010
 ). Horizontal axis wind turbines (HAWTs) have the advan-
 tages of low self-starting wind speed, wide coverage, and high power
-factor (
 Kumar et al., 2019), (Bai and Wang, 2016) and have been
 developed vigorously in the past decade. Subsequently, VAWTs have
 unique advantages, including (i) low manufacturing, installation, and
-Received 13 August 2023; Received in revised form 18 November 2023; Accepted 27 December 2023
-Available online 30 December 2023
-0959-6526/0 2023 Elsevier Ltd. All rights reserved.
-===== PAGE 2 =====
-P. Zheng et al.
-CiteSpace
-vertical axis wind turbin&lade
-axis wind turbine
-angle
-powey performance
-domain size
-ppprovement
-turbulence models
-aerodynamic performance
-dy mics
-computationa ui ynamics
-de Ign
-wind ener
-Odel
-flow
-computational fluid dynamic (cf
-models
-rf
-am c stall
-irfoil
-opti ation
-simulation
-aerodynamics
-number
-power coefficien
-airfoils
-solidity
-Journal of Cleaner Production 435 (2024) 140475
-#0 vertical axis wind turbine
-#1 gurney flap
-#2 computational fluid dynamics
-#3 finite element analysis
-#4 wind energy
-#5 design optimization
-#6 design of the experiment
-#7 blade structure
-#8 submerged generator
 Fig. 1. Research hotspots of wind turbines in recent years.
 
 ![Figure 1](../images/vj8-fig1.jpg)
@@ -163,7 +106,6 @@ Moreover, it can be inferred from the bibliometric study's findings
 that many scholars are researching ways to improve the aerodynamic
 performance of VAWT.
 su et al. (2020)
-proposed a VAWT using V-sha-
 ped blades and used the k-(D turbulence model for simulation analysis.
 Their results showed that V-shaped blades could reduce the impact of
 lateral loads on VAWT and effectively restrain the blades, dynamic stall
@@ -174,13 +116,11 @@ rameters such as the position, inclination angle, and length of the
 deflector on VAWT. Their results show that the deflector can increase
 the average torque coefficient by 47.1%. In addition,
 Didane et al.
-(2018a)
 designed a new type of co-axial contra-rotating VAWT, put the
 S-type rotor inside the H-type rotor, and used CFD software to simulate
 and analyze the model. Their system results demonstrated that the new
 model improves the start-up of VAWT capacity for an additional three
 times the power across the entire wind speed range. Moreover, the au-
-thors in (
 Stl et al., 2020
 ) created a variable pitch VAWT and carried out
 experiments in a wind tunnel and simulated different wind turbine pa-
@@ -194,7 +134,6 @@ reverse rotation through wind tunnel tests and deeply studied the effect
 of wake on VAWT. Their finding showed that the paired VAWTs have
 excellent performance compared with HAWTs. Additionally,
 Li et al.
-(2021)
 analyzed the robustness of dual vertical axis wind turbines and
 simulated the urban environment through a wind tunnel and conducted
 experiments on dual vertical axis wind turbines and isolated vertical axis
@@ -205,7 +144,6 @@ fluence of consistency on the performance of VAWT through experi-
 ments and used particle image velocimetry to measure the flow field
 around VAWT at different concentrations. Their results showed that
 VAWT with low consistency would start to stall earlier. In another study,
-through wind tunnel tests,
 Peng et al. (2019)
 evaluated the power
 generation of VAWT with different length-to-diameter ratios. According
@@ -213,7 +151,6 @@ to their experiment findings, the power coefficient of the wind turbine
 increased by about 100% in turbulent flow than in advective flow and
 was proportional to the length-to-diameter ratio of the wind turbine.
 Meanwhile, it is proportional to and inversely proportional to length.
-Li
 et al. (2016) conducted detailed tests on VAWT in a wind tunnel and
 field experiments, respectively, and analyzed the influence of pitch
 angle, Reynolds number, and wind speed on the fan power, and their
@@ -222,9 +159,6 @@ Secondly, regarding computational fluid dynamics, The authors in
 Zhang et al., 2020) conducted a simulation analysis on the blade
 thickness, camber, and span shape of VAWT. They optimized the airfoil
 parameters through the Latin hypercube sampling method, and their
-2
-===== PAGE 3 =====
-P. Zheng et al.
 Recover wind energy I
 with VAWT
 Mesh of model
@@ -232,16 +166,10 @@ Model of
 VAWT
 0.2
 0.0
-1-02
 0.2
-Counter-rotating Vertical
 Axis Wind Turbi e
 0.4 0.6 0.8
 1.0
-—NACAOOIS —NACA0018
-—NACA0021 —NACA0024
-0) Blade airfoil
-@ Included angle
 of rotor
 Accuracy
 verification
@@ -251,15 +179,12 @@ Model of
 CRVAWT
 Blade Airfoil
 Pitch Angle
-1)
 O Rotor spacing
-@ Pitch angle
 Rotor Spacing
 Included Angle
 VAWT Analysis
 Parameter Analysis
 CRVAWT Analysis
-Journal of Cleaner Production 435 (2024) 140475
 Response surface
 Enhanced Stability
 and Efficiency
@@ -307,14 +232,12 @@ analyzed, and their results showed that the power of the contra-rotating
 VAWT is lower at high wind speeds but with negligible aerodynamic
 torque and side-side force. The authors in. (
 Lee et al., 2022
-) developed
 an analytical tool for contra-rotating VAWTs using AeroDyn to evaluate
 the loads and motions of contra-rotating VAWTs. Their results showed
 that the aerodynamic power of the reverse rotating VAWT is reduced,
 but its fatigue loads are lower than those of the conventional VAWT. In
 addition, Djamal et al. (Didane
 al., 2018b
-) proposed a novel
 contra-rotating vertical axis wind turbine by combining Savonius-type
 and Darrieus-type VAWTs with a contra-rotating design to obtain a
 higher relative speed. Their simulation results showed that their new
@@ -338,10 +261,8 @@ determined through response surface analysis, and the optimized
 calculation is obtained to identify the parameters of the optimal
 CRVAWT.
 The main content of this paper is organized as follows:
-Section 2
 describes the model and mesh of isolated wind turbines, verifies the
 feasibility of the model, and analyzes the independence of the mesh.
-Section 3
 introduces the model and CFD simtllation details of the
 contra-rotating wind turbine and conducts simulation analysis on the
 four parameters of the wind turbine. Section 4 analyzes the simulation
@@ -351,22 +272,16 @@ In Section 5.
 2. Methodology
 This study utilizes the finite volume-based CFD software STAR CCM
 + for simulation calculations and conducted STAR CCM+ a general CFD
-3
-===== PAGE 4 =====
-P. Zheng et al.
 Upper
 rotor
 Disk
 generator
 Lower
 rotor
-(a) Structure of CRVAWT
 Blade
 support
 Floating
 platform
-Journal of Cleaner Production 435 (2024) 140475
-c
 (b) Parameter dimension of CRVAWT
 Fig. 3. Model and parameters of CRVAWT.
 
@@ -381,11 +296,6 @@ chord length
 pitch angle
 Unit
 Value
-1000
-1200
-300
-265
-6
 analysis software based on finite elements, known for its accuracy and
 speed in processing complex geometries and achieving fast solutions.
 Furthermore, it also offers features such as model generation, meshing,
@@ -403,7 +313,6 @@ Rotation domain
 simulation results are compared with the wind tunnel experimental data
 of the wind turbine model by
 Li et al. (2016)
-to verify the feasibility of
 the simulation model. The CRVAWT was modeled in this study using the
 parametric CAD modeling program SolidWorks 2019, as shown in
 a. The vertical axis wind turbine consists of an upper rotor and a
@@ -429,23 +338,14 @@ the fluid and rotational domains. The fluid domain is designed to be
 rotation track
 tlet
 Fan
-c
-Ø3 2R
 IOH
 Fluid domain
-5011
 IOH
 (a) Schematic diagram of the calculation computational field (b) Top view of the rotation field
 Fig. 4. Calculation domain of VAWT.
 
 ![Figure 4](../images/vj8-fig4.jpg)
-4
-===== PAGE 5 =====
-P. Zheng et al.
 (a) Mesh of rotational domain
-(b) Mesh of blade
-(c) of boundary layer
-Journal of Cleaner Production 435 (2024) 140475
 very well. Especially for turbulence in large-scale structures, it can
 effectively solve turbulence problems close to the wall. Becatlse the
 airflow near the blade surface is very intense, a very dense meshing is
@@ -463,13 +363,8 @@ Fig. 5. Topology diagram of the numerical mesh.
 ![Figure 5](../images/vj8-fig5.jpg)
 Expenment
 IDDES
-SST 1<-0
-Realizable k-c
-Re pul/g
 q 0.058Re 02
 0.5Cff)UN
-p/UTP
-(1)
 0.22
 0.18
 0 0.14
@@ -523,7 +418,6 @@ The value y plays an important role in the accuracy of boundary
 layer simulations. If y + is too large, the first grid point falls outside the
 logarithmic layer, and if it is too small, the first grid point falls into the
 viscous bottom layer of the boundary layer (
-ANSYS and lnc, 2014
 ). The
 inlet flow velocity for this study is 8 m/s, and based on the design size of
 the blade, the calculated Reynolds number range is Re 1.62 x 105
@@ -539,9 +433,7 @@ reference.
 2.3. Validation study
 The Realizable k- e Model (
 ) and SST k- (1)
-SCHUMANN, 1977
 ) are commonly used turbulence models. The Realizable
-MENTER, 1994
 k- e Model was proposed by Schumann in 1977 and is an improvement
 over the standard k- e model, with improved calculation equations for
 vortex flow and separated flow. It is more suitable for turbulence
@@ -563,33 +455,21 @@ the turbulence problem near the wall.
 The Tip Speed Ratio (TSR) is an important parameter for wind tur-
 bines. It is used to define the ratio of the linear speed of the tip of the
 wind rotor blade to the wind speed and can be expressed as:
-(2)
 where (D is the angular velocity of the rotor, R is the radius of the rotor,
-5
-===== PAGE 6 =====
-P. Zheng et al.
 Table 2
 Mesh dependency test based on the relative errors of the power coefficient.
 Mesh
 type
 Mesh
-1
 Mesh
-2
 Mesh
-3
 Total
-number
 of cells
 1.2e6
 2.7e6
 5.5e6
-Simulation
 Computing
 time
-14 h
-30 h
-65 h
 value of Cp
 0.19172
 0.18836
@@ -606,8 +486,6 @@ and V is the wind speed. The power coefficient (Cp) is an important
 parameter used to evaluate the power generation efficiency of wind
 turbines. It reflects the wind energy capture ability of wind turbines,
 which can be expressed as:
-(3)
-P AV3 ¯ pHRV3
 The turbulence model strongly influences the simulation, so it is
 important to find the most accurate turbulence model. Keeping the other
 simulation parameters consistent, the simulations were carried out for
@@ -636,7 +514,6 @@ However, to ensure the correct simulation of the boundary layer
 velocity, pressure, and stability of the simulation results, three mesh
 types are designed, including 1.2e6, 2.7e6, and 5.5e6 units, and the
 simulation calculations are performed separately under the maximum
-Journal of Cleaner Production 435 (2024) 140475
 power coefficient.. The turbulence model Select IDDES. The Mesh de-
 pendency test based on the relative errors of the power coefficient is
 shown in
@@ -662,16 +539,10 @@ parameters, and the upper rotor rotates counterclockwise while the
 lower rotor rotates clockwise.
 The calculation domain of the CRVAWT consists of a fluid domain
 and a rotation domain. The parameters of the fluid domain are the same
-20
-10
-O
--10
--20
 0.65
 Fig. 8.
 
 ![Figure 8](../images/vj8-fig8.jpg)
-—Upper of CRVAWT
 VAWT
 Lower rotor of CRV AWT
 CRVAWT
@@ -681,32 +552,24 @@ CRVAWT
 1.45
 1.65
 Wall
-Time (s)
 Torque comparison between VAWT and CRVAWT.
 Outlet
-doßai0
 Upper rotor
 0.25H
 Lower rotor
 Inlet
 1.6R
-1 OH
 gotatioo
 doloain
 SOH
 Fig. 7. Computational domain of CRVAWT.
 
 ![Figure 7](../images/vj8-fig7.jpg)
-6
-===== PAGE 7 =====
-P. Zheng et al.
-ß
 fan
 Rotation
 path
 Blade
 chord
-x
 0.2
 0.1
 0.0
@@ -716,10 +579,6 @@ x
 Fig. 9. Schematic diagram of the blade pitch angle.
 
 ![Figure 9](../images/vj8-fig9.jpg)
-NACA0015
-NACA0018
-— NACA0021
-NACA0024
 0.1
 0.2
 0.3
@@ -750,7 +609,6 @@ Upper rotor
 Rotation
 domain
 Lower rotor
-Journal of Cleaner Production 435 (2024) 140475
 shows the torque comparison of CRVAWT and VAWT. The
 Fig. 8
 torque trend of the rotors of the two wind turbines is similar, but the
@@ -798,23 +656,13 @@ of the four airfoils are shown in
 Fig. 10
 Rotor
 Rotation
-\direction
 Blade I
-chord/
 Rotation domain
 (a) Spacing between upper and lower rotors
 (b) Angle between upper and lower rotors
 Fig. 11. Schematic diagram of spacing and included angle between rotors.
 
 ![Figure 11](../images/vj8-fig11.jpg)
-7
-===== PAGE 8 =====
-P. Zheng et al.
-200
--200
--150
--600
--soo
 0.0
 0.17
 0.16
@@ -825,50 +673,29 @@ P. Zheng et al.
 Upper rotor
 Lower rotor
 Average
-Pitch angle (0)
 (a) Diagrams of Cp of rotors with pitch angle
-60
-150
-Journal of Cleaner Production 435 (2024) 140475
-60
 0.2
 0.4
 0.6
-10
--1200
-00
--450
-60
 1.0
 0.4
-06
-Wc
 0.0
 0.2
 0.4
 0.6
-x/c
 0.8
 (b) Upper section of blade_upwind
 (c) Middle section of blade_upwind (d) Lower section of blade_upwind
-150
-100
--100
 0.0
-02
 0.4
 0.6
 0.8
-1-0
-0-2
 0.4
 0.6
 1.0
-02
 1.0
 1.0
 0.4
-x/c
 0.8
 (e) Upper section of blade downwind (f) Middle section of blade downwind (g) Lower section of blade downwind
 Fig. 12. Simulation results and analysis of blade pitch angle.
@@ -892,8 +719,8 @@ multiple variables on a structure.
 Commonly used experimental design methods for response surface
 models include Central Composite Design, Optimal Space-Filling Design,
 and Box-Behnken. The Box-Behnken Design (BBD) includes three levels:
-center point 0, low-level point —1, and high-level point +1. It can be
-analyzed within the range of 3—7 variables without multiple continuous
+center point 0, low-level point â€”1, and high-level point +1. It can be
+analyzed within the range of 3â€”7 variables without multiple continuous
 experiments and is an efficient response surface design method. There-
 fore, In this study, Design Experts software was used and BBD design
 method was chosen to optimize the analysis of four parameters, deter-
@@ -902,8 +729,6 @@ levels. It establishes sample points for the optimized parameters within
 the parameter design range, with a total of 29 sets of simulation ex-
 periments. The design of the sample points and the analysis of the results
 are carried out in the fourth chapter.
-===== PAGE 9 =====
-P. Zheng et al.
 Upper rotor
 0.14 Lower rotor
 Average
@@ -911,10 +736,6 @@ Average
 0.12
 0.11
 0.10
-15
-18
-21
-24
 Relative thickness of airfoil (%)
 Fig. 13. Diagrams of Cp of the upper and lower rotors under different airfoils.
 
@@ -929,12 +750,12 @@ memory. It takes about 50 h to complete a single simulation operation.
 4.1. Simulation results
 To understand the effect of fixed blade pitch angle on the aero-
 dynamic performance of the wind turbine, the current study conducted
-simulations with pitch angles of —30, 00, and 60 while keeping the other
+simulations with pitch angles of â€”30, 00, and 60 while keeping the other
 parameters the same. However, the simulation results are shown in
 a. At a pitch angle of [3 00, the average power coefficients of the
 Fig. 12
 upper and lower rotors are 10.4% higher than those of the rotor with a
-pitch angle of —30 and 17.5% higher than those of the rotor with a pitch
+pitch angle of â€”30 and 17.5% higher than those of the rotor with a pitch
 angle of 60.
 To further investigate the effect of blade pitch angle on torque, this
 study plotted the surface pressure distribution of the upper rotor blade
@@ -944,14 +765,13 @@ the upper rotor, at 0.01 m, 0.6 m, and 1.19 m from the top of the blade,
 respectively. The upper rotor contains two blades, with the blade near
 the inlet referred to as blade_upwind and the blade away from the inlet
 referred to as blade downwind.
-b—d shows the blade surface
+bâ€”d shows the blade surface
 Fig. 12
 pressure distribution for blade upwind, while
 e and g show the
 Figs. 12
 blade surface pressure distribution of blade downwind.
 x/c represents the ratio of the distance of the measured
-In
 Fig. 12,
 point on the blade from the tip of the blade to the chord length of the
 blade.
@@ -962,15 +782,14 @@ cording to published research (O'meara and Mueller, 1987), the greater
 the pressure difference on the blade stlrface, the greater the rotor torque.
 In the three cross-sections of blade upwind, the pressure difference on
 the blade surface is the largest at [3
-— —30, and it decreases with
+â€” â€”30, and it decreases with
 increasing pitch angle. In the blade downwind, the pressure difference
 on the blade surface is largest at /3 60, and it decreases with decreasing
 pitch angle. Because the torque of the upper rotor is the sum of the
-torque of the two blades, the overall rotor torque is larger atß = 00. In
+torque of the two blades, the overall rotor torque is larger atÃŸ = 00. In
 addition, the pressure at the lower section of the blades is significantly
 smaller than the other sections, which explains the loss of the upper and
 lower rotors of the convection fan.
-Journal of Cleaner Production 435 (2024) 140475
 To analyze the airfoil aspect of the blade, this study selected four
 airfoils, namely NACA0015, NACA0018, NACA0021, and NACA0024,
 for simulation comparison analysis while keeping other simulation pa-
@@ -986,7 +805,6 @@ close to each other, indicating that the optimal airfoil parameters may be
 between these two airfoils. To further investigate the reasons for the
 differences between the different airfoils, this study analyzed the four
 airfoils and plotted the contours of the instantaneous pressure distri-
-bution on their surfaces in
 The pressure difference on the surface
 Fig. 14.
 
@@ -1056,56 +874,37 @@ the CRVAWT will gradually approach that of the isolated VAWT.
 However, an excessively long rotor spacing increases the center of
 gravity of the wind turbine, making the turbine unstable. Therefore, the
 length of the rotor spacing needs to be limited in response surface
-9
-===== PAGE 10 =====
-P. Zheng et al.
-—1054 6
-Journal of Cleaner Production 435 (2024) 140475
-—Sl 7.32
-Pressure (Pa)
+â€”Sl 7.32
 -5so.01
 -342.69
 -105.3S
 131.94
-—SS2.,S
+â€”SS2.,S
 -679.S3
-Pressure (Pa'
 -'77.05
 .'31.29
 (a) Two blades of the upper rotor of NACAOOI 5
 (b) Two blades of the upper rotor of NACAOOI 8
 -758.36
 -sso.45
-Pressure (Pa)
 -402.53
 -224.62
 -46.712
 131.20
 -667. 19
 -507.3S
-Pressure (PO
 -347.57
 -1S7.75
 -27.939
 (c) Two blades of the upper rotor of NACA0021
-300
--300
--600
--900
--1200
 (d) Two blades of the upper rotor of NACA0024
-A 15
-NACA0024
 0.0
-A
 0.2
 AAA
-00
 0.4
 0.6
 0.8
 1.0
-x/c
 (e) Pressure distribution in the middle section of NACA0015 and NACA0021
 Fig. 14. Upper rotor surface pressures of four types of airfoils.
 optimization.
@@ -1142,10 +941,6 @@ practical situation, if the spacing between the upper and lower rotors of
 the CRVAWT is too long, it may result in a higher overall center of
 gravity of the turbine, which can cause instability at high wind speeds.
 Hence, the power coefficient and overall stability of the turbine need to
-10
-===== PAGE 11 =====
-P. Zheng et al.
-—0=900
 0.18
 0.16
 0.14
@@ -1153,42 +948,21 @@ P. Zheng et al.
 Upper rotor
 Lower rotor
 Average
-265
-500
-750
-Journal of Cleaner Production 435 (2024) 140475
-1000
-Rotor spacing (mm)
 (a)Diagrams of Cp of the upper and lower rotors under different rotor spacing
 0.00000
 4.0000
 8.0000
-12.ö0ö
+12.Ã¶0Ã¶
 16.000
 20.000
 (b) Comparison ofwake sfructures by depicting the Q-criterion (Q=IOO) and velocity at different rotor spacmg
 Fig. 15. Simulation results and analysis of rotor spacing.
-20
-15
-10
-5
--5
--10
-0=300
-0=600
-—0=1200
-——0=1500
-30
-15
--15
--30
 0.6
 0.6
 0.7
 0.8
 0.9
 1.0
-Time (s)
 1.1
 1.2
 1.3
@@ -1196,14 +970,8 @@ Time (s)
 0.8
 0.9
 1.0
-Time (s)
 1.1
 1.2
-00
-0=600
-0=900
-1200
-0=1500
 1.3
 (a) Upper rotor torque of CRVAWT
 (b) Total torque of CRVAWT
@@ -1222,12 +990,7 @@ shown in
 Table 3.
 Solve the second-order fitting model by software calculation and
 obtain the response regression model of the power coefficient:
-11
-===== PAGE 12 =====
-P. Zheng et al.
-Journal of Cleaner Production 435 (2024) 140475
 cp/L= -0.089 - 2.55 X 10 4/3 + + 5.6 X 10 Sd - 4.63 X 10 60+3.1 X 10 5/3TR
-(5)
 +1.13 x 10 -3.85 x 10 7/30- 1.59 x 10 7TRd+7.67 x 10 8TRO-2.18 x 10 9d0
 -3.54 x 10 4/32 - 3.45 x -2.93 x Io-8d2 + 1.04 x 10-702
 To verify the fitting performance of the model, this study drew the
@@ -1246,7 +1009,7 @@ is evident that the predicted value and the actual value are very close.
 The established regression model can accurately predict the power co-
 efficient of CRVAWT.
 c display the relationship between the pitch angle, airfoil,
-Fig. 17 —e
+Fig. 17 â€”e
 and power factor at different rotor spacing and included angles. These
 plots provide valuable insights into the impact of different parameters
 on the aerodynamic performance of a wind turbine. They can aid in
@@ -1254,7 +1017,7 @@ designing and optimizing wind turbines for practical applications.
 After obtaining the response surface model, the response surface
 needs to be evaluated. A good response surface model should have a
 small coefficient of variation (CV) and a negative correlation coefficient
-R2, and the corrected correlation coefficient Rä should be greater than
+R2, and the corrected correlation coefficient RÃ¤ should be greater than
 0.9. According to the calculation, the coefficient of variation of the
 model is CV 2.07%, R2 0.96, and R2 =0.92. These values indicate
 that the response surface model established in this study has a good
@@ -1271,119 +1034,6 @@ dynamic performance of the optimized blade through the response
 Table 3
 Response surface design schemes and results.
 Run
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-28
-29
--3
-6
--3
-6
--3
-6
--3
-6
--3
-6
--3
-6
-15
-15
-21
-21
-18
-18
-18
-18
-18
-18
-18
-18
-15
-21
-15
-21
-18
-18
-18
-18
-15
-21
-15
-21
-18
-18
-18
-18
-18
-d(mm)
-500
-500
-500
-500
-265
-750
-265
-750
-500
-500
-500
-500
-265
-265
-750
-750
-265
-265
-750
-750
-500
-500
-500
-500
-500
-500
-500
-500
-500
-0(0)
--30
--30
-30
-30
--30
--30
-30
-30
--30
--30
-30
-30
-Cp/L
 0.048856
 0.046485
 0.056856
@@ -1413,7 +1063,6 @@ Cp/L
 0.062476
 0.062208
 0.061524
-cp
 0.141681
 0.134806
 0.164881
@@ -1482,7 +1131,6 @@ Fig. 18.
 The contra-rotating vertical axis wind turbine has overall stability
 advantages and is particularly suitable for collecting wind energy on
 offshore floating platforms.
-illustrates the application scenario of
 Fig. 19
 
 ![Figure 19](../images/vj8-fig19.jpg)
@@ -1495,7 +1143,6 @@ the physical model of the CRVAET used in the simulation consists of two
 rotors with opposite rotational directions on the top and bottom.
 Consequently, the design optimization scheme for CRVAWT consists of
 three parts: model building, parameter analysis, and response surface
-optimization, as shown in
 Fig. 20.
 
 ![Figure 20](../images/vj8-fig20.jpg)
@@ -1508,48 +1155,25 @@ the final simulated and experimental values being only 1.69%. The
 simulation analysis was then performed for CRVAWT under the same
 simulation environment. The power efficiency of the CRVAWT is slightly
 lower compared to the isolated VAWT but has a significant advantage in
-12
-===== PAGE 13 =====
-P. Zheng et al.
-Journal of Cleaner Production 435 (2024) 140475
 Normal Plot of Residuals
 0.045
 Predicted vs. Actual
 OOSS
 Actual
-z
-99
-95
-90
-70
-so
-30
-20
-10
--100
-Externally Studentized Residuals
-210
 (a) Probability diagram of residual normal distribution
 (b) Predicted value and actual value of the model
 (c) Response surface of B, T R, and
-cp (0=-300 500, 750m)
 Table 4
 Optimization results of blade parameters.
 (d) Response surface of B, T R, and
 cp (0=00 , d=265, 500, 750m)
 Fig. 17. Response surface fitting results.
-(e) Response surface of ß, T R, and
-cp (0=300 500, 750m)
+(e) Response surface of ÃŸ, T R, and
 Original
 Optimized
-6
 1.2
-21
 19.7
-d(mm)
-270
 449.4
-cp
 0.1344
 0.1837
 terms of overall torque, and the turbine is more stable.
@@ -1588,14 +1212,10 @@ offshore platforms.
 Limitations in this study
 i) The influence of the supports is not considered in the simulation,
 which may have some influence on the simulation process.
-13
-===== PAGE 14 =====
-P. Zheng et al.
 Modeling
 Establish geometry model
 Establish VAWT
 simulation model
-Journal of Cleaner Production 435 (2024) 140475
 ii) The upper and lower rotors still interfere with each other, and the
 power of a single rotor of the CRVAWT is reduced compared to
 the isolated VAWT.
@@ -1610,8 +1230,6 @@ The photovoltaic panels can reduce the mutual interference between the
 rotors and improve the wind energy recovery efficiency while main-
 taining the overall stability of the CRVAWT. At the same time, the
 SSTk. IDDES
-Realizable k-c
-Comparison of turbulence models
 Independence analysis
 Simulate
 Establish CRVAWT
@@ -1623,26 +1241,17 @@ Optimization of
 Optimize
 CRVAWT parameters
 Fig. 18. Flow chart of CRVAWT parameter optimization method.
-The optimized rotor has aP
-higher power fåctor and caw
+higher power fÃ¥ctor and caw
 recover more wind energy
 The total torque is
 smaller and th
 CRVAWT more stable
 CRVAWT
-o Oter-rotating Vertical Axis
-sißulation D
-et0i/
-CR-
 VAWT
-• 9 tt0dsou
 sj!ueqoan
 Fig. 20. The design, optimization, and scheme of CRVAWT.
 Power grid
 Fig. 19. Application of the optimized CRVAWT for offshore wind energy recovery.
-14
-===== PAGE 15 =====
-P. Zheng et al.
 photovoltaic panels can collect solar energy from the environment to
 further improve the energy recovery efficiency.
 The research results of this study can provide a reference basis for the
@@ -1650,15 +1259,13 @@ research methodology and structural design of co-axial contra-rotating
 vertical axis wind turbines, which is expected to promote the further
 development and performance optimization of offshore vertical axis
 wind turbines.
-CRediT authorship contribution statement
-Peng Zheng: Conceptualization, Software, Writing — original draft,
-Writing — review & editing, Data curation, Visualization. Hexiang
-Zhang: Resources, Validation, Writing — original draft, Writing — review
+Peng Zheng: Conceptualization, Software, Writing â€” original draft,
+Writing â€” review & editing, Data curation, Visualization. Hexiang
+Zhang: Resources, Validation, Writing â€” original draft, Writing â€” review
 & editing. Zutao Zhang: Project administration, Supervision, Valida-
-tion. Waleed Salman: Investigation, Writing —
+tion. Waleed Salman: Investigation, Writing â€”
 review & editing.
-Mansour Abdelrahman: Investigation, Writing — review & editing.
-Declaration of competing interest
+Mansour Abdelrahman: Investigation, Writing â€” review & editing.
 The authors declare that they have no known competing financial
 interests or personal relationships that cotlld have appeared to influence
 the work reported in this paper.
@@ -1684,10 +1291,10 @@ and issues: a comprehensive review. J. Clean. Prod. 284.
 ANSYS Inc, 2014. Introduction to Ansys Fluent-Turbulence Modeling.
 Bai, C.J., Wang, W.C., 2016. Review of computational and experimental approaches to
 analysis of aerodynamic performance in horizontal-axis wind turbines (HAWTs).
-Renewable Sustainable Energy Rev. 63, 506—519
+Renewable Sustainable Energy Rev. 63, 506â€”519
 Balduzzi, F., Bianchini, A., Ferrara, G., Ferrari, L., 2016. Dimensionless numbers for the
 assessment of mesh and timestep requirements in CFD simulations of Darrieus wind
-turbines. Energy 97, 246—261.
+turbines. Energy 97, 246â€”261.
 Bhutta, M.M.A., et al., 2012. Vertical axis wind turbine - a review of various
 configurations and design techniques. Renewable Sustainable Energy Rev. 16 (4),
 1926-1939.
@@ -1700,14 +1307,11 @@ Diaz, H., Soares, C.G., 2020. Review of the current status, technology and futur
 offshore wind farms. Ocean Eng. 209.
 Didane, D.H., Rosly, N., Zulkafli, M.F., Shamsudin, S.S., 2018a. Performance evaluation
 of a novel vertical axis wind turbine with coaxial contra-rotating concept. Renew.
-Energy 115, 353-361
-Journal of Cleaner Production 435 (2024) 140475
 Didane, D.H., Rosly, N., Zulkafli, M.F., Shamsudin, S.S., 2018b. Performance evaluation
 of a novel vertical axis wind turbine with coaxial contra-rotating concept. Renew.
-Energy 115, 353-361
 Eboibi, 0., Danao, L.A.M., Howell, R.J., 2016. Experimental investigation of the
 influence of solidity on the performance and flow field aerodynamics of vertical axis
-wind turbines at low Reynolds numbers. Renew. Energy 92, 474—483.
+wind turbines at low Reynolds numbers. Renew. Energy 92, 474â€”483.
 Elsakka, M.M., Ingham, D.B., Ma, L., Pourkashanian, M., 2019. CFD analysis of the angle
 of attack for a vertical axis wind turbine blade. Energy Convers. Manag. 182,
 154-165.
@@ -1718,21 +1322,20 @@ Hoang, A.T., et al., 2022. Energy-related approach for reduction of C02 emission
 critical strategy on the port-to-ship pathway. J. Clean. Prod. 355.
 https://www.globalcarbonproject.org/carbonbudget/index.htm#.
 Islam, M.R., Mekhilef, S., Saidur, R., 2013. Progress and recent trends of wind energy
-technology. Renewable Sustainable Energy Rev. 21, 456—468.
+technology. Renewable Sustainable Energy Rev. 21, 456â€”468.
 Jahangiri, A., et al., 2022. Coupled CFD and 3E (Energy, Exergy, and Economical)
 analysis of using windbreak walls in heller-type cooling towers. J. Clean. Prod. 358.
 Kouloumpis, V., Sobolewski, R.A., Yan, X.Y., 2020. Performance and life cycle
 assessment of a small scale vertical axis wind turbine. J. Clean. Prod. 247.
 Kumar, R., Raahemifar, K., Fung, A.S., 2018. A critical review of vertical axis wind
-turbines for urban applications. Renewable Sustainable Energy Rev. 89, 281—291.
+turbines for urban applications. Renewable Sustainable Energy Rev. 89, 281â€”291.
 Kumar, P.M., Sivalingam, K., Lim, T.C., Ramakrishna, S., Wei, H., 2019. Review on the
 evolution of Darrieus vertical Axis wind turbine: large wind turbines. Clean
 Technologies 1 (1), 205-223.
 Lee, H., Poguluri, S.K., Bae, Y.H., 2022. Development and verification of a dynamic
 analysis model for floating offshore contra-rotating vertical-axis wind turbine.
-Energy 240
 Li, Qa, et al., 2016. Study on power performance for straight-bladed vertical axis wind
-turbine by field and wind tunnel test. Renew. Energy 90, 291—300.
+turbine by field and wind tunnel test. Renew. Energy 90, 291â€”300.
 Li, S.T., et al., 2021. Experimental investigation of solidity and other characteristics on
 dual vertical axis wind turbines in an urban environment. Energy Convers. Manag.
 229.
@@ -1740,25 +1343,25 @@ Marinic-Kragic, 1., Vucina, D., Milas, Z., 2020. Computational analysis of Savon
 turbine modifications including novel scooplet-based design attained via smart
 numerical optimization. J. Clean. Prod. 262.
 Marx, J., Schreiber, A., Zapp, P., 2019. Response to 'Life-cycle greenhouse gas emissions
-of onshore and offshore wind turbines'. J. Clean. Prod. 219, 33—34.
+of onshore and offshore wind turbines'. J. Clean. Prod. 219, 33â€”34.
 Masdari, M., Tahani, M., Naderi, M.H., Babayan, N., 2019. Optimization of airfoil Based
 Savonius wind turbine using coupled discrete vortex method and salp swarm
-algorithm. J. Clean. Prod. 222, 47—56.
+algorithm. J. Clean. Prod. 222, 47â€”56.
 Menter, F.R., 1994. Two-equation eddy-viscosity turbulence models for engineering
 applications. AIAA J. 32 (8), 1598-1605.
 Mohamed, M.H., 2012. Performance investigation of H-rotor Darrieus turbine with new
-airfoil shapes. Energy 47 (1), 522—530.
+airfoil shapes. Energy 47 (1), 522â€”530.
 Naccache, G., Paraschivoiu, M., 2018. Parametric study of the dual vertical axis wind
-turbine using CFD. J. Wind Eng. Ind. Aerod. 172, 244—255.
+turbine using CFD. J. Wind Eng. Ind. Aerod. 172, 244â€”255.
 O'meara, M., Mueller, T.J., 1987. Laminar separation bubble characteristics on an airfoil
-at low Reynolds numbers. AIAA J. 25 (8), 1033—1041.
+at low Reynolds numbers. AIAA J. 25 (8), 1033â€”1041.
 Peng, H.Y., Lam, H.F., Liu, H.J., 2019. Power performance assessment of H-rotor vertical
 axis wind turbines with different aspect ratios in turbulent flows via experiments.
 Energy 173, 121-132.
 Poguluri, S.K., Lee, H., Bae, Y.H., 2021. An investigation on the aerodynamic
 performance of a co-axial contra-rotating vertical-axis wind turbine. Energy 219
 Pope, K. , Dincer, 1., Naterer, G.F., 2010. Energy and exergy efficiency comparison of
-horizontal and vertical axis wind turbines. Renew. Energy 35 (9), 2102—2113.
+horizontal and vertical axis wind turbines. Renew. Energy 35 (9), 2102â€”2113.
 Rezaeiha, A., Montazeri, H., Blocken, B., 2018. Towards accurate CFD simulations of
 vertical axis wind turbines at different tip speed ratios and solidities: guidelines for
 azimuthal increment, domain size and convergence. Energy Convers. Manag. 156,
@@ -1783,19 +1386,14 @@ vertical axis wind turbines. Appl. Energy 260.
 Tjiu, W., Marnoto, T., Mat, S., Ruslan, M.H., Sopian, K., 2015a. Darrieus vertical axis
 wind turbine for power generation I: assessment of Darrieus VAWT configurations.
 Renew. Energy 75, 50-67.
-15
-===== PAGE 16 =====
-P. Zheng et al.
 Tjiu, W., Marnoto, T., Mat, S., Ruslan, M.H., Sopian, K., 2015b. Darrieus vertical axis
 wind turbine for power generation I: assessment of Darrieus VAWT configurations.
 Renew. Energy 75, 50-67.
 Vergaerde, A., et al., 2020. Experimental characterisation of the wake behind paired
 vertical axis wind turbines. J. Wind Eng. Ind. Aerod. 206.
-Journal of Cleaner Production 435 (2024) 140475
 Wong, K.H., et al., 2018. 3D CFD simulation and parametric study of a flat plate deflector
-for vertical axis wind turbine. Renew. Energy 129, 32—55.
+for vertical axis wind turbine. Renew. Energy 129, 32â€”55.
 Wu, X.N., et al., 2019. Foundations of offshore wind turbines: a review. Renewable
-Sustainable Energy Rev. 104, 379—393.
+Sustainable Energy Rev. 104, 379â€”393.
 Zhang, T., et al., 2020. A numerical study on choosing the best configuration of the blade
 for vertical axis wind turbines. J. Wind Eng. Ind. Aerod. 201.
-16

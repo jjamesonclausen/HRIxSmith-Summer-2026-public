@@ -288,6 +288,35 @@ Decisions:
 Open:
 - None
 
+### 2026-06-29 — Clean vj8 formatting
+
+Task: Remove header/footer noise and obvious OCR fragments from `sources/vj8.md` without changing the source content.
+
+Actions:
+- Removed repeated journal headers, page markers, and standalone numeric artifacts
+- Dropped obvious short OCR noise lines from the intro figure block
+- Kept the paper text and figure captions intact
+
+Decisions:
+- Applied formatting-only cleanup, no paraphrase or content rewrite
+
+Open:
+- A few OCR typos remain in the paper text because they are part of the source transcription
+
+### 2026-06-29 — Fix vj8 title block
+
+Task: Restore the paper title and clean the author block in `sources/vj8.md`.
+
+Actions:
+- Restored the title as a top-level Markdown heading
+- Kept a single formatted author block under it
+
+Decisions:
+- Formatting only; no content rewrite
+
+Open:
+- None
+
 ### 2026-06-26 — Extract vj2 and HRI figures
 
 Task: Rename existing `va2` figure files to the AGENTS naming scheme and extract figures from the new `vj2` and `HRI2526` PDFs.
