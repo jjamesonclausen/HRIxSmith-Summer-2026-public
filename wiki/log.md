@@ -225,6 +225,21 @@ Decisions:
 Open:
 - None
 
+### 2026-06-29 — Clean vj6 OCR captions
+
+Task: Clean the rough OCR output in `sources/vj6.md`.
+
+Actions:
+- Merged split figure captions into single lines
+- Fixed obvious OCR artifacts in captions and figure alt text
+- Removed dangling continuation fragments left by the initial OCR conversion
+
+Decisions:
+- Kept the source grounded in the OCR text rather than inventing missing figure content
+
+Open:
+- A few figure references still inherit minor OCR spelling issues from the PDF
+
 ### 2026-06-26 — Extract vj2 and HRI figures
 
 Task: Rename existing `va2` figure files to the AGENTS naming scheme and extract figures from the new `vj2` and `HRI2526` PDFs.
