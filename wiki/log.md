@@ -317,6 +317,20 @@ Decisions:
 Open:
 - None
 
+### 2026-06-29 — Remove vj7 figure links
+
+Task: Make the new `sources/vj7.md` ignore images.
+
+Actions:
+- Removed the three embedded Markdown image links from `sources/vj7.md`
+- Left the figure caption text in place so the paper structure stays readable
+
+Decisions:
+- Kept the change limited to the source markdown file, per request
+
+Open:
+- The extracted `images/vj7-fig*.jpg` files remain on disk but are no longer referenced from the source markdown
+
 ### 2026-06-26 — Extract vj2 and HRI figures
 
 Task: Rename existing `va2` figure files to the AGENTS naming scheme and extract figures from the new `vj2` and `HRI2526` PDFs.
