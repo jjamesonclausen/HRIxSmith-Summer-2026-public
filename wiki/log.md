@@ -306,3 +306,20 @@ Decisions:
 
 Open:
 - The source PDF did not yield separate extracted figure files in this workspace
+
+
+### 2026-06-26 — Extract Blade Architectures figures
+
+Task: Extract figures from `sources/Blade Architectures.pdf` and save them using the `vj4-fig*.jpg` naming scheme.
+
+Actions:
+- Rendered the PDF pages with a local Node/pdfjs pipeline
+- Cropped figures 1 through 12 into `images/vj4-fig1.jpg` through `images/vj4-fig12.jpg`
+- Linked the new images from `sources/vj4.md`, `summaries/vj4-summary.md`, and `methods/Blade Element-Momentum Model.md`
+
+Decisions:
+- Used page-render crops because no direct PDF image extractor was installed in the workspace
+- Kept the crop regions broad enough to preserve figure captions where possible
+
+Open:
+- None
