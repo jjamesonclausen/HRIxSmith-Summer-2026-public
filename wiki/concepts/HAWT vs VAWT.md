@@ -13,10 +13,14 @@ VAWTs:
 - Better suited for turbulent and urban environments (source: sources/HRI2526.md)
 - Simpler structure with ground-level generator (source: sources/vj1.md)
 - Lower maturity and optimization (source: sources/vj1.md)
+- The source adds that VAWTs can be built lower, need no yaw mechanism, and may tolerate harsher environments. (source: sources/va3.md)
+- The source also claims small VAWTs can be almost inaudible and less harmful to birds than large HAWTs. (source: sources/va3.md)
 
 Tradeoff summary:
 - HAWTs: optimized, efficient, dominant at large scale
 - VAWTs: simpler, potentially lower maintenance, better in complex wind conditions
+- Large HAWTs face scaling, transportation, installation, and tower-stability constraints. (source: sources/va3.md)
+- Properly spaced VAWT arrays may reduce wake losses and sometimes benefit downstream machines. (source: sources/va3.md)
 
 Related:
 - [[VAWT]]

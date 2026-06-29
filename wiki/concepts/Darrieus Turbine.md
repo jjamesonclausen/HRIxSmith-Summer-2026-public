@@ -14,6 +14,8 @@ Lift-based VAWT using airfoil blades to generate lift and rotation. (source: sou
 - Includes variants: H-rotor, eggbeater (D-rotor), and helical designs. (source: sources/HRI2526.md)
 - Produces relatively smooth and consistent power output. (source: sources/HRI2526.md)
 - Typically requires external assistance to start rotating. (source: sources/HRI2526.md)
+- The source identifies the Darrieus concept as a 1931 lift-based VAWT introduced by George J. M. Darrieus. (source: sources/va3.md)
+- It uses two or more flexible airfoil blades attached to the top and bottom of a rotating vertical shaft. (source: sources/va3.md)
 - In a small-VAWT BE-M study, three-bladed and helical Darrieus variants reduced pulsating loads compared with two-bladed and straight-bladed variants. (source: sources/vj4.md)
 - The same study found the cambered DU 06-W-200 profile improved low-TSR start-up but underperformed in medium-low wind exploitation. (source: sources/vj4.md)
 

@@ -12,6 +12,10 @@ Drag-based VAWT using scooped blades. (source: sources/n1.md, sources/va1.md)
 - Simple, low-cost construction and low noise. (source: sources/HRI2526.md)
 - Suffers from negative torque on returning blade, reducing efficiency. (source: sources/HRI2526.md)
 - Optimization includes blade count, overlap ratio, and augmentation devices. (source: sources/HRI2526.md)
+- The source identifies Savonius as a 1922 impulse rotor introduced by S. J. Savonius. (source: sources/va3.md)
+- Modern variants evolved from half drums into fluted spiral-bladed designs that improve efficiency and reduce vibration. (source: sources/va3.md)
+
+![Figure 10: Evolution of the Savonius design for water pumping from half drums into the fluted spiral bladed design](../images/va3-fig10.jpg)
 
 - Two-bladed configurations often achieve higher power coefficients. (source: sources/n2.md)
 - Optimal aspect ratio typically around 1.5–2. (source: sources/n2.md)
