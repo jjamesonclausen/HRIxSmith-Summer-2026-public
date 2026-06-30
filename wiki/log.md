@@ -687,6 +687,23 @@ Decisions:
 Open:
 - None
 
+### 2026-06-30 — Add vj9 summary page
+
+Task: Create a summary page for `sources/vj9.md` and link it from the wiki index.
+
+Actions:
+- Read the rebuilt `sources/vj9.md` and existing summary-page style
+- Created `wiki/summaries/vj9-summary.md`
+- Added source-grounded bullets covering the scooplet design, CFD workflow, 39% power-coefficient improvement, and 3D validation results
+- Added representative figure links to the summary page
+- Updated `wiki/index.md` to link `vj9-summary`
+
+Decisions:
+- Kept the summary concise and source-cited, matching the existing wiki summary style
+
+Open:
+- None
+
 ### 2026-06-30 — Re-ingest vj9 source Markdown
 
 Task: Rebuild `sources/vj9.md` from the matching PDF while keeping the existing extracted images.

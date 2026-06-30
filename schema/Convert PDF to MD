@@ -24,8 +24,9 @@ When a new `.pdf` file appears in `PDFs/`, automatically convert the PDF into a 
 10. Remove page headers, footers, and page numbers.  
 11. Convert tables to Markdown tables when possible.
 12. Keep citations, equations, symbols, and technical terms as accurate as possible.  
-13. If text is unreadable, write `[unreadable]`.
-14. Add properties using the format below, if any of the information is unavailable leave it blank.
+13. for any mathmathical equations insert them as images. 
+14. If text is unreadable, write `[unreadable]`.
+15. Add properties using the format below, if any of the information is unavailable leave it blank.
         `---
         Title: ""
         Author: ""
@@ -35,4 +36,4 @@ When a new `.pdf` file appears in `PDFs/`, automatically convert the PDF into a 
         tags:
         - "sources"
         ---`
-15. When complete, use [[Extract Figure]] to extract any figures within the PDFs, and then use [[Organize Repo]] to finish the task.
+16. When complete, use [[Extract Figure]] to extract any figures within the PDFs, and then use [[Organize Repo]] to finish the task.
