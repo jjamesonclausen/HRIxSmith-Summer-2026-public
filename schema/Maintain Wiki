@@ -1,0 +1,14 @@
+## Maintain Wiki
+    ---
+    Last run: YYYY-MM-DD
+    Tags:
+    ---
+
+If any changes have been made to the wiki since the last run date, then:
+
+1. Check that all sources have a summary page. If not make one according to `schema/Ingest Source.md`
+2. Ensure all wiki pages are up to date with all related information from every available source
+3. Make sure all wiki pages have correct and up to date properties according to `schema/Ingest Source.md`
+4. Make sure that all backlinks for all files including images are functional
+5. Remove any old figure captions or links if the matching image is not available
+6. Do not edit, delete, or move any files in `sources/`!
