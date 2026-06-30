@@ -639,3 +639,35 @@ Decisions:
 
 Open:
 - Verify whether `va4-fig41.jpg` should be renamed or re-extracted if the original PDF becomes available again
+
+### 2026-06-30 — Review schema instructions
+
+Task: Review `AGENTS.md` and the files under `schema/` for clarity and usefulness.
+
+Actions:
+- Read `AGENTS.md` and the available schema files in `schema/`
+- Noted that `wiki/schema` does not exist in the repository; the procedures live in top-level `schema/`
+
+Decisions:
+- Treated the instruction set as mostly clear and actionable, but flagged a few conflicts and ambiguities for follow-up
+
+Open:
+- Resolve the folder-path mismatch in the wording (`wiki/schema` vs `schema/`)
+- Reconcile the conflicting figure-handling instructions between `Convert PDF to MD` and `Extract Figure`
+- Clarify the empty `Maintain Wiki` procedure or remove it if intentional
+
+### 2026-06-30 — Re-review updated schema
+
+Task: Check whether the small schema edits improved clarity.
+
+Actions:
+- Re-read the updated `AGENTS.md` and schema files
+- Verified that the repo-path wording now points at `schema/` instead of `wiki/schema`
+- Checked for remaining instruction conflicts and lingering examples that could mislead execution
+
+Decisions:
+- Considered the instruction set noticeably better than before, with the main remaining rough edge being a few inconsistent path/examples rather than structural confusion
+
+Open:
+- Confirm the `../images/...` example in `schema/Ingest Source` if the intended wiki image path is `../../images/...`
+- Decide whether `schema/Maintain Wiki` should stay as an empty placeholder

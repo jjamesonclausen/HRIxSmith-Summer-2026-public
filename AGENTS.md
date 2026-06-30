@@ -27,7 +27,7 @@ schema/  Your skills. READ these. NEVER edit, move, or delete them, unless expli
 - If something is not supported by a source, mark it clearly: `> Unverified:` or `> Inference:`.
 - Link related pages with relative Markdown links. Update `wiki/index.md` whenever you add a page.
 - Never look at `wiki/evals.md` when answering a question for a human.
-- Before beginning a task, check for a procedure in `wiki/schema`. If one exists, follow it exactly. 
+- Before beginning a task, check for a procedure in `schema/`. If one exists, follow it exactly. 
 
 ## Document everything — two tracks
 

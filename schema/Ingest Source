@@ -14,17 +14,16 @@
 	- `#methods` for procedures and techniques
 9. If the source contradicts an existing wiki page, note the discrepancy on both pages but do not overwrite it anywhere.
 10. If there are any related figures add a Markdown image link to the wiki files (summary, concepts, and/or methods), for example:
-   - `![Figure 1: caption text](../images/va2-fig1.jpg)`
-10. Note contradictions with existing pages instead of silently overwriting.
+   - `![Figure 1: caption text](../../images/va2-fig1.jpg)`
 11. Add properties using the format below, if any information is unavailable leave it blank.
     - Backlink all sources that are cited in this wiki page.
     - Tag the wiki page according to which folder it is in: `#summaries`, `#concepts`, `#methods`.
    `---
-    created: YYYY-MM-DD
-    updated: YYYY-MM-DD
-    sources: [[]]
-    source_count: 0
-    tags:
+    Created: YYYY-MM-DD
+    Updated: YYYY-MM-DD
+    Sources: [[]]
+    Source_count: 0
+    Tags:
     ---`
 12. Update `wiki/index.md` so it points to any new or changed wiki pages.
 13. Append an entry to `wiki/log.md` describing what was ingested, what changed, and any open issues.

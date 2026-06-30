@@ -33,6 +33,6 @@ When a new `.pdf` file appears in `PDFs/`, automatically convert the PDF into a 
         Created: YYYY-MM-DD
         Processed: false
         tags:
-        - "source"
+        - "sources"
         ---`
 15. When complete, use [[Extract Figure]] to extract any figures within the PDFs, and then use [[Organize Repo]] to finish the task.

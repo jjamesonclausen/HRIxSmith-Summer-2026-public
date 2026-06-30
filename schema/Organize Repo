@@ -8,10 +8,9 @@
    - Example, the second source file added by Anna, about fluid mechanics: `fa2.md`  
 2. Place the file in `/sources`.  
 3. Add the converted Markdown content to that file. 
-4. Add a `#summaries` tag underneath the file title. 
-5. Confirm that the `.md` file preserves the format, headings, and figure numbering as the original `.pdf` file.
-6. Do not modify unrelated files.
-7. When complete, report:
+4. Confirm that the `.md` file preserves the format, headings, and figure numbering as the original `.pdf` file.
+5. Do not modify unrelated files.
+6. When complete, report:
     - The path of the new `.md` file  
     - Any content that could not be converted cleanly
     - That you are about to ingest it.
