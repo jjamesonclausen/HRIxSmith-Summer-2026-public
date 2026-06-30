@@ -6,6 +6,7 @@ Characteristics of airflow in built environments. (source: sources/HRI2526.md)
 - Highly turbulent with rapid changes in speed and direction. (source: sources/HRI2526.md)
 - Flow obstruction creates localized բարձր (higher) velocity regions and complex wake patterns. (source: sources/HRI2526.md)
 - Increased turbulence intensity leads to fluctuating loads on turbines. (source: sources/HRI2526.md)
+- The wind-shear paper says non-uniform wind conditions are especially relevant for urban wind turbines because high disturbance makes the flow domain complicated. (source: sources/vj10.md)
 - In the McConnell Hall roof data analyzed by the HRI team, the 2025 daily average wind speed was 0.67 m/s and the average daily high was 4.02 m/s. (source: sources/HRI2526.md)
 ![Figure 16: Wind Data from McConnell Rooftop](../../images/hri2526-fig16.jpg)
 
@@ -19,5 +20,6 @@ Related:
 - [[Wind Turbine Parameters]]
 - [[CFD]]
 - [[Atmospheric Turbulence]]
+- [[Wind Shear]]
 
 #concepts 

@@ -31,6 +31,7 @@ _One page per file in `sources/`._
 - [[summaries/vj6-summary]]
 - [[summaries/vj7-summary]]
 - [[summaries/vj8-summary]]
+- [[summaries/vj10-summary]]
 
 ## Concepts
 
@@ -52,6 +53,7 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 - [[concepts/Urban Wind Conditions]]
 - [[concepts/VAWT]]
 - [[concepts/Wind Turbine Parameters]]
+- [[concepts/Wind Shear]]
 
 ## Methods
 

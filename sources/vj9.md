@@ -172,6 +172,7 @@ which was already investigated by several authors. Addition of
 multiple quarter blades (two pairs of one large semicircular blade
 and several smaller quarter blades) was considered in (Ostos et al.,
 Fig. 1. Schematic of Savonius-type VAWT.
+![Figure 1: Schematic of Savonius-type VAWT](../images/vj9-fig1.jpg)
 2 I. Marinic-Kragic et al. / Journal of Cleaner Production 262 (2020) 121310
 
 
@@ -362,8 +363,10 @@ In total, this mesh contains ~105 elements, depending on the
 number of blades and blade shape. In order to increase the simu￾lation computational efficiency, the timestep was gradually
 decreased from 12 to the final value in the way as shown in Fig. 4.
 Fig. 2. Computational domain for 2D CFD analysis.
+![Figure 2: Computational domain for 2D CFD analysis](../images/vj9-fig2.jpg)
 Fig. 3. Computational mesh for 2D CFD: a) full view, b) near rotor and c) zoom on the
 blade edge.
+![Figure 3: Computational mesh for 2D CFD](../images/vj9-fig3.jpg)
 4 I. Marinic-Kragic et al. / Journal of Cleaner Production 262 (2020) 121310
 
 
@@ -405,8 +408,10 @@ comparison, 2D CFD simulation requires about 4 core-hours while
 the 3D CFD requires about 2000 core-hours. The used mesh has the
 same element size as the 2D mesh and polyhedral elements were
 Fig. 4. Comparison of instantaneous and averaged torque coefficients for design from initial optimization.
+![Figure 4: Comparison of instantaneous and averaged torque coefficients](../images/vj9-fig4.jpg)
 Fig. 5. Part of the mesh for 3D CFD in x-y, x-z and y-x planes: a) near VAWT rotor and
 b) near the blades.
+![Figure 5: Part of the mesh for 3D CFD](../images/vj9-fig5.jpg)
 I. Marinic-Kragic et al. / Journal of Cleaner Production 262 (2020) 121310 5
 
 
@@ -460,10 +465,13 @@ wind direction.
 Fig. 10 shows the instantaneous torque coefficient contribution
 Fig. 6. Power coefficient curve for 2D CFD compared to experiment (Sheldahl et al.,
 1978) (s e overlap and d e VAWT diameter).
+![Figure 6: Power coefficient curve for 2D CFD compared to experiment](../images/vj9-fig6.jpg)
 Fig. 7. Savonius s/d ¼ 0.1, comparison of 3D CFD with 2D CFD and experimental data
 (EPDcP e effect of end plate friction torque on cP in 3D CFD).
+![Figure 7: Savonius comparison of 3D CFD with 2D CFD and experimental data](../images/vj9-fig7.jpg)
 Fig. 8. Half-revolution averaged x-direction velocity component at several sections
 upstream of VAWT rotor.
+![Figure 8: Half-revolution averaged x-direction velocity component](../images/vj9-fig8.jpg)
 6 I. Marinic-Kragic et al. / Journal of Cleaner Production 262 (2020) 121310
 
 
@@ -489,8 +497,10 @@ to classical Savonius with overlap ratio s/d ¼ 10%. Several designs
 Fig. 9. X-direction velocity component at a ¼ 45 rotor angle in: a) 3D CFD, several
 sections b) 3D CFD, vertical plane with 3D streamlines c) 3D CFD in symmetry plane
 and d) 2D CFD.
+![Figure 9: X-direction velocity component at rotor angle](../images/vj9-fig9.jpg)
 Fig. 10. Rotor rotation: a) comparison of 3D and 2D CFD torque coefficient contribution
 of the concave and convex side of the blade; b) schematically defined rotor angle.
+![Figure 10: Rotor rotation torque coefficient contribution](../images/vj9-fig10.jpg)
 I. Marinic-Kragic et al. / Journal of Cleaner Production 262 (2020) 121310 7
 
 
@@ -556,6 +566,7 @@ as B-spline based surface parameterizations, permit large shape
 Fig. 11. Selected blade designs at rotor angle a ¼ 0: a) multiple quarter blades
 (Sharma and Sharma, 2016), b) modified Bach (Roy et al., 2014), c) spline (Mari et al.,
 2017) and d) elliptical (Kacprzak et al., 2013).
+![Figure 11: Selected blade designs](../images/vj9-fig11.jpg)
 8 I. Marinic-Kragic et al. / Journal of Cleaner Production 262 (2020) 121310
 
 
@@ -599,10 +610,14 @@ repeated 2 times with different initial populations to confirm the
 results.
 Fig. 12. Comparison of power coefficient calculated by 3D CFD for selected Savonius
 modifications.
+![Figure 12: Comparison of power coefficient calculated by 3D CFD](../images/vj9-fig12.jpg)
 Fig. 13. Comparison (3D CFD) of instantaneous torque coefficient for selected designs
 at TSR ¼ 0.9.
+![Figure 13: Comparison of instantaneous torque coefficient](../images/vj9-fig13.jpg)
 Fig. 14. Shape parameterization of rotor blades.
+![Figure 14: Shape parameterization of rotor blades](../images/vj9-fig14.jpg)
 Fig. 15. Optimization history of the power coefficient.
+![Figure 15: Optimization history of the power coefficient](../images/vj9-fig15.jpg)
 I. Marinic-Kragic et al. / Journal of Cleaner Production 262 (2020) 121310 9
 
 
@@ -758,7 +773,9 @@ Savonius is about the same as for the modified Bach design. The
 differences in the flow field between 2D CFD and 3D CFD were
 Fig. 16. Optimization results: a) modified classical Savonius b) the scooplet-based
 design c) separated scoop from the scooplet-based design.
+![Figure 16: Optimization results](../images/vj9-fig16.jpg)
 Fig. 17. Comparison of power coefficient curves for optimized designs (2D CFD).
+![Figure 17: Comparison of power coefficient curves](../images/vj9-fig17.jpg)
 I. Marinic-Kragic et al. / Journal of Cleaner Production 262 (2020) 121310 11
 
 
@@ -817,16 +834,20 @@ Methodology, Visualization. Damir Vucina: Writing - original draft,
 Supervision, Methodology, Project administration. Zoran Milas:
 Writing - original draft, Supervision, Methodology, Visualization.
 Fig. 18. Comparison of instantaneous rotor torque coefficient (2D CFD) for both opti￾mized designs and the scoop-alone design.
+![Figure 18: Comparison of instantaneous rotor torque coefficient](../images/vj9-fig18.jpg)
 Fig. 19. Instantaneous torque coefficient for modified classical Savonius (MCS) and
 classical Savonius with overlap s/d ¼ 0.1 (CS) using 2D CFD.
+![Figure 19: Instantaneous torque coefficient for modified classical Savonius](../images/vj9-fig19.jpg)
 Fig. 20. Contribution of individual blades to instantaneous torque coefficient for
 scooplet-based design and scoop-alone design (2D CFD).
+![Figure 20: Contribution of individual blades to instantaneous torque coefficient](../images/vj9-fig20.jpg)
 12 I. Marinic-Kragic et al. / Journal of Cleaner Production 262 (2020) 121310
 
 
 <!-- Page 13 -->
 
 Fig. 21. Pressure field p (2D CFD) for: a) optimized scooplet-based design, b) scoop-alone design and c) pressure difference Dp between designs.
+![Figure 21: Pressure field for optimized scooplet-based design](../images/vj9-fig21.jpg)
 I. Marinic-Kragic et al. / Journal of Cleaner Production 262 (2020) 121310 13
 
 
@@ -834,9 +855,12 @@ I. Marinic-Kragic et al. / Journal of Cleaner Production 262 (2020) 121310 13
 
 Fig. 22. Instantaneous torque coefficient (2D CFD): difference between optimized
 scooplet-based design and scoop-alone design.
+![Figure 22: Instantaneous torque coefficient difference](../images/vj9-fig22.jpg)
 Fig. 23. Streamlines and magnitude of relative velocity in the rotor domain for azimuthal rotor positions: a) a ¼ 0 b) a ¼ 45 c) a ¼ 90 and d) a ¼ 135.
+![Figure 23: Streamlines and magnitude of relative velocity](../images/vj9-fig23.jpg)
 Fig. 24. Comparison of power coefficient of SWT with optimized blade designs as
 predicted by 3D CFD.
+![Figure 24: Comparison of power coefficient of SWT with optimized blade designs](../images/vj9-fig24.jpg)
 14 I. Marinic-Kragic et al. / Journal of Cleaner Production 262 (2020) 121310
 
 

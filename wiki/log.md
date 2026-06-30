@@ -671,3 +671,88 @@ Decisions:
 Open:
 - Confirm the `../images/...` example in `schema/Ingest Source` if the intended wiki image path is `../../images/...`
 - Decide whether `schema/Maintain Wiki` should stay as an empty placeholder
+
+### 2026-06-30 — Duplicate PDF check
+
+Task: Ingest the newly added PDF in `PDFs/`.
+
+Actions:
+- Verified the new PDF is a duplicate copy of the already ingested contra-rotating VAWT paper
+- Confirmed the paper is already represented by `sources/vj8.md` and `wiki/summaries/vj8-summary.md`
+- No source, wiki, or figure updates were needed
+
+Decisions:
+- Avoided creating a duplicate source entry for the same paper
+
+Open:
+- None
+
+### 2026-06-30 — Recommend schema figure-extraction update
+
+Task: Explain what to add to the schema so figure extraction happens consistently in future sessions.
+
+Actions:
+- Recommended adding a Python/PyMuPDF implementation note to `schema/Extract Figure`
+- Recommended requiring source/PDF matching, rendered fallback extraction, Markdown linking, and verification checks
+- Added a learning-log prompt for the human to capture the schema-design idea in their own words
+
+Decisions:
+- Did not edit the schema file directly because the user asked what to add rather than asking for the edit to be made
+
+Open:
+- User can approve applying the schema update directly
+
+### 2026-06-30 — Ingest vj10.md
+
+Task: Ingest the newest PDF in `PDFs/`.
+
+Actions:
+- Identified `PDFs/1-s2.0-S0959652619304585-main.pdf` as the newest PDF by filesystem timestamp
+- Converted it into `sources/vj10.md`
+- Extracted 11 rendered figure crops to `images/vj10-fig1.jpg` through `images/vj10-fig11.jpg`
+- Created `wiki/summaries/vj10-summary.md`
+- Created `wiki/concepts/Wind Shear.md`
+- Updated `wiki/methods/Blade Element-Momentum Model.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/Atmospheric Turbulence.md`, and `wiki/concepts/Urban Wind Conditions.md`
+- Updated `wiki/index.md`
+
+Decisions:
+- Used `vj10.md` as the next Julie wind-turbine source ID because the new PDF is part of the same current PDF batch and `vj9.md` already exists
+- Treated wind shear as a reusable concept because it is central to the paper and connects BEM, turbine parameters, atmospheric turbulence, and urban wind conditions
+- Used rendered page crops for figures because standalone PDF image-extraction tooling was not available in the workspace
+
+Open:
+- The converted source text is usable but retains some PDF text-extraction artifacts such as split words and rough equations
+
+### 2026-06-30 — Check Python and extensions
+
+Task: Check whether the newly installed Python and image-extraction-related extension are visible from this workspace.
+
+Actions:
+- Confirmed `python --version` reports Python 3.14.6
+- Listed VS Code extensions available through `code --list-extensions`
+- Found Python-related extensions and `tomoki1207.pdf`, which may be the PDF/image extraction-related extension
+
+Decisions:
+- Did not modify project source or wiki content beyond this log entry
+
+Open:
+- Confirm the exact extension name if `tomoki1207.pdf` is not the one the user meant
+
+### 2026-06-30 — Extract vj9 figures
+
+Task: Use the schema figure-extraction procedure with the available Python tooling.
+
+Actions:
+- Read `schema/Extract Figure` and confirmed the required naming/linking rules
+- Confirmed Python has `PyMuPDF` installed for PDF image extraction/rendering
+- Matched `sources/vj9.md` to `PDFs/1-s2.0-S0959652620313573-main.pdf`
+- Rendered 24 visible figure regions into `images/vj9-fig1.jpg` through `images/vj9-fig24.jpg`
+- Added Markdown image links near the corresponding original captions in `sources/vj9.md`
+- Verified there are 24 links, 24 image files, no broken relative paths from `sources/`, and reviewed a contact sheet for figure order
+
+Decisions:
+- Used Python/PyMuPDF rather than the VS Code PDF extension because the extension is visible only as an editor extension and does not expose a reliable CLI extractor here
+- Rendered visible figure regions from the PDF so masks, page placement, and composite figures were preserved
+
+Open:
+- None

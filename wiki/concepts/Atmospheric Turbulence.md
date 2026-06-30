@@ -9,6 +9,7 @@ Core measures:
 Causes and patterns:
 - Convection from solar heating can produce intense daytime turbulence. (source: sources/vj3.md)
 - Wind shear and surface friction generate turbulence both day and night. (source: sources/vj3.md)
+- Wind shear, turbulence, and wind direction are identified as major parameters affecting uncertainty in wind turbine power diagrams. (source: sources/vj10.md)
 - Obstacles such as trees, buildings, wind turbines, and terrain create mechanically induced wakes. (source: sources/vj3.md)
 - Offshore flow is usually less turbulent than onshore flow, while complex or mountainous terrain is usually more turbulent than flat terrain. (source: sources/vj3.md)
 
@@ -21,6 +22,7 @@ Wind-energy effects:
 - Turbulence can lower power near rated speed and improve power near cut-in speed. (source: sources/vj3.md)
 - Around 8 m/s, power production can vary by up to 20% depending on turbulence intensity. (source: sources/vj3.md)
 - Turbulence increases loads, wake interactions, fatigue, and noise propagation. (source: sources/vj3.md)
+- In the HAWT wind-shear study, non-uniform vertical wind profile reduces power coefficient and changes lift and thrust coefficients along the blade. (source: sources/vj10.md)
 
 ![Figure 2: Power Curve Variability with Turbulence Intensity](../../images/vj3-fig2.jpg)
 
@@ -28,5 +30,6 @@ Related:
 - [[Urban Wind Conditions]]
 - [[HAWT vs VAWT]]
 - [[VAWT]]
+- [[Wind Shear]]
 
 #concepts 
