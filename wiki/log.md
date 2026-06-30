@@ -687,6 +687,44 @@ Decisions:
 Open:
 - None
 
+### 2026-06-30 — Re-ingest vj9 source Markdown
+
+Task: Rebuild `sources/vj9.md` from the matching PDF while keeping the existing extracted images.
+
+Actions:
+- Followed `schema/Convert PDF to MD` and `schema/Extract Figure`
+- Re-read `PDFs/1-s2.0-S0959652620313573-main.pdf`
+- Regenerated `sources/vj9.md` with frontmatter, title, article info, abstract, section headings, subsections, references, and glossary headings
+- Kept existing `images/vj9-fig1.jpg` through `images/vj9-fig24.jpg` unchanged
+- Reinserted all 24 figure captions with Markdown links to the existing image files
+- Cleaned obvious page-header/footer clutter and repaired the page-1 introduction flow where the previous extraction mixed columns
+- Verified 24 links, 24 existing image files, no broken relative paths from `sources/`, frontmatter, title heading, and 21 Markdown headings
+
+Decisions:
+- Did not re-extract image files because the user asked to keep the images
+- Preserved PDF-derived text rather than summarizing or paraphrasing the source
+
+Open:
+- Some equations remain rough because the source PDF text extraction represents equations poorly
+
+### 2026-06-30 — Replace vj9 typed equations with images
+
+Task: Replace rough OCR/PDF-extracted equations in `sources/vj9.md` with equation image crops.
+
+Actions:
+- Located the rough equation text in section `2. Savonius-style wind turbine modeling`
+- Cropped equations (1) through (5) from `PDFs/1-s2.0-S0959652620313573-main.pdf`
+- Added `images/vj9-eq1.jpg` through `images/vj9-eq5.jpg`
+- Replaced the typed equation fragments in `sources/vj9.md` with Markdown image links
+- Verified five equation links, five image files, and no broken relative paths from `sources/`
+
+Decisions:
+- Used equation-specific filenames instead of figure filenames because these are not numbered figures in the paper
+- Kept surrounding explanatory text unchanged
+
+Open:
+- None
+
 ### 2026-06-30 — Recommend schema figure-extraction update
 
 Task: Explain what to add to the schema so figure extraction happens consistently in future sessions.

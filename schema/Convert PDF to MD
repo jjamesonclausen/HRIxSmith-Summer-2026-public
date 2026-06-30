@@ -21,7 +21,7 @@ When a new `.pdf` file appears in `PDFs/`, automatically convert the PDF into a 
 7. Do not add commentary.  
 8. Do not invent missing content.  
 9. Fix obvious PDF line-break and spacing issues so its clear to read.  
-10. Remove repeated page headers, footers, and page numbers.  
+10. Remove page headers, footers, and page numbers.  
 11. Convert tables to Markdown tables when possible.
 12. Keep citations, equations, symbols, and technical terms as accurate as possible.  
 13. If text is unreadable, write `[unreadable]`.
