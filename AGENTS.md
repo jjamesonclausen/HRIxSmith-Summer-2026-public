@@ -31,10 +31,10 @@ schema/  Your skills. READ these. NEVER edit, move, or delete them, unless expli
 
 ## Document everything — two tracks
 
-You keep **two** running documents. Both, always.
+You keep **two** running documents.
 
-1. **Project track → `wiki/log.md`.** After any work session, append an entry: what was asked, what you did, what changed, decisions made and why, what is still open. This is the record of the *work*.
-2. **Learning track → `wiki/learning-log.md`.** Whenever you explain a concept to the human, prompt them to capture what they learned in their own words, and record what was explained. This is the record of the *human getting smarter*.
+1. **Project track → `wiki/log.md`.** After any work session, append an entry: what was asked, what you did, what changed, decisions made and why, what is still open. This is the record of the *work*. If no files were changed, this is not necessary for learning-only tasks.
+2. **Learning track → `wiki/learning-log.md`.** Whenever you explain a concept to the human, prompt them to capture what they learned in their own words. The huaman should write the entries to the learning log. This is the record of the *human getting smarter*.
 
 Never end a working session without updating the project log. When you teach something, point the human at the learning log.
 
