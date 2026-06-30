@@ -1,0 +1,38 @@
+## Converting a PDF source to Markdown
+#schema
+When a new `.pdf` file appears in `PDFs/`, automatically convert the PDF into a clean Markdown and add it to `sources/` as a `.md` file via the following procedure:
+
+1. Read the PDF.  
+2. Convert the full paper into Markdown.  
+3. Preserve the paper's structure:  
+   - Title  
+   - Authors  
+   - Abstract  
+   - Section headings  
+   - Subsections  
+   - Paragraphs  
+   - Equations  
+   - Tables  
+   - Footnotes  
+   - References  
+4. Preserve figure captions in their original location but do not include any text from the figure itself. 
+5. Do not summarize or paraphrase any part of the paper. 
+6. Do not edit the content of the text even if you believe it to be false.  
+7. Do not add commentary.  
+8. Do not invent missing content.  
+9. Fix obvious PDF line-break and spacing issues so its clear to read.  
+10. Remove repeated page headers, footers, and page numbers.  
+11. Convert tables to Markdown tables when possible.
+12. Keep citations, equations, symbols, and technical terms as accurate as possible.  
+13. If text is unreadable, write `[unreadable]`.
+14. Add properties using the format below, if any of the information is unavailable leave it blank.
+        `---
+        Title: ""
+        Author: ""
+        Published: YYYY-MM-DD
+        Created: YYYY-MM-DD
+        Processed: false
+        tags:
+        - "source"
+        ---`
+15. When complete, use [[Extract Figure]] to extract any figures within the PDFs, and then use [[Organize Repo]] to finish the task.

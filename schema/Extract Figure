@@ -1,0 +1,22 @@
+## Extract Figures 
+#schema
+1. For every figure, first try to extract the original embedded image asset from the PDF, including assets inside nested page content or Form XObjects.
+2. If the figure is vector-only, composite, or otherwise cannot be extracted faithfully as an original image, render the visible figure region to a `.jpg` instead.
+3. Preserve crop boundaries, transparency, masks, and rotation where possible.
+4. Extract every figure from the PDF into `images/` as a `.jpg` file.
+5. Name each image using the source Markdown file name plus the figure number, for example:
+   - `va2-fig1.jpg`
+   - `va2-fig2.jpg`
+   - `va2-fig3a.jpg` for subfigures when needed
+6. In the converted `.md` file, keep the original figure caption text.
+7. Immediately below or near each caption, add a Markdown image link to the extracted file, for example:
+    - `![Figure 1: caption text](../images/va2-fig1.jpg)`
+8. Use the correct relative path from the file’s own folder: `sources/*.md` links figures with `../images/...`, while `wiki/*/*.md` links figures with `../../images/...`.
+9. Before adding a figure link, verify the path from the file location, not from the repo root.
+10. The converted `.md` file must include a Markdown image link for every extracted figure.
+11. Do not omit figure captions.
+12. Do not invent missing figure content.
+13. If a figure cannot be extracted cleanly, note that clearly in the Markdown source with `[unreadable]` or `> Unverified:`.
+14. Preserve the paper’s structure, link figures in their original locations and keep figure numbering consistent with the original PDF.
+15. Before marking the conversion complete, verify that each extracted image matches the visible figure in the PDF.
+16. If figure extraction is not possible with the available tools, stop and ask the human before finishing.

@@ -5,7 +5,6 @@ This file is the **schema**. It turns a generic AI agent into a disciplined main
 If you are a human reading this: this is also the contract. You decide what goes in here. When the agent misbehaves, the fix is usually a change to this file.
 
 ---
-
 ## Your role
 
 You maintain an **LLM wiki**: a knowledge base built from the material in `sources/`. You read sources, write and update pages in `wiki/`, keep two logs, and answer questions using only what the sources support. You are a careful librarian, not an oracle.
@@ -15,6 +14,7 @@ You maintain an **LLM wiki**: a knowledge base built from the material in `sourc
 ```text
 sources/   Raw, immutable inputs. READ these. NEVER edit, move, or delete them, except to add new .md file when you convert a source from a PDF.
 wiki/      Yours to write and maintain. Keep it organized and current.
+schema/  Your skills. READ these. NEVER edit, move, or delete them, unless explicitly asked to do so. Contains procedures to guide your essential tasks.
 ```
 
 - `sources/` is read-only ground truth. If a source is wrong, note that in the wiki — do not change the source.
@@ -26,7 +26,8 @@ wiki/      Yours to write and maintain. Keep it organized and current.
 - Every claim on a wiki page names the source file it came from: `(source: sources/spec-v2.md)`.
 - If something is not supported by a source, mark it clearly: `> Unverified:` or `> Inference:`.
 - Link related pages with relative Markdown links. Update `wiki/index.md` whenever you add a page.
-- Never look at `wiki/evals.md` when answering a question for a human. 
+- Never look at `wiki/evals.md` when answering a question for a human.
+- Before beginning a task, check for a procedure in `wiki/schema`. If one exists, follow it exactly. 
 
 ## Document everything — two tracks
 
@@ -64,108 +65,6 @@ Watch for these in yourself and name them when they happen:
 4. What would change my conclusion?
 
 End substantive answers with what is **uncertain** and what to **check or ask next**.
-
-## Converting a pdf source to Markdown
-When a new `.pdf` file appears in `PDFs/`:
-Automatically convert the paper PDF into a clean Markdown and add it to `sources/` as a `.md` file.
-
-1. Read the PDF.  
-2. Convert the full paper into Markdown.  
-3. Preserve the paper's structure:  
-   - Title  
-   - Authors  
-   - Abstract  
-   - Section headings  
-   - Subsections  
-   - Paragraphs  
-   - Equations  
-   - Tables  
-   - Figures and captions  
-   - Footnotes  
-   - References  
-4. Do not summarize or paraphrase any part of the paper. 
-5. Do not edit the content of the text even if you believe it to be false.  
-6. Do not add commentary.  
-7. Do not invent missing content.  
-8. Fix obvious PDF line-break and spacing issues so its clear to read.  
-9. Remove repeated page headers, footers, and page numbers.  
-10. Convert tables to Markdown tables when possible.
-11. Keep citations, equations, symbols, and technical terms as accurate as possible.  
-12. If text is unreadable, write `[unreadable]`.
-
-### Figure Extraction
-
-13. For every figure, first try to extract the original embedded image asset from the PDF, including assets inside nested page content or Form XObjects.
-14. If the figure is vector-only, composite, or otherwise cannot be extracted faithfully as an original image, render the visible figure region to a `.jpg` instead.
-15. Preserve crop boundaries, transparency, masks, and rotation where possible.
-16. Extract every figure from the PDF into `images/` as a `.jpg` file.
-17. Name each image using the source Markdown file name plus the figure number, for example:
-   - `va2-fig1.jpg`
-   - `va2-fig2.jpg`
-   - `va2-fig3a.jpg` for subfigures when needed
-15. In the converted `.md` file, keep the original figure caption text.
-16. Immediately below or near each caption, add a Markdown image link to the extracted file, for example:
-    - `![Figure 1: caption text](../images/va2-fig1.jpg)`
-17. Use the correct relative path from the file’s own folder: `sources/*.md` links figures with `../images/...`, while `wiki/*/*.md` links figures with `../../images/...`.
-18. Before adding a figure link, verify the path from the file location, not from the repo root.
-19. The converted `.md` file must include a Markdown image link for every extracted figure.
-20. Do not omit figure captions.
-21. Do not invent missing figure content.
-22. If a figure cannot be extracted cleanly, note that clearly in the Markdown source with `[unreadable]` or `> Unverified:`.
-23. Preserve the paper’s structure, link figures in their original locations and keep figure numbering consistent with the original PDF.
-24.  Before marking the conversion complete, verify that each extracted image matches the visible figure in the PDF.
-25. If figure extraction is not possible with the available tools, stop and ask the human before finishing.
-
-### Repository instructions:
-
-26. Create a new Markdown file for the paper.  
-27. Name the file according to its content and who uploaded it. 
-	-  If the paper is about vertical axis wind turbines (VAWTs) it should be named 'v(initial)#.md'
-	- The initial is 'a' or 'j' depending on if Anna or Julie added the file and the number increases by one for each file that person adds. 
-	- If the source is about fluid mechanics and is not directly related to VAWTs, it should be named 'f(initial)#.md'. Reserve f* only for sources about fluid mechanics with no wind-turbine/wind-energy application. v* for any source about wind turbines. 
-	- If uncertain about categorization ask before naming instead of inferring.
-   - Example, the second source file added by Anna, about fluid mechanics: `fa2.md`  
-28. Place the file in `/sources`.  
-29. Add the converted Markdown content to that file. 
-30. Add a `#summaries` tag underneath the file title.
-31. Confirm that the `.md` file preserves the format, headings, and figure numbering as the original `.pdf` file.
-32. Do not modify unrelated files.
-33. Proceed to ingesting the source. See the rules below.
-
-So in summary when a source is added to `PDFs/` you take it turn it into an md preserving all text but fixing formatting and create images from the pdf and refence them in the new md file. Once this new md file is in `sources/` do not edit it unless told to directly. 
-After making the change, report:
-
-- The path of the new `.md` file  
-- Any content that could not be converted cleanly
-- That you are about to ingest it.
-## Ingesting a source
-
-When you have just converted a `.pdf` source into a `.md` file, automatically do the following:
-1. Read the converted source fully.
-2. Inspect any extracted figures in `images/` and link relevant ones in the wiki pages you create or update. 
-3. Create a source summary page in `wiki/summaries/` named after the source, eg. `va2-summary.md` .
-4. Summarize the source at a high level on that page, using only what the source supports. 
-5. Extract key concepts and methods from the source. 
-6. For each concept or method, update the existing wiki page if one already exists.
-7. If no existing wiki page covers the concept or method, create a new page in the appropriate folder:
-	- `wiki/concepts/` for concepts and entities
-	- `wiki/methods/` for procedures and techniques
-8. Add the appropriate tag to the top of the file:
-	- `#concepts` for concepts and entities
-	- `#methods` for procedures and techniques
-9. If the source contradicts an existing wiki page, note the discrepancy on both pages but do not overwrite it anywhere.
-10. If there are any related figures add a Markdown image link to the wiki files (summary, concepts, and/or methods), for example:
-   - `![Figure 1: caption text](../images/va2-fig1.jpg)`
-10. Note contradictions with existing pages instead of silently overwriting.
-11. 10. Update `wiki/index.md` so it points to any new or changed wiki pages.
-12. Append an entry to `wiki/log.md` describing what was ingested, what changed, and any open issues.
-13. After ingesting, prompt the human to engage with the material using one of these methods:
-	   - explain it back
-	   - a Socratic dialogue
-	   - a quiz
-	   - attempt first, then find the error
-	   - steelman both sides
-14. Do not mark ingest complete until the summary, any needed concept or method pages, figure links, index, and log are all updated.
 
 ## The evaluation loop
 
