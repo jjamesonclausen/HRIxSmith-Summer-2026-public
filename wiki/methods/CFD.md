@@ -17,11 +17,15 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 - It framed CFD as the detailed middle ground between lower-fidelity models and wind-tunnel experiments. (source: sources/vj6.md)
 - The helical-VAWT study used 2D LES for blade-scale flow and 3D U-RANS with SST k-omega for the full rotor. (source: sources/va4.md)
 - It found that 3D effects such as tip vortex and second flow reduce performance relative to 2D predictions. (source: sources/va4.md)
+- A helical-VAWT helix-angle study used Ansys FLUENT with stationary and rotating domains, a sliding mesh interface, transition SST k-omega turbulence modeling, grid/time-step independence checks, and validation against McLaren's experimental VAWT data. (source: sources/va7.md)
+- That study used z-vorticity contours and wake profiles to connect section-wise blade loading, vortex shedding, wake interaction, and flow separation to moment-coefficient behavior. (source: sources/va7.md)
 
 ## Figures
 
 ![Figure 11: streamlines showing wake-vortex interaction](../../images/va4-fig11.jpg)
 ![Figure 14: 2D LES versus 3D U-RANS power coefficient](../../images/va4-fig14.jpg)
+![Figure 2: stationary and rotating CFD domains](../../images/va7-fig2.jpg)
+![Figure 21: z-vorticity at different TSRs](../../images/va7-fig21.jpg)
 - The CRVAWT optimization paper used STAR-CCM+ CFD, validated an isolated VAWT against wind-tunnel data, and then used the simulation outputs in a response-surface optimization workflow. (source: sources/vj8.md)
 
 #methods

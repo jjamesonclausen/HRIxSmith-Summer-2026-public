@@ -20,6 +20,7 @@ _One page per file in `sources/`._
 - [[summaries/va1-summary]]
 - [[summaries/va2-summary]]
 - [[summaries/va6-summary]]
+- [[summaries/va7-summary]]
 - [[summaries/va5-summary]]
 - [[summaries/va4-summary]]
 - [[summaries/va3-summary]]

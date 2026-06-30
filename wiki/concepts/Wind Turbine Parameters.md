@@ -21,6 +21,8 @@ Key metrics used to evaluate wind turbine performance. (source: sources/HRI2526.
 - It also reports power coefficients around 0.5 for HAWTs and 0.4 for VAWTs. (source: sources/va6.md)
 - In the wind-shear HAWT study, vertical wind shear reduces angle of attack and lift coefficient, reduces power coefficient, and increases thrust coefficient. (source: sources/vj10.md)
 - The same study reports that most wind-shear-driven coefficient changes occur between 0.2 and 0.8 of blade length, with little effect near the root region. (source: sources/vj10.md)
+- In the helical-VAWT helix-angle study, the coefficient of performance is treated as the product of TSR and average moment coefficient. (source: sources/va7.md)
+- The study uses the standard deviation of Cp as a cyclic-loading smoothness metric; higher helix angles reduced this standard deviation, while the 60-degree helical blade gave the highest reported power performance. (source: sources/va7.md)
 
 ## Figures
 
@@ -30,6 +32,8 @@ Key metrics used to evaluate wind turbine performance. (source: sources/HRI2526.
 ![Figure 5-8: CAD design, assembly, turbine specifications, and observation table](../../images/va5-fig4.jpg)
 ![Figure 8: Distribution of angle of attack](../../images/vj10-fig8.jpg)
 ![Figure 10: Distribution of thrust coefficient](../../images/vj10-fig10.jpg)
+![Figure 7: coefficient of performance across helix angles](../../images/va7-fig7.jpg)
+![Figure 14: standard deviation of Cp across blade types and TSR](../../images/va7-fig14.jpg)
 
 These parameters are often visualized using a power curve, which relates wind speed to power output. (source: sources/HRI2526.md)
 

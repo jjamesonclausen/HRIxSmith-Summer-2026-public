@@ -844,3 +844,17 @@ Decisions:
 
 Open:
 - None
+
+### 2026-06-30 — Check Python and PyMuPDF access
+
+Task: Confirm whether Python and the PyMuPDF library are available from this workspace.
+
+Actions:
+- Ran `python --version` and confirmed Python 3.14.6 is available
+- Imported `fitz` and confirmed PyMuPDF 1.28.0 is available
+
+Decisions:
+- No project content was changed beyond this log entry
+
+Open:
+- None

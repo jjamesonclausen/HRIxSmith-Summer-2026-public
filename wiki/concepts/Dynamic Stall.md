@@ -8,6 +8,7 @@ Unsteady aerodynamic separation that occurs when a blade experiences rapidly cha
 - PIV data is useful for validating dynamic-stall CFD because it captures vortex structure directly. (source: sources/vj5.md)
 - The CFD review treats dynamic stall as one of the central aerodynamic challenges in VAWT development alongside blade-wake interaction and changing angle of attack. (source: sources/vj6.md)
 - It also uses dynamic stall as part of the motivation for comparing mesh strategies, turbulence models, and validation approaches. (source: sources/vj6.md)
+- The helical-VAWT helix-angle study analyzes leading-edge vortex formation, flow separation, and wake interaction through z-vorticity contours, linking those flow features to secondary peaks in moment coefficient. (source: sources/va7.md)
 
 Related:
 - [[VAWT]]
