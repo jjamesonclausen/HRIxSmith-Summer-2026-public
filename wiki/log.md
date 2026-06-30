@@ -702,6 +702,25 @@ Decisions:
 Open:
 - User can approve applying the schema update directly
 
+### 2026-06-30 — Fix vj10 figure crops
+
+Task: Fix the figure images for `sources/vj10.md` using the schema extraction rules.
+
+Actions:
+- Compared `sources/vj10.md`, `images/vj10-fig*.jpg`, and `PDFs/1-s2.0-S0959652619304585-main.pdf`
+- Found that the existing figure crops included too much surrounding page text and table content
+- Re-rendered tighter visible figure regions for `images/vj10-fig1.jpg` through `images/vj10-fig11.jpg`
+- Moved figure links out of generated `Figures extracted from this page` blocks and placed them next to the original captions
+- Preserved the Figure 2 caption from the PDF while relocating its image link
+- Verified 11 links, 11 image files, no broken relative paths from `sources/`, no leftover generated figure blocks, and reviewed an after-fix contact sheet
+
+Decisions:
+- Used rendered visible regions because several `vj10` figures are vector/text drawings rather than clean embedded image assets
+- Kept existing file names so wiki references to `vj10-fig*.jpg` remain valid
+
+Open:
+- None
+
 ### 2026-06-30 — Ingest vj10.md
 
 Task: Ingest the newest PDF in `PDFs/`.
