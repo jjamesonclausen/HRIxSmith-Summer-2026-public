@@ -20,3 +20,19 @@
 14. Preserve the paper’s structure, link figures in their original locations and keep figure numbering consistent with the original PDF.
 15. Before marking the conversion complete, verify that each extracted image matches the visible figure in the PDF.
 16. If figure extraction is not possible with the available tools, stop and ask the human before finishing.
+
+
+When Python is available, use `PyMuPDF` (`fitz`) as the default figure-extraction tool.
+
+1. Match the PDF to its source Markdown file before extracting figures.
+   - Example: `sources/vj9.md` should produce `images/vj9-fig1.jpg`, `images/vj9-fig2.jpg`, etc.
+2. First inspect embedded PDF image objects with PyMuPDF.
+3. If embedded extraction does not preserve the visible figure cleanly, render the visible figure region from the PDF page to `.jpg`.
+4. For composite/vector figures, prefer rendered visible regions over partial embedded assets.
+5. Add each image link directly below or near the original caption in the source Markdown.
+6. Do not rewrite or paraphrase the source text while adding image links.
+7. Before finishing, verify:
+   - The number of extracted `images/<source>-fig*.jpg` files matches the number of linked figures.
+   - Every Markdown image path resolves from the source file’s folder.
+   - The extracted images appear in the same order as the PDF captions.
+   - A quick visual check/contact sheet confirms the images are not obviously mismatched.
