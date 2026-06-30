@@ -48,6 +48,8 @@ Inefficiencies:
 - Helical VAWTs can smooth power output because blade phases are spread across the rotation. (source: sources/va4.md)
 - Small J-type drag VAWTs can be designed for rooftop electrification and low-cost domestic loads. (source: sources/va5.md)
 - A contra-rotating VAWT can improve stability and wind-energy recovery, but the paper reports lower pre-optimization Cp than an isolated VAWT. (source: sources/vj8.md)
+- A helical-blade CFD study reports a tradeoff between performance and smoothness: the 60-degree helical VAWT had the best power performance among the tested cases, while the 120-degree helical VAWT had the lowest Cp standard deviation. (source: sources/va7.md)
+- The same study found helical VAWT wakes dissipate more quickly than straight-bladed VAWT wakes, and wake profiles weaken as helix angle increases. (source: sources/va7.md)
 
 Deployment considerations:
 - Performance improves significantly in higher wind environments (e.g., tall buildings, bridges). (source: sources/n2.md)

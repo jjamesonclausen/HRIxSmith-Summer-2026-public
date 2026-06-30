@@ -15,7 +15,8 @@ When Python is available, use `PyMuPDF` (`fitz`) as the default figure-extractio
    - The extracted images appear in the same order as the PDF captions.
    - A quick visual check/contact sheet confirms the images are not obviously mismatched.
 
-If python is not avalable do the following 
+If python is not avalable do the following:
+ 
 1. For every figure, first try to extract the original embedded image asset from the PDF, including assets inside nested page content or Form XObjects.
 2. If the figure is vector-only, composite, or otherwise cannot be extracted faithfully as an original image, render the visible figure region to a `.jpg` instead.
 3. Preserve crop boundaries, transparency, masks, and rotation where possible.
