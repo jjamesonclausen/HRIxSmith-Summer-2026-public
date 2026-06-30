@@ -13,8 +13,6 @@ Compared with HAWTs, fixed-pitch SB-VAWTs are mechanically simpler and do not re
 
 Figure 1: Vertical Wind giromill wind turbine
 
-![Figure 1: Vertical Wind giromill wind turbine](../images/vj7-fig1.jpg)
-
 ## 2. Required Properties of the Blade Materials
 SB-VAWT blades are exposed to diversified load conditions and dynamic stresses that are more severe than many mechanical applications. Based on operational conditions, blade materials should:
 
@@ -31,8 +29,6 @@ Fatigue is the major problem facing both HAWTs and VAWTs. An operating turbine m
 
 Figure 2: Three-bladed Darrieus wind turbine
 
-![Figure 2: Three-bladed Darrieus wind turbine](../images/vj7-fig2.jpg)
-
 ## 3. Prospective Materials
 Smaller wind turbine blades are usually made of aluminum or laminated wood. Metals were initially popular because they yield low-cost blades and can be manufactured reliably, but most metallic blades, such as steel, are relatively heavy. Laminated wood was tried on early machines in 1977. The most popular materials for different wind turbines are wood, aluminum, and fiberglass composites.
 
@@ -48,8 +44,6 @@ Fiberglass-reinforced composites are currently the blade materials of choice for
 Fiberglass composites and wood/epoxy are attractive because they have low density, good mechanical properties, excellent corrosion resistance, tailorable material properties, and versatile fabrication methods. The paper also notes that an extensive database for fiberglass composites helps designers improve performance without significantly increasing costs.
 
 Figure 3: Cycloturbine Rotor
-
-![Figure 3: Cycloturbine Rotor](../images/vj7-fig3.jpg)
 
 ## 4. Literature Survey
 The cited studies include:
