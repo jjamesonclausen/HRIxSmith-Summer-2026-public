@@ -687,6 +687,20 @@ Decisions:
 Open:
 - None
 
+### 2026-06-30 — Record torque ripple explanation
+
+Task: Add the user's torque-ripple understanding to the learning log.
+
+Actions:
+- Added a new `Torque ripple` entry to `wiki/learning-log.md`
+- Captured the explanation that torque ripple is uneven torque during rotation and can lower efficiency
+
+Decisions:
+- Kept the learning-log entry in the user's own wording style rather than expanding it
+
+Open:
+- None
+
 ### 2026-06-30 — Add vj9 summary page
 
 Task: Create a summary page for `sources/vj9.md` and link it from the wiki index.

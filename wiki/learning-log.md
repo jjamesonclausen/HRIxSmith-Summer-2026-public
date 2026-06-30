@@ -39,6 +39,11 @@ Open:
 - Tripped me up: I was really confused about Kriging and didn't really understand the role of Kriging vs Latin-hypercube sampling. Some of the equations were also unclear to me.
 - Still open: I think I understand the process much better, if we want to look into this again I would want to learn more about how all of the steps work.
 
-## 2026-06-30 — Schema instruction design
+## 2026-06-30 — Schema instruction design - julie 
 - Explained: How to tighten a schema procedure so future PDF figure extraction consistently uses Python/PyMuPDF, checks for existing source/image mappings, links images from `sources/*.md`, and verifies counts/paths/order before finishing.
 - Prompt for Anna: Add your own note here if the idea of turning a successful workflow into a reusable schema rule clicked.
+
+## 2026-06-30 — Torque ripple - julie 
+- In my words: Torque ripple is when torque is not smooth while the turbine rotates, so it rises and falls instead of staying steady. Those fluctuations can reduce efficiency.
+- Tripped me up: I hadn't heard the term before but it just means uneven torque over the rotation.
+- Still open: How much torque ripple matters depends on the turbine design and operating point.
