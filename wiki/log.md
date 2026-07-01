@@ -1,5 +1,18 @@
 ## Log
 
+### 2026-07-01 — Add VAWT design hub pages
+
+- Task: reorganize the concepts area around VAWT design, especially the rules-of-thumb idea.
+- Actions:
+  - Added new concept hub pages for `VAWT Design Overview`, `VAWT Design Comparisons`, `Turbine Concept Selection`, `Aerodynamic Design Parameters`, `Structures and Loads`, `Materials and Manufacturing`, `CFD and Validation`, `Optimization`, `Design Checklist`, and `Rules of Thumb`.
+  - Updated `wiki/index.md` so the new pages are visible from the main concepts list.
+  - Added links from `concepts/VAWT.md` to the new design pages.
+- Decisions:
+  - Kept the new pages as source-grounded hubs that point to the existing detailed pages instead of duplicating the underlying paper content.
+  - Made `Rules of Thumb` a dedicated page because it is the most useful quick-reference layer for a design workflow.
+- Open:
+  - None.
+
 ### 2026-07-01 — Fill source publication dates
 
 - Task: populate `Published` in `sources/vj1.md` through `sources/vj7.md` with the best supported date information.
