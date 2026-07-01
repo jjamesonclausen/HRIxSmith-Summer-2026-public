@@ -1,5 +1,28 @@
 ## Log
 
+### 2026-07-01 — Expand VAWT types hub from HRI2526
+
+- Task: add the VAWT families and variants named in `sources/HRI2526.md` into `wiki/concepts/VAWT Types.md`.
+- Actions:
+  - Expanded the hub to include classical, helical, straight-bladed, troposkien, and eggbeater Darrieus variants.
+  - Added the hybrid configurations named in the report, including helical hybrid, outer Darrieus with inner Savonius, Darrieus above Savonius, multi-stage Savonius within H-rotor Darrieus, and double Darrieus with inner H-rotor and outer eggbeater.
+- Decisions:
+  - Kept the structure grouped by drag-based, lift-based, and hybrid/combined families.
+  - Left contra-rotating as an inference because the wiki does not yet have a dedicated concept page for it.
+- Open:
+  - None.
+
+### 2026-07-01 — Add VAWT types hub
+
+- Task: create a hub-style concept page for VAWT families grouped by broader categories.
+- Actions:
+  - Added `wiki/concepts/VAWT Types.md` with drag-based, lift-based, and hybrid/combined sections.
+  - Linked the page from `wiki/index.md` and `concepts/VAWT.md`.
+- Decisions:
+  - Kept the page limited to families currently represented in the wiki and marked contra-rotating as an inference where no separate concept page exists yet.
+- Open:
+  - None.
+
 ### 2026-07-01 — Add VAWT design hub pages
 
 - Task: reorganize the concepts area around VAWT design, especially the rules-of-thumb idea.

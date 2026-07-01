@@ -41,6 +41,7 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 
 - [[concepts/Annual Energy Output]]
 - [[concepts/Atmospheric Turbulence]]
+- [[concepts/VAWT Types]]
 - [[concepts/Darrieus Turbine]]
 - [[concepts/Dynamic Stall]]
 - [[concepts/Economic Viability of VAWTs]]

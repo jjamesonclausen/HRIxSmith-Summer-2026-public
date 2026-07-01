@@ -65,6 +65,7 @@ Types of VAWTs:
 
 Related:
 - [[Lift vs Drag]]
+- [[VAWT Types]]
 - [[VAWT Design Overview]]
 - [[VAWT Design Comparisons]]
 - [[Design Checklist]]

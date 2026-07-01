@@ -70,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,8 +180,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "22a0ccf24e9610f6",
+  "active": "a928b410fb25f66b",
   "lastOpenFiles": [
+    "wiki/concepts/VAWT Types.md",
     "wiki/concepts/VAWT Design Overview.md",
     "wiki/concepts/Design Checklist.md",
     "wiki/concepts/Atmospheric Turbulence.md",
