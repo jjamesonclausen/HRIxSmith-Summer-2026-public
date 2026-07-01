@@ -1,5 +1,75 @@
 ## Log
 
+### 2026-07-01 — Clean vj8 abstract header
+
+- Task: remove the stray journal header/footer spill from the start of `sources/vj8.md` and label the abstract.
+- Actions:
+  - Replaced the `A B S T R A C T` marker with `## Abstract`.
+  - Removed the `E-mail address` / ScienceDirect / journal footer lines that had spilled into the introduction block.
+- Decisions:
+  - Kept the rest of the source unchanged because the issue was limited to the top-of-file spill.
+- Open:
+  - None.
+
+### 2026-07-01 — Rebuild vj8
+
+- Task: check `vj8` for summarization, missing text, and image quality.
+- Actions:
+  - Rebuilt `sources/vj8.md` from the PDF text layer instead of the prior summary.
+  - Re-extracted the `vj8-fig*.jpg` figures from embedded PDF images.
+  - Fixed one duplicate figure-caption insertion near Fig. 18.
+- Decisions:
+  - Treated the existing `vj8.md` as summary/OCR drift and replaced it with a raw transcript-style source.
+- Open:
+  - None.
+
+### 2026-07-01 — Rebuild vj7
+
+- Task: check `vj7` for summarization, missing text, and figure quality.
+- Actions:
+  - Rewrote `sources/vj7.md` from the PDF text layer instead of the prior summary.
+  - Replaced `vj7-fig1.jpg`, `vj7-fig2.jpg`, and `vj7-fig3.jpg` with embedded PDF image extractions.
+  - Kept the source anchored to the PDF sections and references.
+- Decisions:
+  - Treated the old `vj7.md` as a summary that needed a full source rebuild.
+- Open:
+  - None.
+
+### 2026-07-01 — Fix vj6 Table 1
+
+- Task: repair the broken Table 1 block in `sources/vj6.md`.
+- Actions:
+  - Replaced the flattened OCR table with a clean Markdown table.
+  - Kept the wording aligned with the PDF’s Table 1 content for sliding, overset, and morphing mesh.
+- Decisions:
+  - Left the rest of the document unchanged in this pass.
+- Open:
+  - Broader paragraph cleanup is still separate from this table fix.
+
+### 2026-07-01 — vj6 follow-up cleanup
+
+- Task: address the reviewer notes on `sources/vj6.md`.
+- Actions:
+  - Regenerated all `vj6-fig*.jpg` files as tight PDF crops.
+  - Replaced displayed equations 1 through 11 with cropped equation images.
+  - Verified the source still references the figure assets and the new equation images.
+- Decisions:
+  - Kept the source text otherwise unchanged after a failed broad reflow attempt, because the safe text cleanup path needs a narrower pass.
+- Open:
+  - Paragraph reflow remains to be decided: conservative spot fixes vs. a full verbatim reflow pass.
+
+### 2026-07-01 — Finish vj6 rebuild
+
+- Task: replace the paraphrased `sources/vj6.md` with the rebuilt PDF-derived draft.
+- Actions:
+  - Copied the verified `vj6-rebuild.md` draft into `sources/vj6.md`.
+  - Confirmed the source hash matches the draft hash exactly.
+  - Verified all 21 `vj6-fig*.jpg` assets exist and are linked from the source.
+- Decisions:
+  - Kept the draft as-is because it was a full rebuild with the references section intact and no content drift from the temp draft.
+- Open:
+  - None.
+
 ### 2026-06-30 — Maintenance pass
 
 - Task: run the wiki maintenance procedure from `schema/`.
