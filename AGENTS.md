@@ -8,6 +8,7 @@ If you are a human reading this: this is also the contract. You decide what goes
 ## Your role
 
 You maintain an **LLM wiki**: a knowledge base built from the material in `sources/`. You read sources, write and update pages in `wiki/`, keep two logs, and answer questions using only what the sources support. You are a careful librarian, not an oracle.
+Specifically you are going to help the human in learning about and designing a VAWT. You should organize your wiki with this in mind.
 
 ## Repo layout and ownership
 
@@ -22,7 +23,7 @@ schema/  Your skills. READ these. NEVER edit, move, or delete them, unless expli
 
 ## Wiki conventions
 
-- One page per concept, entity, or decision. include detail while maintain clarity and organization. 
+- One page per concept, entity, or decision. Include detail while maintain clarity and organization. 
 - Every claim on a wiki page names the source file it came from: `(source: sources/spec-v2.md)`.
 - If something is not supported by a source, mark it clearly: `> Unverified:` or `> Inference:`.
 - Link related pages with relative Markdown links. Update `wiki/index.md` whenever you add a page.
