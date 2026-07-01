@@ -1,3 +1,13 @@
+---
+Title: "How turbulence can impact power performance"
+Author: "Julie Lundquist, Andrew Clifton"
+Published: 2012-09
+Created: ""
+Processed: false
+tags:
+- "sources"
+---
+
 #sources
 # How turbulence can impact power performance
 

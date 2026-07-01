@@ -1,3 +1,13 @@
+---
+Title: "A Review of Computational Fluid Dynamics Techniques and Methodologies in Vertical Axis Wind Turbine Development"
+Author: "Ahmad Fazlizan, Wan Khairul Muzammil, Najm Addin Al-Khawlani"
+Published: "2025-08-31"
+Created: ""
+Processed: false
+tags:
+- "sources"
+---
+
 Computer Modeling in
 Engineering & Sciences
 ech

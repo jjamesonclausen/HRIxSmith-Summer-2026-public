@@ -1,3 +1,13 @@
+---
+Title: "Simulating Dynamic Stall in a 2D VAWT: Modeling strategy, verification and validation with Particle Image Velocimetry data"
+Author: "C. J. Simão Ferreira, H. Bijl, G. van Bussel, G. van Kuik"
+Published: 2009-05
+Created: ""
+Processed: false
+tags:
+- "sources"
+---
+
 #sources
 # Simulating Dynamic Stall in a 2D VAWT: Modeling strategy, verification and validation with Particle Image Velocimetry data
 

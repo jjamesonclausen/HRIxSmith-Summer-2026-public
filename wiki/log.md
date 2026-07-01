@@ -1,5 +1,33 @@
 ## Log
 
+### 2026-07-01 — Fill source publication dates
+
+- Task: populate `Published` in `sources/vj1.md` through `sources/vj7.md` with the best supported date information.
+- Actions:
+  - Set `vj1` to `2007` from the Elsevier copyright/front-matter year.
+  - Set `vj2` to `2020` from the paper's own 2020 symposium reference in the source text.
+  - Set `vj3` to `2012-09` from the visible source line `North American Windpower, September 2012`.
+  - Set `vj4` to `2016-05` from Crossref metadata for the paper.
+  - Set `vj5` to `2009-05` from Crossref metadata for the paper.
+  - Left `vj7` blank because no exact Crossref/DOI match or source year could be confirmed.
+- Decisions:
+  - Used partial dates when only month/year were supported.
+  - Avoided inventing a year for `vj7`.
+- Open:
+  - None.
+
+### 2026-07-01 — Add vj8 properties block
+
+- Task: add schema frontmatter to `sources/vj8.md` and confirm `sources/vj9.md` status.
+- Actions:
+  - Added `Title`, `Author`, `Published`, `Created`, `Processed`, and `tags` frontmatter to `sources/vj8.md`.
+  - Verified `sources/vj9.md` already had a complete properties block and left it unchanged.
+- Decisions:
+  - Used `Published: 2023-12-30` for `vj8` because the source explicitly says “Available online 30 December 2023.”
+  - Left `Created` blank because the source did not provide a creation date.
+- Open:
+  - None.
+
 ### 2026-07-01 — Clean vj8 abstract header
 
 - Task: remove the stray journal header/footer spill from the start of `sources/vj8.md` and label the abstract.

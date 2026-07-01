@@ -1,3 +1,13 @@
+---
+Title: "Evaluation of different turbine concepts for wind power"
+Author: "Sandra Eriksson, Hans Bernhoff, Mats Leijon"
+Published: 2007
+Created: ""
+Processed: false
+tags:
+- "sources"
+---
+
 # Evaluation of different turbine concepts for wind power
 
 ## Sandra Eriksson , Hans Bernhoff, Mats Leijon 

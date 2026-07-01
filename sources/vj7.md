@@ -1,3 +1,13 @@
+---
+Title: "Review of Straight Bladed Vertical Axis Wind Turbine"
+Author: "Prakhar Dube, Amit Ray Chowdhary, Alok Verma"
+Published: ""
+Created: ""
+Processed: false
+tags:
+- "sources"
+---
+
 # Review of Straight Bladed Vertical Axis Wind Turbine
 
 Prakhar Dube1, Amit Ray Chowdhary2, Alok Verma3

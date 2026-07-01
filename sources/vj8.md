@@ -1,3 +1,13 @@
+---
+Title: "Parameter optimization method of contra-rotating vertical axis wind turbine: Based on numerical simulation and response surface"
+Author: "Peng Zheng, Hexiang Zhang, Zutao Zhang, Waleed Salman, and Mansour Abdelrahman"
+Published: 2023-12-30
+Created: ""
+Processed: false
+tags:
+- "sources"
+---
+
 # Parameter optimization method of contra-rotating vertical axis wind turbine: Based on numerical simulation and response surface
 
 Peng Zheng, Hexiang Zhang, Zutao Zhang, Waleed Salman, and Mansour Abdelrahman
