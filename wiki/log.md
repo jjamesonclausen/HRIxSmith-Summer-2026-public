@@ -1,5 +1,18 @@
 ## Log
 
+### 2026-06-30 — Maintenance pass
+
+- Task: run the wiki maintenance procedure from `schema/`.
+- Actions:
+  - Read `AGENTS.md` and the `schema/` procedures.
+  - Checked the current source and wiki inventory.
+  - Confirmed `20` source markdown files and `20` summary pages.
+- Decisions:
+  - No wiki content changes were needed because the summary inventory matches the source inventory.
+  - `schema/Maintain Wiki` is empty, so there was no additional procedure to follow there.
+- Open:
+  - Re-run ingest if any new source files are added or updated.
+
 ### 2026-06-24
 
 - Ingested sources/n1.md and sources/va1.md
