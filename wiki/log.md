@@ -376,6 +376,82 @@ Decisions:
 Open:
 - None
 
+### 2026-07-01 — Check vj2 figures
+
+Task: Verify `sources/vj2.md` for the same figure issues seen in `vj1`.
+
+Actions:
+- Checked the extracted figure files for `vj2` and confirmed the expected image set is present
+- Compared the source figure links against the PDF figure order and found them aligned
+- Removed the stale note claiming the figure images were missing from `images/`
+
+Decisions:
+- Left the existing `vj2` figure crops and links in place because they match the PDF layout
+
+Open:
+- None
+
+### 2026-07-01 — Check vj4 figures
+
+Task: Verify `sources/vj4.md` for figure-link and crop issues.
+
+Actions:
+- Read the figure sections in `sources/vj4.md`
+- Visually checked the extracted `vj4-fig*.jpg` images against their captions
+- Confirmed the figure sequence and filenames are aligned
+
+Decisions:
+- No edits were needed; the source links and extracted images match the paper layout
+
+Open:
+- None
+
+### 2026-07-01 — Re-export vj4 figures
+
+Task: Fix `vj4` figure crops to follow the extraction protocol.
+
+Actions:
+- Re-exported `vj4-fig2.jpg` through `vj4-fig12.jpg` from the PDF's actual figure bounding boxes
+- Removed caption bleed and surrounding page text from the figure images
+- Kept `vj4-fig1.jpg` and the source links unchanged
+
+Decisions:
+- Used the visible figure regions from the PDF as the source of truth for composite/vector figures
+
+Open:
+- None
+
+### 2026-07-01 — Fix vj5 figures
+
+Task: Re-export the `vj5` figures using the extraction protocol.
+
+Actions:
+- Replaced embedded-image figures with direct xref extractions for the clean figure assets
+- Re-rendered the vector-only force-history figures so they exclude captions and surrounding text
+- Verified all 22 `vj5-fig*.jpg` files exist and remain linked from `sources/vj5.md`
+
+Decisions:
+- Followed the protocol's preference for embedded image extraction first, then page rendering for vector-only plots
+
+Open:
+- None
+
+### 2026-07-01 — Restore vj5 source text
+
+Task: Remove summary-style rewrites from `sources/vj5.md` and restore the paper wording.
+
+Actions:
+- Replaced the abstract and section lead-ins with the paper's original language
+- Restored the model, flow-condition, validation, and grid-sensitivity sections from the PDF text
+- Fixed a few clipped OCR/transcription fragments that remained after the rewrite
+
+Decisions:
+- Kept the figure links and cleaned figure assets in place
+- Left minor OCR quirks that are transcription artifacts rather than summaries
+
+Open:
+- None
+
 ### 2026-06-29 — Clean vj8 formatting
 
 Task: Remove header/footer noise and obvious OCR fragments from `sources/vj8.md` without changing the source content.

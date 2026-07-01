@@ -11,8 +11,6 @@ S.C. Rolix Impex Series S.R.L., Romania
 
 Savonius and Darrieus rotors are the most popular vertical axis wind turbines (VAWT). However, both of them have disadvantages: low starting torque of the Darrieus rotor, which prevents it from self-starting, and low speed of the Savonius rotor which makes it inappropriate for power generation. Using a hybrid Savonius-Darrieus turbine is a solution to compensate these disadvantages. In this paper the torque of a Darrieus-Savonius hybrid wind turbine is estimated by means of computational fluid analysis (CFD), and improved designs are proposed and analysed, in order to establish the increase in performance against the original model. A first change in design was to remove the shaft from the inside of the Savonius rotor. A second change consists in the removal of the Savonius rotor from inside of the Darrieus one and placing it outside the rotor. CFD analysis was performed on these configurations. For the first one, the torque increased by 10.5%, while the average torque increase for the second configuration reached 22.3%.
 
-> Unverified: This source mentions figures, but matching extracted figure images are not yet present in `images/`. The captions are retained below as placeholders.
-
 ## Keywords
 
 Wind turbine, Savonius, Darrieus, CFD, Optimization, Torque, Renewable energy
