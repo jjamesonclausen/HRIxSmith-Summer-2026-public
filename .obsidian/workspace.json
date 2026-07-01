@@ -11,14 +11,10 @@
             "id": "22a0ccf24e9610f6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sources/README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -78,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -185,6 +182,9 @@
   },
   "active": "22a0ccf24e9610f6",
   "lastOpenFiles": [
+    "sources/vj1.md",
+    "images/vj1-fig2.jpg",
+    "images/vj1-fig1.jpg",
     "Clippings/Research Notes.md",
     "Clippings/desktop.ini",
     "sources/README.md",

@@ -301,6 +301,81 @@ Decisions:
 Open:
 - None
 
+### 2026-07-01 — Clean vj1 source header
+
+Task: Remove PDF header boilerplate from `sources/vj1.md`.
+
+Actions:
+- Removed the stray source marker, journal header line, and Elsevier URL from the top of the file
+- Kept the paper title, authors, and abstract intact
+
+Decisions:
+- Limited the cleanup to the obvious header noise at the top of the source markdown
+
+Open:
+- None
+
+### 2026-07-01 — Clean vj1 page breaks
+
+Task: Remove repeated page-header interruptions from `sources/vj1.md`.
+
+Actions:
+- Removed the repeated running journal header from the middle of paragraphs
+- Removed standalone page numbers inserted at page breaks
+- Cleaned the references section where the header text had been injected inline
+
+Decisions:
+- Kept the paper text, figure captions, and references intact
+- Treated this as formatting cleanup only, not content rewriting
+
+Open:
+- None
+
+### 2026-07-01 — Add vj1 figures
+
+Task: Restore the extracted figures for `sources/vj1.md`.
+
+Actions:
+- Extracted two figure images from `PDFs/vj1.pdf` into `images/vj1-fig1.jpg` and `images/vj1-fig2.jpg`
+- Added Markdown image links for both figures at their caption locations in `sources/vj1.md`
+- Verified both image files exist and the source links resolve relative to `sources/`
+
+Decisions:
+- Used rendered figure regions instead of partial embedded assets so the composite first figure stayed intact
+
+Open:
+- None
+
+### 2026-07-01 — Clean vj1 placeholder blocks
+
+Task: Remove leftover OCR picture placeholder blocks from `sources/vj1.md`.
+
+Actions:
+- Removed the omitted picture markers around the equation sections
+- Removed the embedded graph-text placeholder block near Fig. 2
+- Kept the surrounding prose, table, and figure links intact
+
+Decisions:
+- Treated the placeholders as OCR artifacts, not source content
+
+Open:
+- None
+
+### 2026-07-01 — Fix vj1 figure crops
+
+Task: Correct the figure images linked from `sources/vj1.md`.
+
+Actions:
+- Replaced `images/vj1-fig1.jpg` with a crop from the actual figure on PDF page 3
+- Replaced `images/vj1-fig2.jpg` with a render of the actual chart on PDF page 9
+- Kept the existing figure links in `sources/vj1.md`
+
+Decisions:
+- Used the visible figure regions from the PDF rather than the journal masthead crop and OCR placeholder text
+
+Open:
+- None
+
 ### 2026-06-29 — Clean vj8 formatting
 
 Task: Remove header/footer noise and obvious OCR fragments from `sources/vj8.md` without changing the source content.
