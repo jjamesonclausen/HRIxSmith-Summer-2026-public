@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#methods",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -91,17 +92,16 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sources/README.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks"
             }
           },
           {
@@ -180,13 +180,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "a928b410fb25f66b",
+  "active": "22a0ccf24e9610f6",
   "lastOpenFiles": [
+    "data view testing.md",
+    "wiki/concepts/Aerodynamic Design Parameters.md",
+    "Untitled.base",
     "wiki/concepts/VAWT Types.md",
+    "wiki/concepts/Lift vs Drag VAWT – Research Question.md",
+    "wiki/concepts/J-Type VAWT.md",
+    "wiki/concepts/Savonius Turbine.md",
     "wiki/concepts/VAWT Design Overview.md",
     "wiki/concepts/Design Checklist.md",
     "wiki/concepts/Atmospheric Turbulence.md",
-    "wiki/concepts/Aerodynamic Design Parameters.md",
     "wiki/concepts/Turbine Concept Selection.md",
     "wiki/concepts/Rules of Thumb.md",
     "sources/n2.md",
