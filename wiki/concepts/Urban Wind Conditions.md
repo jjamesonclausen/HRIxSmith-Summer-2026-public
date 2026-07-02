@@ -1,3 +1,16 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/va8.md]]
+- [[sources/vj10.md]]
+- [[sources/vj11.md]]
+- [[sources/vj12.md]]
+Source_count: 5
+Tags:
+- concepts
+---
 ## Urban Wind Conditions
 
 Characteristics of airflow in built environments. (source: sources/HRI2526.md)

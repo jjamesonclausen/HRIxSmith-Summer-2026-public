@@ -1,3 +1,13 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/vj4.md]]
+Source_count: 2
+Tags:
+- concepts
+---
 ## D-rotor / Eggbeater Darrieus
 
 A curved-blade Darrieus variant often called the eggbeater rotor. (source: sources/HRI2526.md)

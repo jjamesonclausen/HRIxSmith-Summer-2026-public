@@ -1,3 +1,13 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/vj4.md]]
+Source_count: 2
+Tags:
+- concepts
+---
 ## Troposkien Darrieus
 
 A curved-blade Darrieus design shaped to follow the troposkien form. (source: sources/HRI2526.md)

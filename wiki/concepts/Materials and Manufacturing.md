@@ -1,3 +1,14 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/va8.md]]
+- [[sources/vj1.md]]
+- [[sources/vj7.md]]
+Source_count: 3
+Tags:
+- concepts
+---
 ## Materials and Manufacturing
 
 Blade material choice is not just a cost issue; it affects fatigue life, stiffness, corrosion resistance, and maintenance.

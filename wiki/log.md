@@ -375,6 +375,23 @@ Decisions:
 Open:
 - None
 
+### 2026-07-02 — Normalize concept and method metadata
+
+Task: Add convention-style frontmatter metadata to the concept and methods wiki pages.
+
+Actions:
+- Added frontmatter to concept pages that were missing it
+- Added frontmatter to methods pages that were missing it
+- Populated each new frontmatter block with `Updated: 2026-07-02`, the page's cited source backlinks, source count, and folder tag
+- Left the one preexisting metadata page (`concepts/Wind Shear.md`) untouched because it already matched the convention
+
+Decisions:
+- Kept the existing page bodies and links intact
+- Used blank `Created:` values where the original creation date was unavailable
+
+Open:
+- None
+
 ### 2026-07-02 — Add vj12 concepts and methods notes
 
 Task: Fold the new `vj12` review into the existing concept and method pages.

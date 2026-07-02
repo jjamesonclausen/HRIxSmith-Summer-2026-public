@@ -1,3 +1,13 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/vj10.md]]
+- [[sources/vj4.md]]
+Source_count: 2
+Tags:
+- methods
+---
 ## Blade Element-Momentum Model
 
 Load-prediction method used to estimate wind-turbine performance from blade aerodynamics and momentum theory. (source: sources/vj4.md, sources/vj10.md)

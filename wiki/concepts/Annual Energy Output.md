@@ -1,3 +1,12 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/va1.md]]
+Source_count: 1
+Tags:
+- concepts
+---
 ## Annual Energy Output (AEO)
 
 Total energy produced by a wind turbine over a year. (source: sources/va1.md)

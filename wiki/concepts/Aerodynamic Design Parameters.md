@@ -1,3 +1,17 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/va8.md]]
+- [[sources/vj1.md]]
+- [[sources/vj11.md]]
+- [[sources/vj4.md]]
+- [[sources/vj8.md]]
+Source_count: 6
+Tags:
+- concepts
+---
 ## Aerodynamic Design Parameters
 
 These are the main geometry knobs the sources repeatedly treat as design variables.

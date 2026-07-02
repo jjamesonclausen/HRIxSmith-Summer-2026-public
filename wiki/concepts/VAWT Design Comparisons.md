@@ -1,3 +1,11 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+Source_count: 0
+Tags:
+- concepts
+---
 ## VAWT Design Comparisons
 
 This page groups the comparison-style pages a designer is likely to use first.

@@ -1,3 +1,13 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/vj12.md]]
+Source_count: 2
+Tags:
+- concepts
+---
 ## Helical Savonius
 
 A Savonius variant with the scoop geometry twisted helically around the shaft. (source: sources/HRI2526.md)

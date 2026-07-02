@@ -1,3 +1,12 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+Source_count: 1
+Tags:
+- concepts
+---
 ## Double Darrieus with Inner H-rotor and Outer Eggbeater
 
 A hybrid VAWT configuration that nests a Darrieus rotor inside another Darrieus rotor arrangement. (source: sources/HRI2526.md)

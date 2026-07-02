@@ -1,3 +1,13 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/vj12.md]]
+- [[sources/vj8.md]]
+Source_count: 2
+Tags:
+- concepts
+---
 ## Contra-rotating VAWT
 
 A VAWT concept that uses rotors spinning in opposite directions. (source: sources/vj8.md)

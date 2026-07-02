@@ -1,3 +1,12 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+Source_count: 1
+Tags:
+- concepts
+---
 ## Helical Hybrid
 
 A hybrid VAWT combining helical Darrieus blades with an internal helical Savonius rotor. (source: sources/HRI2526.md, sources/vj8.md)

@@ -1,3 +1,15 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/va4.md]]
+- [[sources/va7.md]]
+- [[sources/vj11.md]]
+Source_count: 4
+Tags:
+- concepts
+---
 ## Helical VAWT
 
 Vertical-axis wind turbine with blades twisted helically around the rotor. (source: sources/va4.md)

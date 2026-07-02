@@ -1,3 +1,20 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/n1.md]]
+- [[sources/va4.md]]
+- [[sources/va7.md]]
+- [[sources/vj12.md]]
+- [[sources/vj2.md]]
+- [[sources/vj5.md]]
+- [[sources/vj6.md]]
+- [[sources/vj8.md]]
+Source_count: 9
+Tags:
+- methods
+---
 ## Computational Fluid Dynamics (CFD)
 
 Numerical method for simulating fluid flow by dividing the domain into discrete cells. (source: sources/n1.md, sources/va1.md)

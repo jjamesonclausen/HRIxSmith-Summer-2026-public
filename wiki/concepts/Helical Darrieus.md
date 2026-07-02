@@ -1,3 +1,14 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/va4.md]]
+- [[sources/va7.md]]
+Source_count: 3
+Tags:
+- concepts
+---
 ## Helical Darrieus
 
 A Darrieus rotor whose blades are twisted helically around the shaft. (source: sources/HRI2526.md)

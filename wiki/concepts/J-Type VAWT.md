@@ -1,3 +1,12 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/va5.md]]
+Source_count: 1
+Tags:
+- concepts
+---
 ## J-Type VAWT
 
 A small drag-based vertical-axis wind turbine design using J-shaped blades. (source: sources/va5.md)
