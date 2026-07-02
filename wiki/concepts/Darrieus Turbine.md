@@ -32,6 +32,10 @@ Lift-based VAWT using airfoil blades to generate lift and rotation. (source: sou
 - A dynamic-stall CFD study modeled a 2D single-bladed Darrieus rotor at Re = 50,000 and λ = 2, and found DES gave the best validation against PIV data. (source: sources/vj5.md)
 - The paper emphasizes that leading-edge shedding and trailing-edge wake roll-up are the key unsteady features to match. (source: sources/vj5.md)
 
+The review gives typical Darrieus ranges of TSR 2.5-5.0, solidity 0.1-0.4, chord Reynolds number 10^5-10^6, and peak Cp 0.35-0.45 for optimized H-Darrieus designs. (source: sources/vj11.md)
+It says H-Darrieus rotors can reach the highest peak Cp among the main VAWT families, but self-starting remains the main weakness. (source: sources/vj11.md)
+It treats helical Darrieus as a tradeoff: smoother torque and lower ripple, but added manufacturing complexity and some Cp penalty. (source: sources/vj11.md)
+
 Related:
 - [[VAWT]]
 - [[Eggbeater Darrieus]]
@@ -43,5 +47,6 @@ Related:
 - [[Hybrid VAWT]]
 - [[Wind Turbine Parameters]]
 - [[Dynamic Stall]]
+- [[Aerodynamic Design Parameters]]
 
 #concepts 

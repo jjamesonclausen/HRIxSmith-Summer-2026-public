@@ -51,6 +51,10 @@ Inefficiencies:
 - A helical-blade CFD study reports a tradeoff between performance and smoothness: the 60-degree helical VAWT had the best power performance among the tested cases, while the 120-degree helical VAWT had the lowest Cp standard deviation. (source: sources/va7.md)
 - The same study found helical VAWT wakes dissipate more quickly than straight-bladed VAWT wakes, and wake profiles weaken as helix angle increases. (source: sources/va7.md)
 
+The VAWT review frames the main archetypes as Savonius, H-Darrieus, troposkein Darrieus, helical Darrieus, and Savonius-Darrieus hybrids. (source: sources/vj11.md)
+It treats dynamic stall, leading-edge vortex shedding, and blade-wake interaction as the main low-TSR aerodynamic limits. (source: sources/vj11.md)
+It emphasizes urban and floating offshore use cases because VAWTs tolerate omnidirectional and disturbed inflow. (source: sources/vj11.md)
+
 Deployment considerations:
 - Performance improves significantly in higher wind environments (e.g., tall buildings, bridges). (source: sources/n2.md)
 

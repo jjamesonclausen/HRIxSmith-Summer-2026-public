@@ -16,6 +16,10 @@ Vertical axis wind turbine combining Darrieus (lift-based) and Savonius (drag-ba
   - Hybrids are more complex structurally and aerodynamically than single-rotor designs. (source: sources/HRI2526.md)
   - The balance between startup torque and efficiency depends strongly on rotor placement. (source: sources/vj2.md)
 
+The review describes the common hybrid layout as an inner Savonius rotor with an outer Darrieus rotor. (source: sources/vj11.md)
+It reports optimized hybrid Cp around 0.25-0.35, with reliable self-starting from near-zero wind speed. (source: sources/vj11.md)
+It warns that Savonius drag can degrade high-TSR efficiency, so swept-area balance and solidity need careful tuning. (source: sources/vj11.md)
+
 Purpose:
 - Improve self-starting via Savonius rotor (source: sources/HRI2526.md)
 - Improve efficiency at higher wind speeds via Darrieus rotor (source: sources/HRI2526.md)
@@ -57,5 +61,6 @@ See also:
 - [[Darrieus above Savonius]]
 - [[Multi-stage Savonius within H-rotor Darrieus]]
 - [[Double Darrieus with Inner H-rotor and Outer Eggbeater]]
+- [[Aerodynamic Design Parameters]]
 
 #concepts 

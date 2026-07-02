@@ -1,5 +1,40 @@
 ## Log
 
+### 2026-07-02 — Add vj11 findings to concept pages
+
+- Task: add the new `vj11` review findings to the relevant wiki concept pages.
+- Actions:
+  - Expanded `VAWT`, `Darrieus Turbine`, `Savonius Turbine`, `Hybrid VAWT`, `Helical VAWT`, `CFD and Validation`, `Urban Wind Conditions`, `Scaling Effects`, `Optimization`, `Wind Turbine Parameters`, `Dynamic Stall`, `Atmospheric Turbulence`, and `Aerodynamic Design Parameters` with new source-grounded bullets from `sources/vj11.md`.
+  - Added a few cross-links so the new review findings are reachable from the main concept hubs.
+- Decisions:
+  - Kept the additions targeted to the specific design ranges, CFD guidance, and performance tradeoffs that `vj11` contributes.
+  - Left the existing earlier-source material in place and layered the new review points on top.
+- Open:
+  - None.
+
+### 2026-07-02 — Add vj11 summary page
+
+- Task: create the summary page for `sources/vj11.md`.
+- Actions:
+  - Added `wiki/summaries/vj11-summary.md` with a source-grounded overview, key findings, figures, and related links.
+  - Updated `wiki/index.md` to include the new summary page.
+- Decisions:
+  - Kept the summary concise and tied every claim to `sources/vj11.md`.
+  - Included the five extracted figures so the summary page mirrors the paper structure.
+- Open:
+  - None.
+
+### 2026-07-02 — Fix vj11 Table 1 formatting
+
+- Task: repair the malformed table in section 2.3 of `sources/vj11.md`.
+- Actions:
+  - Replaced the collapsed Table 1 text block with a proper Markdown table.
+  - Verified the table now renders with distinct parameter and configuration columns.
+- Decisions:
+  - Kept the surrounding prose unchanged because the issue was isolated to the table block.
+- Open:
+  - None.
+
 ### 2026-07-01 — Add geometry/performance/tradeoffs to VAWT type pages
 
 - Task: make the VAWT type pages more useful for design by adding geometry, performance, and tradeoff information.
