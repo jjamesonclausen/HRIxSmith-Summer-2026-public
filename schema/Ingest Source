@@ -12,10 +12,34 @@
 8. Add the appropriate tag to the top of the file:
 	- `#concepts` for concepts and entities
 	- `#methods` for procedures and techniques
-9. If the source contradicts an existing wiki page, note the discrepancy on both pages but do not overwrite it anywhere.
-10. If there are any related figures add a Markdown image link to the wiki files (summary, concepts, and/or methods), for example:
+9. If the source discusses any specific turbine designs create a separate wiki page in `wiki/designs/` that includes information about the turbine geometry, any unique design choices or specifications, and the turbine's performance. These pages should refrence only one source. Also include properties using the format below. If any information is unavailable leave it blank.
+    `---
+    Created: YYYY-MM-DD
+    Source: [[va1]]
+    Tags: #designs
+    Cp:
+    Efficiency:
+    TSR:
+    Swept area:
+    Cut-in speed:
+    Starting torque:
+    Rated speed:
+    Rated power:
+    ---`
+10. If the source discusses any specific design parameters (aspects of the design that were changed to influence the turbine's behavior) create a separate wiki page in `wiki/parameters/` that describes the parameter and the outcome. These pages should reference only one source. Also include properties using the format below. If any information is unavailable leave it blank.
+    - Report the objective of the study in a few words. This should be something like "increase Cp", "decrease noise", "increase turbine lifetime", etc.
+    - Report the outcome of the study as one of the following: negative effect, no effect, minimal positive effect, significant positive effect. This should reflect how the design change being studied impacted the turbine's performance in relation to the target.
+    `---
+    Created: YYYY-MM-DD
+    Source: [[va1]]
+    Tags: #parameters
+    Target:
+    Outcome:
+    ---`
+11. If the source contradicts an existing wiki page, note the discrepancy on both pages but do not overwrite it anywhere.
+12. If there are any related figures add a Markdown image link to the wiki files (summary, concepts, and/or methods), for example:
    - `![Figure 1: caption text](../../images/va2-fig1.jpg)`
-11. Add properties using the format below, if any information is unavailable leave it blank.
+13. Add properties using the format below, if any information is unavailable leave it blank.
     - Backlink all sources that are cited in this wiki page.
     - Tag the wiki page according to which folder it is in: `#summaries`, `#concepts`, `#methods`.
     - Sources should include backlinks to whichever source documents are referenced. See example below.
@@ -26,13 +50,13 @@
     Source_count: 0
     Tags:
     ---`
-12. Update `wiki/index.md` so it points to any new or changed wiki pages.
-13. Mark the source file as processed by changing the metadata in that field to be 'true'.
-14. Append an entry to `wiki/log.md` describing what was ingested, what changed, and any open issues.
-15. After ingesting, prompt the human to engage with the material using one of these methods:
+14. Update `wiki/index.md` so it points to any new or changed wiki pages.
+15. Mark the source file as processed by changing the metadata in that field to be 'true'.
+16. Append an entry to `wiki/log.md` describing what was ingested, what changed, and any open issues.
+17. After ingesting, prompt the human to engage with the material using one of these methods:
 	   - explain it back
 	   - a Socratic dialogue
 	   - a quiz
 	   - attempt first, then find the error
 	   - steelman both sides
-16. Do not mark ingest complete until the summary, any needed concept or method pages, figure links, index, and log are all updated.
+18. Do not mark ingest complete until the summary, any needed concept or method pages, figure links, index, and log are all updated.
