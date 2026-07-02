@@ -1176,3 +1176,100 @@ Decisions:
 
 Open:
 - None
+
+### 2026-07-02 — Reformat va3 source Markdown
+
+Task: Fix `sources/va3.md` formatting after PDF conversion.
+
+Actions:
+- Removed page-section markers and the separate figure gallery.
+- Promoted original PDF section headings, including `INTRODUCTION` and `DISCUSSION`, into Markdown headers.
+- Moved all `va3-fig*.jpg` image links directly above their matching figure captions.
+- Separated several captions from following body text where the conversion had merged them.
+- Verified 39 figure captions, 48 linked `va3-fig*.jpg` image files, no broken relative paths, and no remaining page/gallery markers.
+
+Decisions:
+- Kept existing extracted figure files and file names because they already matched the source figure sequence.
+- Treated the edit as formatting cleanup only and did not summarize or paraphrase source content.
+
+Open:
+- Some equations and technical tables in `sources/va3.md` remain rough from the original PDF text extraction.
+
+### 2026-07-02 — Add va3 source metadata
+
+Task: Add conversion-schema metadata to `sources/va3.md`.
+
+Actions:
+- Added YAML frontmatter with `Title`, `Author`, `Published`, `Created`, `Processed`, and `tags` fields following `schema/Convert PDF to MD`.
+- Used the visible source date `3/21/2015` as `Published: 2015-03-21`.
+
+Decisions:
+- Set `Author` to `M. Ragheb` from the source header.
+- Set `Processed: false` to match the conversion-schema template.
+
+Open:
+- None.
+
+### 2026-07-02 — Clean va7 headings and page breaks
+
+Task: Reformat `sources/va7.md` so paper sections are Markdown headings and page breaks are excluded.
+
+Actions:
+- Removed `<!-- Page N -->` page-break markers.
+- Removed obvious page/footer artifacts from the first page break area, including the MDPI DOI/URL footer lines.
+- Converted `Abstract`, `Keywords`, numbered sections, numbered subsections, author contribution/funding/acknowledgment/conflict sections, and `References` into Markdown headings.
+
+Decisions:
+- Kept the source text otherwise unchanged and did not summarize or paraphrase content.
+
+Open:
+- None.
+
+### 2026-07-02 — Rebuild va4 source from PDF
+
+Task: Replace the summarized `sources/va4.md` with a source-faithful PDF conversion.
+
+Actions:
+- Rebuilt `sources/va4.md` from `PDFs/va4.pdf` using the PDF text layer instead of the prior summary-style source.
+- Added conversion-schema frontmatter with title, authors, publication date, created date, processed status, and source tag.
+- Preserved the paper structure: title, authors, abstract, keywords, numbered sections/subsections, tables, acknowledgments, author contributions, conflict statement, nomenclature, and references.
+- Converted Tables 1 through 3 into Markdown tables.
+- Removed page headers, page numbers, journal footers, summary bullets, and the artificial `Additional Extracted Crops` section.
+- Added equation images `images/va4-eq1.jpg` through `images/va4-eq10.jpg` and linked them at the equation locations.
+- Kept and linked the 19 actual paper figures as `images/va4-fig1.jpg` through `images/va4-fig19.jpg` at their caption locations.
+- Removed PDF text-layer artifacts extracted from inside figures, such as plot ticks, legend labels, and axis labels.
+
+Decisions:
+- Set `Processed: true` because `va4` has already been ingested into the wiki.
+- Did not link the old `va4-fig20.jpg` through `va4-fig41.jpg` duplicate crops in the source because they are not distinct original paper figures and the prior section was not source text.
+
+Open:
+- A few inline mathematical expressions remain as text where they are embedded in prose rather than displayed numbered equations.
+
+### 2026-07-02 — Add va1 and va2 source metadata
+
+Task: Add conversion-schema metadata to `sources/va1.md` and `sources/va2.md`.
+
+Actions:
+- Added YAML frontmatter with `Title`, `Author`, `Published`, `Created`, `Processed`, and `tags` fields to both source files.
+- Used `Published: 2011` for `va1` from the journal volume/date visible in the source/PDF.
+- Used `Published: 2025-06-03` for `va2` from the PDF publication line.
+
+Decisions:
+- Set `Processed: true` for both because `wiki/summaries/va1-summary.md` and `wiki/summaries/va2-summary.md` already exist.
+
+Open:
+- None.
+
+### 2026-07-02 — Mark va3 processed
+
+Task: Update `sources/va3.md` metadata after confirming it has already been ingested.
+
+Actions:
+- Changed `Processed` from `false` to `true` in the source frontmatter.
+
+Decisions:
+- Used `true` because `va3` already has an existing summary page and has been ingested into the wiki.
+
+Open:
+- None.
