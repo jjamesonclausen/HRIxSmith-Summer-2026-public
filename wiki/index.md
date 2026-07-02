@@ -37,6 +37,7 @@ _One page per file in `sources/`._
 - [[summaries/vj9-summary]]
 - [[summaries/vj10-summary]]
 - [[summaries/vj11-summary]]
+- [[summaries/vj12-summary]]
 
 ## Concepts
 

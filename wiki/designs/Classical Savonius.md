@@ -1,3 +1,12 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+Source_count: 1
+Tags:
+- concepts
+---
 ## Classical Savonius
 
 The baseline Savonius form: a two-bladed, drag-based VAWT built from semicircular scoops. (source: sources/HRI2526.md)

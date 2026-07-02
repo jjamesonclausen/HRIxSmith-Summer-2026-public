@@ -1,3 +1,15 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/vj1.md]]
+- [[sources/vj2.md]]
+- [[sources/vj5.md]]
+Source_count: 4
+Tags:
+- concepts
+---
 ## VAWT Design Overview
 
 > Inference: A practical VAWT design workflow is site first, concept second, geometry third, validation fourth, and optimization last.

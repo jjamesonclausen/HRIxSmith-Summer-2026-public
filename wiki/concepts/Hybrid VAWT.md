@@ -1,3 +1,16 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/n2.md]]
+- [[sources/va8.md]]
+- [[sources/vj11.md]]
+- [[sources/vj2.md]]
+Source_count: 5
+Tags:
+- concepts
+---
 ## Hybrid VAWT
 
 Vertical axis wind turbine combining Darrieus (lift-based) and Savonius (drag-based) rotors. (source: sources/HRI2526.md)

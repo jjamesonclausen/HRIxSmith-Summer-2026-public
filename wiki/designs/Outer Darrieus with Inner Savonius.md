@@ -1,3 +1,13 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/n2.md]]
+Source_count: 2
+Tags:
+- concepts
+---
 ## Outer Darrieus with Inner Savonius
 
 A hybrid VAWT layout with an outer Darrieus rotor and an inner Savonius rotor. (source: sources/HRI2526.md)

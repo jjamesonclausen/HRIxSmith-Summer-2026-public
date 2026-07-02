@@ -1,3 +1,12 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/va2.md]]
+Source_count: 1
+Tags:
+- methods
+---
 ## Multi-Island Genetic Algorithm (MIGA)
 
 A genetic algorithm variant that splits the population into multiple islands that evolve separately and periodically exchange individuals. (source: sources/va2.md)

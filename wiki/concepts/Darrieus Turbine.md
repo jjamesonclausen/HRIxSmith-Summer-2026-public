@@ -1,3 +1,19 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/n1.md]]
+- [[sources/va1.md]]
+- [[sources/va3.md]]
+- [[sources/va8.md]]
+- [[sources/vj11.md]]
+- [[sources/vj4.md]]
+- [[sources/vj5.md]]
+Source_count: 8
+Tags:
+- concepts
+---
 ## Darrieus Turbine
 
 Lift-based VAWT using airfoil blades to generate lift and rotation. (source: sources/n1.md, sources/va1.md)

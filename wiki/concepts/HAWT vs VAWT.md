@@ -1,3 +1,15 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/va3.md]]
+- [[sources/va6.md]]
+- [[sources/vj1.md]]
+Source_count: 4
+Tags:
+- concepts
+---
 ## HAWT vs VAWT
 
 Comparison between horizontal axis wind turbines (HAWTs) and vertical axis wind turbines (VAWTs). (source: sources/vj1.md, sources/HRI2526.md)

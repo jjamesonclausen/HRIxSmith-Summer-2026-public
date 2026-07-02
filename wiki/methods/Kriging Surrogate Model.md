@@ -1,3 +1,12 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/va2.md]]
+Source_count: 1
+Tags:
+- methods
+---
 ## Kriging Surrogate Model
 
 A surrogate modeling method used to approximate expensive objective functions with a fitted statistical response surface. (source: sources/va2.md)

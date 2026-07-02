@@ -1,3 +1,14 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/vj10.md]]
+- [[sources/vj11.md]]
+- [[sources/vj3.md]]
+Source_count: 3
+Tags:
+- concepts
+---
 ## Atmospheric Turbulence
 
 Random, continuously changing air motions superimposed on the mean wind. (source: sources/vj3.md)

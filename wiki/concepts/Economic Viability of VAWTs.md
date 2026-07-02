@@ -1,3 +1,13 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/n2.md]]
+Source_count: 2
+Tags:
+- concepts
+---
 ## Economic Viability of VAWTs
 
 Assessment of whether VAWT systems are financially practical for deployment. (source: sources/HRI2526.md)

@@ -1,3 +1,13 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/vj11.md]]
+Source_count: 2
+Tags:
+- concepts
+---
 ## Scaling Effects
 
 Challenges in translating small-scale turbine results to full-scale performance. (source: sources/HRI2526.md)

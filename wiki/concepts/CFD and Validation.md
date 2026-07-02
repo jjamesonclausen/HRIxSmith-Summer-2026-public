@@ -1,3 +1,15 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/vj11.md]]
+- [[sources/vj2.md]]
+- [[sources/vj5.md]]
+- [[sources/vj6.md]]
+Source_count: 4
+Tags:
+- concepts
+---
 ## CFD and Validation
 
 This page covers the simulation workflow used to check a VAWT before hardware is built.

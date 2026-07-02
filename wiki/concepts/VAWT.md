@@ -1,3 +1,27 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/n1.md]]
+- [[sources/n2.md]]
+- [[sources/va1.md]]
+- [[sources/va2.md]]
+- [[sources/va3.md]]
+- [[sources/va4.md]]
+- [[sources/va5.md]]
+- [[sources/va7.md]]
+- [[sources/va8.md]]
+- [[sources/vj1.md]]
+- [[sources/vj11.md]]
+- [[sources/vj5.md]]
+- [[sources/vj6.md]]
+- [[sources/vj7.md]]
+- [[sources/vj8.md]]
+Source_count: 16
+Tags:
+- concepts
+---
 ## Vertical-Axis Wind Turbine (VAWT)
 
 Wind turbine with a vertical rotor axis that can accept wind from any direction. (source: sources/n1.md, sources/va1.md)

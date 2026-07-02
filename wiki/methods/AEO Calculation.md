@@ -1,3 +1,12 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/va1.md]]
+Source_count: 1
+Tags:
+- methods
+---
 ## AEO Calculation
 
 Method for estimating the annual energy output (AEO) of a wind turbine using wind distribution and power curves. (source: sources/va1.md)

@@ -1,3 +1,21 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/va4.md]]
+- [[sources/va5.md]]
+- [[sources/va6.md]]
+- [[sources/va7.md]]
+- [[sources/vj1.md]]
+- [[sources/vj10.md]]
+- [[sources/vj11.md]]
+- [[sources/vj12.md]]
+- [[sources/vj6.md]]
+Source_count: 10
+Tags:
+- concepts
+---
 ## Wind Turbine Parameters
 
 Key metrics used to evaluate wind turbine performance. (source: sources/HRI2526.md)
@@ -11,6 +29,10 @@ Key metrics used to evaluate wind turbine performance. (source: sources/HRI2526.
 - Starting torque: torque before rotation begins; must exceed system friction to self-start (source: sources/HRI2526.md)
 - Swept area: area covered by turbine blades, typically height × diameter for VAWTs (source: sources/HRI2526.md)
 - Reynolds number: indicates flow regime (laminar vs turbulent) (source: sources/HRI2526.md)
+
+- The vj12 review treats aspect ratio, overlap ratio, multi-staging, blade count, blade profile, inner blades, end plates, twist angle, TSR, and Reynolds number as the main knobs for VAWT performance tuning. (source: sources/vj12.md)
+- It says Savonius overlap has no universal optimum, but 0.1-0.15 is often useful and some studies still favor no-overlap for higher mechanical power. (source: sources/vj12.md)
+- It notes that Reynolds-number increases generally improve Cp and static torque in Savonius studies. (source: sources/vj12.md)
 
 - Betz limit: theoretical maximum power coefficient (~0.59). (source: sources/vj1.md)
 - Solidity: ratio of blade area to swept area; influences performance and structural tradeoffs. (source: sources/vj1.md)

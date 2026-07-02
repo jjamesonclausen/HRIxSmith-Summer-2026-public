@@ -1,3 +1,16 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/va5.md]]
+- [[sources/vj1.md]]
+- [[sources/vj2.md]]
+- [[sources/vj4.md]]
+- [[sources/vj8.md]]
+Source_count: 5
+Tags:
+- concepts
+---
 ## Turbine Concept Selection
 
 This page helps choose the first turbine family before detailed design starts.

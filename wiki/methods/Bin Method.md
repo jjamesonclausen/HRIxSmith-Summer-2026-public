@@ -1,3 +1,12 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/va1.md]]
+Source_count: 1
+Tags:
+- methods
+---
 ## Bin Method
 
 Standard approach for processing wind speed data for turbine performance analysis. (source: sources/va1.md)

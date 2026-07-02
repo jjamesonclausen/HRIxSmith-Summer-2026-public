@@ -1,3 +1,13 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/va2.md]]
+- [[sources/vj4.md]]
+Source_count: 2
+Tags:
+- concepts
+---
 ## H-Type Vertical-Axis Wind Turbine (H-VAWT)
 
 Vertical-axis wind turbine with straight blades arranged around the rotor, often used as a benchmark for aerodynamic modeling and optimization. (source: sources/va2.md)

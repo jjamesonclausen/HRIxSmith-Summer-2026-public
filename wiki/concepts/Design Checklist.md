@@ -1,3 +1,15 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/vj1.md]]
+- [[sources/vj2.md]]
+- [[sources/vj5.md]]
+Source_count: 4
+Tags:
+- concepts
+---
 ## Design Checklist
 
 1. Define the site and wind regime. (source: sources/HRI2526.md, sources/vj3.md)

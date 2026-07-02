@@ -1,3 +1,17 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/n1.md]]
+- [[sources/va2.md]]
+- [[sources/va5.md]]
+- [[sources/va8.md]]
+- [[sources/vj8.md]]
+Source_count: 6
+Tags:
+- concepts
+---
 ## VAWT Types
 
 This is a hub of the VAWT families and variants currently represented in the wiki.

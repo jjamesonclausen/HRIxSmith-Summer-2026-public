@@ -403,6 +403,91 @@ Decisions:
 Open:
 - None
 
+### 2026-07-02 — Normalize source metadata
+
+Task: Add convention-style frontmatter metadata to all `sources/*.md` pages.
+
+Actions:
+- Added frontmatter to the five source pages that were still missing it: `HRI2526.md`, `n1.md`, `n2.md`, `va5.md`, and `va6.md`
+- Kept the existing source frontmatter on the already-tagged pages unchanged
+- Verified that all 23 source markdown files now start with frontmatter
+
+Decisions:
+- Used best-effort titles and author fields where the source note clearly provided them
+- Left `Published` blank where the source did not provide a clear publication date
+
+Open:
+- None
+
+### 2026-07-02 — Normalize concept and method metadata
+
+Task: Add convention-style frontmatter metadata to the concept and methods wiki pages.
+
+Actions:
+- Added frontmatter to concept pages that were missing it
+- Added frontmatter to methods pages that were missing it
+- Populated each new frontmatter block with `Updated: 2026-07-02`, the page's cited source backlinks, source count, and folder tag
+- Left the one preexisting metadata page (`concepts/Wind Shear.md`) untouched because it already matched the convention
+
+Decisions:
+- Kept the existing page bodies and links intact
+- Used blank `Created:` values where the original creation date was unavailable
+
+Open:
+- None
+
+### 2026-07-02 — Add vj12 concepts and methods notes
+
+Task: Fold the new `vj12` review into the existing concept and method pages.
+
+Actions:
+- Updated `concepts/Contra-rotating VAWT.md` with the stacked-rotor layout, opposite-rotation requirement, and spacing result
+- Updated `concepts/Savonius Turbine.md` with overlap, inner-blade, blade-count, and endplate notes from the review
+- Updated `concepts/Helical Savonius.md` with twist-angle performance notes
+- Updated `concepts/Optimization.md` with the review's active/passive optimization split and representative gains
+- Updated `concepts/Urban Wind Conditions.md` with siting, obstacle-clearance, and wind-farm layout notes
+- Updated `concepts/Wind Turbine Parameters.md` with the review's main geometry/performance knobs
+- Updated `methods/CFD.md` with the review's CFD usage and URANS/k-omega note
+
+Decisions:
+- Kept the edits limited to pages that already covered the same concepts or methods
+- Added representative figure links where they reinforced the new notes
+
+Open:
+- None
+
+### 2026-07-02 — Ingest vj12 review
+
+Task: Ingest `PDFs/vj12.pdf` and add its source summary to the wiki.
+
+Actions:
+- Converted `vj12.pdf` into `sources/vj12.md` with frontmatter, extracted text, and figure links
+- Extracted and named 28 figure files in `images/vj12-fig*.jpg`
+- Added `wiki/summaries/vj12-summary.md` with source-grounded bullets and representative figure links
+- Updated `wiki/index.md` to include `vj12-summary`
+
+Decisions:
+- Kept the ingest focused on the new source summary rather than creating new concept pages, since the paper mainly synthesizes existing VAWT topics
+- Used a representative crop for the final multi-panel wind-farm figure because the PDF splits that figure across the closing pages
+
+Open:
+- The source conversion still contains some OCR clutter from the PDF text extraction, but the structure and figure links are in place
+
+### 2026-07-02 — Repair vj12 figure set
+
+Task: Fix the broken `vj12` image set after the initial ingest.
+
+Actions:
+- Rebuilt the `vj12` figure crops from `PDFs/vj12.pdf` into the repo `images/` folder
+- Restored the full 28-file figure set after an earlier rename pass had clobbered most of the generated files
+- Corrected `vj12-fig1.jpg` so it now matches the Figure 1 image used by the source markdown
+
+Decisions:
+- Kept the existing source and summary links, since the image filenames now match them again
+
+Open:
+- None
+
 ### 2026-06-30 — VAWT types learning quiz
 
 Task: Quiz Anna on different types of VAWTs and their pros and cons.

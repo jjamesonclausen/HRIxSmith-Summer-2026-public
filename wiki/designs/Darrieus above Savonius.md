@@ -1,3 +1,12 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+Source_count: 1
+Tags:
+- concepts
+---
 ## Darrieus above Savonius
 
 A hybrid configuration where the Savonius rotor sits below the Darrieus rotor. (source: sources/HRI2526.md)

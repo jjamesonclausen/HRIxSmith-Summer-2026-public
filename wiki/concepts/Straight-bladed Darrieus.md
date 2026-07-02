@@ -1,3 +1,14 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/va2.md]]
+- [[sources/vj4.md]]
+Source_count: 3
+Tags:
+- concepts
+---
 ## Straight-bladed Darrieus / H-rotor
 
 The straight-bladed Darrieus family with blades arranged around a vertical shaft. (source: sources/HRI2526.md)

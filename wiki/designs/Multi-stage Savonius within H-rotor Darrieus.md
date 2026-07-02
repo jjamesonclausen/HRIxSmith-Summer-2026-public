@@ -1,3 +1,12 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+Source_count: 1
+Tags:
+- concepts
+---
 ## Multi-stage Savonius within H-rotor Darrieus
 
 A hybrid layout that places a multi-stage Savonius inside an H-rotor Darrieus frame. (source: sources/HRI2526.md)

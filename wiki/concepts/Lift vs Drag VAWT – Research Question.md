@@ -1,3 +1,13 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/n1.md]]
+- [[sources/va1.md]]
+Source_count: 2
+Tags:
+- concepts
+---
 ## Lift vs Drag (VAWT)
 
 Two fundamental mechanisms for wind turbine operation. (source: sources/va1.md)

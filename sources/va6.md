@@ -1,3 +1,12 @@
+---
+Title: "Comparison between Horizontal and Vertical Axis Wind Turbine"
+Author: "Mohammad A. Al-Rawajfeh and Mohamed R. Gomaa"
+Published: ""
+Created: "2026-07-02"
+Processed: false
+tags:
+- "sources"
+---
 #sources
 # Comparison between Horizontal and Vertical Axis Wind Turbine
 

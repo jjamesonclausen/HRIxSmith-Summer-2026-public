@@ -1,3 +1,13 @@
+---
+Created:
+Updated: 2026-07-02
+Sources:
+- [[sources/HRI2526.md]]
+- [[sources/va8.md]]
+Source_count: 2
+Tags:
+- methods
+---
 ## Wind Tunnel Testing
 
 Experimental method used to evaluate turbine performance at small scale. (source: sources/HRI2526.md)
