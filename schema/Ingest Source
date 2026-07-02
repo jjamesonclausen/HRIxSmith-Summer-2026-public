@@ -18,10 +18,11 @@
 11. Add properties using the format below, if any information is unavailable leave it blank.
     - Backlink all sources that are cited in this wiki page.
     - Tag the wiki page according to which folder it is in: `#summaries`, `#concepts`, `#methods`.
+    - Sources should include backlinks to whichever source documents are referenced. See example below.
    `---
     Created: YYYY-MM-DD
     Updated: YYYY-MM-DD
-    Sources: [[]]
+    Sources: [[va1.md]]
     Source_count: 0
     Tags:
     ---`
