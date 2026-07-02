@@ -1,4 +1,13 @@
-#sources 
+---
+Title: "Comparison between Lift and Drag-Driven VAWT Concepts on Low-Wind Site AEO"
+Author: "Marco Raciti Castelli; Ernesto Benini"
+Published: 2011
+Created: 2026-07-02
+Processed: true
+tags:
+- "sources"
+---
+
 World Academy of Science, Engineering and Technology International Journal of Environmental and Ecological Engineering Vol:5, No:11, 2011 
 
 ## Comparison between Lift and Drag-Driven VAWT Concepts on Low-Wind Site AEO 
