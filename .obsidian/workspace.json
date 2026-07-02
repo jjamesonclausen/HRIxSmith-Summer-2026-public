@@ -11,10 +11,14 @@
             "id": "70651a00716fe7ef",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "sources/vj2.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "vj2"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lift vs  dra",
+                "query": "tag:#sources",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -181,8 +185,15 @@
   },
   "active": "70651a00716fe7ef",
   "lastOpenFiles": [
-    "Lift vs Drag.md",
+    "sources/vj1.md",
+    "sources/vj3.md",
+    "wiki/parameters/Aerodynamic Design Parameters.md",
+    "wiki/concepts/Darrieus Turbine.md",
     "wiki/concepts/H-VAWT.md",
+    "wiki/log.md",
+    "sources/n1.md",
+    "wiki/concepts/VAWT Design Comparisons.md",
+    "Lift vs Drag.md",
     "wiki/concepts/VAWT Types.md",
     "wiki/designs/Darrieus above Savonius.md",
     "wiki/designs/Classical Savonius.md",
@@ -217,14 +228,7 @@
     "wiki/summaries/vj3-summary.md",
     "wiki/summaries/vj12-summary.md",
     "Untitled.canvas",
-    "wiki/concepts/Wind Turbine Parameters.md",
-    "data view testing.md",
-    "wiki/concepts/Aerodynamic Design Parameters.md",
     "Untitled.base",
-    "wiki/concepts/Lift vs Drag VAWT – Research Question.md",
-    "wiki/concepts/J-Type VAWT.md",
-    "wiki/concepts/Savonius Turbine.md",
-    "wiki/concepts/Turbine Concept Selection.md",
     "Clippings/desktop.ini",
     "Clippings"
   ]
