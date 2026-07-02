@@ -4,6 +4,16 @@ Drag-based VAWT using scooped blades. (source: sources/n1.md, sources/va1.md)
 
 ![Figure 1: Basic design of a Savonius rotor](../../images/vj2-fig1.jpg)
 
+- Geometry:
+  - Typically uses two semicircular blades around a vertical shaft. (source: sources/HRI2526.md)
+  - Classical and helical forms are both represented in the wiki. (source: sources/HRI2526.md)
+- Performance:
+  - Self-starting and effective at low wind speeds. (source: sources/HRI2526.md)
+  - TSR is typically between 0 and 1. (source: sources/HRI2526.md)
+- Tradeoffs:
+  - Simple, low-cost construction and low noise are advantages. (source: sources/HRI2526.md)
+  - Negative torque on the returning blade limits efficiency. (source: sources/HRI2526.md)
+
 - Self-starting and effective at low wind speeds. (source: sources/n1.md, sources/va1.md)
 - Low efficiency due to high drag. (source: sources/n1.md)
 

@@ -6,6 +6,16 @@ Lift-based VAWT using airfoil blades to generate lift and rotation. (source: sou
 ![Figure 4: Pressure contour from Darrieus turbine CFD showing high pressure above the airfoil blade and low pressure below it causing rotating in the counterclockwise direction](../../images/hri2526-fig4.jpg)
 ![Figure 6: Different Types of Darrieus VAWTs](../../images/hri2526-fig6.jpg)
 
+- Geometry:
+  - Uses airfoil blades creating pressure differences to generate lift. (source: sources/HRI2526.md)
+  - Main variants include D-rotor/eggbeater, H-rotor, and helical. (source: sources/HRI2526.md)
+- Performance:
+  - Can rotate at TSR greater than 1 and is effective at higher wind speeds. (source: sources/HRI2526.md)
+  - Typical efficiency is 30% to 40%. (source: sources/HRI2526.md)
+- Tradeoffs:
+  - More efficient than Savonius, but usually needs external starting assistance. (source: sources/HRI2526.md)
+  - Curved variants vary in self-starting, torque consistency, and manufacturability. (source: sources/HRI2526.md)
+
 - Higher efficiency (~30–40%) but poor self-starting capability. (source: sources/n1.md)
 - Performs better at higher wind speeds. (source: sources/va1.md)
 

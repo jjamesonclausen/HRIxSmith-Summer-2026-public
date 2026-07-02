@@ -1,5 +1,17 @@
 ## Log
 
+### 2026-07-01 — Add geometry/performance/tradeoffs to VAWT type pages
+
+- Task: make the VAWT type pages more useful for design by adding geometry, performance, and tradeoff information.
+- Actions:
+  - Expanded `Classical Savonius`, `Helical Savonius`, `Eggbeater Darrieus`, `Straight-bladed Darrieus`, `Troposkien Darrieus`, `Helical Darrieus`, `Outer Darrieus with Inner Savonius`, `Helical Hybrid`, `Darrieus above Savonius`, `Multi-stage Savonius within H-rotor Darrieus`, `Double Darrieus with Inner H-rotor and Outer Eggbeater`, and `Contra-rotating VAWT` with geometry/performance/tradeoff sections.
+  - Added the same structure to the parent pages `Savonius Turbine`, `Darrieus Turbine`, `Hybrid VAWT`, `Helical VAWT`, `J-Type VAWT`, and `H-VAWT`.
+- Decisions:
+  - Kept the information source-grounded and marked any unsupported detail as inference.
+  - Preserved the existing hub pages while making the leaf pages more design-oriented.
+- Open:
+  - None.
+
 ### 2026-07-01 — Add VAWT variant concept pages
 
 - Task: create a concept page for each VAWT type represented in the hub.

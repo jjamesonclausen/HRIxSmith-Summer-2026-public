@@ -4,6 +4,16 @@ Vertical-axis wind turbine with straight blades arranged around the rotor, often
 
 ![Figure 1: Schematic of VAWT blade forces at different azimuthal angles](../../images/va2-fig1.jpg)
 
+- Geometry:
+  - Straight blades are arranged around the rotor in an H-type layout. (source: sources/va2.md)
+  - The straight-bladed form keeps blade radius constant over its length. (source: sources/vj4.md)
+- Performance:
+  - The paper validates the H-VAWT model against wind-tunnel data and evaluates it across tip-speed ratios. (source: sources/va2.md)
+  - The H-VAWT is used as a benchmark for optimization. (source: sources/va2.md)
+- Tradeoffs:
+  - The straight-bladed H-rotor is easier to model and optimize than some curved variants. (source: sources/vj4.md)
+  - It still shows strong azimuth-dependent loading and cyclic variation. (source: sources/va2.md)
+
 - The paper validates an H-VAWT CFD model against the Musgrove wind-tunnel experiment. (source: sources/va2.md)
 - The study uses a NACA0015 baseline airfoil and evaluates performance across tip-speed ratios. (source: sources/va2.md)
 - H-VAWT flow loading varies strongly with azimuth angle, with lift and drag contributing differently across a full rotation. (source: sources/va2.md)
