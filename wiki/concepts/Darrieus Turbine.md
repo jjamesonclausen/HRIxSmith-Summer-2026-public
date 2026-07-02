@@ -39,6 +39,13 @@ It treats helical Darrieus as a tradeoff: smoother torque and lower ripple, but 
 The va8 patent defines Darrieus-type VAWTs as lift-producing turbines and argues that large, smoothly created path difference between top and bottom streamlines increases lift force; it uses this rationale to motivate an asymmetrical blade profile in a hybrid turbine. (source: sources/va8.md)
 The same source uses wind tunnel observations of blade lift coefficient versus angle of attack to support its selected 25-degree blade mounting angle. (source: sources/va8.md)
 
+The va9 paper treats startup as a core Darrieus weakness and lists external electricity feed-in, guide vanes, Savonius-Darrieus hybrids, pitch optimization, blade-form optimization, and specific blade-profile design as approaches to overcome it. (source: sources/va9.md)
+It presents the EN0005 blade profile as a Darrieus-specific self-start design that avoids extra components or external electricity feed-in while retaining high-TSR performance in the authors' model and tests. (source: sources/va9.md)
+The field-test prototype reported self-start at 1.25 m/s, stable behavior in a 25 m/s wind-tunnel stress test, and no audible noise emission in the tested urban environment. (source: sources/va9.md)
+
+![Fig. 5. Blade profile EN0005.](../../images/va9-fig5.jpg)
+![Fig. 26. New Darrieus VAWT design prototype.](../../images/va9-fig26.jpg)
+
 Related:
 - [[VAWT]]
 - [[Eggbeater Darrieus]]
@@ -52,5 +59,6 @@ Related:
 - [[Dynamic Stall]]
 - [[Aerodynamic Design Parameters]]
 - [[Wind Tunnel Testing]]
+- [[Double-Multiple Streamtube Model]]
 
 #concepts 

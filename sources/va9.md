@@ -3,7 +3,7 @@ Title: "On a self-start Darrieus wind turbine: blade design and field tests"
 Author: "N.C. Batista; R. Melicio; V.M.F. Mendes; M. Calderon; A. Ramiro"
 Published: 2014
 Created: 2026-07-02
-Processed: false
+Processed: true
 tags:
 - "sources"
 ---

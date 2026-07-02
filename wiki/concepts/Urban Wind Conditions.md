@@ -13,6 +13,8 @@ Characteristics of airflow in built environments. (source: sources/HRI2526.md)
 - It reinforces the fit between urban deployment and VAWT traits such as omnidirectionality and low visual impact. (source: sources/vj11.md)
 - The va8 patent motivates its design around low-altitude, scattered, turbulent, low-speed wind near residences and rooftops, where it says VAWTs can accept wind from any direction better than HAWTs. (source: sources/va8.md)
 - The same patent frames rural rooftop deployment as a target use case and says battery storage could reduce or possibly eliminate grid-power need for household electric power. (source: sources/va8.md)
+- The va9 paper motivates Darrieus VAWT development for urban areas because wind turbulence and brisk changes in wind direction cannot be disregarded there. (source: sources/va9.md)
+- Its tested prototype was evaluated in urban field sites and in a wind tunnel, and the source reports no audible noise emission in the urban environment. (source: sources/va9.md)
 ![Figure 16: Wind Data from McConnell Rooftop](../../images/hri2526-fig16.jpg)
 
 Implications:
@@ -27,5 +29,6 @@ Related:
 - [[Atmospheric Turbulence]]
 - [[Wind Shear]]
 - [[Hybrid VAWT]]
+- [[Darrieus Turbine]]
 
 #concepts 

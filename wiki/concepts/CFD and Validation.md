@@ -12,7 +12,11 @@ The VAWT review says URANS with `k-ω SST` is the main design-stage tool, while 
 It reports that 2-D URANS can overpredict Cp by 15-30% relative to validated 3-D simulations. (source: sources/vj11.md)
 It also recommends practical setup ranges of about 15D upstream, 10D downstream, 20D lateral extent, and 20-30 revolutions before sampling. (source: sources/vj11.md)
 
+The va9 paper says its sliced DMS approach can be integrated into existing CFD and CAD tools to improve analysis of complex Darrieus blade-form designs. (source: sources/va9.md)
+It also compares streamtube, vortex, and cascade models, noting that vortex models have high experimental correlation with the latest improvements but take the highest computation time among the listed prediction models. (source: sources/va9.md)
+
 Related:
 - [[Optimization]]
 - [[Dynamic Stall]]
 - [[Wind Tunnel Testing]]
+- [[Double-Multiple Streamtube Model]]

@@ -1,5 +1,19 @@
 ## Log
 
+### 2026-07-02 — Ingest va9 self-start Darrieus source
+
+- Task: ingest `sources/va9.md` according to `schema/Ingest Source`.
+- Actions:
+  - Created `wiki/summaries/va9-summary.md` with source-grounded key points and selected figure links.
+  - Added `wiki/methods/Double-Multiple Streamtube Model.md` for the DMS method and the sliced DMS extension from `va9`.
+  - Updated `Darrieus Turbine`, `Straight-bladed Darrieus`, `H-VAWT`, `Aerodynamic Design Parameters`, `VAWT`, `Urban Wind Conditions`, `Materials and Manufacturing`, `CFD and Validation`, `Blade Element-Momentum Model`, and `Wind Tunnel Testing` with `va9` claims.
+  - Added `va9-summary` and `Double-Multiple Streamtube Model` to `wiki/index.md` and marked `sources/va9.md` as processed.
+- Decisions:
+  - Created a new DMS method page because no existing streamtube-specific method page covered the single/multiple/double-multiple streamtube comparison or the sliced DMS extension.
+  - Treated the reported 1.25 m/s self-start and 25 m/s stability results as source-specific field-test outcomes, not universal Darrieus design rules.
+- Open:
+  - The EN0005 profile and field-test outcomes should be compared with independent studies before being generalized to other rotor scales or urban sites.
+
 ### 2026-07-02 — Convert va9 PDF source
 
 - Task: convert `PDFs/va9.pdf` into Markdown according to `schema/Convert PDF to MD`.

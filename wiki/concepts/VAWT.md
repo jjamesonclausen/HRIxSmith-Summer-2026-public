@@ -58,6 +58,9 @@ It emphasizes urban and floating offshore use cases because VAWTs tolerate omnid
 The va8 patent presents a rooftop/rural hybrid VAWT concept intended for low-speed, scattered wind, using asymmetrical lift blades plus drag-producing compartmented channel beams for starting torque. (source: sources/va8.md)
 The design keeps generator and storage elements near the bottom of the turbine, which the source frames as a stability advantage. (source: sources/va8.md)
 
+The va9 paper emphasizes VAWT advantages for urban areas, including yaw-direction insensitivity, fewer components, very low sound emission, skewed-flow operation, and ability to operate closer to ground level. (source: sources/va9.md)
+It reports a Darrieus VAWT prototype that self-started at 1.25 m/s without extra components or external electricity feed-in. (source: sources/va9.md)
+
 Deployment considerations:
 - Performance improves significantly in higher wind environments (e.g., tall buildings, bridges). (source: sources/n2.md)
 
@@ -80,5 +83,6 @@ Related:
 - [[CFD and Validation]]
 - [[Optimization]]
 - [[Wind Tunnel Testing]]
+- [[Double-Multiple Streamtube Model]]
 
 #concepts 

@@ -16,8 +16,13 @@ Measurements:
 - The Darrieus with Savonius Compartments concept was dropped after it failed to cut in. (source: sources/HRI2526.md)
 - The va8 patent used a 3.6 m long, 0.36 m square wind tunnel with a 2-hp fan and reports a 13 m/s airflow for lift-coefficient testing of its blade profile at different angles of attack. (source: sources/va8.md)
 - That source used the lift-coefficient curves to support a 25-degree blade mounting angle, but the result is a single patent example rather than a broadly validated experimental trend. (source: sources/va8.md)
+- The va9 field tests used urban scenarios and a controlled wind-tunnel environment to evaluate a Darrieus VAWT prototype with sensor modules including an anemometer, infrared rotation counter, voltage sensor, and current sensor connected through Arduino and ZigBee data collection. (source: sources/va9.md)
+- The va9 prototype self-started at 1.25 m/s and remained stable under a 25 m/s wind-tunnel stress test. (source: sources/va9.md)
+- Its noise test reports identical measured values when stopped and running at 0, 1, 2, and 3 m distance for 2.5 m/s and 5.0 m/s wind speeds. (source: sources/va9.md)
 
 ![Figure 5: va8 lift coefficient versus angle of attack from wind tunnel observations](../../images/va8-fig5.jpg)
+![Fig. 27. Different field tests scenarios.](../../images/va9-fig27.jpg)
+![Fig. 28. Field test sensors.](../../images/va9-fig28.jpg)
 
 Limitations:
 - Scaling mismatch with real-world conditions. (source: sources/HRI2526.md)
@@ -28,5 +33,6 @@ Related:
 - [[Urban Wind Conditions]]
 - [[CFD]]
 - [[Aerodynamic Design Parameters]]
+- [[Double-Multiple Streamtube Model]]
 
 #methods
