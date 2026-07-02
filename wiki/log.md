@@ -1,5 +1,19 @@
 ## Log
 
+### 2026-07-02 — Convert va8 PDF source
+
+- Task: convert `PDFs/va8.pdf` into Markdown according to `schema/Convert PDF to MD`.
+- Actions:
+  - Read the PDF conversion, figure extraction, and repo organization procedures.
+  - Created `sources/va8.md` with source front matter, patent metadata, full converted text, preserved headings, claims, figure captions, and `Processed: false`.
+  - Extracted 13 figure images to `images/va8-fig*.jpg` and one displayed-equation image to `images/va8-eq1.jpg`.
+  - Verified all 14 Markdown image links in `sources/va8.md` resolve from the source file location.
+- Decisions:
+  - Used `va8.md` because the PDF is a VAWT source and follows the existing Anna source numbering.
+  - Used the clean patent drawing sheets for figures instead of the title-page duplicate image.
+- Open:
+  - Source has not yet been ingested into wiki concept pages.
+
 ### 2026-07-02 — Add vj11 findings to concept pages
 
 - Task: add the new `vj11` review findings to the relevant wiki concept pages.
