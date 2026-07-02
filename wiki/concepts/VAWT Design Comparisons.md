@@ -4,7 +4,7 @@ Updated: 2026-07-02
 Sources:
 Source_count: 0
 Tags:
-- concepts
+  - concepts
 ---
 ## VAWT Design Comparisons
 
