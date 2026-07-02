@@ -11,17 +11,30 @@
             "id": "70651a00716fe7ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "sources/vj2.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "vj2"
+              "icon": "lucide-table",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "c8c426eca3fc926d",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Untitled.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#sources",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,12 +87,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 244.5110321044922
+    "width": 200
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -183,8 +195,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "70651a00716fe7ef",
+  "active": "c8c426eca3fc926d",
   "lastOpenFiles": [
+    "table of all designs.base",
+    "wiki/designs/Aerogenerator Offshore VAWT.md",
+    "wiki/designs/Windspire Gyromill.md",
+    "data view testing.md",
+    "Untitled.base",
+    "sources/vj2.md",
     "sources/vj1.md",
     "sources/vj3.md",
     "wiki/parameters/Aerodynamic Design Parameters.md",
@@ -206,7 +224,6 @@
     "sources/HRI2526.md",
     "sources/vj12.md",
     "wiki/summaries/va8-summary.md",
-    "sources/va8.md",
     "images/va8-fig6.jpg",
     "images/va8-fig5.jpg",
     "images/va8-fig4b.jpg",
@@ -223,12 +240,7 @@
     "PDFs/va2.pdf",
     "PDFs/va10.pdf",
     "PDFs/va1.pdf",
-    "wiki/summaries/vj6-summary.md",
-    "wiki/summaries/vj10-summary.md",
-    "wiki/summaries/vj3-summary.md",
-    "wiki/summaries/vj12-summary.md",
     "Untitled.canvas",
-    "Untitled.base",
     "Clippings/desktop.ini",
     "Clippings"
   ]
