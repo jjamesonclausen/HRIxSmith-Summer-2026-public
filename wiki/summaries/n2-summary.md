@@ -1,3 +1,12 @@
+---
+Created:
+Updated: 2026-07-02
+Sources: [[n2]]
+Source_count: 1
+Tags:
+- summaries
+---
+
 ## n2 Source Summary
 
 Summary of `sources/n2.md`. (source: sources/n2.md)

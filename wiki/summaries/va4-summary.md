@@ -1,3 +1,12 @@
+---
+Created:
+Updated: 2026-07-02
+Sources: [[va4]]
+Source_count: 1
+Tags:
+- summaries
+---
+
 ## va4 Source Summary
 
 Summary of `sources/va4.md`. (source: sources/va4.md)

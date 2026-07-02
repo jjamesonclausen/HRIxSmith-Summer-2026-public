@@ -1,3 +1,4 @@
+#maintenance
 # Further Resources
 
 A short, curated reading/watching list. These are the ideas this workshop is built on — the LLM-wiki pattern, evaluation discipline, and the habit of staying the critical thinker in the loop. Each entry notes what it is and how it connects back to the material.

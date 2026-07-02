@@ -6,7 +6,7 @@ date:
 >- This is a callout, types are below and specified in the brackets at the top: ![[Pasted image 20260629154834.png]]
 >- the "-" after the brackets means this will be closed by default
 >- the text in the brackets determines the type
->- use templates! they can be super helpful for callouts, or for notes with certain properties, or anything you use a lot
+>- use templates! they can be super helpful for callouts, bases, for setting up notes with certain properties, or anything you use a lot
 >- also, use hotkeys! they can be useful for templates
 >- each vault is a totally separate environment so settings, plugins, etc don't transfer BUT if you want to share them you can copy the .obsidian folder from one vault into another and restart obsidian
 
@@ -45,4 +45,39 @@ etc
 >	- Dataview
 >- Core plugins are native to obsidian and can be toggled on and off in settings
 
-[[Dataview Basics]]
+embedded search:
+```query
+embed OR search
+tag: #designs 
+```
+
+inline base:
+```base
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("#parameters")
+        - Target.contains("reduce pulsation")
+    order:
+      - file.name
+      - Target
+      - Outcome
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 211
+      note.Target: 183
+  - type: cards
+    name: Cards
+  - type: list
+    name: List
+    indentProperties: true
+
+```
+
+## [[Dataview Basics]]
+
+#maintenance 

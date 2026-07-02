@@ -1,4 +1,45 @@
+#maintenance
 ## Log
+
+### 2026-07-02 — Rename raw PDFs to remove source-link ambiguity
+
+- Task: rename all files in `PDFs/` to `*_raw.pdf` so bare source wikilinks like `[[va9]]` resolve cleanly to the Markdown source notes in Obsidian.
+- Actions:
+  - Renamed every current file in `PDFs/` from `name.pdf` to `name_raw.pdf`.
+  - Updated live filename references in repo text, including `sources/va4.md` and matching `wiki/log.md` entries for `va4`, `va8`, `va9`, `vj1`, and `vj12`.
+  - Corrected one verification-time edge case so `va1_raw_raw.pdf` now correctly reads `va1_raw.pdf`.
+  - Removed the current basename collision between `sources/*.md` and the raw PDF filenames in `PDFs/`.
+- Decisions:
+  - Kept the Markdown source-note names unchanged so the wiki can continue using bare wikilinks like `[[va9]]`.
+  - Used `_raw.pdf` only for the original-file layer in `PDFs/`.
+- Open:
+  - None.
+
+### 2026-07-02 — Audit concept and method page links
+
+- Task: make sure all links on `wiki/concepts/` and `wiki/methods/` pages work in Obsidian.
+- Actions:
+  - Audited all Obsidian wikilinks, Markdown note links, and Markdown image links on concept and method pages.
+  - Verified no broken wikilink targets remain on those pages.
+  - Verified no broken Markdown file links or image links remain on those pages.
+- Decisions:
+  - Left source backlinks such as `[[va9]]` unchanged because that is the requested bare wikilink format and it matches the current schema examples.
+  - Confirmed the links themselves were not broken; the only issue was a basename collision that was later removed by renaming the raw PDFs to `*_raw.pdf`.
+- Open:
+  - None.
+
+### 2026-07-02 — Fix remaining wiki backlink formatting
+
+- Task: fix remaining wiki pages that still lacked Obsidian-friendly wikilink backlinks.
+- Actions:
+  - Added missing summary-page frontmatter backlinks so older source summaries now include `Sources: [[...]]` metadata.
+  - Converted remaining wiki-to-wiki Markdown links in `wiki/index.md` and `wiki/learning-log.md` to Obsidian wikilinks.
+  - Left single-source `Source: [[...]]` properties, claim citations like `sources/va9.md`, and non-wiki Markdown links unchanged because those already match the schema or serve a different purpose.
+- Decisions:
+  - Followed `schema/Ingest Source`, which uses inline `Sources: [[va1]]` for general wiki pages and singular `Source: [[va1]]` for single-source design and parameter pages.
+  - Added minimal frontmatter to older summary pages rather than rewriting their body text, since the missing source backlinks were the navigation issue.
+- Open:
+  - None.
 
 ### 2026-07-02 — Add va3 design and parameter pages
 
@@ -60,7 +101,7 @@
 
 ### 2026-07-02 — Convert va9 PDF source
 
-- Task: convert `PDFs/va9.pdf` into Markdown according to `schema/Convert PDF to MD`.
+- Task: convert `PDFs/va9_raw.pdf` into Markdown according to `schema/Convert PDF to MD`.
 - Actions:
   - Created `sources/va9.md` with source front matter, full converted text, preserved section structure, references, figure captions, and converted Markdown tables.
   - Extracted 29 figure images to `images/va9-fig*.jpg`.
@@ -87,7 +128,7 @@
 
 ### 2026-07-02 — Convert va8 PDF source
 
-- Task: convert `PDFs/va8.pdf` into Markdown according to `schema/Convert PDF to MD`.
+- Task: convert `PDFs/va8_raw.pdf` into Markdown according to `schema/Convert PDF to MD`.
 - Actions:
   - Read the PDF conversion, figure extraction, and repo organization procedures.
   - Created `sources/va8.md` with source front matter, patent metadata, full converted text, preserved headings, claims, figure captions, and `Processed: false`.
@@ -502,10 +543,10 @@ Open:
 
 ### 2026-07-02 — Ingest vj12 review
 
-Task: Ingest `PDFs/vj12.pdf` and add its source summary to the wiki.
+Task: Ingest `PDFs/vj12_raw.pdf` and add its source summary to the wiki.
 
 Actions:
-- Converted `vj12.pdf` into `sources/vj12.md` with frontmatter, extracted text, and figure links
+- Converted `vj12_raw.pdf` into `sources/vj12.md` with frontmatter, extracted text, and figure links
 - Extracted and named 28 figure files in `images/vj12-fig*.jpg`
 - Added `wiki/summaries/vj12-summary.md` with source-grounded bullets and representative figure links
 - Updated `wiki/index.md` to include `vj12-summary`
@@ -522,7 +563,7 @@ Open:
 Task: Fix the broken `vj12` image set after the initial ingest.
 
 Actions:
-- Rebuilt the `vj12` figure crops from `PDFs/vj12.pdf` into the repo `images/` folder
+- Rebuilt the `vj12` figure crops from `PDFs/vj12_raw.pdf` into the repo `images/` folder
 - Restored the full 28-file figure set after an earlier rename pass had clobbered most of the generated files
 - Corrected `vj12-fig1.jpg` so it now matches the Figure 1 image used by the source markdown
 
@@ -733,7 +774,7 @@ Open:
 Task: Restore the extracted figures for `sources/vj1.md`.
 
 Actions:
-- Extracted two figure images from `PDFs/vj1.pdf` into `images/vj1-fig1.jpg` and `images/vj1-fig2.jpg`
+- Extracted two figure images from `PDFs/vj1_raw.pdf` into `images/vj1-fig1.jpg` and `images/vj1-fig2.jpg`
 - Added Markdown image links for both figures at their caption locations in `sources/vj1.md`
 - Verified both image files exist and the source links resolve relative to `sources/`
 
@@ -1499,7 +1540,7 @@ Open:
 Task: Replace the summarized `sources/va4.md` with a source-faithful PDF conversion.
 
 Actions:
-- Rebuilt `sources/va4.md` from `PDFs/va4.pdf` using the PDF text layer instead of the prior summary-style source.
+- Rebuilt `sources/va4.md` from `PDFs/va4_raw.pdf` using the PDF text layer instead of the prior summary-style source.
 - Added conversion-schema frontmatter with title, authors, publication date, created date, processed status, and source tag.
 - Preserved the paper structure: title, authors, abstract, keywords, numbered sections/subsections, tables, acknowledgments, author contributions, conflict statement, nomenclature, and references.
 - Converted Tables 1 through 3 into Markdown tables.

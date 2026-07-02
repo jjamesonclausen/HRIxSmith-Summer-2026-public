@@ -1,3 +1,12 @@
+---
+Created:
+Updated: 2026-07-02
+Sources: [[vj4]]
+Source_count: 1
+Tags:
+- summaries
+---
+
 ## vj4 Source Summary
 
 Summary of `sources/vj4.md`. (source: sources/vj4.md)

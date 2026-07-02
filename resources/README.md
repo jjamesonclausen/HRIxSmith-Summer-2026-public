@@ -1,3 +1,4 @@
+#maintenance
 # Intro to Applied AI Engineering
 
 **A quickstart for using AI to think, document, and learn on work you actually care about.**

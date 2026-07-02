@@ -1,3 +1,12 @@
+---
+Created:
+Updated: 2026-07-02
+Sources: [[vj6]]
+Source_count: 1
+Tags:
+- summaries
+---
+
 ## vj6 Source Summary
 
 Summary of `sources/vj6.md`. (source: sources/vj6.md)

@@ -10,7 +10,7 @@ tags:
 
 # Aerodynamic Analysis of a Helical Vertical Axis Wind Turbine
 
-> Source: PDFs/va4.pdf
+> Source: PDFs/va4_raw.pdf
 Article
 Qian Cheng 1, Xiaolan Liu 1, Ho Seong Ji 2, Kyung Chun Kim 2 and Bo Yang 1,*
 School of Mechanical Engineering, Shanghai Jiao Tong University, Shanghai 200240, China;

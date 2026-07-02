@@ -1,3 +1,4 @@
+#maintenance
 # Evals
 
 The test set that keeps this wiki honest. Each eval is a question your wiki *should* answer well, plus the **known-good answer** you wrote yourself from the sources. You run them, compare, label failures, improve `AGENTS.md`, and re-test. See [workshop module 04](../workshop/04-evaluation-loop.md).

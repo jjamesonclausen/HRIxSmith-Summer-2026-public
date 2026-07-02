@@ -1,3 +1,4 @@
+#maintenance
 # AGENTS.md — Wiki Schema and Working Rules
 
 This file is the **schema**. It turns a generic AI agent into a disciplined maintainer of this wiki. Any agent working in this repo reads this file first and follows it.
