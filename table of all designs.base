@@ -1,0 +1,20 @@
+filters:
+  and:
+    - file.hasTag("designs")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Rated power
+      - Efficiency
+      - Cut-in speed
+      - Cp
+      - Rated speed
+      - Swept area
+      - Starting torque
+      - TSR
+  - type: cards
+    name: View
+    cardSize: 270
+    imageAspectRatio: 1.2
