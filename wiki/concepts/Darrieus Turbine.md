@@ -24,7 +24,11 @@ Lift-based VAWT using airfoil blades to generate lift and rotation. (source: sou
 
 Related:
 - [[VAWT]]
+- [[Eggbeater Darrieus]]
 - [[H-VAWT]]
+- [[Straight-bladed Darrieus]]
+- [[Troposkien Darrieus]]
+- [[Helical Darrieus]]
 - [[Savonius Turbine]]
 - [[Hybrid VAWT]]
 - [[Wind Turbine Parameters]]

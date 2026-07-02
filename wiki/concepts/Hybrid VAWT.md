@@ -42,5 +42,10 @@ See also:
 - [[VAWT]]
 - [[Darrieus Turbine]]
 - [[Savonius Turbine]]
+- [[Outer Darrieus with Inner Savonius]]
+- [[Helical Hybrid]]
+- [[Darrieus above Savonius]]
+- [[Multi-stage Savonius within H-rotor Darrieus]]
+- [[Double Darrieus with Inner H-rotor and Outer Eggbeater]]
 
 #concepts 

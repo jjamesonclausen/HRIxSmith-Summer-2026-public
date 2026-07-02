@@ -26,6 +26,8 @@ Drag-based VAWT using scooped blades. (source: sources/n1.md, sources/va1.md)
 
 Related:
 - [[VAWT]]
+- [[Classical Savonius]]
+- [[Helical Savonius]]
 - [[Darrieus Turbine]]
 - [[Hybrid VAWT]]
 - [[Wind Turbine Parameters]]

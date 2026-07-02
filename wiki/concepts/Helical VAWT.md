@@ -22,5 +22,6 @@ Vertical-axis wind turbine with blades twisted helically around the rotor. (sour
 Related:
 - [[VAWT]]
 - [[Darrieus Turbine]]
+- [[Helical Darrieus]]
 - [[CFD]]
 - [[Dynamic Stall]]

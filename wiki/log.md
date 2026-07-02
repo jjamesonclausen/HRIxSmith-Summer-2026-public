@@ -1,5 +1,17 @@
 ## Log
 
+### 2026-07-01 — Add VAWT variant concept pages
+
+- Task: create a concept page for each VAWT type represented in the hub.
+- Actions:
+  - Added pages for `Classical Savonius`, `Helical Savonius`, `Eggbeater Darrieus`, `Straight-bladed Darrieus`, `Troposkien Darrieus`, `Helical Darrieus`, `Outer Darrieus with Inner Savonius`, `Helical Hybrid`, `Darrieus above Savonius`, `Multi-stage Savonius within H-rotor Darrieus`, `Double Darrieus with Inner H-rotor and Outer Eggbeater`, and `Contra-rotating VAWT`.
+  - Updated `VAWT Types`, `Savonius Turbine`, `Darrieus Turbine`, `Hybrid VAWT`, `Helical VAWT`, `H-VAWT`, and `wiki/index.md` to link the new pages.
+- Decisions:
+  - Used short, source-grounded pages for each variant rather than repeating the full report text.
+  - Kept `H-VAWT`, `Helical VAWT`, and `Hybrid VAWT` as parent pages while adding the more specific variant pages beneath them.
+- Open:
+  - None.
+
 ### 2026-07-01 — Expand VAWT types hub from HRI2526
 
 - Task: add the VAWT families and variants named in `sources/HRI2526.md` into `wiki/concepts/VAWT Types.md`.
