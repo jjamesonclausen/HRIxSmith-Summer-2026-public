@@ -31,4 +31,4 @@ Key points:
 ![Figure 5: lift coefficient versus angle of attack from wind tunnel observations](../../images/va8-fig5.jpg)
 ![Figure 6: two-blade force arrangement](../../images/va8-fig6.jpg)
 
-Related concepts: [[../concepts/Hybrid VAWT]], [[../concepts/Aerodynamic Design Parameters]], [[../concepts/Structures and Loads]], [[../concepts/Materials and Manufacturing]], [[../concepts/Urban Wind Conditions]], [[../methods/Wind Tunnel Testing]]
+Related concepts: [[../concepts/Hybrid VAWT]], [[Aerodynamic Design Parameters]], [[../concepts/Structures and Loads]], [[../concepts/Materials and Manufacturing]], [[../concepts/Urban Wind Conditions]], [[../methods/Wind Tunnel Testing]]
