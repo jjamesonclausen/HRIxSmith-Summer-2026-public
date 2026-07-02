@@ -12,3 +12,4 @@ If any changes have been made to the wiki since the last run date, then:
 4. Make sure that all backlinks for all files including images are functional
 5. Remove any old figure captions or links if the matching image is not available
 6. Do not edit, delete, or move any files in `sources/`!
+7. Ensure `log.md` is up to date and all entries are in chronological order.
