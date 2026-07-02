@@ -12,6 +12,10 @@ Key metrics used to evaluate wind turbine performance. (source: sources/HRI2526.
 - Swept area: area covered by turbine blades, typically height × diameter for VAWTs (source: sources/HRI2526.md)
 - Reynolds number: indicates flow regime (laminar vs turbulent) (source: sources/HRI2526.md)
 
+- The vj12 review treats aspect ratio, overlap ratio, multi-staging, blade count, blade profile, inner blades, end plates, twist angle, TSR, and Reynolds number as the main knobs for VAWT performance tuning. (source: sources/vj12.md)
+- It says Savonius overlap has no universal optimum, but 0.1-0.15 is often useful and some studies still favor no-overlap for higher mechanical power. (source: sources/vj12.md)
+- It notes that Reynolds-number increases generally improve Cp and static torque in Savonius studies. (source: sources/vj12.md)
+
 - Betz limit: theoretical maximum power coefficient (~0.59). (source: sources/vj1.md)
 - Solidity: ratio of blade area to swept area; influences performance and structural tradeoffs. (source: sources/vj1.md)
 - The CFD review repeatedly uses power coefficient, torque, flow separation, and wake dynamics as the main performance indicators for VAWT studies. (source: sources/vj6.md)

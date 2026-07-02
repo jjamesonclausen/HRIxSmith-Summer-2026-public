@@ -375,6 +375,26 @@ Decisions:
 Open:
 - None
 
+### 2026-07-02 — Add vj12 concepts and methods notes
+
+Task: Fold the new `vj12` review into the existing concept and method pages.
+
+Actions:
+- Updated `concepts/Contra-rotating VAWT.md` with the stacked-rotor layout, opposite-rotation requirement, and spacing result
+- Updated `concepts/Savonius Turbine.md` with overlap, inner-blade, blade-count, and endplate notes from the review
+- Updated `concepts/Helical Savonius.md` with twist-angle performance notes
+- Updated `concepts/Optimization.md` with the review's active/passive optimization split and representative gains
+- Updated `concepts/Urban Wind Conditions.md` with siting, obstacle-clearance, and wind-farm layout notes
+- Updated `concepts/Wind Turbine Parameters.md` with the review's main geometry/performance knobs
+- Updated `methods/CFD.md` with the review's CFD usage and URANS/k-omega note
+
+Decisions:
+- Kept the edits limited to pages that already covered the same concepts or methods
+- Added representative figure links where they reinforced the new notes
+
+Open:
+- None
+
 ### 2026-07-02 — Ingest vj12 review
 
 Task: Ingest `PDFs/vj12.pdf` and add its source summary to the wiki.

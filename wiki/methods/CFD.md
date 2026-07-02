@@ -9,6 +9,9 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 - The HRI report used SimScale with stationary and rotating domains and a k-omega SST turbulence model. (source: sources/HRI2526.md)
 - The workflow validated CFD against a NACA 0012 airfoil and a classical Savonius before analyzing the selected helical hybrid. (source: sources/HRI2526.md)
 - The selected helical hybrid reported Cp 0.19 at TSR 1 in CFD. (source: sources/HRI2526.md)
+- The vj12 review treats CFD as the main way to study counter-rotation, blade-profile changes, deflectors, and site/layout effects when experiments are not practical. (source: sources/vj12.md)
+- It says one deflector study used URANS with the k-omega turbulence model as the main analysis tool. (source: sources/vj12.md)
+- It reinforces that CFD sits alongside field and lab testing for VAWT review work, not as a replacement for measurements. (source: sources/vj12.md)
 - Used in a SolidWorks Flow Simulation study of a Savonius-Darrieus hybrid rotor with a 3D domain, mesh refinement, and nine attack angles from 0 to 120 degrees. (source: sources/vj2.md)
 - A dynamic-stall study on a single-bladed 2D VAWT compared URANS, LES, and DES; DES matched PIV vorticity data best. (source: sources/vj5.md)
 - That paper found grid refinement and convergence settings materially affected vorticity and force predictions. (source: sources/vj5.md)
@@ -27,5 +30,7 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 ![Figure 2: stationary and rotating CFD domains](../../images/va7-fig2.jpg)
 ![Figure 21: z-vorticity at different TSRs](../../images/va7-fig21.jpg)
 - The CRVAWT optimization paper used STAR-CCM+ CFD, validated an isolated VAWT against wind-tunnel data, and then used the simulation outputs in a response-surface optimization workflow. (source: sources/vj8.md)
+
+![Figure 21: Schematic view and CFD streamlines for flow around a flanged diffuser](../../images/vj12-fig21.jpg)
 
 #methods

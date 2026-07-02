@@ -10,9 +10,14 @@ Drag-based VAWT using scooped blades. (source: sources/n1.md, sources/va1.md)
 - Performance:
   - Self-starting and effective at low wind speeds. (source: sources/HRI2526.md)
   - TSR is typically between 0 and 1. (source: sources/HRI2526.md)
+  - The review says overlap ratio has no single optimum, but 0.1-0.15 is a common useful range and no-overlap cases can still win on mechanical power in some studies. (source: sources/vj12.md)
+  - It reports that inner blades can raise Cp by up to 41%, with different gap settings favoring one- or two-inner-blade layouts. (source: sources/vj12.md)
+  - It says some twisted Savonius designs improve Cp substantially, including a 180-degree twist case that improved Cp by 51%. (source: sources/vj12.md)
 - Tradeoffs:
   - Simple, low-cost construction and low noise are advantages. (source: sources/HRI2526.md)
   - Negative torque on the returning blade limits efficiency. (source: sources/HRI2526.md)
+  - The review says adding more blades can improve torque but often lowers Cp; one three-bladed case reported much lower Cp and dynamic torque than the two-bladed rotor. (source: sources/vj12.md)
+  - Endplates reduce leakage; the review notes a common recommendation that endplate diameter be about 10% larger than the turbine diameter. (source: sources/vj12.md)
 
 - Self-starting and effective at low wind speeds. (source: sources/n1.md, sources/va1.md)
 - Low efficiency due to high drag. (source: sources/n1.md)
@@ -22,6 +27,9 @@ Drag-based VAWT using scooped blades. (source: sources/n1.md, sources/va1.md)
 - Simple, low-cost construction and low noise. (source: sources/HRI2526.md)
 - Suffers from negative torque on returning blade, reducing efficiency. (source: sources/HRI2526.md)
 - Optimization includes blade count, overlap ratio, and augmentation devices. (source: sources/HRI2526.md)
+
+![Figure 12: Savonius rotor with endplates](../../images/vj12-fig12.jpg)
+![Figure 19: Comparison of helical and conventional Savonius rotor](../../images/vj12-fig19.jpg)
 
 The review places Savonius operation around TSR 0.6-1.2 and peak Cp about 0.15-0.25, with self-starting as the main advantage. (source: sources/vj11.md)
 It treats Savonius as the drag-based family used when low-speed startup matters more than peak efficiency. (source: sources/vj11.md)
