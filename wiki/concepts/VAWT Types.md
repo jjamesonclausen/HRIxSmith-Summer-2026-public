@@ -22,6 +22,7 @@ This is a hub of the VAWT families and variants currently represented in the wik
 ### Hybrid / combined
 
 - [[Hybrid VAWT]] (source: sources/HRI2526.md, sources/vj2.md)
+- Hybrid VAWT with asymmetrical lift blades and compartmented channel beams as the drag-producing element. (source: sources/va8.md)
 - [[Outer Darrieus with Inner Savonius]] (source: sources/HRI2526.md)
 - [[Helical Hybrid]] (source: sources/HRI2526.md, sources/vj8.md)
 - [[Darrieus above Savonius]] (source: sources/HRI2526.md)

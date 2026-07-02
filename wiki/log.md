@@ -1,5 +1,18 @@
 ## Log
 
+### 2026-07-02 — Ingest va8 patent source
+
+- Task: ingest `sources/va8.md` according to `schema/Ingest Source`.
+- Actions:
+  - Created `wiki/summaries/va8-summary.md` with source-supported key points and figure links.
+  - Updated `Hybrid VAWT`, `Aerodynamic Design Parameters`, `Structures and Loads`, `Materials and Manufacturing`, `Urban Wind Conditions`, `Darrieus Turbine`, `Savonius Turbine`, `VAWT`, `VAWT Types`, and `Wind Tunnel Testing` with `va8` claims.
+  - Added `va8-summary` to `wiki/index.md` and marked `sources/va8.md` as processed.
+- Decisions:
+  - Treated the patent as a useful design concept source, but flagged its performance comparisons as single-source patent claims rather than broadly validated trends.
+  - Updated existing pages instead of creating a new concept page because the source fits under the current hybrid VAWT, aerodynamic design, structure, and wind-tunnel pages.
+- Open:
+  - The patent's claimed 2.5x circumferential-force improvement and 54% lighter blade profile should be checked against independent aerodynamic or experimental sources before being used as design rules.
+
 ### 2026-07-02 — Convert va8 PDF source
 
 - Task: convert `PDFs/va8.pdf` into Markdown according to `schema/Convert PDF to MD`.

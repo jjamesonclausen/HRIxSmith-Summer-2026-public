@@ -36,6 +36,9 @@ The review gives typical Darrieus ranges of TSR 2.5-5.0, solidity 0.1-0.4, chord
 It says H-Darrieus rotors can reach the highest peak Cp among the main VAWT families, but self-starting remains the main weakness. (source: sources/vj11.md)
 It treats helical Darrieus as a tradeoff: smoother torque and lower ripple, but added manufacturing complexity and some Cp penalty. (source: sources/vj11.md)
 
+The va8 patent defines Darrieus-type VAWTs as lift-producing turbines and argues that large, smoothly created path difference between top and bottom streamlines increases lift force; it uses this rationale to motivate an asymmetrical blade profile in a hybrid turbine. (source: sources/va8.md)
+The same source uses wind tunnel observations of blade lift coefficient versus angle of attack to support its selected 25-degree blade mounting angle. (source: sources/va8.md)
+
 Related:
 - [[VAWT]]
 - [[Eggbeater Darrieus]]
@@ -48,5 +51,6 @@ Related:
 - [[Wind Turbine Parameters]]
 - [[Dynamic Stall]]
 - [[Aerodynamic Design Parameters]]
+- [[Wind Tunnel Testing]]
 
 #concepts 

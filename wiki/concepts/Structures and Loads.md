@@ -7,8 +7,14 @@ This page collects the load and structural issues that shape a VAWT design.
 - Stability is a design goal in contra-rotating configurations. (source: sources/vj8.md)
 - Blade loads depend on blade number, inclination, and camber line. (source: sources/vj4.md)
 - Offshore and urban applications both create structural constraints that show up in VAWT studies. (source: sources/HRI2526.md, sources/vj1.md)
+- The va8 patent uses a central vertical rotating shaft, upper and lower hubs, upper and lower channel beams, and two thrust bearings to support side loads, allow shaft rotation, and carry self-weight. (source: sources/va8.md)
+- The patent explicitly treats shaft/building-framework connection as a stability measure so the shaft does not bend enough to interfere with free rotation. (source: sources/va8.md)
+- It places the generator/storage hardware near the bottom of the turbine and frames that choice as improving stability. (source: sources/va8.md)
+
+![Figure 2: va8 vertical shaft, bearing, generator, and storage arrangement](../../images/va8-fig2.jpg)
 
 Related:
 - [[Dynamic Stall]]
 - [[Materials and Manufacturing]]
 - [[Rules of Thumb]]
+- [[Hybrid VAWT]]

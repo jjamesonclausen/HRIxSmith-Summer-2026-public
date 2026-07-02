@@ -14,6 +14,10 @@ Measurements:
 - Cut-in speed defined as first constant rotation. (source: sources/HRI2526.md)
 - Angular velocity measured via tachometer. (source: sources/HRI2526.md)
 - The Darrieus with Savonius Compartments concept was dropped after it failed to cut in. (source: sources/HRI2526.md)
+- The va8 patent used a 3.6 m long, 0.36 m square wind tunnel with a 2-hp fan and reports a 13 m/s airflow for lift-coefficient testing of its blade profile at different angles of attack. (source: sources/va8.md)
+- That source used the lift-coefficient curves to support a 25-degree blade mounting angle, but the result is a single patent example rather than a broadly validated experimental trend. (source: sources/va8.md)
+
+![Figure 5: va8 lift coefficient versus angle of attack from wind tunnel observations](../../images/va8-fig5.jpg)
 
 Limitations:
 - Scaling mismatch with real-world conditions. (source: sources/HRI2526.md)
@@ -23,5 +27,6 @@ Related:
 - [[Wind Turbine Parameters]]
 - [[Urban Wind Conditions]]
 - [[CFD]]
+- [[Aerodynamic Design Parameters]]
 
 #methods

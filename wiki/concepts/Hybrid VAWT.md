@@ -5,6 +5,7 @@ Vertical axis wind turbine combining Darrieus (lift-based) and Savonius (drag-ba
 ![Figure 3: CAD model of the initial configuration of the proposed hybrid wind turbine](../../images/vj2-fig3a.jpg)
 ![Figure 9: Hybrid VAWT with inner classical Savonius and outer H-rotor Darrieus](../../images/hri2526-fig9.jpg)
 ![Figure 14: Final CAD Model of the Helical Hybrid VAWT](../../images/hri2526-fig14.jpg)
+![Figure 1: patent example of hybrid VAWT using lift blades and compartmented channel beams](../../images/va8-fig1.jpg)
 
 - Geometry:
   - Common layout is an outer Darrieus rotor with an inner Savonius rotor. (source: sources/HRI2526.md)
@@ -20,6 +21,10 @@ The review describes the common hybrid layout as an inner Savonius rotor with an
 It reports optimized hybrid Cp around 0.25-0.35, with reliable self-starting from near-zero wind speed. (source: sources/vj11.md)
 It warns that Savonius drag can degrade high-TSR efficiency, so swept-area balance and solidity need careful tuning. (source: sources/vj11.md)
 
+The va8 patent adds a different hybrid architecture: asymmetrical lift blades are mounted between upper and lower horizontal channel beams, and the compartmented channel beams are described as generating Savonius-like drag torque that complements blade lift torque. (source: sources/va8.md)
+In that patent design, the generator/storage hardware is placed near the bottom of the turbine, and the source frames that placement as a stability improvement compared with placing power-generation equipment at the top. (source: sources/va8.md)
+The source claims high starting torque at low wind and similar torque when wind comes from the leading or trailing edge direction, but this is a single patent source and should not be treated as a broadly validated performance trend without corroborating studies. (source: sources/va8.md)
+
 Purpose:
 - Improve self-starting via Savonius rotor (source: sources/HRI2526.md)
 - Improve efficiency at higher wind speeds via Darrieus rotor (source: sources/HRI2526.md)
@@ -29,6 +34,10 @@ Typical configuration:
 - Outer Darrieus rotor
 - Inner Savonius rotor
 (source: sources/HRI2526.md)
+
+Alternative patented configuration:
+- Asymmetrical Darrieus-like lift blades connected to horizontal channel beams with compartments. (source: sources/va8.md)
+- Channel compartments act as the drag-producing component instead of a separate central Savonius rotor. (source: sources/va8.md)
 
 Final HRI configuration:
 - Asymmetrical helical Darrieus blades surrounding a widened internal helical Savonius rotor. (source: sources/HRI2526.md)
@@ -62,5 +71,7 @@ See also:
 - [[Multi-stage Savonius within H-rotor Darrieus]]
 - [[Double Darrieus with Inner H-rotor and Outer Eggbeater]]
 - [[Aerodynamic Design Parameters]]
+- [[Structures and Loads]]
+- [[Materials and Manufacturing]]
 
 #concepts 

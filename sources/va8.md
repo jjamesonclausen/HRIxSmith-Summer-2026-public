@@ -3,7 +3,7 @@ Title: "Hybrid Vertical Axis Wind Turbine"
 Author: "Anjik Ghosh"
 Published: 2016-05-19
 Created: 2026-07-02
-Processed: false
+Processed: true
 tags:
 - "sources"
 ---
