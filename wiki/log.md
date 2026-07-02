@@ -375,6 +375,22 @@ Decisions:
 Open:
 - None
 
+### 2026-07-02 — Normalize source metadata
+
+Task: Add convention-style frontmatter metadata to all `sources/*.md` pages.
+
+Actions:
+- Added frontmatter to the five source pages that were still missing it: `HRI2526.md`, `n1.md`, `n2.md`, `va5.md`, and `va6.md`
+- Kept the existing source frontmatter on the already-tagged pages unchanged
+- Verified that all 23 source markdown files now start with frontmatter
+
+Decisions:
+- Used best-effort titles and author fields where the source note clearly provided them
+- Left `Published` blank where the source did not provide a clear publication date
+
+Open:
+- None
+
 ### 2026-07-02 — Normalize concept and method metadata
 
 Task: Add convention-style frontmatter metadata to the concept and methods wiki pages.

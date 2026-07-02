@@ -1,3 +1,12 @@
+---
+Title: "Design and Construction of Vertical Axis Wind Turbine"
+Author: "Piyush Gulve and Dr. S. B. Barve"
+Published: ""
+Created: "2026-07-02"
+Processed: false
+tags:
+- "sources"
+---
 #sources
 # Design and Construction of Vertical Axis Wind Turbine
 
