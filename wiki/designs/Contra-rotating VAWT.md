@@ -2,8 +2,8 @@
 Created:
 Updated: 2026-07-02
 Sources:
-- [[sources/vj12.md]]
-- [[sources/vj8.md]]
+- [[vj12]]
+- [[vj8]]
 Source_count: 2
 Tags:
 - concepts

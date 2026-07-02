@@ -2,11 +2,11 @@
 Created:
 Updated: 2026-07-02
 Sources:
-- [[sources/HRI2526.md]]
-- [[sources/va8.md]]
-- [[sources/vj10.md]]
-- [[sources/vj11.md]]
-- [[sources/vj12.md]]
+- [[HRI2526]]
+- [[va8]]
+- [[vj10]]
+- [[vj11]]
+- [[vj12]]
 Source_count: 5
 Tags:
 - concepts

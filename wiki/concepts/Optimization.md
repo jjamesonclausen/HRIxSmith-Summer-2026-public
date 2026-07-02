@@ -2,11 +2,11 @@
 Created:
 Updated: 2026-07-02
 Sources:
-- [[sources/va2.md]]
-- [[sources/vj11.md]]
-- [[sources/vj12.md]]
-- [[sources/vj2.md]]
-- [[sources/vj8.md]]
+- [[va2]]
+- [[vj11]]
+- [[vj12]]
+- [[vj2]]
+- [[vj8]]
 Source_count: 5
 Tags:
 - concepts

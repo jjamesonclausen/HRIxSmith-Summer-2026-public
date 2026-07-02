@@ -2,8 +2,8 @@
 Created:
 Updated: 2026-07-02
 Sources:
-- [[sources/HRI2526.md]]
-- [[sources/va8.md]]
+- [[HRI2526]]
+- [[va8]]
 Source_count: 2
 Tags:
 - methods

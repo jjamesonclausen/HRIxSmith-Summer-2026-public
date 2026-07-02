@@ -2,8 +2,8 @@
 Created:
 Updated: 2026-07-02
 Sources:
-- [[sources/va2.md]]
-- [[sources/vj4.md]]
+- [[va2]]
+- [[vj4]]
 Source_count: 2
 Tags:
 - concepts

@@ -2,22 +2,22 @@
 Created:
 Updated: 2026-07-02
 Sources:
-- [[sources/HRI2526.md]]
-- [[sources/n1.md]]
-- [[sources/n2.md]]
-- [[sources/va1.md]]
-- [[sources/va2.md]]
-- [[sources/va3.md]]
-- [[sources/va4.md]]
-- [[sources/va5.md]]
-- [[sources/va7.md]]
-- [[sources/va8.md]]
-- [[sources/vj1.md]]
-- [[sources/vj11.md]]
-- [[sources/vj5.md]]
-- [[sources/vj6.md]]
-- [[sources/vj7.md]]
-- [[sources/vj8.md]]
+- [[HRI2526]]
+- [[n1]]
+- [[n2]]
+- [[va1]]
+- [[va2]]
+- [[va3]]
+- [[va4]]
+- [[va5]]
+- [[va7]]
+- [[va8]]
+- [[vj1]]
+- [[vj11]]
+- [[vj5]]
+- [[vj6]]
+- [[vj7]]
+- [[vj8]]
 Source_count: 16
 Tags:
 - concepts
@@ -98,7 +98,7 @@ Types of VAWTs:
 - [[Dynamic Stall]]
 
 Related:
-- [[Lift vs Drag]]
+- [[Lift vs Drag VAWT – Research Question]]
 - [[VAWT Types]]
 - [[VAWT Design Overview]]
 - [[VAWT Design Comparisons]]

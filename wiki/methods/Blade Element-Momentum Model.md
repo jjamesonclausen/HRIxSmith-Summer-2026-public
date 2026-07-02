@@ -2,8 +2,8 @@
 Created:
 Updated: 2026-07-02
 Sources:
-- [[sources/vj10.md]]
-- [[sources/vj4.md]]
+- [[vj10]]
+- [[vj4]]
 Source_count: 2
 Tags:
 - methods

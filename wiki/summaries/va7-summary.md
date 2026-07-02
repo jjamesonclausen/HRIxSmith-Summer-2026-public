@@ -1,7 +1,7 @@
 ---
 Created: 2026-06-30
 Updated: 2026-06-30
-Sources: [[../../sources/va7]]
+Sources: [[va7]]
 Source_count: 1
 Tags:
 - summaries
@@ -29,4 +29,4 @@ Key points:
 ![Figure 14: standard deviation of Cp across blade types and TSR](../../images/va7-fig14.jpg)
 ![Figure 22: wake structure at TSR 3.1](../../images/va7-fig22.jpg)
 
-Related concepts: [[Helical VAWT]], [[../concepts/VAWT]], [[../concepts/Wind Turbine Parameters]], [[../methods/CFD]]
+Related concepts: [[Helical VAWT]], [[VAWT]], [[Wind Turbine Parameters]], [[CFD]]

@@ -2,7 +2,7 @@
 Created:
 Updated: 2026-07-02
 Sources:
-- [[sources/va1.md]]
+- [[va1]]
 Source_count: 1
 Tags:
 - methods
@@ -20,6 +20,6 @@ Method for estimating the annual energy output (AEO) of a wind turbine using win
 
 > Inference: Accuracy depends heavily on quality of wind data and validity of the turbine power curve.
 
-Related: [[methods/Bin Method]], [[concepts/Annual Energy Output]]
+Related: [[Bin Method]], [[Annual Energy Output]]
 
 #methods

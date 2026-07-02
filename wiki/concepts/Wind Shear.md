@@ -1,7 +1,7 @@
 ---
 Created: 2026-06-30
 Updated: 2026-06-30
-Sources: [[sources/vj10.md]], [[sources/vj3.md]]
+Sources: [[vj10]], [[vj3]]
 Source_count: 2
 Tags:
 - concepts

@@ -2,9 +2,9 @@
 Created:
 Updated: 2026-07-02
 Sources:
-- [[sources/HRI2526.md]]
-- [[sources/va4.md]]
-- [[sources/va7.md]]
+- [[HRI2526]]
+- [[va4]]
+- [[va7]]
 Source_count: 3
 Tags:
 - concepts
