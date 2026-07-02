@@ -1422,6 +1422,19 @@ Decisions:
 Open:
 - None.
 
+### 2026-07-02 — Retag design pages
+
+Task: Update the `wiki/designs` page metadata so design pages use the `Designs` tag like concept pages use `concepts`.
+
+Actions:
+- Changed the `Tags` frontmatter on all pages in `wiki/designs/` from `concepts` to `Designs`.
+
+Decisions:
+- Kept the rest of each page unchanged to avoid any content drift.
+
+Open:
+- None.
+
 ### 2026-07-02 — Clean va7 headings and page breaks
 
 Task: Reformat `sources/va7.md` so paper sections are Markdown headings and page breaks are excluded.

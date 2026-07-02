@@ -6,7 +6,7 @@ Sources:
 - [[vj8]]
 Source_count: 2
 Tags:
-- concepts
+- Designs
 ---
 ## Contra-rotating VAWT
 

@@ -6,7 +6,7 @@ Sources:
 - [[vj4]]
 Source_count: 2
 Tags:
-- concepts
+- Designs
 ---
 ## D-rotor / Eggbeater Darrieus
 
