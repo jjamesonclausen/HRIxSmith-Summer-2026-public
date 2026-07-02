@@ -1,3 +1,4 @@
+#maintenance
 # Wiki Index
 
 The map of this knowledge base. The agent keeps this current: every page it creates is linked from here.
@@ -6,9 +7,9 @@ The map of this knowledge base. The agent keeps this current: every page it crea
 
 ## Logs
 
-- [Project log](log.md) — what was done, what changed, decisions and why.
-- [Learning log](learning-log.md) — what you understood, in your own words.
-- [Evals](evals.md) — the test set that keeps this wiki honest.
+- [[log]] — what was done, what changed, decisions and why.
+- [[learning-log]] — what you understood, in your own words.
+- [[evals]] — the test set that keeps this wiki honest.
 
 ## Source summaries
 
@@ -138,4 +139,4 @@ _Procedure and technique pages live in [`methods/`](methods/)._
 
 How to read this wiki: start here, follow links. Anything marked `> Unverified:` or `> Inference:` is not directly supported by a source — treat it with extra suspicion.
 
-Want to *understand* something here, not just look it up? Ask the agent to teach it — Socratically, or by quizzing you and grading hard. It will point you to record what you learned in the [learning log](learning-log.md). See [teaching mode](../AGENTS.md) in the schema.
+Want to *understand* something here, not just look it up? Ask the agent to teach it — Socratically, or by quizzing you and grading hard. It will point you to record what you learned in [[learning-log]]. See [teaching mode](../AGENTS.md) in the schema.

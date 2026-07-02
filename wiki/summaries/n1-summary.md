@@ -1,3 +1,12 @@
+---
+Created:
+Updated: 2026-07-02
+Sources: [[n1]]
+Source_count: 1
+Tags:
+- summaries
+---
+
 ## n1 Summary
 
 Overview of vertical-axis wind turbines (VAWTs), including comparisons with horizontal-axis turbines (HAWTs), aerodynamic principles, design parameters, and optimization opportunities. (source: sources/n1.md)
