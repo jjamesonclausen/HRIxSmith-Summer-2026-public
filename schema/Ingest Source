@@ -26,11 +26,12 @@
     Tags:
     ---`
 12. Update `wiki/index.md` so it points to any new or changed wiki pages.
-13. Append an entry to `wiki/log.md` describing what was ingested, what changed, and any open issues.
-14. After ingesting, prompt the human to engage with the material using one of these methods:
+13. Mark the source file as processed by changing the metadata in that field to be 'true'.
+14. Append an entry to `wiki/log.md` describing what was ingested, what changed, and any open issues.
+15. After ingesting, prompt the human to engage with the material using one of these methods:
 	   - explain it back
 	   - a Socratic dialogue
 	   - a quiz
 	   - attempt first, then find the error
 	   - steelman both sides
-15. Do not mark ingest complete until the summary, any needed concept or method pages, figure links, index, and log are all updated.
+16. Do not mark ingest complete until the summary, any needed concept or method pages, figure links, index, and log are all updated.

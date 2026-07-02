@@ -55,6 +55,9 @@ The VAWT review frames the main archetypes as Savonius, H-Darrieus, troposkein D
 It treats dynamic stall, leading-edge vortex shedding, and blade-wake interaction as the main low-TSR aerodynamic limits. (source: sources/vj11.md)
 It emphasizes urban and floating offshore use cases because VAWTs tolerate omnidirectional and disturbed inflow. (source: sources/vj11.md)
 
+The va8 patent presents a rooftop/rural hybrid VAWT concept intended for low-speed, scattered wind, using asymmetrical lift blades plus drag-producing compartmented channel beams for starting torque. (source: sources/va8.md)
+The design keeps generator and storage elements near the bottom of the turbine, which the source frames as a stability advantage. (source: sources/va8.md)
+
 Deployment considerations:
 - Performance improves significantly in higher wind environments (e.g., tall buildings, bridges). (source: sources/n2.md)
 
@@ -76,5 +79,6 @@ Related:
 - [[Rules of Thumb]]
 - [[CFD and Validation]]
 - [[Optimization]]
+- [[Wind Tunnel Testing]]
 
 #concepts 

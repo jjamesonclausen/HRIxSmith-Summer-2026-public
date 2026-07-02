@@ -11,6 +11,8 @@ Characteristics of airflow in built environments. (source: sources/HRI2526.md)
 - The review says rooftop wind is often below 5 m/s, with turbulence intensity commonly around 15-25% in urban settings. (source: sources/vj11.md)
 - It treats site-specific flow characterization as essential before judging turbine performance in buildings. (source: sources/vj11.md)
 - It reinforces the fit between urban deployment and VAWT traits such as omnidirectionality and low visual impact. (source: sources/vj11.md)
+- The va8 patent motivates its design around low-altitude, scattered, turbulent, low-speed wind near residences and rooftops, where it says VAWTs can accept wind from any direction better than HAWTs. (source: sources/va8.md)
+- The same patent frames rural rooftop deployment as a target use case and says battery storage could reduce or possibly eliminate grid-power need for household electric power. (source: sources/va8.md)
 ![Figure 16: Wind Data from McConnell Rooftop](../../images/hri2526-fig16.jpg)
 
 Implications:
@@ -24,5 +26,6 @@ Related:
 - [[CFD]]
 - [[Atmospheric Turbulence]]
 - [[Wind Shear]]
+- [[Hybrid VAWT]]
 
 #concepts 

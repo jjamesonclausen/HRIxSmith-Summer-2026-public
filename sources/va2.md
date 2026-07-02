@@ -1,4 +1,13 @@
-#sources
+---
+Title: "Airfoil Optimization Design of Vertical-Axis Wind Turbine Based on Kriging Surrogate Model and MIGA"
+Author: "Quan Wang; Zhaogang Zhang"
+Published: 2025-06-03
+Created: 2026-07-02
+Processed: true
+tags:
+- "sources"
+---
+
 # Airfoil Optimization Design of Vertical-Axis Wind Turbine Based on Kriging Surrogate Model and MIGA
 
 Quan Wang 1,2,* and Zhaogang Zhang 1,2
