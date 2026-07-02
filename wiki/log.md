@@ -348,6 +348,38 @@ Decisions:
 Open:
 - None
 
+### 2026-07-02 — Ingest vj12 review
+
+Task: Ingest `PDFs/vj12.pdf` and add its source summary to the wiki.
+
+Actions:
+- Converted `vj12.pdf` into `sources/vj12.md` with frontmatter, extracted text, and figure links
+- Extracted and named 28 figure files in `images/vj12-fig*.jpg`
+- Added `wiki/summaries/vj12-summary.md` with source-grounded bullets and representative figure links
+- Updated `wiki/index.md` to include `vj12-summary`
+
+Decisions:
+- Kept the ingest focused on the new source summary rather than creating new concept pages, since the paper mainly synthesizes existing VAWT topics
+- Used a representative crop for the final multi-panel wind-farm figure because the PDF splits that figure across the closing pages
+
+Open:
+- The source conversion still contains some OCR clutter from the PDF text extraction, but the structure and figure links are in place
+
+### 2026-07-02 — Repair vj12 figure set
+
+Task: Fix the broken `vj12` image set after the initial ingest.
+
+Actions:
+- Rebuilt the `vj12` figure crops from `PDFs/vj12.pdf` into the repo `images/` folder
+- Restored the full 28-file figure set after an earlier rename pass had clobbered most of the generated files
+- Corrected `vj12-fig1.jpg` so it now matches the Figure 1 image used by the source markdown
+
+Decisions:
+- Kept the existing source and summary links, since the image filenames now match them again
+
+Open:
+- None
+
 ### 2026-06-30 — VAWT types learning quiz
 
 Task: Quiz Anna on different types of VAWTs and their pros and cons.
