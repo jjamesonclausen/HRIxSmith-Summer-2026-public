@@ -1,5 +1,36 @@
 ## Log
 
+### 2026-07-02 — Add va3 design and parameter pages
+
+- Task: revisit `sources/va3.md` under the updated ingest procedure and create design/parameter pages as appropriate.
+- Actions:
+  - Added single-source design pages for `Ropatec WRE.060 WindRotor`, `Solwind Vertical Axis Wind Turbine`, `Eurowind VAWT`, `Venturi Wind Turbine`, `Turby Wind Turbine`, `Windside Helical Wind Turbine`, `QuietRevolution QR5`, `Aerogenerator Offshore VAWT`, `Windspire Gyromill`, and `Counter-rotating VAWT Array`.
+  - Added single-source parameter pages for `Tip Speed Ratio Classification`, `Blade Count for VAWT Startup and Pulsation`, and `Counter-rotating Array Spacing`.
+  - Updated `wiki/index.md`, `va3-summary`, and related VAWT/Darrieus/Savonius/Helical pages with links to the new pages.
+  - Added current summary front matter to `wiki/summaries/va3-summary.md`.
+  - Verified bare backlinks and image links for the new design/parameter layer.
+- Decisions:
+  - Created pages only for `va3` designs with enough source detail to describe geometry, design choices, and/or performance.
+  - Left unavailable metadata fields blank rather than inferring values.
+  - Marked the Venturi 85% efficiency statement as a source claim that should be checked before being used as a design rule because it exceeds the Betz limit framing elsewhere in the same source.
+- Open:
+  - Some `va3` design pages may need later consolidation if the wiki decides to separate commercial product pages from generic VAWT type pages.
+
+### 2026-07-02 — Add va9 design and parameter pages
+
+- Task: revisit `va9` after the ingest procedure was updated to require design and parameter pages.
+- Actions:
+  - Added `wiki/designs/EN0005 Self-start Darrieus VAWT.md` as a single-source design page for the prototype described in `sources/va9.md`.
+  - Added `wiki/parameters/EN0005 Blade Profile.md` as a single-source parameter page for the EN0005 profile change and self-start outcome.
+  - Added `Designs` and `Parameters` sections to `wiki/index.md` and linked the new pages.
+  - Updated related links from `va9-summary`, `Darrieus Turbine`, and `Aerodynamic Design Parameters`.
+  - Corrected `Sources` metadata on existing pages that cite `sources/va9.md` so they include `[[va9]]`.
+- Decisions:
+  - Used the reported field-test self-start at 1.25 m/s as the design page cut-in/self-start value, while leaving rated speed, rated power, efficiency, TSR, and swept area blank because the source does not provide those as explicit design metadata.
+  - Classified the EN0005 blade-profile outcome as a significant positive effect because the source reports improved self-start behavior, favorable lift/drag/moment comparisons, and successful prototype self-start.
+- Open:
+  - The EN0005 results remain source-specific and should not be generalized without corroborating sources.
+
 ### 2026-07-02 — Normalize wiki backlinks
 
 - Task: make wiki backlinks functional using bare file-name syntax such as `[[va1]]`.

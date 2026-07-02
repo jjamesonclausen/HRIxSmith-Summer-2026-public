@@ -4,11 +4,12 @@ Updated: 2026-07-02
 Sources:
 - [[HRI2526]]
 - [[va8]]
+- [[va9]]
 - [[vj1]]
 - [[vj11]]
 - [[vj4]]
 - [[vj8]]
-Source_count: 6
+Source_count: 7
 Tags:
 - Parameters
 ---
@@ -43,3 +44,4 @@ Related:
 - [[Rules of Thumb]]
 - [[Wind Tunnel Testing]]
 - [[Double-Multiple Streamtube Model]]
+- [[EN0005 Blade Profile]]

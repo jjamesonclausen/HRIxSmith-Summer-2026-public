@@ -84,6 +84,42 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 - [[Wind Turbine Parameters]]
 - [[Wind Shear]]
 
+## Designs
+
+_Specific turbine design pages live in [`designs/`](designs/)._
+
+- [[Classical Savonius]]
+- [[Contra-rotating VAWT]]
+- [[Counter-rotating VAWT Array]]
+- [[Darrieus above Savonius]]
+- [[Double Darrieus with Inner H-rotor and Outer Eggbeater]]
+- [[Eggbeater Darrieus]]
+- [[EN0005 Self-start Darrieus VAWT]]
+- [[Eurowind VAWT]]
+- [[Helical Hybrid]]
+- [[J-Type VAWT]]
+- [[Aerogenerator Offshore VAWT]]
+- [[Multi-stage Savonius within H-rotor Darrieus]]
+- [[Outer Darrieus with Inner Savonius]]
+- [[QuietRevolution QR5]]
+- [[Ropatec WRE.060 WindRotor]]
+- [[Solwind Vertical Axis Wind Turbine]]
+- [[Troposkien Darrieus]]
+- [[Turby Wind Turbine]]
+- [[Venturi Wind Turbine]]
+- [[Windside Helical Wind Turbine]]
+- [[Windspire Gyromill]]
+
+## Parameters
+
+_Design-parameter pages live in [`parameters/`](parameters/)._
+
+- [[Aerodynamic Design Parameters]]
+- [[Blade Count for VAWT Startup and Pulsation]]
+- [[Counter-rotating Array Spacing]]
+- [[EN0005 Blade Profile]]
+- [[Tip Speed Ratio Classification]]
+
 ## Methods
 
 _Procedure and technique pages live in [`methods/`](methods/)._

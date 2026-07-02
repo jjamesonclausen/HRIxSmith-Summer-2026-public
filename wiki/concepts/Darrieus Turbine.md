@@ -7,10 +7,11 @@ Sources:
 - [[va1]]
 - [[va3]]
 - [[va8]]
+- [[va9]]
 - [[vj11]]
 - [[vj4]]
 - [[vj5]]
-Source_count: 8
+Source_count: 9
 Tags:
 - concepts
 ---
@@ -76,5 +77,10 @@ Related:
 - [[Aerodynamic Design Parameters]]
 - [[Wind Tunnel Testing]]
 - [[Double-Multiple Streamtube Model]]
+- [[EN0005 Self-start Darrieus VAWT]]
+- [[EN0005 Blade Profile]]
+- [[Ropatec WRE.060 WindRotor]]
+- [[Eurowind VAWT]]
+- [[Tip Speed Ratio Classification]]
 
 #concepts 
