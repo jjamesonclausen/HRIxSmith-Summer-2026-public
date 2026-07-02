@@ -47,3 +47,8 @@ Open:
 - In my words: Torque ripple is when torque is not smooth while the turbine rotates, so it rises and falls instead of staying steady. Those fluctuations can reduce efficiency.
 - Tripped me up: I hadn't heard the term before but it just means uneven torque over the rotation.
 - Still open: How much torque ripple matters depends on the turbine design and operating point.
+
+## 2026-07-01 — PDF ingest and OCR - julie
+- In my words: Learned about how the LLM processes PDFs, what OCR is, and why errors can happen when turning a PDF into Markdown. I understand better now how to prompt it when ingesting PDFs.
+- Tripped me up: I was not clear on why the markdown could end up missing or summarizing text even when the PDF looks readable and i can highlight the text.
+- Still open: How to have it systematically check the new markdown so it does not summarize or miss text.

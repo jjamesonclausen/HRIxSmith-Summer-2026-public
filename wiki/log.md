@@ -1,5 +1,152 @@
 ## Log
 
+### 2026-07-01 — Expand VAWT types hub from HRI2526
+
+- Task: add the VAWT families and variants named in `sources/HRI2526.md` into `wiki/concepts/VAWT Types.md`.
+- Actions:
+  - Expanded the hub to include classical, helical, straight-bladed, troposkien, and eggbeater Darrieus variants.
+  - Added the hybrid configurations named in the report, including helical hybrid, outer Darrieus with inner Savonius, Darrieus above Savonius, multi-stage Savonius within H-rotor Darrieus, and double Darrieus with inner H-rotor and outer eggbeater.
+- Decisions:
+  - Kept the structure grouped by drag-based, lift-based, and hybrid/combined families.
+  - Left contra-rotating as an inference because the wiki does not yet have a dedicated concept page for it.
+- Open:
+  - None.
+
+### 2026-07-01 — Add VAWT types hub
+
+- Task: create a hub-style concept page for VAWT families grouped by broader categories.
+- Actions:
+  - Added `wiki/concepts/VAWT Types.md` with drag-based, lift-based, and hybrid/combined sections.
+  - Linked the page from `wiki/index.md` and `concepts/VAWT.md`.
+- Decisions:
+  - Kept the page limited to families currently represented in the wiki and marked contra-rotating as an inference where no separate concept page exists yet.
+- Open:
+  - None.
+
+### 2026-07-01 — Add VAWT design hub pages
+
+- Task: reorganize the concepts area around VAWT design, especially the rules-of-thumb idea.
+- Actions:
+  - Added new concept hub pages for `VAWT Design Overview`, `VAWT Design Comparisons`, `Turbine Concept Selection`, `Aerodynamic Design Parameters`, `Structures and Loads`, `Materials and Manufacturing`, `CFD and Validation`, `Optimization`, `Design Checklist`, and `Rules of Thumb`.
+  - Updated `wiki/index.md` so the new pages are visible from the main concepts list.
+  - Added links from `concepts/VAWT.md` to the new design pages.
+- Decisions:
+  - Kept the new pages as source-grounded hubs that point to the existing detailed pages instead of duplicating the underlying paper content.
+  - Made `Rules of Thumb` a dedicated page because it is the most useful quick-reference layer for a design workflow.
+- Open:
+  - None.
+
+### 2026-07-01 — Fill source publication dates
+
+- Task: populate `Published` in `sources/vj1.md` through `sources/vj7.md` with the best supported date information.
+- Actions:
+  - Set `vj1` to `2007` from the Elsevier copyright/front-matter year.
+  - Set `vj2` to `2020` from the paper's own 2020 symposium reference in the source text.
+  - Set `vj3` to `2012-09` from the visible source line `North American Windpower, September 2012`.
+  - Set `vj4` to `2016-05` from Crossref metadata for the paper.
+  - Set `vj5` to `2009-05` from Crossref metadata for the paper.
+  - Left `vj7` blank because no exact Crossref/DOI match or source year could be confirmed.
+- Decisions:
+  - Used partial dates when only month/year were supported.
+  - Avoided inventing a year for `vj7`.
+- Open:
+  - None.
+
+### 2026-07-01 — Add vj8 properties block
+
+- Task: add schema frontmatter to `sources/vj8.md` and confirm `sources/vj9.md` status.
+- Actions:
+  - Added `Title`, `Author`, `Published`, `Created`, `Processed`, and `tags` frontmatter to `sources/vj8.md`.
+  - Verified `sources/vj9.md` already had a complete properties block and left it unchanged.
+- Decisions:
+  - Used `Published: 2023-12-30` for `vj8` because the source explicitly says “Available online 30 December 2023.”
+  - Left `Created` blank because the source did not provide a creation date.
+- Open:
+  - None.
+
+### 2026-07-01 — Clean vj8 abstract header
+
+- Task: remove the stray journal header/footer spill from the start of `sources/vj8.md` and label the abstract.
+- Actions:
+  - Replaced the `A B S T R A C T` marker with `## Abstract`.
+  - Removed the `E-mail address` / ScienceDirect / journal footer lines that had spilled into the introduction block.
+- Decisions:
+  - Kept the rest of the source unchanged because the issue was limited to the top-of-file spill.
+- Open:
+  - None.
+
+### 2026-07-01 — Rebuild vj8
+
+- Task: check `vj8` for summarization, missing text, and image quality.
+- Actions:
+  - Rebuilt `sources/vj8.md` from the PDF text layer instead of the prior summary.
+  - Re-extracted the `vj8-fig*.jpg` figures from embedded PDF images.
+  - Fixed one duplicate figure-caption insertion near Fig. 18.
+- Decisions:
+  - Treated the existing `vj8.md` as summary/OCR drift and replaced it with a raw transcript-style source.
+- Open:
+  - None.
+
+### 2026-07-01 — Rebuild vj7
+
+- Task: check `vj7` for summarization, missing text, and figure quality.
+- Actions:
+  - Rewrote `sources/vj7.md` from the PDF text layer instead of the prior summary.
+  - Replaced `vj7-fig1.jpg`, `vj7-fig2.jpg`, and `vj7-fig3.jpg` with embedded PDF image extractions.
+  - Kept the source anchored to the PDF sections and references.
+- Decisions:
+  - Treated the old `vj7.md` as a summary that needed a full source rebuild.
+- Open:
+  - None.
+
+### 2026-07-01 — Fix vj6 Table 1
+
+- Task: repair the broken Table 1 block in `sources/vj6.md`.
+- Actions:
+  - Replaced the flattened OCR table with a clean Markdown table.
+  - Kept the wording aligned with the PDF’s Table 1 content for sliding, overset, and morphing mesh.
+- Decisions:
+  - Left the rest of the document unchanged in this pass.
+- Open:
+  - Broader paragraph cleanup is still separate from this table fix.
+
+### 2026-07-01 — vj6 follow-up cleanup
+
+- Task: address the reviewer notes on `sources/vj6.md`.
+- Actions:
+  - Regenerated all `vj6-fig*.jpg` files as tight PDF crops.
+  - Replaced displayed equations 1 through 11 with cropped equation images.
+  - Verified the source still references the figure assets and the new equation images.
+- Decisions:
+  - Kept the source text otherwise unchanged after a failed broad reflow attempt, because the safe text cleanup path needs a narrower pass.
+- Open:
+  - Paragraph reflow remains to be decided: conservative spot fixes vs. a full verbatim reflow pass.
+
+### 2026-07-01 — Finish vj6 rebuild
+
+- Task: replace the paraphrased `sources/vj6.md` with the rebuilt PDF-derived draft.
+- Actions:
+  - Copied the verified `vj6-rebuild.md` draft into `sources/vj6.md`.
+  - Confirmed the source hash matches the draft hash exactly.
+  - Verified all 21 `vj6-fig*.jpg` assets exist and are linked from the source.
+- Decisions:
+  - Kept the draft as-is because it was a full rebuild with the references section intact and no content drift from the temp draft.
+- Open:
+  - None.
+
+### 2026-06-30 — Maintenance pass
+
+- Task: run the wiki maintenance procedure from `schema/`.
+- Actions:
+  - Read `AGENTS.md` and the `schema/` procedures.
+  - Checked the current source and wiki inventory.
+  - Confirmed `20` source markdown files and `20` summary pages.
+- Decisions:
+  - No wiki content changes were needed because the summary inventory matches the source inventory.
+  - `schema/Maintain Wiki` is empty, so there was no additional procedure to follow there.
+- Open:
+  - Re-run ingest if any new source files are added or updated.
+
 ### 2026-06-24
 
 - Ingested sources/n1.md and sources/va1.md
@@ -304,6 +451,157 @@ Actions:
 
 Decisions:
 - Followed the user's instruction to avoid editing source text when creating source markdown
+
+Open:
+- None
+
+### 2026-07-01 — Clean vj1 source header
+
+Task: Remove PDF header boilerplate from `sources/vj1.md`.
+
+Actions:
+- Removed the stray source marker, journal header line, and Elsevier URL from the top of the file
+- Kept the paper title, authors, and abstract intact
+
+Decisions:
+- Limited the cleanup to the obvious header noise at the top of the source markdown
+
+Open:
+- None
+
+### 2026-07-01 — Clean vj1 page breaks
+
+Task: Remove repeated page-header interruptions from `sources/vj1.md`.
+
+Actions:
+- Removed the repeated running journal header from the middle of paragraphs
+- Removed standalone page numbers inserted at page breaks
+- Cleaned the references section where the header text had been injected inline
+
+Decisions:
+- Kept the paper text, figure captions, and references intact
+- Treated this as formatting cleanup only, not content rewriting
+
+Open:
+- None
+
+### 2026-07-01 — Add vj1 figures
+
+Task: Restore the extracted figures for `sources/vj1.md`.
+
+Actions:
+- Extracted two figure images from `PDFs/vj1.pdf` into `images/vj1-fig1.jpg` and `images/vj1-fig2.jpg`
+- Added Markdown image links for both figures at their caption locations in `sources/vj1.md`
+- Verified both image files exist and the source links resolve relative to `sources/`
+
+Decisions:
+- Used rendered figure regions instead of partial embedded assets so the composite first figure stayed intact
+
+Open:
+- None
+
+### 2026-07-01 — Clean vj1 placeholder blocks
+
+Task: Remove leftover OCR picture placeholder blocks from `sources/vj1.md`.
+
+Actions:
+- Removed the omitted picture markers around the equation sections
+- Removed the embedded graph-text placeholder block near Fig. 2
+- Kept the surrounding prose, table, and figure links intact
+
+Decisions:
+- Treated the placeholders as OCR artifacts, not source content
+
+Open:
+- None
+
+### 2026-07-01 — Fix vj1 figure crops
+
+Task: Correct the figure images linked from `sources/vj1.md`.
+
+Actions:
+- Replaced `images/vj1-fig1.jpg` with a crop from the actual figure on PDF page 3
+- Replaced `images/vj1-fig2.jpg` with a render of the actual chart on PDF page 9
+- Kept the existing figure links in `sources/vj1.md`
+
+Decisions:
+- Used the visible figure regions from the PDF rather than the journal masthead crop and OCR placeholder text
+
+Open:
+- None
+
+### 2026-07-01 — Check vj2 figures
+
+Task: Verify `sources/vj2.md` for the same figure issues seen in `vj1`.
+
+Actions:
+- Checked the extracted figure files for `vj2` and confirmed the expected image set is present
+- Compared the source figure links against the PDF figure order and found them aligned
+- Removed the stale note claiming the figure images were missing from `images/`
+
+Decisions:
+- Left the existing `vj2` figure crops and links in place because they match the PDF layout
+
+Open:
+- None
+
+### 2026-07-01 — Check vj4 figures
+
+Task: Verify `sources/vj4.md` for figure-link and crop issues.
+
+Actions:
+- Read the figure sections in `sources/vj4.md`
+- Visually checked the extracted `vj4-fig*.jpg` images against their captions
+- Confirmed the figure sequence and filenames are aligned
+
+Decisions:
+- No edits were needed; the source links and extracted images match the paper layout
+
+Open:
+- None
+
+### 2026-07-01 — Re-export vj4 figures
+
+Task: Fix `vj4` figure crops to follow the extraction protocol.
+
+Actions:
+- Re-exported `vj4-fig2.jpg` through `vj4-fig12.jpg` from the PDF's actual figure bounding boxes
+- Removed caption bleed and surrounding page text from the figure images
+- Kept `vj4-fig1.jpg` and the source links unchanged
+
+Decisions:
+- Used the visible figure regions from the PDF as the source of truth for composite/vector figures
+
+Open:
+- None
+
+### 2026-07-01 — Fix vj5 figures
+
+Task: Re-export the `vj5` figures using the extraction protocol.
+
+Actions:
+- Replaced embedded-image figures with direct xref extractions for the clean figure assets
+- Re-rendered the vector-only force-history figures so they exclude captions and surrounding text
+- Verified all 22 `vj5-fig*.jpg` files exist and remain linked from `sources/vj5.md`
+
+Decisions:
+- Followed the protocol's preference for embedded image extraction first, then page rendering for vector-only plots
+
+Open:
+- None
+
+### 2026-07-01 — Restore vj5 source text
+
+Task: Remove summary-style rewrites from `sources/vj5.md` and restore the paper wording.
+
+Actions:
+- Replaced the abstract and section lead-ins with the paper's original language
+- Restored the model, flow-condition, validation, and grid-sensitivity sections from the PDF text
+- Fixed a few clipped OCR/transcription fragments that remained after the rewrite
+
+Decisions:
+- Kept the figure links and cleaned figure assets in place
+- Left minor OCR quirks that are transcription artifacts rather than summaries
 
 Open:
 - None

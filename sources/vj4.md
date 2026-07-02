@@ -1,3 +1,13 @@
+---
+Title: "Analysis of Different Blade Architectures on small VAWT Performance"
+Author: "L. Battisti, A. Brighenti, E. Benini, M. Raciti Castelli"
+Published: 2016-05
+Created: ""
+Processed: false
+tags:
+- "sources"
+---
+
 #sources
 ## Analysis of Different Blade Architectures on small VAWT Performance
 

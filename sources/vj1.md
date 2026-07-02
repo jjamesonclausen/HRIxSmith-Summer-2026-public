@@ -1,9 +1,14 @@
-#sources 
-Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434 
+---
+Title: "Evaluation of different turbine concepts for wind power"
+Author: "Sandra Eriksson, Hans Bernhoff, Mats Leijon"
+Published: 2007
+Created: ""
+Processed: false
+tags:
+- "sources"
+---
 
-www.elsevier.com/locate/rser 
-
-# Evaluation of different turbine concepts for wind power 
+# Evaluation of different turbine concepts for wind power
 
 ## Sandra Eriksson , Hans Bernhoff, Mats Leijon 
 
@@ -34,11 +39,9 @@ Corresponding author. Tel.: +46 18 471 5823; fax: +46 18 471 5810. E-mail addres
 
 1364-0321/$ - see front matter r 2007 Elsevier Ltd. All rights reserved. doi:10.1016/j.rser.2006.05.017 
 
-## S. Eriksson et al. / Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434 
 
 ||||
 |---|---|---|
-|1420||S. Eriksson et al. / Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434|
 ||2.1.|Design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1423|
 |||2.1.1.<br>Yaw mechanism . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1423|
 |||2.1.2.<br>Axis direction. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1424|
@@ -69,11 +72,9 @@ This work aims at making a short historical background to wind power and then pr
 
 The wind has been used as an energy source for a very long time, for example in sailing boats. The first windmills were used by the Persians approximately 900 AD [8]. These first windmills were VAWTs. During the Middle Ages, horizontal axis windmills were built in Europe and used for mechanical tasks such as pumping water or grinding grain. These were the classical four-bladed old windmills that had a yawing system and were mounted on a big structure. These windmills lost popularity after the industrial revolution. At about 
 
-1421 
-
-S. Eriksson et al. / Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434 
-
 Fig. 1. To the left is a Savonius rotor, in the middle a Darrieus turbine and to the right an H-rotor. 
+
+![Figure 1: To the left is a Savonius rotor, in the middle a Darrieus turbine and to the right an H-rotor.](../images/vj1-fig1.jpg)
 
 the same time, water pumping windmills became popular in the United States, recognisable for their many blades and typically situated on a farm [8]. 
 
@@ -85,7 +86,6 @@ During the 1970s and 1980s vertical axis machines came back into focus when both
 
 The straight-bladed VAWT was also an invention included in the Darrieus patent [9]. This turbine is usually referred to as the straight-bladed Darrieus turbine or the H-rotor, but has also been called giromill or cycloturbine (different concepts of the same invention) (see Fig. 1). In the United Kingdom, the H-rotor was investigated by a research team led by Peter Musgrove [2,14,15]. The biggest H-rotor built in the UK was a 500 kW machine, which was designed in 1989 [16]. In the 1990s, the German company Heidelberg Motor 
 
-1422 S. Eriksson et al. / Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434 
 
 GmbH worked with development of H-rotors and they built several 300 kW pototypes [17,18]. 
 
@@ -101,21 +101,11 @@ There are several companies that market commercial products based on VAWT techno
 
 The amount of power, P, that can be absorbed by a wind turbine can be found from 
 
-**==> picture [64 x 21] intentionally omitted <==**
-
 where CP is the power coefficient, r is the density of the air , A is the swept area of the turbine and v is the wind speed. The power coefficient represents the aerodynamic efficiency of the wind turbine and is a function of the tip speed ratio, l, which is defined as 
-
-**==> picture [38 x 21] intentionally omitted <==**
 
 where o is the rotational frequency of the turbine, R is the turbine radius and v is the wind speed. 
 
 The solidity, s, states a relation between the blade area and the turbine swept area and has different definitions for different types of turbines. For a HAWT, it is defined as 
-
-**==> picture [37 x 22] intentionally omitted <==**
-
-S. Eriksson et al. / Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434 
-
-1423 
 
 Table 1 
 
@@ -141,8 +131,6 @@ Summary of the most important differences between the three turbines
 
 where B is the number of blades, c is the chord length, and R is the radius of the turbine. For a VAWT, the solidity is defined as 
 
-**==> picture [35 x 21] intentionally omitted <==**
-
 ## 2. Comparative study 
 
 The wind turbines considered here are the HAWT (propeller type) turbine, the Darrieus turbine and the H-rotor. A comparative study of the three wind turbines is presented from the most important aspects including structural dynamics, control systems, maintenance, manufacturing and electrical equipment. The main differences are summarised in Table 1 and are discussed in the following paragraphs. In several aspects, the similar characteristics of the Darrieus turbine and the H-rotor allow them to be referred to together as VAWTs. For other aspects the H-rotor and the Darrieus turbine are compared to each other. 
@@ -153,9 +141,7 @@ The wind turbines considered here are the HAWT (propeller type) turbine, the Dar
 
 The main difference between VAWTs and HAWTs is the VAWT’s ability to accept wind from any direction, i.e. it is omni-directional. This has several advantages. The turbine does not require a yaw system, which is costly and could fail during operation. The yaw system includes both a control system and a drive mechanism. The costs associated with such a system include the cost of the equipment itself, installation cost and costs for operation and maintenance. Furthermore, with an omni-directional turbine there are no power losses during the time it takes for the turbine to yaw or during short wind gusts with temporary changes in wind direction [33]. Additionally, no power is lost to run the yaw system. 
 
-S. Eriksson et al. / Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434 
 
-1424 
 
 An omni-directional turbine can be situated at places where the wind is turbulent and where the wind direction changes often. For this reason, VAWTs have an advantage over HAWTs in high mountain areas, in regions with extremely strong or gusty winds and in urban areas [3]. Investigations indicate a clear advantage in using VAWTs at rooftops [23]. Furthermore, the VAWT is less noisy than the HAWT, which becomes even more important in urban areas [3]. Roof mounted VAWTs have been proposed as part of the energy source for the Freedom Tower in New York City [4]. 
 
@@ -175,9 +161,7 @@ The blades of a HAWT have to be self-supporting since they are only attached at 
 
 The blades of an H-rotor are much easier to manufacture than the blades of a HAWT or of a Darrieus turbine. The blades of the two latter have different shape along the length of the blade and the blades might also be twisted. The Darrieus turbine has curved blades, which are complicated to fabricate and to transport [37]. These features make the manufacturing process much more complicated. The blades of an H-rotor have the same shape along the length of the blade and are not twisted but do sometimes have a reduced chord at the end points. The blade area is often larger for an H-rotor than for a HAWT with the same rated power, even though the blade areas could be the same as shown later. 
 
-S. Eriksson et al. / Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434 
 
-1425 
 
 For a larger blade area, more material is used. Mass production of H-rotor blades would imply low production costs since their shape makes them easy to fabricate in large numbers compared to HAWTs [19]. 
 
@@ -195,7 +179,6 @@ The blade of a HAWT is subject to a gravity-induced reversing stress at the root
 
 HAWTs have relatively constant torque. VAWTs have an inherent torque ripple [19]. The torque ripple is caused by the continuously changing angle of attack between the blades and the apparent wind. The torque ripple can affect the fatigue life of the drive train components as well as the output power quality [41]. By increasing the number of blades to three or more, the torque ripple is decreased substantially [42]. Furthermore, the problem with torque ripple is decreased when the turbine is operated at variable speed [19]. The aerodynamic forces on the blades caused by the changing angle of attack will also cause a cyclic aerodynamic stress on the blades. Some of the machines built in the 1970s and 1980s suffered fatigue damage of the blades, due to the cyclic aerodynamic stresses on the rotating blades [43]. However, these blades were made of aluminium, today replaced by composite blades with better fatigue properties [43]. The fatigue of past designs does not depend on the VAWT technology as such, rather on the limitations in modelling the 
 
-1426 S. Eriksson et al. / Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434 
 
 behaviour of a VAWT turbine and in building strong blades. With modern material and a thorough evaluation of the loads, problems with fatigue of the blades can be avoided. 
 
@@ -213,17 +196,11 @@ The performance of a wind turbine depends on the power coefficient, CP, which st
 
 Power curves for the three different turbines can be seen in Fig. 2. The power coefficient, CP, is shown as a function of the tip speed ratio, l. The curves are based on data from different sources. The H-rotor is the British VAWT 260, which is a 100 kW, two-bladed turbine [15]. The data for the Darrieus turbine come from the turbine Sandia-34, a 500 kW turbine, developed and tested by Sandia National Laboratories [46]. The data for the HAWT come from the National Renewable Energy Laboratory in the USA and is claimed to represent data for a typical HAWT [45]. Fig. 2 indicates that the three turbines operate at different optimum tip speed ratios, which affects the noise level. The VAWTs have almost as good efficiency as the HAWT. The higher CP value for the HAWT can to some extent be explained by the considerably greater experience of HAWTs, which has given a more optimized design. The Darrieus turbine is known to have a lower CP than the 
 
-1427 
-
-S. Eriksson et al. / Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434 
-
-**==> picture [247 x 153] intentionally omitted <==**
-
-**----- Start of picture text -----**<br>
-0.5<br>0.4<br>0.3<br>0.2<br>0.1 Darrieus<br>HAWT<br>H-rotor<br>0<br>0 2 4 6 8 10 12<br>λ<br>P<br>C<br>**----- End of picture text -----**<br>
 
 
 Fig. 2. Power curves for the three different turbine types. 
+
+![Figure 2: Power curves for the three different turbine types.](../images/vj1-fig2.jpg)
 
 Table 2 
 
@@ -247,7 +224,6 @@ Experimental results from different studies on straight bladed H-rotors are summ
 
 HAWTs are self-starting at a low wind speed. VAWTs have poor starting torque due to the blade stall condition at high angles of wind attack [37]. The H-rotor has better selfstarting ability than the Darrieus turbine [50]. For a grid connected turbine, the grid can be used to start the turbine by using the generator as a motor [51] and therefore the selfstarting is not a major issue. However, there are examples of self-starting VAWTs [3]. 
 
-1428 S. Eriksson et al. / Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434 
 
 ## 2.2.2. Power control 
 
@@ -265,9 +241,7 @@ The H-rotor is expected to be less harmful for birds and bats, since the blades 
 
 The overall cost of a wind turbine is determined by the manufacturing costs, the amount of captured energy, the cost for site preparation and installation, the maintenance cost and the financing cost [40]. When comparing the manufacturing costs of VAWTs and HAWTs, it must be considered that the HAWTs have been produced for a long time and are 
 
-S. Eriksson et al. / Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434 
 
-1429 
 
 produced in large numbers. The time aspect gives smarter and cheaper solutions and the large numbers presses the prices down since parts can be mass produced. Furthermore, as the technology has matured it has been possible to scale up the HAWTs, lowering the cost per installed kW even more. No mass production of VAWTs exists. 
 
@@ -283,7 +257,6 @@ The results from a case study of three different wind turbines can be seen in Ta
 
 When analysing these figures, it is important to notice that the swept area and the rated wind speed are different for the different cases. Also, the tower height is lower for the H-rotor. The H-rotor considered here has two blades. The number of blades for an 
 
-1430 S. Eriksson et al. / Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434 
 
 Table 3 
 
@@ -326,9 +299,7 @@ The blades for the H-rotor weigh less than the HAWT blades do. It should be note
 
 The mass of the tower for the H-rotors differs a lot. H-rotor 1 has a huge tower made of concrete whereas H-rotor 2 has a slimmer steel tower. The tower of H-rotor 2 does not have as much weight to support since the generator is placed on ground level. When 
 
-S. Eriksson et al. / Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434 
 
-1431 
 
 comparing the total weights above ground level for the different wind turbines it is shown that H-rotor 2 has the lightest weight above ground level. The weight of the generator is not included in this weight. When it is included the weight of H-rotor 2 is slightly larger than the weight of the HAWT. However, the weight of H-rotor 2 could be further reduced by the use of composite support arms. The weight of the Darrieus when including the generator and gearbox becomes much larger. 
 
@@ -354,9 +325,7 @@ Blade area comparison for different turbines
 
 
 
-S. Eriksson et al. / Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434 
 
-1432 
 
 ## 5. Discussion and conclusion 
 
@@ -392,9 +361,7 @@ The authors would like to acknowledge the Swedish Agency for Innovation Systems 
 
 - [9] Darrieus GJM. Turbine having its rotating shaft transverse to the flow of the current. US Patent no. 1.835.018, 1931. 
 
-1433 
 
-   - S. Eriksson et al. / Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434 
 
 - [10] German J. The end of an era: Sandia’s 17-meter vertical axis wind turbine comes down after two decades. Sandia Lab News 1997;LN11-21-97. 
 
@@ -468,7 +435,6 @@ The authors would like to acknowledge the Swedish Agency for Innovation Systems 
 
 - [45] Muljadi E, Pierce K, Migliore P. Control strategy for variable-speed, stall-regulated wind turbines. National Renewable Energy Laboratory 1989; NREL/CP-500-24311-UC Category:1211. 
 
-1434 S. Eriksson et al. / Renewable and Sustainable Energy Reviews 12 (2008) 1419–1434 
 
 - [46] Ashwill TD. Measured data for the Sandia 34-meter vertical axis wind turbine. Sandia National Laboratories 1992; SAND91-2228. 
 
@@ -493,4 +459,3 @@ The authors would like to acknowledge the Swedish Agency for Innovation Systems 
 - [56] Yeager Jr WT, Kvaternik RG. A historical overview of aeroelasticity branch and transonic dynamics tunnel contributions to rotorcraft technology and development. NASA/TM-2001-211054, ARL-TR-2564, 2001. 
 
 - [57] Duquette MM, Swanson J, Visser KD. Solidity and blade number effects on a fixed pitch, 50W horizontal axis wind turbine. Wind Eng 2003;27(4):299–316. 
-
