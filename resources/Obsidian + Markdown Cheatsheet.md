@@ -48,7 +48,8 @@ etc
 embedded search:
 ```query
 embed OR search
-tag: #designs 
+tag: #designs
+content:("darrieus") 
 ```
 
 inline base:
