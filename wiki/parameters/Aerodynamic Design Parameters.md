@@ -10,7 +10,7 @@ Sources:
 - [[sources/vj8.md]]
 Source_count: 6
 Tags:
-- concepts
+- Parameters
 ---
 ## Aerodynamic Design Parameters
 
