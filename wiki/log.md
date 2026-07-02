@@ -1,5 +1,20 @@
 ## Log
 
+### 2026-07-02 — Add va9 design and parameter pages
+
+- Task: revisit `va9` after the ingest procedure was updated to require design and parameter pages.
+- Actions:
+  - Added `wiki/designs/EN0005 Self-start Darrieus VAWT.md` as a single-source design page for the prototype described in `sources/va9.md`.
+  - Added `wiki/parameters/EN0005 Blade Profile.md` as a single-source parameter page for the EN0005 profile change and self-start outcome.
+  - Added `Designs` and `Parameters` sections to `wiki/index.md` and linked the new pages.
+  - Updated related links from `va9-summary`, `Darrieus Turbine`, and `Aerodynamic Design Parameters`.
+  - Corrected `Sources` metadata on existing pages that cite `sources/va9.md` so they include `[[va9]]`.
+- Decisions:
+  - Used the reported field-test self-start at 1.25 m/s as the design page cut-in/self-start value, while leaving rated speed, rated power, efficiency, TSR, and swept area blank because the source does not provide those as explicit design metadata.
+  - Classified the EN0005 blade-profile outcome as a significant positive effect because the source reports improved self-start behavior, favorable lift/drag/moment comparisons, and successful prototype self-start.
+- Open:
+  - The EN0005 results remain source-specific and should not be generalized without corroborating sources.
+
 ### 2026-07-02 — Normalize wiki backlinks
 
 - Task: make wiki backlinks functional using bare file-name syntax such as `[[va1]]`.

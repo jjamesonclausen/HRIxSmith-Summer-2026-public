@@ -84,6 +84,29 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 - [[Wind Turbine Parameters]]
 - [[Wind Shear]]
 
+## Designs
+
+_Specific turbine design pages live in [`designs/`](designs/)._
+
+- [[Classical Savonius]]
+- [[Contra-rotating VAWT]]
+- [[Darrieus above Savonius]]
+- [[Double Darrieus with Inner H-rotor and Outer Eggbeater]]
+- [[Eggbeater Darrieus]]
+- [[EN0005 Self-start Darrieus VAWT]]
+- [[Helical Hybrid]]
+- [[J-Type VAWT]]
+- [[Multi-stage Savonius within H-rotor Darrieus]]
+- [[Outer Darrieus with Inner Savonius]]
+- [[Troposkien Darrieus]]
+
+## Parameters
+
+_Design-parameter pages live in [`parameters/`](parameters/)._
+
+- [[Aerodynamic Design Parameters]]
+- [[EN0005 Blade Profile]]
+
 ## Methods
 
 _Procedure and technique pages live in [`methods/`](methods/)._
