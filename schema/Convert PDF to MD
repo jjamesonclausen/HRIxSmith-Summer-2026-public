@@ -26,7 +26,7 @@ When a new `.pdf` file appears in `PDFs/`, automatically convert the PDF into a 
 12. Keep citations, equations, symbols, and technical terms as accurate as possible.  
 13. for any mathmathical equations insert them as images. 
 14. If text is unreadable, write `[unreadable]`.
-15. Add properties using the format below, if any of the information is unavailable leave it blank. For the published date use the full date if it is avalable but if only a year can be found include just the year 
+15. Add properties using the format below, if any of the information is unavailable leave it blank. For the published date use the full date if it is avalable but if only a year can be found include just the year. Processed should be false until the source has been ingested. 
         `---
         Title: ""
         Author: ""
