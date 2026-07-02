@@ -5,7 +5,7 @@ Sources:
 - [[sources/HRI2526.md]]
 Source_count: 1
 Tags:
-- concepts
+- Designs
 ---
 ## Double Darrieus with Inner H-rotor and Outer Eggbeater
 

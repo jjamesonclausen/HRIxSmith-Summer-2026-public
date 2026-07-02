@@ -6,7 +6,7 @@ Sources:
 - [[sources/n2.md]]
 Source_count: 2
 Tags:
-- concepts
+- Designs
 ---
 ## Outer Darrieus with Inner Savonius
 

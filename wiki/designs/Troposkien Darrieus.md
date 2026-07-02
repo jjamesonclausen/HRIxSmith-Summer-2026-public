@@ -6,7 +6,7 @@ Sources:
 - [[sources/vj4.md]]
 Source_count: 2
 Tags:
-- concepts
+- Designs
 ---
 ## Troposkien Darrieus
 

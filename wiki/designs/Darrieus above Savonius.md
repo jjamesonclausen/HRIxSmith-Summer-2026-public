@@ -5,7 +5,7 @@ Sources:
 - [[sources/HRI2526.md]]
 Source_count: 1
 Tags:
-- concepts
+- Designs
 ---
 ## Darrieus above Savonius
 

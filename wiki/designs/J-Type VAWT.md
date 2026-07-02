@@ -5,7 +5,7 @@ Sources:
 - [[sources/va5.md]]
 Source_count: 1
 Tags:
-- concepts
+- Designs
 ---
 ## J-Type VAWT
 
