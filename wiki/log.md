@@ -1422,6 +1422,19 @@ Decisions:
 Open:
 - None.
 
+### 2026-07-02 — Retag parameters page
+
+Task: Update the `wiki/parameters` page metadata so the page uses the `Parameters` tag.
+
+Actions:
+- Changed the `Tags` frontmatter on `wiki/parameters/Aerodynamic Design Parameters.md` from `concepts` to `Parameters`.
+
+Decisions:
+- Kept the change limited to the parameters folder page the user referenced.
+
+Open:
+- None.
+
 ### 2026-07-02 — Retag design pages
 
 Task: Update the `wiki/designs` page metadata so design pages use the `Designs` tag like concept pages use `concepts`.
