@@ -301,6 +301,26 @@ Decisions:
 Open:
 - None
 
+### 2026-06-30 — VAWT types learning quiz
+
+Task: Quiz Anna on different types of VAWTs and their pros and cons.
+
+Actions:
+- Started with broad mechanism categories: Darrieus, Savonius, and hybrid VAWTs.
+- Asked Anna to identify how each type works, one advantage, and one downside.
+- Followed with straight-bladed H-type versus helical VAWTs to test understanding of torque ripple, cyclic loading, and the smoothness/performance tradeoff.
+- Asked a site-selection question for low-speed, turbulent, changing-direction urban wind to make Anna apply the design tradeoffs rather than recite definitions.
+- Introduced `vj9` Savonius variants only after the foundational questions: classical Savonius, modified Bach-type Savonius, and scooplet-based Savonius.
+- Shifted from quiz mode to explanation when Anna said she had not read `vj9`, then pointed her to the relevant figure numbers: Fig. 1, Fig. 11b, and Fig. 16b.
+
+Decisions:
+- Used one-question-at-a-time teaching mode because it forced retrieval and reasoning while avoiding the redundancy Anna previously disliked.
+- Ordered questions from broad categories, to subtype tradeoffs, to design recommendation, to paper-specific variants because that moved from familiar concepts toward less familiar source-specific details.
+- Treated Anna's uncertainty as useful signal: when she could reason from existing knowledge, I graded and tightened; when she lacked source exposure, I stopped quizzing and explained.
+
+Open:
+- Anna found the session helpful. Future VAWT quizzes should keep this pattern: ask applied comparison questions, grade directly, correct only the weakest claim, and switch to explanation when the missing piece is source exposure rather than reasoning.
+
 ### 2026-06-26 — Ingest vj2.md
 
 Task: Convert the Savonius-Darrieus hybrid PDF into Markdown and ingest it.
