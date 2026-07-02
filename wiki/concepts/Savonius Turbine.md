@@ -4,6 +4,16 @@ Drag-based VAWT using scooped blades. (source: sources/n1.md, sources/va1.md)
 
 ![Figure 1: Basic design of a Savonius rotor](../../images/vj2-fig1.jpg)
 
+- Geometry:
+  - Typically uses two semicircular blades around a vertical shaft. (source: sources/HRI2526.md)
+  - Classical and helical forms are both represented in the wiki. (source: sources/HRI2526.md)
+- Performance:
+  - Self-starting and effective at low wind speeds. (source: sources/HRI2526.md)
+  - TSR is typically between 0 and 1. (source: sources/HRI2526.md)
+- Tradeoffs:
+  - Simple, low-cost construction and low noise are advantages. (source: sources/HRI2526.md)
+  - Negative torque on the returning blade limits efficiency. (source: sources/HRI2526.md)
+
 - Self-starting and effective at low wind speeds. (source: sources/n1.md, sources/va1.md)
 - Low efficiency due to high drag. (source: sources/n1.md)
 
@@ -12,6 +22,10 @@ Drag-based VAWT using scooped blades. (source: sources/n1.md, sources/va1.md)
 - Simple, low-cost construction and low noise. (source: sources/HRI2526.md)
 - Suffers from negative torque on returning blade, reducing efficiency. (source: sources/HRI2526.md)
 - Optimization includes blade count, overlap ratio, and augmentation devices. (source: sources/HRI2526.md)
+
+The review places Savonius operation around TSR 0.6-1.2 and peak Cp about 0.15-0.25, with self-starting as the main advantage. (source: sources/vj11.md)
+It treats Savonius as the drag-based family used when low-speed startup matters more than peak efficiency. (source: sources/vj11.md)
+In hybrid systems, Savonius is the startup element that helps cover Darrieus negative-torque regions at low TSR. (source: sources/vj11.md)
 - The source identifies Savonius as a 1922 impulse rotor introduced by S. J. Savonius. (source: sources/va3.md)
 - Modern variants evolved from half drums into fluted spiral-bladed designs that improve efficiency and reduce vibration. (source: sources/va3.md)
 - The J-type rooftop design is a separate drag-based VAWT concept, but it shares the low-cost drag-rotor rationale. (source: sources/va5.md)
@@ -26,8 +40,11 @@ Drag-based VAWT using scooped blades. (source: sources/n1.md, sources/va1.md)
 
 Related:
 - [[VAWT]]
+- [[Classical Savonius]]
+- [[Helical Savonius]]
 - [[Darrieus Turbine]]
 - [[Hybrid VAWT]]
 - [[Wind Turbine Parameters]]
+- [[Aerodynamic Design Parameters]]
 
 #concepts 

@@ -10,6 +10,9 @@ These are the main geometry knobs the sources repeatedly treat as design variabl
 - Blade number, camber line, and blade inclination are key architectural choices for small VAWTs. (source: sources/vj4.md)
 - Solidity changes the balance between efficiency and starting behavior. (source: sources/vj1.md, sources/HRI2526.md)
 - Swept area, Reynolds number, and starting torque remain basic sizing parameters. (source: sources/HRI2526.md, sources/vj6.md)
+- The VAWT review gives Savonius TSR around 0.6-1.2, Darrieus TSR around 2.5-5.0, and emphasizes that the optimum shifts with solidity. (source: sources/vj11.md)
+- It treats blade profile, pitch angle, blade count, and chord Reynolds number as the main coupled design knobs. (source: sources/vj11.md)
+- It notes that low-solidity rotors push peak Cp to higher TSR, while high-solidity rotors self-start better but suffer more blade-wake interaction. (source: sources/vj11.md)
 
 Related:
 - [[Wind Turbine Parameters]]

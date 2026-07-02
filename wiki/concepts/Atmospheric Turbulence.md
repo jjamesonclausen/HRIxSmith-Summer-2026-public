@@ -13,6 +13,9 @@ Causes and patterns:
 - Obstacles such as trees, buildings, wind turbines, and terrain create mechanically induced wakes. (source: sources/vj3.md)
 - Offshore flow is usually less turbulent than onshore flow, while complex or mountainous terrain is usually more turbulent than flat terrain. (source: sources/vj3.md)
 
+The VAWT review says urban rooftop turbulence intensity is often high enough to affect startup, dynamic stall, and wake recovery. (source: sources/vj11.md)
+It notes that turbulence can improve low-to-moderate TSR power by delaying separation, while also reducing cyclic loading and helping wake recovery. (source: sources/vj11.md)
+
 Measurement:
 - Cup, propeller, and sonic anemometers are used for point measurements. (source: sources/vj3.md)
 - IEC 61400-12-1 requires horizontal components for turbine power-performance measurements. (source: sources/vj3.md)

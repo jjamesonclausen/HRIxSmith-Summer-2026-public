@@ -10,6 +10,10 @@ Unsteady aerodynamic separation that occurs when a blade experiences rapidly cha
 - It also uses dynamic stall as part of the motivation for comparing mesh strategies, turbulence models, and validation approaches. (source: sources/vj6.md)
 - The helical-VAWT helix-angle study analyzes leading-edge vortex formation, flow separation, and wake interaction through z-vorticity contours, linking those flow features to secondary peaks in moment coefficient. (source: sources/va7.md)
 
+The VAWT review says dynamic stall is driven by leading-edge vortex growth and shedding, plus blade-vortex interaction on the downwind pass. (source: sources/vj11.md)
+It notes that the lift overshoot during dynamic stall can reach about 50% above the static maximum lift coefficient. (source: sources/vj11.md)
+It treats low TSR operation as the regime where angle-of-attack excursions most strongly trigger dynamic stall and torque troughs. (source: sources/vj11.md)
+
 Related:
 - [[VAWT]]
 - [[Darrieus Turbine]]

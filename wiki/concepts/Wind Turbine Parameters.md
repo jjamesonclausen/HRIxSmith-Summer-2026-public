@@ -24,6 +24,10 @@ Key metrics used to evaluate wind turbine performance. (source: sources/HRI2526.
 - In the helical-VAWT helix-angle study, the coefficient of performance is treated as the product of TSR and average moment coefficient. (source: sources/va7.md)
 - The study uses the standard deviation of Cp as a cyclic-loading smoothness metric; higher helix angles reduced this standard deviation, while the 60-degree helical blade gave the highest reported power performance. (source: sources/va7.md)
 
+The VAWT review gives typical design ranges of TSR 0.6-1.2 for Savonius and 2.5-5.0 for Darrieus, with peak Cp around 0.15-0.25 and 0.35-0.45 respectively. (source: sources/vj11.md)
+It treats solidity, blade profile, pitch angle, blade count, and chord Reynolds number as the main geometry-performance knobs. (source: sources/vj11.md)
+It says startup, torque ripple, and wake interaction are the practical metrics that sit alongside Cp when comparing designs. (source: sources/vj11.md)
+
 ## Figures
 
 ![Figure 6: power coefficient versus TSR at Re = 60,800](../../images/va4-fig6.jpg)
