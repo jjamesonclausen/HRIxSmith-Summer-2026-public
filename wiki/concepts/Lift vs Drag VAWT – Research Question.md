@@ -2,8 +2,8 @@
 Created:
 Updated: 2026-07-02
 Sources:
-- [[sources/n1.md]]
-- [[sources/va1.md]]
+- [[n1]]
+- [[va1]]
 Source_count: 2
 Tags:
 - concepts

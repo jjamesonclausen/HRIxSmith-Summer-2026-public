@@ -2,15 +2,15 @@
 Created:
 Updated: 2026-07-02
 Sources:
-- [[sources/HRI2526.md]]
-- [[sources/n1.md]]
-- [[sources/va4.md]]
-- [[sources/va7.md]]
-- [[sources/vj12.md]]
-- [[sources/vj2.md]]
-- [[sources/vj5.md]]
-- [[sources/vj6.md]]
-- [[sources/vj8.md]]
+- [[HRI2526]]
+- [[n1]]
+- [[va4]]
+- [[va7]]
+- [[vj12]]
+- [[vj2]]
+- [[vj5]]
+- [[vj6]]
+- [[vj8]]
 Source_count: 9
 Tags:
 - methods

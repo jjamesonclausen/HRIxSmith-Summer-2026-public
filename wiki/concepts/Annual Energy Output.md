@@ -2,7 +2,7 @@
 Created:
 Updated: 2026-07-02
 Sources:
-- [[sources/va1.md]]
+- [[va1]]
 Source_count: 1
 Tags:
 - concepts

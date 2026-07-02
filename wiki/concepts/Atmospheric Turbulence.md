@@ -2,9 +2,9 @@
 Created:
 Updated: 2026-07-02
 Sources:
-- [[sources/vj10.md]]
-- [[sources/vj11.md]]
-- [[sources/vj3.md]]
+- [[vj10]]
+- [[vj11]]
+- [[vj3]]
 Source_count: 3
 Tags:
 - concepts

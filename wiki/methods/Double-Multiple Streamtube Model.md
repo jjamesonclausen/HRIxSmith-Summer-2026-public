@@ -1,7 +1,7 @@
 ---
 Created: 2026-07-02
 Updated: 2026-07-02
-Sources: [[../../sources/va9]]
+Sources: [[va9]]
 Source_count: 1
 Tags:
 - methods

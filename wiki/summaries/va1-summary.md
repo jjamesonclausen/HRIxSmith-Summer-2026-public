@@ -8,6 +8,6 @@ Comparison of lift-driven and drag-driven VAWTs for low-wind urban environments,
 - Despite different performance characteristics, total AEO can be similar between designs. (source: sources/va1.md)
 - CFD and better site-specific wind data are important for accurate predictions. (source: sources/va1.md)
 
-Related concepts: [[VAWT]], [[Annual Energy Output]], [[Lift vs Drag]]
+Related concepts: [[VAWT]], [[Annual Energy Output]], [[Lift vs Drag VAWT – Research Question]]
 
 #summaries

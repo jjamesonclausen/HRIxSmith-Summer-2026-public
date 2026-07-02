@@ -1,7 +1,7 @@
 ---
 Created: 2026-06-30
 Updated: 2026-06-30
-Sources: [[sources/vj10.md]]
+Sources: [[vj10]]
 Source_count: 1
 Tags:
 - summaries

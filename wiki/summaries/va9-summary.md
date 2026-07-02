@@ -1,7 +1,7 @@
 ---
 Created: 2026-07-02
 Updated: 2026-07-02
-Sources: [[../../sources/va9]]
+Sources: [[va9]]
 Source_count: 1
 Tags:
 - summaries
@@ -34,4 +34,4 @@ Key points:
 ![Fig. 26. New Darrieus VAWT design prototype.](../../images/va9-fig26.jpg)
 ![Fig. 29. Prototype rotor speed at different wind speeds.](../../images/va9-fig29.jpg)
 
-Related concepts and methods: [[../concepts/Darrieus Turbine]], [[../concepts/Straight-bladed Darrieus]], [[../concepts/H-VAWT]], [[Aerodynamic Design Parameters]], [[../methods/Blade Element-Momentum Model]], [[../methods/Double-Multiple Streamtube Model]], [[../methods/Wind Tunnel Testing]]
+Related concepts and methods: [[Darrieus Turbine]], [[Straight-bladed Darrieus]], [[H-VAWT]], [[Aerodynamic Design Parameters]], [[Blade Element-Momentum Model]], [[Double-Multiple Streamtube Model]], [[Wind Tunnel Testing]]

@@ -2,8 +2,8 @@
 Created:
 Updated: 2026-07-02
 Sources:
-- [[sources/HRI2526.md]]
-- [[sources/vj11.md]]
+- [[HRI2526]]
+- [[vj11]]
 Source_count: 2
 Tags:
 - concepts

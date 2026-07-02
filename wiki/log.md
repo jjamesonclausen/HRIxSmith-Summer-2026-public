@@ -1,5 +1,18 @@
 ## Log
 
+### 2026-07-02 — Normalize wiki backlinks
+
+- Task: make wiki backlinks functional using bare file-name syntax such as `[[va1]]`.
+- Actions:
+  - Normalized path-style wikilinks across `wiki/`, including metadata `Sources`, from `sources/va1.md`, `../../sources/va9`, and `concepts/Darrieus Turbine` forms to bare file-name links.
+  - Fixed broken `Lift vs Drag` links to point to `Lift vs Drag VAWT – Research Question`.
+  - Verified no path-style or `.md` wikilinks remain in `wiki/`.
+  - Verified all wiki wikilink targets resolve to existing Markdown file basenames with no duplicate basename targets.
+- Decisions:
+  - Left standard Markdown links and image links unchanged because those use path syntax intentionally.
+- Open:
+  - None.
+
 ### 2026-07-02 — Ingest va9 self-start Darrieus source
 
 - Task: ingest `sources/va9.md` according to `schema/Ingest Source`.

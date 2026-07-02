@@ -20,8 +20,8 @@ Findings:
 - The paper still notes higher manufacturing cost and the need for more experimental tests on Gorlov-type rotors. (source: sources/vj4.md)
 
 See also:
-- [[concepts/Darrieus Turbine]]
-- [[concepts/H-VAWT]]
-- [[methods/Blade Element-Momentum Model]]
+- [[Darrieus Turbine]]
+- [[H-VAWT]]
+- [[Blade Element-Momentum Model]]
 
 #summaries

@@ -1,7 +1,7 @@
 ---
 Created: 2026-07-02
 Updated: 2026-07-02
-Sources: [[../../sources/va8]]
+Sources: [[va8]]
 Source_count: 1
 Tags:
 - summaries
@@ -31,4 +31,4 @@ Key points:
 ![Figure 5: lift coefficient versus angle of attack from wind tunnel observations](../../images/va8-fig5.jpg)
 ![Figure 6: two-blade force arrangement](../../images/va8-fig6.jpg)
 
-Related concepts: [[../concepts/Hybrid VAWT]], [[Aerodynamic Design Parameters]], [[../concepts/Structures and Loads]], [[../concepts/Materials and Manufacturing]], [[../concepts/Urban Wind Conditions]], [[../methods/Wind Tunnel Testing]]
+Related concepts: [[Hybrid VAWT]], [[Aerodynamic Design Parameters]], [[Structures and Loads]], [[Materials and Manufacturing]], [[Urban Wind Conditions]], [[Wind Tunnel Testing]]

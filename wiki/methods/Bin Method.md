@@ -2,7 +2,7 @@
 Created:
 Updated: 2026-07-02
 Sources:
-- [[sources/va1.md]]
+- [[va1]]
 Source_count: 1
 Tags:
 - methods
@@ -19,6 +19,6 @@ Standard approach for processing wind speed data for turbine performance analysi
 
 > Limitation: Does not capture directional effects or fine-grained turbulence. (source: sources/va1.md)
 
-Related: [[methods/AEO Calculation]]
+Related: [[AEO Calculation]]
 
 #methods

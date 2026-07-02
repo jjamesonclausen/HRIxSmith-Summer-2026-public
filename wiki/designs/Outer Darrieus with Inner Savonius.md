@@ -2,8 +2,8 @@
 Created:
 Updated: 2026-07-02
 Sources:
-- [[sources/HRI2526.md]]
-- [[sources/n2.md]]
+- [[HRI2526]]
+- [[n2]]
 Source_count: 2
 Tags:
 - Designs
