@@ -4,9 +4,10 @@ Updated: 2026-07-02
 Sources:
 - [[HRI2526]]
 - [[va4]]
+- [[va3]]
 - [[va7]]
 - [[vj11]]
-Source_count: 4
+Source_count: 5
 Tags:
 - concepts
 ---
@@ -52,3 +53,5 @@ Related:
 - [[CFD]]
 - [[Dynamic Stall]]
 - [[Aerodynamic Design Parameters]]
+- [[Windside Helical Wind Turbine]]
+- [[QuietRevolution QR5]]

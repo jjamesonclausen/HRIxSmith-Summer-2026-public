@@ -79,5 +79,8 @@ Related:
 - [[Double-Multiple Streamtube Model]]
 - [[EN0005 Self-start Darrieus VAWT]]
 - [[EN0005 Blade Profile]]
+- [[Ropatec WRE.060 WindRotor]]
+- [[Eurowind VAWT]]
+- [[Tip Speed Ratio Classification]]
 
 #concepts 

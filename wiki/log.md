@@ -1,5 +1,21 @@
 ## Log
 
+### 2026-07-02 — Add va3 design and parameter pages
+
+- Task: revisit `sources/va3.md` under the updated ingest procedure and create design/parameter pages as appropriate.
+- Actions:
+  - Added single-source design pages for `Ropatec WRE.060 WindRotor`, `Solwind Vertical Axis Wind Turbine`, `Eurowind VAWT`, `Venturi Wind Turbine`, `Turby Wind Turbine`, `Windside Helical Wind Turbine`, `QuietRevolution QR5`, `Aerogenerator Offshore VAWT`, `Windspire Gyromill`, and `Counter-rotating VAWT Array`.
+  - Added single-source parameter pages for `Tip Speed Ratio Classification`, `Blade Count for VAWT Startup and Pulsation`, and `Counter-rotating Array Spacing`.
+  - Updated `wiki/index.md`, `va3-summary`, and related VAWT/Darrieus/Savonius/Helical pages with links to the new pages.
+  - Added current summary front matter to `wiki/summaries/va3-summary.md`.
+  - Verified bare backlinks and image links for the new design/parameter layer.
+- Decisions:
+  - Created pages only for `va3` designs with enough source detail to describe geometry, design choices, and/or performance.
+  - Left unavailable metadata fields blank rather than inferring values.
+  - Marked the Venturi 85% efficiency statement as a source claim that should be checked before being used as a design rule because it exceeds the Betz limit framing elsewhere in the same source.
+- Open:
+  - Some `va3` design pages may need later consolidation if the wiki decides to separate commercial product pages from generic VAWT type pages.
+
 ### 2026-07-02 — Add va9 design and parameter pages
 
 - Task: revisit `va9` after the ingest procedure was updated to require design and parameter pages.

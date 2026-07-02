@@ -1,3 +1,12 @@
+---
+Created: 2026-07-02
+Updated: 2026-07-02
+Sources: [[va3]]
+Source_count: 1
+Tags:
+- summaries
+---
+
 ## va3 Summary
 
 Overview article on vertical-axis wind turbines, covering drag-based, lift-based, and helical variants, plus array effects and practical deployment tradeoffs. (source: sources/va3.md)
@@ -18,5 +27,9 @@ Figures:
 - Figure 26: ![Figure 26: Helical wind turbine with generator at its base](../../images/va3-fig24.jpg)
 
 Related concepts: [[VAWT]], [[Darrieus Turbine]], [[Savonius Turbine]], [[H-VAWT]], [[Hybrid VAWT]], [[HAWT vs VAWT]]
+
+Design pages: [[Ropatec WRE.060 WindRotor]], [[Solwind Vertical Axis Wind Turbine]], [[Eurowind VAWT]], [[Venturi Wind Turbine]], [[Turby Wind Turbine]], [[Windside Helical Wind Turbine]], [[QuietRevolution QR5]], [[Aerogenerator Offshore VAWT]], [[Windspire Gyromill]], [[Counter-rotating VAWT Array]]
+
+Parameter pages: [[Tip Speed Ratio Classification]], [[Blade Count for VAWT Startup and Pulsation]], [[Counter-rotating Array Spacing]]
 
 #summaries

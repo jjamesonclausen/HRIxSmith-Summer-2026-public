@@ -71,5 +71,6 @@ Related:
 - [[Hybrid VAWT]]
 - [[Wind Turbine Parameters]]
 - [[Aerodynamic Design Parameters]]
+- [[Tip Speed Ratio Classification]]
 
 #concepts 
