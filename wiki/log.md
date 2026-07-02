@@ -1,5 +1,19 @@
 ## Log
 
+### 2026-07-02 — Convert va9 PDF source
+
+- Task: convert `PDFs/va9.pdf` into Markdown according to `schema/Convert PDF to MD`.
+- Actions:
+  - Created `sources/va9.md` with source front matter, full converted text, preserved section structure, references, figure captions, and converted Markdown tables.
+  - Extracted 29 figure images to `images/va9-fig*.jpg`.
+  - Rendered 8 grouped equation images covering equations (1) through (41) to `images/va9-eq*.jpg`.
+  - Verified all 37 Markdown image links in `sources/va9.md` resolve from the source file location.
+- Decisions:
+  - Used `va9.md` because the PDF is a VAWT source and follows Anna's existing VAWT source numbering.
+  - Used grouped equation images where the paper had dense equation blocks, because reconstructing the equations from PDF text would be less reliable than rendering the source equations.
+- Open:
+  - Source has not yet been ingested into wiki concept pages.
+
 ### 2026-07-02 — Ingest va8 patent source
 
 - Task: ingest `sources/va8.md` according to `schema/Ingest Source`.
