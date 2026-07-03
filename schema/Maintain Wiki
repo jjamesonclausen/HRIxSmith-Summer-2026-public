@@ -7,7 +7,7 @@
 If any changes have been made to the wiki since the last run date, then:
 
 1. Check that all sources have a summary page. If not make one according to `schema/Ingest Source.md`
-2. Ensure all wiki pages are up to date with all related information from every available source. Except design and parameters pages which should only include information from one source.
+2. Ensure all wiki pages (except log, learning-log, and index) are up to date with all related information from every available source. Except design and parameters pages which should only include information from one source.
 3. Make sure all wiki pages have correct and up to date properties according to which type of document they are. See `schema/Ingest Source.md` for the details.
 4. Verify all local note links are Obsidian wikilinks.
 5. Verify no wikilink target is unresolved.
