@@ -1,6 +1,20 @@
 #maintenance
 ## Log
 
+### 2026-07-03 — Improve readability of va11 and va12 source notes
+
+- Task: make `sources/va11.md` and `sources/va12.md` more readable without changing the source wording or adding commentary.
+- Actions:
+  - Replaced `va11` nomenclature and the unreadable wake-model equation blocks with screenshots extracted from the PDF.
+  - Cleaned the most disruptive extraction noise in `va12`, including duplicate title/front-matter text and repeated page-header/page-number artifacts.
+  - Replaced unreadable symbolic blocks in `va12` with screenshots for the orientation equation, normalization equation, reduced-frequency expression, and tracer-response equations.
+  - Added source-structure headings where the converted text already had section labels so the notes are easier to navigate.
+- Decisions:
+  - Preserved the paper wording and used screenshots only where the symbol-heavy content was not reliably readable as plain text.
+  - Kept the cleanup focused on readability rather than re-converting either paper from scratch.
+- Open:
+  - Both converted notes still contain some OCR/PDF artifacts in plain-text sections, but the worst symbol-heavy failures are now represented directly from the source pages.
+
 ### 2026-07-03 — Convert and ingest va12 interacting-VAWT array study
 
 - Task: convert `PDFs/va12_raw.pdf` into `sources/va12.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
