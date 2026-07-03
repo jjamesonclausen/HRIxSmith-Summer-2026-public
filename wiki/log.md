@@ -1,6 +1,48 @@
 #maintenance
 ## Log
 
+### 2026-07-03 — Remove duplicate va10 source
+
+- Task: delete the duplicate `va10` source and retarget any surviving wiki references to `vj2`.
+- Actions:
+  - Deleted `PDFs/va10_raw.pdf`, `sources/va10.md`, and `wiki/summaries/va10-summary.md`.
+  - Switched the surviving design and parameter pages created from the duplicate ingest to use `[[vj2]]`, `sources/vj2.md`, and existing `images/vj2-*` figures.
+  - Removed duplicate source backlinks and source citations from concept and method pages, replacing them with `vj2` where the content was the same.
+  - Removed the temporary `va10-summary` index entry and marked `sources/vj2.md` as processed.
+- Decisions:
+  - Kept the generic design and parameter pages because they remain useful and are not source-name-specific; only their canonical source was changed.
+  - Left historical log entries intact even though they mention `va10`, because they record work that actually happened.
+- Open:
+  - None.
+
+### 2026-07-03 — Ingest va10 hybrid CFD source
+
+- Task: ingest `sources/va10.md` according to `schema/Ingest Source`.
+- Actions:
+  - Added `wiki/summaries/va10-summary.md` with source-grounded findings and figure links.
+  - Added `wiki/designs/Savonius-Darrieus Hybrid Wind Turbine.md` as a single-source design page for the hybrid rotor studied in `va10`.
+  - Added `wiki/parameters/Savonius Shaft Removal.md` and `wiki/parameters/Savonius Placement Outside Darrieus Rotor.md` for the two torque-improving geometry changes studied in the paper.
+  - Updated `Hybrid VAWT`, `Savonius Turbine`, `Darrieus Turbine`, `CFD and Validation`, `CFD`, `Optimization`, and `Structures and Loads` with `va10` claims.
+  - Updated `wiki/index.md` and marked `sources/va10.md` as processed.
+- Decisions:
+  - Ingested `va10` as an additional corroborating source for the same hybrid-CFD case already present as `vj2`, while still creating the required `va10` summary and single-source pages.
+  - Kept the source-specific design page separate from the existing generic `Helical Hybrid` page because `schema/Ingest Source` requires single-source design pages when a source discusses a specific turbine design.
+- Open:
+  - `va10` and `vj2` appear to be duplicate copies of the same paper with different provenance and slightly different conversion details; the wiki currently keeps both as separate sources.
+
+### 2026-07-03 — Convert va10 PDF source
+
+- Task: convert `PDFs/va10_raw.pdf` into Markdown according to `schema/Convert PDF to MD`.
+- Actions:
+  - Created `sources/va10.md` with source front matter, full converted text, preserved section structure, figure captions, tables, acknowledgement, note, and references.
+  - Extracted 8 figure images to `images/va10-fig1.jpg` through `images/va10-fig8.jpg`.
+  - Converted Tables 1 and 2 to Markdown tables.
+- Decisions:
+  - Used `va10.md` because the PDF is a VAWT source and follows Anna's existing VAWT source numbering.
+  - Used rendered visible figure regions for the paper figures because the page-layout figures are composite and crop more reliably than embedded object extraction.
+- Open:
+  - None.
+
 ### 2026-07-03 — Reconvert va6 source from PDF
 
 - Task: replace the summarized `sources/va6.md` with a source-faithful conversion of `PDFs/va6_raw.pdf` according to `schema/Convert PDF to MD`.

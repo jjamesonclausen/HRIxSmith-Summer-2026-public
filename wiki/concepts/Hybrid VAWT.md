@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-02
+Updated: 2026-07-03
 Sources:
 - [[HRI2526]]
 - [[n2]]
@@ -67,7 +67,8 @@ Tradeoffs:
 - Design requires balancing competing mechanisms (source: sources/HRI2526.md)
 
 - Potential interference: outer Darrieus may reduce wind capture of inner Savonius at low speeds. (source: sources/n2.md)
-- CFD case study: a helical Savonius inside a helical Darrieus rotor gained 10.5% torque after removing the Savonius shaft and 22.3% after moving the Savonius rotor outside the Darrieus rotor. (source: sources/vj2.md)
+- CFD case study: a helical Savonius inside a helical Darrieus rotor gained 10.5% torque after removing the Savonius shaft and 22.3% after moving split Savonius halves outside the Darrieus rotor. (source: sources/vj2.md)
+- The same study reports the initial hybrid geometry used a 1000 mm by 500 mm Savonius rotor inside a 1600 mm diameter, three-bladed helical Darrieus rotor with NACA 0018 blades of 110 mm chord and 1800 mm projected height. (source: sources/vj2.md)
 
 ![Figure 8: Torque values calculated for each configuration](../../images/vj2-fig8.jpg)
 
@@ -86,5 +87,8 @@ See also:
 - [[Aerodynamic Design Parameters]]
 - [[Structures and Loads]]
 - [[Materials and Manufacturing]]
+- [[Savonius-Darrieus Hybrid Wind Turbine]]
+- [[Savonius Shaft Removal]]
+- [[Savonius Placement Outside Darrieus Rotor]]
 
 #concepts 

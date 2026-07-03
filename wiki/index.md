@@ -99,6 +99,7 @@ _Specific turbine design pages live in [`designs/`](designs/)._
 - [[Eurowind VAWT]]
 - [[Helical Hybrid]]
 - [[J-Type VAWT]]
+- [[Savonius-Darrieus Hybrid Wind Turbine]]
 - [[Aerogenerator Offshore VAWT]]
 - [[Multi-stage Savonius within H-rotor Darrieus]]
 - [[Outer Darrieus with Inner Savonius]]
@@ -119,6 +120,8 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[Blade Count for VAWT Startup and Pulsation]]
 - [[Counter-rotating Array Spacing]]
 - [[EN0005 Blade Profile]]
+- [[Savonius Shaft Removal]]
+- [[Savonius Placement Outside Darrieus Rotor]]
 - [[Tip Speed Ratio Classification]]
 
 ## Methods

@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-02
+Updated: 2026-07-03
 Sources:
 - [[HRI2526]]
 - [[n1]]
@@ -59,6 +59,7 @@ The same source uses wind tunnel observations of blade lift coefficient versus a
 The va9 paper treats startup as a core Darrieus weakness and lists external electricity feed-in, guide vanes, Savonius-Darrieus hybrids, pitch optimization, blade-form optimization, and specific blade-profile design as approaches to overcome it. (source: sources/va9.md)
 It presents the EN0005 blade profile as a Darrieus-specific self-start design that avoids extra components or external electricity feed-in while retaining high-TSR performance in the authors' model and tests. (source: sources/va9.md)
 The field-test prototype reported self-start at 1.25 m/s, stable behavior in a 25 m/s wind-tunnel stress test, and no audible noise emission in the tested urban environment. (source: sources/va9.md)
+The hybrid-CFD study in `vj2` says turbulence produced by an internal Savonius rotor negatively affects the lift-based Darrieus blades, and reports lower interference after the Savonius component is moved to split top-and-bottom positions outside the Darrieus space. (source: sources/vj2.md)
 
 ![Fig. 5. Blade profile EN0005.](../../images/va9-fig5.jpg)
 ![Fig. 26. New Darrieus VAWT design prototype.](../../images/va9-fig26.jpg)
@@ -79,6 +80,7 @@ Related:
 - [[Double-Multiple Streamtube Model]]
 - [[EN0005 Self-start Darrieus VAWT]]
 - [[EN0005 Blade Profile]]
+- [[Savonius-Darrieus Hybrid Wind Turbine]]
 - [[Ropatec WRE.060 WindRotor]]
 - [[Eurowind VAWT]]
 - [[Tip Speed Ratio Classification]]

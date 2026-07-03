@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-02
+Updated: 2026-07-03
 Sources:
 - [[HRI2526]]
 - [[va8]]
@@ -24,6 +24,8 @@ This page collects the load and structural issues that shape a VAWT design.
 - The va8 patent uses a central vertical rotating shaft, upper and lower hubs, upper and lower channel beams, and two thrust bearings to support side loads, allow shaft rotation, and carry self-weight. (source: sources/va8.md)
 - The patent explicitly treats shaft/building-framework connection as a stability measure so the shaft does not bend enough to interfere with free rotation. (source: sources/va8.md)
 - It places the generator/storage hardware near the bottom of the turbine and frames that choice as improving stability. (source: sources/va8.md)
+- The hybrid-CFD study in `vj2` identifies the internal Savonius shaft as a structural element that also obstructs flow through the blade overlap space, creating a tradeoff between structure and aerodynamic torque. (source: sources/vj2.md)
+- The same source says Savonius-generated turbulence can negatively affect the lift-based Darrieus blades when the Savonius rotor sits in the middle of the hybrid rotor. (source: sources/vj2.md)
 
 ![Figure 2: va8 vertical shaft, bearing, generator, and storage arrangement](../../images/va8-fig2.jpg)
 
@@ -32,3 +34,4 @@ Related:
 - [[Materials and Manufacturing]]
 - [[Rules of Thumb]]
 - [[Hybrid VAWT]]
+- [[Savonius-Darrieus Hybrid Wind Turbine]]

@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-02
+Updated: 2026-07-03
 Sources:
 - [[HRI2526]]
 - [[n1]]
@@ -62,6 +62,7 @@ In hybrid systems, Savonius is the startup element that helps cover Darrieus neg
 - Overlap ratio ~0.15 performs well at low wind speeds (~<4 m/s). (source: sources/n2.md)
 - Elliptical blades and ~45° twist can improve performance. (source: sources/n2.md)
 - Endplates, curtains/shields, and auxiliary blades can reduce losses and improve efficiency. (source: sources/n2.md)
+- In one hybrid-CFD study, a 38 mm shaft occupying about 66% of the Savonius overlap space was treated as a flow obstruction, and removing it increased average hybrid-rotor torque by 10.5% at 7 m/s. (source: sources/vj2.md)
 
 Related:
 - [[VAWT]]
@@ -69,6 +70,7 @@ Related:
 - [[Helical Savonius]]
 - [[Darrieus Turbine]]
 - [[Hybrid VAWT]]
+- [[Savonius-Darrieus Hybrid Wind Turbine]]
 - [[Wind Turbine Parameters]]
 - [[Aerodynamic Design Parameters]]
 - [[Tip Speed Ratio Classification]]

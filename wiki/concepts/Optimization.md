@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-02
+Updated: 2026-07-03
 Sources:
 - [[va2]]
 - [[vj11]]
@@ -17,6 +17,7 @@ Use this page when the design has to be tuned rather than just chosen.
 
 - Response surface methods appear in the contra-rotating VAWT study. (source: sources/vj8.md)
 - Parameter optimization in the hybrid VAWT paper is driven by CFD results. (source: sources/vj2.md)
+- The hybrid paper in `vj2` uses two sequential geometry changes on the same turbine, first removing the internal Savonius shaft and then moving split Savonius halves outside the Darrieus rotor, with reported average torque gains of 10.5% and 22.3%. (source: sources/vj2.md)
 - CST parameterization, Kriging surrogate modeling, and a multi-island genetic algorithm are used in VAWT airfoil optimization work. (source: sources/va2.md)
 - The vj12 review splits performance improvement into active rotor changes and passive flow-guiding devices. (source: sources/vj12.md)
 - It treats counter-rotation, blade shape/profile, twist, inner blades, end plates, and multi-stage stacking as active design levers. (source: sources/vj12.md)
@@ -32,3 +33,5 @@ Related:
 - [[Aerodynamic Design Parameters]]
 - [[CFD and Validation]]
 - [[Rules of Thumb]]
+- [[Savonius Shaft Removal]]
+- [[Savonius Placement Outside Darrieus Rotor]]

@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-02
+Updated: 2026-07-03
 Sources:
 - [[HRI2526]]
 - [[n1]]
@@ -30,6 +30,7 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 - It says one deflector study used URANS with the k-omega turbulence model as the main analysis tool. (source: sources/vj12.md)
 - It reinforces that CFD sits alongside field and lab testing for VAWT review work, not as a replacement for measurements. (source: sources/vj12.md)
 - Used in a SolidWorks Flow Simulation study of a Savonius-Darrieus hybrid rotor with a 3D domain, mesh refinement, and nine attack angles from 0 to 120 degrees. (source: sources/vj2.md)
+- The same hybrid-rotor paper reports a 15 m by 12 m by 12 m domain, 7 m/s inlet wind speed, 5% turbulence intensity, and the Lam and Bremhorst modified `k-epsilon` model. (source: sources/vj2.md)
 - A dynamic-stall study on a single-bladed 2D VAWT compared URANS, LES, and DES; DES matched PIV vorticity data best. (source: sources/vj5.md)
 - That paper found grid refinement and convergence settings materially affected vorticity and force predictions. (source: sources/vj5.md)
 - A later review organized VAWT CFD around problem definition, meshing, equation discretisation, boundary conditions, numerical solution, and post-processing. (source: sources/vj6.md)
@@ -49,5 +50,7 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 - The CRVAWT optimization paper used STAR-CCM+ CFD, validated an isolated VAWT against wind-tunnel data, and then used the simulation outputs in a response-surface optimization workflow. (source: sources/vj8.md)
 
 ![Figure 21: Schematic view and CFD streamlines for flow around a flanged diffuser](../../images/vj12-fig21.jpg)
+![Figure 4: Turbulent flow due to the Savonius rotor for an angle of attack of 30 degrees, side view](../../images/vj2-fig4a.jpg)
+![Figure 4: Turbulent flow due to the Savonius rotor for an angle of attack of 30 degrees, top view](../../images/vj2-fig4b.jpg)
 
 #methods
