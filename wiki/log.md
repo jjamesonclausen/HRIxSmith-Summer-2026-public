@@ -1,6 +1,24 @@
 #maintenance
 ## Log
 
+### 2026-07-03 — Rename va17 PDF to va16 and ingest panel-method span/solidity study
+
+- Task: rename `PDFs/va17_raw.pdf` to `PDFs/va16_raw.pdf`, convert it into `sources/va16.md`, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Renamed `PDFs/va17_raw.pdf` to `PDFs/va16_raw.pdf` because `va16` was unused and the user explicitly requested the source-number correction.
+  - Created `sources/va16.md` with source frontmatter, section structure, figure links `va16-fig1` through `va16-fig12`, table screenshots, and a nomenclature screenshot.
+  - Added `wiki/summaries/va16-summary.md`.
+  - Added `wiki/methods/Panel Method.md`.
+  - Added parameter pages `va16 Solidity` and `va16 Span-to-Diameter Ratio (H-D)`.
+  - Updated `wiki/concepts/H-VAWT.md`, `wiki/concepts/Straight-bladed Darrieus.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/H-rotor Wake Aerodynamics.md`, and `wiki/index.md` with `va16`-supported claims and links.
+  - Marked `sources/va16.md` as processed and re-ran source-backlink and Obsidian-link verification checks.
+- Decisions:
+  - Added a new method page because the paper is specifically about a three-dimensional panel method with a free-vortex wake rather than a CFD workflow.
+  - Added two parameter pages because the paper directly studies solidity and span-to-diameter ratio as the main design variables.
+  - Did not add a design page because the paper uses a generic straight-bladed reference turbine for a parameter sweep rather than introducing a reusable named turbine design.
+- Open:
+  - `sources/va16.md` remains readable but still has some OCR compression and duplicated caption/table text around the article-info and figures.
+
 ### 2026-07-03 — Convert and ingest va15 H-Darrieus startup parameter study
 
 - Task: convert `PDFs/va15_raw.pdf` into `sources/va15.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

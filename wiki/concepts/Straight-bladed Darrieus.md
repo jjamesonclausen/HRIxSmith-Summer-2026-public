@@ -4,10 +4,11 @@ Updated: 2026-07-03
 Sources:
 - [[HRI2526]]
 - [[va2]]
+- [[va16]]
 - [[va9]]
 - [[va11]]
 - [[vj4]]
-Source_count: 5
+Source_count: 6
 Tags:
 - concepts
 ---
@@ -32,6 +33,8 @@ The straight-bladed Darrieus family with blades arranged around a vertical shaft
 - In that prediction, the EN0005 profile is reported to give better high-TSR performance than the compared NACA0012 and NACA0018 profiles. (source: sources/va9.md)
 - The va11 review adds that straight-bladed H-rotor wakes are strongly asymmetric and shaped by deep dynamic stall, blade-wake interaction, and counter-rotating vortex structures. (source: sources/va11.md)
 - It also says wake recovery can be fast enough to motivate closer VAWT spacing and wake-model-based layout design. (source: sources/va11.md)
+- The va16 study adds that spanwise circulation and local power are strongest near the blade center and weaken toward the tip because of blade-tip-vortex effects. (source: sources/va16.md)
+- It also reports that, in its fixed-`H/c` comparison, power coefficient depends more on solidity than on `H/D` alone. (source: sources/va16.md)
 
 ![Source figure](../../images/va9-fig18.jpg)
 Original caption: Fig. 18. Darrieus VAWT performance prediction. [[va9|Source]]

@@ -30,6 +30,7 @@ _One page per file in `sources/`._
 - [[va13-summary]]
 - [[va14-summary]]
 - [[va15-summary]]
+- [[va16-summary]]
 - [[va5-summary]]
 - [[va4-summary]]
 - [[va3-summary]]
@@ -176,6 +177,8 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[va15 Blade Profile]]
 - [[va15 Blade Surface Roughness]]
 - [[va15 Solidity]]
+- [[va16 Solidity]]
+- [[va16 Span-to-Diameter Ratio (H-D)]]
 - [[va3 Tip Speed Ratio Classification]]
 
 ## Methods
@@ -192,6 +195,7 @@ _Procedure and technique pages live in [`methods/`](methods/)._
 - [[Multi-Island Genetic Algorithm]]
 - [[Payback Period Analysis]]
 - [[3D Particle Tracking Velocimetry]]
+- [[Panel Method]]
 - [[PIV Testing]]
 - [[Wind Tunnel Testing]]
 

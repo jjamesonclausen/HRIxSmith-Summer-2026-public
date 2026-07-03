@@ -3,6 +3,7 @@ Created:
 Updated: 2026-07-03
 Sources:
 - [[HRI2526]]
+- [[va16]]
 - [[va15]]
 - [[va14]]
 - [[va4]]
@@ -14,7 +15,7 @@ Sources:
 - [[vj11]]
 - [[vj12]]
 - [[vj6]]
-Source_count: 12
+Source_count: 13
 Tags:
 - concepts
 ---
@@ -39,6 +40,7 @@ Key metrics used to evaluate wind turbine performance. (source: sources/HRI2526.
 - Betz limit: theoretical maximum power coefficient (~0.59). (source: sources/vj1.md)
 - Solidity: ratio of blade area to swept area; influences performance and structural tradeoffs. (source: sources/vj1.md)
 - The va14 parameter study adds that optimal tip-speed ratio decreases as solidity increases and proposes `sλ^3` as an approximately invariant parameter for `λopt` across its tested H-type VAWTs. (source: sources/va14.md)
+- The va16 study adds that fixed-solidity and fixed-`H/c` comparisons can lead to different conclusions, so `H/D`, `H/c`, and solidity should be kept distinct when interpreting straight-bladed VAWT results. (source: sources/va16.md)
 - The CFD review repeatedly uses power coefficient, torque, flow separation, and wake dynamics as the main performance indicators for VAWT studies. (source: sources/vj6.md)
 - The helical VAWT case found peak power coefficient near TSR 1.8 and used power fluctuation as a stability metric. (source: sources/va4.md)
 - The rooftop J-type design in va5 targets 35 W output, 3 m/s cut-in speed, and 6.67 m/s rated speed. (source: sources/va5.md)
@@ -58,6 +60,8 @@ It also reports that near `λopt`, peak `Cp` is almost independent of blade numb
 
 The va15 study adds a startup tradeoff: higher solidity helps self-start, but lowers peak power output. (source: sources/va15.md)
 It also shows that rougher surfaces, negative pitch, and thicker symmetric blades can help low-`lambda` startup in some cases, but those same changes can reduce higher-`lambda` performance. (source: sources/va15.md)
+
+The va16 study reports that at fixed solidity, larger `H/D` increases peak `Cp` and shifts the optimum tip-speed ratio upward, while at fixed `H/c = 6`, solidity has the stronger effect on peak performance. (source: sources/va16.md)
 
 ## Figures
 
@@ -91,5 +95,7 @@ Related:
 - [[va14 Blade Number]]
 - [[va15 Solidity]]
 - [[va15 Blade Profile]]
+- [[va16 Solidity]]
+- [[va16 Span-to-Diameter Ratio (H-D)]]
 
 #concepts 
