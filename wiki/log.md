@@ -1,13 +1,27 @@
 #maintenance
 ## Log
 
+### 2026-07-03 — Verify source backlinks in wiki properties
+
+- Task: verify that wiki pages include source-note backlinks in their properties for every source they cite, and add any missing links.
+- Actions:
+  - Audited content pages in `wiki/summaries/`, `wiki/concepts/`, `wiki/methods/`, `wiki/designs/`, and `wiki/parameters/` by comparing body citations against frontmatter source links.
+  - Added missing frontmatter source backlinks and corrected `Source_count` values on 10 pages: `Darrieus Turbine`, `Design Checklist`, `Rules of Thumb`, `Savonius Turbine`, `Structures and Loads`, `Turbine Concept Selection`, `VAWT Design Overview`, `VAWT Types`, `CFD`, and `HRI2526 Aerodynamic Design Parameters`.
+  - Re-ran the audit to confirm no remaining cited-source gaps on content pages.
+  - Cleaned example-only link syntax in this log so the wiki-wide link verification passes without false unresolved links.
+- Decisions:
+  - Treated the source-backlink requirement as applying to content pages that use the frontmatter source-properties convention, not to administrative pages like `index`, `evals`, and `learning-log`.
+  - Kept the fix minimal by updating only pages whose cited sources were missing from frontmatter, rather than normalizing unrelated metadata.
+- Open:
+  - If you want the same `Sources` frontmatter convention added to administrative pages as well, that would need a separate schema decision because those pages currently use a different format.
+
 ### 2026-07-03 — Normalize Obsidian backlinks across repo documents
 
 - Task: check all document backlinks for Obsidian compatibility and remove any non-functional local Markdown note links or malformed wikilinks.
 - Actions:
   - Audited all `.md` files for local Markdown links to other notes, quoted wikilinks, and unresolved wikilinks.
-  - Converted local Markdown note links such as `[Source](../../sources/vj3.md)` and other local `.md` references into Obsidian wikilinks.
-  - Used aliased wikilinks to retarget stale bare names like `[[Classical Savonius]]` and `[[Aerodynamic Design Parameters]]` to the current source-prefixed files.
+  - Converted local Markdown note links such as source-note path links and other local `.md` references into Obsidian wikilinks.
+  - Used aliased wikilinks to retarget stale bare names such as Classical Savonius and Aerodynamic Design Parameters to the current source-prefixed files.
   - Replaced broken references to missing notes such as workshop files and the non-existent `sources/README.md` with plain text so no broken local links remain.
   - Neutralized example-only wikilinks in `resources/Obsidian + Markdown Cheatsheet.md` so they do not appear as broken notes.
 - Decisions:
@@ -186,9 +200,9 @@
 
 - Task: fix remaining wiki pages that still lacked Obsidian-friendly wikilink backlinks.
 - Actions:
-  - Added missing summary-page frontmatter backlinks so older source summaries now include `Sources: [[...]]` metadata.
+  - Added missing summary-page frontmatter backlinks so older source summaries now include source-note wikilinks in `Sources` metadata.
   - Converted remaining wiki-to-wiki Markdown links in `wiki/index.md` and `wiki/learning-log.md` to Obsidian wikilinks.
-  - Left single-source `Source: [[...]]` properties, claim citations like `sources/va9.md`, and non-wiki Markdown links unchanged because those already match the schema or serve a different purpose.
+  - Left single-source `Source` properties, claim citations like `sources/va9.md`, and non-wiki Markdown links unchanged because those already match the schema or serve a different purpose.
 - Decisions:
   - Followed `schema/Ingest Source`, which uses inline `Sources: [[va1]]` for general wiki pages and singular `Source: [[va1]]` for single-source design and parameter pages.
   - Added minimal frontmatter to older summary pages rather than rewriting their body text, since the missing source backlinks were the navigation issue.

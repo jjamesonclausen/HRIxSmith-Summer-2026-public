@@ -3,10 +3,10 @@
 1. Read the converted source fully.
 2. Inspect any extracted figures in `images/` and link relevant ones in the wiki pages you create or update. Include the figure captions directly below the figure, and a link to the figure's source. 
 3. Create a source summary page in `wiki/summaries/` named after the source, eg. `va2-summary.md` .
-4. Summarize the source at a high level on that page, using only what the source supports. 
+4. Summarize the source at a high level on that page, using only what the source supports and include a link to the source. 
 5. Extract key concepts and methods from the source. 
 6. For each concept or method, update the existing wiki page if one already exists.
-7. If no existing wiki page covers the concept or method, create a new page in the appropriate folder:
+7. If no existing wiki page covers the concept or method, create a new page, with a link back to the source, in the appropriate folder:
 	- `wiki/concepts/` for concepts and entities
 	- `wiki/methods/` for procedures and techniques
 8. Add the appropriate tag to the top of the file:
@@ -39,7 +39,7 @@
 11. If the source contradicts an existing wiki page, note the discrepancy on both pages but do not overwrite it anywhere.
 12. If there are any related figures add a Markdown image link to the wiki files (summary, concepts, and/or methods), for example:
    - `![Figure 1: caption text](../../images/va2-fig1.jpg)`
-13. Add properties using the format below, if any information is unavailable leave it blank.
+13. Add properties using the format below (excpet for design and paramter pages), if any information is unavailable leave it blank.
     - Backlink all sources that are cited in this wiki page.
     - Tag the wiki page according to which folder it is in: `#summaries`, `#concepts`, `#methods`.
     - Sources should include backlinks to whichever source documents are referenced. See example below.
