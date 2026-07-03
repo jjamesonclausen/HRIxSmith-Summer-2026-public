@@ -4,10 +4,11 @@ Updated: 2026-07-03
 Sources:
 - [[HRI2526]]
 - [[n2]]
+- [[va13]]
 - [[va8]]
 - [[vj11]]
 - [[vj2]]
-Source_count: 5
+Source_count: 6
 Tags:
 - concepts
 ---
@@ -41,6 +42,9 @@ It warns that Savonius drag can degrade high-TSR efficiency, so swept-area balan
 The va8 patent adds a different hybrid architecture: asymmetrical lift blades are mounted between upper and lower horizontal channel beams, and the compartmented channel beams are described as generating Savonius-like drag torque that complements blade lift torque. (source: sources/va8.md)
 In that patent design, the generator/storage hardware is placed near the bottom of the turbine, and the source frames that placement as a stability improvement compared with placing power-generation equipment at the top. (source: sources/va8.md)
 The source claims high starting torque at low wind and similar torque when wind comes from the leading or trailing edge direction, but this is a single patent source and should not be treated as a broadly validated performance trend without corroborating studies. (source: sources/va8.md)
+
+The va13 study adds a different hybrid architecture: an inner IceWind rotor with semicircular blades sits inside an outer helical/Darrieus rotor. (source: sources/va13.md)
+It reports this combined case gave the best rooftop-building outcome among the three tested designs, with 30.88% annual energy-use reduction and a 10.49-year payback period. (source: sources/va13.md)
 
 Purpose:
 - Improve self-starting via Savonius rotor (source: sources/HRI2526.md)
@@ -92,6 +96,7 @@ See also:
 - [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[Structures and Loads]]
 - [[Materials and Manufacturing]]
+- [[va13 Combined Helical-IceWind VAWT]]
 - [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
 - [[vj2 Shaftless Savonius-Darrieus Hybrid Wind Turbine]]
 - [[vj2 Split Savonius Outside Darrieus Hybrid Wind Turbine]]

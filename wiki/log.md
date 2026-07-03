@@ -1,6 +1,39 @@
 #maintenance
 ## Log
 
+### 2026-07-03 — Convert and ingest va14 solidity and blade-count study
+
+- Task: convert `PDFs/va14_raw.pdf` into `sources/va14.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va14.md` with source frontmatter, linked figure images `va14-fig1` through `va14-fig20`, and added screenshots for symbol-heavy tables and nomenclature.
+  - Added `wiki/summaries/va14-summary.md`.
+  - Added parameter pages `va14 Solidity` and `va14 Blade Number`.
+  - Updated `wiki/concepts/Wind Turbine Parameters.md`, `wiki/parameters/HRI2526 Aerodynamic Design Parameters.md`, `wiki/concepts/H-VAWT.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/concepts/H-rotor Wake Aerodynamics.md`, `wiki/concepts/CFD and Validation.md`, `wiki/methods/CFD.md`, and `wiki/index.md` with `va14`-supported claims and links.
+  - Marked `sources/va14.md` as processed and re-ran source-backlink and Obsidian-link verification checks.
+- Decisions:
+  - Added source-specific parameter pages because the paper directly studies solidity and blade number as the main design variables.
+  - Did not add a design page because the paper is a characterization study around a reference H-type turbine rather than a distinct single-source turbine design note.
+  - Treated the urban low-solidity recommendation as a post-start constant-speed design recommendation, not a startup recommendation.
+- Open:
+  - `sources/va14.md` is usable but still contains some compressed OCR text around the article-info/abstract area and the long references section.
+
+### 2026-07-03 — Convert and ingest va13 urban-building VAWT study
+
+- Task: convert `PDFs/va13_raw.pdf` into `sources/va13.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va13.md` with source frontmatter, cleaned section structure, and linked screenshots for Figures 1-9 plus Tables 1-2.
+  - Added `wiki/summaries/va13-summary.md`.
+  - Added `wiki/methods/Payback Period Analysis.md`.
+  - Added three single-source design pages: `va13 Helical-Type VAWT`, `va13 Ice-Type VAWT`, and `va13 Combined Helical-IceWind VAWT`.
+  - Updated `wiki/concepts/Hybrid VAWT.md`, `wiki/concepts/Economic Viability of VAWTs.md`, `wiki/concepts/Urban Wind Conditions.md`, `wiki/concepts/CFD and Validation.md`, `wiki/methods/CFD.md`, and `wiki/index.md` with `va13`-supported claims and links.
+  - Marked `sources/va13.md` as processed and re-ran source-backlink and Obsidian-link verification checks.
+- Decisions:
+  - Added design pages because the paper compares three explicit named rooftop turbine cases with case-specific geometry and performance.
+  - Did not add parameter pages because most changed values in `va13` are bundled whole-design differences rather than isolated single-parameter studies.
+  - Left cut-in and cut-out fields blank on the design pages because Table 1 appears internally inconsistent on those values and the source was not clear enough to trust those fields.
+- Open:
+  - `sources/va13.md` is readable and source-grounded, but still contains some light extraction artifacts such as duplicated caption text after inserted images and compact equation formatting in the payback section.
+
 ### 2026-07-03 — Improve readability of va11 and va12 source notes
 
 - Task: make `sources/va11.md` and `sources/va12.md` more readable without changing the source wording or adding commentary.

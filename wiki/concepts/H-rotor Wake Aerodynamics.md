@@ -2,9 +2,10 @@
 Created: 2026-07-03
 Updated: 2026-07-03
 Sources:
+- [[va14]]
 - [[va11]]
 - [[va12]]
-Source_count: 2
+Source_count: 3
 Tags:
 - concepts
 ---
@@ -30,11 +31,15 @@ Original caption: Fig. 38. Schematic of the wake model [78]. [[va11|Source]]
 - It shows that downstream gains correlate with bluff-body accelerations around the upstream rotor, while poor placement inside the upstream wake can arrest the downstream turbine completely. (source: sources/va12.md)
 - The same source reports that upstream-turbine performance is also modified by the downstream rotor, so pair interactions are not one-way wake effects. (source: sources/va12.md)
 - Its three-dimensional wake measurements show streamwise vortices that can replenish wake momentum by mean advection from above and below the pair, especially in reverse-doublet-like cases. (source: sources/va12.md)
+- The va14 study adds that higher solidity tends to deepen wake deficit, widen the wake, and strengthen near-wake oscillations, while wake length is comparatively insensitive to blade number. (source: sources/va14.md)
+- It also compares wake fields at constant `Rec`, showing that solidity changes wake behavior through more than Reynolds-number effects alone. (source: sources/va14.md)
 
 ![Source figure](../../images/va12-fig11.jpg)
 Original caption: Figure 11. Contours of the normalized time-averaged streamwise velocity (u/Uo) around: (a) clockwise co-rotating; (b) counter-clockwise co-rotating; (c) reverse doublet; and (d) doublet arrays at the plane Z/D = 0. The arrays have a turbine spacing of s = 1.5 D and are at an array angle of phi = 50 degrees. The grey and black contour levels denote u/Uo = 0 and u/Uo = 1, respectively. The dashed black lines denote the projection of the turbine on the plane. The overlaid vectors denote the in-plane velocity. Vectors are shown at 25% of the recorded resolution for visual clarity. The direction the individual VAWT rotations are denoted by the blue (clockwise) and red (counter-clockwise) arrows. As in Figure 6, the empty regions around the turbines correspond to locations where particles could not be tracked in multiple cameras. [[va12|Source]]
 ![Source figure](../../images/va12-fig13.jpg)
 Original caption: Figure 13. Vertical transects of the normalized time-averaged vertical velocity (w/Uo) at X/D = 2 downstream and laterally between the rotors (Y/D = 0.57). Data are shown for: (a) clockwise co-rotating; (b) counter-clockwise co-rotating; (c) reverse doublet; and (d) doublet arrays. The arrays have a turbine spacing of s = 1.5 D and are at an array angle of phi = 50 degrees. The dashed black lines denote the top and bottom of the rotors in the array. The transects were smoothed using a five-point moving average. [[va12|Source]]
+![Source figure](../../images/va14-fig14.jpg)
+Original caption: Fig. 14. Time-averaged (over the last turbine revolution) normalized streamwise velocity at different downstream locations in the turbine wake along lateral lines (-0.75 <= y/d <= 0.75) for different s at constant Rec for identical l. [[va14|Source]]
 
 Related:
 - [[H-VAWT]]

@@ -1,14 +1,15 @@
 ---
 Created:
-Updated: 2026-07-02
+Updated: 2026-07-03
 Sources:
 - [[HRI2526]]
+- [[va13]]
 - [[va8]]
 - [[va9]]
 - [[vj10]]
 - [[vj11]]
 - [[vj12]]
-Source_count: 6
+Source_count: 7
 Tags:
 - concepts
 ---
@@ -32,6 +33,8 @@ Characteristics of airflow in built environments. (source: sources/HRI2526.md)
 - The same patent frames rural rooftop deployment as a target use case and says battery storage could reduce or possibly eliminate grid-power need for household electric power. (source: sources/va8.md)
 - The va9 paper motivates Darrieus VAWT development for urban areas because wind turbulence and brisk changes in wind direction cannot be disregarded there. (source: sources/va9.md)
 - Its tested prototype was evaluated in urban field sites and in a wind tunnel, and the source reports no audible noise emission in the urban environment. (source: sources/va9.md)
+- The va13 rooftop-building study treats Çe¸sme, Izmir as a favorable urban-wind site with about 7 m/s local average wind speed for VAWT integration. (source: sources/va13.md)
+- It uses that stronger-wind urban case to show that rooftop VAWTs can be viable when the local wind resource is much better than low-speed rooftop cases elsewhere in the wiki. (source: sources/va13.md)
 ![Source figure](../../images/hri2526-fig16.jpg)
 Original caption: Fig. 16. Wind Data from McConnell Rooftop [[HRI2526|Source]]
 
@@ -55,5 +58,6 @@ Related:
 - [[Wind Shear]]
 - [[Hybrid VAWT]]
 - [[Darrieus Turbine]]
+- [[Economic Viability of VAWTs]]
 
 #concepts 

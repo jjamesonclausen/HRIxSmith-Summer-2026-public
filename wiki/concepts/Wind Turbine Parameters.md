@@ -1,8 +1,9 @@
 ---
 Created:
-Updated: 2026-07-02
+Updated: 2026-07-03
 Sources:
 - [[HRI2526]]
+- [[va14]]
 - [[va4]]
 - [[va5]]
 - [[va6]]
@@ -12,7 +13,7 @@ Sources:
 - [[vj11]]
 - [[vj12]]
 - [[vj6]]
-Source_count: 10
+Source_count: 11
 Tags:
 - concepts
 ---
@@ -36,6 +37,7 @@ Key metrics used to evaluate wind turbine performance. (source: sources/HRI2526.
 
 - Betz limit: theoretical maximum power coefficient (~0.59). (source: sources/vj1.md)
 - Solidity: ratio of blade area to swept area; influences performance and structural tradeoffs. (source: sources/vj1.md)
+- The va14 parameter study adds that optimal tip-speed ratio decreases as solidity increases and proposes `sλ^3` as an approximately invariant parameter for `λopt` across its tested H-type VAWTs. (source: sources/va14.md)
 - The CFD review repeatedly uses power coefficient, torque, flow separation, and wake dynamics as the main performance indicators for VAWT studies. (source: sources/vj6.md)
 - The helical VAWT case found peak power coefficient near TSR 1.8 and used power fluctuation as a stability metric. (source: sources/va4.md)
 - The rooftop J-type design in va5 targets 35 W output, 3 m/s cut-in speed, and 6.67 m/s rated speed. (source: sources/va5.md)
@@ -49,6 +51,9 @@ Key metrics used to evaluate wind turbine performance. (source: sources/HRI2526.
 The VAWT review gives typical design ranges of TSR 0.6-1.2 for Savonius and 2.5-5.0 for Darrieus, with peak Cp around 0.15-0.25 and 0.35-0.45 respectively. (source: sources/vj11.md)
 It treats solidity, blade profile, pitch angle, blade count, and chord Reynolds number as the main geometry-performance knobs. (source: sources/vj11.md)
 It says startup, torque ripple, and wake interaction are the practical metrics that sit alongside Cp when comparing designs. (source: sources/vj11.md)
+
+The va14 study says that for constant-speed urban VAWTs operating often at moderate to high `λ`, relatively low solidity is optimal, while a variable-speed optimal rotor should have moderately high solidity and relatively low `λ`. (source: sources/va14.md)
+It also reports that near `λopt`, peak `Cp` is almost independent of blade number, so blade count should often be chosen for smoothness, loads, and cost rather than for peak power alone. (source: sources/va14.md)
 
 ## Figures
 
@@ -68,6 +73,8 @@ Original caption: Figure 10: Distribution of thrust coefficient. [[vj10|Source]]
 Original caption: Figure 7. Coefficient of performance of VAWT for various helix angles. [[va7|Source]]
 ![Source figure](../../images/va7-fig14.jpg)
 Original caption: Figure 14. The standard deviation of Cp of different helical-bladed and straight-bladed VAWT [[va7|Source]]
+![Source figure](../../images/va14-fig7.jpg)
+Original caption: Fig. 7. Optimal tip speed ratio vs. solidity with a curve fit using Eq. (1) based on data sets in Table 7. [[va14|Source]]
 
 These parameters are often visualized using a power curve, which relates wind speed to power output. (source: sources/HRI2526.md)
 
@@ -76,5 +83,7 @@ Related:
 - [[Darrieus Turbine]]
 - [[Savonius Turbine]]
 - [[Wind Shear]]
+- [[va14 Solidity]]
+- [[va14 Blade Number]]
 
 #concepts 

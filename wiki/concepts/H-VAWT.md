@@ -3,10 +3,11 @@ Created:
 Updated: 2026-07-03
 Sources:
 - [[va2]]
+- [[va14]]
 - [[va9]]
 - [[va11]]
 - [[vj4]]
-Source_count: 4
+Source_count: 5
 Tags:
 - concepts
 ---
@@ -36,6 +37,8 @@ Original caption: Figure 1: Schematic of VAWT blade forces at different azimutha
 - The va9 paper uses an H-rotor in skewed flow as an example for its sliced DMS approach, where the blade follows an elliptical path in some slices and the effective blade profile changes with blade angle. (source: sources/va9.md)
 - The va11 wake review treats the H-rotor as the main modern straight-bladed VAWT for urban use and dense layouts because its wake can recover quickly and support closer turbine spacing in some configurations. (source: sources/va11.md)
 - It also frames H-rotor wake asymmetry, counter-rotating vortices, and strong dynamic-stall effects as central aerodynamic features of the subtype. (source: sources/va11.md)
+- The va14 study adds a large CFD characterization of 2-, 3-, and 4-bladed Darrieus H-type turbines, using solidity from 0.09 to 0.36 and showing that optimal tip-speed ratio shifts strongly with solidity. (source: sources/va14.md)
+- It also reports that near the optimal operating range, peak `Cp` is almost independent of blade number at fixed `Rec`. (source: sources/va14.md)
 
 ![Source figure](../../images/va9-fig20.jpg)
 Original caption: Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow. [[va9|Source]]

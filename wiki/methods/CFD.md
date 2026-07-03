@@ -7,6 +7,8 @@ Sources:
 - [[va1]]
 - [[va10]]
 - [[va11]]
+- [[va13]]
+- [[va14]]
 - [[va4]]
 - [[va7]]
 - [[vj12]]
@@ -14,7 +16,7 @@ Sources:
 - [[vj5]]
 - [[vj6]]
 - [[vj8]]
-Source_count: 12
+Source_count: 14
 Tags:
 - methods
 ---
@@ -47,6 +49,10 @@ Original caption: Fig. 17. CFD Flow volume with stationary and rotating domains 
 - The va11 wake review adds wake-specific uses of RANS, LES, and DES, including PIV-validated simulations of asymmetric wake spreading, counter-rotating vortices, and blade-tip effects. (source: sources/va11.md)
 - It says 2-D wake CFD misses blade-tip vortices and therefore over-predicts H-rotor performance relative to 3-D simulation. (source: sources/va11.md)
 - It also reviews actuator-based LES approaches such as actuator line and actuator swept-surface models for reducing computational cost in large wake studies. (source: sources/va11.md)
+- The va13 study uses SolidWorks for turbine geometry, ANSYS Fluent with the SST `k-ω` turbulence model for aerodynamic comparison, and case-specific rooftop domains and meshes for the three designs. (source: sources/va13.md)
+- It reports node and element counts for each case but explicitly leaves mesh-sensitivity and experimental validation for future work because the study's main goal was building-scale energy and economic analysis. (source: sources/va13.md)
+- The va14 study uses 2D URANS with the transition SST (`γ-Reθ`) model, a sliding mesh interface, about 400,000 quadrilateral cells, and a grid-sensitivity analysis quantified with GCI. (source: sources/va14.md)
+- It validates against wake-velocity data for a 2-bladed turbine and power-coefficient data for a 3-bladed turbine before running the larger parametric sweep. (source: sources/va14.md)
 - The helical-VAWT study used 2D LES for blade-scale flow and 3D U-RANS with SST k-omega for the full rotor. (source: sources/va4.md)
 - It found that 3D effects such as tip vortex and second flow reduce performance relative to 2D predictions. (source: sources/va4.md)
 - A helical-VAWT helix-angle study used Ansys FLUENT with stationary and rotating domains, a sliding mesh interface, transition SST k-omega turbulence modeling, grid/time-step independence checks, and validation against McLaren's experimental VAWT data. (source: sources/va7.md)
@@ -74,6 +80,10 @@ Original caption: Fig. 8. Comparison of power coefficient at different tip speed
 Original caption: Fig. 25. Vorticity magnitudes in the blade mid-span and vertical planes (units, 1/s) [52]. [[va11|Source]]
 ![Source figure](../../images/va11-fig26.jpg)
 Original caption: Fig. 26. Vorticity magnitudes in the top blade-tip and vertical planes (units, 1/s) [52]. [[va11|Source]]
+![Source figure](../../images/va13-fig7.jpg)
+Original caption: Figure 7. Computational domain and mesh setup. [[va13|Source]]
+![Source figure](../../images/va14-fig1.jpg)
+Original caption: Fig. 1. Schematic of (a) the reference turbine, (b) computational domain (both not to scale); (c-e) computational grid near the (c) rotating core, (d) airfoil, and (e) trailing edge. [[va14|Source]]
 - The CRVAWT optimization paper used STAR-CCM+ CFD, validated an isolated VAWT against wind-tunnel data, and then used the simulation outputs in a response-surface optimization workflow. (source: sources/vj8.md)
 
 ![Source figure](../../images/vj12-fig21.jpg)
