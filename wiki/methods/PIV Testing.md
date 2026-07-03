@@ -23,6 +23,7 @@ Original caption: Fig. 17. Contours of normalized out-of-plane vorticity for the
 
 Related:
 - [[Wind Tunnel Testing]]
+- [[3D Particle Tracking Velocimetry]]
 - [[CFD and Validation]]
 - [[H-rotor Wake Aerodynamics]]
 

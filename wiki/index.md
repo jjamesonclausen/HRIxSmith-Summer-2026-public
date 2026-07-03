@@ -26,6 +26,7 @@ _One page per file in `sources/`._
 - [[va9-summary]]
 - [[va10-summary]]
 - [[va11-summary]]
+- [[va12-summary]]
 - [[va5-summary]]
 - [[va4-summary]]
 - [[va3-summary]]
@@ -159,6 +160,9 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[vj12 Savonius Twist Angle]]
 - [[vj2 Savonius Shaft Removal]]
 - [[vj2 Savonius Placement Outside Darrieus Rotor]]
+- [[va12 Array Angle in Paired VAWT Arrays]]
+- [[va12 Relative Rotational Orientation in Paired VAWT Arrays]]
+- [[va12 Turbine Spacing in Paired VAWT Arrays]]
 - [[va3 Tip Speed Ratio Classification]]
 
 ## Methods
@@ -173,6 +177,7 @@ _Procedure and technique pages live in [`methods/`](methods/)._
 - [[CST Parameterization]]
 - [[Kriging Surrogate Model]]
 - [[Multi-Island Genetic Algorithm]]
+- [[3D Particle Tracking Velocimetry]]
 - [[PIV Testing]]
 - [[Wind Tunnel Testing]]
 

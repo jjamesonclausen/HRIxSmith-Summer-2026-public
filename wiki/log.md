@@ -1,6 +1,22 @@
 #maintenance
 ## Log
 
+### 2026-07-03 — Convert and ingest va12 interacting-VAWT array study
+
+- Task: convert `PDFs/va12_raw.pdf` into `sources/va12.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va12.md` with source frontmatter, extracted text, and links to `images/va12-fig1.jpg` through `images/va12-fig15.jpg`.
+  - Added `wiki/summaries/va12-summary.md`.
+  - Added `wiki/methods/3D Particle Tracking Velocimetry.md`.
+  - Added parameter pages for the three studied array knobs: `va12 Array Angle in Paired VAWT Arrays`, `va12 Turbine Spacing in Paired VAWT Arrays`, and `va12 Relative Rotational Orientation in Paired VAWT Arrays`.
+  - Updated `wiki/concepts/H-rotor Wake Aerodynamics.md`, `wiki/concepts/VAWT.md`, `wiki/methods/Wind Tunnel Testing.md`, `wiki/methods/PIV Testing.md`, and `wiki/index.md` with `va12`-supported claims and links.
+  - Marked `sources/va12.md` as processed and re-ran source-backlink and Obsidian-link verification checks.
+- Decisions:
+  - Added source-specific parameter pages because `va12` directly studies array angle, spacing, and relative rotational orientation as the paper's main controlled design variables.
+  - Did not add a new design page because the paper is primarily an interaction and parameter study on a paired test setup rather than a reusable single-source turbine design note.
+- Open:
+  - `sources/va12.md` remains a lightly cleaned extraction and still contains some PDF/OCR formatting artifacts, especially in equations and repeated page text; the wiki claims added here were kept to source points that remained clear despite those artifacts.
+
 ### 2026-07-03 — Convert and ingest va11 wake-aerodynamics review
 
 - Task: convert `PDFs/va11_raw.pdf` into `sources/va11.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

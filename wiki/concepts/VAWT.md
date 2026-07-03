@@ -1,11 +1,12 @@
 ---
 Created:
-Updated: 2026-07-02
+Updated: 2026-07-03
 Sources:
 - [[HRI2526]]
 - [[n1]]
 - [[n2]]
 - [[va1]]
+- [[va12]]
 - [[va2]]
 - [[va3]]
 - [[va4]]
@@ -19,7 +20,7 @@ Sources:
 - [[vj6]]
 - [[vj7]]
 - [[vj8]]
-Source_count: 17
+Source_count: 18
 Tags:
 - concepts
 ---
@@ -40,6 +41,7 @@ Wind turbine with a vertical rotor axis that can accept wind from any direction.
 - Tip speed ratio α > 1 suggests lift-based operation, while α < 1 indicates mostly drag-based behavior. (source: sources/va3.md)
 - Small VAWTs can be easier to manufacture and maintain because the generator sits at ground level, and the article cites 10 m / 3-5 kW machines as a low-cost scale target. (source: sources/va3.md)
 - Correctly positioned VAWT arrays can exploit wake interactions to improve downstream turbine output. (source: sources/va3.md)
+- A paired-array study reports that VAWT interactions can improve or degrade both downstream and upstream turbines, depending on spacing, wind-direction angle, and relative rotation. (source: sources/va12.md)
 - The source frames VAWTs as quieter, less visible, and more suitable for constrained sites than large HAWTs. (source: sources/va3.md)
 
 Additional advantages:
@@ -78,6 +80,7 @@ Inefficiencies:
 - A contra-rotating VAWT can improve stability and wind-energy recovery, but the paper reports lower pre-optimization Cp than an isolated VAWT. (source: sources/vj8.md)
 - A helical-blade CFD study reports a tradeoff between performance and smoothness: the 60-degree helical VAWT had the best power performance among the tested cases, while the 120-degree helical VAWT had the lowest Cp standard deviation. (source: sources/va7.md)
 - The same study found helical VAWT wakes dissipate more quickly than straight-bladed VAWT wakes, and wake profiles weaken as helix angle increases. (source: sources/va7.md)
+- The same paired-array study reports three-dimensional vortex interactions that replenish wake momentum by mean advection rather than only turbulent diffusion. (source: sources/va12.md)
 
 The VAWT review frames the main archetypes as Savonius, H-Darrieus, troposkein Darrieus, helical Darrieus, and Savonius-Darrieus hybrids. (source: sources/vj11.md)
 It treats dynamic stall, leading-edge vortex shedding, and blade-wake interaction as the main low-TSR aerodynamic limits. (source: sources/vj11.md)
@@ -114,5 +117,6 @@ Related:
 - [[Double-Multiple Streamtube Model]]
 - [[va3 Tip Speed Ratio Classification]]
 - [[va3 Counter-rotating VAWT Array]]
+- [[va12 Relative Rotational Orientation in Paired VAWT Arrays]]
 
 #concepts 
