@@ -1,6 +1,20 @@
 #maintenance
 ## Log
 
+### 2026-07-03 — Backfill missing design and parameter pages by source
+
+- Task: go through all current `sources/*.md` files and create any missing single-source `wiki/designs/` and `wiki/parameters/` pages required by `schema/Ingest Source`.
+- Actions:
+  - Audited all source files against the existing `wiki/designs/` and `wiki/parameters/` coverage using the current schema rule that these pages must be source-specific and single-source.
+  - Added missing design pages for `HRI2526`, `va1`, `va4`, `va7`, `va8`, and `vj9`.
+  - Added missing parameter pages for `va2`, `va7`, `va8`, `va9`, `vj4`, `vj7`, `vj8`, `vj9`, and `vj12`.
+  - Updated `wiki/index.md` so all new design and parameter pages are linked from the central map.
+- Decisions:
+  - Used a conservative threshold for page creation: a new design or parameter page was only added when the source clearly discussed a specific turbine configuration or a specific changed design parameter.
+  - Did not add new design or parameter pages for sources that remained review-level or too brief to support a source-specific page without stretching the evidence.
+- Open:
+  - Some sources such as `va3`, `vj1`, and `vj11` still contain broad review material that could be split more aggressively under a stricter interpretation, but they did not clearly require additional source-specific design or parameter pages on this conservative pass.
+
 ### 2026-07-03 — Split legacy multi-source design pages
 
 - Task: audit `wiki/designs/` for old pages that combined multiple sources or multiple turbine configurations, then separate them into single-source design pages.

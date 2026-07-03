@@ -1,0 +1,25 @@
+---
+Created: 2026-07-03
+Source: [[vj12]]
+Tags: "#parameters"
+Target: increase Cp
+Outcome: significant positive effect
+---
+
+## Savonius Twist Angle
+
+This `vj12` review discusses changing the twist angle of helical Savonius blades to improve power and torque coefficients. (source: sources/vj12.md)
+
+## Parameter Change
+
+- The review summarizes twist-angle studies at `0°`, `30°`, `45°`, `90°`, `105°`, `135°`, `150°`, and `180°`. (source: sources/vj12.md)
+
+![Source figure](../../images/vj12-fig18.jpg)
+Original caption: Figure 18: Top and side view of wind rotor shapes with different twist angle [95]. [Source](../../sources/vj12.md)
+
+## Outcome
+
+- The review reports multiple positive results from twist-angle changes, including a maximum power coefficient at `45°` in one study and a `51%` improvement for a `180°` twist angle relative to `0°` in another. (source: sources/vj12.md)
+- It also cites a `53.5%` coefficient-of-power increase for a twisted two-stage Savonius rotor over a conventional single-stage rotor. (source: sources/vj12.md)
+
+#parameters
