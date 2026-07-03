@@ -1,6 +1,34 @@
 #maintenance
 ## Log
 
+### 2026-07-03 — Reconvert va6 source from PDF
+
+- Task: replace the summarized `sources/va6.md` with a source-faithful conversion of `PDFs/va6_raw.pdf` according to `schema/Convert PDF to MD`.
+- Actions:
+  - Rebuilt `sources/va6.md` from the PDF text instead of keeping the prior summary-style content.
+  - Preserved the article info, abstract, keywords, section headings, appendix, references, and biographies of authors.
+  - Linked the paper figures in source order using the existing extracted `va6-fig*.jpg` files and added `images/va6-eq1-5.jpg` for the displayed equations in section 2.3.
+  - Converted Tables 1, 2, and 3 to Markdown tables.
+- Decisions:
+  - Kept the source file name `va6.md` so it continues to match the existing Anna VAWT source numbering.
+  - Used the existing split images for Figure 1(a) and Figure 1(b) rather than creating a new combined crop.
+- Open:
+  - None.
+
+### 2026-07-03 — Reconvert va5 source from PDF
+
+- Task: replace the summarized `sources/va5.md` with a source-faithful conversion of `PDFs/va5_raw.pdf` according to `schema/Convert PDF to MD`.
+- Actions:
+  - Rebuilt `sources/va5.md` from the PDF text instead of keeping the prior summary-style content.
+  - Preserved the paper title, authors, abstract, nomenclature, section headings, references, and in-place figure/table captions.
+  - Reused the existing extracted figure images for `va5` and added three equation crops as `images/va5-eq1.jpg`, `images/va5-eq2.jpg`, and `images/va5-eq3.jpg`.
+  - Converted Tables 2 and 3 to Markdown tables and kept Table 1 as an image because the scanned table content was not reliable enough for exact text reconstruction.
+- Decisions:
+  - Kept the source file name `va5.md` so it continues to match the existing Anna VAWT source numbering.
+  - Treated replacing the file contents as the deletion of the old summarized source, since the summary no longer exists at that path.
+- Open:
+  - Table 1 remains image-only unless a higher-quality OCR/transcription pass is needed later.
+
 ### 2026-07-02 — Rename raw PDFs to remove source-link ambiguity
 
 - Task: rename all files in `PDFs/` to `*_raw.pdf` so bare source wikilinks like `[[va9]]` resolve cleanly to the Markdown source notes in Obsidian.
