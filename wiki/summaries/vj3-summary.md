@@ -22,9 +22,9 @@ Key points:
 
 Figures:
 - ![Source figure](../../images/vj3-fig1.jpg)
-  Original caption: Figure 1: Daily Cycle of TKE [Source](../../sources/vj3.md)
+  Original caption: Figure 1: Daily Cycle of TKE [[vj3|Source]]
 - ![Source figure](../../images/vj3-fig2.jpg)
-  Original caption: Figure 2: Power Curve Variability with Turbulence Intensity [Source](../../sources/vj3.md)
+  Original caption: Figure 2: Power Curve Variability with Turbulence Intensity [[vj3|Source]]
 
 Related concepts: [[Atmospheric Turbulence]], [[Urban Wind Conditions]], [[HAWT vs VAWT]]
 

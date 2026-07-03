@@ -24,7 +24,7 @@ A VAWT concept that uses two coaxial rotors spinning in opposite directions. Thi
 - The baseline blade pitch angle is 6 degrees. (source: sources/vj8.md)
 
 ![Source figure](../../images/vj8-fig3.jpg)
-Original caption: Fig. 3. Model and parameters of CRVAWT. [Source](../../sources/vj8.md)
+Original caption: Fig. 3. Model and parameters of CRVAWT. [[vj8|Source]]
 
 ## Unique Design Choices
 
@@ -40,11 +40,11 @@ Original caption: Fig. 3. Model and parameters of CRVAWT. [Source](../../sources
 - The source says excessively small spacing causes strong rotor interference, while excessively large spacing raises the center of gravity and hurts stability. (source: sources/vj8.md)
 
 ![Source figure](../../images/vj8-fig17.jpg)
-Original caption: Fig. 17. Response surface fitting results. [Source](../../sources/vj8.md)
+Original caption: Fig. 17. Response surface fitting results. [[vj8|Source]]
 
 ## Related
 
-- [[Contra-rotating VAWT]]
+- [[vj8 Contra-rotating VAWT|Contra-rotating VAWT]]
 - [[Optimization]]
 - [[vj12 Counter-rotating Dual-Rotor VAWT]]
 

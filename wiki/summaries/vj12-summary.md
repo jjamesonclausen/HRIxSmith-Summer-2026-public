@@ -19,16 +19,16 @@ This review argues that VAWT performance gains come from two broad paths: active
 
 Figures:
 - ![Source figure](../../images/vj12-fig1.jpg)
-  Original caption: Figure 1: Forces acting in a vertical-axis wind turbine rotors. [Source](../../sources/vj12.md)
+  Original caption: Figure 1: Forces acting in a vertical-axis wind turbine rotors. [[vj12|Source]]
 - ![Source figure](../../images/vj12-fig7.jpg)
-  Original caption: Figure 7: 90˚ twisted two-layer Savonius-type VAWT [56]. [Source](../../sources/vj12.md)
+  Original caption: Figure 7: 90˚ twisted two-layer Savonius-type VAWT [56]. [[vj12|Source]]
 - ![Source figure](../../images/vj12-fig21.jpg)
-  Original caption: Figure 21: Schematic view and CFD streamlines for flow around a flanged diffuser [110]. [Source](../../sources/vj12.md)
+  Original caption: Figure 21: Schematic view and CFD streamlines for flow around a flanged diffuser [110]. [[vj12|Source]]
 - ![Source figure](../../images/vj12-fig27.jpg)
-  Original caption: Figure 27: Typical wind farm layout arranged with a rectangular grid pattern [136]. [Source](../../sources/vj12.md)
+  Original caption: Figure 27: Typical wind farm layout arranged with a rectangular grid pattern [136]. [[vj12|Source]]
 - ![Source figure](../../images/vj12-fig28.jpg)
-  Original caption: Figure 28: Schematic diagram for wind farms (a) aligned, (b) staggered, (c) scattered [137]. [Source](../../sources/vj12.md)
+  Original caption: Figure 28: Schematic diagram for wind farms (a) aligned, (b) staggered, (c) scattered [137]. [[vj12|Source]]
 
-Related pages: [[VAWT]], [[Contra-rotating VAWT]], [[Savonius Turbine]], [[Urban Wind Conditions]], [[Wind Shear]], [[Optimization]], [[Wind Turbine Parameters]], [[Design Checklist]], [[vj12 Counter-rotating Dual-Rotor VAWT]]
+Related pages: [[VAWT]], [[vj8 Contra-rotating VAWT|Contra-rotating VAWT]], [[Savonius Turbine]], [[Urban Wind Conditions]], [[Wind Shear]], [[Optimization]], [[Wind Turbine Parameters]], [[Design Checklist]], [[vj12 Counter-rotating Dual-Rotor VAWT]]
 
 #summaries

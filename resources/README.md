@@ -33,25 +33,25 @@ This repo already **is** a working LLM wiki. The structure, the rules, and the s
 
 Three layers, and **you own the boundary between them**:
 
-- **[`sources/`](README.md)** — raw material you provide. The agent **reads** it; it never edits it.
-- **[`wiki/`](wiki/index.md)** — the knowledge base the agent **writes**: an index, concept pages, source summaries, two logs, and an eval set.
-- **[`AGENTS.md`](AGENTS.md)** — the **schema** that makes the agent behave like a disciplined librarian instead of a chatbot. When it misbehaves, you fix this file.
+- **`sources/`** — raw material you provide. The agent **reads** it; it never edits it.
+- **[[index|`wiki/`]]** — the knowledge base the agent **writes**: an index, concept pages, source summaries, two logs, and an eval set.
+- **[[AGENTS|`AGENTS.md`]]** — the **schema** that makes the agent behave like a disciplined librarian instead of a chatbot. When it misbehaves, you fix this file.
 
 You stay responsible for purpose, judgment, standards, and acceptance. The agent does the legwork.
 
 ## Get started
 
-**Start in the workshop.** Open [`workshop/00-orientation.md`](workshop/00-orientation.md) and work the modules in order. They're short and self-paced — do them in whatever session length you've got.
+**Start in the workshop.** Open `workshop/00-orientation.md` and work the modules in order. They're short and self-paced — do them in whatever session length you've got.
 
-1. Read [`workshop/00-orientation.md`](workshop/00-orientation.md) — the lay of the land.
-2. Set up your tools in [`workshop/02-setup.md`](workshop/02-setup.md) (see below).
-3. Drop your own material into [`sources/`](README.md) and let the agent build [`wiki/`](wiki/index.md).
+1. Read `workshop/00-orientation.md` — the lay of the land.
+2. Set up your tools in `workshop/02-setup.md` (see below).
+3. Drop your own material into `sources/` and let the agent build [[index|`wiki/`]].
 
 Do the hands-on steps on *your* material, not a sample. The whole point is to walk away with a wiki you keep using.
 
 ## Where your raw material goes
 
-Everything the wiki is built from lives in **[`sources/`](README.md)** — specs, design docs, notes, data, articles, transcripts: anything the agent should reason *from*. Drop files straight into that folder. Three rules:
+Everything the wiki is built from lives in **`sources/`** — specs, design docs, notes, data, articles, transcripts: anything the agent should reason *from*. Drop files straight into that folder. Three rules:
 
 - **Read-only.** The agent reads these; it never changes them. If a source is wrong, the agent notes that *in the wiki* and leaves the source as-is — so you always know what the wiki was built on.
 - **No secrets.** Never put credentials, keys, or private personal data here. Assume everything in this folder gets read in full.
@@ -61,18 +61,18 @@ Everything the wiki is built from lives in **[`sources/`](README.md)** — specs
 
 Once your tools are set up (below) and material is in `sources/`:
 
-1. **Ingest.** Ask the agent to read `sources/` — it summarizes each file, extracts the key concepts and entities into their own linked pages, cites every claim, and updates [`wiki/index.md`](wiki/index.md).
+1. **Ingest.** Ask the agent to read `sources/` — it summarizes each file, extracts the key concepts and entities into their own linked pages, cites every claim, and updates [[index|`wiki/index.md`]].
 2. **Ask, grounded.** Ask questions it answers *from your sources*, with citations — e.g. *"Based only on the sources, what does the spec say about X, and what does it leave unspecified?"*
-3. **Read.** Open [`wiki/index.md`](wiki/index.md) and follow the links; in Obsidian, use the graph view to see how pages connect. Anything marked `> Unverified:` or `> Inference:` isn't backed by a source — treat it with suspicion.
-4. **Keep it honest.** Run the [eval set](wiki/evals.md), label any failures, and tighten [`AGENTS.md`](AGENTS.md). Your two logs grow as you go: the [project log](wiki/log.md) (what happened) and the [learning log](wiki/learning-log.md) (what *you* figured out).
+3. **Read.** Open [[index|`wiki/index.md`]] and follow the links; in Obsidian, use the graph view to see how pages connect. Anything marked `> Unverified:` or `> Inference:` isn't backed by a source — treat it with suspicion.
+4. **Keep it honest.** Run the [[evals|eval set]], label any failures, and tighten [[AGENTS|`AGENTS.md`]]. Your two logs grow as you go: the [[log|project log]] (what happened) and the [[learning-log|learning log]] (what *you* figured out).
 
-**Learn from it, don't just query it.** The wiki is also a tutor. Ask the agent to *teach* you something from your sources — to run a Socratic dialogue, quiz you, or grade an explanation you attempt — instead of just handing you the answer. It's built to provoke your thinking and grade honestly (not flatter), then prompt you to capture what clicked in the [learning log](wiki/learning-log.md), in your own words. See module [05 · Learning with AI](workshop/05-learning-with-ai.md).
+**Learn from it, don't just query it.** The wiki is also a tutor. Ask the agent to *teach* you something from your sources — to run a Socratic dialogue, quiz you, or grade an explanation you attempt — instead of just handing you the answer. It's built to provoke your thinking and grade honestly (not flatter), then prompt you to capture what clicked in the [[learning-log|learning log]], in your own words. See module 05 · Learning with AI.
 
-Module [03 · Document & Wiki](workshop/03-document-and-wiki.md) walks through all of this hands-on.
+Module 03 · Document & Wiki walks through all of this hands-on.
 
 ## Tools you'll use
 
-You need three things. The workshop walks you through each in [`02-setup.md`](workshop/02-setup.md).
+You need three things. The workshop walks you through each in `02-setup.md`.
 
 | Tool | Role | Notes |
 |---|---|---|
@@ -92,13 +92,13 @@ The workshop is six short modules. Each adds one piece of the engine.
 
 | Module | What you do |
 |---|---|
-| [00 · Orientation](workshop/00-orientation.md) | See the whole picture and how the pieces fit. |
-| [01 · Concepts](workshop/01-concepts.md) | The working vocabulary — tokens, context, agents, evals, the failure modes to hunt. |
-| [02 · Setup](workshop/02-setup.md) | Get opencode, a model, and your editor working. |
-| [03 · Document & Wiki](workshop/03-document-and-wiki.md) | Ingest your sources, build the wiki, start the two logs. **The core.** |
-| [04 · Evaluation Loop](workshop/04-evaluation-loop.md) | Turn "I think it works" into "I tested it" — and fix what fails. |
-| [05 · Learning with AI](workshop/05-learning-with-ai.md) | Use the model as a tutor that provokes your thinking, not one that replaces it. |
-| [06 · Put It to Work](workshop/06-put-it-to-work.md) | Point the whole engine at a real problem of your own, end to end. |
+| 00 · Orientation | See the whole picture and how the pieces fit. |
+| 01 · Concepts | The working vocabulary — tokens, context, agents, evals, the failure modes to hunt. |
+| 02 · Setup | Get opencode, a model, and your editor working. |
+| 03 · Document & Wiki | Ingest your sources, build the wiki, start the two logs. **The core.** |
+| 04 · Evaluation Loop | Turn "I think it works" into "I tested it" — and fix what fails. |
+| 05 · Learning with AI | Use the model as a tutor that provokes your thinking, not one that replaces it. |
+| 06 · Put It to Work | Point the whole engine at a real problem of your own, end to end. |
 
 ## What you'll have at the end
 
@@ -111,11 +111,11 @@ The workshop is six short modules. Each adds one piece of the engine.
 | Path | What it is |
 |---|---|
 | [`workshop/`](workshop/) | Start here. The six modules, in order. |
-| [`AGENTS.md`](AGENTS.md) | The schema. The rules the agent follows: how to maintain the wiki, document both tracks, log everything, and stay honest. Read it. |
-| [`sources/`](README.md) | Raw, immutable inputs. The agent reads these; it never edits them. |
-| [`wiki/`](wiki/index.md) | The agent-owned knowledge base: an index, two logs, an eval set, and concept pages. |
-| [`decks/`](decks/README.md) | Slide decks — the visual companion to the concepts. Present from them or just read them. |
-| [`RESOURCES.md`](RESOURCES.md) | Further reading and watching — the ideas this workshop is built on, with notes on how each connects. |
+| [[AGENTS|`AGENTS.md`]] | The schema. The rules the agent follows: how to maintain the wiki, document both tracks, log everything, and stay honest. Read it. |
+| `sources/` | Raw, immutable inputs. The agent reads these; it never edits them. |
+| [[index|`wiki/`]] | The agent-owned knowledge base: an index, two logs, an eval set, and concept pages. |
+| `decks/` | Slide decks — the visual companion to the concepts. Present from them or just read them. |
+| [[RESOURCES|`RESOURCES.md`]] | Further reading and watching — the ideas this workshop is built on, with notes on how each connects. |
 
 ## The mantra
 
@@ -123,7 +123,7 @@ The workshop is six short modules. Each adds one piece of the engine.
 
 ## Further resources
 
-Want to go deeper on the ideas behind this workshop? See [`RESOURCES.md`](RESOURCES.md) for a short, annotated list — Karpathy's LLM-wiki pattern, the evals discipline behind Module 04, and a few talks and books on staying the critical thinker in the loop.
+Want to go deeper on the ideas behind this workshop? See [[RESOURCES|`RESOURCES.md`]] for a short, annotated list — Karpathy's LLM-wiki pattern, the evals discipline behind Module 04, and a few talks and books on staying the critical thinker in the loop.
 
 ---
 

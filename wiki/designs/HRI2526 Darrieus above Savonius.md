@@ -27,5 +27,5 @@ A hybrid configuration where the Savonius rotor sits below the Darrieus rotor. (
 
 Related:
 - [[Hybrid VAWT]]
-- [[Outer Darrieus with Inner Savonius]]
+- [[HRI2526 Outer Darrieus with Inner Savonius|Outer Darrieus with Inner Savonius]]
 - [[VAWT Types]]

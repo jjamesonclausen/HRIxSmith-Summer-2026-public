@@ -14,23 +14,23 @@ Summary of `sources/HRI2526.md`. (source: sources/HRI2526.md)
 Phase 1 project exploring rooftop VAWTs for urban energy generation for HRI/99P Labs. (source: sources/HRI2526.md)
 
 ![Source figure](../../images/hri2526-fig1.jpg)
-Original caption: Fig. 1. Horizontal axis wind turbine (HAWT) (left) and Vertical axis wind turbine (VAWT) (right). [5] [Source](../../sources/HRI2526.md)
+Original caption: Fig. 1. Horizontal axis wind turbine (HAWT) (left) and Vertical axis wind turbine (VAWT) (right). [5] [[HRI2526|Source]]
 ![Source figure](../../images/hri2526-fig9.jpg)
-Original caption: Fig. 9. Hybrid VAWT with inner classical Savonius and outer H-rotor Darrieus [29] [Source](../../sources/HRI2526.md)
+Original caption: Fig. 9. Hybrid VAWT with inner classical Savonius and outer H-rotor Darrieus [29] [[HRI2526|Source]]
 ![Source figure](../../images/hri2526-fig14.jpg)
-Original caption: Fig. 14. Final CAD Model of the Helical Hybrid VAWT. [Source](../../sources/HRI2526.md)
+Original caption: Fig. 14. Final CAD Model of the Helical Hybrid VAWT. [[HRI2526|Source]]
 ![Source figure](../../images/hri2526-fig16.jpg)
-Original caption: Fig. 16. Wind Data from McConnell Rooftop [Source](../../sources/HRI2526.md)
+Original caption: Fig. 16. Wind Data from McConnell Rooftop [[HRI2526|Source]]
 ![Source figure](../../images/hri2526-fig17.jpg)
-Original caption: Fig. 17. CFD Flow volume with stationary and rotating domains [Source](../../sources/HRI2526.md)
+Original caption: Fig. 17. CFD Flow volume with stationary and rotating domains [[HRI2526|Source]]
 ![Source figure](../../images/hri2526-fig18.jpg)
-Original caption: Fig. 18. (a) Velocity profile from our study (b) velocity profile from [42] [Source](../../sources/HRI2526.md)
+Original caption: Fig. 18. (a) Velocity profile from our study (b) velocity profile from [42] [[HRI2526|Source]]
 ![Source figure](../../images/hri2526-fig19.jpg)
-Original caption: Fig. 19. Helical Hybrid Velocity Field [Source](../../sources/HRI2526.md)
+Original caption: Fig. 19. Helical Hybrid Velocity Field [[HRI2526|Source]]
 ![Source figure](../../images/hri2526-fig20.jpg)
-Original caption: Fig. 20. Wake Profile Analysis of small scale Helical Hybrid [Source](../../sources/HRI2526.md)
+Original caption: Fig. 20. Wake Profile Analysis of small scale Helical Hybrid [[HRI2526|Source]]
 ![Source figure](../../images/hri2526-fig21.jpg)
-Original caption: Fig. 21. CAD for 3D Printed Segment of Full-Scale VAWT. [Source](../../sources/HRI2526.md)
+Original caption: Fig. 21. CAD for 3D Printed Segment of Full-Scale VAWT. [[HRI2526|Source]]
 
 Key points:
 - Explored 200+ concepts, narrowed to 4 prototypes, and tested them as 3D-printed models in a 12 in x 12 in wind tunnel. (source: sources/HRI2526.md)

@@ -1,6 +1,21 @@
 #maintenance
 ## Log
 
+### 2026-07-03 — Normalize Obsidian backlinks across repo documents
+
+- Task: check all document backlinks for Obsidian compatibility and remove any non-functional local Markdown note links or malformed wikilinks.
+- Actions:
+  - Audited all `.md` files for local Markdown links to other notes, quoted wikilinks, and unresolved wikilinks.
+  - Converted local Markdown note links such as `[Source](../../sources/vj3.md)` and other local `.md` references into Obsidian wikilinks.
+  - Used aliased wikilinks to retarget stale bare names like `[[Classical Savonius]]` and `[[Aerodynamic Design Parameters]]` to the current source-prefixed files.
+  - Replaced broken references to missing notes such as workshop files and the non-existent `sources/README.md` with plain text so no broken local links remain.
+  - Neutralized example-only wikilinks in `resources/Obsidian + Markdown Cheatsheet.md` so they do not appear as broken notes.
+- Decisions:
+  - Kept external web links in standard Markdown form; only local document links were normalized to Obsidian wikilinks.
+  - For concept-style bare links that no longer had matching files after source-prefix renames, used aliased wikilinks to the current canonical notes instead of recreating duplicate pages.
+- Open:
+  - The repo still references workshop content as plain text because those workshop note files are not present in the workspace.
+
 ### 2026-07-03 — Backfill missing design and parameter pages by source
 
 - Task: go through all current `sources/*.md` files and create any missing single-source `wiki/designs/` and `wiki/parameters/` pages required by `schema/Ingest Source`.
@@ -55,7 +70,7 @@
   - For single-source pages, used the exact source prefix such as `va3`, `va9`, and `vj2`.
   - For the older multi-source page `Aerodynamic Design Parameters`, used `HRI2526` as the primary source prefix, matching the design-page rename approach.
 - Open:
-  - Bare links like `[[Aerodynamic Design Parameters]]` still remain where they intentionally refer to the concept page rather than the parameter page.
+  - Bare links like `[[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]` still remain where they intentionally refer to the concept page rather than the parameter page.
 
 ### 2026-07-03 — Rename design pages to include source prefixes
 

@@ -20,7 +20,7 @@ Tags:
 Numerical method for simulating fluid flow by dividing the domain into discrete cells. (source: sources/n1.md, sources/va1.md)
 
 ![Source figure](../../images/hri2526-fig17.jpg)
-Original caption: Fig. 17. CFD Flow volume with stationary and rotating domains [Source](../../sources/HRI2526.md)
+Original caption: Fig. 17. CFD Flow volume with stationary and rotating domains [[HRI2526|Source]]
 
 - Used to model wind flow and turbine performance. (source: sources/n1.md)
 - Requires careful setup, boundary conditions, and mesh quality. (source: sources/n1.md)
@@ -45,20 +45,20 @@ Original caption: Fig. 17. CFD Flow volume with stationary and rotating domains 
 ## Figures
 
 ![Source figure](../../images/va4-fig11.jpg)
-Original caption: Figure 11. The streamlines at 60◦, 90◦, 150◦, 180◦, (a–c) corresponding to the results at TSR 0.9, 1.46 and 2.3 respectively, red frames represent the wake vortex generated from another blade. [Source](../../sources/va4.md)
+Original caption: Figure 11. The streamlines at 60◦, 90◦, 150◦, 180◦, (a–c) corresponding to the results at TSR 0.9, 1.46 and 2.3 respectively, red frames represent the wake vortex generated from another blade. [[va4|Source]]
 ![Source figure](../../images/va4-fig14.jpg)
-Original caption: Figure 14. Power coefficient results derived by 2D LES and 3D U-RANS methods for Rec = 60,800, TSR = 1.46. [Source](../../sources/va4.md)
+Original caption: Figure 14. Power coefficient results derived by 2D LES and 3D U-RANS methods for Rec = 60,800, TSR = 1.46. [[va4|Source]]
 ![Source figure](../../images/va7-fig2.jpg)
-Original caption: Figure 3. (a) Sectional view of the domain mesh: (b) mesh near the blade, (c) mesh growth surrounding the blade. [Source](../../sources/va7.md)
+Original caption: Figure 3. (a) Sectional view of the domain mesh: (b) mesh near the blade, (c) mesh growth surrounding the blade. [[va7|Source]]
 ![Source figure](../../images/va7-fig21.jpg)
-Original caption: Figure 21. Z-vorticity magnitude of 90◦helical-bladed VAWT at 100◦, 130◦, and 150◦of azimuth angles of rotation of a [Source](../../sources/va7.md)
+Original caption: Figure 21. Z-vorticity magnitude of 90◦helical-bladed VAWT at 100◦, 130◦, and 150◦of azimuth angles of rotation of a [[va7|Source]]
 - The CRVAWT optimization paper used STAR-CCM+ CFD, validated an isolated VAWT against wind-tunnel data, and then used the simulation outputs in a response-surface optimization workflow. (source: sources/vj8.md)
 
 ![Source figure](../../images/vj12-fig21.jpg)
-Original caption: Figure 21: Schematic view and CFD streamlines for flow around a flanged diffuser [110]. [Source](../../sources/vj12.md)
+Original caption: Figure 21: Schematic view and CFD streamlines for flow around a flanged diffuser [110]. [[vj12|Source]]
 ![Source figure](../../images/vj2-fig4a.jpg)
-Original caption: Figure 4: Turbulent flow due to the Savonius rotor for an angle of attack of 30 degrees: (a) - side view; (b) - top view [Source](../../sources/vj2.md)
+Original caption: Figure 4: Turbulent flow due to the Savonius rotor for an angle of attack of 30 degrees: (a) - side view; (b) - top view [[vj2|Source]]
 ![Source figure](../../images/vj2-fig4b.jpg)
-Original caption: Figure 4: Turbulent flow due to the Savonius rotor for an angle of attack of 30 degrees: (a) - side view; (b) - top view [Source](../../sources/vj2.md)
+Original caption: Figure 4: Turbulent flow due to the Savonius rotor for an angle of attack of 30 degrees: (a) - side view; (b) - top view [[vj2|Source]]
 
 #methods

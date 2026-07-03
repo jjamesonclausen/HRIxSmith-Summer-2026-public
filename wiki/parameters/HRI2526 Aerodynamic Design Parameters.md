@@ -35,13 +35,13 @@ These are the main geometry knobs the sources repeatedly treat as design variabl
 - It reports EN0005 has better lift coefficient between -60 and -10 degrees, lower drag coefficient in that same interval, and a higher moment-coefficient peak between -30 and 0 degrees than the compared profiles. (source: sources/va9.md)
 
 ![Source figure](../../images/va8-fig4.jpg)
-Original caption: Figure 4: Cross sectional view showing the blade having the asymmetrical airfoil profile. [Source](../../sources/va8.md)
+Original caption: Figure 4: Cross sectional view showing the blade having the asymmetrical airfoil profile. [[va8|Source]]
 ![Source figure](../../images/va8-fig5.jpg)
-Original caption: Figure 5: Relation between lift coefficient and angle of attack. [Source](../../sources/va8.md)
+Original caption: Figure 5: Relation between lift coefficient and angle of attack. [[va8|Source]]
 ![Source figure](../../images/va9-fig7.jpg)
-Original caption: Fig. 7. Cpr contribution to Tpr. [Source](../../sources/va9.md)
+Original caption: Fig. 7. Cpr contribution to Tpr. [[va9|Source]]
 ![Source figure](../../images/va9-fig9.jpg)
-Original caption: Fig. 9. Lift coefficient. [Source](../../sources/va9.md)
+Original caption: Fig. 9. Lift coefficient. [[va9|Source]]
 
 Related:
 - [[Wind Turbine Parameters]]

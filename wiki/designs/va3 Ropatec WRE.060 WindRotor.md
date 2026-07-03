@@ -25,9 +25,9 @@ The Ropatec WRE.060 is described as a hybrid vertical wind rotor building on Sav
 - The rotor uses no gearbox and is direct driven. (source: sources/va3.md)
 
 ![Source figure](../../images/va3-fig12.jpg)
-Original caption: Figure 12. Hybrid Darrieus and Savonius Ropatec vertical axis wind generator. [Source](../../sources/va3.md)
+Original caption: Figure 12. Hybrid Darrieus and Savonius Ropatec vertical axis wind generator. [[va3|Source]]
 ![Source figure](../../images/va3-fig13a.jpg)
-Original caption: Figure 12. Hybrid Darrieus and Savonius Ropatec vertical axis wind generator. [Source](../../sources/va3.md)
+Original caption: Figure 12. Hybrid Darrieus and Savonius Ropatec vertical axis wind generator. [[va3|Source]]
 
 ## Performance
 
@@ -40,7 +40,7 @@ Original caption: Figure 12. Hybrid Darrieus and Savonius Ropatec vertical axis 
 - Typical annual energy output is listed as 3.051 MW.hr at 5 m/s average wind, 7.608 MW.hr at 7 m/s, 12.861 MW.hr at 9 m/s, and 17.469 MW.hr at 11 m/s. (source: sources/va3.md)
 
 ![Source figure](../../images/va3-fig14.jpg)
-Original caption: Figure 14. Power curve of Rotapec wind generator showing a low cut in wind speed around 3 m/s. [Source](../../sources/va3.md)
+Original caption: Figure 14. Power curve of Rotapec wind generator showing a low cut in wind speed around 3 m/s. [[va3|Source]]
 
 ## Related
 

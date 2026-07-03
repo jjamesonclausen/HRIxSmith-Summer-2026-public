@@ -14,7 +14,7 @@ Tags:
 Experimental method used to evaluate turbine performance at small scale. (source: sources/HRI2526.md)
 
 ![Source figure](../../images/hri2526-fig12.jpg)
-Original caption: Fig. 12. Wind Tunnel Testing Setup [Source](../../sources/HRI2526.md)
+Original caption: Fig. 12. Wind Tunnel Testing Setup [[HRI2526|Source]]
 
 Setup:
 - Small-scale 3D printed turbines mounted on a vertical rod with bearings. (source: sources/HRI2526.md)
@@ -33,11 +33,11 @@ Measurements:
 - Its noise test reports identical measured values when stopped and running at 0, 1, 2, and 3 m distance for 2.5 m/s and 5.0 m/s wind speeds. (source: sources/va9.md)
 
 ![Source figure](../../images/va8-fig5.jpg)
-Original caption: Figure 5: Relation between lift coefficient and angle of attack. [Source](../../sources/va8.md)
+Original caption: Figure 5: Relation between lift coefficient and angle of attack. [[va8|Source]]
 ![Source figure](../../images/va9-fig27.jpg)
-Original caption: Fig. 27. Different field tests scenarios. [Source](../../sources/va9.md)
+Original caption: Fig. 27. Different field tests scenarios. [[va9|Source]]
 ![Source figure](../../images/va9-fig28.jpg)
-Original caption: Fig. 28. Field test sensors. [Source](../../sources/va9.md)
+Original caption: Fig. 28. Field test sensors. [[va9|Source]]
 
 Limitations:
 - Scaling mismatch with real-world conditions. (source: sources/HRI2526.md)
@@ -47,7 +47,7 @@ Related:
 - [[Wind Turbine Parameters]]
 - [[Urban Wind Conditions]]
 - [[CFD]]
-- [[Aerodynamic Design Parameters]]
+- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[Double-Multiple Streamtube Model]]
 
 #methods

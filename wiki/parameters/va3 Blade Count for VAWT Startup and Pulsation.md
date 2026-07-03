@@ -17,9 +17,9 @@ The source treats blade count as a design parameter in the Eurowind and Venturi 
 - The Venturi section says the six-bladed rotor induces a high startup moment. (source: sources/va3.md)
 
 ![Source figure](../../images/va3-fig17b.jpg)
-Original caption: Figure 17. Eurowind wind mill designs. [Source](../../sources/va3.md)
+Original caption: Figure 17. Eurowind wind mill designs. [[va3|Source]]
 ![Source figure](../../images/va3-fig20b.jpg)
-Original caption: Figure 20. Venturi wind turbines. [Source](../../sources/va3.md)
+Original caption: Figure 20. Venturi wind turbines. [[va3|Source]]
 
 ## Outcome
 

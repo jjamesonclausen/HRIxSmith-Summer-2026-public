@@ -20,11 +20,11 @@ Tags:
 Lift-based VAWT using airfoil blades to generate lift and rotation. (source: sources/n1.md, sources/va1.md)
 
 ![Source figure](../../images/vj2-fig2a.jpg)
-Original caption: Figure 2: (a) The "TEV 100" Darrieus generator, made by ICPITMUA Brasov; nominal power: 100 kW; nominal wind speed: 11...13 m/s; blade profile: NACA 0015; maximum Cp: 0.38. (b) The "TEV 20" H-type Darrieus generator, made by ICPITMUA Brasov; nominal power: 20 kW; blade profile: NACA 0012; nominal wind speed: 11 m/s; maximum Cp: 0.31 [Source](../../sources/vj2.md)
+Original caption: Figure 2: (a) The "TEV 100" Darrieus generator, made by ICPITMUA Brasov; nominal power: 100 kW; nominal wind speed: 11...13 m/s; blade profile: NACA 0015; maximum Cp: 0.38. (b) The "TEV 20" H-type Darrieus generator, made by ICPITMUA Brasov; nominal power: 20 kW; blade profile: NACA 0012; nominal wind speed: 11 m/s; maximum Cp: 0.31 [[vj2|Source]]
 ![Source figure](../../images/hri2526-fig4.jpg)
-Original caption: Fig. 4. Pressure contour from Darrieus turbine CFD showing high pressure above the airfoil blade and low pressure below it causing rotating in the counterclockwise direction [17] [Source](../../sources/HRI2526.md)
+Original caption: Fig. 4. Pressure contour from Darrieus turbine CFD showing high pressure above the airfoil blade and low pressure below it causing rotating in the counterclockwise direction [17] [[HRI2526|Source]]
 ![Source figure](../../images/hri2526-fig6.jpg)
-Original caption: Fig. 6. Different Types of Darrieus VAWTs [19] [Source](../../sources/HRI2526.md)
+Original caption: Fig. 6. Different Types of Darrieus VAWTs [19] [[HRI2526|Source]]
 
 - Geometry:
   - Uses airfoil blades creating pressure differences to generate lift. (source: sources/HRI2526.md)
@@ -65,22 +65,22 @@ The field-test prototype reported self-start at 1.25 m/s, stable behavior in a 2
 The hybrid-CFD study in `vj2` says turbulence produced by an internal Savonius rotor negatively affects the lift-based Darrieus blades, and reports lower interference after the Savonius component is moved to split top-and-bottom positions outside the Darrieus space. (source: sources/vj2.md)
 
 ![Source figure](../../images/va9-fig5.jpg)
-Original caption: Fig. 5. Blade profile EN0005. [Source](../../sources/va9.md)
+Original caption: Fig. 5. Blade profile EN0005. [[va9|Source]]
 ![Source figure](../../images/va9-fig26.jpg)
-Original caption: Fig. 26. New Darrieus VAWT design prototype. [Source](../../sources/va9.md)
+Original caption: Fig. 26. New Darrieus VAWT design prototype. [[va9|Source]]
 
 Related:
 - [[VAWT]]
-- [[Eggbeater Darrieus]]
+- [[HRI2526 Eggbeater Darrieus|Eggbeater Darrieus]]
 - [[H-VAWT]]
 - [[Straight-bladed Darrieus]]
-- [[Troposkien Darrieus]]
+- [[HRI2526 Troposkien Darrieus|Troposkien Darrieus]]
 - [[Helical Darrieus]]
 - [[Savonius Turbine]]
 - [[Hybrid VAWT]]
 - [[Wind Turbine Parameters]]
 - [[Dynamic Stall]]
-- [[Aerodynamic Design Parameters]]
+- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[Wind Tunnel Testing]]
 - [[Double-Multiple Streamtube Model]]
 - [[va9 EN0005 Self-start Darrieus VAWT]]

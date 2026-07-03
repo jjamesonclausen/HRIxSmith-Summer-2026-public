@@ -29,9 +29,9 @@ This page covers the original `vj2` hybrid configuration before the paper's two 
 - The overlap space between the Savonius blades is 58 mm. (source: sources/vj2.md)
 
 ![Source figure](../../images/vj2-fig3a.jpg)
-Original caption: Figure 3: (a) CAD model of the initial configuration of the proposed hybrid wind turbine (at the bottom - bearing housing and power generator); (b) simplified CAD model for CFD analysis [Source](../../sources/vj2.md)
+Original caption: Figure 3: (a) CAD model of the initial configuration of the proposed hybrid wind turbine (at the bottom - bearing housing and power generator); (b) simplified CAD model for CFD analysis [[vj2|Source]]
 ![Source figure](../../images/vj2-fig3b.jpg)
-Original caption: Figure 3: (a) CAD model of the initial configuration of the proposed hybrid wind turbine (at the bottom - bearing housing and power generator); (b) simplified CAD model for CFD analysis [Source](../../sources/vj2.md)
+Original caption: Figure 3: (a) CAD model of the initial configuration of the proposed hybrid wind turbine (at the bottom - bearing housing and power generator); (b) simplified CAD model for CFD analysis [[vj2|Source]]
 
 ## Unique Design Choices
 
@@ -40,16 +40,16 @@ Original caption: Figure 3: (a) CAD model of the initial configuration of the pr
 - The source identifies the internal Savonius shaft as a possible flow obstruction because it occupies about 66% of the overlap space. (source: sources/vj2.md)
 
 ![Source figure](../../images/vj2-fig5.jpg)
-Original caption: Figure 5: The shaft (in blue) occupies about 66% of the overlapping space between the two blades of the Savonius rotor [Source](../../sources/vj2.md)
+Original caption: Figure 5: The shaft (in blue) occupies about 66% of the overlapping space between the two blades of the Savonius rotor [[vj2|Source]]
 ## Performance
 
 - The CFD study evaluates static torque at 7 m/s across nine attack angles from 0 degrees to 120 degrees. (source: sources/vj2.md)
 - The original configuration reports torque values from 1.075 Nm to 1.683 Nm across the tested angles. (source: sources/vj2.md)
 
 ![Source figure](../../images/vj2-fig4a.jpg)
-Original caption: Figure 4: Turbulent flow due to the Savonius rotor for an angle of attack of 30 degrees: (a) - side view; (b) - top view [Source](../../sources/vj2.md)
+Original caption: Figure 4: Turbulent flow due to the Savonius rotor for an angle of attack of 30 degrees: (a) - side view; (b) - top view [[vj2|Source]]
 ![Source figure](../../images/vj2-fig4b.jpg)
-Original caption: Figure 4: Turbulent flow due to the Savonius rotor for an angle of attack of 30 degrees: (a) - side view; (b) - top view [Source](../../sources/vj2.md)
+Original caption: Figure 4: Turbulent flow due to the Savonius rotor for an angle of attack of 30 degrees: (a) - side view; (b) - top view [[vj2|Source]]
 
 ## Related
 

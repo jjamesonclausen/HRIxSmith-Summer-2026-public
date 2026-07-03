@@ -27,6 +27,6 @@ A hybrid VAWT configuration that nests a Darrieus rotor inside another Darrieus 
 
 Related:
 - [[Hybrid VAWT]]
-- [[Eggbeater Darrieus]]
+- [[HRI2526 Eggbeater Darrieus|Eggbeater Darrieus]]
 - [[Straight-bladed Darrieus]]
 - [[VAWT Types]]

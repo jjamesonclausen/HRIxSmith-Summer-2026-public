@@ -17,7 +17,7 @@ This `va9` design change varies the position of the blade ends relative to the m
 - Positioning the blade ends to the inside increases drag because of the larger effective blade profile height. (source: sources/va9.md)
 
 ![Source figure](../../images/va9-fig23.jpg)
-Original caption: Fig. 23. New Darrieus VAWT with blade ends in two different positions. [Source](../../sources/va9.md)
+Original caption: Fig. 23. New Darrieus VAWT with blade ends in two different positions. [[va9|Source]]
 
 ## Outcome
 

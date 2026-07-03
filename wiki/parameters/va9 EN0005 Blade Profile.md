@@ -20,7 +20,7 @@ The EN0005 blade profile is the design parameter changed in `va9` to improve Dar
 - The source says that drag force decreases to negligible value once turbine rotation starts. (source: sources/va9.md)
 
 ![Source figure](../../images/va9-fig5.jpg)
-Original caption: Fig. 5. Blade profile EN0005. [Source](../../sources/va9.md)
+Original caption: Fig. 5. Blade profile EN0005. [[va9|Source]]
 
 ## Outcome
 
@@ -32,15 +32,15 @@ Original caption: Fig. 5. Blade profile EN0005. [Source](../../sources/va9.md)
 - The field-test prototype using the design is reported to self-start at 1.25 m/s. (source: sources/va9.md)
 
 ![Source figure](../../images/va9-fig7.jpg)
-Original caption: Fig. 7. Cpr contribution to Tpr. [Source](../../sources/va9.md)
+Original caption: Fig. 7. Cpr contribution to Tpr. [[va9|Source]]
 ![Source figure](../../images/va9-fig8.jpg)
-Original caption: Fig. 8. Cpr contribution to Npr. [Source](../../sources/va9.md)
+Original caption: Fig. 8. Cpr contribution to Npr. [[va9|Source]]
 ![Source figure](../../images/va9-fig9.jpg)
-Original caption: Fig. 9. Lift coefficient. [Source](../../sources/va9.md)
+Original caption: Fig. 9. Lift coefficient. [[va9|Source]]
 ![Source figure](../../images/va9-fig10.jpg)
-Original caption: Fig. 10. Drag coefficient. [Source](../../sources/va9.md)
+Original caption: Fig. 10. Drag coefficient. [[va9|Source]]
 ![Source figure](../../images/va9-fig11.jpg)
-Original caption: Fig. 11. Moment coefficient. [Source](../../sources/va9.md)
+Original caption: Fig. 11. Moment coefficient. [[va9|Source]]
 
 ## Related
 

@@ -19,10 +19,10 @@ Summary of `sources/va5.md`. (source: sources/va5.md)
 ## Figures
 
 ![Source figure](../../images/va5-fig1.jpg)
-Original caption: Fig 1: Configurations for shaft and rotor orientation [Source](../../sources/va5.md)
+Original caption: Fig 1: Configurations for shaft and rotor orientation [[va5|Source]]
 ![Source figure](../../images/va5-fig4.jpg)
-Original caption: Fig. 4: Block Diagram [Source](../../sources/va5.md)
+Original caption: Fig. 4: Block Diagram [[va5|Source]]
 
-Related concepts: [[J-Type VAWT]], [[VAWT]], [[Savonius Turbine]], [[Wind Turbine Parameters]]
+Related concepts: [[va5 J-Type VAWT|J-Type VAWT]], [[VAWT]], [[Savonius Turbine]], [[Wind Turbine Parameters]]
 
 #summaries

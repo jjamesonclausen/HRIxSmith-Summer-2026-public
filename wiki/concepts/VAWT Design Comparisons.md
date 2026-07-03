@@ -17,6 +17,6 @@ This page groups the comparison-style pages a designer is likely to use first.
 - [[Hybrid VAWT]]
 - [[H-VAWT]]
 - [[Helical VAWT]]
-- [[J-Type VAWT]]
+- [[va5 J-Type VAWT|J-Type VAWT]]
 
 > Inference: comparison pages are most useful when they answer a design decision, not just define a turbine type.

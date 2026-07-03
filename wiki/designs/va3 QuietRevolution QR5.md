@@ -26,9 +26,9 @@ The QR5 is a helical urban wind turbine designed for lower wind speeds and frequ
 - The helical blade design is described as minimizing vibration and reducing acoustic noise. (source: sources/va3.md)
 
 ![Source figure](../../images/va3-fig28.jpg)
-Original caption: Figure 28. Quiet revolution QR5 wind turbine. [Source](../../sources/va3.md)
+Original caption: Figure 28. Quiet revolution QR5 wind turbine. [[va3|Source]]
 ![Source figure](../../images/va3-fig29.jpg)
-Original caption: Figure 29. A direct drive in line electrical generator has auto shut down features and peak power tracking. It is directly incorporated into the mast. The helical design of the blades captures turbulent winds and eliminates vibration. [Source](../../sources/va3.md)
+Original caption: Figure 29. A direct drive in line electrical generator has auto shut down features and peak power tracking. It is directly incorporated into the mast. The helical design of the blades captures turbulent winds and eliminates vibration. [[va3|Source]]
 
 ## Performance
 

@@ -30,6 +30,6 @@ A curved-blade Darrieus variant often called the eggbeater rotor. (source: sourc
 
 Related:
 - [[Darrieus Turbine]]
-- [[Troposkien Darrieus]]
+- [[HRI2526 Troposkien Darrieus|Troposkien Darrieus]]
 - [[Straight-bladed Darrieus]]
 - [[VAWT Types]]

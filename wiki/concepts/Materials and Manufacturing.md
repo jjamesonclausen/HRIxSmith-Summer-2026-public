@@ -24,14 +24,14 @@ Blade material choice is not just a cost issue; it affects fatigue life, stiffne
 - Its patented blade design uses a main body and two blade ends that can be fixed or dynamically changed during operation. (source: sources/va9.md)
 
 ![Source figure](../../images/va8-fig4a.jpg)
-Original caption: Figure 4a: Ratio of airfoil profile thickness to distance from leading edge of the present application. [Source](../../sources/va8.md)
+Original caption: Figure 4a: Ratio of airfoil profile thickness to distance from leading edge of the present application. [[va8|Source]]
 ![Source figure](../../images/va8-fig4b.jpg)
-Original caption: Figure 4b: Ratio of airfoil profile thickness to distance from leading edge for a typical flat bottom profile. [Source](../../sources/va8.md)
+Original caption: Figure 4b: Ratio of airfoil profile thickness to distance from leading edge for a typical flat bottom profile. [[va8|Source]]
 ![Source figure](../../images/va9-fig23.jpg)
-Original caption: Fig. 23. New Darrieus VAWT with blade ends in two different positions. [Source](../../sources/va9.md)
+Original caption: Fig. 23. New Darrieus VAWT with blade ends in two different positions. [[va9|Source]]
 
 Related:
 - [[Structures and Loads]]
 - [[Rules of Thumb]]
-- [[Aerodynamic Design Parameters]]
+- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[Darrieus Turbine]]

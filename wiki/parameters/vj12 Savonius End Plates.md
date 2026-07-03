@@ -15,7 +15,7 @@ This `vj12` review discusses adding end plates at the top and bottom of a Savoni
 - The review summarizes studies on circular end plates sized relative to turbine diameter. (source: sources/vj12.md)
 
 ![Source figure](../../images/vj12-fig12.jpg)
-Original caption: Figure 12: Savonius rotor with endplates [19]. [Source](../../sources/vj12.md)
+Original caption: Figure 12: Savonius rotor with endplates [19]. [[vj12|Source]]
 
 ## Outcome
 

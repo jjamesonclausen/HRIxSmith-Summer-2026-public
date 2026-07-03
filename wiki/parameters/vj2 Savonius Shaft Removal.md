@@ -17,7 +17,7 @@ This parameter change removes the shaft from inside the Savonius rotor in the hy
 - The changed configuration removes that shaft from the inside of the Savonius rotor. (source: sources/vj2.md)
 
 ![Source figure](../../images/vj2-fig5.jpg)
-Original caption: Figure 5: The shaft (in blue) occupies about 66% of the overlapping space between the two blades of the Savonius rotor [Source](../../sources/vj2.md)
+Original caption: Figure 5: The shaft (in blue) occupies about 66% of the overlapping space between the two blades of the Savonius rotor [[vj2|Source]]
 
 ## Outcome
 
@@ -26,7 +26,7 @@ Original caption: Figure 5: The shaft (in blue) occupies about 66% of the overla
 - Torque gains are positive at all reported attack angles from 0 degrees to 120 degrees, with increases ranging from 3.35% to 19.51%. (source: sources/vj2.md)
 
 ![Source figure](../../images/vj2-fig8.jpg)
-Original caption: Figure 8: Torque values calculated for each configuration, for one third of a complete rotation (15 degree steps) [Source](../../sources/vj2.md)
+Original caption: Figure 8: Torque values calculated for each configuration, for one third of a complete rotation (15 degree steps) [[vj2|Source]]
 
 ## Related
 

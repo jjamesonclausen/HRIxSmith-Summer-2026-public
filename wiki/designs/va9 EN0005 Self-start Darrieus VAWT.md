@@ -26,9 +26,9 @@ The source presents a Darrieus VAWT intended for urban areas, designed to self-s
 - The blade ends can be placed toward the inside or outside of the rotor, or parallel to the main blade body. (source: sources/va9.md)
 
 ![Source figure](../../images/va9-fig23.jpg)
-Original caption: Fig. 23. New Darrieus VAWT with blade ends in two different positions. [Source](../../sources/va9.md)
+Original caption: Fig. 23. New Darrieus VAWT with blade ends in two different positions. [[va9|Source]]
 ![Source figure](../../images/va9-fig26.jpg)
-Original caption: Fig. 26. New Darrieus VAWT design prototype. [Source](../../sources/va9.md)
+Original caption: Fig. 26. New Darrieus VAWT design prototype. [[va9|Source]]
 
 ## Unique Design Choices
 
@@ -38,9 +38,9 @@ Original caption: Fig. 26. New Darrieus VAWT design prototype. [Source](../../so
 - When TSR is greater than 2, the source says lift forces on inward-positioned blade ends provide turbine-blade revolution stability. (source: sources/va9.md)
 
 ![Source figure](../../images/va9-fig5.jpg)
-Original caption: Fig. 5. Blade profile EN0005. [Source](../../sources/va9.md)
+Original caption: Fig. 5. Blade profile EN0005. [[va9|Source]]
 ![Source figure](../../images/va9-fig24.jpg)
-Original caption: Fig. 24. Wind flow reaching the new Darrieus VAWT in vertical or horizontal planes. [Source](../../sources/va9.md)
+Original caption: Fig. 24. Wind flow reaching the new Darrieus VAWT in vertical or horizontal planes. [[va9|Source]]
 
 ## Performance
 
@@ -52,9 +52,9 @@ Original caption: Fig. 24. Wind flow reaching the new Darrieus VAWT in vertical 
 - The prototype shows high torque but low rotor angular speed; the source says the high torque helps it work at low wind speed. (source: sources/va9.md)
 
 ![Source figure](../../images/va9-fig27.jpg)
-Original caption: Fig. 27. Different field tests scenarios. [Source](../../sources/va9.md)
+Original caption: Fig. 27. Different field tests scenarios. [[va9|Source]]
 ![Source figure](../../images/va9-fig29.jpg)
-Original caption: Fig. 29. Prototype rotor speed at different wind speeds. [Source](../../sources/va9.md)
+Original caption: Fig. 29. Prototype rotor speed at different wind speeds. [[va9|Source]]
 
 ## Related
 

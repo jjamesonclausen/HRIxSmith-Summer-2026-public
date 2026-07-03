@@ -26,7 +26,7 @@ The `va4` study investigates a four-bladed helical vertical-axis wind turbine as
 - Blade height: 0.54 m. (source: sources/va4.md)
 
 ![Source figure](../../images/va4-fig1.jpg)
-Original caption: Figure 1. The sketch of HVAWT. [Source](../../sources/va4.md)
+Original caption: Figure 1. The sketch of HVAWT. [[va4|Source]]
 
 ## Unique Design Choices
 

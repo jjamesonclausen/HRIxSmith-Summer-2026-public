@@ -28,7 +28,7 @@ This page collects the load and structural issues that shape a VAWT design.
 - The same source says Savonius-generated turbulence can negatively affect the lift-based Darrieus blades when the Savonius rotor sits in the middle of the hybrid rotor. (source: sources/vj2.md)
 
 ![Source figure](../../images/va8-fig2.jpg)
-Original caption: Figure 2: Vertical cross section of the turbine shaft. [Source](../../sources/va8.md)
+Original caption: Figure 2: Vertical cross section of the turbine shaft. [[va8|Source]]
 
 Related:
 - [[Dynamic Stall]]

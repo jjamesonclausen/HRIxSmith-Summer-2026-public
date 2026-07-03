@@ -3,7 +3,7 @@ properties: ---
 date:
 ---
 >[!tip]- Tips
->- This is a callout, types are below and specified in the brackets at the top: ![[Pasted image 20260629154834.png]]
+>- This is a callout, types are below and specified in the brackets at the top: `![[Pasted image 20260629154834.png]]`
 >- the "-" after the brackets means this will be closed by default
 >- the text in the brackets determines the type
 >- use templates! they can be super helpful for callouts, bases, for setting up notes with certain properties, or anything you use a lot
@@ -35,7 +35,7 @@ etc
 - [ ] etc
 
 
-[[backlink]] <- clicking will create this note (currently doesn't exist)
+`[[backlink]]` <- example wikilink syntax
 
 [outside link](url)
 

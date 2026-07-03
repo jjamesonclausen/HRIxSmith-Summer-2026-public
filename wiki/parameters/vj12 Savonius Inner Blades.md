@@ -15,7 +15,7 @@ This `vj12` review discusses adding inner blades to a Savonius rotor to reduce n
 - The review covers one-inner-blade and two-inner-blade configurations as well as spacing changes between inner blades. (source: sources/vj12.md)
 
 ![Source figure](../../images/vj12-fig11.jpg)
-Original caption: Figure 11: (a) Conventional rotor, (b) Rotor with one inner blade, (c) Rotor with two inner blades [65]. [Source](../../sources/vj12.md)
+Original caption: Figure 11: (a) Conventional rotor, (b) Rotor with one inner blade, (c) Rotor with two inner blades [65]. [[vj12|Source]]
 
 ## Outcome
 

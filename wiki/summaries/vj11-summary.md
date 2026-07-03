@@ -21,15 +21,15 @@ This review synthesizes VAWT aerodynamic theory, rotor configurations, performan
 
 Figures:
 - ![Source figure](../../images/vj11-fig1.jpg)
-  Original caption: Figure 1: Schematic representation of major VAWT configurations [Source](../../sources/vj11.md)
+  Original caption: Figure 1: Schematic representation of major VAWT configurations [[vj11|Source]]
 - ![Source figure](../../images/vj11-fig2.jpg)
-  Original caption: Figure 2: Geometric configuration and parameter definition of the straight-bladed Darrieus H-rotor vertical axis wind turbine (VAWT) [Source](../../sources/vj11.md)
+  Original caption: Figure 2: Geometric configuration and parameter definition of the straight-bladed Darrieus H-rotor vertical axis wind turbine (VAWT) [[vj11|Source]]
 - ![Source figure](../../images/vj11-fig3.jpg)
-  Original caption: Figure 3: Representative Cp?? characteristics for the principal VAWT configurations [Source](../../sources/vj11.md)
+  Original caption: Figure 3: Representative Cp?? characteristics for the principal VAWT configurations [[vj11|Source]]
 - ![Source figure](../../images/vj11-fig4.jpg)
-  Original caption: Figure 4: Phase-averaged vorticity field illustrating the dynamic stall process on a Darrieus blade at TSR = 2.0 [Source](../../sources/vj11.md)
+  Original caption: Figure 4: Phase-averaged vorticity field illustrating the dynamic stall process on a Darrieus blade at TSR = 2.0 [[vj11|Source]]
 - ![Source figure](../../images/vj11-fig5.jpg)
-  Original caption: Figure 5: Array wake and channel acceleration effects in VAWT clusters [Source](../../sources/vj11.md)
+  Original caption: Figure 5: Array wake and channel acceleration effects in VAWT clusters [[vj11|Source]]
 
 Related pages: [[VAWT]], [[VAWT Types]], [[Savonius Turbine]], [[Darrieus Turbine]], [[Hybrid VAWT]], [[Helical VAWT]], [[Wind Turbine Parameters]], [[Dynamic Stall]], [[CFD]], [[Wind Tunnel Testing]], [[Urban Wind Conditions]], [[Scaling Effects]], [[Optimization]]
 

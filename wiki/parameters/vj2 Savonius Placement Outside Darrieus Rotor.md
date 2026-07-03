@@ -18,7 +18,7 @@ This parameter change moves the Savonius component from the middle of the Darrie
 - One half is placed at the top of the Darrieus rotor and the other at the bottom. (source: sources/vj2.md)
 
 ![Source figure](../../images/vj2-fig6.jpg)
-Original caption: Figure 6: The Savonius rotor was split in two halves that were placed on top and bottom of the hybrid wind turbine [Source](../../sources/vj2.md)
+Original caption: Figure 6: The Savonius rotor was split in two halves that were placed on top and bottom of the hybrid wind turbine [[vj2|Source]]
 
 ## Outcome
 
@@ -28,11 +28,11 @@ Original caption: Figure 6: The Savonius rotor was split in two halves that were
 - The source notes that some of the improvement may also be partially explained by increased swept area. (source: sources/vj2.md)
 
 ![Source figure](../../images/vj2-fig7a.jpg)
-Original caption: Figure 7: The influence of turbulence produced on the Darrieus blades is reduced compared with the original design; (a) - side view; (b) - top view [Source](../../sources/vj2.md)
+Original caption: Figure 7: The influence of turbulence produced on the Darrieus blades is reduced compared with the original design; (a) - side view; (b) - top view [[vj2|Source]]
 ![Source figure](../../images/vj2-fig7b.jpg)
-Original caption: Figure 7: The influence of turbulence produced on the Darrieus blades is reduced compared with the original design; (a) - side view; (b) - top view [Source](../../sources/vj2.md)
+Original caption: Figure 7: The influence of turbulence produced on the Darrieus blades is reduced compared with the original design; (a) - side view; (b) - top view [[vj2|Source]]
 ![Source figure](../../images/vj2-fig8.jpg)
-Original caption: Figure 8: Torque values calculated for each configuration, for one third of a complete rotation (15 degree steps) [Source](../../sources/vj2.md)
+Original caption: Figure 8: Torque values calculated for each configuration, for one third of a complete rotation (15 degree steps) [[vj2|Source]]
 
 ## Related
 

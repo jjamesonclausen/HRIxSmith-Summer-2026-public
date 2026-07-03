@@ -14,9 +14,9 @@ Tags:
 Load-prediction method used to estimate wind-turbine performance from blade aerodynamics and momentum theory. (source: sources/vj4.md, sources/vj10.md)
 
 ![Source figure](../../images/vj4-fig2.jpg)
-Original caption: Figure 2: Predicted and experimental power coefficients for the SANDIA wind turbine [Source](../../sources/vj4.md)
+Original caption: Figure 2: Predicted and experimental power coefficients for the SANDIA wind turbine [[vj4|Source]]
 ![Source figure](../../images/vj4-fig3.jpg)
-Original caption: Figure 3: Predicted and experimental tangential force coefficients during a rotor revolution [Source](../../sources/vj4.md)
+Original caption: Figure 3: Predicted and experimental tangential force coefficients during a rotor revolution [[vj4|Source]]
 
 - The paper uses a Double Disk - Multiple Streamtube implementation of BE-M. (source: sources/vj4.md)
 - It adds dynamic stall handling with the Boeing-Vetrol model and high-angle-of-attack extension with Viterna-Corrigan. (source: sources/vj4.md)
@@ -30,9 +30,9 @@ Original caption: Figure 3: Predicted and experimental tangential force coeffici
 - It also proposes a sliced DMS extension where complex blade forms are divided into flow-parallel slices, each treated as a virtual Darrieus VAWT before integrating slice performance. (source: sources/va9.md)
 
 ![Source figure](../../images/vj10-fig4.jpg)
-Original caption: Figure 4: (a) Sectors on rotor swept area, (b) a sector on the rotor area. [Source](../../sources/vj10.md)
+Original caption: Figure 4: (a) Sectors on rotor swept area, (b) a sector on the rotor area. [[vj10|Source]]
 ![Source figure](../../images/va9-fig16.jpg)
-Original caption: Fig. 16. Double-multiple streamtube model diagram. [Source](../../sources/va9.md)
+Original caption: Fig. 16. Double-multiple streamtube model diagram. [[va9|Source]]
 
 Related:
 - [[Darrieus Turbine]]

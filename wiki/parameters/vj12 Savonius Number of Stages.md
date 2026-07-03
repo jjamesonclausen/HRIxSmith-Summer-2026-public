@@ -15,7 +15,7 @@ This `vj12` review discusses multi-staging, where similar Savonius units are sta
 - The review covers single-stage, two-stage, and three-stage Savonius arrangements. (source: sources/vj12.md)
 
 ![Source figure](../../images/vj12-fig8.jpg)
-Original caption: Figure 8: Torque coefficient against TSR for single, two and three-stage Savonius rotors [55]. [Source](../../sources/vj12.md)
+Original caption: Figure 8: Torque coefficient against TSR for single, two and three-stage Savonius rotors [55]. [[vj12|Source]]
 
 ## Outcome
 

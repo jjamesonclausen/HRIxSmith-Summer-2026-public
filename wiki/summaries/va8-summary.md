@@ -25,16 +25,16 @@ Key points:
 ## Figures
 
 ![Source figure](../../images/va8-fig1.jpg)
-Original caption: Figure 1: External perspective view of the vertical axis wind turbine. [Source](../../sources/va8.md)
+Original caption: Figure 1: External perspective view of the vertical axis wind turbine. [[va8|Source]]
 ![Source figure](../../images/va8-fig2.jpg)
-Original caption: Figure 2: Vertical cross section of the turbine shaft. [Source](../../sources/va8.md)
+Original caption: Figure 2: Vertical cross section of the turbine shaft. [[va8|Source]]
 ![Source figure](../../images/va8-fig3.jpg)
-Original caption: Figure 3: Close up view of a blade along with the connecting beams. [Source](../../sources/va8.md)
+Original caption: Figure 3: Close up view of a blade along with the connecting beams. [[va8|Source]]
 ![Source figure](../../images/va8-fig4.jpg)
-Original caption: Figure 4: Cross sectional view showing the blade having the asymmetrical airfoil profile. [Source](../../sources/va8.md)
+Original caption: Figure 4: Cross sectional view showing the blade having the asymmetrical airfoil profile. [[va8|Source]]
 ![Source figure](../../images/va8-fig5.jpg)
-Original caption: Figure 5: Relation between lift coefficient and angle of attack. [Source](../../sources/va8.md)
+Original caption: Figure 5: Relation between lift coefficient and angle of attack. [[va8|Source]]
 ![Source figure](../../images/va8-fig6.jpg)
-Original caption: Figure 6: Arrangement of two airfoil blade-profiles with respect to the connecting beams. [Source](../../sources/va8.md)
+Original caption: Figure 6: Arrangement of two airfoil blade-profiles with respect to the connecting beams. [[va8|Source]]
 
-Related concepts: [[Hybrid VAWT]], [[Aerodynamic Design Parameters]], [[Structures and Loads]], [[Materials and Manufacturing]], [[Urban Wind Conditions]], [[Wind Tunnel Testing]]
+Related concepts: [[Hybrid VAWT]], [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]], [[Structures and Loads]], [[Materials and Manufacturing]], [[Urban Wind Conditions]], [[Wind Tunnel Testing]]

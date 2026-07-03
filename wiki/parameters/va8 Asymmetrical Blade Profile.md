@@ -16,7 +16,7 @@ This `va8` patent changes the blade cross-section from a conventional profile to
 - The claimed profile characteristics are: 20% path difference between upper and lower surfaces as a fraction of chord, 3% path difference between chord line and lower surface, and 11.5% maximum-thickness-to-chord ratio. (source: sources/va8.md)
 
 ![Source figure](../../images/va8-fig4.jpg)
-Original caption: Figure 4: Cross sectional view showing the blade having the asymmetrical airfoil profile. [Source](../../sources/va8.md)
+Original caption: Figure 4: Cross sectional view showing the blade having the asymmetrical airfoil profile. [[va8|Source]]
 
 ## Outcome
 

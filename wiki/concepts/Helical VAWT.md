@@ -41,15 +41,15 @@ It notes that 120 degrees gives smoother loading, while 60 degrees gave the best
 ## Figures
 
 ![Source figure](../../images/va4-fig1.jpg)
-Original caption: Figure 1. The sketch of HVAWT. [Source](../../sources/va4.md)
+Original caption: Figure 1. The sketch of HVAWT. [[va4|Source]]
 ![Source figure](../../images/va4-fig14.jpg)
-Original caption: Figure 14. Power coefficient results derived by 2D LES and 3D U-RANS methods for Rec = 60,800, TSR = 1.46. [Source](../../sources/va4.md)
+Original caption: Figure 14. Power coefficient results derived by 2D LES and 3D U-RANS methods for Rec = 60,800, TSR = 1.46. [[va4|Source]]
 ![Source figure](../../images/va7-fig1.jpg)
-Original caption: Figure 1. Top view of (a) Helical blade vertical axis wind turbines (VAWT) with definition of direction of rotation (θ) and [Source](../../sources/va7.md)
+Original caption: Figure 1. Top view of (a) Helical blade vertical axis wind turbines (VAWT) with definition of direction of rotation (θ) and [[va7|Source]]
 ![Source figure](../../images/va7-fig7.jpg)
-Original caption: Figure 7. Coefficient of performance of VAWT for various helix angles. [Source](../../sources/va7.md)
+Original caption: Figure 7. Coefficient of performance of VAWT for various helix angles. [[va7|Source]]
 ![Source figure](../../images/va7-fig14.jpg)
-Original caption: Figure 14. The standard deviation of Cp of different helical-bladed and straight-bladed VAWT [Source](../../sources/va7.md)
+Original caption: Figure 14. The standard deviation of Cp of different helical-bladed and straight-bladed VAWT [[va7|Source]]
 
 Related:
 - [[VAWT]]
@@ -57,6 +57,6 @@ Related:
 - [[Helical Darrieus]]
 - [[CFD]]
 - [[Dynamic Stall]]
-- [[Aerodynamic Design Parameters]]
+- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[va3 Windside Helical Wind Turbine]]
 - [[va3 QuietRevolution QR5]]

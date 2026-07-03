@@ -19,13 +19,13 @@ This paper studies CFD-based optimization of Savonius wind turbine blade shapes,
 
 Figures:
 - ![Source figure](../../images/vj9-fig1.jpg)
-  Original caption: Figure 1: Schematic of Savonius-type VAWT. [Source](../../sources/vj9.md)
+  Original caption: Figure 1: Schematic of Savonius-type VAWT. [[vj9|Source]]
 - ![Source figure](../../images/vj9-fig7.jpg)
-  Original caption: Figure 7: Savonius s/d ¼ 0.1, comparison of 3D CFD with 2D CFD and experimental data (EPDcP e effect of end plate friction torque on cP in 3D CFD). [Source](../../sources/vj9.md)
+  Original caption: Figure 7: Savonius s/d ¼ 0.1, comparison of 3D CFD with 2D CFD and experimental data (EPDcP e effect of end plate friction torque on cP in 3D CFD). [[vj9|Source]]
 - ![Source figure](../../images/vj9-fig16.jpg)
-  Original caption: Figure 16: Optimization results: a) modified classical Savonius b) the scooplet-based design c) separated scoop from the scooplet-based design. [Source](../../sources/vj9.md)
+  Original caption: Figure 16: Optimization results: a) modified classical Savonius b) the scooplet-based design c) separated scoop from the scooplet-based design. [[vj9|Source]]
 - ![Source figure](../../images/vj9-fig24.jpg)
-  Original caption: Figure 24: Comparison of power coefficient of SWT with optimized blade designs as predicted by 3D CFD. [Source](../../sources/vj9.md)
+  Original caption: Figure 24: Comparison of power coefficient of SWT with optimized blade designs as predicted by 3D CFD. [[vj9|Source]]
 
 Related pages: [[Savonius Turbine]], [[VAWT]], [[CFD]], [[Wind Turbine Parameters]], [[HAWT vs VAWT]]
 

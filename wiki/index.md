@@ -3,7 +3,7 @@
 
 The map of this knowledge base. The agent keeps this current: every page it creates is linked from here.
 
-> This is a seed. It fills in as you ingest material into [`../sources/`](../sources/README.md).
+> This is a seed. It fills in as you ingest material into `../sources/`.
 
 ## Logs
 
@@ -47,16 +47,16 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 - [[Annual Energy Output]]
 - [[Atmospheric Turbulence]]
 - [[VAWT Types]]
-- [[Classical Savonius]]
+- [[HRI2526 Classical Savonius|Classical Savonius]]
 - [[Darrieus Turbine]]
-- [[Double Darrieus with Inner H-rotor and Outer Eggbeater]]
-- [[Eggbeater Darrieus]]
+- [[HRI2526 Double Darrieus with Inner H-rotor and Outer Eggbeater|Double Darrieus with Inner H-rotor and Outer Eggbeater]]
+- [[HRI2526 Eggbeater Darrieus|Eggbeater Darrieus]]
 - [[Dynamic Stall]]
 - [[Economic Viability of VAWTs]]
 - [[VAWT Design Overview]]
 - [[VAWT Design Comparisons]]
 - [[Turbine Concept Selection]]
-- [[Aerodynamic Design Parameters]]
+- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[Structures and Loads]]
 - [[Materials and Manufacturing]]
 - [[CFD and Validation]]
@@ -67,20 +67,20 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 - [[Helical Darrieus]]
 - [[Helical VAWT]]
 - [[Helical Savonius]]
-- [[Helical Hybrid]]
-- [[J-Type VAWT]]
+- [[HRI2526 Helical Hybrid|Helical Hybrid]]
+- [[va5 J-Type VAWT|J-Type VAWT]]
 - [[HAWT vs VAWT]]
 - [[Hybrid VAWT]]
-- [[Darrieus above Savonius]]
-- [[Outer Darrieus with Inner Savonius]]
+- [[HRI2526 Darrieus above Savonius|Darrieus above Savonius]]
+- [[HRI2526 Outer Darrieus with Inner Savonius|Outer Darrieus with Inner Savonius]]
 - [[Lift vs Drag VAWT – Research Question]]
-- [[Multi-stage Savonius within H-rotor Darrieus]]
+- [[HRI2526 Multi-stage Savonius within H-rotor Darrieus|Multi-stage Savonius within H-rotor Darrieus]]
 - [[Savonius Turbine]]
 - [[Scaling Effects]]
 - [[Straight-bladed Darrieus]]
 - [[Urban Wind Conditions]]
-- [[Contra-rotating VAWT]]
-- [[Troposkien Darrieus]]
+- [[vj8 Contra-rotating VAWT|Contra-rotating VAWT]]
+- [[HRI2526 Troposkien Darrieus|Troposkien Darrieus]]
 - [[VAWT]]
 - [[Wind Turbine Parameters]]
 - [[Wind Shear]]
@@ -176,4 +176,4 @@ _Procedure and technique pages live in [`methods/`](methods/)._
 
 How to read this wiki: start here, follow links. Anything marked `> Unverified:` or `> Inference:` is not directly supported by a source — treat it with extra suspicion.
 
-Want to *understand* something here, not just look it up? Ask the agent to teach it — Socratically, or by quizzing you and grading hard. It will point you to record what you learned in [[learning-log]]. See [teaching mode](../AGENTS.md) in the schema.
+Want to *understand* something here, not just look it up? Ask the agent to teach it — Socratically, or by quizzing you and grading hard. It will point you to record what you learned in [[learning-log]]. See [[AGENTS|teaching mode]] in the schema.

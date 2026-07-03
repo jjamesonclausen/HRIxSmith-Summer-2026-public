@@ -19,7 +19,7 @@ Tags:
 Drag-based VAWT using scooped blades. (source: sources/n1.md, sources/va1.md)
 
 ![Source figure](../../images/vj2-fig1.jpg)
-Original caption: Figure 1: Basic design of a Savonius rotor [Source](../../sources/vj2.md)
+Original caption: Figure 1: Basic design of a Savonius rotor [[vj2|Source]]
 
 - Geometry:
   - Typically uses two semicircular blades around a vertical shaft. (source: sources/HRI2526.md)
@@ -46,9 +46,9 @@ Original caption: Figure 1: Basic design of a Savonius rotor [Source](../../sour
 - Optimization includes blade count, overlap ratio, and augmentation devices. (source: sources/HRI2526.md)
 
 ![Source figure](../../images/vj12-fig12.jpg)
-Original caption: Figure 12: Savonius rotor with endplates [19]. [Source](../../sources/vj12.md)
+Original caption: Figure 12: Savonius rotor with endplates [19]. [[vj12|Source]]
 ![Source figure](../../images/vj12-fig19.jpg)
-Original caption: Figure 19: Comparison of helical and conventional Savonius rotor [81]. [Source](../../sources/vj12.md)
+Original caption: Figure 19: Comparison of helical and conventional Savonius rotor [81]. [[vj12|Source]]
 
 The review places Savonius operation around TSR 0.6-1.2 and peak Cp about 0.15-0.25, with self-starting as the main advantage. (source: sources/vj11.md)
 It treats Savonius as the drag-based family used when low-speed startup matters more than peak efficiency. (source: sources/vj11.md)
@@ -59,7 +59,7 @@ In hybrid systems, Savonius is the startup element that helps cover Darrieus neg
 - The J-type rooftop design is a separate drag-based VAWT concept, but it shares the low-cost drag-rotor rationale. (source: sources/va5.md)
 
 ![Source figure](../../images/va3-fig10.jpg)
-Original caption: Figure 10. Evolution of the Savonius design for water pumping from half drums into the fluted spiral bladed design. [Source](../../sources/va3.md)
+Original caption: Figure 10. Evolution of the Savonius design for water pumping from half drums into the fluted spiral bladed design. [[va3|Source]]
 
 - Two-bladed configurations often achieve higher power coefficients. (source: sources/n2.md)
 - Optimal aspect ratio typically around 1.5–2. (source: sources/n2.md)
@@ -70,14 +70,14 @@ Original caption: Figure 10. Evolution of the Savonius design for water pumping 
 
 Related:
 - [[VAWT]]
-- [[Classical Savonius]]
+- [[HRI2526 Classical Savonius|Classical Savonius]]
 - [[Helical Savonius]]
 - [[Darrieus Turbine]]
 - [[Hybrid VAWT]]
 - [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
 - [[vj2 Split Savonius Outside Darrieus Hybrid Wind Turbine]]
 - [[Wind Turbine Parameters]]
-- [[Aerodynamic Design Parameters]]
+- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[va3 Tip Speed Ratio Classification]]
 
 #concepts 

@@ -53,21 +53,21 @@ It says startup, torque ripple, and wake interaction are the practical metrics t
 ## Figures
 
 ![Source figure](../../images/va4-fig6.jpg)
-Original caption: Figure 6. Power coefficient at different TSR with Reynold number 60,800. The instantaneous torque of the HVAWT at different TSR values is shown in Figure 7. The black and red lines represent the results of the 2D U-RANS and LES simulation, respectively. It is found that due to the uniform arrangement of the four blades along the azimuthal direction, the torque is varied with a 90◦cycle. Furthermore, the peak torque position during one revolution is also rotated in a counterclockwise direction with the increase of TSR. As for the differences between the U-RANS and LES methods, it is obvious to see that the instantaneous torque results of the LES method show much distinct oscillation. This is caused by the fact the U-RANS method applied a time averaged solver, which would smoothen the oscillation along with the time scale. [Source](../../sources/va4.md)
+Original caption: Figure 6. Power coefficient at different TSR with Reynold number 60,800. The instantaneous torque of the HVAWT at different TSR values is shown in Figure 7. The black and red lines represent the results of the 2D U-RANS and LES simulation, respectively. It is found that due to the uniform arrangement of the four blades along the azimuthal direction, the torque is varied with a 90◦cycle. Furthermore, the peak torque position during one revolution is also rotated in a counterclockwise direction with the increase of TSR. As for the differences between the U-RANS and LES methods, it is obvious to see that the instantaneous torque results of the LES method show much distinct oscillation. This is caused by the fact the U-RANS method applied a time averaged solver, which would smoothen the oscillation along with the time scale. [[va4|Source]]
 ![Source figure](../../images/va6-fig6.jpg)
-Original caption: Figure 5. Wind turbines properties at the same nominal power [Source](../../sources/va6.md)
+Original caption: Figure 5. Wind turbines properties at the same nominal power [[va6|Source]]
 ![Source figure](../../images/va6-fig4.jpg)
-Original caption: Figure 3. Wind turbines rotor power coefficient and the tip speed ratio for several wind turbines [Source](../../sources/va6.md)
+Original caption: Figure 3. Wind turbines rotor power coefficient and the tip speed ratio for several wind turbines [[va6|Source]]
 ![Source figure](../../images/va5-fig4.jpg)
-Original caption: Fig. 4: Block Diagram [Source](../../sources/va5.md)
+Original caption: Fig. 4: Block Diagram [[va5|Source]]
 ![Source figure](../../images/vj10-fig8.jpg)
-Original caption: Figure 8: Distribution of angle of attack. [Source](../../sources/vj10.md)
+Original caption: Figure 8: Distribution of angle of attack. [[vj10|Source]]
 ![Source figure](../../images/vj10-fig10.jpg)
-Original caption: Figure 10: Distribution of thrust coefficient. [Source](../../sources/vj10.md)
+Original caption: Figure 10: Distribution of thrust coefficient. [[vj10|Source]]
 ![Source figure](../../images/va7-fig7.jpg)
-Original caption: Figure 7. Coefficient of performance of VAWT for various helix angles. [Source](../../sources/va7.md)
+Original caption: Figure 7. Coefficient of performance of VAWT for various helix angles. [[va7|Source]]
 ![Source figure](../../images/va7-fig14.jpg)
-Original caption: Figure 14. The standard deviation of Cp of different helical-bladed and straight-bladed VAWT [Source](../../sources/va7.md)
+Original caption: Figure 14. The standard deviation of Cp of different helical-bladed and straight-bladed VAWT [[va7|Source]]
 
 These parameters are often visualized using a power curve, which relates wind speed to power output. (source: sources/HRI2526.md)
 

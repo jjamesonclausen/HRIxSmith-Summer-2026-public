@@ -15,7 +15,7 @@ This `vj12` review discusses changing the number of Savonius blades to alter tor
 - The source compares two-bladed, three-bladed, four-bladed, and even six-bladed Savonius configurations across different studies. (source: sources/vj12.md)
 
 ![Source figure](../../images/vj12-fig10.jpg)
-Original caption: Figure 10: Savonius rotors with various blade numbers [62]. [Source](../../sources/vj12.md)
+Original caption: Figure 10: Savonius rotors with various blade numbers [62]. [[vj12|Source]]
 
 ## Outcome
 

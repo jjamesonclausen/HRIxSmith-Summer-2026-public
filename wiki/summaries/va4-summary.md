@@ -20,9 +20,9 @@ Summary of `sources/va4.md`. (source: sources/va4.md)
 ## Figures
 
 ![Source figure](../../images/va4-fig1.jpg)
-Original caption: Figure 1. The sketch of HVAWT. [Source](../../sources/va4.md)
+Original caption: Figure 1. The sketch of HVAWT. [[va4|Source]]
 ![Source figure](../../images/va4-fig14.jpg)
-Original caption: Figure 14. Power coefficient results derived by 2D LES and 3D U-RANS methods for Rec = 60,800, TSR = 1.46. [Source](../../sources/va4.md)
+Original caption: Figure 14. Power coefficient results derived by 2D LES and 3D U-RANS methods for Rec = 60,800, TSR = 1.46. [[va4|Source]]
 
 Related concepts: [[Helical VAWT]], [[VAWT]], [[Darrieus Turbine]], [[Dynamic Stall]], [[CFD]]
 

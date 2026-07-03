@@ -20,11 +20,11 @@ This paper studies how vertical wind shear affects the aerodynamic performance a
 
 Figures:
 - ![Source figure](../../images/vj10-fig2.jpg)
-  Original caption: Figure 2: Schematic view of designed wind turbine. [Source](../../sources/vj10.md)
+  Original caption: Figure 2: Schematic view of designed wind turbine. [[vj10|Source]]
 - ![Source figure](../../images/vj10-fig3.jpg)
-  Original caption: Figure 3: Wind speed in the case of sheared inflow and no shear. [Source](../../sources/vj10.md)
+  Original caption: Figure 3: Wind speed in the case of sheared inflow and no shear. [[vj10|Source]]
 - ![Source figure](../../images/vj10-fig11.jpg)
-  Original caption: Figure 11: Distribution of power coefficient. [Source](../../sources/vj10.md)
+  Original caption: Figure 11: Distribution of power coefficient. [[vj10|Source]]
 
 Related pages: [[Wind Shear]], [[Blade Element-Momentum Model]], [[Wind Turbine Parameters]], [[Atmospheric Turbulence]], [[Urban Wind Conditions]]
 

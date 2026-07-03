@@ -24,9 +24,9 @@ Effects on turbines:
 
 Figures:
 - ![Source figure](../../images/vj10-fig3.jpg)
-  Original caption: Figure 3: Wind speed in the case of sheared inflow and no shear. [Source](../../sources/vj10.md)
+  Original caption: Figure 3: Wind speed in the case of sheared inflow and no shear. [[vj10|Source]]
 - ![Source figure](../../images/vj10-fig11.jpg)
-  Original caption: Figure 11: Distribution of power coefficient. [Source](../../sources/vj10.md)
+  Original caption: Figure 11: Distribution of power coefficient. [[vj10|Source]]
 
 Related:
 - [[Blade Element-Momentum Model]]

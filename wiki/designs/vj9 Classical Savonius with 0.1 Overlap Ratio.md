@@ -23,7 +23,7 @@ The `vj9` source uses a classical two-bladed Savonius rotor with overlap ratio `
 - The optimization and validation work is centered near TSR 0.9 and wind speed 12 m/s. (source: sources/vj9.md)
 
 ![Source figure](../../images/vj9-fig1.jpg)
-Original caption: Figure 1: Schematic of Savonius-type VAWT. [Source](../../sources/vj9.md)
+Original caption: Figure 1: Schematic of Savonius-type VAWT. [[vj9|Source]]
 
 ## Unique Design Choices
 

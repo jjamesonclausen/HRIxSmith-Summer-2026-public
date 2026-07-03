@@ -18,7 +18,7 @@ The source uses tip speed ratio as a design/analysis parameter for distinguishin
 - It says aerodynamic lift-based designs can usually output much more power and do so more efficiently. (source: sources/va3.md)
 
 ![Source figure](../../images/va3-fig9a.jpg)
-Original caption: Figure 9. Rotating cup anemometer and drag cup wind turbine. [Source](../../sources/va3.md)
+Original caption: Figure 9. Rotating cup anemometer and drag cup wind turbine. [[va3|Source]]
 
 ## Outcome
 

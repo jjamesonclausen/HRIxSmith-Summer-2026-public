@@ -27,6 +27,6 @@ A curved-blade Darrieus design shaped to follow the troposkien form. (source: so
 
 Related:
 - [[Darrieus Turbine]]
-- [[Eggbeater Darrieus]]
+- [[HRI2526 Eggbeater Darrieus|Eggbeater Darrieus]]
 - [[Straight-bladed Darrieus]]
 - [[VAWT Types]]

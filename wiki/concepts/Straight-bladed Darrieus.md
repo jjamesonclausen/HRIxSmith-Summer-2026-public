@@ -31,11 +31,11 @@ The straight-bladed Darrieus family with blades arranged around a vertical shaft
 - In that prediction, the EN0005 profile is reported to give better high-TSR performance than the compared NACA0012 and NACA0018 profiles. (source: sources/va9.md)
 
 ![Source figure](../../images/va9-fig18.jpg)
-Original caption: Fig. 18. Darrieus VAWT performance prediction. [Source](../../sources/va9.md)
+Original caption: Fig. 18. Darrieus VAWT performance prediction. [[va9|Source]]
 
 Related:
 - [[H-VAWT]]
 - [[Darrieus Turbine]]
-- [[Eggbeater Darrieus]]
+- [[HRI2526 Eggbeater Darrieus|Eggbeater Darrieus]]
 - [[VAWT Types]]
 - [[Double-Multiple Streamtube Model]]

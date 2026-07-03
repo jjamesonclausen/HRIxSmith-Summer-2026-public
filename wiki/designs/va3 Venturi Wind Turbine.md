@@ -28,9 +28,9 @@ The Venturi turbine concept attaches rotor blades to the hub at both ends so rot
 - Generator: four-phase brushless permanent-magnet generator. (source: sources/va3.md)
 
 ![Source figure](../../images/va3-fig20a.jpg)
-Original caption: Figure 20. Venturi wind turbines. [Source](../../sources/va3.md)
+Original caption: Figure 20. Venturi wind turbines. [[va3|Source]]
 ![Source figure](../../images/va3-fig21.jpg)
-Original caption: Figure 21. Visualisation of the Venturi Effect. [Source](../../sources/va3.md)
+Original caption: Figure 21. Visualisation of the Venturi Effect. [[va3|Source]]
 
 ## Performance
 

@@ -27,12 +27,12 @@ A Savonius variant with the scoop geometry twisted helically around the shaft. (
 - Used as part of hybrid configurations in the report's concept search. (source: sources/HRI2526.md)
 
 ![Source figure](../../images/vj12-fig18.jpg)
-Original caption: Figure 18: Top and side view of wind rotor shapes with different twist angle [95]. [Source](../../sources/vj12.md)
+Original caption: Figure 18: Top and side view of wind rotor shapes with different twist angle [95]. [[vj12|Source]]
 ![Source figure](../../images/vj12-fig19.jpg)
-Original caption: Figure 19: Comparison of helical and conventional Savonius rotor [81]. [Source](../../sources/vj12.md)
+Original caption: Figure 19: Comparison of helical and conventional Savonius rotor [81]. [[vj12|Source]]
 
 Related:
 - [[Savonius Turbine]]
-- [[Classical Savonius]]
+- [[HRI2526 Classical Savonius|Classical Savonius]]
 - [[Helical VAWT]]
 - [[VAWT Types]]

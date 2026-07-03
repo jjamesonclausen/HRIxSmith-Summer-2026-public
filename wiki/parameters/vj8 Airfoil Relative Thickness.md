@@ -15,7 +15,7 @@ This `vj8` study changes the relative thickness of the CRVAWT blade airfoil to e
 - The study compares NACA0015, NACA0018, NACA0021, and NACA0024 airfoils. (source: sources/vj8.md)
 
 ![Source figure](../../images/vj8-fig10.jpg)
-Original caption: Fig. 10. Cross sections of four airfoils. [Source](../../sources/vj8.md)
+Original caption: Fig. 10. Cross sections of four airfoils. [[vj8|Source]]
 
 ## Outcome
 

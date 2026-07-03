@@ -26,20 +26,20 @@ Key points:
 ## Figures
 
 ![Source figure](../../images/va9-fig5.jpg)
-Original caption: Fig. 5. Blade profile EN0005. [Source](../../sources/va9.md)
+Original caption: Fig. 5. Blade profile EN0005. [[va9|Source]]
 ![Source figure](../../images/va9-fig7.jpg)
-Original caption: Fig. 7. Cpr contribution to Tpr. [Source](../../sources/va9.md)
+Original caption: Fig. 7. Cpr contribution to Tpr. [[va9|Source]]
 ![Source figure](../../images/va9-fig9.jpg)
-Original caption: Fig. 9. Lift coefficient. [Source](../../sources/va9.md)
+Original caption: Fig. 9. Lift coefficient. [[va9|Source]]
 ![Source figure](../../images/va9-fig16.jpg)
-Original caption: Fig. 16. Double-multiple streamtube model diagram. [Source](../../sources/va9.md)
+Original caption: Fig. 16. Double-multiple streamtube model diagram. [[va9|Source]]
 ![Source figure](../../images/va9-fig18.jpg)
-Original caption: Fig. 18. Darrieus VAWT performance prediction. [Source](../../sources/va9.md)
+Original caption: Fig. 18. Darrieus VAWT performance prediction. [[va9|Source]]
 ![Source figure](../../images/va9-fig23.jpg)
-Original caption: Fig. 23. New Darrieus VAWT with blade ends in two different positions. [Source](../../sources/va9.md)
+Original caption: Fig. 23. New Darrieus VAWT with blade ends in two different positions. [[va9|Source]]
 ![Source figure](../../images/va9-fig26.jpg)
-Original caption: Fig. 26. New Darrieus VAWT design prototype. [Source](../../sources/va9.md)
+Original caption: Fig. 26. New Darrieus VAWT design prototype. [[va9|Source]]
 ![Source figure](../../images/va9-fig29.jpg)
-Original caption: Fig. 29. Prototype rotor speed at different wind speeds. [Source](../../sources/va9.md)
+Original caption: Fig. 29. Prototype rotor speed at different wind speeds. [[va9|Source]]
 
-Related concepts, designs, parameters, and methods: [[Darrieus Turbine]], [[Straight-bladed Darrieus]], [[H-VAWT]], [[va9 EN0005 Self-start Darrieus VAWT]], [[va9 EN0005 Blade Profile]], [[Aerodynamic Design Parameters]], [[Blade Element-Momentum Model]], [[Double-Multiple Streamtube Model]], [[Wind Tunnel Testing]]
+Related concepts, designs, parameters, and methods: [[Darrieus Turbine]], [[Straight-bladed Darrieus]], [[H-VAWT]], [[va9 EN0005 Self-start Darrieus VAWT]], [[va9 EN0005 Blade Profile]], [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]], [[Blade Element-Momentum Model]], [[Double-Multiple Streamtube Model]], [[Wind Tunnel Testing]]

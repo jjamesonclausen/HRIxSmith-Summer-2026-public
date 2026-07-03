@@ -16,7 +16,7 @@ This `va8` patent fixes the angle between the blade chord and the horizontal sup
 - The patent's wind-tunnel discussion identifies about 25 degrees angle of attack as the point of maximum lift coefficient for the disclosed profile. (source: sources/va8.md)
 
 ![Source figure](../../images/va8-fig6.jpg)
-Original caption: Figure 6: Arrangement of two airfoil blade-profiles with respect to the connecting beams. [Source](../../sources/va8.md)
+Original caption: Figure 6: Arrangement of two airfoil blade-profiles with respect to the connecting beams. [[va8|Source]]
 
 ## Outcome
 

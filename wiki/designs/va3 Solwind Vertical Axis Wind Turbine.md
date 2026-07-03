@@ -25,9 +25,9 @@ The Solwind turbine is described as a New Zealand vertical-axis turbine designed
 - Stayed single-pole mast assemblies are designed for remote-area erection without extra lifting gear; mast sections use high-tensile steel and standard 6.5 m lengths. (source: sources/va3.md)
 
 ![Source figure](../../images/va3-fig15.jpg)
-Original caption: Figure 15. Four rotor vertical axis wind generator for remote sites. [Source](../../sources/va3.md)
+Original caption: Figure 15. Four rotor vertical axis wind generator for remote sites. [[va3|Source]]
 ![Source figure](../../images/va3-fig16a.jpg)
-Original caption: Figure 16. Two and four rotor blades vertical wind generators. [Source](../../sources/va3.md)
+Original caption: Figure 16. Two and four rotor blades vertical wind generators. [[va3|Source]]
 
 ## Performance
 
