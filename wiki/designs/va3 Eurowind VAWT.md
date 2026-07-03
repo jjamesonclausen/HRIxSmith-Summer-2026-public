@@ -39,7 +39,7 @@ The Eurowind concept is a vertical-axis turbine design adapted for mounting on i
 ## Related
 
 - [[Darrieus Turbine]]
-- [[Blade Count for VAWT Startup and Pulsation]]
+- [[va3 Blade Count for VAWT Startup and Pulsation]]
 - [[Materials and Manufacturing]]
 
 #designs

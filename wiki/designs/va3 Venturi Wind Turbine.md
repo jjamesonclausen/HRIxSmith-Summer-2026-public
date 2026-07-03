@@ -43,7 +43,7 @@ The Venturi turbine concept attaches rotor blades to the hub at both ends so rot
 ## Related
 
 - [[VAWT]]
-- [[Blade Count for VAWT Startup and Pulsation]]
+- [[va3 Blade Count for VAWT Startup and Pulsation]]
 - [[Materials and Manufacturing]]
 
 #designs

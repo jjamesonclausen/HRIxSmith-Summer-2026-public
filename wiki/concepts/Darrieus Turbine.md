@@ -79,10 +79,10 @@ Related:
 - [[Wind Tunnel Testing]]
 - [[Double-Multiple Streamtube Model]]
 - [[va9 EN0005 Self-start Darrieus VAWT]]
-- [[EN0005 Blade Profile]]
+- [[va9 EN0005 Blade Profile]]
 - [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
 - [[va3 Ropatec WRE.060 WindRotor]]
 - [[va3 Eurowind VAWT]]
-- [[Tip Speed Ratio Classification]]
+- [[va3 Tip Speed Ratio Classification]]
 
 #concepts 

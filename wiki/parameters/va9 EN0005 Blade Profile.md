@@ -38,7 +38,7 @@ The EN0005 blade profile is the design parameter changed in `va9` to improve Dar
 
 ## Related
 
-- [[Aerodynamic Design Parameters]]
+- [[HRI2526 Aerodynamic Design Parameters]]
 - [[Darrieus Turbine]]
 - [[va9 EN0005 Self-start Darrieus VAWT]]
 

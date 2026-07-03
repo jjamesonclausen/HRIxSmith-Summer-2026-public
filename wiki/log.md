@@ -1,6 +1,19 @@
 #maintenance
 ## Log
 
+### 2026-07-03 — Rename parameter pages to include source prefixes
+
+- Task: rename every file in `wiki/parameters/` so the filename includes the source, for example `va9 EN0005 Blade Profile.md`.
+- Actions:
+  - Renamed all 7 files in `wiki/parameters/` to source-prefixed names using each page's source metadata or primary source.
+  - Updated the parameter-section entries in `wiki/index.md` to the new filenames.
+  - Updated the wiki links that intentionally target parameter pages so they now point to the source-prefixed names.
+- Decisions:
+  - For single-source pages, used the exact source prefix such as `va3`, `va9`, and `vj2`.
+  - For the older multi-source page `Aerodynamic Design Parameters`, used `HRI2526` as the primary source prefix, matching the design-page rename approach.
+- Open:
+  - Bare links like `[[Aerodynamic Design Parameters]]` still remain where they intentionally refer to the concept page rather than the parameter page.
+
 ### 2026-07-03 — Rename design pages to include source prefixes
 
 - Task: rename every file in `wiki/designs/` so the filename includes the source, for example `va9 EN0005 Self-start Darrieus VAWT.md`.

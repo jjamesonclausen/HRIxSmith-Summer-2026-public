@@ -30,6 +30,6 @@ Related concepts: [[VAWT]], [[Darrieus Turbine]], [[Savonius Turbine]], [[H-VAWT
 
 Design pages: [[va3 Ropatec WRE.060 WindRotor]], [[va3 Solwind Vertical Axis Wind Turbine]], [[va3 Eurowind VAWT]], [[va3 Venturi Wind Turbine]], [[va3 Turby Wind Turbine]], [[va3 Windside Helical Wind Turbine]], [[va3 QuietRevolution QR5]], [[va3 Aerogenerator Offshore VAWT]], [[va3 Windspire Gyromill]], [[va3 Counter-rotating VAWT Array]]
 
-Parameter pages: [[Tip Speed Ratio Classification]], [[Blade Count for VAWT Startup and Pulsation]], [[Counter-rotating Array Spacing]]
+Parameter pages: [[va3 Tip Speed Ratio Classification]], [[va3 Blade Count for VAWT Startup and Pulsation]], [[va3 Counter-rotating Array Spacing]]
 
 #summaries

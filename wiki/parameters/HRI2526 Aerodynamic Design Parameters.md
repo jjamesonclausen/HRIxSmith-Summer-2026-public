@@ -44,4 +44,4 @@ Related:
 - [[Rules of Thumb]]
 - [[Wind Tunnel Testing]]
 - [[Double-Multiple Streamtube Model]]
-- [[EN0005 Blade Profile]]
+- [[va9 EN0005 Blade Profile]]

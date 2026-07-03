@@ -54,7 +54,7 @@ The source presents a Darrieus VAWT intended for urban areas, designed to self-s
 
 - [[Darrieus Turbine]]
 - [[Straight-bladed Darrieus]]
-- [[EN0005 Blade Profile]]
+- [[va9 EN0005 Blade Profile]]
 - [[Double-Multiple Streamtube Model]]
 
 #designs

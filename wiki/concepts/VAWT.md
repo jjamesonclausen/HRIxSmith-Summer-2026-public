@@ -109,7 +109,7 @@ Related:
 - [[Optimization]]
 - [[Wind Tunnel Testing]]
 - [[Double-Multiple Streamtube Model]]
-- [[Tip Speed Ratio Classification]]
+- [[va3 Tip Speed Ratio Classification]]
 - [[va3 Counter-rotating VAWT Array]]
 
 #concepts 

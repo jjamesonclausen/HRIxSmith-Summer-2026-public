@@ -116,13 +116,13 @@ _Specific turbine design pages live in [`designs/`](designs/)._
 
 _Design-parameter pages live in [`parameters/`](parameters/)._
 
-- [[Aerodynamic Design Parameters]]
-- [[Blade Count for VAWT Startup and Pulsation]]
-- [[Counter-rotating Array Spacing]]
-- [[EN0005 Blade Profile]]
-- [[Savonius Shaft Removal]]
-- [[Savonius Placement Outside Darrieus Rotor]]
-- [[Tip Speed Ratio Classification]]
+- [[HRI2526 Aerodynamic Design Parameters]]
+- [[va3 Blade Count for VAWT Startup and Pulsation]]
+- [[va3 Counter-rotating Array Spacing]]
+- [[va9 EN0005 Blade Profile]]
+- [[vj2 Savonius Shaft Removal]]
+- [[vj2 Savonius Placement Outside Darrieus Rotor]]
+- [[va3 Tip Speed Ratio Classification]]
 
 ## Methods
 

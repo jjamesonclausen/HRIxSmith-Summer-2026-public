@@ -34,8 +34,8 @@ The source describes close-spaced counter-rotating VAWT arrays as an alternative
 
 ## Related
 
-- [[Counter-rotating Array Spacing]]
-- [[Tip Speed Ratio Classification]]
+- [[va3 Counter-rotating Array Spacing]]
+- [[va3 Tip Speed Ratio Classification]]
 - [[VAWT]]
 
 #designs

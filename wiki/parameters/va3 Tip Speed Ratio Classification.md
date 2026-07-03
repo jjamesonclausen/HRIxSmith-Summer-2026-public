@@ -30,6 +30,6 @@ The source uses tip speed ratio as a design/analysis parameter for distinguishin
 - [[VAWT]]
 - [[Darrieus Turbine]]
 - [[Savonius Turbine]]
-- [[Counter-rotating Array Spacing]]
+- [[va3 Counter-rotating Array Spacing]]
 
 #parameters

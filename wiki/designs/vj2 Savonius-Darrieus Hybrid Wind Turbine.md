@@ -59,7 +59,7 @@ The source presents a hybrid VAWT that places a helical Savonius rotor together 
 - [[Hybrid VAWT]]
 - [[Savonius Turbine]]
 - [[Darrieus Turbine]]
-- [[Savonius Shaft Removal]]
-- [[Savonius Placement Outside Darrieus Rotor]]
+- [[vj2 Savonius Shaft Removal]]
+- [[vj2 Savonius Placement Outside Darrieus Rotor]]
 
 #designs

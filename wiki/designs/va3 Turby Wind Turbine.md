@@ -49,6 +49,6 @@ The Turby is a three-bladed helical vertical-axis turbine advocated for urban en
 
 - [[Helical VAWT]]
 - [[H-VAWT]]
-- [[Blade Count for VAWT Startup and Pulsation]]
+- [[va3 Blade Count for VAWT Startup and Pulsation]]
 
 #designs

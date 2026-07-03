@@ -33,5 +33,5 @@ Related:
 - [[Aerodynamic Design Parameters]]
 - [[CFD and Validation]]
 - [[Rules of Thumb]]
-- [[Savonius Shaft Removal]]
-- [[Savonius Placement Outside Darrieus Rotor]]
+- [[vj2 Savonius Shaft Removal]]
+- [[vj2 Savonius Placement Outside Darrieus Rotor]]

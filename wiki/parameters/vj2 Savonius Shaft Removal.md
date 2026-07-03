@@ -29,7 +29,7 @@ This parameter change removes the shaft from inside the Savonius rotor in the hy
 ## Related
 
 - [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
-- [[Aerodynamic Design Parameters]]
+- [[HRI2526 Aerodynamic Design Parameters]]
 - [[Optimization]]
 
 #parameters

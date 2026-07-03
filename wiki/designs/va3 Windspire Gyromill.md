@@ -47,7 +47,7 @@ The Windspire is a slender, straight-bladed Darrieus/gyromill design optimized f
 ## Related
 
 - [[Straight-bladed Darrieus]]
-- [[Tip Speed Ratio Classification]]
+- [[va3 Tip Speed Ratio Classification]]
 - [[Materials and Manufacturing]]
 
 #designs
