@@ -25,6 +25,7 @@ _One page per file in `sources/`._
 - [[va8-summary]]
 - [[va9-summary]]
 - [[va10-summary]]
+- [[va11-summary]]
 - [[va5-summary]]
 - [[va4-summary]]
 - [[va3-summary]]
@@ -65,6 +66,7 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 - [[Design Checklist]]
 - [[Rules of Thumb]]
 - [[H-VAWT]]
+- [[H-rotor Wake Aerodynamics]]
 - [[Helical Darrieus]]
 - [[Helical VAWT]]
 - [[Helical Savonius]]
@@ -171,6 +173,7 @@ _Procedure and technique pages live in [`methods/`](methods/)._
 - [[CST Parameterization]]
 - [[Kriging Surrogate Model]]
 - [[Multi-Island Genetic Algorithm]]
+- [[PIV Testing]]
 - [[Wind Tunnel Testing]]
 
 ---

@@ -1,12 +1,13 @@
 ---
 Created:
-Updated: 2026-07-02
+Updated: 2026-07-03
 Sources:
 - [[HRI2526]]
 - [[va2]]
 - [[va9]]
+- [[va11]]
 - [[vj4]]
-Source_count: 4
+Source_count: 5
 Tags:
 - concepts
 ---
@@ -29,12 +30,15 @@ The straight-bladed Darrieus family with blades arranged around a vertical shaft
 - It is a common benchmark for aerodynamic modeling and optimization. (source: sources/va2.md, sources/vj4.md)
 - The va9 DMS prediction case compares EN0005, NACA0012, and NACA0018 on a straight-bladed VAWT with height 4.6 m, blade radius 2 m, five blades, 0.30 m profile chord, and V∞ = 12 m/s. (source: sources/va9.md)
 - In that prediction, the EN0005 profile is reported to give better high-TSR performance than the compared NACA0012 and NACA0018 profiles. (source: sources/va9.md)
+- The va11 review adds that straight-bladed H-rotor wakes are strongly asymmetric and shaped by deep dynamic stall, blade-wake interaction, and counter-rotating vortex structures. (source: sources/va11.md)
+- It also says wake recovery can be fast enough to motivate closer VAWT spacing and wake-model-based layout design. (source: sources/va11.md)
 
 ![Source figure](../../images/va9-fig18.jpg)
 Original caption: Fig. 18. Darrieus VAWT performance prediction. [[va9|Source]]
 
 Related:
 - [[H-VAWT]]
+- [[H-rotor Wake Aerodynamics]]
 - [[Darrieus Turbine]]
 - [[HRI2526 Eggbeater Darrieus|Eggbeater Darrieus]]
 - [[VAWT Types]]

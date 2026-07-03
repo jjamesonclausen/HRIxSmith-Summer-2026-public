@@ -1,11 +1,12 @@
 ---
 Created:
-Updated: 2026-07-02
+Updated: 2026-07-03
 Sources:
 - [[va2]]
 - [[va9]]
+- [[va11]]
 - [[vj4]]
-Source_count: 3
+Source_count: 4
 Tags:
 - concepts
 ---
@@ -33,10 +34,12 @@ Original caption: Figure 1: Schematic of VAWT blade forces at different azimutha
 - In the small-VAWT architecture study, the straight-bladed H-Darrieus case had larger pulsating loads than the helical case. (source: sources/vj4.md)
 - The helical configuration widened the range near maximum CP and reduced fatigue-driving oscillations. (source: sources/vj4.md)
 - The va9 paper uses an H-rotor in skewed flow as an example for its sliced DMS approach, where the blade follows an elliptical path in some slices and the effective blade profile changes with blade angle. (source: sources/va9.md)
+- The va11 wake review treats the H-rotor as the main modern straight-bladed VAWT for urban use and dense layouts because its wake can recover quickly and support closer turbine spacing in some configurations. (source: sources/va11.md)
+- It also frames H-rotor wake asymmetry, counter-rotating vortices, and strong dynamic-stall effects as central aerodynamic features of the subtype. (source: sources/va11.md)
 
 ![Source figure](../../images/va9-fig20.jpg)
 Original caption: Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow. [[va9|Source]]
 
-Related: [[VAWT]], [[Darrieus Turbine]], [[HAWT vs VAWT]], [[Kriging Surrogate Model]], [[CST Parameterization]], [[Multi-Island Genetic Algorithm]], [[Straight-bladed Darrieus]], [[Double-Multiple Streamtube Model]]
+Related: [[VAWT]], [[Darrieus Turbine]], [[HAWT vs VAWT]], [[Kriging Surrogate Model]], [[CST Parameterization]], [[Multi-Island Genetic Algorithm]], [[Straight-bladed Darrieus]], [[Double-Multiple Streamtube Model]], [[H-rotor Wake Aerodynamics]]
  
 #concepts 

@@ -1,6 +1,22 @@
 #maintenance
 ## Log
 
+### 2026-07-03 — Convert and ingest va11 wake-aerodynamics review
+
+- Task: convert `PDFs/va11_raw.pdf` into `sources/va11.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va11.md` with source frontmatter, extracted text, and links to `images/va11-fig1.jpg` through `images/va11-fig39.jpg`.
+  - Added `wiki/summaries/va11-summary.md`.
+  - Added `wiki/concepts/H-rotor Wake Aerodynamics.md` and `wiki/methods/PIV Testing.md`.
+  - Updated `wiki/concepts/H-VAWT.md`, `wiki/concepts/Straight-bladed Darrieus.md`, `wiki/concepts/Atmospheric Turbulence.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/concepts/CFD and Validation.md`, `wiki/methods/CFD.md`, and `wiki/methods/Wind Tunnel Testing.md` with `va11`-supported claims and figure links.
+  - Updated `wiki/index.md` and marked `sources/va11.md` as processed.
+  - Re-ran source-backlink and Obsidian-link verification checks on the changed pages and the wiki as a whole.
+- Decisions:
+  - Kept the ingest minimal by creating one new wake concept page and one new PIV method page rather than splitting the review into design or parameter pages.
+  - Did not create new single-source design or parameter pages because `va11` is a broad review that summarizes many primary studies rather than presenting one source-owned turbine design or one isolated parameter study.
+- Open:
+  - `sources/va11.md` is readable and source-grounded, but some PDF-extraction artifacts remain in equations and line wrapping; the wiki claims added here were limited to points that were clear despite that formatting noise.
+
 ### 2026-07-03 — Convert and ingest va10 CFD review source
 
 - Task: convert `PDFs/va10_raw.pdf` into `sources/va10.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

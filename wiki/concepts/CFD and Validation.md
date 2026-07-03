@@ -3,12 +3,13 @@ Created:
 Updated: 2026-07-03
 Sources:
 - [[va10]]
+- [[va11]]
 - [[va9]]
 - [[vj11]]
 - [[vj2]]
 - [[vj5]]
 - [[vj6]]
-Source_count: 6
+Source_count: 7
 Tags:
 - concepts
 ---
@@ -25,6 +26,8 @@ This page covers the simulation workflow used to check a VAWT before hardware is
 - The review also uses torque, power coefficient, flow separation, and wake dynamics as key outputs. (source: sources/vj6.md)
 - It reports that PISO outperformed SIMPLE and COUPLED in one reviewed Darrieus CFD comparison. (source: sources/va10.md)
 - It also treats transition SST, LES, and hybrid RANS-LES as important when separation and unsteady wake fidelity matter more than design-stage speed. (source: sources/va10.md)
+- The va11 wake review adds that PIV-validated 2-D and 3-D CFD were both used for wake studies, but 3-D simulation was needed to capture blade-tip vortices and avoid over-predicting H-rotor performance. (source: sources/va11.md)
+- It also reviews RANS, LES, DES, and analytical wake-model development as complementary validation layers for wake prediction. (source: sources/va11.md)
 
 The VAWT review says URANS with `k-ω SST` is the main design-stage tool, while transition SST and DES/LES are preferred when dynamic stall fidelity matters most. (source: sources/vj11.md)
 It reports that 2-D URANS can overpredict Cp by 15-30% relative to validated 3-D simulations. (source: sources/vj11.md)
@@ -38,6 +41,8 @@ It reports a computational domain of 15 m by 12 m by 12 m, 7 m/s inlet wind spee
 
 ![Source figure](../../images/va10-fig5.jpg)
 Original caption: Fig. 5. Computational grid independency study [31]. [[va10|Source]]
+![Source figure](../../images/va11-fig25.jpg)
+Original caption: Fig. 25. Vorticity magnitudes in the blade mid-span and vertical planes (units, 1/s) [52]. [[va11|Source]]
 
 Related:
 - [[Optimization]]

@@ -1,11 +1,12 @@
 ---
 Created:
-Updated: 2026-07-02
+Updated: 2026-07-03
 Sources:
+- [[va11]]
 - [[vj10]]
 - [[vj11]]
 - [[vj3]]
-Source_count: 3
+Source_count: 4
 Tags:
 - concepts
 ---
@@ -37,6 +38,8 @@ Wind-energy effects:
 - Around 8 m/s, power production can vary by up to 20% depending on turbulence intensity. (source: sources/vj3.md)
 - Turbulence increases loads, wake interactions, fatigue, and noise propagation. (source: sources/vj3.md)
 - In the HAWT wind-shear study, non-uniform vertical wind profile reduces power coefficient and changes lift and thrust coefficients along the blade. (source: sources/vj10.md)
+- The va11 wake review says turbulent inflow can delay dynamic stall, distort the counter-rotating wake vortices, and improve H-rotor self-starting and performance relative to smoother inflow. (source: sources/va11.md)
+- It also reviews atmospheric-boundary-layer inflow as a distinct wake condition, with stronger three-dimensionality and downward or upward wake shifts depending on the case studied. (source: sources/va11.md)
 
 ![Source figure](../../images/vj3-fig2.jpg)
 Original caption: Figure 2: Power Curve Variability with Turbulence Intensity [[vj3|Source]]
@@ -46,5 +49,6 @@ Related:
 - [[HAWT vs VAWT]]
 - [[VAWT]]
 - [[Wind Shear]]
+- [[H-rotor Wake Aerodynamics]]
 
 #concepts 
