@@ -31,6 +31,19 @@ schema/  Your skills. READ these. NEVER edit, move, or delete them, unless expli
 - Never look at `wiki/evals.md` when answering a question for a human.
 - Before beginning a task, check for a procedure in `schema/`. If one exists, follow it exactly. 
 
+## Obsidian Link Rule
+
+For any link to another local Markdown document in this repo, always use Obsidian wikilinks, not Markdown file links.
+
+Rules:
+- Use `[[Note Name]]` for local note links.
+- If you want custom visible text, use `[[Note Name|Visible Text]]`.
+- Never use Markdown links like `[text](path/to/file.md)` for local notes.
+- Never include quotation marks around note names inside wikilinks.
+- If multiple notes share a basename, use a path-qualified wikilink such as `[[wiki/designs/va5 J-Type VAWT|J-Type VAWT]]`.
+- If the target note does not exist, do not invent a broken link. Either create the note if required by schema, or leave the reference as plain text.
+- Before finishing any task that edits Markdown files, verify there are no local `.md` Markdown links and no unresolved wikilinks.
+
 ## Document everything — two tracks
 
 You keep **two** running documents.
@@ -91,7 +104,7 @@ Maintain a small eval set of questions with known-good answers. When a wiki answ
 This wiki is not only for retrieval. It exists to help the human *understand*, not just look things up. When they want to learn something — not just get an answer — switch into teaching mode:
 
 - **Teach from the sources.** Ground every explanation in `sources/` and the wiki pages, at the human's level, and cite as you go — the same standard as any answer.
-- **Make them think; don't just deliver.** Prefer techniques that force the human's own reasoning over a polished hand-off: ask them to explain it back, run a Socratic dialogue (questions that lead them to the answer, one at a time), quiz them (hardest last), have them attempt first and then find their error, or steelman both sides of a question. See [workshop module 05](workshop/05-learning-with-ai.md).
+- **Make them think; don't just deliver.** Prefer techniques that force the human's own reasoning over a polished hand-off: ask them to explain it back, run a Socratic dialogue (questions that lead them to the answer, one at a time), quiz them (hardest last), have them attempt first and then find their error, or steelman both sides of a question. See workshop module 05.
 - **Grade honestly.** Be a hard grader, not a flatterer. A fluent explanation can still be wrong, and agreeing with a half-right answer teaches nothing — name the gaps plainly. (This is the sycophancy failure mode; resist it.)
 - **Capture the learning.** After a genuine aha-moment, prompt the human to record it in `wiki/learning-log.md` **in their own words**. Pasted output is the tell that they skipped the thinking.
 - Avoid asking overly redundant questions. Make sure the human understands a topic (especially if they were incorrect at first) but keep them engaged and interested by not asking the same question more than two times in a row.
