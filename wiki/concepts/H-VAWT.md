@@ -3,11 +3,12 @@ Created:
 Updated: 2026-07-03
 Sources:
 - [[va2]]
+- [[va15]]
 - [[va14]]
 - [[va9]]
 - [[va11]]
 - [[vj4]]
-Source_count: 5
+Source_count: 6
 Tags:
 - concepts
 ---
@@ -39,6 +40,7 @@ Original caption: Figure 1: Schematic of VAWT blade forces at different azimutha
 - It also frames H-rotor wake asymmetry, counter-rotating vortices, and strong dynamic-stall effects as central aerodynamic features of the subtype. (source: sources/va11.md)
 - The va14 study adds a large CFD characterization of 2-, 3-, and 4-bladed Darrieus H-type turbines, using solidity from 0.09 to 0.36 and showing that optimal tip-speed ratio shifts strongly with solidity. (source: sources/va14.md)
 - It also reports that near the optimal operating range, peak `Cp` is almost independent of blade number at fixed `Rec`. (source: sources/va14.md)
+- The va15 experiment adds direct self-start evidence for a 3-bladed H-Darrieus: high solidity, a thick symmetric profile, small negative pitch, and larger aspect ratio all helped startup in the tested cases. (source: sources/va15.md)
 
 ![Source figure](../../images/va9-fig20.jpg)
 Original caption: Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow. [[va9|Source]]

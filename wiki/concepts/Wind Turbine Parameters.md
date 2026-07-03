@@ -3,6 +3,7 @@ Created:
 Updated: 2026-07-03
 Sources:
 - [[HRI2526]]
+- [[va15]]
 - [[va14]]
 - [[va4]]
 - [[va5]]
@@ -13,7 +14,7 @@ Sources:
 - [[vj11]]
 - [[vj12]]
 - [[vj6]]
-Source_count: 11
+Source_count: 12
 Tags:
 - concepts
 ---
@@ -55,6 +56,9 @@ It says startup, torque ripple, and wake interaction are the practical metrics t
 The va14 study says that for constant-speed urban VAWTs operating often at moderate to high `λ`, relatively low solidity is optimal, while a variable-speed optimal rotor should have moderately high solidity and relatively low `λ`. (source: sources/va14.md)
 It also reports that near `λopt`, peak `Cp` is almost independent of blade number, so blade count should often be chosen for smoothness, loads, and cost rather than for peak power alone. (source: sources/va14.md)
 
+The va15 study adds a startup tradeoff: higher solidity helps self-start, but lowers peak power output. (source: sources/va15.md)
+It also shows that rougher surfaces, negative pitch, and thicker symmetric blades can help low-`lambda` startup in some cases, but those same changes can reduce higher-`lambda` performance. (source: sources/va15.md)
+
 ## Figures
 
 ![Source figure](../../images/va4-fig6.jpg)
@@ -85,5 +89,7 @@ Related:
 - [[Wind Shear]]
 - [[va14 Solidity]]
 - [[va14 Blade Number]]
+- [[va15 Solidity]]
+- [[va15 Blade Profile]]
 
 #concepts 

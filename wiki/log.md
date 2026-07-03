@@ -1,6 +1,22 @@
 #maintenance
 ## Log
 
+### 2026-07-03 — Convert and ingest va15 H-Darrieus startup parameter study
+
+- Task: convert `PDFs/va15_raw.pdf` into `sources/va15.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va15.md` with source frontmatter, section structure, linked figure images `va15-fig1` through `va15-fig20`, and screenshots for the two tables plus nomenclature.
+  - Added `wiki/summaries/va15-summary.md`.
+  - Added five source-specific parameter pages: `va15 Solidity`, `va15 Blade Profile`, `va15 Blade Pitch Angle`, `va15 Blade Surface Roughness`, and `va15 Blade Aspect Ratio`.
+  - Updated `wiki/concepts/H-VAWT.md`, `wiki/concepts/Darrieus Turbine.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/parameters/HRI2526 Aerodynamic Design Parameters.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/methods/Wind Tunnel Testing.md`, `wiki/concepts/CFD and Validation.md`, and `wiki/index.md` with `va15`-supported claims and links.
+  - Marked `sources/va15.md` as processed and re-ran source-backlink and Obsidian-link verification checks.
+- Decisions:
+  - Added five parameter pages because the paper is explicitly organized around independent design variables rather than a single stable turbine design.
+  - Did not add a design page because the paper is a multi-parameter experimental rig study, not one canonical single-source design note.
+  - Preserved the tension between `va15` and older startup claims from `vj4`/`va14` by updating shared concept pages instead of overwriting those source-specific parameter notes.
+- Open:
+  - `sources/va15.md` is usable but still contains some OCR/header artifacts and duplicated caption text in places; the wiki claims added here were limited to the clear source-supported findings.
+
 ### 2026-07-03 — Convert and ingest va14 solidity and blade-count study
 
 - Task: convert `PDFs/va14_raw.pdf` into `sources/va14.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

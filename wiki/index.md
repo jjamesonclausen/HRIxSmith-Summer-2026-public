@@ -29,6 +29,7 @@ _One page per file in `sources/`._
 - [[va12-summary]]
 - [[va13-summary]]
 - [[va14-summary]]
+- [[va15-summary]]
 - [[va5-summary]]
 - [[va4-summary]]
 - [[va3-summary]]
@@ -170,6 +171,11 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[va12 Turbine Spacing in Paired VAWT Arrays]]
 - [[va14 Blade Number]]
 - [[va14 Solidity]]
+- [[va15 Blade Aspect Ratio]]
+- [[va15 Blade Pitch Angle]]
+- [[va15 Blade Profile]]
+- [[va15 Blade Surface Roughness]]
+- [[va15 Solidity]]
 - [[va3 Tip Speed Ratio Classification]]
 
 ## Methods

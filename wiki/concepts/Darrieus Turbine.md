@@ -5,6 +5,7 @@ Sources:
 - [[HRI2526]]
 - [[n1]]
 - [[va1]]
+- [[va15]]
 - [[va3]]
 - [[va8]]
 - [[va9]]
@@ -12,7 +13,7 @@ Sources:
 - [[vj11]]
 - [[vj4]]
 - [[vj5]]
-Source_count: 10
+Source_count: 11
 Tags:
 - concepts
 ---
@@ -64,6 +65,8 @@ The va9 paper treats startup as a core Darrieus weakness and lists external elec
 It presents the EN0005 blade profile as a Darrieus-specific self-start design that avoids extra components or external electricity feed-in while retaining high-TSR performance in the authors' model and tests. (source: sources/va9.md)
 The field-test prototype reported self-start at 1.25 m/s, stable behavior in a 25 m/s wind-tunnel stress test, and no audible noise emission in the tested urban environment. (source: sources/va9.md)
 The hybrid-CFD study in `vj2` says turbulence produced by an internal Savonius rotor negatively affects the lift-based Darrieus blades, and reports lower interference after the Savonius component is moved to split top-and-bottom positions outside the Darrieus space. (source: sources/vj2.md)
+
+The va15 experiment qualifies the startup weakness: a small H-Darrieus did self-start in some tested configurations at 7 m/s, but only with favorable choices of solidity, profile, pitch, and aspect ratio. (source: sources/va15.md)
 
 ![Source figure](../../images/va9-fig5.jpg)
 Original caption: Fig. 5. Blade profile EN0005. [[va9|Source]]

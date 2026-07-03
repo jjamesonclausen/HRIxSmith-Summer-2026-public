@@ -3,6 +3,7 @@ Created:
 Updated: 2026-07-03
 Sources:
 - [[HRI2526]]
+- [[va15]]
 - [[va14]]
 - [[va8]]
 - [[va9]]
@@ -11,7 +12,7 @@ Sources:
 - [[vj4]]
 - [[vj6]]
 - [[vj8]]
-Source_count: 9
+Source_count: 10
 Tags:
 - Parameters
 ---
@@ -28,6 +29,7 @@ These are the main geometry knobs the sources repeatedly treat as design variabl
 - Solidity changes the balance between efficiency and starting behavior. (source: sources/vj1.md, sources/HRI2526.md)
 - The va14 study adds that increasing solidity lowers optimal tip-speed ratio and that a simple `sλ^3` combination keeps `λopt` nearly invariant across its tested H-type cases. (source: sources/va14.md)
 - Swept area, Reynolds number, and starting torque remain basic sizing parameters. (source: sources/HRI2526.md, sources/vj6.md)
+- The va15 experiment adds direct evidence that solidity, blade profile, pitch angle, surface roughness, and aspect ratio are coupled startup/performance knobs for a small H-Darrieus turbine. (source: sources/va15.md)
 - The VAWT review gives Savonius TSR around 0.6-1.2, Darrieus TSR around 2.5-5.0, and emphasizes that the optimum shifts with solidity. (source: sources/vj11.md)
 - It treats blade profile, pitch angle, blade count, and chord Reynolds number as the main coupled design knobs. (source: sources/vj11.md)
 - It notes that low-solidity rotors push peak Cp to higher TSR, while high-solidity rotors self-start better but suffer more blade-wake interaction. (source: sources/vj11.md)
@@ -57,3 +59,5 @@ Related:
 - [[va9 EN0005 Blade Profile]]
 - [[va14 Solidity]]
 - [[va14 Blade Number]]
+- [[va15 Solidity]]
+- [[va15 Blade Pitch Angle]]

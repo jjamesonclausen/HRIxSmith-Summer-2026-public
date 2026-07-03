@@ -3,13 +3,14 @@ Created:
 Updated: 2026-07-03
 Sources:
 - [[va10]]
+- [[va15]]
 - [[va14]]
 - [[va11]]
 - [[va7]]
 - [[vj11]]
 - [[vj5]]
 - [[vj6]]
-Source_count: 7
+Source_count: 8
 Tags:
 - concepts
 ---
@@ -27,6 +28,8 @@ Unsteady aerodynamic separation that occurs when a blade experiences rapidly cha
 - It also connects dynamic stall to blade-wake interaction in the near wake and to the counter-rotating wake structures that drive recovery. (source: sources/va11.md)
 - The va14 study says reduced frequency is an influential parameter in VAWT aerodynamic performance and shows that higher solidity or fewer blades can change the scale and timing of dynamic-stall-driven load fluctuations. (source: sources/va14.md)
 - It also links higher reduced frequency to delayed separation and changed leading-edge flow behavior in its constant-`Rec` comparisons. (source: sources/va14.md)
+- The va15 experiment adds that a small negative pitch angle can delay stall in the upwind region and increase low-`lambda` torque, while rougher blades can also delay stall by promoting earlier transition. (source: sources/va15.md)
+- It also shows that these startup gains can disappear or reverse at higher `lambda` or lower solidity. (source: sources/va15.md)
 - The CFD review treats dynamic stall as one of the central aerodynamic challenges in VAWT development alongside blade-wake interaction and changing angle of attack. (source: sources/vj6.md)
 - It also uses dynamic stall as part of the motivation for comparing mesh strategies, turbulence models, and validation approaches. (source: sources/vj6.md)
 - The helical-VAWT helix-angle study analyzes leading-edge vortex formation, flow separation, and wake interaction through z-vorticity contours, linking those flow features to secondary peaks in moment coefficient. (source: sources/va7.md)

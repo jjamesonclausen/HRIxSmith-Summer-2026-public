@@ -4,6 +4,7 @@ Updated: 2026-07-03
 Sources:
 - [[va10]]
 - [[va13]]
+- [[va15]]
 - [[va14]]
 - [[va11]]
 - [[va9]]
@@ -11,7 +12,7 @@ Sources:
 - [[vj2]]
 - [[vj5]]
 - [[vj6]]
-Source_count: 9
+Source_count: 10
 Tags:
 - concepts
 ---
@@ -31,6 +32,7 @@ This page covers the simulation workflow used to check a VAWT before hardware is
 - The va11 wake review adds that PIV-validated 2-D and 3-D CFD were both used for wake studies, but 3-D simulation was needed to capture blade-tip vortices and avoid over-predicting H-rotor performance. (source: sources/va11.md)
 - It also reviews RANS, LES, DES, and analytical wake-model development as complementary validation layers for wake prediction. (source: sources/va11.md)
 - The va13 building-integration study uses ANSYS Fluent with the SST `k-ω` model to compare rooftop turbine cases, but it explicitly says mesh sensitivity and experimental validation were not included in that study. (source: sources/va13.md)
+- The va15 experiment adds scarce low-`lambda`, time-accurate startup data that the paper explicitly positions as future validation material for numerical models. (source: sources/va15.md)
 - The va14 study adds a validated 2D URANS parameter sweep using transition SST (`γ-Reθ`), sliding mesh, grid-sensitivity analysis, and two separate experimental comparisons. (source: sources/va14.md)
 
 The VAWT review says URANS with `k-ω SST` is the main design-stage tool, while transition SST and DES/LES are preferred when dynamic stall fidelity matters most. (source: sources/vj11.md)
