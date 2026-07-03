@@ -23,9 +23,12 @@ Blade material choice is not just a cost issue; it affects fatigue life, stiffne
 - The va9 paper frames self-starting blade-profile design as a way to avoid extra startup components or external electricity feed-in, which it says would otherwise increase turbine complexity, manufacturing and maintenance costs, and lower sustainability. (source: sources/va9.md)
 - Its patented blade design uses a main body and two blade ends that can be fixed or dynamically changed during operation. (source: sources/va9.md)
 
-![Figure 4a: va8 thickness-ratio plot for the proposed profile](../../images/va8-fig4a.jpg)
-![Figure 4b: va8 thickness-ratio plot for a typical flat-bottom profile](../../images/va8-fig4b.jpg)
-![Fig. 23. New Darrieus VAWT with blade ends in two different positions.](../../images/va9-fig23.jpg)
+![Source figure](../../images/va8-fig4a.jpg)
+Original caption: Figure 4a: Ratio of airfoil profile thickness to distance from leading edge of the present application. [Source](../../sources/va8.md)
+![Source figure](../../images/va8-fig4b.jpg)
+Original caption: Figure 4b: Ratio of airfoil profile thickness to distance from leading edge for a typical flat bottom profile. [Source](../../sources/va8.md)
+![Source figure](../../images/va9-fig23.jpg)
+Original caption: Fig. 23. New Darrieus VAWT with blade ends in two different positions. [Source](../../sources/va9.md)
 
 Related:
 - [[Structures and Loads]]

@@ -25,13 +25,21 @@ Key points:
 
 ## Figures
 
-![Fig. 5. Blade profile EN0005.](../../images/va9-fig5.jpg)
-![Fig. 7. Cpr contribution to Tpr.](../../images/va9-fig7.jpg)
-![Fig. 9. Lift coefficient.](../../images/va9-fig9.jpg)
-![Fig. 16. Double-multiple streamtube model diagram.](../../images/va9-fig16.jpg)
-![Fig. 18. Darrieus VAWT performance prediction.](../../images/va9-fig18.jpg)
-![Fig. 23. New Darrieus VAWT with blade ends in two different positions.](../../images/va9-fig23.jpg)
-![Fig. 26. New Darrieus VAWT design prototype.](../../images/va9-fig26.jpg)
-![Fig. 29. Prototype rotor speed at different wind speeds.](../../images/va9-fig29.jpg)
+![Source figure](../../images/va9-fig5.jpg)
+Original caption: Fig. 5. Blade profile EN0005. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig7.jpg)
+Original caption: Fig. 7. Cpr contribution to Tpr. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig9.jpg)
+Original caption: Fig. 9. Lift coefficient. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig16.jpg)
+Original caption: Fig. 16. Double-multiple streamtube model diagram. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig18.jpg)
+Original caption: Fig. 18. Darrieus VAWT performance prediction. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig23.jpg)
+Original caption: Fig. 23. New Darrieus VAWT with blade ends in two different positions. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig26.jpg)
+Original caption: Fig. 26. New Darrieus VAWT design prototype. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig29.jpg)
+Original caption: Fig. 29. Prototype rotor speed at different wind speeds. [Source](../../sources/va9.md)
 
 Related concepts, designs, parameters, and methods: [[Darrieus Turbine]], [[Straight-bladed Darrieus]], [[H-VAWT]], [[va9 EN0005 Self-start Darrieus VAWT]], [[va9 EN0005 Blade Profile]], [[Aerodynamic Design Parameters]], [[Blade Element-Momentum Model]], [[Double-Multiple Streamtube Model]], [[Wind Tunnel Testing]]

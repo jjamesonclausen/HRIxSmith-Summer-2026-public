@@ -30,7 +30,8 @@ The straight-bladed Darrieus family with blades arranged around a vertical shaft
 - The va9 DMS prediction case compares EN0005, NACA0012, and NACA0018 on a straight-bladed VAWT with height 4.6 m, blade radius 2 m, five blades, 0.30 m profile chord, and V∞ = 12 m/s. (source: sources/va9.md)
 - In that prediction, the EN0005 profile is reported to give better high-TSR performance than the compared NACA0012 and NACA0018 profiles. (source: sources/va9.md)
 
-![Fig. 18. Darrieus VAWT performance prediction.](../../images/va9-fig18.jpg)
+![Source figure](../../images/va9-fig18.jpg)
+Original caption: Fig. 18. Darrieus VAWT performance prediction. [Source](../../sources/va9.md)
 
 Related:
 - [[H-VAWT]]

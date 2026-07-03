@@ -32,16 +32,20 @@ Characteristics of airflow in built environments. (source: sources/HRI2526.md)
 - The same patent frames rural rooftop deployment as a target use case and says battery storage could reduce or possibly eliminate grid-power need for household electric power. (source: sources/va8.md)
 - The va9 paper motivates Darrieus VAWT development for urban areas because wind turbulence and brisk changes in wind direction cannot be disregarded there. (source: sources/va9.md)
 - Its tested prototype was evaluated in urban field sites and in a wind tunnel, and the source reports no audible noise emission in the urban environment. (source: sources/va9.md)
-![Figure 16: Wind Data from McConnell Rooftop](../../images/hri2526-fig16.jpg)
+![Source figure](../../images/hri2526-fig16.jpg)
+Original caption: Fig. 16. Wind Data from McConnell Rooftop [Source](../../sources/HRI2526.md)
 
 Implications:
 - Reduces overall power potential due to cubic dependence on wind speed. (source: sources/HRI2526.md)
 - Favors omnidirectional and low cut-in technologies like VAWTs. (source: sources/HRI2526.md)
 - For CFD, the team used a 2 m/s inlet velocity as a practical design point because it was reached with some frequency. (source: sources/HRI2526.md)
 
-![Figure 26: The effect of obstacle on the height of a wind turbine](../../images/vj12-fig26.jpg)
-![Figure 27: Typical wind farm layout arranged with a rectangular grid pattern](../../images/vj12-fig27.jpg)
-![Figure 28: Schematic diagram for wind farms (a) aligned, (b) staggered, (c) scattered](../../images/vj12-fig28.jpg)
+![Source figure](../../images/vj12-fig26.jpg)
+Original caption: Figure 26: The effect of obstacle on the height of a wind turbine [133]. [Source](../../sources/vj12.md)
+![Source figure](../../images/vj12-fig27.jpg)
+Original caption: Figure 27: Typical wind farm layout arranged with a rectangular grid pattern [136]. [Source](../../sources/vj12.md)
+![Source figure](../../images/vj12-fig28.jpg)
+Original caption: Figure 28: Schematic diagram for wind farms (a) aligned, (b) staggered, (c) scattered [137]. [Source](../../sources/vj12.md)
 
 Related:
 - [[VAWT]]

@@ -21,8 +21,10 @@ Key points:
 - Turbine wakes increase downwind loads and can affect microclimates and noise. (source: sources/vj3.md)
 
 Figures:
-- ![Figure 1: Daily Cycle of TKE](../../images/vj3-fig1.jpg)
-- ![Figure 2: Power Curve Variability with Turbulence Intensity](../../images/vj3-fig2.jpg)
+- ![Source figure](../../images/vj3-fig1.jpg)
+  Original caption: Figure 1: Daily Cycle of TKE [Source](../../sources/vj3.md)
+- ![Source figure](../../images/vj3-fig2.jpg)
+  Original caption: Figure 2: Power Curve Variability with Turbulence Intensity [Source](../../sources/vj3.md)
 
 Related concepts: [[Atmospheric Turbulence]], [[Urban Wind Conditions]], [[HAWT vs VAWT]]
 

@@ -17,7 +17,8 @@ This parameter change moves the Savonius component from the middle of the Darrie
 - The Savonius rotor is split into two shaftless halves. (source: sources/vj2.md)
 - One half is placed at the top of the Darrieus rotor and the other at the bottom. (source: sources/vj2.md)
 
-![Figure 6: split Savonius placement at top and bottom.](../../images/vj2-fig6.jpg)
+![Source figure](../../images/vj2-fig6.jpg)
+Original caption: Figure 6: The Savonius rotor was split in two halves that were placed on top and bottom of the hybrid wind turbine [Source](../../sources/vj2.md)
 
 ## Outcome
 
@@ -26,9 +27,12 @@ This parameter change moves the Savonius component from the middle of the Darrie
 - The source also reports an 11.8% gain relative to the first optimized no-shaft configuration. (source: sources/vj2.md)
 - The source notes that some of the improvement may also be partially explained by increased swept area. (source: sources/vj2.md)
 
-![Figure 7: reduced turbulence influence on Darrieus blades, side view.](../../images/vj2-fig7a.jpg)
-![Figure 7: reduced turbulence influence on Darrieus blades, top view.](../../images/vj2-fig7b.jpg)
-![Figure 8: torque values for the three configurations.](../../images/vj2-fig8.jpg)
+![Source figure](../../images/vj2-fig7a.jpg)
+Original caption: Figure 7: The influence of turbulence produced on the Darrieus blades is reduced compared with the original design; (a) - side view; (b) - top view [Source](../../sources/vj2.md)
+![Source figure](../../images/vj2-fig7b.jpg)
+Original caption: Figure 7: The influence of turbulence produced on the Darrieus blades is reduced compared with the original design; (a) - side view; (b) - top view [Source](../../sources/vj2.md)
+![Source figure](../../images/vj2-fig8.jpg)
+Original caption: Figure 8: Torque values calculated for each configuration, for one third of a complete rotation (15 degree steps) [Source](../../sources/vj2.md)
 
 ## Related
 

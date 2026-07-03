@@ -18,10 +18,14 @@ This paper studies CFD-based optimization of Savonius wind turbine blade shapes,
 - The 3D CFD validation shows the optimized designs peak near the design TSR of 0.9, and the scooplet-based design remains the strongest performer among the tested shapes. (source: sources/vj9.md)
 
 Figures:
-- Figure 1: ![Figure 1: Schematic of Savonius-type VAWT](../../images/vj9-fig1.jpg)
-- Figure 7: ![Figure 7: Savonius s/d ¼ 0.1, comparison of 3D CFD with 2D CFD and experimental data](../../images/vj9-fig7.jpg)
-- Figure 16: ![Figure 16: Optimization results: a) modified classical Savonius b) the scooplet-based design c) separated scoop from the scooplet-based design](../../images/vj9-fig16.jpg)
-- Figure 24: ![Figure 24: Comparison of power coefficient of SWT with optimized blade designs as predicted by 3D CFD](../../images/vj9-fig24.jpg)
+- ![Source figure](../../images/vj9-fig1.jpg)
+  Original caption: Figure 1: Schematic of Savonius-type VAWT. [Source](../../sources/vj9.md)
+- ![Source figure](../../images/vj9-fig7.jpg)
+  Original caption: Figure 7: Savonius s/d ¼ 0.1, comparison of 3D CFD with 2D CFD and experimental data (EPDcP e effect of end plate friction torque on cP in 3D CFD). [Source](../../sources/vj9.md)
+- ![Source figure](../../images/vj9-fig16.jpg)
+  Original caption: Figure 16: Optimization results: a) modified classical Savonius b) the scooplet-based design c) separated scoop from the scooplet-based design. [Source](../../sources/vj9.md)
+- ![Source figure](../../images/vj9-fig24.jpg)
+  Original caption: Figure 24: Comparison of power coefficient of SWT with optimized blade designs as predicted by 3D CFD. [Source](../../sources/vj9.md)
 
 Related pages: [[Savonius Turbine]], [[VAWT]], [[CFD]], [[Wind Turbine Parameters]], [[HAWT vs VAWT]]
 

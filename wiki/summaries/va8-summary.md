@@ -24,11 +24,17 @@ Key points:
 
 ## Figures
 
-![Figure 1: external perspective view of the hybrid vertical-axis wind turbine](../../images/va8-fig1.jpg)
-![Figure 2: vertical cross section of the turbine shaft and generator/storage arrangement](../../images/va8-fig2.jpg)
-![Figure 3: close-up view of the blade and connecting beams](../../images/va8-fig3.jpg)
-![Figure 4: asymmetrical airfoil profile](../../images/va8-fig4.jpg)
-![Figure 5: lift coefficient versus angle of attack from wind tunnel observations](../../images/va8-fig5.jpg)
-![Figure 6: two-blade force arrangement](../../images/va8-fig6.jpg)
+![Source figure](../../images/va8-fig1.jpg)
+Original caption: Figure 1: External perspective view of the vertical axis wind turbine. [Source](../../sources/va8.md)
+![Source figure](../../images/va8-fig2.jpg)
+Original caption: Figure 2: Vertical cross section of the turbine shaft. [Source](../../sources/va8.md)
+![Source figure](../../images/va8-fig3.jpg)
+Original caption: Figure 3: Close up view of a blade along with the connecting beams. [Source](../../sources/va8.md)
+![Source figure](../../images/va8-fig4.jpg)
+Original caption: Figure 4: Cross sectional view showing the blade having the asymmetrical airfoil profile. [Source](../../sources/va8.md)
+![Source figure](../../images/va8-fig5.jpg)
+Original caption: Figure 5: Relation between lift coefficient and angle of attack. [Source](../../sources/va8.md)
+![Source figure](../../images/va8-fig6.jpg)
+Original caption: Figure 6: Arrangement of two airfoil blade-profiles with respect to the connecting beams. [Source](../../sources/va8.md)
 
 Related concepts: [[Hybrid VAWT]], [[Aerodynamic Design Parameters]], [[Structures and Loads]], [[Materials and Manufacturing]], [[Urban Wind Conditions]], [[Wind Tunnel Testing]]

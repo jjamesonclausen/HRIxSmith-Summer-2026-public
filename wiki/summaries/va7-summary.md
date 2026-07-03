@@ -24,9 +24,13 @@ Key points:
 
 ## Figures
 
-![Figure 1: helical blade geometry and helix-angle definition](../../images/va7-fig1.jpg)
-![Figure 7: coefficient of performance across helix angles](../../images/va7-fig7.jpg)
-![Figure 14: standard deviation of Cp across blade types and TSR](../../images/va7-fig14.jpg)
-![Figure 22: wake structure at TSR 3.1](../../images/va7-fig22.jpg)
+![Source figure](../../images/va7-fig1.jpg)
+Original caption: Figure 1. Top view of (a) Helical blade vertical axis wind turbines (VAWT) with definition of direction of rotation (θ) and [Source](../../sources/va7.md)
+![Source figure](../../images/va7-fig7.jpg)
+Original caption: Figure 7. Coefficient of performance of VAWT for various helix angles. [Source](../../sources/va7.md)
+![Source figure](../../images/va7-fig14.jpg)
+Original caption: Figure 14. The standard deviation of Cp of different helical-bladed and straight-bladed VAWT [Source](../../sources/va7.md)
+![Source figure](../../images/va7-fig22.jpg)
+Original caption: Figure 22. Wake structure of helical blade VAWT at Y/D of 2 (a,d,g,j), 3 (b,e,h,k), and 4 (c,f,i,l). For straight and helicalbladed VAWT at TSR = 3.1. [Source](../../sources/va7.md)
 
 Related concepts: [[Helical VAWT]], [[VAWT]], [[Wind Turbine Parameters]], [[CFD]]

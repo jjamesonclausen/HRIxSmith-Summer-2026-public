@@ -24,10 +24,14 @@ HAWTs:
 
 ## Figures
 
-![Figure 1: VAWT and HAWT parts](../../images/va6-fig1.jpg)
-![Figure 2: rotor power coefficient and tip speed ratio comparison](../../images/va6-fig2.jpg)
-![Figure 4: peak efficiencies](../../images/va6-fig4.jpg)
-![Figure 5: properties at the same nominal power](../../images/va6-fig5.jpg)
+![Source figure](../../images/va6-fig1.jpg)
+Original caption: Figure 1(a): VAWT parts [Source](../../sources/va6.md)
+![Source figure](../../images/va6-fig2.jpg)
+Original caption: Figure 1(b): HAWT parts [Source](../../sources/va6.md)
+![Source figure](../../images/va6-fig4.jpg)
+Original caption: Figure 3. Wind turbines rotor power coefficient and the tip speed ratio for several wind turbines [Source](../../sources/va6.md)
+![Source figure](../../images/va6-fig5.jpg)
+Original caption: Figure 4. Wind turbines peak efficiencies [Source](../../sources/va6.md)
 
 VAWTs:
 - Omnidirectional, no yaw system needed (source: sources/vj1.md)

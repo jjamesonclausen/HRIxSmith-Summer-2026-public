@@ -13,10 +13,14 @@ Summary of `sources/vj8.md`. (source: sources/vj8.md)
 
 Parameter optimization study of a contra-rotating VAWT using CFD and response surfaces. (source: sources/vj8.md)
 
-![Figure 2: Schematic diagram of CRVAWT simulation analysis and optimization.](../../images/vj8-fig2.jpg)
-![Figure 8: Torque comparison between VAWT and CRVAWT.](../../images/vj8-fig8.jpg)
-![Figure 17: Response surface fitting results.](../../images/vj8-fig17.jpg)
-![Figure 18: Flow chart of CRVAWT parameter optimization method.](../../images/vj8-fig18.jpg)
+![Source figure](../../images/vj8-fig2.jpg)
+Original caption: Fig. 2. Schematic diagram of CRVAWT simulation analysis and optimization. [Source](../../sources/vj8.md)
+![Source figure](../../images/vj8-fig8.jpg)
+Original caption: Fig. 8. Torque comparison between VAWT and CRVAWT. [Source](../../sources/vj8.md)
+![Source figure](../../images/vj8-fig17.jpg)
+Original caption: Fig. 17. Response surface fitting results. [Source](../../sources/vj8.md)
+![Source figure](../../images/vj8-fig18.jpg)
+Original caption: Fig. 18. Flow chart of CRVAWT parameter optimization method. [Source](../../sources/vj8.md)
 
 Key points:
 - The CRVAWT is less efficient than an isolated VAWT before optimization but more stable. (source: sources/vj8.md)

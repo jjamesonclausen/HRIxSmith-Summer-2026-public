@@ -1,6 +1,20 @@
 #maintenance
 ## Log
 
+### 2026-07-03 — Link wiki images to original source captions
+
+- Task: update every existing wiki image so it displays the original figure caption and links back to the source Markdown file.
+- Actions:
+  - Audited all image embeds across `wiki/` and matched each image filename to its source caption in `sources/*.md`.
+  - Added an `Original caption:` line below each wiki image that links to the corresponding source file.
+  - Replaced stale or paraphrased image alt text with a neutral image label while moving the exact source caption into visible page text, including cases where the surrounding wiki text had the wrong figure number.
+  - Used explicit caption recovery for `HRI2526` figures where the converted source still contains placeholder extracted-image labels near the top of the file.
+- Decisions:
+  - Linked each image back to its source Markdown file rather than inventing deep anchors, because the converted sources do not have stable figure anchors.
+  - Preserved existing page structure and figure selection, limiting the change to caption accuracy and source traceability.
+- Open:
+  - Some converted source captions still contain OCR/PDF extraction artifacts such as unusual symbols; those were preserved rather than silently rewritten.
+
 ### 2026-07-03 — Rename parameter pages to include source prefixes
 
 - Task: rename every file in `wiki/parameters/` so the filename includes the source, for example `va9 EN0005 Blade Profile.md`.

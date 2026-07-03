@@ -16,7 +16,8 @@ This parameter change removes the shaft from inside the Savonius rotor in the hy
 - The source treats that shaft as a possible obstruction to internal circulation from one Savonius blade to the other. (source: sources/vj2.md)
 - The changed configuration removes that shaft from the inside of the Savonius rotor. (source: sources/vj2.md)
 
-![Figure 5: shaft blocking the Savonius overlap space.](../../images/vj2-fig5.jpg)
+![Source figure](../../images/vj2-fig5.jpg)
+Original caption: Figure 5: The shaft (in blue) occupies about 66% of the overlapping space between the two blades of the Savonius rotor [Source](../../sources/vj2.md)
 
 ## Outcome
 
@@ -24,7 +25,8 @@ This parameter change removes the shaft from inside the Savonius rotor in the hy
 - The optimized no-shaft configuration reports an average torque increase of 10.5% relative to the original design at 7 m/s. (source: sources/vj2.md)
 - Torque gains are positive at all reported attack angles from 0 degrees to 120 degrees, with increases ranging from 3.35% to 19.51%. (source: sources/vj2.md)
 
-![Figure 8: torque values for the three configurations.](../../images/vj2-fig8.jpg)
+![Source figure](../../images/vj2-fig8.jpg)
+Original caption: Figure 8: Torque values calculated for each configuration, for one third of a complete rotation (15 degree steps) [Source](../../sources/vj2.md)
 
 ## Related
 

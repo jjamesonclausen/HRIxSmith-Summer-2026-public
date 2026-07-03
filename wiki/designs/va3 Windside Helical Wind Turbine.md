@@ -22,8 +22,10 @@ The Windside turbine is a Finnish vertical helical turbine whose design is based
 - The generator is shown at the base/right side in the manufacturing figure. (source: sources/va3.md)
 - The design is intended for inland and marine environments. (source: sources/va3.md)
 
-![Figure 26. Helical wind turbine with generator at its base.](../../images/va3-fig26.jpg)
-![Figure 27. Manufacturing of helical wind blades. The generator is at right.](../../images/va3-fig27.jpg)
+![Source figure](../../images/va3-fig26.jpg)
+Original caption: Figure 26. Helical wind turbine with generator at its base. [Source](../../sources/va3.md)
+![Source figure](../../images/va3-fig27.jpg)
+Original caption: Figure 27. Manufacturing of helical wind blades. The generator is at right. [Source](../../sources/va3.md)
 
 ## Performance
 

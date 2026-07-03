@@ -23,8 +23,10 @@ Effects on turbines:
 - Atmospheric-turbulence material also identifies wind shear and surface friction as causes of turbulence. (source: sources/vj3.md)
 
 Figures:
-- ![Figure 3: Wind speed in the case of sheared inflow and no shear](../../images/vj10-fig3.jpg)
-- ![Figure 11: Distribution of power coefficient](../../images/vj10-fig11.jpg)
+- ![Source figure](../../images/vj10-fig3.jpg)
+  Original caption: Figure 3: Wind speed in the case of sheared inflow and no shear. [Source](../../sources/vj10.md)
+- ![Source figure](../../images/vj10-fig11.jpg)
+  Original caption: Figure 11: Distribution of power coefficient. [Source](../../sources/vj10.md)
 
 Related:
 - [[Blade Element-Momentum Model]]

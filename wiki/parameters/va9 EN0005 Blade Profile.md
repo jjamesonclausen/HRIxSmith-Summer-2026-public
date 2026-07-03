@@ -19,7 +19,8 @@ The EN0005 blade profile is the design parameter changed in `va9` to improve Dar
 - The remaining lower surface finishes in a cup form that increases drag when the blade is stopped in the downstream zone. (source: sources/va9.md)
 - The source says that drag force decreases to negligible value once turbine rotation starts. (source: sources/va9.md)
 
-![Fig. 5. Blade profile EN0005.](../../images/va9-fig5.jpg)
+![Source figure](../../images/va9-fig5.jpg)
+Original caption: Fig. 5. Blade profile EN0005. [Source](../../sources/va9.md)
 
 ## Outcome
 
@@ -30,11 +31,16 @@ The EN0005 blade profile is the design parameter changed in `va9` to improve Dar
 - Compared with NACA0018 and NACA4418, EN0005 is reported to have better lift coefficient between -60 degrees and -10 degrees, lower drag coefficient over the same range, and a higher moment coefficient peak between -30 degrees and 0 degrees. (source: sources/va9.md)
 - The field-test prototype using the design is reported to self-start at 1.25 m/s. (source: sources/va9.md)
 
-![Fig. 7. Cpr contribution to Tpr.](../../images/va9-fig7.jpg)
-![Fig. 8. Cpr contribution to Npr.](../../images/va9-fig8.jpg)
-![Fig. 9. Lift coefficient.](../../images/va9-fig9.jpg)
-![Fig. 10. Drag coefficient.](../../images/va9-fig10.jpg)
-![Fig. 11. Moment coefficient.](../../images/va9-fig11.jpg)
+![Source figure](../../images/va9-fig7.jpg)
+Original caption: Fig. 7. Cpr contribution to Tpr. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig8.jpg)
+Original caption: Fig. 8. Cpr contribution to Npr. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig9.jpg)
+Original caption: Fig. 9. Lift coefficient. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig10.jpg)
+Original caption: Fig. 10. Drag coefficient. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig11.jpg)
+Original caption: Fig. 11. Moment coefficient. [Source](../../sources/va9.md)
 
 ## Related
 

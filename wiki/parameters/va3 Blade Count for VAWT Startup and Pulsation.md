@@ -16,8 +16,10 @@ The source treats blade count as a design parameter in the Eurowind and Venturi 
 - The same section says using more than 2 blades reduces cyclic loading and power pulsation/fluctuation. (source: sources/va3.md)
 - The Venturi section says the six-bladed rotor induces a high startup moment. (source: sources/va3.md)
 
-![Figure 17. Eurowind wind mill designs.](../../images/va3-fig17b.jpg)
-![Figure 20. Venturi wind turbines.](../../images/va3-fig20b.jpg)
+![Source figure](../../images/va3-fig17b.jpg)
+Original caption: Figure 17. Eurowind wind mill designs. [Source](../../sources/va3.md)
+![Source figure](../../images/va3-fig20b.jpg)
+Original caption: Figure 20. Venturi wind turbines. [Source](../../sources/va3.md)
 
 ## Outcome
 

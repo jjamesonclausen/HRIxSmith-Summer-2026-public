@@ -11,7 +11,8 @@ Tags:
 
 The double-multiple streamtube (DMS) model is a Blade Element-Momentum variant for Darrieus VAWTs where the actuator disk is divided into upstream and downstream half-cycles, each with its own induced velocity. (source: sources/va9.md)
 
-![Fig. 16. Double-multiple streamtube model diagram.](../../images/va9-fig16.jpg)
+![Source figure](../../images/va9-fig16.jpg)
+Original caption: Fig. 16. Double-multiple streamtube model diagram. [Source](../../sources/va9.md)
 
 Core idea:
 - The rotor is divided into streamtubes, and each streamtube has upstream and downstream actuator-disc behavior. (source: sources/va9.md)
@@ -29,8 +30,10 @@ Novel sliced DMS approach:
 - The va9 paper proposes slicing the wind turbine parallel to the wind-flow path, analyzing blade movement path and blade-profile mutations inside each slice, treating each slice as a virtual Darrieus VAWT, and integrating the resulting slice performance data. (source: sources/va9.md)
 - The source presents this as useful for complex blade forms and for integration into CFD and CAD tools. (source: sources/va9.md)
 
-![Fig. 19. Novel approach to the DMS model in a V shaped Darrieus VAWT.](../../images/va9-fig19.jpg)
-![Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow.](../../images/va9-fig20.jpg)
+![Source figure](../../images/va9-fig19.jpg)
+Original caption: Fig. 19. Novel approach to the DMS model in a V shaped Darrieus VAWT. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig20.jpg)
+Original caption: Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow. [Source](../../sources/va9.md)
 
 Related:
 - [[Blade Element-Momentum Model]]

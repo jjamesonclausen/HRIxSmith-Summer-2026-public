@@ -11,7 +11,8 @@ Tags:
 
 A genetic algorithm variant that splits the population into multiple islands that evolve separately and periodically exchange individuals. (source: sources/va2.md)
 
-![Figure 13: MIGA and surrogate model optimization flowchart](../../images/va2-fig13.jpg)
+![Source figure](../../images/va2-fig13.jpg)
+Original caption: Figure 13: MIGA and surrogate model optimization flowchart [Source](../../sources/va2.md)
 
 - Each island performs selection, crossover, and mutation independently. (source: sources/va2.md)
 - Migration helps global search and reduces premature convergence risk. (source: sources/va2.md)

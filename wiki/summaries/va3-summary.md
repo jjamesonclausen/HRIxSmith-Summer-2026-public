@@ -20,11 +20,16 @@ Overview article on vertical-axis wind turbines, covering drag-based, lift-based
 - One Turby power-curve figure did not recover as a clean caption/image pair in the export and is marked unverified in the source markdown. (source: sources/va3.md)
 
 Figures:
-- Figure 9: ![Figure 9: Rotating cup anemometer and drag cup wind turbine](../../images/va3-fig10.jpg)
-- Figure 10: ![Figure 10: Evolution of the Savonius design for water pumping from half drums into the fluted spiral bladed design](../../images/va3-fig11.jpg)
-- Figure 24: ![Figure 24: Wind tunnel testing of Turby wind turbine design](../../images/va3-fig25.jpg)
-- Figure 25: ![Figure 25: Turby turbine power curve](../../images/va3-fig26.jpg)
-- Figure 26: ![Figure 26: Helical wind turbine with generator at its base](../../images/va3-fig24.jpg)
+- ![Source figure](../../images/va3-fig10.jpg)
+  Original caption: Figure 10. Evolution of the Savonius design for water pumping from half drums into the fluted spiral bladed design. [Source](../../sources/va3.md)
+- ![Source figure](../../images/va3-fig11.jpg)
+  Original caption: Figure 11. Eole C 4.2 MW Darrieus vertical axis wind turbine, Cap Chat, Québec, Canada. [Source](../../sources/va3.md)
+- ![Source figure](../../images/va3-fig25.jpg)
+  Original caption: Figure 25. Turby turbine power curve. [Source](../../sources/va3.md)
+- ![Source figure](../../images/va3-fig26.jpg)
+  Original caption: Figure 26. Helical wind turbine with generator at its base. [Source](../../sources/va3.md)
+- ![Source figure](../../images/va3-fig24.jpg)
+  Original caption: Figure 24. Wind tunnel testing of Turby wind turbine design. [Source](../../sources/va3.md)
 
 Related concepts: [[VAWT]], [[Darrieus Turbine]], [[Savonius Turbine]], [[H-VAWT]], [[Hybrid VAWT]], [[HAWT vs VAWT]]
 

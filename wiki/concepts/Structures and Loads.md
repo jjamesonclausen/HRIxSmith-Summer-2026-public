@@ -27,7 +27,8 @@ This page collects the load and structural issues that shape a VAWT design.
 - The hybrid-CFD study in `vj2` identifies the internal Savonius shaft as a structural element that also obstructs flow through the blade overlap space, creating a tradeoff between structure and aerodynamic torque. (source: sources/vj2.md)
 - The same source says Savonius-generated turbulence can negatively affect the lift-based Darrieus blades when the Savonius rotor sits in the middle of the hybrid rotor. (source: sources/vj2.md)
 
-![Figure 2: va8 vertical shaft, bearing, generator, and storage arrangement](../../images/va8-fig2.jpg)
+![Source figure](../../images/va8-fig2.jpg)
+Original caption: Figure 2: Vertical cross section of the turbine shaft. [Source](../../sources/va8.md)
 
 Related:
 - [[Dynamic Stall]]

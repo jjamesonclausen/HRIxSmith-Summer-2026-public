@@ -25,8 +25,10 @@ The source presents a Darrieus VAWT intended for urban areas, designed to self-s
 - The design uses blades with a main body and two blade ends. (source: sources/va9.md)
 - The blade ends can be placed toward the inside or outside of the rotor, or parallel to the main blade body. (source: sources/va9.md)
 
-![Fig. 23. New Darrieus VAWT with blade ends in two different positions.](../../images/va9-fig23.jpg)
-![Fig. 26. New Darrieus VAWT design prototype.](../../images/va9-fig26.jpg)
+![Source figure](../../images/va9-fig23.jpg)
+Original caption: Fig. 23. New Darrieus VAWT with blade ends in two different positions. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig26.jpg)
+Original caption: Fig. 26. New Darrieus VAWT design prototype. [Source](../../sources/va9.md)
 
 ## Unique Design Choices
 
@@ -35,8 +37,10 @@ The source presents a Darrieus VAWT intended for urban areas, designed to self-s
 - Blade ends positioned toward the inside of the rotor are described as increasing drag because of augmented blade-profile height, improving self-start capability. (source: sources/va9.md)
 - When TSR is greater than 2, the source says lift forces on inward-positioned blade ends provide turbine-blade revolution stability. (source: sources/va9.md)
 
-![Fig. 5. Blade profile EN0005.](../../images/va9-fig5.jpg)
-![Fig. 24. Wind flow reaching the new Darrieus VAWT in vertical or horizontal planes.](../../images/va9-fig24.jpg)
+![Source figure](../../images/va9-fig5.jpg)
+Original caption: Fig. 5. Blade profile EN0005. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig24.jpg)
+Original caption: Fig. 24. Wind flow reaching the new Darrieus VAWT in vertical or horizontal planes. [Source](../../sources/va9.md)
 
 ## Performance
 
@@ -47,8 +51,10 @@ The source presents a Darrieus VAWT intended for urban areas, designed to self-s
 - The field-test table reports power coefficients of 0.416 at 1.25 m/s, 0.321 at 2 m/s, 0.314 at 2.25 m/s, and 0.313 at 3 m/s. (source: sources/va9.md)
 - The prototype shows high torque but low rotor angular speed; the source says the high torque helps it work at low wind speed. (source: sources/va9.md)
 
-![Fig. 27. Different field tests scenarios.](../../images/va9-fig27.jpg)
-![Fig. 29. Prototype rotor speed at different wind speeds.](../../images/va9-fig29.jpg)
+![Source figure](../../images/va9-fig27.jpg)
+Original caption: Fig. 27. Different field tests scenarios. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig29.jpg)
+Original caption: Fig. 29. Prototype rotor speed at different wind speeds. [Source](../../sources/va9.md)
 
 ## Related
 

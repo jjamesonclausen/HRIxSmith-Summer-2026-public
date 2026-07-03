@@ -27,8 +27,10 @@ The Turby is a three-bladed helical vertical-axis turbine advocated for urban en
 - Converter type: 4-quadrant AC-DC-AC. (source: sources/va3.md)
 - Generator: three-phase synchronous permanent magnet. (source: sources/va3.md)
 
-![Figure 22. Turby three bladed vertical axis turbine.](../../images/va3-fig22.jpg)
-![Figure 23. Turby triple blade wind turbine design on top of a building.](../../images/va3-fig23.jpg)
+![Source figure](../../images/va3-fig22.jpg)
+Original caption: Figure 22. Turby three bladed vertical axis turbine. [Source](../../sources/va3.md)
+![Source figure](../../images/va3-fig23.jpg)
+Original caption: Figure 23. Turby triple blade wind turbine design on top of a building. [Source](../../sources/va3.md)
 
 ## Performance
 
@@ -42,8 +44,10 @@ The Turby is a three-bladed helical vertical-axis turbine advocated for urban en
 - Peak power: 3.0 kW. (source: sources/va3.md)
 - Starting is achieved by generator motor operation. (source: sources/va3.md)
 
-![Figure 24. Wind tunnel testing of Turby wind turbine design.](../../images/va3-fig24.jpg)
-![Figure 25. Turby turbine power curve.](../../images/va3-fig25.jpg)
+![Source figure](../../images/va3-fig24.jpg)
+Original caption: Figure 24. Wind tunnel testing of Turby wind turbine design. [Source](../../sources/va3.md)
+![Source figure](../../images/va3-fig25.jpg)
+Original caption: Figure 25. Turby turbine power curve. [Source](../../sources/va3.md)
 
 ## Related
 

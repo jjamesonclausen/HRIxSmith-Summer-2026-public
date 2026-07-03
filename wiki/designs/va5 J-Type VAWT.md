@@ -27,10 +27,14 @@ A small drag-based vertical-axis wind turbine design using J-shaped blades. (sou
 
 ## Figures
 
-![Figure 1: configurations for shaft and rotor orientation](../../images/va5-fig1.jpg)
-![Figure 3: blade parameters](../../images/va5-fig2.jpg)
-![Figure 4: block diagram](../../images/va5-fig3.jpg)
-![Figure 5-8: CAD design, assembly, turbine specifications, and observation table](../../images/va5-fig4.jpg)
+![Source figure](../../images/va5-fig1.jpg)
+Original caption: Fig 1: Configurations for shaft and rotor orientation [Source](../../sources/va5.md)
+![Source figure](../../images/va5-fig2.jpg)
+Original caption: Table. 1: Comparison of wind turbines. [Source](../../sources/va5.md)
+![Source figure](../../images/va5-fig3.jpg)
+Original caption: Fig 3: Blade parameters [Source](../../sources/va5.md)
+![Source figure](../../images/va5-fig4.jpg)
+Original caption: Fig. 4: Block Diagram [Source](../../sources/va5.md)
 
 Related:
 - [[VAWT]]

@@ -18,7 +18,8 @@ Tags:
 
 Drag-based VAWT using scooped blades. (source: sources/n1.md, sources/va1.md)
 
-![Figure 1: Basic design of a Savonius rotor](../../images/vj2-fig1.jpg)
+![Source figure](../../images/vj2-fig1.jpg)
+Original caption: Figure 1: Basic design of a Savonius rotor [Source](../../sources/vj2.md)
 
 - Geometry:
   - Typically uses two semicircular blades around a vertical shaft. (source: sources/HRI2526.md)
@@ -44,8 +45,10 @@ Drag-based VAWT using scooped blades. (source: sources/n1.md, sources/va1.md)
 - Suffers from negative torque on returning blade, reducing efficiency. (source: sources/HRI2526.md)
 - Optimization includes blade count, overlap ratio, and augmentation devices. (source: sources/HRI2526.md)
 
-![Figure 12: Savonius rotor with endplates](../../images/vj12-fig12.jpg)
-![Figure 19: Comparison of helical and conventional Savonius rotor](../../images/vj12-fig19.jpg)
+![Source figure](../../images/vj12-fig12.jpg)
+Original caption: Figure 12: Savonius rotor with endplates [19]. [Source](../../sources/vj12.md)
+![Source figure](../../images/vj12-fig19.jpg)
+Original caption: Figure 19: Comparison of helical and conventional Savonius rotor [81]. [Source](../../sources/vj12.md)
 
 The review places Savonius operation around TSR 0.6-1.2 and peak Cp about 0.15-0.25, with self-starting as the main advantage. (source: sources/vj11.md)
 It treats Savonius as the drag-based family used when low-speed startup matters more than peak efficiency. (source: sources/vj11.md)
@@ -55,7 +58,8 @@ In hybrid systems, Savonius is the startup element that helps cover Darrieus neg
 - Modern variants evolved from half drums into fluted spiral-bladed designs that improve efficiency and reduce vibration. (source: sources/va3.md)
 - The J-type rooftop design is a separate drag-based VAWT concept, but it shares the low-cost drag-rotor rationale. (source: sources/va5.md)
 
-![Figure 10: Evolution of the Savonius design for water pumping from half drums into the fluted spiral bladed design](../../images/va3-fig10.jpg)
+![Source figure](../../images/va3-fig10.jpg)
+Original caption: Figure 10. Evolution of the Savonius design for water pumping from half drums into the fluted spiral bladed design. [Source](../../sources/va3.md)
 
 - Two-bladed configurations often achieve higher power coefficients. (source: sources/n2.md)
 - Optimal aspect ratio typically around 1.5–2. (source: sources/n2.md)

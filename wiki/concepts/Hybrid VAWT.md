@@ -15,10 +15,14 @@ Tags:
 
 Vertical axis wind turbine combining Darrieus (lift-based) and Savonius (drag-based) rotors. (source: sources/HRI2526.md)
 
-![Figure 3: CAD model of the initial configuration of the proposed hybrid wind turbine](../../images/vj2-fig3a.jpg)
-![Figure 9: Hybrid VAWT with inner classical Savonius and outer H-rotor Darrieus](../../images/hri2526-fig9.jpg)
-![Figure 14: Final CAD Model of the Helical Hybrid VAWT](../../images/hri2526-fig14.jpg)
-![Figure 1: patent example of hybrid VAWT using lift blades and compartmented channel beams](../../images/va8-fig1.jpg)
+![Source figure](../../images/vj2-fig3a.jpg)
+Original caption: Figure 3: (a) CAD model of the initial configuration of the proposed hybrid wind turbine (at the bottom - bearing housing and power generator); (b) simplified CAD model for CFD analysis [Source](../../sources/vj2.md)
+![Source figure](../../images/hri2526-fig9.jpg)
+Original caption: Fig. 9. Hybrid VAWT with inner classical Savonius and outer H-rotor Darrieus [29] [Source](../../sources/HRI2526.md)
+![Source figure](../../images/hri2526-fig14.jpg)
+Original caption: Fig. 14. Final CAD Model of the Helical Hybrid VAWT. [Source](../../sources/HRI2526.md)
+![Source figure](../../images/va8-fig1.jpg)
+Original caption: Figure 1: External perspective view of the vertical axis wind turbine. [Source](../../sources/va8.md)
 
 - Geometry:
   - Common layout is an outer Darrieus rotor with an inner Savonius rotor. (source: sources/HRI2526.md)
@@ -70,7 +74,8 @@ Tradeoffs:
 - CFD case study: a helical Savonius inside a helical Darrieus rotor gained 10.5% torque after removing the Savonius shaft and 22.3% after moving split Savonius halves outside the Darrieus rotor. (source: sources/vj2.md)
 - The same study reports the initial hybrid geometry used a 1000 mm by 500 mm Savonius rotor inside a 1600 mm diameter, three-bladed helical Darrieus rotor with NACA 0018 blades of 110 mm chord and 1800 mm projected height. (source: sources/vj2.md)
 
-![Figure 8: Torque values calculated for each configuration](../../images/vj2-fig8.jpg)
+![Source figure](../../images/vj2-fig8.jpg)
+Original caption: Figure 8: Torque values calculated for each configuration, for one third of a complete rotation (15 degree steps) [Source](../../sources/vj2.md)
 
 Method note:
 - SolidWorks Flow Simulation was used on a 3D domain with nine attack angles from 0 to 120 degrees. (source: sources/vj2.md)

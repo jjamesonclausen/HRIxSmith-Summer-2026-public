@@ -27,8 +27,10 @@ The Windspire is a slender, straight-bladed Darrieus/gyromill design optimized f
 - Rotor material: aircraft-grade extruded aluminum. (source: sources/va3.md)
 - Monopole/structure material: recycled high-grade steel. (source: sources/va3.md)
 
-![Figure 31. Winsdspire vertical straight blade or gyromill Darrieus wind turbine design.](../../images/va3-fig31.jpg)
-![Figure 32. Air core generator used with the Windspire turbine.](../../images/va3-fig32.jpg)
+![Source figure](../../images/va3-fig31.jpg)
+Original caption: Figure 31. Winsdspire vertical straight blade or gyromill Darrieus wind turbine design. [Source](../../sources/va3.md)
+![Source figure](../../images/va3-fig32.jpg)
+Original caption: Figure 32. Air core generator used with the Windspire turbine. [Source](../../sources/va3.md)
 
 ## Performance
 
@@ -42,7 +44,8 @@ The Windspire is a slender, straight-bladed Darrieus/gyromill design optimized f
 - Survival wind speed: 100 mph / 45 m/s. (source: sources/va3.md)
 - Noise is described as imperceptible at 10 mph and 8.8 dB above ambient at 50 mph. (source: sources/va3.md)
 
-![Figure 35. Power curve of the Windspire flat blade Darrieus turbine.](../../images/va3-fig35.jpg)
+![Source figure](../../images/va3-fig35.jpg)
+Original caption: Figure 35. Power curve of the Windspire flat blade Darrieus turbine. [Source](../../sources/va3.md)
 
 ## Related
 

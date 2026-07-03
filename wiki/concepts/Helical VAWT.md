@@ -40,11 +40,16 @@ It notes that 120 degrees gives smoother loading, while 60 degrees gave the best
 
 ## Figures
 
-![Figure 1: sketch of the HVAWT](../../images/va4-fig1.jpg)
-![Figure 14: 2D LES versus 3D U-RANS power coefficient](../../images/va4-fig14.jpg)
-![Figure 1: helical blade geometry and helix-angle definition](../../images/va7-fig1.jpg)
-![Figure 7: coefficient of performance across helix angles](../../images/va7-fig7.jpg)
-![Figure 14: standard deviation of Cp across blade types and TSR](../../images/va7-fig14.jpg)
+![Source figure](../../images/va4-fig1.jpg)
+Original caption: Figure 1. The sketch of HVAWT. [Source](../../sources/va4.md)
+![Source figure](../../images/va4-fig14.jpg)
+Original caption: Figure 14. Power coefficient results derived by 2D LES and 3D U-RANS methods for Rec = 60,800, TSR = 1.46. [Source](../../sources/va4.md)
+![Source figure](../../images/va7-fig1.jpg)
+Original caption: Figure 1. Top view of (a) Helical blade vertical axis wind turbines (VAWT) with definition of direction of rotation (θ) and [Source](../../sources/va7.md)
+![Source figure](../../images/va7-fig7.jpg)
+Original caption: Figure 7. Coefficient of performance of VAWT for various helix angles. [Source](../../sources/va7.md)
+![Source figure](../../images/va7-fig14.jpg)
+Original caption: Figure 14. The standard deviation of Cp of different helical-bladed and straight-bladed VAWT [Source](../../sources/va7.md)
 
 Related:
 - [[VAWT]]

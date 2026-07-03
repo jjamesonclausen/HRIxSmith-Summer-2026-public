@@ -27,8 +27,10 @@ The Venturi turbine concept attaches rotor blades to the hub at both ends so rot
 - Gearbox type: no gearbox, direct driven. (source: sources/va3.md)
 - Generator: four-phase brushless permanent-magnet generator. (source: sources/va3.md)
 
-![Figure 20. Venturi wind turbines.](../../images/va3-fig20a.jpg)
-![Figure 21. Visualisation of the Venturi Effect.](../../images/va3-fig21.jpg)
+![Source figure](../../images/va3-fig20a.jpg)
+Original caption: Figure 20. Venturi wind turbines. [Source](../../sources/va3.md)
+![Source figure](../../images/va3-fig21.jpg)
+Original caption: Figure 21. Visualisation of the Venturi Effect. [Source](../../sources/va3.md)
 
 ## Performance
 

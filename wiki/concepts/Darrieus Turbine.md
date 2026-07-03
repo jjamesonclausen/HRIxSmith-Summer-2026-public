@@ -19,9 +19,12 @@ Tags:
 
 Lift-based VAWT using airfoil blades to generate lift and rotation. (source: sources/n1.md, sources/va1.md)
 
-![Figure 2: Darrieus generator examples](../../images/vj2-fig2a.jpg)
-![Figure 4: Pressure contour from Darrieus turbine CFD showing high pressure above the airfoil blade and low pressure below it causing rotating in the counterclockwise direction](../../images/hri2526-fig4.jpg)
-![Figure 6: Different Types of Darrieus VAWTs](../../images/hri2526-fig6.jpg)
+![Source figure](../../images/vj2-fig2a.jpg)
+Original caption: Figure 2: (a) The "TEV 100" Darrieus generator, made by ICPITMUA Brasov; nominal power: 100 kW; nominal wind speed: 11...13 m/s; blade profile: NACA 0015; maximum Cp: 0.38. (b) The "TEV 20" H-type Darrieus generator, made by ICPITMUA Brasov; nominal power: 20 kW; blade profile: NACA 0012; nominal wind speed: 11 m/s; maximum Cp: 0.31 [Source](../../sources/vj2.md)
+![Source figure](../../images/hri2526-fig4.jpg)
+Original caption: Fig. 4. Pressure contour from Darrieus turbine CFD showing high pressure above the airfoil blade and low pressure below it causing rotating in the counterclockwise direction [17] [Source](../../sources/HRI2526.md)
+![Source figure](../../images/hri2526-fig6.jpg)
+Original caption: Fig. 6. Different Types of Darrieus VAWTs [19] [Source](../../sources/HRI2526.md)
 
 - Geometry:
   - Uses airfoil blades creating pressure differences to generate lift. (source: sources/HRI2526.md)
@@ -61,8 +64,10 @@ It presents the EN0005 blade profile as a Darrieus-specific self-start design th
 The field-test prototype reported self-start at 1.25 m/s, stable behavior in a 25 m/s wind-tunnel stress test, and no audible noise emission in the tested urban environment. (source: sources/va9.md)
 The hybrid-CFD study in `vj2` says turbulence produced by an internal Savonius rotor negatively affects the lift-based Darrieus blades, and reports lower interference after the Savonius component is moved to split top-and-bottom positions outside the Darrieus space. (source: sources/vj2.md)
 
-![Fig. 5. Blade profile EN0005.](../../images/va9-fig5.jpg)
-![Fig. 26. New Darrieus VAWT design prototype.](../../images/va9-fig26.jpg)
+![Source figure](../../images/va9-fig5.jpg)
+Original caption: Fig. 5. Blade profile EN0005. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig26.jpg)
+Original caption: Fig. 26. New Darrieus VAWT design prototype. [Source](../../sources/va9.md)
 
 Related:
 - [[VAWT]]

@@ -17,7 +17,8 @@ The source uses tip speed ratio as a design/analysis parameter for distinguishin
 - The source states that α > 1 implies some amount of lift, while α < 1 means primarily drag. (source: sources/va3.md)
 - It says aerodynamic lift-based designs can usually output much more power and do so more efficiently. (source: sources/va3.md)
 
-![Figure 9. Rotating cup anemometer and drag cup wind turbine.](../../images/va3-fig9a.jpg)
+![Source figure](../../images/va3-fig9a.jpg)
+Original caption: Figure 9. Rotating cup anemometer and drag cup wind turbine. [Source](../../sources/va3.md)
 
 ## Outcome
 

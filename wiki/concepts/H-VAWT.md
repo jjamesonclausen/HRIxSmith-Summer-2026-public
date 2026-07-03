@@ -13,7 +13,8 @@ Tags:
 
 Vertical-axis wind turbine with straight blades arranged around the rotor, often used as a benchmark for aerodynamic modeling and optimization. (source: sources/va2.md)
 
-![Figure 1: Schematic of VAWT blade forces at different azimuthal angles](../../images/va2-fig1.jpg)
+![Source figure](../../images/va2-fig1.jpg)
+Original caption: Figure 1: Schematic of VAWT blade forces at different azimuthal angles [Source](../../sources/va2.md)
 
 - Geometry:
   - Straight blades are arranged around the rotor in an H-type layout. (source: sources/va2.md)
@@ -33,7 +34,8 @@ Vertical-axis wind turbine with straight blades arranged around the rotor, often
 - The helical configuration widened the range near maximum CP and reduced fatigue-driving oscillations. (source: sources/vj4.md)
 - The va9 paper uses an H-rotor in skewed flow as an example for its sliced DMS approach, where the blade follows an elliptical path in some slices and the effective blade profile changes with blade angle. (source: sources/va9.md)
 
-![Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow.](../../images/va9-fig20.jpg)
+![Source figure](../../images/va9-fig20.jpg)
+Original caption: Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow. [Source](../../sources/va9.md)
 
 Related: [[VAWT]], [[Darrieus Turbine]], [[HAWT vs VAWT]], [[Kriging Surrogate Model]], [[CST Parameterization]], [[Multi-Island Genetic Algorithm]], [[Straight-bladed Darrieus]], [[Double-Multiple Streamtube Model]]
  

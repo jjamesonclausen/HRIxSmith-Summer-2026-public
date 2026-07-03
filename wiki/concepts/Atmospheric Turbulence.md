@@ -38,7 +38,8 @@ Wind-energy effects:
 - Turbulence increases loads, wake interactions, fatigue, and noise propagation. (source: sources/vj3.md)
 - In the HAWT wind-shear study, non-uniform vertical wind profile reduces power coefficient and changes lift and thrust coefficients along the blade. (source: sources/vj10.md)
 
-![Figure 2: Power Curve Variability with Turbulence Intensity](../../images/vj3-fig2.jpg)
+![Source figure](../../images/vj3-fig2.jpg)
+Original caption: Figure 2: Power Curve Variability with Turbulence Intensity [Source](../../sources/vj3.md)
 
 Related:
 - [[Urban Wind Conditions]]

@@ -17,8 +17,10 @@ Summary of `sources/va6.md`. (source: sources/va6.md)
 
 ## Figures
 
-![Figure 1: VAWT and HAWT parts](../../images/va6-fig1.jpg)
-![Figure 4: peak efficiencies](../../images/va6-fig4.jpg)
+![Source figure](../../images/va6-fig1.jpg)
+Original caption: Figure 1(a): VAWT parts [Source](../../sources/va6.md)
+![Source figure](../../images/va6-fig4.jpg)
+Original caption: Figure 3. Wind turbines rotor power coefficient and the tip speed ratio for several wind turbines [Source](../../sources/va6.md)
 
 Related concepts: [[HAWT vs VAWT]], [[VAWT]], [[Wind Turbine Parameters]]
 

@@ -28,8 +28,10 @@ The source presents a hybrid VAWT that places a helical Savonius rotor together 
 - The shared shaft diameter is 38 mm through the Savonius region. (source: sources/vj2.md)
 - The overlap space between the Savonius blades is 58 mm. (source: sources/vj2.md)
 
-![Figure 3: initial hybrid CAD model.](../../images/vj2-fig3a.jpg)
-![Figure 3: simplified CAD model for CFD analysis.](../../images/vj2-fig3b.jpg)
+![Source figure](../../images/vj2-fig3a.jpg)
+Original caption: Figure 3: (a) CAD model of the initial configuration of the proposed hybrid wind turbine (at the bottom - bearing housing and power generator); (b) simplified CAD model for CFD analysis [Source](../../sources/vj2.md)
+![Source figure](../../images/vj2-fig3b.jpg)
+Original caption: Figure 3: (a) CAD model of the initial configuration of the proposed hybrid wind turbine (at the bottom - bearing housing and power generator); (b) simplified CAD model for CFD analysis [Source](../../sources/vj2.md)
 
 ## Unique Design Choices
 
@@ -38,8 +40,10 @@ The source presents a hybrid VAWT that places a helical Savonius rotor together 
 - One optimized configuration removes the shaft from inside the Savonius rotor. (source: sources/vj2.md)
 - A second optimized configuration splits the Savonius rotor into two no-shaft halves and places them at the top and bottom of the Darrieus rotor. (source: sources/vj2.md)
 
-![Figure 5: shaft blocking the Savonius overlap space.](../../images/vj2-fig5.jpg)
-![Figure 6: split Savonius placement at top and bottom.](../../images/vj2-fig6.jpg)
+![Source figure](../../images/vj2-fig5.jpg)
+Original caption: Figure 5: The shaft (in blue) occupies about 66% of the overlapping space between the two blades of the Savonius rotor [Source](../../sources/vj2.md)
+![Source figure](../../images/vj2-fig6.jpg)
+Original caption: Figure 6: The Savonius rotor was split in two halves that were placed on top and bottom of the hybrid wind turbine [Source](../../sources/vj2.md)
 
 ## Performance
 
@@ -50,9 +54,12 @@ The source presents a hybrid VAWT that places a helical Savonius rotor together 
 - The source says the second configuration also improves torque by 11.8% relative to the first optimized configuration. (source: sources/vj2.md)
 - The source notes that some of the second configuration's improvement may be partly explained by increased swept area. (source: sources/vj2.md)
 
-![Figure 7: reduced turbulence influence on Darrieus blades, side view.](../../images/vj2-fig7a.jpg)
-![Figure 7: reduced turbulence influence on Darrieus blades, top view.](../../images/vj2-fig7b.jpg)
-![Figure 8: torque values for the three configurations.](../../images/vj2-fig8.jpg)
+![Source figure](../../images/vj2-fig7a.jpg)
+Original caption: Figure 7: The influence of turbulence produced on the Darrieus blades is reduced compared with the original design; (a) - side view; (b) - top view [Source](../../sources/vj2.md)
+![Source figure](../../images/vj2-fig7b.jpg)
+Original caption: Figure 7: The influence of turbulence produced on the Darrieus blades is reduced compared with the original design; (a) - side view; (b) - top view [Source](../../sources/vj2.md)
+![Source figure](../../images/vj2-fig8.jpg)
+Original caption: Figure 8: Torque values calculated for each configuration, for one third of a complete rotation (15 degree steps) [Source](../../sources/vj2.md)
 
 ## Related
 

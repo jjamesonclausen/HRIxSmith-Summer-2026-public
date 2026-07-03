@@ -1,7 +1,7 @@
 ## Ingesting a source
 #schema 
 1. Read the converted source fully.
-2. Inspect any extracted figures in `images/` and link relevant ones in the wiki pages you create or update. 
+2. Inspect any extracted figures in `images/` and link relevant ones in the wiki pages you create or update. Include the figure captions directly below the figure, and a link to the figure's source. 
 3. Create a source summary page in `wiki/summaries/` named after the source, eg. `va2-summary.md` .
 4. Summarize the source at a high level on that page, using only what the source supports. 
 5. Extract key concepts and methods from the source. 

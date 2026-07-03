@@ -26,8 +26,10 @@ A VAWT concept that uses rotors spinning in opposite directions. (source: source
 - The contra-rotating paper treats this as a way to improve stability and wind-energy recovery. (source: sources/vj8.md)
 - The source reports a lower pre-optimization power coefficient than the isolated VAWT, but a much lower total torque after optimization. (source: sources/vj8.md)
 
-![Figure 2: Counter-rotating VAWT](../../images/vj12-fig2.jpg)
-![Figure 3: Power coefficient against wind speed for single-rotor and dual-rotor wind turbine](../../images/vj12-fig3.jpg)
+![Source figure](../../images/vj12-fig2.jpg)
+Original caption: Figure 2: Counter-rotating VAWT [28]. [Source](../../sources/vj12.md)
+![Source figure](../../images/vj12-fig3.jpg)
+Original caption: Figure 3: Power coefficient against wind speed for single-rotor and dual-rotor wind turbine [32]. [Source](../../sources/vj12.md)
 
 Related:
 - [[Hybrid VAWT]]

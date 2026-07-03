@@ -34,10 +34,14 @@ These are the main geometry knobs the sources repeatedly treat as design variabl
 - The same paper compares EN0005 with NACA0018, NACA0020, NACA4418, and NACA4420 using pressure-coefficient contributions to tangential and normal force. (source: sources/va9.md)
 - It reports EN0005 has better lift coefficient between -60 and -10 degrees, lower drag coefficient in that same interval, and a higher moment-coefficient peak between -30 and 0 degrees than the compared profiles. (source: sources/va9.md)
 
-![Figure 4: asymmetrical blade profile and chord/camber definitions in the va8 patent](../../images/va8-fig4.jpg)
-![Figure 5: va8 wind tunnel lift-coefficient curves versus angle of attack](../../images/va8-fig5.jpg)
-![Fig. 7. Cpr contribution to Tpr.](../../images/va9-fig7.jpg)
-![Fig. 9. Lift coefficient.](../../images/va9-fig9.jpg)
+![Source figure](../../images/va8-fig4.jpg)
+Original caption: Figure 4: Cross sectional view showing the blade having the asymmetrical airfoil profile. [Source](../../sources/va8.md)
+![Source figure](../../images/va8-fig5.jpg)
+Original caption: Figure 5: Relation between lift coefficient and angle of attack. [Source](../../sources/va8.md)
+![Source figure](../../images/va9-fig7.jpg)
+Original caption: Fig. 7. Cpr contribution to Tpr. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig9.jpg)
+Original caption: Fig. 9. Lift coefficient. [Source](../../sources/va9.md)
 
 Related:
 - [[Wind Turbine Parameters]]

@@ -13,7 +13,8 @@ Tags:
 
 Experimental method used to evaluate turbine performance at small scale. (source: sources/HRI2526.md)
 
-![Figure 12: Wind Tunnel Testing Setup](../../images/hri2526-fig12.jpg)
+![Source figure](../../images/hri2526-fig12.jpg)
+Original caption: Fig. 12. Wind Tunnel Testing Setup [Source](../../sources/HRI2526.md)
 
 Setup:
 - Small-scale 3D printed turbines mounted on a vertical rod with bearings. (source: sources/HRI2526.md)
@@ -31,9 +32,12 @@ Measurements:
 - The va9 prototype self-started at 1.25 m/s and remained stable under a 25 m/s wind-tunnel stress test. (source: sources/va9.md)
 - Its noise test reports identical measured values when stopped and running at 0, 1, 2, and 3 m distance for 2.5 m/s and 5.0 m/s wind speeds. (source: sources/va9.md)
 
-![Figure 5: va8 lift coefficient versus angle of attack from wind tunnel observations](../../images/va8-fig5.jpg)
-![Fig. 27. Different field tests scenarios.](../../images/va9-fig27.jpg)
-![Fig. 28. Field test sensors.](../../images/va9-fig28.jpg)
+![Source figure](../../images/va8-fig5.jpg)
+Original caption: Figure 5: Relation between lift coefficient and angle of attack. [Source](../../sources/va8.md)
+![Source figure](../../images/va9-fig27.jpg)
+Original caption: Fig. 27. Different field tests scenarios. [Source](../../sources/va9.md)
+![Source figure](../../images/va9-fig28.jpg)
+Original caption: Fig. 28. Field test sensors. [Source](../../sources/va9.md)
 
 Limitations:
 - Scaling mismatch with real-world conditions. (source: sources/HRI2526.md)
