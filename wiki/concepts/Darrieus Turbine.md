@@ -86,6 +86,8 @@ Related:
 - [[va9 EN0005 Self-start Darrieus VAWT]]
 - [[va9 EN0005 Blade Profile]]
 - [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
+- [[vj2 Shaftless Savonius-Darrieus Hybrid Wind Turbine]]
+- [[vj2 Split Savonius Outside Darrieus Hybrid Wind Turbine]]
 - [[va3 Ropatec WRE.060 WindRotor]]
 - [[va3 Eurowind VAWT]]
 - [[va3 Tip Speed Ratio Classification]]

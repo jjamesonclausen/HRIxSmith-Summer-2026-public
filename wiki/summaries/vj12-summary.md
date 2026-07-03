@@ -29,6 +29,6 @@ Figures:
 - ![Source figure](../../images/vj12-fig28.jpg)
   Original caption: Figure 28: Schematic diagram for wind farms (a) aligned, (b) staggered, (c) scattered [137]. [Source](../../sources/vj12.md)
 
-Related pages: [[VAWT]], [[Contra-rotating VAWT]], [[Savonius Turbine]], [[Urban Wind Conditions]], [[Wind Shear]], [[Optimization]], [[Wind Turbine Parameters]], [[Design Checklist]]
+Related pages: [[VAWT]], [[Contra-rotating VAWT]], [[Savonius Turbine]], [[Urban Wind Conditions]], [[Wind Shear]], [[Optimization]], [[Wind Turbine Parameters]], [[Design Checklist]], [[vj12 Counter-rotating Dual-Rotor VAWT]]
 
 #summaries

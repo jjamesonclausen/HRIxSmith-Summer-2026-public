@@ -1,11 +1,15 @@
 ---
 Created:
-Updated: 2026-07-02
-Sources:
-- [[HRI2526]]
-Source_count: 1
-Tags:
-- Designs
+Source: [[HRI2526]]
+Tags: "#designs"
+Cp:
+Efficiency:
+TSR:
+Swept area:
+Cut-in speed:
+Starting torque:
+Rated speed:
+Rated power:
 ---
 ## Darrieus above Savonius
 

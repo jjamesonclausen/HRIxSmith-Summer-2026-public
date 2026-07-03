@@ -90,6 +90,7 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 _Specific turbine design pages live in [`designs/`](designs/)._
 
 - [[HRI2526 Classical Savonius]]
+- [[vj12 Counter-rotating Dual-Rotor VAWT]]
 - [[vj8 Contra-rotating VAWT]]
 - [[va3 Counter-rotating VAWT Array]]
 - [[HRI2526 Darrieus above Savonius]]
@@ -100,6 +101,8 @@ _Specific turbine design pages live in [`designs/`](designs/)._
 - [[HRI2526 Helical Hybrid]]
 - [[va5 J-Type VAWT]]
 - [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
+- [[vj2 Shaftless Savonius-Darrieus Hybrid Wind Turbine]]
+- [[vj2 Split Savonius Outside Darrieus Hybrid Wind Turbine]]
 - [[va3 Aerogenerator Offshore VAWT]]
 - [[HRI2526 Multi-stage Savonius within H-rotor Darrieus]]
 - [[HRI2526 Outer Darrieus with Inner Savonius]]

@@ -36,3 +36,4 @@ Related:
 - [[Rules of Thumb]]
 - [[Hybrid VAWT]]
 - [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
+- [[vj2 Shaftless Savonius-Darrieus Hybrid Wind Turbine]]

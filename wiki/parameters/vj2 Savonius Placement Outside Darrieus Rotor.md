@@ -37,6 +37,7 @@ Original caption: Figure 8: Torque values calculated for each configuration, for
 ## Related
 
 - [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
+- [[vj2 Split Savonius Outside Darrieus Hybrid Wind Turbine]]
 - [[Hybrid VAWT]]
 - [[Optimization]]
 

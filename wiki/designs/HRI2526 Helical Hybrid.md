@@ -1,15 +1,20 @@
 ---
 Created:
-Updated: 2026-07-02
-Sources:
-- [[HRI2526]]
-Source_count: 1
-Tags:
-- Designs
+Source: [[HRI2526]]
+Tags: "#designs"
+Cp:
+Efficiency:
+TSR:
+Swept area:
+Cut-in speed:
+Starting torque:
+Rated speed:
+Rated power:
 ---
+
 ## Helical Hybrid
 
-A hybrid VAWT combining helical Darrieus blades with an internal helical Savonius rotor. (source: sources/HRI2526.md, sources/vj8.md)
+A hybrid VAWT combining helical Darrieus blades with an internal helical Savonius rotor. (source: sources/HRI2526.md)
 
 - Geometry:
   - The final HRI design uses asymmetrical helical Darrieus blades around a widened internal helical Savonius rotor. (source: sources/HRI2526.md)

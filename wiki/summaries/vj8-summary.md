@@ -28,4 +28,6 @@ Key points:
 - The optimized CRVAWT reaches Cp 0.1837 and cuts total torque by 96.96%. (source: sources/vj8.md)
 - The paper is framed around offshore wind-energy recovery. (source: sources/vj8.md)
 
+Design page: [[vj8 Contra-rotating VAWT]]
+
 #summaries

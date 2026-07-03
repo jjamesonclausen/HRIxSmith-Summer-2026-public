@@ -31,6 +31,7 @@ Original caption: Figure 8: Torque values calculated for each configuration, for
 ## Related
 
 - [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
+- [[vj2 Shaftless Savonius-Darrieus Hybrid Wind Turbine]]
 - [[HRI2526 Aerodynamic Design Parameters]]
 - [[Optimization]]
 

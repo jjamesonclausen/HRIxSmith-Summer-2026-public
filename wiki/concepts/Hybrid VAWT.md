@@ -93,6 +93,8 @@ See also:
 - [[Structures and Loads]]
 - [[Materials and Manufacturing]]
 - [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
+- [[vj2 Shaftless Savonius-Darrieus Hybrid Wind Turbine]]
+- [[vj2 Split Savonius Outside Darrieus Hybrid Wind Turbine]]
 - [[vj2 Savonius Shaft Removal]]
 - [[vj2 Savonius Placement Outside Darrieus Rotor]]
 

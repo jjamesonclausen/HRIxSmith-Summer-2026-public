@@ -1,37 +1,51 @@
 ---
-Created:
-Updated: 2026-07-02
-Sources:
-- [[vj12]]
-- [[vj8]]
-Source_count: 2
-Tags:
-- Designs
+Created: 2026-07-02
+Source: [[vj8]]
+Tags: "#designs"
+Cp: 0.1837
+Efficiency:
+TSR:
+Swept area:
+Cut-in speed:
+Starting torque:
+Rated speed:
+Rated power:
 ---
+
 ## Contra-rotating VAWT
 
-A VAWT concept that uses rotors spinning in opposite directions. (source: sources/vj8.md)
+A VAWT concept that uses two coaxial rotors spinning in opposite directions. This page covers the specific `vj8` CRVAWT optimization study rather than the broader contra-rotating review literature. (source: sources/vj8.md)
 
-- Geometry:
-  - The study treats pitch angle, airfoil thickness, rotor spacing, and included angle as the main geometry variables. (source: sources/vj8.md)
-- Performance:
-  - The paper says the concept improves wind-energy recovery and stability versus the isolated VAWT. (source: sources/vj8.md)
-  - After optimization, Cp reached 0.1837 and total torque dropped by 96.96%. (source: sources/vj8.md)
-  - The review says a CRVAWT stacks two rotors on the same vertical axis, often with a single shaft and generator, and opposite rotation is required to avoid output cancellation. (source: sources/vj12.md)
-  - It reports one study found an optimum top-to-bottom spacing of about 10 cm and that smaller spacing improved performance. (source: sources/vj12.md)
-  - The review says CRVAWTs can keep producing power even if only one rotor is spinning. (source: sources/vj12.md)
-- Tradeoffs:
-  - The paper reports lower pre-optimization Cp than the isolated VAWT, so the stability gain comes with an initial efficiency penalty. (source: sources/vj8.md)
+## Geometry
 
-- The contra-rotating paper treats this as a way to improve stability and wind-energy recovery. (source: sources/vj8.md)
-- The source reports a lower pre-optimization power coefficient than the isolated VAWT, but a much lower total torque after optimization. (source: sources/vj8.md)
+- The modeled turbine uses an upper rotor and a lower rotor, each with two NACA0021 blades connected by brackets. (source: sources/vj8.md)
+- The two rotors are coaxial and rotate in opposite directions, with a disk generator between them and a floating platform at the bottom. (source: sources/vj8.md)
+- Rotor radius is 1000 mm, rotor height is 1200 mm, blade chord is 265 mm, and baseline rotor spacing is 300 mm. (source: sources/vj8.md)
+- The baseline blade pitch angle is 6 degrees. (source: sources/vj8.md)
 
-![Source figure](../../images/vj12-fig2.jpg)
-Original caption: Figure 2: Counter-rotating VAWT [28]. [Source](../../sources/vj12.md)
-![Source figure](../../images/vj12-fig3.jpg)
-Original caption: Figure 3: Power coefficient against wind speed for single-rotor and dual-rotor wind turbine [32]. [Source](../../sources/vj12.md)
+![Source figure](../../images/vj8-fig3.jpg)
+Original caption: Fig. 3. Model and parameters of CRVAWT. [Source](../../sources/vj8.md)
 
-Related:
-- [[Hybrid VAWT]]
-- [[VAWT Types]]
+## Unique Design Choices
+
+- The study optimizes four specific design variables: blade pitch angle, relative airfoil thickness, rotor spacing, and included angle between the two rotors. (source: sources/vj8.md)
+- The source frames the design around offshore use, where low total torque is valuable for platform stability. (source: sources/vj8.md)
+
+## Performance
+
+- Before optimization, the CRVAWT has lower power coefficient than the isolated VAWT but better stability. (source: sources/vj8.md)
+- After optimization, Cp reaches 0.1837, which the paper reports as a 36.68% increase over the pre-optimization CRVAWT. (source: sources/vj8.md)
+- The optimized CRVAWT reaches 99.19% of the isolated-VAWT single-rotor power coefficient while reducing total torque to 3.04% of the isolated VAWT. (source: sources/vj8.md)
+- The optimized values reported by the paper are 1.2 degrees pitch angle, 19.7% relative airfoil thickness, 449.4 mm rotor spacing, and 0 degrees included angle. (source: sources/vj8.md)
+- The source says excessively small spacing causes strong rotor interference, while excessively large spacing raises the center of gravity and hurts stability. (source: sources/vj8.md)
+
+![Source figure](../../images/vj8-fig17.jpg)
+Original caption: Fig. 17. Response surface fitting results. [Source](../../sources/vj8.md)
+
+## Related
+
+- [[Contra-rotating VAWT]]
 - [[Optimization]]
+- [[vj12 Counter-rotating Dual-Rotor VAWT]]
+
+#designs

@@ -1,6 +1,21 @@
 #maintenance
 ## Log
 
+### 2026-07-03 — Split legacy multi-source design pages
+
+- Task: audit `wiki/designs/` for old pages that combined multiple sources or multiple turbine configurations, then separate them into single-source design pages.
+- Actions:
+  - Audited every design page against the current single-source design-page rule.
+  - Split the old `vj2 Savonius-Darrieus Hybrid Wind Turbine` coverage into three source-specific design pages: the original middle-Savonius layout, the shaftless middle-Savonius variant, and the split-Savonius outside-Darrieus variant.
+  - Split the old contra-rotating design coverage by keeping `vj8 Contra-rotating VAWT` specific to the `vj8` optimization study and adding `vj12 Counter-rotating Dual-Rotor VAWT` for the separate `vj12` review design.
+  - Removed cross-source claims from the legacy HRI design pages `HRI2526 Eggbeater Darrieus`, `HRI2526 Troposkien Darrieus`, `HRI2526 Outer Darrieus with Inner Savonius`, and `HRI2526 Helical Hybrid` so each now cites only `sources/HRI2526.md`.
+  - Updated `wiki/index.md`, relevant summary pages, and related links from concept/parameter pages to point to the new design pages.
+- Decisions:
+  - Treated the two optimized `vj2` configurations as separate turbine designs because the paper materially changes rotor structure and placement, not just an abstract parameter value.
+  - Treated the extra `vj4`, `n2`, and `vj8` citations on the HRI pages as cleanup issues rather than new design pages, because those pages were still describing a single HRI concept each.
+- Open:
+  - Some older HRI design pages that were already single-source still use older frontmatter formatting and may be worth normalizing later for consistency.
+
 ### 2026-07-03 — Link wiki images to original source captions
 
 - Task: update every existing wiki image so it displays the original figure caption and links back to the source Markdown file.
