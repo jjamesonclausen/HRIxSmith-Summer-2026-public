@@ -53,5 +53,5 @@ Related:
 - [[CFD]]
 - [[Dynamic Stall]]
 - [[Aerodynamic Design Parameters]]
-- [[Windside Helical Wind Turbine]]
-- [[QuietRevolution QR5]]
+- [[va3 Windside Helical Wind Turbine]]
+- [[va3 QuietRevolution QR5]]

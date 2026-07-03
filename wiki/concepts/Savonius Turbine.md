@@ -70,7 +70,7 @@ Related:
 - [[Helical Savonius]]
 - [[Darrieus Turbine]]
 - [[Hybrid VAWT]]
-- [[Savonius-Darrieus Hybrid Wind Turbine]]
+- [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
 - [[Wind Turbine Parameters]]
 - [[Aerodynamic Design Parameters]]
 - [[Tip Speed Ratio Classification]]

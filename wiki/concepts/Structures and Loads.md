@@ -34,4 +34,4 @@ Related:
 - [[Materials and Manufacturing]]
 - [[Rules of Thumb]]
 - [[Hybrid VAWT]]
-- [[Savonius-Darrieus Hybrid Wind Turbine]]
+- [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]

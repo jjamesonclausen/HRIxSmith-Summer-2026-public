@@ -1,6 +1,19 @@
 #maintenance
 ## Log
 
+### 2026-07-03 — Rename design pages to include source prefixes
+
+- Task: rename every file in `wiki/designs/` so the filename includes the source, for example `va9 EN0005 Self-start Darrieus VAWT.md`.
+- Actions:
+  - Renamed all 22 files in `wiki/designs/` to source-prefixed names using the page's source metadata or primary source.
+  - Updated design-section entries in `wiki/index.md` to the new filenames.
+  - Updated the wiki links that intentionally target design pages so they now point to the source-prefixed names.
+- Decisions:
+  - For single-source pages, used that exact source prefix such as `va3`, `va5`, `va9`, and `vj2`.
+  - For older multi-source design pages, used the primary design source rather than every supporting source, for example `HRI2526` for the hybrid-family variants and `vj8` for `Contra-rotating VAWT`.
+- Open:
+  - Some old links that previously used ambiguous bare names now resolve to concept pages instead of design pages by default; this is intentional unless a page explicitly meant the design document.
+
 ### 2026-07-03 — Remove duplicate va10 source
 
 - Task: delete the duplicate `va10` source and retarget any surviving wiki references to `vj2`.

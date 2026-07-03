@@ -87,7 +87,7 @@ See also:
 - [[Aerodynamic Design Parameters]]
 - [[Structures and Loads]]
 - [[Materials and Manufacturing]]
-- [[Savonius-Darrieus Hybrid Wind Turbine]]
+- [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
 - [[Savonius Shaft Removal]]
 - [[Savonius Placement Outside Darrieus Rotor]]
 

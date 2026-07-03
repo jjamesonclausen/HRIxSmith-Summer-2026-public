@@ -28,7 +28,7 @@ Figures:
 
 Related concepts: [[VAWT]], [[Darrieus Turbine]], [[Savonius Turbine]], [[H-VAWT]], [[Hybrid VAWT]], [[HAWT vs VAWT]]
 
-Design pages: [[Ropatec WRE.060 WindRotor]], [[Solwind Vertical Axis Wind Turbine]], [[Eurowind VAWT]], [[Venturi Wind Turbine]], [[Turby Wind Turbine]], [[Windside Helical Wind Turbine]], [[QuietRevolution QR5]], [[Aerogenerator Offshore VAWT]], [[Windspire Gyromill]], [[Counter-rotating VAWT Array]]
+Design pages: [[va3 Ropatec WRE.060 WindRotor]], [[va3 Solwind Vertical Axis Wind Turbine]], [[va3 Eurowind VAWT]], [[va3 Venturi Wind Turbine]], [[va3 Turby Wind Turbine]], [[va3 Windside Helical Wind Turbine]], [[va3 QuietRevolution QR5]], [[va3 Aerogenerator Offshore VAWT]], [[va3 Windspire Gyromill]], [[va3 Counter-rotating VAWT Array]]
 
 Parameter pages: [[Tip Speed Ratio Classification]], [[Blade Count for VAWT Startup and Pulsation]], [[Counter-rotating Array Spacing]]
 

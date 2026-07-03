@@ -28,7 +28,7 @@ The source treats close spacing and counter-rotation as array design parameters 
 
 ## Related
 
-- [[Counter-rotating VAWT Array]]
+- [[va3 Counter-rotating VAWT Array]]
 - [[Tip Speed Ratio Classification]]
 - [[VAWT]]
 

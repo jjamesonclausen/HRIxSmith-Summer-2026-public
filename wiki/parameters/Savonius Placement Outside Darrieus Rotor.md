@@ -32,7 +32,7 @@ This parameter change moves the Savonius component from the middle of the Darrie
 
 ## Related
 
-- [[Savonius-Darrieus Hybrid Wind Turbine]]
+- [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
 - [[Hybrid VAWT]]
 - [[Optimization]]
 

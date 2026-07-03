@@ -78,11 +78,11 @@ Related:
 - [[Aerodynamic Design Parameters]]
 - [[Wind Tunnel Testing]]
 - [[Double-Multiple Streamtube Model]]
-- [[EN0005 Self-start Darrieus VAWT]]
+- [[va9 EN0005 Self-start Darrieus VAWT]]
 - [[EN0005 Blade Profile]]
-- [[Savonius-Darrieus Hybrid Wind Turbine]]
-- [[Ropatec WRE.060 WindRotor]]
-- [[Eurowind VAWT]]
+- [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
+- [[va3 Ropatec WRE.060 WindRotor]]
+- [[va3 Eurowind VAWT]]
 - [[Tip Speed Ratio Classification]]
 
 #concepts 

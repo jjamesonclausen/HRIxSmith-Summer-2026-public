@@ -110,6 +110,6 @@ Related:
 - [[Wind Tunnel Testing]]
 - [[Double-Multiple Streamtube Model]]
 - [[Tip Speed Ratio Classification]]
-- [[Counter-rotating VAWT Array]]
+- [[va3 Counter-rotating VAWT Array]]
 
 #concepts 

@@ -27,8 +27,8 @@ The source treats blade count as a design parameter in the Eurowind and Venturi 
 
 ## Related
 
-- [[Eurowind VAWT]]
-- [[Venturi Wind Turbine]]
+- [[va3 Eurowind VAWT]]
+- [[va3 Venturi Wind Turbine]]
 - [[Aerodynamic Design Parameters]]
 
 #parameters
