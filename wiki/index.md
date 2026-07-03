@@ -24,6 +24,7 @@ _One page per file in `sources/`._
 - [[va7-summary]]
 - [[va8-summary]]
 - [[va9-summary]]
+- [[va10-summary]]
 - [[va5-summary]]
 - [[va4-summary]]
 - [[va3-summary]]

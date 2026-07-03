@@ -5,6 +5,7 @@ Sources:
 - [[HRI2526]]
 - [[n1]]
 - [[va1]]
+- [[va10]]
 - [[va4]]
 - [[va7]]
 - [[vj12]]
@@ -12,7 +13,7 @@ Sources:
 - [[vj5]]
 - [[vj6]]
 - [[vj8]]
-Source_count: 10
+Source_count: 11
 Tags:
 - methods
 ---
@@ -38,6 +39,10 @@ Original caption: Fig. 17. CFD Flow volume with stationary and rotating domains 
 - A later review organized VAWT CFD around problem definition, meshing, equation discretisation, boundary conditions, numerical solution, and post-processing. (source: sources/vj6.md)
 - That review also emphasized static/dynamic meshing, turbulence-model choice, near-wall resolution, and experimental validation. (source: sources/vj6.md)
 - It framed CFD as the detailed middle ground between lower-fidelity models and wind-tunnel experiments. (source: sources/vj6.md)
+- The va10 review recommends grid-sensitivity and domain-sensitivity studies, clustering cells near the blade and wake, and matching `y+` to the wall treatment used by the turbulence model. (source: sources/va10.md)
+- It reports a reviewed domain-size study where torque stabilized when the domain-to-rotor-diameter ratio exceeded 15, and it cites about 14 diameters of downwind length as enough for wake development. (source: sources/va10.md)
+- It compares `k-epsilon`, `k-omega SST`, transition SST, LES, and hybrid RANS-LES, and frames LES and hybrid RANS-LES as higher-fidelity options for separated unsteady flow at higher computational cost. (source: sources/va10.md)
+- In one reviewed solver comparison, PISO produced the best results while SIMPLE struggled at low TSR and COUPLED failed to capture the blade-flow behavior. (source: sources/va10.md)
 - The helical-VAWT study used 2D LES for blade-scale flow and 3D U-RANS with SST k-omega for the full rotor. (source: sources/va4.md)
 - It found that 3D effects such as tip vortex and second flow reduce performance relative to 2D predictions. (source: sources/va4.md)
 - A helical-VAWT helix-angle study used Ansys FLUENT with stationary and rotating domains, a sliding mesh interface, transition SST k-omega turbulence modeling, grid/time-step independence checks, and validation against McLaren's experimental VAWT data. (source: sources/va7.md)
@@ -53,6 +58,14 @@ Original caption: Figure 14. Power coefficient results derived by 2D LES and 3D 
 Original caption: Figure 3. (a) Sectional view of the domain mesh: (b) mesh near the blade, (c) mesh growth surrounding the blade. [[va7|Source]]
 ![Source figure](../../images/va7-fig21.jpg)
 Original caption: Figure 21. Z-vorticity magnitude of 90◦helical-bladed VAWT at 100◦, 130◦, and 150◦of azimuth angles of rotation of a [[va7|Source]]
+![Source figure](../../images/va10-fig4.jpg)
+Original caption: Fig. 4. Structured computational grid around blade [25]. [[va10|Source]]
+![Source figure](../../images/va10-fig5.jpg)
+Original caption: Fig. 5. Computational grid independency study [31]. [[va10|Source]]
+![Source figure](../../images/va10-fig7.jpg)
+Original caption: Fig. 7. Lift coefficient comparison for transition SST and k omega SST turbulence models. Adapted from [32]. [[va10|Source]]
+![Source figure](../../images/va10-fig8.jpg)
+Original caption: Fig. 8. Comparison of power coefficient at different tip speed ratios for IDDES and k omega SST turbulence models [53]. [[va10|Source]]
 - The CRVAWT optimization paper used STAR-CCM+ CFD, validated an isolated VAWT against wind-tunnel data, and then used the simulation outputs in a response-surface optimization workflow. (source: sources/vj8.md)
 
 ![Source figure](../../images/vj12-fig21.jpg)

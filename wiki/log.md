@@ -1,6 +1,22 @@
 #maintenance
 ## Log
 
+### 2026-07-03 — Convert and ingest va10 CFD review source
+
+- Task: convert `PDFs/va10_raw.pdf` into `sources/va10.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Recreated `sources/va10.md` with source frontmatter, extracted text, figure captions, and links to `images/va10-fig1.jpg` through `images/va10-fig20.jpg`.
+  - Extracted a displayed solidity equation as `images/va10-eq1.jpg` and linked it from the source note.
+  - Added `wiki/summaries/va10-summary.md`.
+  - Updated `wiki/methods/CFD.md`, `wiki/concepts/CFD and Validation.md`, and `wiki/concepts/Dynamic Stall.md` with `va10`-supported claims and figure links.
+  - Updated `wiki/index.md` and marked `sources/va10.md` as processed.
+  - Re-ran source-backlink and Obsidian-link verification checks on the edited wiki pages and the wiki as a whole.
+- Decisions:
+  - Kept the ingest minimal because `va10` is a broad CFD review and the existing wiki already had the right concept and method pages; no new design or parameter pages were added on this pass.
+  - Treated `va10` as the current source ID for this 2017 Darrieus-CFD review even though older log entries describe a different, previously removed `va10`; the historical log was preserved and the ID reuse is documented here instead of rewriting past entries.
+- Open:
+  - The PDF text extraction still contains some two-column ordering artifacts in `sources/va10.md`; the wiki pages added here were grounded conservatively in claims that were clear in the source despite those artifacts.
+
 ### 2026-07-03 — Verify source backlinks in wiki properties
 
 - Task: verify that wiki pages include source-note backlinks in their properties for every source they cite, and add any missing links.
