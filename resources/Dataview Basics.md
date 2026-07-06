@@ -3,7 +3,7 @@
 ## List
 ```dataview
 LIST
-FROM "Intro-to-Applied-AI-Engineering/wiki/concepts"
+FROM "Intro-to-Applied-AI-Engineering/wiki/parameters"
 
 ```
 
