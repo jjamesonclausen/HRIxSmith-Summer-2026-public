@@ -8,12 +8,13 @@ Sources:
 - [[va18]]
 - [[va19]]
 - [[va20]]
+- [[va21]]
 - [[va8]]
 - [[va9]]
 - [[vj10]]
 - [[vj11]]
 - [[vj12]]
-Source_count: 11
+Source_count: 12
 Tags:
 - concepts
 ---
@@ -52,6 +53,8 @@ Characteristics of airflow in built environments. (source: sources/HRI2526.md)
 - The same source identifies Eastgate and `W8` as the most promising buildings among its seven tested sites, but still recommends year-long measurements because the short logging period left substantial uncertainty. (source: sources/va19.md)
 - The va20 study focuses explicitly on low-wind urban areas and treats passive local flow acceleration as necessary because ambient urban wind can be too weak and uncertain for efficient baseline VAWT operation. (source: sources/va20.md)
 - It proposes a directional wind flow modifier to accelerate incoming flow before the rotor, and reports a strong increase in low-speed power coefficient when that modifier is added to the involute rotor. (source: sources/va20.md)
+- The va21 rooftop prototype paper treats Kolkata's rooftop winds as low to moderate rather than steady high-resource flow, and reports rotor speed rising from `75 rpm` to `100 rpm` as measured wind components increased through roughly `0.4-3.8 m/s` in `vx` and `0.5-3.8 m/s` in `vy`. (source: sources/va21.md)
+- The same source says the broader study area typically sees `2.6-10 m/s` wind speeds, but the measured rotor-speed response on the building roof still showed no single clean pattern of variation with wind magnitude. (source: sources/va21.md)
 ![Source figure](../../images/hri2526-fig16.jpg)
 Original caption: Fig. 16. Wind Data from McConnell Rooftop [[HRI2526|Source]]
 

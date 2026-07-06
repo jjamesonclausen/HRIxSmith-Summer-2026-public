@@ -1,6 +1,23 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest va21 rooftop VAWT prototype paper
+
+- Task: convert `PDFs/va21_raw.pdf` into `sources/va21.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va21.md` with source frontmatter, cleaned section structure, linked figure images `va21-fig1` through `va21-fig23`, and converted the two in-paper tables into Markdown tables.
+  - Extracted and corrected figure crops so the linked source figures show the actual figure content rather than surrounding body text on the multi-figure pages.
+  - Added `wiki/summaries/va21-summary.md`.
+  - Added the single-source design page `wiki/designs/va21 Rooftop Vertical-Axis Wind Turbine.md`.
+  - Updated `wiki/concepts/Architectural Wind Turbines.md`, `wiki/concepts/Urban Wind Conditions.md`, `wiki/concepts/CFD and Validation.md`, `wiki/concepts/Economic Viability of VAWTs.md`, `wiki/methods/CFD.md`, and `wiki/index.md` with `va21`-supported claims and figure links.
+  - Marked `sources/va21.md` as processed.
+- Decisions:
+  - Added a design page because the paper documents one concrete rooftop VAWT prototype with source-specific geometry, installation details, and measured performance.
+  - Did not add a parameter page because the study does not run a clean source-specific sweep of a single design variable in the schema sense; its blade shaping is described as a trial-and-error prototype choice rather than a controlled parameter study.
+  - Noted the source's optimistic `7-15 year` payback estimate as a discrepancy instead of folding it into a general rule, because the same paper reports only watt-scale measured output and other low-wind rooftop cases in the wiki are much less favorable.
+- Open:
+  - `sources/va21.md` is readable and fully figure-linked, but the converted note still contains some compact reference formatting and a few extraction artifacts in the back matter.
+
 ### 2026-07-06 — Re-extract va18 and va19 figures for readability
 
 - Task: replace the `va18` and `va19` figure screenshots so they capture the actual figures cleanly and avoid surrounding body text.
