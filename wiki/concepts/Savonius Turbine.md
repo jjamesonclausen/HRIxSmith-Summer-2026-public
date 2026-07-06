@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-06
 Sources:
 - [[HRI2526]]
 - [[n1]]
@@ -11,8 +11,9 @@ Sources:
 - [[va8]]
 - [[vj11]]
 - [[vj12]]
+- [[vj13]]
 - [[vj2]]
-Source_count: 10
+Source_count: 11
 Tags:
 - concepts
 ---
@@ -29,9 +30,11 @@ Original caption: Figure 1: Basic design of a Savonius rotor [[vj2|Source]]
 - Performance:
   - Self-starting and effective at low wind speeds. (source: sources/HRI2526.md)
   - TSR is typically between 0 and 1. (source: sources/HRI2526.md)
-  - The review says overlap ratio has no single optimum, but 0.1-0.15 is a common useful range and no-overlap cases can still win on mechanical power in some studies. (source: sources/vj12.md)
-  - It reports that inner blades can raise Cp by up to 41%, with different gap settings favoring one- or two-inner-blade layouts. (source: sources/vj12.md)
-  - It says some twisted Savonius designs improve Cp substantially, including a 180-degree twist case that improved Cp by 51%. (source: sources/vj12.md)
+- The review says overlap ratio has no single optimum, but 0.1-0.15 is a common useful range and no-overlap cases can still win on mechanical power in some studies. (source: sources/vj12.md)
+- It reports that inner blades can raise Cp by up to 41%, with different gap settings favoring one- or two-inner-blade layouts. (source: sources/vj12.md)
+- It says some twisted Savonius designs improve Cp substantially, including a 180-degree twist case that improved Cp by 51%. (source: sources/vj12.md)
+- The vj13 cluster study uses a conventional two-blade Savonius rotor with overlap ratio `0.1`, `D = 0.95 m`, and `H = 1 m` as the base turbine for a three-rotor cluster. (source: sources/vj13.md)
+- It reports a validated isolated-turbine maximum Cp of about `0.3372` at `7 m/s` and shows that cluster output is dominated by wind-direction wake interaction. (source: sources/vj13.md)
 - Tradeoffs:
   - Simple, low-cost construction and low noise are advantages. (source: sources/HRI2526.md)
   - Negative torque on the returning blade limits efficiency. (source: sources/HRI2526.md)
@@ -59,6 +62,7 @@ In hybrid systems, Savonius is the startup element that helps cover Darrieus neg
 - The source identifies Savonius as a 1922 impulse rotor introduced by S. J. Savonius. (source: sources/va3.md)
 - Modern variants evolved from half drums into fluted spiral-bladed designs that improve efficiency and reduce vibration. (source: sources/va3.md)
 - The J-type rooftop design is a separate drag-based VAWT concept, but it shares the low-cost drag-rotor rationale. (source: sources/va5.md)
+- The vj13 cluster study shows that a Savonius rotor can perform better when installed as part of a direction-aware cluster rather than as a standalone machine. (source: sources/vj13.md)
 
 ![Source figure](../../images/va3-fig10.jpg)
 Original caption: Figure 10. Evolution of the Savonius design for water pumping from half drums into the fluted spiral bladed design. [[va3|Source]]
@@ -78,6 +82,8 @@ Related:
 - [[Hybrid VAWT]]
 - [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
 - [[vj2 Split Savonius Outside Darrieus Hybrid Wind Turbine]]
+- [[Savonius Wind Turbine Cluster]]
+- [[Wake Effect]]
 - [[Wind Turbine Parameters]]
 - [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[va3 Tip Speed Ratio Classification]]
