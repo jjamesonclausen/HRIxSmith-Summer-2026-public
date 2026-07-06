@@ -1,6 +1,72 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest vj21 fixed-pitch straight-bladed VAWT design-parameter paper
+
+- Task: convert `PDFs/vj21.pdf` into `sources/vj21.md`, extract its figures, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj21.md` with source frontmatter, cleaned section structure, linked figures `vj21-fig1` through `vj21-fig7`, and converted the design-parameter table into Markdown.
+  - Added `wiki/summaries/vj21-summary.md`.
+  - Added four source-specific parameter pages: `vj21 Blade Airfoil`, `vj21 Blade Number`, `vj21 Supporting Strut Shape`, and `vj21 Blade Material`.
+  - Updated `wiki/concepts/Straight-bladed Darrieus.md`, `wiki/concepts/VAWT Aerodynamic Design Parameters.md`, `wiki/concepts/Materials and Manufacturing.md`, `wiki/concepts/Design Checklist.md`, `wiki/concepts/Rules of Thumb.md`, and `wiki/index.md` with `vj21`-supported claims and links.
+  - Marked `sources/vj21.md` as processed.
+- Decisions:
+  - Treated `vj21` as a design-guide/review ingest rather than a single turbine-design ingest, so I did not create a design page.
+  - Added only the clearest source-specific parameter pages where the paper gives direct comparative or directional recommendations, instead of splitting every listed design consideration into its own weak page.
+  - Folded broader guidance on solidity, aspect ratio, cut-out speed, and overall fixed-pitch SB-VAWT design practice into the existing concept pages rather than inventing new umbrella notes.
+- Open:
+  - The figures for winglets, endplates, and elliptical blades are concept illustrations tied to cited prior work, and the source explicitly says further aerodynamic and economic analysis is still required before concluding their practical value for SB-VAWT blades.
+
+### 2026-07-06 — Convert and ingest vj20 proposed asymmetric-inner hybrid VAWT study
+
+- Task: convert `PDFs/vj20.pdf` into `sources/vj20.md`, extract its figures and equations, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj20.md` with source frontmatter, cleaned section structure, figure links `vj20-fig1` through `vj20-fig18`, equation images `vj20-eq1` through `vj20-eq12`, and Markdown versions of Tables 1-5.
+  - Added `wiki/summaries/vj20-summary.md`.
+  - Added the single-source design page `wiki/designs/vj20 Proposed Hybrid VAWT.md`.
+  - Added the source-specific parameter page `wiki/parameters/vj20 Blade Surface Roughness.md`.
+  - Added the new method page `wiki/methods/Box-Behnken Design.md`.
+  - Updated `wiki/concepts/Hybrid VAWT.md`, `wiki/concepts/Scaling Effects.md`, `wiki/concepts/Optimization.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/methods/CFD.md`, `wiki/methods/Wind Tunnel Testing.md`, and `wiki/index.md` with `vj20`-supported claims and links.
+  - Marked `sources/vj20.md` as processed.
+- Decisions:
+  - Created one design page because the paper centers on one concrete proposed hybrid turbine with full-scale and scaled-model geometry.
+  - Created one parameter page for blade surface roughness because that is the explicit source-specific performance sweep reported experimentally.
+  - Added one new method page for Box-Behnken design because the source uses it as a reusable optimization workflow rather than only as background vocabulary.
+  - Used the full-scale similarity-table values for the design-page cut-in and rated-speed fields, while noting that the paper also reports different scaled-model startup values elsewhere.
+- Open:
+  - `vj20` contains multiple context-dependent startup values (`1.72`, `1.54`, `1.405`, and `2.81 m/s` depending on section and scaling context), so cut-in comparisons to other sources should keep that discrepancy visible.
+
+### 2026-07-06 — Convert and ingest vj19 Savonius design, modeling, and economics paper
+
+- Task: convert `PDFs/vj19.pdf` into `sources/vj19.md`, extract its figures, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj19.md` with source frontmatter, cleaned paper structure, inline figure links, equation image links, and Markdown versions of the two paper tables.
+  - Extracted `vj19-fig1a` through `vj19-fig7` and `vj19-eq1` through `vj19-eq6` into `images/`.
+  - Added `wiki/summaries/vj19-summary.md`.
+  - Added the single-source design page `wiki/designs/vj19 Curved-Blade Savonius VAWT.md`.
+  - Added the source-specific parameter page `wiki/parameters/vj19 Savonius Blade Shape.md`.
+  - Updated `wiki/concepts/Savonius Turbine.md`, `wiki/concepts/Annual Energy Output.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/Economic Viability of VAWTs.md`, `wiki/methods/AEO Calculation.md`, `wiki/methods/Payback Period Analysis.md`, and `wiki/index.md` with `vj19`-supported claims and links.
+  - Marked `sources/vj19.md` as processed.
+- Decisions:
+  - Created one design page for the curved-blade Savonius turbine because that is the configuration the paper carries into the full modeling and economics workflow.
+  - Created one parameter page for Savonius blade shape because the experimental comparison of curved, straight, aerofoil, and twisted blades is the source's main changed design variable.
+  - Left rated power blank on the design page because the source says rated power is reached at `9 m/s`, but the paper's electrical-power table continues increasing above that point.
+- Open:
+  - The paper's Table 2 is internally awkward around rated-power reporting, so any use of its payback claim should stay source-specific until corroborated.
+
+### 2026-07-06 — Tighten vj19 equation crops
+
+- Task: check the crop quality of the `vj19` equation images and fix any bad crops.
+- Actions:
+  - Reviewed `images/vj19-eq1.png` through `images/vj19-eq6.png` against the source page.
+  - Found that several crops included surrounding paragraph text or clipped parts of the formulas.
+  - Re-rendered all six equation images as tighter formula-only crops from page 3 of `PDFs/vj19.pdf`.
+- Decisions:
+  - Overwrote the existing `vj19-eq*.png` files in place so `sources/vj19.md` did not need link changes.
+  - Kept the equation numbering and placement unchanged because the source note structure was already correct.
+- Open:
+  - None.
+
 ### 2026-07-06 — Clean va27 source-note formatting and math rendering
 
 - Task: improve `sources/va27.md` readability after conversion by fixing broken header formatting and replacing the roughest math/table OCR with direct source-page snapshots.
@@ -110,6 +176,74 @@
   - Kept the frontmatter fields mostly blank on the design page because the paper mixes a 2-blade validation table with 3-blade results, so several whole-turbine catalog fields are not source-clear enough to populate confidently.
 - Open:
   - `sources/va24.md` is readable and figure-linked, but the equation-heavy methodology sections remain rough text extraction rather than clean equation-image renderings.
+
+### 2026-07-06 — Convert and ingest vj18 variable-design review
+
+- Task: convert `PDFs/vj18.pdf` into `sources/vj18.md`, extract and normalize its figures into `images/vj18-fig*.jpg`, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj18.md` with source frontmatter, section structure, and linked figure images `vj18-fig1` through `vj18-fig13`.
+  - Rewrote `sources/vj18.md` as a page-faithful conversion so the paper text is kept in sequence and the figure images sit next to their captions instead of being grouped at the bottom.
+  - Extracted the review figures into the repo image format, including a manual split for the page that contains two separate figures.
+  - Added `wiki/summaries/vj18-summary.md`.
+  - Added the new umbrella concept page `wiki/concepts/Variable VAWT Design.md`.
+  - Updated `wiki/concepts/Optimization.md`, `wiki/concepts/VAWT Aerodynamic Design Parameters.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/concepts/Materials and Manufacturing.md`, `wiki/concepts/Structures and Loads.md`, `wiki/concepts/CFD and Validation.md`, `wiki/concepts/VAWT Design Overview.md`, and `wiki/index.md` with `vj18`-supported claims and links.
+- Decisions:
+  - Treated `vj18` as a review-level ingest, so I created one umbrella concept page instead of splitting every variable mechanism into a separate standalone page.
+  - Kept the wiki updates focused on the reusable design lessons the review actually supports: design taxonomy, performance ranges, complexity tradeoffs, and validation needs.
+- Open:
+  - The extracted figures are page-region crops from a review PDF with mixed text-and-figure layouts, so they are usable but not perfectly uniform.
+
+### 2026-07-06 — Replace vj18 equation OCR
+
+- Task: make sure the equations in `sources/vj18.md` render correctly.
+- Actions:
+  - Rendered cropped equation images from the source PDF and added `images/vj18-eq1-5.png`, `images/vj18-eq6-11.png`, `images/vj18-eq12.png`, `images/vj18-eq13-17.png`, `images/vj18-eq18.png`, and `images/vj18-eq19.png`.
+  - Replaced the broken equation OCR blocks in `sources/vj18.md` with inline image embeds near the original locations.
+  - Removed duplicated OCR fragments left behind by the source conversion.
+- Decisions:
+  - Used image fallbacks instead of retyping equations because the OCR text was not reliable enough to trust.
+  - Kept the surrounding explanatory prose so the note still reads like a paper conversion.
+- Open:
+  - None.
+
+### 2026-07-06 — Reformat vj18 source note
+
+- Task: fix the formatting of `sources/vj18.md` so it reads as a paper conversion instead of a stream of wrapped OCR lines with page markers.
+- Actions:
+  - Removed page markers and footer noise from `sources/vj18.md`.
+  - Reinserted the major section headings for the review and split the prose into readable sentence-level lines.
+  - Kept the figure images inline where their captions appear in the paper.
+- Decisions:
+  - Preserved the source text rather than summarizing it, because the user wanted the conversion to stay source-faithful.
+  - Left some OCR artifacts in place where they do not affect readability, instead of rewriting the paper content.
+- Open:
+  - None.
+
+### 2026-07-06 — Tighten vj18 equation crops
+
+- Task: remove surrounding paragraph text from the `vj18` equation images.
+- Actions:
+  - Re-rendered the equations as tighter per-formula crops from the PDF.
+  - Split the multi-equation sections into individual equation images where that kept the crop clean.
+  - Updated `sources/vj18.md` to point at the tighter equation images instead of the earlier broad crops.
+- Decisions:
+  - Kept image fallbacks instead of retyping the formulas.
+  - Preferred narrow equation-only crops over larger stitched crops because the user explicitly wanted the surrounding text removed.
+- Open:
+  - None.
+
+### 2026-07-06 — Backfill missing design metadata
+
+- Task: audit the `wiki/designs/` section for the required design-page metadata block and fill in any missing fields.
+- Actions:
+  - Audited every design page against the schema-required frontmatter fields for design pages.
+  - Found that `vj17 Airfoil-Based Savonius Wind Turbine` was missing the metadata block fields beyond `Created`, `Source`, and `Tags`.
+  - Added the full design metadata block to `wiki/designs/vj17 Airfoil-Based Savonius Wind Turbine.md`, populating the supported `Cp` and `TSR` values from `sources/vj17.md` and leaving unsupported fields blank.
+- Decisions:
+  - Kept unsupported design metadata blank instead of inferring values not given by the source.
+  - Left the other design pages unchanged because they already had the required metadata fields.
+- Open:
+  - None.
 
 ### 2026-07-06 — Convert and ingest va23 shifted-troposkien comparison paper
 

@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-06
 Sources:
 - [[va2]]
 - [[va27]]
@@ -10,7 +10,9 @@ Sources:
 - [[vj8]]
 - [[vj15]]
 - [[vj17]]
-Source_count: 8
+- [[vj18]]
+- [[vj20]]
+Source_count: 10
 Tags:
 - concepts
 ---
@@ -36,7 +38,11 @@ It also positions this kind of shape map as a precursor to morphing-airfoil desi
 It notes that no single enhancement strategy is universally best; the useful objective is usually a multi-objective tradeoff across startup, ripple, loading, and site conditions. (source: sources/vj11.md)
 - Optimization is most useful after the concept and basic geometry are fixed. > Inference. (source: sources/vj2.md, sources/vj8.md, sources/va2.md)
 
+- The vj18 review adds a broader optimization taxonomy for variable VAWT design, grouping pitch, flap, Gurney flap, morphing blade, movable mass, synthetic jet, and swept-area strategies by reported gain and complexity. (source: sources/vj18.md)
+- It suggests that the useful optimization target is often a tradeoff between performance, self-starting, load smoothing, actuation power, and durability. (source: sources/vj18.md)
+- The vj20 hybrid paper adds a DOE-driven geometry optimization stage using Box-Behnken design, response-surface modeling, and CFD databases to tune chord, blade count, shaft distance, pitch angle, and rotor height for `Cp` and cut-in speed. (source: sources/vj20.md)
 Related:
+- [[Variable VAWT Design]]
 - [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[CFD and Validation]]
 - [[Rules of Thumb]]

@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-06
 Sources:
 - [[HRI2526]]
 - [[vj1]]
@@ -11,7 +11,8 @@ Sources:
 - [[vj6]]
 - [[vj7]]
 - [[vj8]]
-Source_count: 8
+- [[vj18]]
+Source_count: 9
 Tags:
 - concepts
 ---
@@ -27,6 +28,7 @@ Use this page as the starting map for a VAWT design project:
 - [[Structures and Loads]] and [[Dynamic Stall]] for fatigue, torque ripple, and unsteady flow issues. (source: sources/vj1.md, sources/vj5.md, sources/vj6.md, sources/vj7.md)
 - [[Materials and Manufacturing]] for blade life and cost tradeoffs. (source: sources/vj1.md, sources/vj7.md)
 - [[CFD and Validation]] for simulation, mesh sensitivity, and PIV checks. (source: sources/vj5.md, sources/vj6.md)
+- [[Variable VAWT Design]] for papers that change geometry or control law during operation. (source: sources/vj18.md)
 - [[Optimization]] and [[Rules of Thumb]] for design-space search and quick decisions. (source: sources/vj2.md, sources/vj4.md, sources/vj8.md)
 
 Related:

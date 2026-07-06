@@ -14,7 +14,9 @@ Sources:
 - [[vj15]]
 - [[vj17]]
 - [[vj8]]
-Source_count: 12
+- [[vj18]]
+- [[vj21]]
+Source_count: 14
 Tags:
 - concepts
 ---
@@ -34,6 +36,11 @@ These are the main geometry knobs the sources repeatedly treat as design variabl
 - The va15 experiment adds direct evidence that solidity, blade profile, pitch angle, surface roughness, and aspect ratio are coupled startup/performance knobs for a small H-Darrieus turbine. (source: sources/va15.md)
 The vj15 study adds that harmonic pitch amplitude is another coupled control knob, and that the best case depends on the pitch function as well as the amplitude. (source: sources/vj15.md)
 The vj17 study adds CST curvature coefficients as airfoil-shape design knobs for a Savonius rotor, with eight variables optimized in the final run. (source: sources/vj17.md)
+- The vj18 review broadens the design-knob list to include variable pitch law, flap angle, Gurney-flap geometry, blade morphing, mass-block placement, suction/blowing slots, and swept-area change. (source: sources/vj18.md)
+- It also reports that the best-performing variable schemes are not always the simplest mechanically, so aerodynamic gains need to be weighed against actuator and materials complexity. (source: sources/vj18.md)
+- The vj21 design-guide paper adds chord-radius ratio, strut profile, and blade aspect ratio as explicit aerodynamic knobs for smaller fixed-pitch SB-VAWTs. (source: sources/vj21.md)
+- It says high solidity helps low-speed torque but raises cost, narrows the efficient `lambda` band, and increases inertia, while low aspect ratio should be avoided if acceptable peak efficiency is the goal. (source: sources/vj21.md)
+- It also notes that large `c/R` worsens flow-curvature effects and therefore tends to hurt blade aerodynamic efficiency. (source: sources/vj21.md)
 - The VAWT review gives Savonius TSR around 0.6-1.2, Darrieus TSR around 2.5-5.0, and emphasizes that the optimum shifts with solidity. (source: sources/vj11.md)
 - It treats blade profile, pitch angle, blade count, and chord Reynolds number as the main coupled design knobs. (source: sources/vj11.md)
 - It notes that low-solidity rotors push peak Cp to higher TSR, while high-solidity rotors self-start better but suffer more blade-wake interaction. (source: sources/vj11.md)
@@ -60,6 +67,7 @@ Related:
 - [[Rules of Thumb]]
 - [[Wind Tunnel Testing]]
 - [[Double-Multiple Streamtube Model]]
+- [[Variable VAWT Design]]
 - [[va9 EN0005 Blade Profile]]
 - [[va14 Solidity]]
 - [[va14 Blade Number]]

@@ -24,7 +24,10 @@ Sources:
 - [[vj17]]
 - [[vj15]]
 - [[vj6]]
-Source_count: 20
+- [[vj18]]
+- [[vj19]]
+- [[vj20]]
+Source_count: 23
 Tags:
 - concepts
 ---
@@ -71,6 +74,8 @@ The va15 study adds a startup tradeoff: higher solidity helps self-start, but lo
 It also shows that rougher surfaces, negative pitch, and thicker symmetric blades can help low-`lambda` startup in some cases, but those same changes can reduce higher-`lambda` performance. (source: sources/va15.md)
 The vj15 study adds pitch amplitude as a control knob, with `3` degrees outperforming `0`, `10`, and `20` degrees in the tested harmonic pitch functions. (source: sources/vj15.md)
 The vj17 study adds TSR as the optimization point for a Savonius airfoil design, using `0.4` during optimization and comparing CFD results at `0.4`, `0.55`, and `0.7`. (source: sources/vj17.md)
+- The vj18 review reports broad performance ranges for variable designs: variable pitch 13%-78.9%, adaptive flap 10%-54%, Gurney flap 2.7%-37.5%, deforming aerofoil 8%-46.2%, synthetic jet 15.2%-32.16%, and swept area 8%-90%. (source: sources/vj18.md)
+- It also treats complexity as a design parameter in practice, because the number of joints and actuators affects whether a variable concept is viable. (source: sources/vj18.md)
 
 The va16 study reports that at fixed solidity, larger `H/D` increases peak `Cp` and shifts the optimum tip-speed ratio upward, while at fixed `H/c = 6`, solidity has the stronger effect on peak performance. (source: sources/va16.md)
 Capacity factor: actual energy generated divided by theoretical maximum energy at nominal capacity over the same period. (source: sources/vj14.md)
@@ -84,6 +89,16 @@ It also reports startup at `3.5 m/s`, measured `114.7 W` and `Cp = 0.163` at the
 
 The va24 paper adds maximum local angle of attack `S` as an active control parameter, reporting that different optimal `S` values are needed at different TSRs and for different pitch strategies. (source: sources/va24.md)
 It reports a fixed-blade peak `Cp` near `0.48` at `TSR = 5`, compared with `0.568` for pitching Technique 1 and `0.532` for Technique 2 at the same TSR. (source: sources/va24.md)
+
+The vj19 Savonius study reports `3 m/s` cut-in speed, `17 m/s` cut-out speed, rated-speed text at `9 m/s`, and a peak modeled `Cp` of about `0.46` as TSR varies from `0.05` to `2.5`. (source: sources/vj19.md)
+The same paper says rotor efficiency falls when TSR is much lower or higher than `1.65`, treating that value as the practical threshold in its discussion. (source: sources/vj19.md)
+
+> Discrepancy: `vj19` states rated power is reached at `9 m/s`, but the table in the same paper lists electrical power values that continue increasing above `9 m/s`. Treat the rated-speed claim as supported, but the exact rated-power value as source-unclear. (source: sources/vj19.md)
+
+The vj20 hybrid study adds positive static torque coefficient `Cts` at all azimuths as the key startup metric, alongside peak `Cp = 0.486` and `Ct = 0.324` at `TSR = 3`. (source: sources/vj20.md)
+It also reports multiple context-specific startup values: `1.72 m/s` in the experimental section, `1.54 m/s` in later comparison figures, and `2.81 m/s` / `1.405 m/s` in the full-scale / scaled similarity table. (source: sources/vj20.md)
+
+> Discrepancy: `vj20` contains several different cut-in-style values depending on whether the paper is discussing direct experiment, scaled comparison plots, or similarity-scaled full-size parameters. Treat these as source-context-specific rather than one single definitive cut-in number. (source: sources/vj20.md)
 
 The va25 paper adds airfoil-family choice and camber orientation as major low-TSR design knobs for H-Darrieus startup and performance. (source: sources/va25.md)
 It reports `NACA6712` cambered-in peaking at `Cp = 0.3645` around `TSR = 2.037`, while symmetric `E474` peaks at `Cp = 0.3557` around `TSR = 3.0`. (source: sources/va25.md)
@@ -150,6 +165,7 @@ Related:
 - [[va27 Leading-Edge Radius Index]]
 - [[va20 Rotor Blade Profile]]
 - [[va20 Wind Flow Modifier]]
+- [[Variable VAWT Design]]
 - [[va22 100-W Helical-Blade Vertical-Axis Wind Turbine]]
 
-#concepts 
+#concepts

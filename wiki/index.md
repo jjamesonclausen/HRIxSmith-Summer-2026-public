@@ -62,6 +62,10 @@ _One page per file in `sources/`._
 - [[vj15-summary]]
 - [[vj16-summary]]
 - [[vj17-summary]]
+- [[vj18-summary]]
+- [[vj19-summary]]
+- [[vj20-summary]]
+- [[vj21-summary]]
 
 ## Concepts
 
@@ -79,6 +83,7 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 - [[Dynamic Stall]]
 - [[Economic Viability of VAWTs]]
 - [[VAWT Design Overview]]
+- [[Variable VAWT Design]]
 - [[VAWT Design Comparisons]]
 - [[Turbine Concept Selection]]
 - [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
@@ -126,6 +131,8 @@ _Specific turbine design pages live in [`designs/`](designs/)._
 - [[vj13 Three-Turbine Savonius Cluster]]
 - [[vj8 Contra-rotating VAWT]]
 - [[vj17 Airfoil-Based Savonius Wind Turbine]]
+- [[vj19 Curved-Blade Savonius VAWT]]
+- [[vj20 Proposed Hybrid VAWT]]
 - [[va3 Counter-rotating VAWT Array]]
 - [[HRI2526 Darrieus above Savonius]]
 - [[HRI2526 Double Darrieus with Inner H-rotor and Outer Eggbeater]]
@@ -209,6 +216,12 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[vj2 Savonius Placement Outside Darrieus Rotor]]
 - [[vj13 Cluster Installation Orientation]]
 - [[vj15 Pitch Amplitude]]
+- [[vj19 Savonius Blade Shape]]
+- [[vj20 Blade Surface Roughness]]
+- [[vj21 Blade Airfoil]]
+- [[vj21 Blade Number]]
+- [[vj21 Supporting Strut Shape]]
+- [[vj21 Blade Material]]
 - [[va12 Array Angle in Paired VAWT Arrays]]
 - [[va12 Relative Rotational Orientation in Paired VAWT Arrays]]
 - [[va12 Turbine Spacing in Paired VAWT Arrays]]
@@ -259,6 +272,7 @@ _Procedure and technique pages live in [`methods/`](methods/)._
 - [[Panel Method]]
 - [[PIV Testing]]
 - [[Wind Tunnel Testing]]
+- [[Box-Behnken Design]]
 
 ---
 

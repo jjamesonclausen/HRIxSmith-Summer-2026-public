@@ -6,14 +6,17 @@ views:
     name: Table
     order:
       - file.name
-      - Rated power
-      - Efficiency
-      - Cut-in speed
-      - Cp
-      - Rated speed
-      - Swept area
-      - Starting torque
-      - TSR
+      - Swept area (m^2)
+      - Rated speed (m/s)
+      - Rated power (W)
+      - max TSR (4-8 m/s)
+      - max TSR (1-4 m/s)
+      - max starting torque (Nm), (0-3 m/s)
+      - max Cp (4-8 m/s)
+      - max Cp (1-4 m/s)
+      - Efficiency (%)
+      - Cut-out speed (m/s)
+      - Cut-in speed (m/s)
   - type: cards
     name: View
     cardSize: 270

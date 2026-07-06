@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-06
 Sources:
 - [[HRI2526]]
 - [[va7]]
@@ -11,7 +11,8 @@ Sources:
 - [[vj5]]
 - [[vj6]]
 - [[vj8]]
-Source_count: 9
+- [[vj18]]
+Source_count: 10
 Tags:
 - concepts
 ---
@@ -29,6 +30,8 @@ This page collects the load and structural issues that shape a VAWT design.
 - It places the generator/storage hardware near the bottom of the turbine and frames that choice as improving stability. (source: sources/va8.md)
 - The hybrid-CFD study in `vj2` identifies the internal Savonius shaft as a structural element that also obstructs flow through the blade overlap space, creating a tradeoff between structure and aerodynamic torque. (source: sources/vj2.md)
 - The same source says Savonius-generated turbulence can negatively affect the lift-based Darrieus blades when the Savonius rotor sits in the middle of the hybrid rotor. (source: sources/vj2.md)
+- The vj18 review says movable mass blocks can cut radial loading and shaft deformation but can also slow startup because the extra inertia works against self-starting. (source: sources/vj18.md)
+- It also treats strut durability and load path design as long-term issues for variable mechanisms. (source: sources/vj18.md)
 
 ![Source figure](../../images/va8-fig2.jpg)
 Original caption: Figure 2: Vertical cross section of the turbine shaft. [[va8|Source]]
@@ -40,3 +43,4 @@ Related:
 - [[Hybrid VAWT]]
 - [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
 - [[vj2 Shaftless Savonius-Darrieus Hybrid Wind Turbine]]
+- [[Variable VAWT Design]]

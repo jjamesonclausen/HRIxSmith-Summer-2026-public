@@ -10,7 +10,8 @@ Sources:
 - [[va9]]
 - [[va22]]
 - [[va23]]
-Source_count: 8
+- [[vj20]]
+Source_count: 9
 Tags:
 - methods
 ---
@@ -46,6 +47,9 @@ Measurements:
 - It estimates turbine rotational speed from generator three-phase frequency and reports startup at `3.5 m/s` plus rated-condition output of `114.7 W` at `9 m/s` and `170 rpm`. (source: sources/va22.md)
 - The va23 paper adds an atmospheric-boundary-layer wind-tunnel test with a `1.68 m x 1.12 m` cross section, repeated measurements at fixed turbine rpm (`600` and `700 rpm`), rheostatic load adjustment to hold rotation constant, and three repeats for each condition. (source: sources/va23.md)
 - The same source explicitly corrects raw `Cp` and `lambda` for a high tunnel blockage ratio of about `19.1%`, using velocity measurements before and beside the rotor. (source: sources/va23.md)
+- The vj20 paper adds a closed-circuit subsonic wind-tunnel case with `2 x 3 ft^2` test-section cross section, remote speed control, turbulence intensity within about `±1%`, and tests across `1-6 m/s` and `TSR 1-6`. (source: sources/vj20.md)
+- It measures wind speed with a BENETECH `GM8902` anemometer (`±3%`), rotational speed with a laser tachometer (`±2%`), and dynamic force with a dynamometer converted into torque. (source: sources/vj20.md)
+- The source also reports Kline-McClintock uncertainty equations for `Cp` and `Ct`, with experimental coefficient errors within `3%`. (source: sources/vj20.md)
 
 ![Source figure](../../images/va8-fig5.jpg)
 Original caption: Figure 5: Relation between lift coefficient and angle of attack. [[va8|Source]]

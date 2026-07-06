@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-06
 Sources:
 - [[HRI2526]]
 - [[vj1]]
@@ -11,7 +11,8 @@ Sources:
 - [[vj6]]
 - [[vj7]]
 - [[vj8]]
-Source_count: 9
+- [[vj21]]
+Source_count: 10
 Tags:
 - concepts
 ---
@@ -25,6 +26,7 @@ Tags:
 6. Validate the design with CFD and, if possible, experiments. (source: sources/vj5.md, sources/vj6.md)
 7. Optimize the remaining parameters. (source: sources/vj2.md, sources/vj8.md)
 8. Re-check the design against the rules of thumb. (source: sources/vj1.md, sources/vj7.md, sources/vj8.md)
+9. For smaller fixed-pitch straight-bladed VAWTs, explicitly review airfoil, blade count, strut type/shape, solidity, aspect ratio, chord-radius ratio, braking, loads, material, noise, and aesthetics before freezing the design. (source: sources/vj21.md)
 
 Related:
 - [[Rules of Thumb]]

@@ -21,7 +21,8 @@ Sources:
 - [[vj13]]
 - [[vj15]]
 - [[vj17]]
-Source_count: 16
+- [[vj18]]
+Source_count: 17
 Tags:
 - concepts
 ---
@@ -53,6 +54,8 @@ This page covers the simulation workflow used to check a VAWT before hardware is
 - The va21 rooftop prototype paper adds a direct experiment-versus-simulation comparison for an installed machine, using ANSYS Fluent `16.2`, a transient double-precision parallel solver, and a `k-epsilon` turbulence model on a simplified rotor section. (source: sources/va21.md)
 - It reports a mesh-sensitivity check across coarse, fine, and extra-fine meshes, and says the fine and extra-fine meshes produced nearly identical rotor speed, angular velocity, and torque at `3.5 m/s`, so the fine mesh was retained. (source: sources/va21.md)
 - The same source reports less than `10%` deviation in rotor speed and less than `20%` deviation in voltage and power relative to measured data, while explicitly attributing part of the remaining error to simplified blade geometry and `2D` modeling of a `3D` turbine. (source: sources/va21.md)
+- The vj18 review says many variable-design results are still simulation-heavy and calls for more wind-tunnel and real-world testing before commercialization claims are trusted. (source: sources/vj18.md)
+- It treats validation as especially important for complex active systems such as variable pitch, flap control, and synthetic jets. (source: sources/vj18.md)
 - The va25 airfoil study adds a `2D` URANS CFD workflow with SST `k-omega`, sliding mesh, grid-independence analysis, and GCI, validated against published experimental data with less than `5%` maximum `Cp` error for the reference rotor. (source: sources/va25.md)
 - It also places the inlet and outlet much farther from the rotor than many wind-tunnel-style setups, explicitly to suppress solid blockage and allow more open-field-like wake development. (source: sources/va25.md)
 - The va26 pitch-angle study adds a high-fidelity `2D` URANS workflow with transition SST, extensive sensitivity checks on revolutions, grid and azimuthal increment, and two validation studies against wake and power-coefficient data. (source: sources/va26.md)
@@ -99,6 +102,7 @@ Related:
 - [[Architectural Wind Turbines]]
 - [[Climatology Assimilation]]
 - [[va21 Rooftop Vertical-Axis Wind Turbine]]
+- [[Variable VAWT Design]]
 - [[va25 Reference H-Rotor Darrieus VAWT]]
 - [[va27 Reference One-Bladed H-Type VAWT]]
 - [[va26 3-Bladed H-Type VAWT]]
