@@ -1,6 +1,35 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest vj18 variable-design review
+
+- Task: convert `PDFs/vj18.pdf` into `sources/vj18.md`, extract and normalize its figures into `images/vj18-fig*.jpg`, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj18.md` with source frontmatter, section structure, and linked figure images `vj18-fig1` through `vj18-fig13`.
+  - Rewrote `sources/vj18.md` as a page-faithful conversion so the paper text is kept in sequence and the figure images sit next to their captions instead of being grouped at the bottom.
+  - Extracted the review figures into the repo image format, including a manual split for the page that contains two separate figures.
+  - Added `wiki/summaries/vj18-summary.md`.
+  - Added the new umbrella concept page `wiki/concepts/Variable VAWT Design.md`.
+  - Updated `wiki/concepts/Optimization.md`, `wiki/concepts/VAWT Aerodynamic Design Parameters.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/concepts/Materials and Manufacturing.md`, `wiki/concepts/Structures and Loads.md`, `wiki/concepts/CFD and Validation.md`, `wiki/concepts/VAWT Design Overview.md`, and `wiki/index.md` with `vj18`-supported claims and links.
+- Decisions:
+  - Treated `vj18` as a review-level ingest, so I created one umbrella concept page instead of splitting every variable mechanism into a separate standalone page.
+  - Kept the wiki updates focused on the reusable design lessons the review actually supports: design taxonomy, performance ranges, complexity tradeoffs, and validation needs.
+- Open:
+  - The extracted figures are page-region crops from a review PDF with mixed text-and-figure layouts, so they are usable but not perfectly uniform.
+
+### 2026-07-06 — Backfill missing design metadata
+
+- Task: audit the `wiki/designs/` section for the required design-page metadata block and fill in any missing fields.
+- Actions:
+  - Audited every design page against the schema-required frontmatter fields for design pages.
+  - Found that `vj17 Airfoil-Based Savonius Wind Turbine` was missing the metadata block fields beyond `Created`, `Source`, and `Tags`.
+  - Added the full design metadata block to `wiki/designs/vj17 Airfoil-Based Savonius Wind Turbine.md`, populating the supported `Cp` and `TSR` values from `sources/vj17.md` and leaving unsupported fields blank.
+- Decisions:
+  - Kept unsupported design metadata blank instead of inferring values not given by the source.
+  - Left the other design pages unchanged because they already had the required metadata fields.
+- Open:
+  - None.
+
 ### 2026-07-06 — Convert and ingest va21 rooftop VAWT prototype paper
 
 - Task: convert `PDFs/va21_raw.pdf` into `sources/va21.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

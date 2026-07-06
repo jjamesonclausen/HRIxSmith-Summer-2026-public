@@ -56,6 +56,7 @@ _One page per file in `sources/`._
 - [[vj15-summary]]
 - [[vj16-summary]]
 - [[vj17-summary]]
+- [[vj18-summary]]
 
 ## Concepts
 
@@ -73,6 +74,7 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 - [[Dynamic Stall]]
 - [[Economic Viability of VAWTs]]
 - [[VAWT Design Overview]]
+- [[Variable VAWT Design]]
 - [[VAWT Design Comparisons]]
 - [[Turbine Concept Selection]]
 - [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]

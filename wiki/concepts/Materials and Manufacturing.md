@@ -1,12 +1,13 @@
 ---
 Created:
-Updated: 2026-07-02
+Updated: 2026-07-06
 Sources:
 - [[va8]]
 - [[va9]]
 - [[vj1]]
 - [[vj7]]
-Source_count: 4
+- [[vj18]]
+Source_count: 5
 Tags:
 - concepts
 ---
@@ -22,6 +23,8 @@ Blade material choice is not just a cost issue; it affects fatigue life, stiffne
 - In the patent's comparison with a typical flat-bottom profile, the proposed profile is described as having a smaller area under the thickness-ratio curve and being 54% lighter, which the source links to lighter supporting structures. (source: sources/va8.md)
 - The va9 paper frames self-starting blade-profile design as a way to avoid extra startup components or external electricity feed-in, which it says would otherwise increase turbine complexity, manufacturing and maintenance costs, and lower sustainability. (source: sources/va9.md)
 - Its patented blade design uses a main body and two blade ends that can be fixed or dynamically changed during operation. (source: sources/va9.md)
+- The vj18 review says deforming aerofoils depend on flexible materials and warns that UV exposure, recyclability, bonding, and wear at joints can become limiting factors. (source: sources/vj18.md)
+- It also treats material choice as part of the commercialization problem, not just a strength or cost detail. (source: sources/vj18.md)
 
 ![Source figure](../../images/va8-fig4a.jpg)
 Original caption: Figure 4a: Ratio of airfoil profile thickness to distance from leading edge of the present application. [[va8|Source]]
@@ -35,3 +38,4 @@ Related:
 - [[Rules of Thumb]]
 - [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[Darrieus Turbine]]
+- [[Variable VAWT Design]]

@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-06
 Sources:
 - [[va2]]
 - [[vj11]]
@@ -9,7 +9,8 @@ Sources:
 - [[vj8]]
 - [[vj15]]
 - [[vj17]]
-Source_count: 7
+- [[vj18]]
+Source_count: 8
 Tags:
 - concepts
 ---
@@ -33,7 +34,10 @@ The vj17 study adds a three-step optimization workflow for a Savonius airfoil, c
 It notes that no single enhancement strategy is universally best; the useful objective is usually a multi-objective tradeoff across startup, ripple, loading, and site conditions. (source: sources/vj11.md)
 - Optimization is most useful after the concept and basic geometry are fixed. > Inference. (source: sources/vj2.md, sources/vj8.md, sources/va2.md)
 
+- The vj18 review adds a broader optimization taxonomy for variable VAWT design, grouping pitch, flap, Gurney flap, morphing blade, movable mass, synthetic jet, and swept-area strategies by reported gain and complexity. (source: sources/vj18.md)
+- It suggests that the useful optimization target is often a tradeoff between performance, self-starting, load smoothing, actuation power, and durability. (source: sources/vj18.md)
 Related:
+- [[Variable VAWT Design]]
 - [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[CFD and Validation]]
 - [[Rules of Thumb]]

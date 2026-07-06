@@ -2,6 +2,17 @@
 Created: 2026-07-06
 Source: [[vj17]]
 Tags: #designs
+max Cp (1-4 m/s):
+max Cp (4-8 m/s): 0.085
+Efficiency (%):
+max TSR (1-4 m/s):
+max TSR (4-8 m/s): 0.4
+Swept area (m^2):
+Cut-in speed (m/s):
+Cut-out speed (m/s):
+max starting torque (Nm), (0-3 m/s):
+Rated speed (m/s):
+Rated power (W):
 ---
 
 ## Airfoil-Based Savonius Wind Turbine

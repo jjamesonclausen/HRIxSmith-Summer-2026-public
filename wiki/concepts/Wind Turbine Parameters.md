@@ -19,7 +19,8 @@ Sources:
 - [[vj17]]
 - [[vj15]]
 - [[vj6]]
-Source_count: 16
+- [[vj18]]
+Source_count: 17
 Tags:
 - concepts
 ---
@@ -66,6 +67,8 @@ The va15 study adds a startup tradeoff: higher solidity helps self-start, but lo
 It also shows that rougher surfaces, negative pitch, and thicker symmetric blades can help low-`lambda` startup in some cases, but those same changes can reduce higher-`lambda` performance. (source: sources/va15.md)
 The vj15 study adds pitch amplitude as a control knob, with `3` degrees outperforming `0`, `10`, and `20` degrees in the tested harmonic pitch functions. (source: sources/vj15.md)
 The vj17 study adds TSR as the optimization point for a Savonius airfoil design, using `0.4` during optimization and comparing CFD results at `0.4`, `0.55`, and `0.7`. (source: sources/vj17.md)
+- The vj18 review reports broad performance ranges for variable designs: variable pitch 13%-78.9%, adaptive flap 10%-54%, Gurney flap 2.7%-37.5%, deforming aerofoil 8%-46.2%, synthetic jet 15.2%-32.16%, and swept area 8%-90%. (source: sources/vj18.md)
+- It also treats complexity as a design parameter in practice, because the number of joints and actuators affects whether a variable concept is viable. (source: sources/vj18.md)
 
 The va16 study reports that at fixed solidity, larger `H/D` increases peak `Cp` and shifts the optimum tip-speed ratio upward, while at fixed `H/c = 6`, solidity has the stronger effect on peak performance. (source: sources/va16.md)
 Capacity factor: actual energy generated divided by theoretical maximum energy at nominal capacity over the same period. (source: sources/vj14.md)
@@ -113,5 +116,6 @@ Related:
 - [[vj15 Pitch Amplitude]]
 - [[va20 Rotor Blade Profile]]
 - [[va20 Wind Flow Modifier]]
+- [[Variable VAWT Design]]
 
-#concepts 
+#concepts

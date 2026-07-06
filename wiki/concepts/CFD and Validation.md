@@ -18,8 +18,8 @@ Sources:
 - [[vj13]]
 - [[vj15]]
 - [[vj17]]
-Source_count: 13
-Source_count: 13
+- [[vj18]]
+Source_count: 14
 Tags:
 - concepts
 ---
@@ -51,6 +51,8 @@ This page covers the simulation workflow used to check a VAWT before hardware is
 - The va21 rooftop prototype paper adds a direct experiment-versus-simulation comparison for an installed machine, using ANSYS Fluent `16.2`, a transient double-precision parallel solver, and a `k-epsilon` turbulence model on a simplified rotor section. (source: sources/va21.md)
 - It reports a mesh-sensitivity check across coarse, fine, and extra-fine meshes, and says the fine and extra-fine meshes produced nearly identical rotor speed, angular velocity, and torque at `3.5 m/s`, so the fine mesh was retained. (source: sources/va21.md)
 - The same source reports less than `10%` deviation in rotor speed and less than `20%` deviation in voltage and power relative to measured data, while explicitly attributing part of the remaining error to simplified blade geometry and `2D` modeling of a `3D` turbine. (source: sources/va21.md)
+- The vj18 review says many variable-design results are still simulation-heavy and calls for more wind-tunnel and real-world testing before commercialization claims are trusted. (source: sources/vj18.md)
+- It treats validation as especially important for complex active systems such as variable pitch, flap control, and synthetic jets. (source: sources/vj18.md)
 
 The VAWT review says URANS with `k-ω SST` is the main design-stage tool, while transition SST and DES/LES are preferred when dynamic stall fidelity matters most. (source: sources/vj11.md)
 It reports that 2-D URANS can overpredict Cp by 15-30% relative to validated 3-D simulations. (source: sources/vj11.md)
@@ -85,3 +87,4 @@ Related:
 - [[Architectural Wind Turbines]]
 - [[Climatology Assimilation]]
 - [[va21 Rooftop Vertical-Axis Wind Turbine]]
+- [[Variable VAWT Design]]
