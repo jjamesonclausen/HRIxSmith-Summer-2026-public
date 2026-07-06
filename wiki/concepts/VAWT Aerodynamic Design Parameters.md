@@ -16,7 +16,8 @@ Sources:
 - [[vj8]]
 - [[vj18]]
 - [[vj21]]
-Source_count: 14
+- [[vj22]]
+Source_count: 15
 Tags:
 - concepts
 ---
@@ -41,6 +42,8 @@ The vj17 study adds CST curvature coefficients as airfoil-shape design knobs for
 - The vj21 design-guide paper adds chord-radius ratio, strut profile, and blade aspect ratio as explicit aerodynamic knobs for smaller fixed-pitch SB-VAWTs. (source: sources/vj21.md)
 - It says high solidity helps low-speed torque but raises cost, narrows the efficient `lambda` band, and increases inertia, while low aspect ratio should be avoided if acceptable peak efficiency is the goal. (source: sources/vj21.md)
 - It also notes that large `c/R` worsens flow-curvature effects and therefore tends to hurt blade aerodynamic efficiency. (source: sources/vj21.md)
+- The vj22 simulation paper adds a direct low-wind comparison between `NACA 0012` and `NACA 0015`, using `Cl`, `Cd`, and `Cl/Cd` to choose the better rotor airfoil. (source: sources/vj22.md)
+- It also links blade count to TSR and solidity explicitly, reporting `TSRmax` values of `4.2`, `2.5`, and `1.6` for `3`, `5`, and `8` blades and corresponding solidity values of `0.51`, `0.85`, and `1.36`. (source: sources/vj22.md)
 - The VAWT review gives Savonius TSR around 0.6-1.2, Darrieus TSR around 2.5-5.0, and emphasizes that the optimum shifts with solidity. (source: sources/vj11.md)
 - It treats blade profile, pitch angle, blade count, and chord Reynolds number as the main coupled design knobs. (source: sources/vj11.md)
 - It notes that low-solidity rotors push peak Cp to higher TSR, while high-solidity rotors self-start better but suffer more blade-wake interaction. (source: sources/vj11.md)

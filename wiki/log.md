@@ -1,6 +1,24 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest vj22 low-wind QBlade airfoil and blade-count study
+
+- Task: convert `PDFs/vj22.pdf` into `sources/vj22.md`, extract its figures and equations, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj22.md` with source frontmatter, cleaned structure, linked figures `vj22-fig1` through `vj22-fig12`, linked the two displayed equations as images, and converted Tables 1-4 into Markdown tables.
+  - Added `wiki/summaries/vj22-summary.md`.
+  - Added the source-specific design page `wiki/designs/vj22 Simulated Small-Scale Straight-Bladed VAWT.md`.
+  - Added the source-specific parameter pages `wiki/parameters/vj22 Blade Profile.md` and `wiki/parameters/vj22 Blade Number.md`.
+  - Added the method page `wiki/methods/QBlade.md`.
+  - Updated `wiki/concepts/Darrieus Turbine.md`, `wiki/concepts/Straight-bladed Darrieus.md`, `wiki/concepts/VAWT Aerodynamic Design Parameters.md`, `wiki/concepts/Wind Turbine Parameters.md`, and `wiki/index.md` with `vj22`-supported claims and links.
+  - Marked `sources/vj22.md` as processed.
+- Decisions:
+  - Added one simulated-design page because the paper defines a specific small rotor geometry that is then used for the airfoil and blade-count comparisons.
+  - Added two parameter pages because the paper's clearest changed design variables are airfoil profile (`NACA 0012` vs `NACA 0015`) and blade number (`3`, `5`, `8`).
+  - Added a `QBlade` method page because the source uses the software as the core analysis workflow and no such method note existed yet.
+- Open:
+  - The `vj22` conclusions are simulation-only and not experimentally validated in this paper, so its low-wind performance claims should be treated as source-specific until corroborated.
+
 ### 2026-07-06 — Convert and ingest vj21 fixed-pitch straight-bladed VAWT design-parameter paper
 
 - Task: convert `PDFs/vj21.pdf` into `sources/vj21.md`, extract its figures, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

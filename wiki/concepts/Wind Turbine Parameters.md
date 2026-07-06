@@ -24,7 +24,8 @@ Sources:
 - [[vj18]]
 - [[vj19]]
 - [[vj20]]
-Source_count: 19
+- [[vj22]]
+Source_count: 20
 Tags:
 - concepts
 ---
@@ -96,6 +97,9 @@ The vj20 hybrid study adds positive static torque coefficient `Cts` at all azimu
 It also reports multiple context-specific startup values: `1.72 m/s` in the experimental section, `1.54 m/s` in later comparison figures, and `2.81 m/s` / `1.405 m/s` in the full-scale / scaled similarity table. (source: sources/vj20.md)
 
 > Discrepancy: `vj20` contains several different cut-in-style values depending on whether the paper is discussing direct experiment, scaled comparison plots, or similarity-scaled full-size parameters. Treat these as source-context-specific rather than one single definitive cut-in number. (source: sources/vj20.md)
+
+The vj22 low-wind simulation paper adds a small-rotor case where `3` blades reach peak `Cp` about `0.3` with `TSR` between `3` and `4`, while `5` and `8` blades lower `TSRmax` to `2.5` and `1.6` and reduce `Cp`. (source: sources/vj22.md)
+It also reports corresponding solidity values of `0.51`, `0.85`, and `1.36`, reinforcing the tradeoff between higher torque and lower aerodynamic efficiency as blade count rises. (source: sources/vj22.md)
 
 ## Figures
 

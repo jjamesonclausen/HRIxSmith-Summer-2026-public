@@ -10,7 +10,8 @@ Sources:
 - [[va11]]
 - [[vj4]]
 - [[vj21]]
-Source_count: 8
+- [[vj22]]
+Source_count: 9
 Tags:
 - concepts
 ---
@@ -41,6 +42,8 @@ The straight-bladed Darrieus family with blades arranged around a vertical shaft
 - That source says variable blade pitching can both improve self-starting behavior at low TSR and raise peak `Cp` well above the fixed-blade baseline. (source: sources/va24.md)
 - The vj21 design-parameter paper reframes the fixed-pitch straight-bladed rotor as a small-system candidate for urban and off-grid use, emphasizing that ground-level maintenance access and geometric simplicity are major practical advantages. (source: sources/vj21.md)
 - It also says the most sensitive design choices for this family include blade airfoil, strut layout and shape, solidity, and blade material. (source: sources/vj21.md)
+- The vj22 simulation case adds a concrete low-wind small-rotor example with `0.66 m` height, `0.167 m` chord, and `1.00 m` blade radius used to compare airfoil and blade-count effects. (source: sources/vj22.md)
+- It reports that a `3`-blade configuration gives the highest and most stable `Cp`, while higher blade counts increase low-speed torque and self-start tendency. (source: sources/vj22.md)
 
 ![Source figure](../../images/va9-fig18.jpg)
 Original caption: Fig. 18. Darrieus VAWT performance prediction. [[va9|Source]]
