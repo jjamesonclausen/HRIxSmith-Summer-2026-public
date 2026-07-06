@@ -1,6 +1,21 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Clean va27 source-note formatting and math rendering
+
+- Task: improve `sources/va27.md` readability after conversion by fixing broken header formatting and replacing the roughest math/table OCR with direct source-page snapshots.
+- Actions:
+  - Cleaned the top of `sources/va27.md` so the title, affiliations, keywords, and abstract read in the correct order without duplicated header text.
+  - Replaced the broken nomenclature block with a clean image from the source page.
+  - Replaced the large literature-overview table with two source-page images instead of leaving the noisy OCR dump inline.
+  - Replaced the roughest airfoil-shape equation block with equation images and removed the worst duplicated symbolic fragments.
+  - Replaced the validation-summary and leading-edge-radius summary tables with source-page images instead of malformed OCR text.
+- Decisions:
+  - Preferred source-page images for the heavy tables and equations because they preserved the original notation more faithfully than the extracted text.
+  - Left the rest of the paper in text form because most narrative sections were already readable enough and fully re-rendering the full methods section as images would make the note harder to search.
+- Open:
+  - `sources/va27.md` is substantially cleaner, but some long literature/reference formatting and a few figure-caption line breaks are still not perfectly normalized.
+
 ### 2026-07-06 — Convert and ingest va27 dynamic-stall airfoil-shape study
 
 - Task: convert `PDFs/va27_raw.pdf` into `sources/va27.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
