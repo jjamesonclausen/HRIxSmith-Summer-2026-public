@@ -3,6 +3,7 @@ Created:
 Updated: 2026-07-06
 Sources:
 - [[HRI2526]]
+- [[va20]]
 - [[va16]]
 - [[va15]]
 - [[va14]]
@@ -70,6 +71,9 @@ The va16 study reports that at fixed solidity, larger `H/D` increases peak `Cp` 
 Capacity factor: actual energy generated divided by theoretical maximum energy at nominal capacity over the same period. (source: sources/vj14.md)
 The vj14 study shows that capacity factor is the dominant driver of the LCA result and that very small changes in it can move the turbine across environmental benchmarks. (source: sources/vj14.md)
 
+The va20 CFD study adds a low-wind urban comparison where three-blade cases with the same `0.96 m^2` swept area reached `Cp = 0.071` for a C-blade drag rotor, `0.22` for an involute rotor, and `0.397` for an involute rotor with a wind flow modifier at `5 m/s`. (source: sources/va20.md)
+It also reports that the WFM-assisted involute case reached `1361.4 W` at `250 rpm` / `21 m/s`, compared with `951.31 W` for the involute rotor and `188.9 W` for the C-blade rotor. (source: sources/va20.md)
+
 ## Figures
 
 ![Source figure](../../images/va4-fig6.jpg)
@@ -90,6 +94,8 @@ Original caption: Figure 7. Coefficient of performance of VAWT for various helix
 Original caption: Figure 14. The standard deviation of Cp of different helical-bladed and straight-bladed VAWT [[va7|Source]]
 ![Source figure](../../images/va14-fig7.jpg)
 Original caption: Fig. 7. Optimal tip speed ratio vs. solidity with a curve fit using Eq. (1) based on data sets in Table 7. [[va14|Source]]
+![Source figure](../../images/va20-fig26.jpg)
+Original caption: Figure 26. Electrical characteristics: (a) rotor power and (b) power coefficient. [[va20|Source]]
 
 These parameters are often visualized using a power curve, which relates wind speed to power output. (source: sources/HRI2526.md)
 
@@ -105,5 +111,7 @@ Related:
 - [[va16 Solidity]]
 - [[va16 Span-to-Diameter Ratio (H-D)]]
 - [[vj15 Pitch Amplitude]]
+- [[va20 Rotor Blade Profile]]
+- [[va20 Wind Flow Modifier]]
 
 #concepts 

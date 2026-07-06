@@ -1,6 +1,68 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest va21 rooftop VAWT prototype paper
+
+- Task: convert `PDFs/va21_raw.pdf` into `sources/va21.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va21.md` with source frontmatter, cleaned section structure, linked figure images `va21-fig1` through `va21-fig23`, and converted the two in-paper tables into Markdown tables.
+  - Extracted and corrected figure crops so the linked source figures show the actual figure content rather than surrounding body text on the multi-figure pages.
+  - Added `wiki/summaries/va21-summary.md`.
+  - Added the single-source design page `wiki/designs/va21 Rooftop Vertical-Axis Wind Turbine.md`.
+  - Updated `wiki/concepts/Architectural Wind Turbines.md`, `wiki/concepts/Urban Wind Conditions.md`, `wiki/concepts/CFD and Validation.md`, `wiki/concepts/Economic Viability of VAWTs.md`, `wiki/methods/CFD.md`, and `wiki/index.md` with `va21`-supported claims and figure links.
+  - Marked `sources/va21.md` as processed.
+- Decisions:
+  - Added a design page because the paper documents one concrete rooftop VAWT prototype with source-specific geometry, installation details, and measured performance.
+  - Did not add a parameter page because the study does not run a clean source-specific sweep of a single design variable in the schema sense; its blade shaping is described as a trial-and-error prototype choice rather than a controlled parameter study.
+  - Noted the source's optimistic `7-15 year` payback estimate as a discrepancy instead of folding it into a general rule, because the same paper reports only watt-scale measured output and other low-wind rooftop cases in the wiki are much less favorable.
+- Open:
+  - `sources/va21.md` is readable and fully figure-linked, but the converted note still contains some compact reference formatting and a few extraction artifacts in the back matter.
+
+### 2026-07-06 — Re-extract va18 and va19 figures for readability
+
+- Task: replace the `va18` and `va19` figure screenshots so they capture the actual figures cleanly and avoid surrounding body text.
+- Actions:
+  - Audited both PDFs and confirmed that many figure files could be rebuilt from embedded PDF image objects instead of broad page-region crops.
+  - Replaced `va18-fig1` through `va18-fig16`, using embedded figure images where available and tighter figure-only composite crops for the multi-panel pages.
+  - Replaced `va19-fig1` through `va19-fig24`, using embedded figure images where available and tighter vector-page crops for charts and survey plots that were not stored as standalone images in the PDF.
+  - Verified that `sources/va18.md` and `sources/va19.md` do not have image embeds running into adjacent paragraph text.
+- Decisions:
+  - Preferred embedded image extraction whenever the original PDF asset existed, because it preserved the full figure with less surrounding noise than page clipping.
+  - Used page clips only for vector-drawn figures and fragmented pages where there was no single embedded image to extract.
+- Open:
+  - Some `va19` vector-drawn figures are still page renders rather than original image objects because the PDF does not expose them as standalone embedded images.
+
+### 2026-07-06 — Re-extract va20 figures from embedded PDF images
+
+- Task: fix the `va20` figure screenshots so they capture the actual figures instead of large page regions with surrounding body text.
+- Actions:
+  - Audited the `va20` PDF layout and confirmed that the current figure files were broad page crops rather than figure-only captures.
+  - Replaced `images/va20-fig1.jpg` through `images/va20-fig26.jpg` with the PDF's embedded figure images, which removed surrounding page text and preserved the full figures more cleanly.
+  - Cleaned `sources/va20.md` so image embeds no longer run into following paragraph text on the same line.
+- Decisions:
+  - Used embedded PDF image extraction instead of manual page cropping because the original assets were available and produced cleaner figure-only outputs.
+- Open:
+  - Table and equation fallbacks for `va20` were left unchanged because this pass was specifically to correct the figure extraction problem.
+
+### 2026-07-06 — Convert and ingest va20 involute rotor and wind-flow-modifier study
+
+- Task: convert `PDFs/va20_raw.pdf` into `sources/va20.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va20.md` with source frontmatter, cleaned section structure, figure links `va20-fig1` through `va20-fig26`, table images `va20-table1` through `va20-table6`, and equation images for the governing-equation sections.
+  - Cleaned the converted source note by removing rough OCR table/equation dumps where image fallbacks were clearer.
+  - Added `wiki/summaries/va20-summary.md`.
+  - Added `wiki/concepts/Wind Flow Modifier.md`.
+  - Added three single-source design pages: `va20 H-Type Rotor with C-Blade`, `va20 Involute Blade Type Rotor`, and `va20 Involute Rotor with Wind Flow Modifier`.
+  - Added two source-specific parameter pages: `va20 Rotor Blade Profile` and `va20 Wind Flow Modifier`.
+  - Updated `wiki/methods/CFD.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/Urban Wind Conditions.md`, and `wiki/index.md` with `va20`-supported claims and figure links.
+  - Marked `sources/va20.md` as processed.
+- Decisions:
+  - Split the source into three design pages because the paper evaluates three explicit rotor configurations with separate geometry and performance outcomes.
+  - Added two parameter pages because the studied changes are the rotor blade profile and the addition of the wind flow modifier.
+  - Added a reusable concept page for the wind flow modifier because the source presents it as a general low-wind augmentation idea, not only as a one-off design detail.
+- Open:
+  - `sources/va20.md` is readable and substantially cleaned, but a few mathematical-symbol lines in the turbulence-model section are still preserved more as textual remnants around the equation-image fallback than as perfectly typeset math.
+
 ### 2026-07-06 — Convert and ingest vj14 H-Darrieus LCA study
 
 - Task: convert `PDFs/vj14.pdf` into `sources/vj14.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
@@ -41,6 +103,69 @@
   - Added a design page because the paper's three-rotor cluster is a concrete reusable geometry even though its main contribution is the orientation strategy.
 - Open:
   - `sources/vj13.md` is readable and figure-linked, but some table text is still in extracted line form rather than clean markdown tables.
+
+### 2026-07-06 — Improve va19 source-note readability after conversion
+
+- Task: clean `sources/va19.md` so the converted source is readable without rough extraction artifacts.
+- Actions:
+  - Removed OCR text that had been pulled from inside figures, including chart axes, legend labels, and decorative figure text that should not appear in the source note.
+  - Replaced rough appendix table dumps with readable Markdown for Tables 1-3 and table-image inserts for Tables 4-17.
+  - Added an image for Equation 3 and cleaned several obvious extraction issues such as broken product names and unreadable cross-reference placeholders.
+  - Verified that `sources/va19.md` now links 24 figure images, 17 table images or clean table renderings, and 3 equation images without unresolved local-note links.
+- Decisions:
+  - Used image fallbacks for most appendix tables because they were symbol-heavy or badly laid out in extraction, and forcing them into text would have made the note less readable.
+  - Kept the original wording where readable, limiting edits to cleanup and presentation rather than rewriting content.
+- Open:
+  - `sources/va19.md` is substantially cleaner, but a few references still contain original line-wrap awkwardness from the source PDF rather than fully normalized bibliography formatting.
+
+### 2026-07-06 — Convert and ingest va19 MIT campus wind-feasibility study
+
+- Task: convert `PDFs/va19_raw.pdf` into `sources/va19.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va19.md` with source frontmatter, cleaned extracted text, linked extracted figures `va19-fig1` through `va19-fig24`, and added equation images for the MCP and wind-power equations.
+  - Added `wiki/summaries/va19-summary.md`.
+  - Added `wiki/methods/Measure-Correlate-Predict (MCP).md`.
+  - Added source-specific design pages `wiki/designs/va19 Skystream 3.7.md` and `wiki/designs/va19 AeroVironment AVX1000.md`.
+  - Updated `wiki/concepts/Architectural Wind Turbines.md`, `wiki/concepts/Urban Wind Conditions.md`, `wiki/methods/Payback Period Analysis.md`, and `wiki/index.md` with `va19`-supported claims and figure links.
+  - Marked `sources/va19.md` as processed.
+- Decisions:
+  - Added two design pages because the source directly compares two concrete turbine products with source-specific geometry, installation intent, and reported economic outcomes.
+  - Added an MCP method page because the source's resource-normalization workflow is one of its main reusable technical pieces.
+  - Did not add parameter pages because the source is a siting and feasibility study rather than a turbine design-parameter experiment.
+- Open:
+  - `sources/va19.md` is usable and grounded, but parts of the long appendix remain rough text extraction rather than fully normalized Markdown tables, and some captions still reflect the original scan formatting.
+
+### 2026-07-06 — Convert and ingest va18 urban CFD resource-assessment paper
+
+- Task: convert `PDFs/va18_raw.pdf` into `sources/va18.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va18.md` with source frontmatter, cleaned section structure, linked extracted figures `va18-fig1` through `va18-fig16`, one equation image, and a screenshot for `Table 2`.
+  - Added `wiki/summaries/va18-summary.md`.
+  - Added `wiki/methods/Climatology Assimilation.md`.
+  - Updated `wiki/concepts/Urban Wind Conditions.md`, `wiki/methods/CFD.md`, `wiki/concepts/CFD and Validation.md`, `wiki/concepts/Wind Shear.md`, and `wiki/index.md` with `va18`-supported claims and figure links.
+  - Marked `sources/va18.md` as processed.
+- Decisions:
+  - Did not add a design page because the paper compares urban candidate sites and assessment methods rather than documenting one source-owned turbine design.
+  - Did not add a parameter page because the controlled variables are resource-assessment inputs and climatology-transfer techniques, not turbine design parameters in the schema sense.
+  - Added a new method page for climatology assimilation because it is the source's main reusable technical contribution beyond generic CFD siting.
+- Open:
+  - `sources/va18.md` is readable and grounded, but some figure-heavy content was preserved as images rather than fully retyped tables/equations, and the paper still leaves the low 2-year TopoWind-assimilation result unexplained.
+
+### 2026-07-06 — Convert and ingest va17 MIT rooftop wind-resource thesis
+
+- Task: convert `PDFs/va17_raw.pdf` into `sources/va17.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va17.md` with source frontmatter, cleaned section structure, and linked extracted figures `va17-fig1` through `va17-fig12`.
+  - Added `wiki/summaries/va17-summary.md`.
+  - Added `wiki/concepts/Architectural Wind Turbines.md`.
+  - Updated `wiki/concepts/Urban Wind Conditions.md`, `wiki/methods/CFD.md`, `wiki/concepts/CFD and Validation.md`, and `wiki/index.md` with `va17`-supported claims and figure links.
+  - Marked `sources/va17.md` as processed.
+- Decisions:
+  - Did not add a design page because the thesis studies rooftop siting for a generic small building-mounted turbine rather than documenting one source-owned turbine design.
+  - Did not add a parameter page because the comparison is primarily between candidate sites and building geometries, not a turbine design-parameter sweep in the sense used by `schema/Ingest Source`.
+  - Added a new concept page for architectural wind turbines because the source's main reusable idea is roof-edge siting with Venturi acceleration.
+- Open:
+  - `sources/va17.md` is readable and complete enough to ingest, but a few figure captions still reflect OCR artifacts from the scan, especially Figures 1, 3, and 5.
 
 ### 2026-07-03 — Rename va17 PDF to va16 and ingest panel-method span/solidity study
 

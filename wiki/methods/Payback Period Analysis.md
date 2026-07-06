@@ -1,8 +1,10 @@
 ---
 Created: 2026-07-03
-Updated: 2026-07-03
-Sources: [[va13]]
-Source_count: 1
+Updated: 2026-07-06
+Sources:
+- [[va13]]
+- [[va19]]
+Source_count: 2
 Tags:
 - methods
 ---
@@ -16,10 +18,16 @@ Method for estimating how long a turbine retrofit takes to recover its initial c
 - Convert annual energy to annual electricity-cost savings using local electricity price. (source: sources/va13.md)
 - Compute total initial investment and annual maintenance cost from per-turbine values. (source: sources/va13.md)
 - Subtract maintenance from annual savings to get net annual savings, then divide total investment by net annual savings to get payback period. (source: sources/va13.md)
+- The va19 campus study adds rooftop-wind specifics: include installed cost, state rebates, emissions-credit assumptions, and compare payback directly against the turbine lifetime. (source: sources/va19.md)
+- It also compares scenarios at equal installed system capacity rather than equal turbine count, using `6 kW` as the fair-comparison basis between the `Skystream 3.7` and `AVX1000` systems. (source: sources/va19.md)
+
+![Source figure](../../images/va19-fig19.jpg)
+Original caption: Figure 19. Payback versus a carbon tax or credit for a Skystream on Eastgate. [[va19|Source]]
 
 Related:
 - [[AEO Calculation]]
 - [[Economic Viability of VAWTs]]
 - [[va13-summary]]
+- [[va19-summary]]
 
 #methods

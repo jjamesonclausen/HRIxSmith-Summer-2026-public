@@ -4,14 +4,19 @@ Updated: 2026-07-06
 Sources:
 - [[HRI2526]]
 - [[va13]]
+- [[va17]]
+- [[va18]]
+- [[va19]]
+- [[va20]]
+- [[va21]]
 - [[va8]]
 - [[va9]]
 - [[vj10]]
 - [[vj11]]
 - [[vj12]]
+Source_count: 12
 - [[vj13]]
 - [[vj14]]
-Source_count: 9
 Tags:
 - concepts
 ---
@@ -39,6 +44,19 @@ Characteristics of airflow in built environments. (source: sources/HRI2526.md)
 - It uses that stronger-wind urban case to show that rooftop VAWTs can be viable when the local wind resource is much better than low-speed rooftop cases elsewhere in the wiki. (source: sources/va13.md)
 - The vj13 study shows that wind-direction energy distribution, not just average wind speed or frequency, can change the best cluster orientation. (source: sources/vj13.md)
 - It reinforces that urban or rooftop siting needs directional wind roses before deciding where a Savonius cluster should face. (source: sources/vj13.md)
+- The va17 MIT rooftop-siting thesis says local building geometry can create roof-edge acceleration zones, but whether they are useful depends on where the high-speed region forms relative to the building edge. (source: sources/va17.md)
+- In that thesis, Eastgate reached about 5.5 m/s from a 4.9 m/s incident flow, but the strongest region was about 15 m above the roof and therefore not treated as a practical edge-mount location. (source: sources/va17.md)
+- The same source reports a stronger and more practical acceleration region at Johnson Athletic Center, where wind speed reached about 6.3 m/s and the peak zone was near the roof edge about 5 m above the roof. (source: sources/va17.md)
+- The va18 MIT campus study reports that urban resource can vary substantially over a few hundred meters because buildings create acceleration, channeling, blocking, recirculation, and wake turbulence. (source: sources/va18.md)
+- In that study, the western site `MT2` sat in a high-wind channel through Brigg's field, while the eastern site `MT1` sat in a more turbulent building wake near the MIT Tennis Facility. (source: sources/va18.md)
+- The same paper says the high-wind channel brought stronger winds closer to the ground and that the elevated turbulent region was localized behind tall-building roofs. (source: sources/va18.md)
+- The va19 campus survey adds that even buildings within roughly one square mile can show strongly different predominant wind direction and average wind speed because of local shielding and turbulence. (source: sources/va19.md)
+- In that report, most tested buildings were only Class I wind sites, while Eastgate alone reached Class II in the authors' measured-and-predicted ranking. (source: sources/va19.md)
+- The same source identifies Eastgate and `W8` as the most promising buildings among its seven tested sites, but still recommends year-long measurements because the short logging period left substantial uncertainty. (source: sources/va19.md)
+- The va20 study focuses explicitly on low-wind urban areas and treats passive local flow acceleration as necessary because ambient urban wind can be too weak and uncertain for efficient baseline VAWT operation. (source: sources/va20.md)
+- It proposes a directional wind flow modifier to accelerate incoming flow before the rotor, and reports a strong increase in low-speed power coefficient when that modifier is added to the involute rotor. (source: sources/va20.md)
+- The va21 rooftop prototype paper treats Kolkata's rooftop winds as low to moderate rather than steady high-resource flow, and reports rotor speed rising from `75 rpm` to `100 rpm` as measured wind components increased through roughly `0.4-3.8 m/s` in `vx` and `0.5-3.8 m/s` in `vy`. (source: sources/va21.md)
+- The same source says the broader study area typically sees `2.6-10 m/s` wind speeds, but the measured rotor-speed response on the building roof still showed no single clean pattern of variation with wind magnitude. (source: sources/va21.md)
 - The vj14 study shows that buildings around the site likely reduced wind speed, and that low local wind speed was the main reason the H-Darrieus prototype underperformed. (source: sources/vj14.md)
 - It also suggests roof mounting could reduce environmental impact because the mast and foundation dominate many LCA categories. (source: sources/vj14.md)
 ![Source figure](../../images/hri2526-fig16.jpg)
@@ -55,6 +73,14 @@ Original caption: Figure 26: The effect of obstacle on the height of a wind turb
 Original caption: Figure 27: Typical wind farm layout arranged with a rectangular grid pattern [136]. [[vj12|Source]]
 ![Source figure](../../images/vj12-fig28.jpg)
 Original caption: Figure 28: Schematic diagram for wind farms (a) aligned, (b) staggered, (c) scattered [137]. [[vj12|Source]]
+![Source figure](../../images/va17-fig12.jpg)
+Original caption: Figure 12. Region of peak wind velocity surrounding Johnson Athletic Center. [[va17|Source]]
+![Source figure](../../images/va18-fig13.jpg)
+Original caption: Figure 13: Mean Wind Power Density (W/m2), Horizontal section 20m above the ground; Mean Wind Power Density (W/m2), Vertical cross-section through MT1 and MT2; Mean Turbulence Intensity, Vertical cross-section through MT1 and MT2. [[va18|Source]]
+![Source figure](../../images/va19-fig7.jpg)
+Original caption: Figure 7. Average predicted and measured wind speeds and classification. [[va19|Source]]
+![Source figure](../../images/va20-fig5.jpg)
+Original caption: Figure 5. Rectangular (a) and circular (b) wind flow modifier. [[va20|Source]]
 
 Related:
 - [[VAWT]]
@@ -65,6 +91,9 @@ Related:
 - [[Hybrid VAWT]]
 - [[Darrieus Turbine]]
 - [[Economic Viability of VAWTs]]
-- [[Savonius Wind Turbine Cluster]]
+- [[Wind Flow Modifier]]
+- [[Architectural Wind Turbines]]
+- [[Climatology Assimilation]]
+- [[Measure-Correlate-Predict (MCP)]]
 
 #concepts 

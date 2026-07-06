@@ -6,6 +6,9 @@ Sources:
 - [[va13]]
 - [[va15]]
 - [[va14]]
+- [[va17]]
+- [[va18]]
+- [[va21]]
 - [[va11]]
 - [[va9]]
 - [[vj11]]
@@ -15,6 +18,7 @@ Sources:
 - [[vj13]]
 - [[vj15]]
 - [[vj17]]
+Source_count: 13
 Source_count: 13
 Tags:
 - concepts
@@ -41,6 +45,12 @@ This page covers the simulation workflow used to check a VAWT before hardware is
 - It also implements the variable rotational speed strategy through a UDF and a pressure-based coupled solver with second-order upwind discretization. (source: sources/vj13.md)
 - The vj15 study uses 2-D transient CFD with SST `k-omega` and a UDF-driven variable-pitch motion law to compare harmonic pitch functions. (source: sources/vj15.md)
 - The vj17 study verifies its optimized Savonius geometry with CFD after DVM/SSA optimization and uses a 3D domain with SST `k-omega` for the final comparison. (source: sources/vj17.md)
+- The va17 rooftop-siting thesis adds a building-scale CFD use case: screening candidate roof edges and then recommending follow-up anemometer measurements instead of treating the simulation alone as sufficient validation. (source: sources/va17.md)
+- The va18 urban-resource paper validates a CFD-based siting workflow against two local met towers, comparing mean wind speed, wind power density, and Weibull-based wind-distribution shape between measured and reconstructed site statistics. (source: sources/va18.md)
+- It reports that local climatology assimilation best matched the measured site-to-site ratios, while background assimilation, TopoWind transfer, and MCP normalization still preserved the ranking of the two sites. (source: sources/va18.md)
+- The va21 rooftop prototype paper adds a direct experiment-versus-simulation comparison for an installed machine, using ANSYS Fluent `16.2`, a transient double-precision parallel solver, and a `k-epsilon` turbulence model on a simplified rotor section. (source: sources/va21.md)
+- It reports a mesh-sensitivity check across coarse, fine, and extra-fine meshes, and says the fine and extra-fine meshes produced nearly identical rotor speed, angular velocity, and torque at `3.5 m/s`, so the fine mesh was retained. (source: sources/va21.md)
+- The same source reports less than `10%` deviation in rotor speed and less than `20%` deviation in voltage and power relative to measured data, while explicitly attributing part of the remaining error to simplified blade geometry and `2D` modeling of a `3D` turbine. (source: sources/va21.md)
 
 The VAWT review says URANS with `k-ω SST` is the main design-stage tool, while transition SST and DES/LES are preferred when dynamic stall fidelity matters most. (source: sources/vj11.md)
 It reports that 2-D URANS can overpredict Cp by 15-30% relative to validated 3-D simulations. (source: sources/vj11.md)
@@ -58,11 +68,20 @@ Original caption: Fig. 5. Computational grid independency study [31]. [[va10|Sou
 Original caption: Fig. 25. Vorticity magnitudes in the blade mid-span and vertical planes (units, 1/s) [52]. [[va11|Source]]
 ![Source figure](../../images/va13-fig7.jpg)
 Original caption: Figure 7. Computational domain and mesh setup. [[va13|Source]]
+![Source figure](../../images/va17-fig6.jpg)
+Original caption: Figure 6. Navier-Stokes Equations employed by the CFD program. [[va17|Source]]
+![Source figure](../../images/va18-fig13.jpg)
+Original caption: Figure 13: Mean Wind Power Density (W/m2), Horizontal section 20m above the ground; Mean Wind Power Density (W/m2), Vertical cross-section through MT1 and MT2; Mean Turbulence Intensity, Vertical cross-section through MT1 and MT2. [[va18|Source]]
 ![Source figure](../../images/va14-table2.jpg)
 Original caption: Table 2. Comparison between the measured CP [81] and simulated CP (present CFD study). [[va14|Source]]
+![Source figure](../../images/va21-fig22.jpg)
+Original caption: Figure 22. Comparison between computed and measured parameters: (a) rotor speed, (b) DC voltage and (c) power (source: Authors' elaboration). [[va21|Source]]
 
 Related:
 - [[Optimization]]
 - [[Dynamic Stall]]
 - [[Wind Tunnel Testing]]
 - [[Double-Multiple Streamtube Model]]
+- [[Architectural Wind Turbines]]
+- [[Climatology Assimilation]]
+- [[va21 Rooftop Vertical-Axis Wind Turbine]]
