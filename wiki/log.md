@@ -26,7 +26,7 @@
   - Created `sources/va15.md` with source frontmatter, section structure, linked figure images `va15-fig1` through `va15-fig20`, and screenshots for the two tables plus nomenclature.
   - Added `wiki/summaries/va15-summary.md`.
   - Added five source-specific parameter pages: `va15 Solidity`, `va15 Blade Profile`, `va15 Blade Pitch Angle`, `va15 Blade Surface Roughness`, and `va15 Blade Aspect Ratio`.
-  - Updated `wiki/concepts/H-VAWT.md`, `wiki/concepts/Darrieus Turbine.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/parameters/HRI2526 Aerodynamic Design Parameters.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/methods/Wind Tunnel Testing.md`, `wiki/concepts/CFD and Validation.md`, and `wiki/index.md` with `va15`-supported claims and links.
+  - Updated `wiki/concepts/H-VAWT.md`, `wiki/concepts/Darrieus Turbine.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/VAWT Aerodynamic Design Parameters.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/methods/Wind Tunnel Testing.md`, `wiki/concepts/CFD and Validation.md`, and `wiki/index.md` with `va15`-supported claims and links.
   - Marked `sources/va15.md` as processed and re-ran source-backlink and Obsidian-link verification checks.
 - Decisions:
   - Added five parameter pages because the paper is explicitly organized around independent design variables rather than a single stable turbine design.
@@ -42,7 +42,7 @@
   - Created `sources/va14.md` with source frontmatter, linked figure images `va14-fig1` through `va14-fig20`, and added screenshots for symbol-heavy tables and nomenclature.
   - Added `wiki/summaries/va14-summary.md`.
   - Added parameter pages `va14 Solidity` and `va14 Blade Number`.
-  - Updated `wiki/concepts/Wind Turbine Parameters.md`, `wiki/parameters/HRI2526 Aerodynamic Design Parameters.md`, `wiki/concepts/H-VAWT.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/concepts/H-rotor Wake Aerodynamics.md`, `wiki/concepts/CFD and Validation.md`, `wiki/methods/CFD.md`, and `wiki/index.md` with `va14`-supported claims and links.
+  - Updated `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/VAWT Aerodynamic Design Parameters.md`, `wiki/concepts/H-VAWT.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/concepts/H-rotor Wake Aerodynamics.md`, `wiki/concepts/CFD and Validation.md`, `wiki/methods/CFD.md`, and `wiki/index.md` with `va14`-supported claims and links.
   - Marked `sources/va14.md` as processed and re-ran source-backlink and Obsidian-link verification checks.
 - Decisions:
   - Added source-specific parameter pages because the paper directly studies solidity and blade number as the main design variables.
@@ -135,7 +135,7 @@
 - Task: verify that wiki pages include source-note backlinks in their properties for every source they cite, and add any missing links.
 - Actions:
   - Audited content pages in `wiki/summaries/`, `wiki/concepts/`, `wiki/methods/`, `wiki/designs/`, and `wiki/parameters/` by comparing body citations against frontmatter source links.
-  - Added missing frontmatter source backlinks and corrected `Source_count` values on 10 pages: `Darrieus Turbine`, `Design Checklist`, `Rules of Thumb`, `Savonius Turbine`, `Structures and Loads`, `Turbine Concept Selection`, `VAWT Design Overview`, `VAWT Types`, `CFD`, and `HRI2526 Aerodynamic Design Parameters`.
+  - Added missing frontmatter source backlinks and corrected `Source_count` values on 10 pages: `Darrieus Turbine`, `Design Checklist`, `Rules of Thumb`, `Savonius Turbine`, `Structures and Loads`, `Turbine Concept Selection`, `VAWT Design Overview`, `VAWT Types`, `CFD`, and `VAWT Aerodynamic Design Parameters`.
   - Re-ran the audit to confirm no remaining cited-source gaps on content pages.
   - Cleaned example-only link syntax in this log so the wiki-wide link verification passes without false unresolved links.
 - Decisions:
@@ -213,7 +213,7 @@
   - For single-source pages, used the exact source prefix such as `va3`, `va9`, and `vj2`.
   - For the older multi-source page `Aerodynamic Design Parameters`, used `HRI2526` as the primary source prefix, matching the design-page rename approach.
 - Open:
-  - Bare links like `[[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]` still remain where they intentionally refer to the concept page rather than the parameter page.
+  - Bare links like `[[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]` still remain where they intentionally refer to the concept page rather than a source-specific parameter page.
 
 ### 2026-07-03 — Rename design pages to include source prefixes
 
@@ -1790,6 +1790,62 @@ Decisions:
 
 Open:
 - None.
+
+### 2026-07-06 - Expand parameter pages across wiki
+
+- Task: Review all pages in `wiki/parameters/` and add more detail according to `schema/Ingest Source`.
+- What I did:
+  - Audited the full `wiki/parameters/` folder against the current parameter-page schema.
+  - Expanded the thinner parameter pages with more source-specific compared cases, quantitative results, tradeoffs, and mechanism explanations.
+  - Added helpful figures to several pages where they directly supported the new detail, including `va8 Blade-to-Horizontal-Beam Angle`, `va8 Asymmetrical Blade Profile`, and `vj9 Savonius Blade Shape`.
+  - Normalized remaining quoted `Tags: "#parameters"` front matter to `Tags: #parameters` across the folder.
+  - Left already-detailed parameter pages largely unchanged when they already met the current depth standard.
+- Pages materially expanded:
+  - `vj4 Airfoil Camber Line`
+  - `vj4 Blade Axis Inclination`
+  - `vj4 Blade Number`
+  - `vj7 Blade Material`
+  - `va2 H-VAWT Airfoil Geometry`
+  - `va8 Asymmetrical Blade Profile`
+  - `va8 Blade-to-Horizontal-Beam Angle`
+  - `va9 Blade-End Position`
+  - `vj9 Savonius Blade Shape`
+  - `vj12 Savonius Aspect Ratio`
+  - `vj12 Savonius Number of Stages`
+  - `vj12 Savonius End Plates`
+  - `vj12 Savonius Overlap Ratio`
+  - `vj12 Savonius Blade Count`
+  - `vj12 Savonius Inner Blades`
+  - `vj12 Savonius Twist Angle`
+  - `vj8 Airfoil Relative Thickness`
+  - `vj8 Included Angle Between Rotors`
+  - `vj8 Rotor Spacing`
+  - `va15 Blade Aspect Ratio`
+  - `va15 Blade Pitch Angle`
+  - `va15 Solidity`
+  - `va16 Solidity`
+  - `va16 Span-to-Diameter Ratio (H-D)`
+- Structural cleanups:
+  - Normalized `Tags: #parameters` on remaining schema-compliant pages that still used quoted tag strings, including `va3`, `va9`, `vj2`, and `vj8` parameter pages.
+  - Verified no local Markdown `.md` links were introduced in `wiki/parameters/`.
+- Decisions:
+  - Focused edits on pages that were materially thin under the new schema, rather than rewriting pages that already had clear parameter change descriptions, outcomes, and source figures.
+  - Kept source-backed caveats when the reviewed paper was itself a literature review or when outcomes varied across cited studies.
+- Open:
+  - `wiki/concepts/VAWT Aerodynamic Design Parameters.md` is a multi-source overview page and now lives under `wiki/concepts/`, which better matches its cross-source concept role.
+
+### 2026-07-06 - Move aerodynamic-parameters overview into concepts
+
+- Task: Rename the legacy `HRI2526 Aerodynamic Design Parameters` overview page, move it into `wiki/concepts/`, and update its front matter and tags accordingly.
+- What I did:
+  - Moved `wiki/parameters/HRI2526 Aerodynamic Design Parameters.md` to `wiki/concepts/VAWT Aerodynamic Design Parameters.md`.
+  - Renamed the note to reflect that it is a cross-source VAWT concept page rather than an `HRI2526`-specific parameter page.
+  - Updated the front matter to the concept-page schema with multi-source backlinks and changed the tag to `concepts`.
+  - Updated `wiki/index.md` and all live wikilinks that referenced the old note name so the rename does not leave broken links.
+- Decisions:
+  - Kept the page content largely unchanged because the existing synthesis already matches a concept/overview role; the problem was classification, not substance.
+- Open:
+  - None.
 
 ### 2026-07-06 - Expand va4 parameter detail
 

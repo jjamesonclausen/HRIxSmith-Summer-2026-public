@@ -63,7 +63,7 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 - [[VAWT Design Overview]]
 - [[VAWT Design Comparisons]]
 - [[Turbine Concept Selection]]
-- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
+- [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[Structures and Loads]]
 - [[Materials and Manufacturing]]
 - [[CFD and Validation]]
@@ -140,7 +140,6 @@ _Specific turbine design pages live in [`designs/`](designs/)._
 
 _Design-parameter pages live in [`parameters/`](parameters/)._
 
-- [[HRI2526 Aerodynamic Design Parameters]]
 - [[va2 H-VAWT Airfoil Geometry]]
 - [[va3 Blade Count for VAWT Startup and Pulsation]]
 - [[va3 Counter-rotating Array Spacing]]

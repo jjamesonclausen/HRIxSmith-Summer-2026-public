@@ -1,7 +1,7 @@
 ---
 Created: 2026-07-03
 Source: [[vj12]]
-Tags: "#parameters"
+Tags: #parameters
 Target: increase Cp
 Outcome: minimal positive effect
 ---
@@ -20,6 +20,8 @@ Original caption: Figure 4: Savonius turbine with different aspect ratios [39]. 
 ## Outcome
 
 - The review says higher aspect ratio can slightly improve power coefficient, likely by reducing moment of inertia. (source: sources/vj12.md)
+- Reported favorable values in the review cluster near `0.7` and `0.77`, rather than pointing to a much larger aspect ratio. (source: sources/vj12.md)
+- The review links the improvement mechanism to reduced moment of inertia, which can make the rotor easier to accelerate and sustain. (source: sources/vj12.md)
 - It also says the absolute optimum remains undefined because structural and fatigue constraints limit how far the ratio can be pushed. (source: sources/vj12.md)
 
 #parameters

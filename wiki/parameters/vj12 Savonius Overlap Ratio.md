@@ -1,7 +1,7 @@
 ---
 Created: 2026-07-03
 Source: [[vj12]]
-Tags: "#parameters"
+Tags: #parameters
 Target: increase Cp
 Outcome: minimal positive effect
 ---
@@ -20,6 +20,8 @@ Original caption: Figure 5: Scheme of a Savonius rotor: (a) without overlap; (b)
 ## Outcome
 
 - The review reports mixed findings: overlap can improve startup and dynamic performance, but no-overlap cases can produce higher mechanical power in some studies. (source: sources/vj12.md)
-- A commonly recommended range in the review is `0.1 to 0.15`, with `0.15` frequently cited as an effective value. (source: sources/vj12.md)
+- A commonly recommended range in the review is `0.1 to 0.15`, with `0.15` frequently cited as an effective value for `Cp`. (source: sources/vj12.md)
+- The review explicitly highlights disagreement: some studies favor null overlap for maximum mechanical power, while others report `0.15` as the best power-coefficient condition. (source: sources/vj12.md)
+- The tradeoff is between leakage control and returning-blade shielding on one hand, and static or startup behavior on the other, so the parameter does not have a single universal optimum. (source: sources/vj12.md)
 
 #parameters

@@ -79,7 +79,7 @@ Related:
 - [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
 - [[vj2 Split Savonius Outside Darrieus Hybrid Wind Turbine]]
 - [[Wind Turbine Parameters]]
-- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
+- [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[va3 Tip Speed Ratio Classification]]
 
 #concepts 

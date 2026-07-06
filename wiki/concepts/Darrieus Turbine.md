@@ -84,7 +84,7 @@ Related:
 - [[Hybrid VAWT]]
 - [[Wind Turbine Parameters]]
 - [[Dynamic Stall]]
-- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
+- [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[Wind Tunnel Testing]]
 - [[Double-Multiple Streamtube Model]]
 - [[va9 EN0005 Self-start Darrieus VAWT]]

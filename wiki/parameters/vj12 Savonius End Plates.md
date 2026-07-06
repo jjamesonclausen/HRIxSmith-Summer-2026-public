@@ -1,7 +1,7 @@
 ---
 Created: 2026-07-03
 Source: [[vj12]]
-Tags: "#parameters"
+Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
@@ -20,6 +20,8 @@ Original caption: Figure 12: Savonius rotor with endplates [19]. [[vj12|Source]]
 ## Outcome
 
 - The review says end plates improve the power coefficient by maintaining a favorable pressure difference and limiting air leakage from the concave side. (source: sources/vj12.md)
-- For conventional Savonius rotors, it says endplate diameter is commonly recommended at about 10% larger than turbine diameter. (source: sources/vj12.md)
+- For a helical Savonius case discussed in the review, the optimum end-plate ratio is reported near `ER = 1.0`. (source: sources/vj12.md)
+- The benefit is strongest at higher TSR because the end plates help preserve pressure difference and suppress side leakage that would otherwise weaken the returning-blade penalty. (source: sources/vj12.md)
+- For conventional Savonius rotors, the review says endplate diameter is commonly recommended at about `10%` larger than turbine diameter. (source: sources/vj12.md)
 
 #parameters

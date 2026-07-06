@@ -1,7 +1,7 @@
 ---
 Created: 2026-07-02
 Source: [[va3]]
-Tags: "#parameters"
+Tags: #parameters
 Target: improve self-start and reduce pulsation
 Outcome: significant positive effect
 ---
@@ -31,6 +31,6 @@ Original caption: Figure 20. Venturi wind turbines. [[va3|Source]]
 
 - [[va3 Eurowind VAWT]]
 - [[va3 Venturi Wind Turbine]]
-- [[HRI2526 Aerodynamic Design Parameters]]
+- [[VAWT Aerodynamic Design Parameters]]
 
 #parameters

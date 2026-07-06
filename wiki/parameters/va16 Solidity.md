@@ -21,7 +21,10 @@ Original caption: Fig. 9. Fluctuation of power coefficient curve against the tip
 ## Outcome
 
 - At fixed `H/c = 6`, the paper says power coefficient depends on rotor aspect ratio through solidity rather than on `H/D` alone. (source: sources/va16.md)
+- The paper therefore treats solidity as the stronger driver than `H/D` when `H/c` is fixed. (source: sources/va16.md)
 - Higher solidity shifts the optimum tip-speed ratio to lower values in the reported fixed-`H/c` comparison. (source: sources/va16.md)
+- The source also notes that lower-`H/D` / higher-solidity cases can produce unfavorable bound-circulation behavior near the blade tip, especially around `H/D = 0.9` relative to `1.2`. (source: sources/va16.md)
+- This is a numerical study, so the outcome is a simulation-based trend rather than a direct experimental validation. (source: sources/va16.md)
 
 ## Related
 

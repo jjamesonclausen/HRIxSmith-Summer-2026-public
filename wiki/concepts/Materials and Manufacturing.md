@@ -33,5 +33,5 @@ Original caption: Fig. 23. New Darrieus VAWT with blade ends in two different po
 Related:
 - [[Structures and Loads]]
 - [[Rules of Thumb]]
-- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
+- [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[Darrieus Turbine]]

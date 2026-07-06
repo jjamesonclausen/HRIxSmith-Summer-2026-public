@@ -1,7 +1,7 @@
 ---
 Created: 2026-07-02
 Source: [[va3]]
-Tags: "#parameters"
+Tags: #parameters
 Target: classify drag vs lift behavior
 Outcome: significant positive effect
 ---

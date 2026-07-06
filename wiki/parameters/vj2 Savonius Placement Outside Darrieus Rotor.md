@@ -1,7 +1,7 @@
 ---
 Created: 2026-07-03
 Source: [[vj2]]
-Tags: "#parameters"
+Tags: #parameters
 Target: increase torque
 Outcome: significant positive effect
 ---

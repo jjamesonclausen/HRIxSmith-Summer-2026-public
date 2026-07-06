@@ -37,4 +37,4 @@ Original caption: Figure 5: Relation between lift coefficient and angle of attac
 ![Source figure](../../images/va8-fig6.jpg)
 Original caption: Figure 6: Arrangement of two airfoil blade-profiles with respect to the connecting beams. [[va8|Source]]
 
-Related concepts: [[Hybrid VAWT]], [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]], [[Structures and Loads]], [[Materials and Manufacturing]], [[Urban Wind Conditions]], [[Wind Tunnel Testing]]
+Related concepts: [[Hybrid VAWT]], [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]], [[Structures and Loads]], [[Materials and Manufacturing]], [[Urban Wind Conditions]], [[Wind Tunnel Testing]]

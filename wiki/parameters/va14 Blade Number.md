@@ -28,6 +28,6 @@ Original caption: Fig. 16. Power coefficients versus tip speed ratio and solidit
 
 - [[Wind Turbine Parameters]]
 - [[va14 Solidity]]
-- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
+- [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 
 #parameters

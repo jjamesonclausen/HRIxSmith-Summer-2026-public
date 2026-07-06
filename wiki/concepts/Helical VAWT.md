@@ -57,6 +57,6 @@ Related:
 - [[Helical Darrieus]]
 - [[CFD]]
 - [[Dynamic Stall]]
-- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
+- [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[va3 Windside Helical Wind Turbine]]
 - [[va3 QuietRevolution QR5]]

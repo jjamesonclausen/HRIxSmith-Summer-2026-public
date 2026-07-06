@@ -40,6 +40,6 @@ Related:
 - [[Wind Tunnel Testing]]
 - [[Darrieus Turbine]]
 - [[H-VAWT]]
-- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
+- [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 
 #methods

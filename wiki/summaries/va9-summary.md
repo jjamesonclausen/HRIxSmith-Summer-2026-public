@@ -42,4 +42,4 @@ Original caption: Fig. 26. New Darrieus VAWT design prototype. [[va9|Source]]
 ![Source figure](../../images/va9-fig29.jpg)
 Original caption: Fig. 29. Prototype rotor speed at different wind speeds. [[va9|Source]]
 
-Related concepts, designs, parameters, and methods: [[Darrieus Turbine]], [[Straight-bladed Darrieus]], [[H-VAWT]], [[va9 EN0005 Self-start Darrieus VAWT]], [[va9 EN0005 Blade Profile]], [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]], [[Blade Element-Momentum Model]], [[Double-Multiple Streamtube Model]], [[Wind Tunnel Testing]]
+Related concepts, designs, parameters, and methods: [[Darrieus Turbine]], [[Straight-bladed Darrieus]], [[H-VAWT]], [[va9 EN0005 Self-start Darrieus VAWT]], [[va9 EN0005 Blade Profile]], [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]], [[Blade Element-Momentum Model]], [[Double-Multiple Streamtube Model]], [[Wind Tunnel Testing]]

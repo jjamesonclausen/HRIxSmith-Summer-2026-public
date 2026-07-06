@@ -20,7 +20,10 @@ Original caption: FIGURE 20 Self-starting time-varying results for turbine with 
 ## Outcome
 
 - Reducing blade span by 14% from 700 mm to 600 mm caused the tested turbine to fail to self-start. (source: sources/va15.md)
+- The `AR = 6` case only reaches about `lambda = 0.85`, which the paper treats as insufficient for sustained self-starting. (source: sources/va15.md)
+- The paper also notes that this failure to self-start persists across the tested solidity range and remains a concern even when other profile choices are considered. (source: sources/va15.md)
 - The paper concludes that larger blade span, and therefore larger aspect ratio, helps self-starting by reducing tip-loss effects and increasing the margin between aerodynamic torque and system resistance. (source: sources/va15.md)
+- This result is stricter than some prior thresholds cited by the authors, so the paper effectively argues that `AR > 5.7` alone is not a sufficient self-start guarantee. (source: sources/va15.md)
 
 ## Related
 

@@ -63,7 +63,7 @@ Related:
 - [[CFD]]
 - [[PIV Testing]]
 - [[3D Particle Tracking Velocimetry]]
-- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
+- [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[Double-Multiple Streamtube Model]]
 - [[va15 Blade Surface Roughness]]
 

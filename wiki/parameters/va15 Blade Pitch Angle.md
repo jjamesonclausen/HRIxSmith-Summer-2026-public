@@ -20,7 +20,10 @@ Original caption: FIGURE 13 Blade pitch effects on turbine performance at sigma 
 ## Outcome
 
 - A small negative pitch (`beta = -2 degrees`) improves low-tip-speed-ratio performance and helps the turbine pass through the startup dead-band more easily. (source: sources/va15.md)
+- The paper shows a startup-delay penalty of about `30 s` for the `beta = -4 degrees` case. (source: sources/va15.md)
+- Negative pitch helps below about `lambda < 0.9`, but above that range it begins to hurt performance as the operating point moves away from startup. (source: sources/va15.md)
 - Too much negative pitch (`beta = -4 degrees`) significantly degrades higher-`lambda` performance and can prevent effective startup at lower solidity. (source: sources/va15.md)
+- The mechanism the source emphasizes is stronger upwind stall and less favorable force direction once the turbine moves beyond the low-TSR startup regime. (source: sources/va15.md)
 
 ## Related
 

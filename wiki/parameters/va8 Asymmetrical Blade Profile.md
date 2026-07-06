@@ -1,7 +1,7 @@
 ---
 Created: 2026-07-03
 Source: [[va8]]
-Tags: "#parameters"
+Tags: #parameters
 Target: increase starting torque
 Outcome: significant positive effect
 ---
@@ -18,10 +18,15 @@ This `va8` patent changes the blade cross-section from a conventional profile to
 ![Source figure](../../images/va8-fig4.jpg)
 Original caption: Figure 4: Cross sectional view showing the blade having the asymmetrical airfoil profile. [[va8|Source]]
 
+![Source figure](../../images/va8-fig5.jpg)
+Original caption: Figure 5: Relation between lift coefficient and angle of attack. [[va8|Source]]
+
 ## Outcome
 
 - The patent claims the profile provides high starting torque even at low wind speeds. (source: sources/va8.md)
 - Wind-tunnel tests in the patent say the profile generates high lift coefficients of similar magnitude for wind from either direction. (source: sources/va8.md)
-- The worked example reports 2.5 times the net circumferential force of a typical flat-bottom profile. (source: sources/va8.md)
+- The worked example reports `2.5x` the net circumferential force of a typical flat-bottom profile. (source: sources/va8.md)
+- The same worked example says the improved force is achieved with a blade that is about `54%` lighter than the comparison profile. (source: sources/va8.md)
+- The evidence is presented as a patent worked example and wind-tunnel profile behavior rather than as a full rotor `Cp` sweep, so the source most strongly supports a startup-torque and force-generation benefit. (source: sources/va8.md)
 
 #parameters

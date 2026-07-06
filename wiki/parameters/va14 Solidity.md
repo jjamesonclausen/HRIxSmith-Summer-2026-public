@@ -29,6 +29,6 @@ Original caption: Fig. 2. Power coefficient versus (a) tip speed ratio and (b) s
 
 - [[Wind Turbine Parameters]]
 - [[va14 Blade Number]]
-- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
+- [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 
 #parameters

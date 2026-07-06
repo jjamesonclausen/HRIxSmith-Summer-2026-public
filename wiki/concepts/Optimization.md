@@ -30,7 +30,7 @@ It notes that no single enhancement strategy is universally best; the useful obj
 - Optimization is most useful after the concept and basic geometry are fixed. > Inference. (source: sources/vj2.md, sources/vj8.md, sources/va2.md)
 
 Related:
-- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
+- [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[CFD and Validation]]
 - [[Rules of Thumb]]
 - [[vj2 Savonius Shaft Removal]]

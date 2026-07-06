@@ -1,7 +1,7 @@
 ---
 Created: 2026-07-03
 Source: [[vj2]]
-Tags: "#parameters"
+Tags: #parameters
 Target: increase torque
 Outcome: significant positive effect
 ---
@@ -32,7 +32,7 @@ Original caption: Figure 8: Torque values calculated for each configuration, for
 
 - [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
 - [[vj2 Shaftless Savonius-Darrieus Hybrid Wind Turbine]]
-- [[HRI2526 Aerodynamic Design Parameters]]
+- [[VAWT Aerodynamic Design Parameters]]
 - [[Optimization]]
 
 #parameters

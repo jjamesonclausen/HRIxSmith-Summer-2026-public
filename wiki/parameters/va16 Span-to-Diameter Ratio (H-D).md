@@ -22,7 +22,10 @@ Original caption: Fig. 5. Fluctuations of power coefficient are compared with a 
 
 - At fixed solidity, peak power coefficient increases as `H/D` increases. (source: sources/va16.md)
 - The paper also says the optimum tip-speed ratio increases with `H/D` in that fixed-solidity comparison. (source: sources/va16.md)
+- The fixed-solidity comparison explicitly covers `H/D = 0.4`, `0.6`, `0.9`, and `1.2`, with the larger-`H/D` cases giving the better peak-performance results. (source: sources/va16.md)
 - Lower `H/D` broadens the spanwise influence of tip vortices and reduces local power near the blade tip. (source: sources/va16.md)
+- The source links the poor low-`H/D` behavior to altered local bound circulation and stronger end effects near the tip region. (source: sources/va16.md)
+- This is a numerical study, so the outcome should be read as a modeled aerodynamic trend rather than a directly measured hardware result. (source: sources/va16.md)
 
 ## Related
 

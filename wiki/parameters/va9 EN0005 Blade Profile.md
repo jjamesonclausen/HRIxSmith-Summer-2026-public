@@ -1,7 +1,7 @@
 ---
 Created: 2026-07-02
 Source: [[va9]]
-Tags: "#parameters"
+Tags: #parameters
 Target: increase self-start ability
 Outcome: significant positive effect
 ---
@@ -44,7 +44,7 @@ Original caption: Fig. 11. Moment coefficient. [[va9|Source]]
 
 ## Related
 
-- [[HRI2526 Aerodynamic Design Parameters]]
+- [[VAWT Aerodynamic Design Parameters]]
 - [[Darrieus Turbine]]
 - [[va9 EN0005 Self-start Darrieus VAWT]]
 

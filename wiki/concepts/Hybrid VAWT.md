@@ -93,7 +93,7 @@ See also:
 - [[HRI2526 Darrieus above Savonius|Darrieus above Savonius]]
 - [[HRI2526 Multi-stage Savonius within H-rotor Darrieus|Multi-stage Savonius within H-rotor Darrieus]]
 - [[HRI2526 Double Darrieus with Inner H-rotor and Outer Eggbeater|Double Darrieus with Inner H-rotor and Outer Eggbeater]]
-- [[HRI2526 Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
+- [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[Structures and Loads]]
 - [[Materials and Manufacturing]]
 - [[va13 Combined Helical-IceWind VAWT]]
