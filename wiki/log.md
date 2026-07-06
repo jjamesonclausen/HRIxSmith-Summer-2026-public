@@ -34,6 +34,19 @@
 - Open:
   - The extracted figures are page-region crops from a review PDF with mixed text-and-figure layouts, so they are usable but not perfectly uniform.
 
+### 2026-07-06 — Replace vj18 equation OCR
+
+- Task: make sure the equations in `sources/vj18.md` render correctly.
+- Actions:
+  - Rendered cropped equation images from the source PDF and added `images/vj18-eq1-5.png`, `images/vj18-eq6-11.png`, `images/vj18-eq12.png`, `images/vj18-eq13-17.png`, `images/vj18-eq18.png`, and `images/vj18-eq19.png`.
+  - Replaced the broken equation OCR blocks in `sources/vj18.md` with inline image embeds near the original locations.
+  - Removed duplicated OCR fragments left behind by the source conversion.
+- Decisions:
+  - Used image fallbacks instead of retyping equations because the OCR text was not reliable enough to trust.
+  - Kept the surrounding explanatory prose so the note still reads like a paper conversion.
+- Open:
+  - None.
+
 ### 2026-07-06 — Reformat vj18 source note
 
 - Task: fix the formatting of `sources/vj18.md` so it reads as a paper conversion instead of a stream of wrapped OCR lines with page markers.
@@ -44,6 +57,19 @@
 - Decisions:
   - Preserved the source text rather than summarizing it, because the user wanted the conversion to stay source-faithful.
   - Left some OCR artifacts in place where they do not affect readability, instead of rewriting the paper content.
+- Open:
+  - None.
+
+### 2026-07-06 — Tighten vj18 equation crops
+
+- Task: remove surrounding paragraph text from the `vj18` equation images.
+- Actions:
+  - Re-rendered the equations as tighter per-formula crops from the PDF.
+  - Split the multi-equation sections into individual equation images where that kept the crop clean.
+  - Updated `sources/vj18.md` to point at the tighter equation images instead of the earlier broad crops.
+- Decisions:
+  - Kept image fallbacks instead of retyping the formulas.
+  - Preferred narrow equation-only crops over larger stitched crops because the user explicitly wanted the surrounding text removed.
 - Open:
   - None.
 
