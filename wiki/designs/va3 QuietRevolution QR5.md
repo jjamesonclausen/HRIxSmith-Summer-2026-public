@@ -1,15 +1,17 @@
 ---
 Created: 2026-07-02
 Source: [[va3]]
-Tags: "#designs"
-Cp:
-Efficiency:
-TSR:
-Swept area:
-Cut-in speed: 4.0-4.5 m/s steady-wind self-maintain threshold
-Starting torque:
-Rated speed:
-Rated power: 6 kW
+Tags: #designs
+max Cp (1-4 m/s):
+max Cp (4-8 m/s):
+Efficiency (%):
+max TSR (1-4 m/s):
+max TSR (4-8 m/s):
+Swept area (m^2): 15.5
+Cut-in speed (m/s): 4
+max starting torque (Nm), (0-3 m/s):
+Rated speed (m/s):
+Rated power (W): 6000
 ---
 
 ## QuietRevolution QR5

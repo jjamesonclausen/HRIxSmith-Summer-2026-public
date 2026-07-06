@@ -1,15 +1,17 @@
 ---
 Created: 2026-07-02
 Source: [[va3]]
-Tags: "#designs"
-Cp:
-Efficiency:
-TSR:
-Swept area: 14.52 m2
-Cut-in speed: 2 m/s
-Starting torque:
-Rated speed: 90 rpm at 14 m/s
-Rated power: 6 kW at 14 m/s
+Tags: #designs
+max Cp (1-4 m/s):
+max Cp (4-8 m/s):
+Efficiency (%):
+max TSR (1-4 m/s):
+max TSR (4-8 m/s):
+Swept area (m^2): 14.52
+Cut-in speed (m/s): 2
+max starting torque (Nm), (0-3 m/s):
+Rated speed (m/s): 14
+Rated power (W): 6000
 ---
 
 ## Ropatec WRE.060 WindRotor

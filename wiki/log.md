@@ -1791,6 +1791,48 @@ Decisions:
 Open:
 - None.
 
+### 2026-07-06 - Correct Turby rated speed
+
+- Task: Correct the `Rated speed (m/s)` field on `wiki/designs/va3 Turby Wind Turbine.md`.
+- What I did:
+  - Set `Rated speed (m/s): 14` on the Turby page to match the source statement that rated power is reported at `14 m/s`.
+- Decisions:
+  - Treated the source's reported rated-power condition as the appropriate rated-speed value for the front matter.
+- Open:
+  - None.
+
+### 2026-07-06 - Revisit va3 front matter after schema update
+
+- Task: Re-check `va3` design pages after further changes to `schema/Ingest Source` and update their front matter accordingly.
+- What I did:
+  - Re-read the ingest schema and applied the latest design-page front matter requirements across all `va3` design pages.
+  - Renamed the final two design metrics to `Rated speed (m/s)` and `Rated power (W)` to match the updated schema.
+  - Reinterpreted rated speed as wind speed at maximum power output, not rotor rpm, and updated values accordingly.
+  - Calculated and populated swept area where rotor height and diameter were available from the source text, including the QR5, Turby, and the example turbines in the counter-rotating array page.
+  - Updated maximum-power fields where the source explicitly reported a larger peak output than the prior rated-power figure, such as `va3 Turby Wind Turbine` and `va3 Venturi Wind Turbine`.
+  - Verified there are no remaining `Rated speed (rpm)` or `Rated power (w)` fields on `va3` design pages and no local Markdown `.md` links in those pages.
+- Decisions:
+  - Left `Rated speed (m/s)` blank when the source gave a maximum power value but not the wind speed where that maximum occurs, such as the Aerogenerator concept and Turby peak-power note.
+  - Kept `Rated speed (m/s): 10` and `Rated power (W):` blank on the Solwind page because the source states the wind speed for rated output but does not report the output magnitude.
+  - Kept fields blank where the source still did not provide a single compliant numeric value.
+- Open:
+  - This pass only updated the `va3` design set; other design pages may still need the same schema refresh.
+
+### 2026-07-06 - Update va3 design properties tables
+
+- Task: Update the `va3` design pages to follow the revised properties-table instructions in `schema/Ingest Source`.
+- What I did:
+  - Reviewed `schema/Ingest Source` and applied the exact design-page front matter keys now required for source-specific design pages.
+  - Updated all ten `va3` design pages in `wiki/designs/` to use the normalized properties table fields: `max Cp (1-4 m/s)`, `max Cp (4-8 m/s)`, `Efficiency (%)`, `max TSR (1-4 m/s)`, `max TSR (4-8 m/s)`, `Swept area (m^2)`, `Cut-in speed (m/s)`, `max starting torque (Nm), (0-3 m/s)`, `Rated speed (rpm)`, and `Rated power (w)`.
+  - Converted populated values to plain numbers in the required units and left fields blank where `sources/va3.md` did not clearly report a single compliant value.
+  - Verified that the updated `va3` design pages contain no local Markdown `.md` links and no remaining uses of the old property names.
+- Decisions:
+  - Left several front matter fields blank where the source only gave descriptive text, ranges, non-matching operating conditions, or values that were not clearly the requested metric.
+  - Used `3.7` m/s for Solwind cut-in because the source distinguishes startup at `1.5` m/s from power production beginning at `3.7` m/s.
+  - Left rated-speed fields blank when the source only reported maximum rpm or a range rather than a single rated rpm.
+- Open:
+  - Other design pages outside the `va3` set still appear to use the older properties layout and may need the same schema-alignment pass later.
+
 ### 2026-07-02 — Retag parameters page
 
 Task: Update the `wiki/parameters` page metadata so the page uses the `Parameters` tag.
