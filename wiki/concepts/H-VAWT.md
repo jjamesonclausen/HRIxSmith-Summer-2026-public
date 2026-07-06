@@ -8,12 +8,13 @@ Sources:
 - [[va14]]
 - [[va25]]
 - [[va26]]
+- [[va27]]
 - [[va9]]
 - [[va11]]
 - [[vj14]]
 - [[vj15]]
 - [[vj4]]
-Source_count: 11
+Source_count: 12
 Tags:
 - concepts
 ---
@@ -54,10 +55,11 @@ The vj15 study adds that harmonic variable pitch can improve both startup and po
 - That source reports cambered-in `NACA6712` as best for low TSR, symmetric `E474` as best for mid-to-high TSR, and flipped `Clark Y` as the best cambered-out case for startup-oriented improvement. (source: sources/va25.md)
 - The va26 paper adds a fixed-pitch-angle study on a low-solidity 3-bladed H-rotor and reports an optimum of `-2` degrees at `TSR = 4`. (source: sources/va26.md)
 - It also argues that the way pitch redistributes instantaneous moment over azimuth makes dynamic pitching a promising next step for H-rotor performance improvement. (source: sources/va26.md)
+- The va27 paper adds a one-bladed low-solidity H-type reference rotor used to isolate how symmetric airfoil-shape parameters affect power performance in deep dynamic stall. (source: sources/va27.md)
 
 ![Source figure](../../images/va9-fig20.jpg)
 Original caption: Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow. [[va9|Source]]
 
-Related: [[VAWT]], [[Darrieus Turbine]], [[HAWT vs VAWT]], [[Kriging Surrogate Model]], [[CST Parameterization]], [[Multi-Island Genetic Algorithm]], [[Straight-bladed Darrieus]], [[Double-Multiple Streamtube Model]], [[H-rotor Wake Aerodynamics]], [[va25 Reference H-Rotor Darrieus VAWT]], [[va25 Blade Airfoil Profile]], [[va25 Cambered Airfoil Orientation]], [[va26 3-Bladed H-Type VAWT]], [[va26 Fixed Blade Pitch Angle]]
+Related: [[VAWT]], [[Darrieus Turbine]], [[HAWT vs VAWT]], [[Kriging Surrogate Model]], [[CST Parameterization]], [[Multi-Island Genetic Algorithm]], [[Straight-bladed Darrieus]], [[Double-Multiple Streamtube Model]], [[H-rotor Wake Aerodynamics]], [[va25 Reference H-Rotor Darrieus VAWT]], [[va25 Blade Airfoil Profile]], [[va25 Cambered Airfoil Orientation]], [[va26 3-Bladed H-Type VAWT]], [[va26 Fixed Blade Pitch Angle]], [[va27 Reference One-Bladed H-Type VAWT]], [[va27 Airfoil Relative Maximum Thickness]], [[va27 Airfoil Maximum-Thickness Position]], [[va27 Leading-Edge Radius Index]]
  
 #concepts 

@@ -8,6 +8,7 @@ Sources:
 - [[va24]]
 - [[va25]]
 - [[va26]]
+- [[va27]]
 - [[va16]]
 - [[va15]]
 - [[va14]]
@@ -23,7 +24,7 @@ Sources:
 - [[vj17]]
 - [[vj15]]
 - [[vj6]]
-Source_count: 19
+Source_count: 20
 Tags:
 - concepts
 ---
@@ -90,6 +91,9 @@ It reports `NACA6712` cambered-in peaking at `Cp = 0.3645` around `TSR = 2.037`,
 The va26 paper adds fixed blade pitch angle as a simple but sensitive control parameter, with `-2` degrees giving the best average performance in the studied case. (source: sources/va26.md)
 It reports that positive pitch quickly becomes harmful because it pushes the blade into stall earlier, while too much negative pitch also becomes counterproductive in the downwind region. (source: sources/va26.md)
 
+The va27 study adds three coupled airfoil-shape parameters as important VAWT design knobs in deep dynamic stall: relative maximum thickness `t/c`, thickness position `xt/c`, and leading-edge radius index `I`. (source: sources/va27.md)
+It reports that the optimum parameter combination changes with tip-speed ratio, from `NACA0024e4.5/3.5` at `lambda = 2.5` to `NACA0018e4.5/2.75` at `lambda = 3.0`. (source: sources/va27.md)
+
 ## Figures
 
 ![Source figure](../../images/va4-fig6.jpg)
@@ -120,6 +124,8 @@ Original caption: Fig. 10. a) Comparison of Coefficient of Performance against d
 Original caption: Fig. 19 Max Cp and corresponding lambda for the studied airfoils with their different orientations. [[va25|Source]]
 ![Source figure](../../images/va26-fig13.jpg)
 Original caption: Fig. 13. Coefficients of (a) power, (b) thrust, (c) lateral force and their relative change to b = 0 versus pitch angle for the last revolution. (d) A schematic showing a blade with positive pitch angle. [[va26|Source]]
+![Source figure](../../images/va27-fig15.jpg)
+Original caption: Fig. 15. Optimal airfoil shapes for lambda = 2.5 and 3.0. [[va27|Source]]
 
 These parameters are often visualized using a power curve, which relates wind speed to power output. (source: sources/HRI2526.md)
 
@@ -139,6 +145,9 @@ Related:
 - [[va25 Blade Airfoil Profile]]
 - [[va25 Cambered Airfoil Orientation]]
 - [[va26 Fixed Blade Pitch Angle]]
+- [[va27 Airfoil Relative Maximum Thickness]]
+- [[va27 Airfoil Maximum-Thickness Position]]
+- [[va27 Leading-Edge Radius Index]]
 - [[va20 Rotor Blade Profile]]
 - [[va20 Wind Flow Modifier]]
 - [[va22 100-W Helical-Blade Vertical-Axis Wind Turbine]]

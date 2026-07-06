@@ -1,6 +1,24 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest va27 dynamic-stall airfoil-shape study
+
+- Task: convert `PDFs/va27_raw.pdf` into `sources/va27.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va27.md` with source frontmatter and linked figure images `va27-fig1` through `va27-fig18`.
+  - Added `wiki/summaries/va27-summary.md`.
+  - Added the design page `wiki/designs/va27 Reference One-Bladed H-Type VAWT.md`.
+  - Added three source-specific parameter pages: `wiki/parameters/va27 Airfoil Relative Maximum Thickness.md`, `wiki/parameters/va27 Airfoil Maximum-Thickness Position.md`, and `wiki/parameters/va27 Leading-Edge Radius Index.md`.
+  - Added the concept page `wiki/concepts/Morphing Airfoil.md`.
+  - Updated `wiki/concepts/Optimization.md`, `wiki/concepts/CFD and Validation.md`, `wiki/methods/CFD.md`, `wiki/concepts/H-VAWT.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/concepts/Wind Turbine Parameters.md`, and `wiki/index.md` with `va27`-supported claims and links.
+  - Marked `sources/va27.md` as processed.
+- Decisions:
+  - Added three parameter pages because the paper explicitly studies three distinct airfoil-shape parameters: `t/c`, `xt/c`, and `I`.
+  - Added one concept page for morphing airfoils because the paper frames the optimization results as a stepping stone toward adaptive airfoil geometry rather than just a one-off static optimization.
+  - Added one design page for the reference one-bladed H-type rotor because the source defines a specific computational turbine geometry used across all shape comparisons.
+- Open:
+  - `sources/va27.md` is readable and figure-linked, but the long equation-heavy shape-generation section is still rough text extraction rather than clean mathematical notation.
+
 ### 2026-07-06 — Re-extract va26 figures for complete graph bounds
 
 - Task: replace the `va26` figure images because several graph crops cut off important parts of the figure area, including axis labels or the intended plot region.
