@@ -1,6 +1,32 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Re-extract va18 and va19 figures for readability
+
+- Task: replace the `va18` and `va19` figure screenshots so they capture the actual figures cleanly and avoid surrounding body text.
+- Actions:
+  - Audited both PDFs and confirmed that many figure files could be rebuilt from embedded PDF image objects instead of broad page-region crops.
+  - Replaced `va18-fig1` through `va18-fig16`, using embedded figure images where available and tighter figure-only composite crops for the multi-panel pages.
+  - Replaced `va19-fig1` through `va19-fig24`, using embedded figure images where available and tighter vector-page crops for charts and survey plots that were not stored as standalone images in the PDF.
+  - Verified that `sources/va18.md` and `sources/va19.md` do not have image embeds running into adjacent paragraph text.
+- Decisions:
+  - Preferred embedded image extraction whenever the original PDF asset existed, because it preserved the full figure with less surrounding noise than page clipping.
+  - Used page clips only for vector-drawn figures and fragmented pages where there was no single embedded image to extract.
+- Open:
+  - Some `va19` vector-drawn figures are still page renders rather than original image objects because the PDF does not expose them as standalone embedded images.
+
+### 2026-07-06 — Re-extract va20 figures from embedded PDF images
+
+- Task: fix the `va20` figure screenshots so they capture the actual figures instead of large page regions with surrounding body text.
+- Actions:
+  - Audited the `va20` PDF layout and confirmed that the current figure files were broad page crops rather than figure-only captures.
+  - Replaced `images/va20-fig1.jpg` through `images/va20-fig26.jpg` with the PDF's embedded figure images, which removed surrounding page text and preserved the full figures more cleanly.
+  - Cleaned `sources/va20.md` so image embeds no longer run into following paragraph text on the same line.
+- Decisions:
+  - Used embedded PDF image extraction instead of manual page cropping because the original assets were available and produced cleaner figure-only outputs.
+- Open:
+  - Table and equation fallbacks for `va20` were left unchanged because this pass was specifically to correct the figure extraction problem.
+
 ### 2026-07-06 — Convert and ingest va20 involute rotor and wind-flow-modifier study
 
 - Task: convert `PDFs/va20_raw.pdf` into `sources/va20.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
