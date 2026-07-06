@@ -1,15 +1,18 @@
 ---
 Created: 2026-07-03
 Source: [[vj9]]
-Tags: "#designs"
-Cp:
-Efficiency:
-TSR: 0.9 design point
-Swept area:
-Cut-in speed:
-Starting torque:
-Rated speed:
-Rated power:
+Tags: #designs
+max Cp (1-4 m/s):
+max Cp (4-8 m/s):
+Efficiency (%):
+max TSR (1-4 m/s):
+max TSR (4-8 m/s):
+Swept area (m^2):
+Cut-in speed (m/s):
+Cut-out speed (m/s):
+max starting torque (Nm), (0-3 m/s):
+Rated speed (m/s):
+Rated power (W):
 ---
 
 ## Scooplet-Based Savonius

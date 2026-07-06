@@ -1,15 +1,18 @@
 ---
 Created: 2026-07-03
 Source: [[va13]]
-Tags: "#designs"
-Cp: 0.17
-Efficiency:
-TSR: 1.8
-Swept area:
-Cut-in speed:
-Starting torque:
-Rated speed: 159 rev/min
-Rated power: 430 W
+Tags: #designs
+max Cp (1-4 m/s):
+max Cp (4-8 m/s):
+Efficiency (%):
+max TSR (1-4 m/s):
+max TSR (4-8 m/s):
+Swept area (m^2):
+Cut-in speed (m/s):
+Cut-out speed (m/s):
+max starting torque (Nm), (0-3 m/s):
+Rated speed (m/s): 13
+Rated power (W): 430
 ---
 
 ## Ice-Type VAWT

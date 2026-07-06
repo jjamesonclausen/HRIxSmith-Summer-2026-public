@@ -1791,6 +1791,80 @@ Decisions:
 Open:
 - None.
 
+### 2026-07-06 - Expand va4 parameter detail
+
+- Task: Revisit `wiki/parameters/va4 Tip Speed Ratio.md` and add more detail following `schema/Ingest Source`.
+- What I did:
+  - Expanded the page with more specific source-backed detail on the studied TSR set, the reported optimum at `TSR 1.8`, the low-TSR and high-TSR tradeoffs, and the mechanisms the paper gives for those tradeoffs.
+  - Added two additional related figures, `va4-fig7` and `va4-fig19`, to support the torque-fluctuation and wake-interaction discussion.
+  - Split the explanation into more detailed sections so the page better reflects the schema requirement to include high detail and specific results where helpful.
+- Decisions:
+  - Kept `Target: increase Cp` and `Outcome: significant positive effect` unchanged because the new detail reinforces the same high-level interpretation rather than changing it.
+- Open:
+  - None.
+
+### 2026-07-06 - Update va4 and va7 parameter pages
+
+- Task: Re-read `schema/Ingest Source` and review the parameter pages for `va4` and `va7`.
+- What I did:
+  - Updated `wiki/parameters/va7 Helix Angle.md` to match the current parameter-page schema, including normalized `Tags: #parameters` front matter.
+  - Expanded the `va7` page with more source-specific detail on the compared helix angles, the performance peak at `60 degrees`, and the torque-ripple / `Cp`-standard-deviation tradeoff.
+  - Added related source figures to the `va7` parameter page.
+  - Created `wiki/parameters/va4 Tip Speed Ratio.md` because `sources/va4.md` explicitly studies TSR as the varying parameter across the paper and the updated ingest instructions say to create a source-specific page for each parameter studied in each paper.
+  - Added related `va4` figures and updated `wiki/index.md` to include `[[va4 Tip Speed Ratio]]`.
+  - Verified the affected parameter pages contain no quoted `Tags` front matter and no local Markdown `.md` links.
+- Decisions:
+  - Used `Target: reduce torque ripple` and `Outcome: significant positive effect` for `va7 Helix Angle` because the clearest source-backed design benefit is the strong reduction in cyclic variation as helix angle increases, even though peak power is best at the lower 60 degree case.
+  - Used `Target: increase Cp` and `Outcome: significant positive effect` for `va4 Tip Speed Ratio` because the paper frames TSR selection as a major determinant of power output and identifies an optimized TSR near `1.8` for both higher power output and more stable supply in the studied case.
+- Open:
+  - None.
+
+### 2026-07-06 - Correct Turby whole-turbine rating fields
+
+- Task: Re-check whether populated design-page properties represent whole-turbine data rather than component-level data, and correct the Turby page.
+- What I did:
+  - Audited the populated design-page rating fields that were most likely to be confused with generator or power-electronics values.
+  - Updated `wiki/designs/va3 Turby Wind Turbine.md` so the front matter uses the turbine's reported rated point: `Rated speed (m/s): 14` and `Rated power (W): 2500`.
+- Decisions:
+  - Treated the separate `Peak power: 3.0 kW` note on the Turby page as not appropriate for the schema's `Rated power (W)` field because `sources/va3.md` explicitly reports rated power as `2.5 kW at 14 m/s`.
+  - Left other audited populated pages unchanged where the page body explicitly reports the metric for the turbine as a whole, even if the same page also mentions generator hardware.
+- Open:
+  - None.
+
+### 2026-07-06 - Refresh all design-page front matter to current schema
+
+- Task: Re-read `schema/Ingest Source` and update every page in `wiki/designs/` to the current design-page front matter format.
+- What I did:
+  - Normalized all 38 design pages to the latest required keys: `max Cp (1-4 m/s)`, `max Cp (4-8 m/s)`, `Efficiency (%)`, `max TSR (1-4 m/s)`, `max TSR (4-8 m/s)`, `Swept area (m^2)`, `Cut-in speed (m/s)`, `Cut-out speed (m/s)`, `max starting torque (Nm), (0-3 m/s)`, `Rated speed (m/s)`, and `Rated power (W)`.
+  - Replaced older free-text keys such as `Cp`, `TSR`, `Starting torque`, and legacy quoted `Tags` values across the entire `wiki/designs/` folder.
+  - Added the new `Cut-out speed (m/s)` field to all design pages, including the already-updated `va3` and `va9` pages.
+  - Converted populated front matter values to numeric-only entries in the requested units.
+  - Populated source-backed values where the existing design pages and their cited source material supported them, including swept-area calculations from rotor height times diameter where available.
+  - Verified there are no remaining old design-frontmatter keys in `wiki/designs/`, every design page now includes `Cut-out speed (m/s)`, and no local Markdown `.md` links were introduced.
+- Decisions:
+  - Left fields blank whenever the page/source did not clearly provide a single compliant numeric value for the schema field.
+  - For `va13` rooftop designs, left cut-in and cut-out blank because the source values around those limits were ambiguous in the existing page/source notes, while keeping the rated wind speed and maximum power values that were clearly supported.
+  - For `va3 Turby Wind Turbine`, kept `Rated power (W): 3000` as the maximum reported output, added `Cut-out speed (m/s): 14`, and left `Rated speed (m/s)` blank because the page reports `2.5 kW at 14 m/s` but does not state the wind speed at which the separate `3.0 kW` peak occurs.
+  - For pages that only discussed design concepts or comparative geometries without explicit operating metrics, kept most numeric fields blank rather than inferring values.
+- Open:
+  - Some design pages remain sparse because the underlying source pages do not report the full schema metrics; filling those gaps would require either more detailed source extraction or leaving them intentionally blank.
+
+### 2026-07-06 - Update va9 design front matter
+
+- Task: Re-read `schema/Ingest Source` and update the `va9` design page front matter to match the current design-page schema.
+- What I did:
+  - Updated `wiki/designs/va9 EN0005 Self-start Darrieus VAWT.md` to use the exact required properties keys: `max Cp (1-4 m/s)`, `max Cp (4-8 m/s)`, `Efficiency (%)`, `max TSR (1-4 m/s)`, `max TSR (4-8 m/s)`, `Swept area (m^2)`, `Cut-in speed (m/s)`, `max starting torque (Nm), (0-3 m/s)`, `Rated speed (m/s)`, and `Rated power (W)`.
+  - Normalized populated values to numeric-only entries.
+  - Calculated swept area as rotor height times rotor diameter using the source dimensions `0.48 m` and `0.346 m`, giving `0.16608 m^2`.
+  - Used the field-test torque table to populate `max Cp (1-4 m/s): 0.416`, `Cut-in speed (m/s): 1.25`, and `max starting torque (Nm), (0-3 m/s): 0.156`.
+  - Verified the page no longer uses the old front matter keys and contains no local Markdown `.md` links.
+- Decisions:
+  - Left both TSR fields blank because the page does not report a specific maximum TSR value tied to the required `1-4 m/s` or `4-8 m/s` ranges.
+  - Left `Efficiency (%)` blank because the source reports power coefficient rather than a separate turbine efficiency figure for this design page.
+  - Left `Rated speed (m/s)` and `Rated power (W)` blank because the source does not report a maximum power output value or the wind speed at which that maximum occurs.
+- Open:
+  - Other non-`va3` and non-`va9` design pages may still need the same schema-alignment pass.
+
 ### 2026-07-06 - Correct Turby rated speed
 
 - Task: Correct the `Rated speed (m/s)` field on `wiki/designs/va3 Turby Wind Turbine.md`.

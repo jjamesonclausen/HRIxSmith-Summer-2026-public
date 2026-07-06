@@ -24,7 +24,7 @@ schema/  Your skills. READ these. NEVER edit, move, or delete them, unless expli
 
 ## Wiki conventions
 
-- One page per concept, entity, or decision. Include detail while maintain clarity and organization. 
+- One page per concept, entity, or decision. Include a high level of detail while maintaining good organization. 
 - Every claim on a wiki page names the source file it came from: `(source: sources/spec-v2.md)`.
 - If something is not supported by a source, mark it clearly: `> Unverified:` or `> Inference:`.
 - Link related pages with relative Markdown links. Update `wiki/index.md` whenever you add a page.

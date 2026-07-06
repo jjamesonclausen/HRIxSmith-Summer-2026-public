@@ -9,6 +9,7 @@ max TSR (1-4 m/s):
 max TSR (4-8 m/s):
 Swept area (m^2): 7.43
 Cut-in speed (m/s): 4
+Cut-out speed (m/s):
 max starting torque (Nm), (0-3 m/s):
 Rated speed (m/s): 11.2
 Rated power (W): 1200
