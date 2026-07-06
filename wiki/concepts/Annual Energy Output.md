@@ -1,9 +1,10 @@
 ---
 Created:
-Updated: 2026-07-02
+Updated: 2026-07-06
 Sources:
 - [[va1]]
-Source_count: 1
+- [[vj13]]
+Source_count: 2
 Tags:
 - concepts
 ---
@@ -13,5 +14,8 @@ Total energy produced by a wind turbine over a year. (source: sources/va1.md)
 
 - Depends on wind distribution, turbine power curve, and swept area. (source: sources/va1.md)
 - Used to compare turbine performance in specific environments. (source: sources/va1.md)
+- The vj13 paper estimates annual output by fitting direction-specific power curves and combining them with hourly wind speed and wind-direction data from real sites. (source: sources/vj13.md)
+
+Related: [[Power Curve Annual Prediction]]
 
 #concepts

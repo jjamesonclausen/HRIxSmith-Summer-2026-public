@@ -1,6 +1,26 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest vj13 Savonius cluster study
+
+- Task: convert `PDFs/vj13.pdf` into `sources/vj13.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj13.md` with source frontmatter, cleaned paper structure, and linked figure images `vj13-fig1` through `vj13-fig14`.
+  - Added `wiki/summaries/vj13-summary.md`.
+  - Added new concept pages `Savonius Wind Turbine Cluster` and `Wake Effect`.
+  - Added new methods pages `Variable Rotational Speed Method` and `Power Curve Annual Prediction`.
+  - Added the parameter page `vj13 Cluster Installation Orientation`.
+  - Added the design page `vj13 Three-Turbine Savonius Cluster` because the paper defines a concrete cluster geometry and evaluates it as a system.
+  - Updated `wiki/concepts/Savonius Turbine.md`, `wiki/concepts/CFD and Validation.md`, `wiki/concepts/Annual Energy Output.md`, `wiki/concepts/Urban Wind Conditions.md`, and `wiki/index.md` with `vj13`-supported claims and links.
+  - Marked `sources/vj13.md` as processed.
+- Decisions:
+  - Treated the cluster as a concept rather than a novel named turbine design because the paper studies a conventional Savonius cluster layout and an orientation strategy, not a new rotor geometry.
+  - Added a source-specific parameter page because installation orientation is the main design variable the paper varies to improve annual output.
+  - Kept the new method pages separate because the paper's variable-speed control and power-curve annual prediction are reusable workflow ideas.
+  - Added a design page because the paper's three-rotor cluster is a concrete reusable geometry even though its main contribution is the orientation strategy.
+- Open:
+  - `sources/vj13.md` is readable and figure-linked, but some table text is still in extracted line form rather than clean markdown tables.
+
 ### 2026-07-03 — Rename va17 PDF to va16 and ingest panel-method span/solidity study
 
 - Task: rename `PDFs/va17_raw.pdf` to `PDFs/va16_raw.pdf`, convert it into `sources/va16.md`, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

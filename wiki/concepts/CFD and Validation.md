@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-06
 Sources:
 - [[va10]]
 - [[va13]]
@@ -12,7 +12,8 @@ Sources:
 - [[vj2]]
 - [[vj5]]
 - [[vj6]]
-Source_count: 10
+- [[vj13]]
+Source_count: 11
 Tags:
 - concepts
 ---
@@ -34,6 +35,8 @@ This page covers the simulation workflow used to check a VAWT before hardware is
 - The va13 building-integration study uses ANSYS Fluent with the SST `k-ω` model to compare rooftop turbine cases, but it explicitly says mesh sensitivity and experimental validation were not included in that study. (source: sources/va13.md)
 - The va15 experiment adds scarce low-`lambda`, time-accurate startup data that the paper explicitly positions as future validation material for numerical models. (source: sources/va15.md)
 - The va14 study adds a validated 2D URANS parameter sweep using transition SST (`γ-Reθ`), sliding mesh, grid-sensitivity analysis, and two separate experimental comparisons. (source: sources/va14.md)
+- The vj13 study uses 2-D transient CFD in Fluent with `k-ω SST`, grid and time-step independence checks, and validation against wind-tunnel data within about 5% error. (source: sources/vj13.md)
+- It also implements the variable rotational speed strategy through a UDF and a pressure-based coupled solver with second-order upwind discretization. (source: sources/vj13.md)
 
 The VAWT review says URANS with `k-ω SST` is the main design-stage tool, while transition SST and DES/LES are preferred when dynamic stall fidelity matters most. (source: sources/vj11.md)
 It reports that 2-D URANS can overpredict Cp by 15-30% relative to validated 3-D simulations. (source: sources/vj11.md)

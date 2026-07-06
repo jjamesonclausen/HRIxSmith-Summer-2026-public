@@ -46,6 +46,7 @@ _One page per file in `sources/`._
 - [[vj10-summary]]
 - [[vj11-summary]]
 - [[vj12-summary]]
+- [[vj13-summary]]
 
 ## Concepts
 
@@ -84,6 +85,8 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 - [[Lift vs Drag VAWT – Research Question]]
 - [[HRI2526 Multi-stage Savonius within H-rotor Darrieus|Multi-stage Savonius within H-rotor Darrieus]]
 - [[Savonius Turbine]]
+- [[Savonius Wind Turbine Cluster]]
+- [[Wake Effect]]
 - [[Scaling Effects]]
 - [[Straight-bladed Darrieus]]
 - [[Urban Wind Conditions]]
@@ -100,6 +103,7 @@ _Specific turbine design pages live in [`designs/`](designs/)._
 - [[HRI2526 Classical Savonius]]
 - [[HRI2526 EN0005 Self-start Darrieus VAWT]]
 - [[vj12 Counter-rotating Dual-Rotor VAWT]]
+- [[vj13 Three-Turbine Savonius Cluster]]
 - [[vj8 Contra-rotating VAWT]]
 - [[va3 Counter-rotating VAWT Array]]
 - [[HRI2526 Darrieus above Savonius]]
@@ -167,6 +171,7 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[vj12 Savonius Twist Angle]]
 - [[vj2 Savonius Shaft Removal]]
 - [[vj2 Savonius Placement Outside Darrieus Rotor]]
+- [[vj13 Cluster Installation Orientation]]
 - [[va12 Array Angle in Paired VAWT Arrays]]
 - [[va12 Relative Rotational Orientation in Paired VAWT Arrays]]
 - [[va12 Turbine Spacing in Paired VAWT Arrays]]
@@ -186,6 +191,8 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 _Procedure and technique pages live in [`methods/`](methods/)._
 
 - [[AEO Calculation]]
+- [[Variable Rotational Speed Method]]
+- [[Power Curve Annual Prediction]]
 - [[Blade Element-Momentum Model]]
 - [[Bin Method]]
 - [[CFD]]
