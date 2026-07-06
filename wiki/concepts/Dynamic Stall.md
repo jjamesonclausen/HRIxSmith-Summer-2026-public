@@ -38,6 +38,7 @@ Unsteady aerodynamic separation that occurs when a blade experiences rapidly cha
 - The helical-VAWT helix-angle study analyzes leading-edge vortex formation, flow separation, and wake interaction through z-vorticity contours, linking those flow features to secondary peaks in moment coefficient. (source: sources/va7.md)
 - The va23 shifted-troposkien paper says the rising low-TSR side of the power curve is dominated by dynamic stall behavior, while the post-peak performance drop is increasingly shaped by secondary effects including blade-wake interaction. (source: sources/va23.md)
 - The va24 variable-pitch study treats stall avoidance as the central control objective, explicitly choosing local angle-of-attack targets just below stall so lift stays high and drag stays controlled through the cycle. (source: sources/va24.md)
+- The va25 paper links poor low-TSR self-starting to abrupt angle-of-attack changes, aerodynamic stall, and low-Reynolds-number separation effects, and treats airfoil selection as one way to delay or soften those losses. (source: sources/va25.md)
 
 The VAWT review says dynamic stall is driven by leading-edge vortex growth and shedding, plus blade-vortex interaction on the downwind pass. (source: sources/vj11.md)
 It notes that the lift overshoot during dynamic stall can reach about 50% above the static maximum lift coefficient. (source: sources/vj11.md)

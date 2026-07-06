@@ -1,6 +1,23 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest va25 airfoil self-starting study
+
+- Task: convert `PDFs/va25_raw.pdf` into `sources/va25.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va25.md` with source frontmatter and linked figure images `va25-fig1` through `va25-fig21`.
+  - Added `wiki/summaries/va25-summary.md`.
+  - Added the design page `wiki/designs/va25 Reference H-Rotor Darrieus VAWT.md`.
+  - Added two source-specific parameter pages: `wiki/parameters/va25 Blade Airfoil Profile.md` and `wiki/parameters/va25 Cambered Airfoil Orientation.md`.
+  - Updated `wiki/concepts/H-VAWT.md`, `wiki/concepts/CFD and Validation.md`, `wiki/methods/CFD.md`, `wiki/methods/Double-Multiple Streamtube Model.md`, `wiki/concepts/Straight-bladed Darrieus.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/concepts/Wind Turbine Parameters.md`, and `wiki/index.md` with `va25`-supported claims and links.
+  - Marked `sources/va25.md` as processed.
+- Decisions:
+  - Added two parameter pages because the paper studies two distinct design levers: airfoil profile selection and camber orientation.
+  - Added one reference-rotor design page because the study uses a specific H-rotor baseline geometry as the common platform for all comparisons.
+  - Kept the source conversion text-heavy because the equation and table layout in the source PDF is difficult to normalize cleanly without a much larger cleanup pass.
+- Open:
+  - `sources/va25.md` is figure-linked and usable for ingestion, but some of the OCR-style line breaking and table/equation formatting remain rough compared with the source PDF.
+
 ### 2026-07-06 — Convert and ingest va24 DMST variable-pitch study
 
 - Task: convert `PDFs/va24_raw.pdf` into `sources/va24.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

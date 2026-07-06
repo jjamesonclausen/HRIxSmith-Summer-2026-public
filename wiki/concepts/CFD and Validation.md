@@ -9,6 +9,7 @@ Sources:
 - [[va17]]
 - [[va18]]
 - [[va21]]
+- [[va25]]
 - [[va11]]
 - [[va9]]
 - [[vj11]]
@@ -18,8 +19,7 @@ Sources:
 - [[vj13]]
 - [[vj15]]
 - [[vj17]]
-Source_count: 13
-Source_count: 13
+Source_count: 14
 Tags:
 - concepts
 ---
@@ -51,6 +51,8 @@ This page covers the simulation workflow used to check a VAWT before hardware is
 - The va21 rooftop prototype paper adds a direct experiment-versus-simulation comparison for an installed machine, using ANSYS Fluent `16.2`, a transient double-precision parallel solver, and a `k-epsilon` turbulence model on a simplified rotor section. (source: sources/va21.md)
 - It reports a mesh-sensitivity check across coarse, fine, and extra-fine meshes, and says the fine and extra-fine meshes produced nearly identical rotor speed, angular velocity, and torque at `3.5 m/s`, so the fine mesh was retained. (source: sources/va21.md)
 - The same source reports less than `10%` deviation in rotor speed and less than `20%` deviation in voltage and power relative to measured data, while explicitly attributing part of the remaining error to simplified blade geometry and `2D` modeling of a `3D` turbine. (source: sources/va21.md)
+- The va25 airfoil study adds a `2D` URANS CFD workflow with SST `k-omega`, sliding mesh, grid-independence analysis, and GCI, validated against published experimental data with less than `5%` maximum `Cp` error for the reference rotor. (source: sources/va25.md)
+- It also places the inlet and outlet much farther from the rotor than many wind-tunnel-style setups, explicitly to suppress solid blockage and allow more open-field-like wake development. (source: sources/va25.md)
 
 The VAWT review says URANS with `k-ω SST` is the main design-stage tool, while transition SST and DES/LES are preferred when dynamic stall fidelity matters most. (source: sources/vj11.md)
 It reports that 2-D URANS can overpredict Cp by 15-30% relative to validated 3-D simulations. (source: sources/vj11.md)
@@ -76,6 +78,8 @@ Original caption: Figure 13: Mean Wind Power Density (W/m2), Horizontal section 
 Original caption: Table 2. Comparison between the measured CP [81] and simulated CP (present CFD study). [[va14|Source]]
 ![Source figure](../../images/va21-fig22.jpg)
 Original caption: Figure 22. Comparison between computed and measured parameters: (a) rotor speed, (b) DC voltage and (c) power (source: Authors' elaboration). [[va21|Source]]
+![Source figure](../../images/va25-fig8.jpg)
+Original caption: Fig. 8 Reference model (NACA0021) validation and verification. [[va25|Source]]
 
 Related:
 - [[Optimization]]
@@ -85,3 +89,4 @@ Related:
 - [[Architectural Wind Turbines]]
 - [[Climatology Assimilation]]
 - [[va21 Rooftop Vertical-Axis Wind Turbine]]
+- [[va25 Reference H-Rotor Darrieus VAWT]]

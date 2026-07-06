@@ -6,12 +6,13 @@ Sources:
 - [[va16]]
 - [[va15]]
 - [[va14]]
+- [[va25]]
 - [[va9]]
 - [[va11]]
 - [[vj14]]
 - [[vj15]]
 - [[vj4]]
-Source_count: 9
+Source_count: 10
 Tags:
 - concepts
 ---
@@ -48,10 +49,12 @@ The vj15 study adds that harmonic variable pitch can improve both startup and po
 - The va16 panel-method study adds a spanwise-performance view for straight-bladed H-rotors, showing that larger `H/D` can improve peak `Cp` at fixed solidity while lower `H/D` strengthens tip-vortex influence near the blade tip. (source: sources/va16.md)
 - The vj14 case study adds a real deployed H-Darrieus turbine with a `3.5 m` diameter, `3 m` blade height, `5 kW` nominal capacity, and a `15.6 m` mast on the Bialystok campus. (source: sources/vj14.md)
 - It reports that the prototype's poor performance was dominated by the local wind resource rather than by the LCA method itself. (source: sources/vj14.md)
+- The va25 paper adds a 3-bladed straight-bladed H-rotor CFD reference model and uses it to compare how airfoil family and camber orientation affect startup and `Cp` over low-to-mid TSR operation. (source: sources/va25.md)
+- That source reports cambered-in `NACA6712` as best for low TSR, symmetric `E474` as best for mid-to-high TSR, and flipped `Clark Y` as the best cambered-out case for startup-oriented improvement. (source: sources/va25.md)
 
 ![Source figure](../../images/va9-fig20.jpg)
 Original caption: Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow. [[va9|Source]]
 
-Related: [[VAWT]], [[Darrieus Turbine]], [[HAWT vs VAWT]], [[Kriging Surrogate Model]], [[CST Parameterization]], [[Multi-Island Genetic Algorithm]], [[Straight-bladed Darrieus]], [[Double-Multiple Streamtube Model]], [[H-rotor Wake Aerodynamics]]
+Related: [[VAWT]], [[Darrieus Turbine]], [[HAWT vs VAWT]], [[Kriging Surrogate Model]], [[CST Parameterization]], [[Multi-Island Genetic Algorithm]], [[Straight-bladed Darrieus]], [[Double-Multiple Streamtube Model]], [[H-rotor Wake Aerodynamics]], [[va25 Reference H-Rotor Darrieus VAWT]], [[va25 Blade Airfoil Profile]], [[va25 Cambered Airfoil Orientation]]
  
 #concepts 

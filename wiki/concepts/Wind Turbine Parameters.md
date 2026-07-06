@@ -6,6 +6,7 @@ Sources:
 - [[va20]]
 - [[va22]]
 - [[va24]]
+- [[va25]]
 - [[va16]]
 - [[va15]]
 - [[va14]]
@@ -21,7 +22,7 @@ Sources:
 - [[vj17]]
 - [[vj15]]
 - [[vj6]]
-Source_count: 17
+Source_count: 18
 Tags:
 - concepts
 ---
@@ -82,6 +83,9 @@ It also reports startup at `3.5 m/s`, measured `114.7 W` and `Cp = 0.163` at the
 The va24 paper adds maximum local angle of attack `S` as an active control parameter, reporting that different optimal `S` values are needed at different TSRs and for different pitch strategies. (source: sources/va24.md)
 It reports a fixed-blade peak `Cp` near `0.48` at `TSR = 5`, compared with `0.568` for pitching Technique 1 and `0.532` for Technique 2 at the same TSR. (source: sources/va24.md)
 
+The va25 paper adds airfoil-family choice and camber orientation as major low-TSR design knobs for H-Darrieus startup and performance. (source: sources/va25.md)
+It reports `NACA6712` cambered-in peaking at `Cp = 0.3645` around `TSR = 2.037`, while symmetric `E474` peaks at `Cp = 0.3557` around `TSR = 3.0`. (source: sources/va25.md)
+
 ## Figures
 
 ![Source figure](../../images/va4-fig6.jpg)
@@ -108,6 +112,8 @@ Original caption: Figure 26. Electrical characteristics: (a) rotor power and (b)
 Original caption: Figure 9. Graph of power output according to wind velocity obtained from wind tunnel test (symbols: test results; lines: fitting curve). [[va22|Source]]
 ![Source figure](../../images/va24-fig10.jpg)
 Original caption: Fig. 10. a) Comparison of Coefficient of Performance against different tip speed ratios for fixed blade with pitching model technique 1 and 2, b) Maximum local angle of attack (S) used during technique 1 and 2 to achieve Cp in Fig. 10(a). [[va24|Source]]
+![Source figure](../../images/va25-fig19.jpg)
+Original caption: Fig. 19 Max Cp and corresponding lambda for the studied airfoils with their different orientations. [[va25|Source]]
 
 These parameters are often visualized using a power curve, which relates wind speed to power output. (source: sources/HRI2526.md)
 
@@ -124,6 +130,8 @@ Related:
 - [[va16 Span-to-Diameter Ratio (H-D)]]
 - [[vj15 Pitch Amplitude]]
 - [[va24 Variable Blade Pitching Strategy]]
+- [[va25 Blade Airfoil Profile]]
+- [[va25 Cambered Airfoil Orientation]]
 - [[va20 Rotor Blade Profile]]
 - [[va20 Wind Flow Modifier]]
 - [[va22 100-W Helical-Blade Vertical-Axis Wind Turbine]]

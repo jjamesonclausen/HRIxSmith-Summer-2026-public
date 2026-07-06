@@ -39,6 +39,7 @@ _One page per file in `sources/`._
 - [[va22-summary]]
 - [[va23-summary]]
 - [[va24-summary]]
+- [[va25-summary]]
 - [[va5-summary]]
 - [[va4-summary]]
 - [[va3-summary]]
@@ -164,6 +165,7 @@ _Specific turbine design pages live in [`designs/`](designs/)._
 - [[va23 50% STS-VAWT]]
 - [[va23 100% STS-VAWT]]
 - [[va24 Variable-Pitch 3-Bladed NACA0015 Straight-Bladed VAWT]]
+- [[va25 Reference H-Rotor Darrieus VAWT]]
 - [[va1 Windside WS-12]]
 - [[va3 Windside Helical Wind Turbine]]
 - [[va3 Windspire Gyromill]]
@@ -218,6 +220,8 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[va20 Wind Flow Modifier]]
 - [[va23 Shifted Troposkien Vertical Offset]]
 - [[va24 Variable Blade Pitching Strategy]]
+- [[va25 Blade Airfoil Profile]]
+- [[va25 Cambered Airfoil Orientation]]
 - [[va3 Tip Speed Ratio Classification]]
 
 ## Methods
