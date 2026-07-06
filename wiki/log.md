@@ -1,6 +1,23 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest vj23 simple Darrieus VAWT design note
+
+- Task: convert `PDFs/vj23.pdf` into `sources/vj23.md`, extract its figures and displayed equation, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj23.md` with source frontmatter, cleaned section structure, linked figures `vj23-fig1` through `vj23-fig5`, and linked the displayed wind-kinetic-energy equation as an image.
+  - Added `wiki/summaries/vj23-summary.md`.
+  - Added the source-specific design page `wiki/designs/vj23 3-Bladed Darrieus VAWT with Gearbox.md`.
+  - Added the source-specific parameter pages `wiki/parameters/vj23 Blade Number.md` and `wiki/parameters/vj23 Gearbox Sizing.md`.
+  - Updated `wiki/concepts/Darrieus Turbine.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/HAWT vs VAWT.md`, and `wiki/index.md` with `vj23`-supported claims and links.
+  - Marked `sources/vj23.md` as processed.
+- Decisions:
+  - Added one design page because the paper includes one concrete three-bladed Darrieus concept with gearbox-chain drive.
+  - Added one blade-number parameter page and one gearbox-sizing parameter page because those are the clearest changed design levers discussed in the source.
+  - Did not create a separate gearbox concept page because the source's gearbox discussion is brief and design-specific rather than a strong standalone reusable method or concept note.
+- Open:
+  - The paper is brief and internally mixed about blade count: the abstract highlights a `3`-blade case, while the later text says `4` blades give greater and more stable torque.
+
 ### 2026-07-06 — Convert and ingest vj22 low-wind QBlade airfoil and blade-count study
 
 - Task: convert `PDFs/vj22.pdf` into `sources/vj22.md`, extract its figures and equations, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

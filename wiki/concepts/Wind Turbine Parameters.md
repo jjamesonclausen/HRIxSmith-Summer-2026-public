@@ -27,7 +27,8 @@ Sources:
 - [[vj18]]
 - [[vj19]]
 - [[vj20]]
-Source_count: 23
+- [[vj23]]
+Source_count: 24
 Tags:
 - concepts
 ---
@@ -99,6 +100,10 @@ The vj20 hybrid study adds positive static torque coefficient `Cts` at all azimu
 It also reports multiple context-specific startup values: `1.72 m/s` in the experimental section, `1.54 m/s` in later comparison figures, and `2.81 m/s` / `1.405 m/s` in the full-scale / scaled similarity table. (source: sources/vj20.md)
 
 > Discrepancy: `vj20` contains several different cut-in-style values depending on whether the paper is discussing direct experiment, scaled comparison plots, or similarity-scaled full-size parameters. Treat these as source-context-specific rather than one single definitive cut-in number. (source: sources/vj20.md)
+
+The vj23 paper adds a qualitative small-Darrieus case where `3` blades are reported to give torque above `40 rpm` at `4.5 to 5 m/s`, and a gearbox around `1:60` is mentioned as the speed-increase stage between turbine and generator. (source: sources/vj23.md)
+
+> Discrepancy: `vj23` says the `3`-blade case achieves the cited torque level, but the later discussion says a `4`-blade turbine has greater and more stable torque. Treat its blade-count recommendation as internally mixed. (source: sources/vj23.md)
 
 The va25 paper adds airfoil-family choice and camber orientation as major low-TSR design knobs for H-Darrieus startup and performance. (source: sources/va25.md)
 It reports `NACA6712` cambered-in peaking at `Cp = 0.3645` around `TSR = 2.037`, while symmetric `E474` peaks at `Cp = 0.3557` around `TSR = 3.0`. (source: sources/va25.md)

@@ -1,12 +1,13 @@
 ---
 Created:
-Updated: 2026-07-02
+Updated: 2026-07-06
 Sources:
 - [[HRI2526]]
 - [[va3]]
 - [[va6]]
 - [[vj1]]
-Source_count: 4
+- [[vj23]]
+Source_count: 5
 Tags:
 - concepts
 ---
@@ -42,6 +43,7 @@ VAWTs:
 - The source also claims small VAWTs can be almost inaudible and less harmful to birds than large HAWTs. (source: sources/va3.md)
 - The comparison paper says VAWTs can be more suitable for cities because noise is lower and maintenance is easier. (source: sources/va6.md)
 - It also reports higher torque in VAWTs because of slower rotational speed. (source: sources/va6.md)
+- The vj23 paper repeats the same practical contrast for a small Darrieus case: VAWTs do not need yawing, can keep the gearbox and generator near the ground, and are therefore easier to maintain. (source: sources/vj23.md)
 
 Tradeoff summary:
 - HAWTs: optimized, efficient, dominant at large scale

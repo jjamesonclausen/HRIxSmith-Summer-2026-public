@@ -17,7 +17,8 @@ Sources:
 - [[vj14]]
 - [[vj15]]
 - [[vj22]]
-Source_count: 15
+- [[vj23]]
+Source_count: 16
 Tags:
 - concepts
 ---
@@ -76,6 +77,8 @@ It reports that the `50% STS-VAWT` outperformed both the conventional and `100%`
 The vj15 CFD study adds that harmonic variable pitch can improve both power and self-starting in an H-type Darrieus turbine, with Case 1 at 3 degrees giving the best reported result. (source: sources/vj15.md)
 - The vj22 low-wind simulation paper compares `NACA 0012` and `NACA 0015` on a small straight-bladed VAWT and reports that the thicker `NACA 0015` profile produces better `Cl/Cd` behavior and higher output power in the compared high end of the studied `2-8 m/s` range. (source: sources/vj22.md)
 - The same source also frames blade count as a low-wind Darrieus tradeoff: `3` blades give the best and most stable `Cp`, while `5` and `8` blades increase torque and self-rotation tendency at the expense of efficiency. (source: sources/vj22.md)
+- The vj23 conference paper adds a simple low-wind design argument for a small Darrieus rotor in Indonesia, emphasizing near-ground drivetrain placement, omnidirectional operation, and a gearbox-coupled `3`-blade configuration. (source: sources/vj23.md)
+- It also repeats the usual Darrieus weakness that external energy may be needed to start rotation, while presenting gearbox sizing and blade count as the main practical levers in its proposed setup. (source: sources/vj23.md)
 - The vj14 case study adds a real 5 kW H-Darrieus deployment whose measured annual generation was only 219.4 kWh, showing how weak local wind can dominate the practical outcome. (source: sources/vj14.md)
 It also notes that the site-specific tower, foundation, and cabling can outweigh the turbine itself in lifecycle impact. (source: sources/vj14.md)
 
