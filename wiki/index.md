@@ -34,6 +34,7 @@ _One page per file in `sources/`._
 - [[va17-summary]]
 - [[va18-summary]]
 - [[va19-summary]]
+- [[va20-summary]]
 - [[va5-summary]]
 - [[va4-summary]]
 - [[va3-summary]]
@@ -98,6 +99,7 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 - [[HRI2526 Troposkien Darrieus|Troposkien Darrieus]]
 - [[VAWT]]
 - [[Wind Turbine Parameters]]
+- [[Wind Flow Modifier]]
 - [[Wind Shear]]
 
 ## Designs
@@ -142,6 +144,9 @@ _Specific turbine design pages live in [`designs/`](designs/)._
 - [[va13 Ice-Type VAWT]]
 - [[va19 AeroVironment AVX1000]]
 - [[va19 Skystream 3.7]]
+- [[va20 H-Type Rotor with C-Blade]]
+- [[va20 Involute Blade Type Rotor]]
+- [[va20 Involute Rotor with Wind Flow Modifier]]
 - [[va1 Windside WS-12]]
 - [[va3 Windside Helical Wind Turbine]]
 - [[va3 Windspire Gyromill]]
@@ -190,6 +195,8 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[va15 Solidity]]
 - [[va16 Solidity]]
 - [[va16 Span-to-Diameter Ratio (H-D)]]
+- [[va20 Rotor Blade Profile]]
+- [[va20 Wind Flow Modifier]]
 - [[va3 Tip Speed Ratio Classification]]
 
 ## Methods

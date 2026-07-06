@@ -11,6 +11,7 @@ Sources:
 - [[va14]]
 - [[va17]]
 - [[va18]]
+- [[va20]]
 - [[va4]]
 - [[va7]]
 - [[vj12]]
@@ -18,7 +19,7 @@ Sources:
 - [[vj5]]
 - [[vj6]]
 - [[vj8]]
-Source_count: 16
+Source_count: 17
 Tags:
 - methods
 ---
@@ -54,6 +55,8 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 - It uses the CFD output to reject Eastgate as impractical for edge mounting and to recommend follow-up measurements at Johnson's west roof edge. (source: sources/va17.md)
 - The va18 campus-resource paper uses UrbaWind RANS CFD with a `k-L` turbulence framework, about 4 to 5 million cells, 1 m near-site resolution, and 12 directional runs to map urban speed-up, turbulence, and wind-power-density structure. (source: sources/va18.md)
 - The same source also uses TopoWind to transfer remote airport climatology toward the site before applying the local urban CFD workflow. (source: sources/va18.md)
+- The va20 study uses ANSYS Fluent with a realizable `k-epsilon` turbulence model, SIMPLE pressure-velocity coupling, a sliding mesh, and second-order upwind discretisation to compare three VAWT configurations for low-wind urban use. (source: sources/va20.md)
+- It reports tetrahedral meshes with roughly `405,679`, `437,894`, and `1,147,223` elements for the C-blade, involute, and involute-plus-WFM cases respectively. (source: sources/va20.md)
 - The va14 study uses 2D URANS with the transition SST (`γ-Reθ`) model, a sliding mesh interface, about 400,000 quadrilateral cells, and a grid-sensitivity analysis quantified with GCI. (source: sources/va14.md)
 - It validates against wake-velocity data for a 2-bladed turbine and power-coefficient data for a 3-bladed turbine before running the larger parametric sweep. (source: sources/va14.md)
 - The helical-VAWT study used 2D LES for blade-scale flow and 3D U-RANS with SST k-omega for the full rotor. (source: sources/va4.md)
@@ -89,6 +92,8 @@ Original caption: Figure 7. Computational domain and mesh setup. [[va13|Source]]
 Original caption: Figure 11. Wind velocity profile around Johnson Athletic Center. [[va17|Source]]
 ![Source figure](../../images/va18-fig2.jpg)
 Original caption: Figure 2: Unstructured Cartesian meshing grid. [[va18|Source]]
+![Source figure](../../images/va20-fig7.jpg)
+Original caption: Figure 7. Computational domain defined in ANSYS design modeler. [[va20|Source]]
 ![Source figure](../../images/va14-fig1.jpg)
 Original caption: Fig. 1. Schematic of (a) the reference turbine, (b) computational domain (both not to scale); (c-e) computational grid near the (c) rotating core, (d) airfoil, and (e) trailing edge. [[va14|Source]]
 - The CRVAWT optimization paper used STAR-CCM+ CFD, validated an isolated VAWT against wind-tunnel data, and then used the simulation outputs in a response-surface optimization workflow. (source: sources/vj8.md)

@@ -1,6 +1,25 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest va20 involute rotor and wind-flow-modifier study
+
+- Task: convert `PDFs/va20_raw.pdf` into `sources/va20.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va20.md` with source frontmatter, cleaned section structure, figure links `va20-fig1` through `va20-fig26`, table images `va20-table1` through `va20-table6`, and equation images for the governing-equation sections.
+  - Cleaned the converted source note by removing rough OCR table/equation dumps where image fallbacks were clearer.
+  - Added `wiki/summaries/va20-summary.md`.
+  - Added `wiki/concepts/Wind Flow Modifier.md`.
+  - Added three single-source design pages: `va20 H-Type Rotor with C-Blade`, `va20 Involute Blade Type Rotor`, and `va20 Involute Rotor with Wind Flow Modifier`.
+  - Added two source-specific parameter pages: `va20 Rotor Blade Profile` and `va20 Wind Flow Modifier`.
+  - Updated `wiki/methods/CFD.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/Urban Wind Conditions.md`, and `wiki/index.md` with `va20`-supported claims and figure links.
+  - Marked `sources/va20.md` as processed.
+- Decisions:
+  - Split the source into three design pages because the paper evaluates three explicit rotor configurations with separate geometry and performance outcomes.
+  - Added two parameter pages because the studied changes are the rotor blade profile and the addition of the wind flow modifier.
+  - Added a reusable concept page for the wind flow modifier because the source presents it as a general low-wind augmentation idea, not only as a one-off design detail.
+- Open:
+  - `sources/va20.md` is readable and substantially cleaned, but a few mathematical-symbol lines in the turbulence-model section are still preserved more as textual remnants around the equation-image fallback than as perfectly typeset math.
+
 ### 2026-07-06 — Convert and ingest vj13 Savonius cluster study
 
 - Task: convert `PDFs/vj13.pdf` into `sources/vj13.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
