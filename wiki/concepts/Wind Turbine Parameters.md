@@ -15,8 +15,10 @@ Sources:
 - [[vj11]]
 - [[vj12]]
 - [[vj14]]
+- [[vj17]]
+- [[vj15]]
 - [[vj6]]
-Source_count: 14
+Source_count: 16
 Tags:
 - concepts
 ---
@@ -61,6 +63,8 @@ It also reports that near `λopt`, peak `Cp` is almost independent of blade numb
 
 The va15 study adds a startup tradeoff: higher solidity helps self-start, but lowers peak power output. (source: sources/va15.md)
 It also shows that rougher surfaces, negative pitch, and thicker symmetric blades can help low-`lambda` startup in some cases, but those same changes can reduce higher-`lambda` performance. (source: sources/va15.md)
+The vj15 study adds pitch amplitude as a control knob, with `3` degrees outperforming `0`, `10`, and `20` degrees in the tested harmonic pitch functions. (source: sources/vj15.md)
+The vj17 study adds TSR as the optimization point for a Savonius airfoil design, using `0.4` during optimization and comparing CFD results at `0.4`, `0.55`, and `0.7`. (source: sources/vj17.md)
 
 The va16 study reports that at fixed solidity, larger `H/D` increases peak `Cp` and shifts the optimum tip-speed ratio upward, while at fixed `H/c = 6`, solidity has the stronger effect on peak performance. (source: sources/va16.md)
 Capacity factor: actual energy generated divided by theoretical maximum energy at nominal capacity over the same period. (source: sources/vj14.md)
@@ -100,5 +104,6 @@ Related:
 - [[va15 Blade Profile]]
 - [[va16 Solidity]]
 - [[va16 Span-to-Diameter Ratio (H-D)]]
+- [[vj15 Pitch Amplitude]]
 
 #concepts 

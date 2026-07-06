@@ -14,7 +14,8 @@ Sources:
 - [[vj4]]
 - [[vj5]]
 - [[vj14]]
-Source_count: 12
+- [[vj15]]
+Source_count: 13
 Tags:
 - concepts
 ---
@@ -68,7 +69,8 @@ The field-test prototype reported self-start at 1.25 m/s, stable behavior in a 2
 The hybrid-CFD study in `vj2` says turbulence produced by an internal Savonius rotor negatively affects the lift-based Darrieus blades, and reports lower interference after the Savonius component is moved to split top-and-bottom positions outside the Darrieus space. (source: sources/vj2.md)
 
 The va15 experiment qualifies the startup weakness: a small H-Darrieus did self-start in some tested configurations at 7 m/s, but only with favorable choices of solidity, profile, pitch, and aspect ratio. (source: sources/va15.md)
-The vj14 case study adds a real 5 kW H-Darrieus deployment whose measured annual generation was only 219.4 kWh, showing how weak local wind can dominate the practical outcome. (source: sources/vj14.md)
+The vj15 CFD study adds that harmonic variable pitch can improve both power and self-starting in an H-type Darrieus turbine, with Case 1 at 3 degrees giving the best reported result. (source: sources/vj15.md)
+- The vj14 case study adds a real 5 kW H-Darrieus deployment whose measured annual generation was only 219.4 kWh, showing how weak local wind can dominate the practical outcome. (source: sources/vj14.md)
 It also notes that the site-specific tower, foundation, and cabling can outweigh the turbine itself in lifecycle impact. (source: sources/vj14.md)
 
 ![Source figure](../../images/va9-fig5.jpg)

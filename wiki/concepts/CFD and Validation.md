@@ -13,7 +13,9 @@ Sources:
 - [[vj5]]
 - [[vj6]]
 - [[vj13]]
-Source_count: 11
+- [[vj15]]
+- [[vj17]]
+Source_count: 13
 Tags:
 - concepts
 ---
@@ -37,6 +39,8 @@ This page covers the simulation workflow used to check a VAWT before hardware is
 - The va14 study adds a validated 2D URANS parameter sweep using transition SST (`γ-Reθ`), sliding mesh, grid-sensitivity analysis, and two separate experimental comparisons. (source: sources/va14.md)
 - The vj13 study uses 2-D transient CFD in Fluent with `k-ω SST`, grid and time-step independence checks, and validation against wind-tunnel data within about 5% error. (source: sources/vj13.md)
 - It also implements the variable rotational speed strategy through a UDF and a pressure-based coupled solver with second-order upwind discretization. (source: sources/vj13.md)
+- The vj15 study uses 2-D transient CFD with SST `k-omega` and a UDF-driven variable-pitch motion law to compare harmonic pitch functions. (source: sources/vj15.md)
+- The vj17 study verifies its optimized Savonius geometry with CFD after DVM/SSA optimization and uses a 3D domain with SST `k-omega` for the final comparison. (source: sources/vj17.md)
 
 The VAWT review says URANS with `k-ω SST` is the main design-stage tool, while transition SST and DES/LES are preferred when dynamic stall fidelity matters most. (source: sources/vj11.md)
 It reports that 2-D URANS can overpredict Cp by 15-30% relative to validated 3-D simulations. (source: sources/vj11.md)
