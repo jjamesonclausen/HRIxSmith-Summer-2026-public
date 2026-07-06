@@ -1,6 +1,27 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest vj14 H-Darrieus LCA study
+
+- Task: convert `PDFs/vj14.pdf` into `sources/vj14.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj14.md` with source frontmatter, cleaned paper structure, and linked figure images `vj14-fig1` through `vj14-fig8`.
+  - Added `wiki/summaries/vj14-summary.md`.
+  - Added the new concept page `Capacity Factor` and the new method page `Life Cycle Assessment`.
+  - Added the design page `Windkop 5 kW H-Darrieus VAWT`.
+  - Updated `wiki/concepts/H-VAWT.md`, `wiki/concepts/Darrieus Turbine.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/Economic Viability of VAWTs.md`, `wiki/concepts/Urban Wind Conditions.md`, and `wiki/index.md` with `vj14`-supported claims and links.
+  - Marked `sources/vj14.md` as processed.
+- Decisions:
+  - Treated the paper as both a design note and an LCA/method note because it reports a concrete deployed H-Darrieus turbine and a cradle-to-grave assessment of that exact system.
+  - Added a capacity-factor concept page because the paper treats capacity factor as the key variable driving both performance and lifecycle conclusions.
+  - Kept the source-based design page narrowly scoped to the one prototype described in the paper.
+- Cleanup:
+  - Corrected the source frontmatter publication date to the online date reported in the paper (`2019-12-03`).
+  - Removed page markers and footer noise from `sources/vj14.md` after confirming the PDF text layer was readable.
+  - Converted the three main table blocks in `sources/vj14.md` into markdown tables.
+- Open:
+  - The source note is readable and figure-linked.
+
 ### 2026-07-06 — Convert and ingest vj13 Savonius cluster study
 
 - Task: convert `PDFs/vj13.pdf` into `sources/vj13.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

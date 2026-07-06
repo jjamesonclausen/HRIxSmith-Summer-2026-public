@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-06
 Sources:
 - [[HRI2526]]
 - [[va16]]
@@ -14,8 +14,9 @@ Sources:
 - [[vj10]]
 - [[vj11]]
 - [[vj12]]
+- [[vj14]]
 - [[vj6]]
-Source_count: 13
+Source_count: 14
 Tags:
 - concepts
 ---
@@ -62,6 +63,8 @@ The va15 study adds a startup tradeoff: higher solidity helps self-start, but lo
 It also shows that rougher surfaces, negative pitch, and thicker symmetric blades can help low-`lambda` startup in some cases, but those same changes can reduce higher-`lambda` performance. (source: sources/va15.md)
 
 The va16 study reports that at fixed solidity, larger `H/D` increases peak `Cp` and shifts the optimum tip-speed ratio upward, while at fixed `H/c = 6`, solidity has the stronger effect on peak performance. (source: sources/va16.md)
+Capacity factor: actual energy generated divided by theoretical maximum energy at nominal capacity over the same period. (source: sources/vj14.md)
+The vj14 study shows that capacity factor is the dominant driver of the LCA result and that very small changes in it can move the turbine across environmental benchmarks. (source: sources/vj14.md)
 
 ## Figures
 

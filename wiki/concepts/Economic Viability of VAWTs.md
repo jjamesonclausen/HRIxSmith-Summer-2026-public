@@ -1,11 +1,12 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-06
 Sources:
 - [[HRI2526]]
 - [[va13]]
 - [[n2]]
-Source_count: 3
+- [[vj14]]
+Source_count: 4
 Tags:
 - concepts
 ---
@@ -19,12 +20,14 @@ Findings:
 - The HRI phase 1 report concluded the selected helical hybrid was not viable for low-wind rooftop energy generation. (source: sources/HRI2526.md)
 - The report estimated about 10 kWh/year of output and a breakeven period over 5,000 years at the current cost and Cp assumptions. (source: sources/HRI2526.md)
 - A stronger-wind rooftop case in Çe¸sme reports much better economics, with payback periods of 12.89 years for a helical design, 10.60 years for an Ice-type design, and 10.49 years for a combined design. (source: sources/va13.md)
+- The vj14 study says a 0.5% capacity factor leads to very poor environmental performance, and that the turbine would need at least 1.4% capacity factor to beat the Polish low-voltage mix on GWP. (source: sources/vj14.md)
 
 Drivers:
 - Low wind speeds reduce energy generation. (source: sources/HRI2526.md)
 - Efficiency limitations of VAWTs. (source: sources/HRI2526.md)
 - In the report, low rooftop wind speeds and low Cp were the main reasons the breakeven period was unacceptable. (source: sources/HRI2526.md)
 - The va13 study links better viability to a 7 m/s site, higher turbine outputs, and larger total savings from deploying 42 rooftop turbines on one building. (source: sources/va13.md)
+- The vj14 paper links better viability to higher capacity factor, roof mounting instead of a mast/foundation, and recycling metals at end of life. (source: sources/vj14.md)
 
 Implications:
 - Not currently viable for low-wind rooftop applications. (source: sources/HRI2526.md)

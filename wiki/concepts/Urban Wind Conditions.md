@@ -10,7 +10,8 @@ Sources:
 - [[vj11]]
 - [[vj12]]
 - [[vj13]]
-Source_count: 8
+- [[vj14]]
+Source_count: 9
 Tags:
 - concepts
 ---
@@ -38,6 +39,8 @@ Characteristics of airflow in built environments. (source: sources/HRI2526.md)
 - It uses that stronger-wind urban case to show that rooftop VAWTs can be viable when the local wind resource is much better than low-speed rooftop cases elsewhere in the wiki. (source: sources/va13.md)
 - The vj13 study shows that wind-direction energy distribution, not just average wind speed or frequency, can change the best cluster orientation. (source: sources/vj13.md)
 - It reinforces that urban or rooftop siting needs directional wind roses before deciding where a Savonius cluster should face. (source: sources/vj13.md)
+- The vj14 study shows that buildings around the site likely reduced wind speed, and that low local wind speed was the main reason the H-Darrieus prototype underperformed. (source: sources/vj14.md)
+- It also suggests roof mounting could reduce environmental impact because the mast and foundation dominate many LCA categories. (source: sources/vj14.md)
 ![Source figure](../../images/hri2526-fig16.jpg)
 Original caption: Fig. 16. Wind Data from McConnell Rooftop [[HRI2526|Source]]
 

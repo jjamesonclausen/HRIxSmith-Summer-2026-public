@@ -47,6 +47,7 @@ _One page per file in `sources/`._
 - [[vj11-summary]]
 - [[vj12-summary]]
 - [[vj13-summary]]
+- [[vj14-summary]]
 
 ## Concepts
 
@@ -54,6 +55,7 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 
 - [[Annual Energy Output]]
 - [[Atmospheric Turbulence]]
+- [[Capacity Factor]]
 - [[VAWT Types]]
 - [[HRI2526 Classical Savonius|Classical Savonius]]
 - [[Darrieus Turbine]]
@@ -139,6 +141,7 @@ _Specific turbine design pages live in [`designs/`](designs/)._
 - [[va1 Windside WS-12]]
 - [[va3 Windside Helical Wind Turbine]]
 - [[va3 Windspire Gyromill]]
+- [[Windkop 5 kW H-Darrieus VAWT]]
 
 ## Parameters
 
@@ -191,6 +194,7 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 _Procedure and technique pages live in [`methods/`](methods/)._
 
 - [[AEO Calculation]]
+- [[Life Cycle Assessment]]
 - [[Variable Rotational Speed Method]]
 - [[Power Curve Annual Prediction]]
 - [[Blade Element-Momentum Model]]
