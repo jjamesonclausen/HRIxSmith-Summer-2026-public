@@ -4,7 +4,8 @@ Updated: 2026-07-06
 Sources:
 - [[va9]]
 - [[va22]]
-Source_count: 2
+- [[va24]]
+Source_count: 3
 Tags:
 - methods
 ---
@@ -22,6 +23,9 @@ Core idea:
 - The calculation iterates an upstream interference factor until the force comparison converges with error `10^-4`, then computes final torque and power coefficient before repeating for the downstream side. (source: sources/va9.md)
 - The va22 paper uses a related low-TSR helical-VAWT workflow where the DMS/DMST-style power model is supplied with lift and drag coefficients from `2D` CFD so the stall-region angle-of-attack range can still be handled at `λ = 1.1`. (source: sources/va22.md)
 - That source presents the combination as a way to avoid full high-fidelity `3D` rotor CFD while still getting reasonable agreement with wind-tunnel power measurements for an urban-targeted design. (source: sources/va22.md)
+- The va24 paper extends DMST by integrating two active blade-pitching strategies directly into a MATLAB DMST code so the local angle of attack is kept just below stall through the rotor cycle. (source: sources/va24.md)
+- It reports that more than `20` stream tubes are needed for reliable `Cp` convergence and uses `180` stream tubes for the pitched-rotor calculations. (source: sources/va24.md)
+- The same source uses XFLR5 aerodynamic lookup data over Reynolds numbers from `2 x 10^4` to `10 x 10^7`, with an induction-factor tolerance of `1 x 10^-6`. (source: sources/va24.md)
 
 Model comparison from va9:
 - Single streamtube is very fast but does not predict wind variation across the rotor. (source: sources/va9.md)
@@ -40,6 +44,8 @@ Original caption: Fig. 19. Novel approach to the DMS model in a V shaped Darrieu
 Original caption: Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow. [[va9|Source]]
 ![Source figure](../../images/va22-fig3.jpg)
 Original caption: Figure 3. Angle of attack variation in a blade revolution for different tip speed ratios. [[va22|Source]]
+![Source figure](../../images/va24-fig4.jpg)
+Original caption: Fig. 4. Double Multiple Stream Tube algorithm. [[va24|Source]]
 
 Related:
 - [[Blade Element-Momentum Model]]
@@ -48,5 +54,6 @@ Related:
 - [[H-VAWT]]
 - [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[va22 100-W Helical-Blade Vertical-Axis Wind Turbine]]
+- [[va24 Variable-Pitch 3-Bladed NACA0015 Straight-Bladed VAWT]]
 
 #methods
