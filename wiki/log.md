@@ -30,6 +30,41 @@
 - Open:
   - None.
 
+### 2026-07-06 — Convert and ingest va23 shifted-troposkien comparison paper
+
+- Task: convert `PDFs/va23_raw.pdf` into `sources/va23.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va23.md` with source frontmatter, linked figure images `va23-fig1` through `va23-fig12`, and converted the turbine-specification table into Markdown.
+  - Added `wiki/summaries/va23-summary.md`.
+  - Added three single-source design pages: `va23 Conventional Troposkien VAWT`, `va23 50% STS-VAWT`, and `va23 100% STS-VAWT`.
+  - Added the source-specific parameter page `va23 Shifted Troposkien Vertical Offset`.
+  - Added the new concept page `wiki/concepts/Blade-Wake Interaction.md` and the new method page `wiki/methods/Wind Tunnel Blockage Correction.md`.
+  - Updated `wiki/concepts/Darrieus Turbine.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/methods/Wind Tunnel Testing.md`, and `wiki/index.md` with `va23`-supported claims and links.
+  - Marked `sources/va23.md` as processed.
+- Decisions:
+  - Split the paper into three design pages because it evaluates three explicit turbine configurations with distinct geometry and performance outcomes.
+  - Added one parameter page for vertical shift amount because that is the central design variable the paper changes to influence blade-wake interaction and power coefficient.
+  - Added a dedicated blockage-correction method page because the paper's modified Pope-and-Harper correction is a reusable workflow element, not just a one-off detail.
+- Open:
+  - `sources/va23.md` is usable and fully figure-linked, but the equation-heavy sections still contain rough text extraction artifacts rather than clean equation-image renderings.
+
+### 2026-07-06 — Convert and ingest va22 low-TSR helical VAWT design paper
+
+- Task: convert `PDFs/va22_raw.pdf` into `sources/va22.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va22.md` with source frontmatter, cleaned paper structure, linked figure images `va22-fig1` through `va22-fig9`, and converted Tables 1-7 into Markdown tables.
+  - Built a composite image for the multi-page Figure 4 and tightened the figure crops for the remaining figures so the source note links match the paper's visible figures.
+  - Added `wiki/summaries/va22-summary.md`.
+  - Added the single-source design page `wiki/designs/va22 100-W Helical-Blade Vertical-Axis Wind Turbine.md`.
+  - Updated `wiki/concepts/Helical VAWT.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/methods/Double-Multiple Streamtube Model.md`, `wiki/methods/Wind Tunnel Testing.md`, `wiki/methods/CFD.md`, and `wiki/index.md` with `va22`-supported claims and figure links.
+  - Marked `sources/va22.md` as processed.
+- Decisions:
+  - Added a design page because the paper defines one concrete helical VAWT geometry with rated specifications, manufactured hardware, and measured performance.
+  - Did not add a parameter page because the paper motivates a low tip-speed ratio design target but does not run a controlled source-specific parameter sweep in the schema sense.
+  - Updated existing methods pages instead of creating a new design-method note because the paper's reusable technique fits the current `Double-Multiple Streamtube Model`, `CFD`, and `Wind Tunnel Testing` pages.
+- Open:
+  - `sources/va22.md` is readable and complete enough to ingest, but some equation formatting is still preserved as compact extracted text rather than clean typeset math images.
+
 ### 2026-07-06 — Convert and ingest va21 rooftop VAWT prototype paper
 
 - Task: convert `PDFs/va21_raw.pdf` into `sources/va21.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

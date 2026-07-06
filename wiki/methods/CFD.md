@@ -13,6 +13,7 @@ Sources:
 - [[va18]]
 - [[va20]]
 - [[va21]]
+- [[va22]]
 - [[va4]]
 - [[va7]]
 - [[vj12]]
@@ -20,7 +21,7 @@ Sources:
 - [[vj5]]
 - [[vj6]]
 - [[vj8]]
-Source_count: 18
+Source_count: 19
 Tags:
 - methods
 ---
@@ -61,6 +62,9 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 - The va21 rooftop prototype paper uses ANSYS Fluent `16.2` with a transient double-precision parallel solver, a `k-epsilon` turbulence model, hybrid initialization, and `1000` time steps of `0.01 s`. (source: sources/va21.md)
 - It models a simplified rotor section inside rotating and stationary zones with selected element sizes of `2 mm` and `20 mm`, after a mesh-sensitivity comparison against coarser and finer alternatives. (source: sources/va21.md)
 - That source uses CFD as a validation companion to the installed prototype, comparing computed rotor speed, voltage, and power against measured data instead of treating simulation alone as sufficient. (source: sources/va21.md)
+- The va22 paper uses `2D` CFD to generate lift and drag coefficients for a low-TSR helical-VAWT design method, rather than to predict the whole rotor directly with full `3D` CFD. (source: sources/va22.md)
+- It reports a `15D x 7D` flow domain, `1,162,500` nodes, `575,142` elements, maximum `y+ = 2.86`, `9 m/s` inlet velocity, `18%` turbulence intensity, `170 rpm` rotor speed, and an SST turbulence model in transient URANS. (source: sources/va22.md)
+- The same source uses time steps corresponding to `1 degree` of rotor rotation, about `9.8 x 10^-4 s`, and then feeds the resulting airfoil-force data into the mathematical power model. (source: sources/va22.md)
 - The va14 study uses 2D URANS with the transition SST (`γ-Reθ`) model, a sliding mesh interface, about 400,000 quadrilateral cells, and a grid-sensitivity analysis quantified with GCI. (source: sources/va14.md)
 - It validates against wake-velocity data for a 2-bladed turbine and power-coefficient data for a 3-bladed turbine before running the larger parametric sweep. (source: sources/va14.md)
 - The helical-VAWT study used 2D LES for blade-scale flow and 3D U-RANS with SST k-omega for the full rotor. (source: sources/va4.md)

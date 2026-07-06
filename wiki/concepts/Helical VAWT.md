@@ -1,13 +1,14 @@
 ---
 Created:
-Updated: 2026-07-02
+Updated: 2026-07-06
 Sources:
 - [[HRI2526]]
 - [[va4]]
 - [[va3]]
 - [[va7]]
+- [[va22]]
 - [[vj11]]
-Source_count: 5
+Source_count: 6
 Tags:
 - concepts
 ---
@@ -38,6 +39,9 @@ It notes that 120 degrees gives smoother loading, while 60 degrees gave the best
 - In the same study, increasing helix angle reduced the standard deviation of Cp, so the 120-degree helical blade produced smoother cyclic loading than the straight blade while giving lower power performance. (source: sources/va7.md)
 - The study found helix angle changes the azimuthal distribution of power production and wake interaction across the rotor cycle. (source: sources/va7.md)
 
+- The va22 design-and-test paper adds a low-TSR urban case: a `4`-bladed helical rotor with NACA0018 blades was intentionally designed for `TSR = 1.1`, `9 m/s`, and `170 rpm` to reduce noise while still meeting a `100 W` target. (source: sources/va22.md)
+- That source reports measured output of `114.7 W` at the design point and says helical blades were selected because they offer lower output fluctuation, lower noise, and better self-starting than conventional Darrieus or gyro-mill blades. (source: sources/va22.md)
+
 ## Figures
 
 ![Source figure](../../images/va4-fig1.jpg)
@@ -50,6 +54,8 @@ Original caption: Figure 1. Top view of (a) Helical blade vertical axis wind tur
 Original caption: Figure 7. Coefficient of performance of VAWT for various helix angles. [[va7|Source]]
 ![Source figure](../../images/va7-fig14.jpg)
 Original caption: Figure 14. The standard deviation of Cp of different helical-bladed and straight-bladed VAWT [[va7|Source]]
+![Source figure](../../images/va22-fig6.jpg)
+Original caption: Figure 6. 100-W helical-blade vertical-axis wind turbine. [[va22|Source]]
 
 Related:
 - [[VAWT]]
@@ -60,3 +66,4 @@ Related:
 - [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[va3 Windside Helical Wind Turbine]]
 - [[va3 QuietRevolution QR5]]
+- [[va22 100-W Helical-Blade Vertical-Axis Wind Turbine]]
