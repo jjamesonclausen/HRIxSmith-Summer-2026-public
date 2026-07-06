@@ -16,8 +16,11 @@ Sources:
 - [[vj10]]
 - [[vj11]]
 - [[vj12]]
+- [[vj14]]
+- [[vj17]]
+- [[vj15]]
 - [[vj6]]
-Source_count: 15
+Source_count: 16
 Tags:
 - concepts
 ---
@@ -62,8 +65,12 @@ It also reports that near `λopt`, peak `Cp` is almost independent of blade numb
 
 The va15 study adds a startup tradeoff: higher solidity helps self-start, but lowers peak power output. (source: sources/va15.md)
 It also shows that rougher surfaces, negative pitch, and thicker symmetric blades can help low-`lambda` startup in some cases, but those same changes can reduce higher-`lambda` performance. (source: sources/va15.md)
+The vj15 study adds pitch amplitude as a control knob, with `3` degrees outperforming `0`, `10`, and `20` degrees in the tested harmonic pitch functions. (source: sources/vj15.md)
+The vj17 study adds TSR as the optimization point for a Savonius airfoil design, using `0.4` during optimization and comparing CFD results at `0.4`, `0.55`, and `0.7`. (source: sources/vj17.md)
 
 The va16 study reports that at fixed solidity, larger `H/D` increases peak `Cp` and shifts the optimum tip-speed ratio upward, while at fixed `H/c = 6`, solidity has the stronger effect on peak performance. (source: sources/va16.md)
+Capacity factor: actual energy generated divided by theoretical maximum energy at nominal capacity over the same period. (source: sources/vj14.md)
+The vj14 study shows that capacity factor is the dominant driver of the LCA result and that very small changes in it can move the turbine across environmental benchmarks. (source: sources/vj14.md)
 
 The va20 CFD study adds a low-wind urban comparison where three-blade cases with the same `0.96 m^2` swept area reached `Cp = 0.071` for a C-blade drag rotor, `0.22` for an involute rotor, and `0.397` for an involute rotor with a wind flow modifier at `5 m/s`. (source: sources/va20.md)
 It also reports that the WFM-assisted involute case reached `1361.4 W` at `250 rpm` / `21 m/s`, compared with `951.31 W` for the involute rotor and `188.9 W` for the C-blade rotor. (source: sources/va20.md)
@@ -109,6 +116,7 @@ Related:
 - [[va15 Blade Profile]]
 - [[va16 Solidity]]
 - [[va16 Span-to-Diameter Ratio (H-D)]]
+- [[vj15 Pitch Amplitude]]
 - [[va20 Rotor Blade Profile]]
 - [[va20 Wind Flow Modifier]]
 - [[va22 100-W Helical-Blade Vertical-Axis Wind Turbine]]

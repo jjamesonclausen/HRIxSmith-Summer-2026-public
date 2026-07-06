@@ -10,7 +10,8 @@ Sources:
 - [[vj11]]
 - [[vj5]]
 - [[vj6]]
-Source_count: 8
+- [[vj15]]
+Source_count: 9
 Tags:
 - concepts
 ---
@@ -30,6 +31,7 @@ Unsteady aerodynamic separation that occurs when a blade experiences rapidly cha
 - It also links higher reduced frequency to delayed separation and changed leading-edge flow behavior in its constant-`Rec` comparisons. (source: sources/va14.md)
 - The va15 experiment adds that a small negative pitch angle can delay stall in the upwind region and increase low-`lambda` torque, while rougher blades can also delay stall by promoting earlier transition. (source: sources/va15.md)
 - It also shows that these startup gains can disappear or reverse at higher `lambda` or lower solidity. (source: sources/va15.md)
+- The vj15 study adds that harmonic variable pitch can suppress flow separation, reduce wake loss, and keep the effective angle of attack below the stall angle in the best case. (source: sources/vj15.md)
 - The CFD review treats dynamic stall as one of the central aerodynamic challenges in VAWT development alongside blade-wake interaction and changing angle of attack. (source: sources/vj6.md)
 - It also uses dynamic stall as part of the motivation for comparing mesh strategies, turbulence models, and validation approaches. (source: sources/vj6.md)
 - The helical-VAWT helix-angle study analyzes leading-edge vortex formation, flow separation, and wake interaction through z-vorticity contours, linking those flow features to secondary peaks in moment coefficient. (source: sources/va7.md)

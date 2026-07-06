@@ -15,6 +15,10 @@ Sources:
 - [[vj2]]
 - [[vj5]]
 - [[vj6]]
+- [[vj13]]
+- [[vj15]]
+- [[vj17]]
+Source_count: 13
 Source_count: 13
 Tags:
 - concepts
@@ -39,6 +43,8 @@ This page covers the simulation workflow used to check a VAWT before hardware is
 - The va14 study adds a validated 2D URANS parameter sweep using transition SST (`γ-Reθ`), sliding mesh, grid-sensitivity analysis, and two separate experimental comparisons. (source: sources/va14.md)
 - The vj13 study uses 2-D transient CFD in Fluent with `k-ω SST`, grid and time-step independence checks, and validation against wind-tunnel data within about 5% error. (source: sources/vj13.md)
 - It also implements the variable rotational speed strategy through a UDF and a pressure-based coupled solver with second-order upwind discretization. (source: sources/vj13.md)
+- The vj15 study uses 2-D transient CFD with SST `k-omega` and a UDF-driven variable-pitch motion law to compare harmonic pitch functions. (source: sources/vj15.md)
+- The vj17 study verifies its optimized Savonius geometry with CFD after DVM/SSA optimization and uses a 3D domain with SST `k-omega` for the final comparison. (source: sources/vj17.md)
 - The va17 rooftop-siting thesis adds a building-scale CFD use case: screening candidate roof edges and then recommending follow-up anemometer measurements instead of treating the simulation alone as sufficient validation. (source: sources/va17.md)
 - The va18 urban-resource paper validates a CFD-based siting workflow against two local met towers, comparing mean wind speed, wind power density, and Weibull-based wind-distribution shape between measured and reconstructed site statistics. (source: sources/va18.md)
 - It reports that local climatology assimilation best matched the measured site-to-site ratios, while background assimilation, TopoWind transfer, and MCP normalization still preserved the ranking of the two sites. (source: sources/va18.md)

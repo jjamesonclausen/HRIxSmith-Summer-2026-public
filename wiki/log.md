@@ -80,6 +80,27 @@
 - Open:
   - `sources/va20.md` is readable and substantially cleaned, but a few mathematical-symbol lines in the turbulence-model section are still preserved more as textual remnants around the equation-image fallback than as perfectly typeset math.
 
+### 2026-07-06 — Convert and ingest vj14 H-Darrieus LCA study
+
+- Task: convert `PDFs/vj14.pdf` into `sources/vj14.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj14.md` with source frontmatter, cleaned paper structure, and linked figure images `vj14-fig1` through `vj14-fig8`.
+  - Added `wiki/summaries/vj14-summary.md`.
+  - Added the new concept page `Capacity Factor` and the new method page `Life Cycle Assessment`.
+  - Added the design page `Windkop 5 kW H-Darrieus VAWT`.
+  - Updated `wiki/concepts/H-VAWT.md`, `wiki/concepts/Darrieus Turbine.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/Economic Viability of VAWTs.md`, `wiki/concepts/Urban Wind Conditions.md`, and `wiki/index.md` with `vj14`-supported claims and links.
+  - Marked `sources/vj14.md` as processed.
+- Decisions:
+  - Treated the paper as both a design note and an LCA/method note because it reports a concrete deployed H-Darrieus turbine and a cradle-to-grave assessment of that exact system.
+  - Added a capacity-factor concept page because the paper treats capacity factor as the key variable driving both performance and lifecycle conclusions.
+  - Kept the source-based design page narrowly scoped to the one prototype described in the paper.
+- Cleanup:
+  - Corrected the source frontmatter publication date to the online date reported in the paper (`2019-12-03`).
+  - Removed page markers and footer noise from `sources/vj14.md` after confirming the PDF text layer was readable.
+  - Converted the three main table blocks in `sources/vj14.md` into markdown tables.
+- Open:
+  - The source note is readable and figure-linked.
+
 ### 2026-07-06 — Convert and ingest vj13 Savonius cluster study
 
 - Task: convert `PDFs/vj13.pdf` into `sources/vj13.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
@@ -1953,6 +1974,26 @@ Decisions:
 Open:
 - None.
 
+### 2026-07-06 — Rebuild vj16 with figures
+
+Task: Re-ingest `vj16.pdf` one source at a time, this time keeping the paper structure and extracting the figures.
+
+Actions:
+- Created `sources/vj16.md` from the PDF text layer with the paper headings exposed as Markdown sections.
+- Extracted 12 figure images to `images/vj16-fig1.jpg` through `images/vj16-fig12.jpg`.
+- Added the figure links and captions to the source note.
+- Created `wiki/summaries/vj16-summary.md`.
+- Created `wiki/methods/PSO-ANFIS Forecasting.md`.
+- Updated `wiki/index.md` to point to the new `vj16` pages.
+
+Decisions:
+- Kept `vj16` isolated so the ingest stays one source at a time.
+- Used rendered crops for the vector figures and direct extraction for the embedded image figures.
+- Left unrelated leftover files from the earlier aborted ingest alone.
+
+Open:
+- `vj15` and `vj17` remain for separate one-at-a-time passes later.
+
 ### 2026-07-06 - Expand parameter pages across wiki
 
 - Task: Review all pages in `wiki/parameters/` and add more detail according to `schema/Ingest Source`.
@@ -2214,3 +2255,47 @@ Decisions:
 
 Open:
 - None.
+
+### 2026-07-06 - Convert and ingest vj15 harmonic pitch study
+
+- Task: convert `PDFs/vj15.pdf` into `sources/vj15.md` and ingest it into the wiki according to the repository source-ingest workflow.
+- Actions:
+  - Extracted the 12 paper figures from `vj15` into `images/vj15-fig1.jpg` through `images/vj15-fig12.jpg`.
+  - Created `sources/vj15.md` with source frontmatter, section structure, and inline figure links placed at the matching captions.
+  - Added `wiki/summaries/vj15-summary.md`.
+  - Added the source-specific parameter page `vj15 Pitch Amplitude`.
+  - Updated `wiki/concepts/Darrieus Turbine.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/concepts/Optimization.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/VAWT Aerodynamic Design Parameters.md`, `wiki/concepts/CFD and Validation.md`, `wiki/concepts/H-VAWT.md`, and `wiki/index.md` with `vj15`-supported claims and links.
+  - Marked `sources/vj15.md` as processed.
+- Decisions:
+  - Treated harmonic pitch amplitude as the main source-specific parameter because it is the clearest reusable knob the paper varies.
+  - Kept the new supporting pages minimal and let the existing Darrieus, dynamic-stall, optimization, and CFD pages absorb the broader claims.
+- Open:
+  - The source note is written and figure-linked; the next source can be ingested the same way.
+
+### 2026-07-06 - Revise vj15 source note to be paper-like
+
+- Task: correct `sources/vj15.md` because the first pass read too much like a summary instead of a source conversion.
+- Actions:
+  - Reworked the abstract, introduction, methodology, results, and conclusions into a more paper-faithful markdown transcription style.
+  - Kept the inline figure links and source metadata in place.
+- Decision:
+  - Preserved the existing wiki links and parameter pages; only the source note needed to be made more source-like.
+- Open:
+  - `sources/vj15.md` now reads more like a markdown conversion of the paper text.
+
+### 2026-07-06 - Convert and ingest vj17 Savonius airfoil optimization study
+
+- Task: convert `PDFs/vj17.pdf` into `sources/vj17.md` and ingest it into the wiki according to the repository source-ingest workflow.
+- Actions:
+  - Extracted the 14 paper figures from `vj17` into `images/vj17-fig1.jpg` through `images/vj17-fig14.jpg`.
+  - Created `sources/vj17.md` with source frontmatter, paper-ordered sections, inline figure links, and tables for the reported optimization data.
+  - Added `wiki/summaries/vj17-summary.md`.
+  - Added method pages `Discrete Vortex Method` and `Salp Swarm Algorithm`.
+  - Added the design page `vj17 Airfoil-Based Savonius Wind Turbine`.
+  - Updated `wiki/concepts/Savonius Turbine.md`, `wiki/concepts/Optimization.md`, `wiki/concepts/CFD and Validation.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/VAWT Aerodynamic Design Parameters.md`, `wiki/methods/CST Parameterization.md`, and `wiki/index.md` with `vj17`-supported claims and links.
+  - Marked `sources/vj17.md` as processed.
+- Decisions:
+  - Treated DVM, CST, and SSA as reusable methods worth their own pages because the paper explicitly couples them into a workflow.
+  - Kept the design page focused on the optimized airfoil-based Savonius rotor rather than inventing a broader design family.
+- Open:
+  - `sources/vj17.md` is converted and figure-linked; the wiki map now includes the new source, method, and design pages.

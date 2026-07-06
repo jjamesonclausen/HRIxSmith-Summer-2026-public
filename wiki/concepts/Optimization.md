@@ -7,7 +7,9 @@ Sources:
 - [[vj12]]
 - [[vj2]]
 - [[vj8]]
-Source_count: 5
+- [[vj15]]
+- [[vj17]]
+Source_count: 7
 Tags:
 - concepts
 ---
@@ -26,6 +28,8 @@ Use this page when the design has to be tuned rather than just chosen.
 
 The review groups optimization strategies into blade shape, variable pitch, guide vanes, hybridization, helical twist, diffuser/shroud augmentation, solidity tuning, active flow control, and array layout. (source: sources/vj11.md)
 It reports typical gains of 5-15% for blade shape optimization, 10-20% for variable pitch, and 10-25% for array layout depending on the case. (source: sources/vj11.md)
+The vj15 study gives a concrete variable-pitch example: harmonic pitch functions with a 3-degree amplitude, especially Case 1, outperform the other tested functions and amplitudes. (source: sources/vj15.md)
+The vj17 study adds a three-step optimization workflow for a Savonius airfoil, coupling DVM, CST, and SSA and then verifying the final geometry with CFD. (source: sources/vj17.md)
 It notes that no single enhancement strategy is universally best; the useful objective is usually a multi-objective tradeoff across startup, ripple, loading, and site conditions. (source: sources/vj11.md)
 - Optimization is most useful after the concept and basic geometry are fixed. > Inference. (source: sources/vj2.md, sources/vj8.md, sources/va2.md)
 

@@ -11,8 +11,10 @@ Sources:
 - [[vj11]]
 - [[vj4]]
 - [[vj6]]
+- [[vj15]]
+- [[vj17]]
 - [[vj8]]
-Source_count: 10
+Source_count: 12
 Tags:
 - concepts
 ---
@@ -30,6 +32,8 @@ These are the main geometry knobs the sources repeatedly treat as design variabl
 - The va14 study adds that increasing solidity lowers optimal tip-speed ratio and that a simple `sλ^3` combination keeps `λopt` nearly invariant across its tested H-type cases. (source: sources/va14.md)
 - Swept area, Reynolds number, and starting torque remain basic sizing parameters. (source: sources/HRI2526.md, sources/vj6.md)
 - The va15 experiment adds direct evidence that solidity, blade profile, pitch angle, surface roughness, and aspect ratio are coupled startup/performance knobs for a small H-Darrieus turbine. (source: sources/va15.md)
+The vj15 study adds that harmonic pitch amplitude is another coupled control knob, and that the best case depends on the pitch function as well as the amplitude. (source: sources/vj15.md)
+The vj17 study adds CST curvature coefficients as airfoil-shape design knobs for a Savonius rotor, with eight variables optimized in the final run. (source: sources/vj17.md)
 - The VAWT review gives Savonius TSR around 0.6-1.2, Darrieus TSR around 2.5-5.0, and emphasizes that the optimum shifts with solidity. (source: sources/vj11.md)
 - It treats blade profile, pitch angle, blade count, and chord Reynolds number as the main coupled design knobs. (source: sources/vj11.md)
 - It notes that low-solidity rotors push peak Cp to higher TSR, while high-solidity rotors self-start better but suffer more blade-wake interaction. (source: sources/vj11.md)

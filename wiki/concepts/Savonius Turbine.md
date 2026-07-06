@@ -13,7 +13,8 @@ Sources:
 - [[vj12]]
 - [[vj13]]
 - [[vj2]]
-Source_count: 11
+- [[vj17]]
+Source_count: 12
 Tags:
 - concepts
 ---
@@ -35,6 +36,7 @@ Original caption: Figure 1: Basic design of a Savonius rotor [[vj2|Source]]
 - It says some twisted Savonius designs improve Cp substantially, including a 180-degree twist case that improved Cp by 51%. (source: sources/vj12.md)
 - The vj13 cluster study uses a conventional two-blade Savonius rotor with overlap ratio `0.1`, `D = 0.95 m`, and `H = 1 m` as the base turbine for a three-rotor cluster. (source: sources/vj13.md)
 - It reports a validated isolated-turbine maximum Cp of about `0.3372` at `7 m/s` and shows that cluster output is dominated by wind-direction wake interaction. (source: sources/vj13.md)
+- The vj17 optimization study adds an airfoil-based Savonius variant that raises Cp by about 27% over a semicircular baseline when optimized with DVM, CST, and SSA. (source: sources/vj17.md)
 - Tradeoffs:
   - Simple, low-cost construction and low noise are advantages. (source: sources/HRI2526.md)
   - Negative torque on the returning blade limits efficiency. (source: sources/HRI2526.md)

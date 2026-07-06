@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-06
 Sources:
 - [[va2]]
 - [[va16]]
@@ -8,8 +8,10 @@ Sources:
 - [[va14]]
 - [[va9]]
 - [[va11]]
+- [[vj14]]
+- [[vj15]]
 - [[vj4]]
-Source_count: 7
+Source_count: 9
 Tags:
 - concepts
 ---
@@ -42,7 +44,10 @@ Original caption: Figure 1: Schematic of VAWT blade forces at different azimutha
 - The va14 study adds a large CFD characterization of 2-, 3-, and 4-bladed Darrieus H-type turbines, using solidity from 0.09 to 0.36 and showing that optimal tip-speed ratio shifts strongly with solidity. (source: sources/va14.md)
 - It also reports that near the optimal operating range, peak `Cp` is almost independent of blade number at fixed `Rec`. (source: sources/va14.md)
 - The va15 experiment adds direct self-start evidence for a 3-bladed H-Darrieus: high solidity, a thick symmetric profile, small negative pitch, and larger aspect ratio all helped startup in the tested cases. (source: sources/va15.md)
+The vj15 study adds that harmonic variable pitch can improve both startup and power for an H-type rotor, with Case 1 at a 3-degree amplitude reported as best. (source: sources/vj15.md)
 - The va16 panel-method study adds a spanwise-performance view for straight-bladed H-rotors, showing that larger `H/D` can improve peak `Cp` at fixed solidity while lower `H/D` strengthens tip-vortex influence near the blade tip. (source: sources/va16.md)
+- The vj14 case study adds a real deployed H-Darrieus turbine with a `3.5 m` diameter, `3 m` blade height, `5 kW` nominal capacity, and a `15.6 m` mast on the Bialystok campus. (source: sources/vj14.md)
+- It reports that the prototype's poor performance was dominated by the local wind resource rather than by the LCA method itself. (source: sources/vj14.md)
 
 ![Source figure](../../images/va9-fig20.jpg)
 Original caption: Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow. [[va9|Source]]

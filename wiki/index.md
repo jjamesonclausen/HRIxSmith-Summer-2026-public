@@ -53,6 +53,10 @@ _One page per file in `sources/`._
 - [[vj11-summary]]
 - [[vj12-summary]]
 - [[vj13-summary]]
+- [[vj14-summary]]
+- [[vj15-summary]]
+- [[vj16-summary]]
+- [[vj17-summary]]
 
 ## Concepts
 
@@ -61,6 +65,7 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 - [[Annual Energy Output]]
 - [[Architectural Wind Turbines]]
 - [[Atmospheric Turbulence]]
+- [[Capacity Factor]]
 - [[VAWT Types]]
 - [[HRI2526 Classical Savonius|Classical Savonius]]
 - [[Darrieus Turbine]]
@@ -113,6 +118,7 @@ _Specific turbine design pages live in [`designs/`](designs/)._
 - [[vj12 Counter-rotating Dual-Rotor VAWT]]
 - [[vj13 Three-Turbine Savonius Cluster]]
 - [[vj8 Contra-rotating VAWT]]
+- [[vj17 Airfoil-Based Savonius Wind Turbine]]
 - [[va3 Counter-rotating VAWT Array]]
 - [[HRI2526 Darrieus above Savonius]]
 - [[HRI2526 Double Darrieus with Inner H-rotor and Outer Eggbeater]]
@@ -154,6 +160,7 @@ _Specific turbine design pages live in [`designs/`](designs/)._
 - [[va1 Windside WS-12]]
 - [[va3 Windside Helical Wind Turbine]]
 - [[va3 Windspire Gyromill]]
+- [[Windkop 5 kW H-Darrieus VAWT]]
 
 ## Parameters
 
@@ -187,6 +194,7 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[vj2 Savonius Shaft Removal]]
 - [[vj2 Savonius Placement Outside Darrieus Rotor]]
 - [[vj13 Cluster Installation Orientation]]
+- [[vj15 Pitch Amplitude]]
 - [[va12 Array Angle in Paired VAWT Arrays]]
 - [[va12 Relative Rotational Orientation in Paired VAWT Arrays]]
 - [[va12 Turbine Spacing in Paired VAWT Arrays]]
@@ -208,14 +216,18 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 _Procedure and technique pages live in [`methods/`](methods/)._
 
 - [[AEO Calculation]]
+- [[Life Cycle Assessment]]
 - [[Variable Rotational Speed Method]]
 - [[Power Curve Annual Prediction]]
+- [[Discrete Vortex Method]]
+- [[Salp Swarm Algorithm]]
 - [[Blade Element-Momentum Model]]
 - [[Bin Method]]
 - [[CFD]]
 - [[Double-Multiple Streamtube Model]]
 - [[CST Parameterization]]
 - [[Kriging Surrogate Model]]
+- [[PSO-ANFIS Forecasting]]
 - [[Multi-Island Genetic Algorithm]]
 - [[Payback Period Analysis]]
 - [[3D Particle Tracking Velocimetry]]

@@ -15,6 +15,8 @@ Sources:
 - [[vj11]]
 - [[vj12]]
 Source_count: 12
+- [[vj13]]
+- [[vj14]]
 Tags:
 - concepts
 ---
@@ -55,6 +57,8 @@ Characteristics of airflow in built environments. (source: sources/HRI2526.md)
 - It proposes a directional wind flow modifier to accelerate incoming flow before the rotor, and reports a strong increase in low-speed power coefficient when that modifier is added to the involute rotor. (source: sources/va20.md)
 - The va21 rooftop prototype paper treats Kolkata's rooftop winds as low to moderate rather than steady high-resource flow, and reports rotor speed rising from `75 rpm` to `100 rpm` as measured wind components increased through roughly `0.4-3.8 m/s` in `vx` and `0.5-3.8 m/s` in `vy`. (source: sources/va21.md)
 - The same source says the broader study area typically sees `2.6-10 m/s` wind speeds, but the measured rotor-speed response on the building roof still showed no single clean pattern of variation with wind magnitude. (source: sources/va21.md)
+- The vj14 study shows that buildings around the site likely reduced wind speed, and that low local wind speed was the main reason the H-Darrieus prototype underperformed. (source: sources/vj14.md)
+- It also suggests roof mounting could reduce environmental impact because the mast and foundation dominate many LCA categories. (source: sources/vj14.md)
 ![Source figure](../../images/hri2526-fig16.jpg)
 Original caption: Fig. 16. Wind Data from McConnell Rooftop [[HRI2526|Source]]
 
