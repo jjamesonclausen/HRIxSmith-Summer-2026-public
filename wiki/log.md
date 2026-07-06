@@ -17,6 +17,19 @@
 - Open:
   - The extracted figures are page-region crops from a review PDF with mixed text-and-figure layouts, so they are usable but not perfectly uniform.
 
+### 2026-07-06 — Reformat vj18 source note
+
+- Task: fix the formatting of `sources/vj18.md` so it reads as a paper conversion instead of a stream of wrapped OCR lines with page markers.
+- Actions:
+  - Removed page markers and footer noise from `sources/vj18.md`.
+  - Reinserted the major section headings for the review and split the prose into readable sentence-level lines.
+  - Kept the figure images inline where their captions appear in the paper.
+- Decisions:
+  - Preserved the source text rather than summarizing it, because the user wanted the conversion to stay source-faithful.
+  - Left some OCR artifacts in place where they do not affect readability, instead of rewriting the paper content.
+- Open:
+  - None.
+
 ### 2026-07-06 — Backfill missing design metadata
 
 - Task: audit the `wiki/designs/` section for the required design-page metadata block and fill in any missing fields.
