@@ -15,6 +15,7 @@ Sources:
 - [[va21]]
 - [[va22]]
 - [[va25]]
+- [[va26]]
 - [[va4]]
 - [[va7]]
 - [[vj12]]
@@ -22,7 +23,7 @@ Sources:
 - [[vj5]]
 - [[vj6]]
 - [[vj8]]
-Source_count: 20
+Source_count: 21
 Tags:
 - methods
 ---
@@ -69,6 +70,9 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 - The va25 study uses `2D` incompressible URANS in ANSYS Fluent with SST `k-omega`, sliding mesh, SIMPLE coupling, second-order schemes, and a time step corresponding to `1 degree` azimuth increments. (source: sources/va25.md)
 - It reports a very large computational domain (`97D x 78D`) with a `1.5D` rotating region, selected so solid blockage stays below about `0.32%` and test-section speed increase remains below about `1%`. (source: sources/va25.md)
 - The same source performs grid-independence analysis across four meshes, calculates GCI between its medium and fine grids, and selects a roughly `0.49 million`-cell mesh as the approved grid for the study. (source: sources/va25.md)
+- The va26 study uses `2D` URANS in ANSYS Fluent `16.1` with the 4-equation transition SST model, SIMPLE coupling, second-order spatial and temporal schemes, and a `0.1 degree` azimuth increment for the unsteady turbine runs. (source: sources/va26.md)
+- It reports a low-solidity H-rotor domain with a `1.5d` rotating core inside a `30d x 20d` fixed domain, a `5%` blockage ratio, and data sampling after `20` revolutions with averaging over the next `10`. (source: sources/va26.md)
+- The same source also performs separate static-airfoil CFD at `Re = 1.15 x 10^5` to identify the static stall angle and compare static and dynamic load behavior. (source: sources/va26.md)
 - The va14 study uses 2D URANS with the transition SST (`γ-Reθ`) model, a sliding mesh interface, about 400,000 quadrilateral cells, and a grid-sensitivity analysis quantified with GCI. (source: sources/va14.md)
 - It validates against wake-velocity data for a 2-bladed turbine and power-coefficient data for a 3-bladed turbine before running the larger parametric sweep. (source: sources/va14.md)
 - The helical-VAWT study used 2D LES for blade-scale flow and 3D U-RANS with SST k-omega for the full rotor. (source: sources/va4.md)

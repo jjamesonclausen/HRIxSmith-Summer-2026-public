@@ -7,6 +7,7 @@ Sources:
 - [[va22]]
 - [[va24]]
 - [[va25]]
+- [[va26]]
 - [[va16]]
 - [[va15]]
 - [[va14]]
@@ -22,7 +23,7 @@ Sources:
 - [[vj17]]
 - [[vj15]]
 - [[vj6]]
-Source_count: 18
+Source_count: 19
 Tags:
 - concepts
 ---
@@ -86,6 +87,9 @@ It reports a fixed-blade peak `Cp` near `0.48` at `TSR = 5`, compared with `0.56
 The va25 paper adds airfoil-family choice and camber orientation as major low-TSR design knobs for H-Darrieus startup and performance. (source: sources/va25.md)
 It reports `NACA6712` cambered-in peaking at `Cp = 0.3645` around `TSR = 2.037`, while symmetric `E474` peaks at `Cp = 0.3557` around `TSR = 3.0`. (source: sources/va25.md)
 
+The va26 paper adds fixed blade pitch angle as a simple but sensitive control parameter, with `-2` degrees giving the best average performance in the studied case. (source: sources/va26.md)
+It reports that positive pitch quickly becomes harmful because it pushes the blade into stall earlier, while too much negative pitch also becomes counterproductive in the downwind region. (source: sources/va26.md)
+
 ## Figures
 
 ![Source figure](../../images/va4-fig6.jpg)
@@ -114,6 +118,8 @@ Original caption: Figure 9. Graph of power output according to wind velocity obt
 Original caption: Fig. 10. a) Comparison of Coefficient of Performance against different tip speed ratios for fixed blade with pitching model technique 1 and 2, b) Maximum local angle of attack (S) used during technique 1 and 2 to achieve Cp in Fig. 10(a). [[va24|Source]]
 ![Source figure](../../images/va25-fig19.jpg)
 Original caption: Fig. 19 Max Cp and corresponding lambda for the studied airfoils with their different orientations. [[va25|Source]]
+![Source figure](../../images/va26-fig13.jpg)
+Original caption: Fig. 13. Coefficients of (a) power, (b) thrust, (c) lateral force and their relative change to b = 0 versus pitch angle for the last revolution. (d) A schematic showing a blade with positive pitch angle. [[va26|Source]]
 
 These parameters are often visualized using a power curve, which relates wind speed to power output. (source: sources/HRI2526.md)
 
@@ -132,6 +138,7 @@ Related:
 - [[va24 Variable Blade Pitching Strategy]]
 - [[va25 Blade Airfoil Profile]]
 - [[va25 Cambered Airfoil Orientation]]
+- [[va26 Fixed Blade Pitch Angle]]
 - [[va20 Rotor Blade Profile]]
 - [[va20 Wind Flow Modifier]]
 - [[va22 100-W Helical-Blade Vertical-Axis Wind Turbine]]

@@ -1,6 +1,49 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Re-extract va26 figures for complete graph bounds
+
+- Task: replace the `va26` figure images because several graph crops cut off important parts of the figure area, including axis labels or the intended plot region.
+- Actions:
+  - Audited the full `va26` figure sequence against `PDFs/va26_raw.pdf` and re-mapped `Fig. 1` through `Fig. 22` to the correct visible figure regions.
+  - Rebuilt the full `images/va26-fig*.jpg` set from the PDF using corrected page coordinates.
+  - Spot-checked the sensitivity, validation, static-airfoil, pitch-angle, and wake-generation plots to confirm that the graph bounds, axes, and labels are now visible.
+- Decisions:
+  - Rebuilt the whole set instead of patching only the obviously broken files because one earlier remap had also assigned a figure number to the wrong page region.
+  - Kept `sources/va26.md` unchanged because its figure numbering and image links were already correct; only the underlying image files needed replacement.
+- Open:
+  - The figures are now correctly mapped and substantially cleaner, but they remain page renders from the PDF rather than original vector exports.
+
+### 2026-07-06 — Re-extract va25 figures for correctness
+
+- Task: replace the `va25` figure images because many of the first-pass crops included surrounding page text or missed the actual figure content.
+- Actions:
+  - Audited the PDF layout page by page and matched each `Fig. 1` through `Fig. 21` caption to the visible figure region in `PDFs/va25_raw.pdf`.
+  - Replaced all `images/va25-fig*.jpg` files with tighter figure-only renders based on the visible figure regions rather than the earlier rough page crops.
+  - Spot-checked the corrected set, with special attention to the symmetric-airfoil, cambered-in, cambered-out, and comparison plots that were previously wrong or incomplete.
+- Decisions:
+  - Preferred page-region renders over trying to recover every figure from embedded image objects because several plots are page-drawn/vector content rather than standalone embedded raster images.
+  - Left `sources/va25.md` unchanged because its figure links were already correct; only the underlying image files needed replacement.
+- Open:
+  - A few figures are still close crops of page-rendered charts rather than original vector exports, but they now show the intended figures cleanly without the earlier page-fragment errors.
+
+### 2026-07-06 — Convert and ingest va26 fixed-pitch H-rotor study
+
+- Task: convert `PDFs/va26_raw.pdf` into `sources/va26.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va26.md` with source frontmatter and linked figure images `va26-fig1` through `va26-fig22`.
+  - Added `wiki/summaries/va26-summary.md`.
+  - Added the design page `wiki/designs/va26 3-Bladed H-Type VAWT.md`.
+  - Added the source-specific parameter page `wiki/parameters/va26 Fixed Blade Pitch Angle.md`.
+  - Updated `wiki/concepts/H-VAWT.md`, `wiki/concepts/CFD and Validation.md`, `wiki/methods/CFD.md`, `wiki/methods/Double-Multiple Streamtube Model.md`, `wiki/concepts/Straight-bladed Darrieus.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/concepts/Wind Turbine Parameters.md`, and `wiki/index.md` with `va26`-supported claims and figure links.
+  - Marked `sources/va26.md` as processed.
+- Decisions:
+  - Added one parameter page because the paper's central design variable is the fixed blade pitch angle.
+  - Added one design page because the study uses one specific 3-bladed H-type VAWT geometry as the basis for all comparisons.
+  - Kept the source conversion text-heavy because the methodology and equation sections are long and symbol-dense, and a full equation-image cleanup would be a larger separate pass.
+- Open:
+  - `sources/va26.md` is figure-linked and source-usable, but several equations and some layout fragments remain rough text extraction rather than clean typeset math.
+
 ### 2026-07-06 — Convert and ingest va25 airfoil self-starting study
 
 - Task: convert `PDFs/va25_raw.pdf` into `sources/va25.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
