@@ -1,6 +1,23 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest va24 DMST variable-pitch study
+
+- Task: convert `PDFs/va24_raw.pdf` into `sources/va24.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va24.md` with source frontmatter, linked figure images `va24-fig1` through `va24-fig11`, and converted the validation-parameter table into Markdown.
+  - Added `wiki/summaries/va24-summary.md`.
+  - Added the design page `wiki/designs/va24 Variable-Pitch 3-Bladed NACA0015 Straight-Bladed VAWT.md`.
+  - Added the source-specific parameter page `wiki/parameters/va24 Variable Blade Pitching Strategy.md`.
+  - Updated `wiki/methods/Double-Multiple Streamtube Model.md`, `wiki/concepts/Straight-bladed Darrieus.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/concepts/Wind Turbine Parameters.md`, and `wiki/index.md` with `va24`-supported claims and figure links.
+  - Marked `sources/va24.md` as processed.
+- Decisions:
+  - Added one parameter page because the paper's central changed design variable is the blade-pitching strategy and associated maximum local angle of attack target.
+  - Added one design page because the paper repeatedly evaluates a specific straight-bladed NACA0015 rotor under fixed and active-pitch control, even though the paper is more about control strategy than hardware fabrication.
+  - Kept the frontmatter fields mostly blank on the design page because the paper mixes a 2-blade validation table with 3-blade results, so several whole-turbine catalog fields are not source-clear enough to populate confidently.
+- Open:
+  - `sources/va24.md` is readable and figure-linked, but the equation-heavy methodology sections remain rough text extraction rather than clean equation-image renderings.
+
 ### 2026-07-06 — Convert and ingest va23 shifted-troposkien comparison paper
 
 - Task: convert `PDFs/va23_raw.pdf` into `sources/va23.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

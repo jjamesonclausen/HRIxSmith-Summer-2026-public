@@ -5,6 +5,7 @@ Sources:
 - [[HRI2526]]
 - [[va20]]
 - [[va22]]
+- [[va24]]
 - [[va16]]
 - [[va15]]
 - [[va14]]
@@ -20,7 +21,7 @@ Sources:
 - [[vj17]]
 - [[vj15]]
 - [[vj6]]
-Source_count: 16
+Source_count: 17
 Tags:
 - concepts
 ---
@@ -78,6 +79,9 @@ It also reports that the WFM-assisted involute case reached `1361.4 W` at `250 r
 The va22 paper adds an explicitly low-TSR helical design case with rated values of `100 W`, `9 m/s`, `170 rpm`, swept area `1.57 m^2`, solidity `0.3`, aspect ratio `1.3`, and design `Cp = 0.15`. (source: sources/va22.md)
 It also reports startup at `3.5 m/s`, measured `114.7 W` and `Cp = 0.163` at the rated condition, and a highest listed table value of `Cp = 0.262` at `10 m/s`. (source: sources/va22.md)
 
+The va24 paper adds maximum local angle of attack `S` as an active control parameter, reporting that different optimal `S` values are needed at different TSRs and for different pitch strategies. (source: sources/va24.md)
+It reports a fixed-blade peak `Cp` near `0.48` at `TSR = 5`, compared with `0.568` for pitching Technique 1 and `0.532` for Technique 2 at the same TSR. (source: sources/va24.md)
+
 ## Figures
 
 ![Source figure](../../images/va4-fig6.jpg)
@@ -102,6 +106,8 @@ Original caption: Fig. 7. Optimal tip speed ratio vs. solidity with a curve fit 
 Original caption: Figure 26. Electrical characteristics: (a) rotor power and (b) power coefficient. [[va20|Source]]
 ![Source figure](../../images/va22-fig9.jpg)
 Original caption: Figure 9. Graph of power output according to wind velocity obtained from wind tunnel test (symbols: test results; lines: fitting curve). [[va22|Source]]
+![Source figure](../../images/va24-fig10.jpg)
+Original caption: Fig. 10. a) Comparison of Coefficient of Performance against different tip speed ratios for fixed blade with pitching model technique 1 and 2, b) Maximum local angle of attack (S) used during technique 1 and 2 to achieve Cp in Fig. 10(a). [[va24|Source]]
 
 These parameters are often visualized using a power curve, which relates wind speed to power output. (source: sources/HRI2526.md)
 
@@ -117,6 +123,7 @@ Related:
 - [[va16 Solidity]]
 - [[va16 Span-to-Diameter Ratio (H-D)]]
 - [[vj15 Pitch Amplitude]]
+- [[va24 Variable Blade Pitching Strategy]]
 - [[va20 Rotor Blade Profile]]
 - [[va20 Wind Flow Modifier]]
 - [[va22 100-W Helical-Blade Vertical-Axis Wind Turbine]]

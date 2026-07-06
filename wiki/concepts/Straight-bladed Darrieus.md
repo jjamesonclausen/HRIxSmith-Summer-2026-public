@@ -1,14 +1,15 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-06
 Sources:
 - [[HRI2526]]
 - [[va2]]
 - [[va16]]
+- [[va24]]
 - [[va9]]
 - [[va11]]
 - [[vj4]]
-Source_count: 6
+Source_count: 7
 Tags:
 - concepts
 ---
@@ -35,9 +36,13 @@ The straight-bladed Darrieus family with blades arranged around a vertical shaft
 - It also says wake recovery can be fast enough to motivate closer VAWT spacing and wake-model-based layout design. (source: sources/va11.md)
 - The va16 study adds that spanwise circulation and local power are strongest near the blade center and weaken toward the tip because of blade-tip-vortex effects. (source: sources/va16.md)
 - It also reports that, in its fixed-`H/c` comparison, power coefficient depends more on solidity than on `H/D` alone. (source: sources/va16.md)
+- The va24 paper adds an active-pitch case where a straight-bladed NACA0015 Darrieus rotor is modeled with DMST and two variable-pitch control strategies. (source: sources/va24.md)
+- That source says variable blade pitching can both improve self-starting behavior at low TSR and raise peak `Cp` well above the fixed-blade baseline. (source: sources/va24.md)
 
 ![Source figure](../../images/va9-fig18.jpg)
 Original caption: Fig. 18. Darrieus VAWT performance prediction. [[va9|Source]]
+![Source figure](../../images/va24-fig11.jpg)
+Original caption: Fig. 11. Instantaneous Coefficient of Performance (Cp) as a function of one blade azimuth position obtained using Variable blade pitching technique 1 and 2 compared to fixed 3 blade rotor configuration at TSR 4 (a, b), 5(c, d), and 6 (e, f). [[va24|Source]]
 
 Related:
 - [[H-VAWT]]
@@ -46,3 +51,4 @@ Related:
 - [[HRI2526 Eggbeater Darrieus|Eggbeater Darrieus]]
 - [[VAWT Types]]
 - [[Double-Multiple Streamtube Model]]
+- [[va24 Variable-Pitch 3-Bladed NACA0015 Straight-Bladed VAWT]]
