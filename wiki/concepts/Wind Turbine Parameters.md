@@ -1,9 +1,10 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-06
 Sources:
 - [[HRI2526]]
 - [[va20]]
+- [[va22]]
 - [[va16]]
 - [[va15]]
 - [[va14]]
@@ -16,7 +17,7 @@ Sources:
 - [[vj11]]
 - [[vj12]]
 - [[vj6]]
-Source_count: 14
+Source_count: 15
 Tags:
 - concepts
 ---
@@ -67,6 +68,9 @@ The va16 study reports that at fixed solidity, larger `H/D` increases peak `Cp` 
 The va20 CFD study adds a low-wind urban comparison where three-blade cases with the same `0.96 m^2` swept area reached `Cp = 0.071` for a C-blade drag rotor, `0.22` for an involute rotor, and `0.397` for an involute rotor with a wind flow modifier at `5 m/s`. (source: sources/va20.md)
 It also reports that the WFM-assisted involute case reached `1361.4 W` at `250 rpm` / `21 m/s`, compared with `951.31 W` for the involute rotor and `188.9 W` for the C-blade rotor. (source: sources/va20.md)
 
+The va22 paper adds an explicitly low-TSR helical design case with rated values of `100 W`, `9 m/s`, `170 rpm`, swept area `1.57 m^2`, solidity `0.3`, aspect ratio `1.3`, and design `Cp = 0.15`. (source: sources/va22.md)
+It also reports startup at `3.5 m/s`, measured `114.7 W` and `Cp = 0.163` at the rated condition, and a highest listed table value of `Cp = 0.262` at `10 m/s`. (source: sources/va22.md)
+
 ## Figures
 
 ![Source figure](../../images/va4-fig6.jpg)
@@ -89,6 +93,8 @@ Original caption: Figure 14. The standard deviation of Cp of different helical-b
 Original caption: Fig. 7. Optimal tip speed ratio vs. solidity with a curve fit using Eq. (1) based on data sets in Table 7. [[va14|Source]]
 ![Source figure](../../images/va20-fig26.jpg)
 Original caption: Figure 26. Electrical characteristics: (a) rotor power and (b) power coefficient. [[va20|Source]]
+![Source figure](../../images/va22-fig9.jpg)
+Original caption: Figure 9. Graph of power output according to wind velocity obtained from wind tunnel test (symbols: test results; lines: fitting curve). [[va22|Source]]
 
 These parameters are often visualized using a power curve, which relates wind speed to power output. (source: sources/HRI2526.md)
 
@@ -105,5 +111,6 @@ Related:
 - [[va16 Span-to-Diameter Ratio (H-D)]]
 - [[va20 Rotor Blade Profile]]
 - [[va20 Wind Flow Modifier]]
+- [[va22 100-W Helical-Blade Vertical-Axis Wind Turbine]]
 
 #concepts 

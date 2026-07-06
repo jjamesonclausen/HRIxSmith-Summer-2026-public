@@ -1,6 +1,23 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest va22 low-TSR helical VAWT design paper
+
+- Task: convert `PDFs/va22_raw.pdf` into `sources/va22.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va22.md` with source frontmatter, cleaned paper structure, linked figure images `va22-fig1` through `va22-fig9`, and converted Tables 1-7 into Markdown tables.
+  - Built a composite image for the multi-page Figure 4 and tightened the figure crops for the remaining figures so the source note links match the paper's visible figures.
+  - Added `wiki/summaries/va22-summary.md`.
+  - Added the single-source design page `wiki/designs/va22 100-W Helical-Blade Vertical-Axis Wind Turbine.md`.
+  - Updated `wiki/concepts/Helical VAWT.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/methods/Double-Multiple Streamtube Model.md`, `wiki/methods/Wind Tunnel Testing.md`, `wiki/methods/CFD.md`, and `wiki/index.md` with `va22`-supported claims and figure links.
+  - Marked `sources/va22.md` as processed.
+- Decisions:
+  - Added a design page because the paper defines one concrete helical VAWT geometry with rated specifications, manufactured hardware, and measured performance.
+  - Did not add a parameter page because the paper motivates a low tip-speed ratio design target but does not run a controlled source-specific parameter sweep in the schema sense.
+  - Updated existing methods pages instead of creating a new design-method note because the paper's reusable technique fits the current `Double-Multiple Streamtube Model`, `CFD`, and `Wind Tunnel Testing` pages.
+- Open:
+  - `sources/va22.md` is readable and complete enough to ingest, but some equation formatting is still preserved as compact extracted text rather than clean typeset math images.
+
 ### 2026-07-06 — Convert and ingest va21 rooftop VAWT prototype paper
 
 - Task: convert `PDFs/va21_raw.pdf` into `sources/va21.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

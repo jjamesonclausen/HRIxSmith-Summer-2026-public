@@ -1,8 +1,10 @@
 ---
 Created: 2026-07-02
-Updated: 2026-07-02
-Sources: [[va9]]
-Source_count: 1
+Updated: 2026-07-06
+Sources:
+- [[va9]]
+- [[va22]]
+Source_count: 2
 Tags:
 - methods
 ---
@@ -18,6 +20,8 @@ Core idea:
 - The rotor is divided into streamtubes, and each streamtube has upstream and downstream actuator-disc behavior. (source: sources/va9.md)
 - The upstream induced velocity is lower than the undisturbed velocity, the downstream velocity is influenced by the upstream wake, and torque/power coefficient are determined by integrating aerodynamic behavior over the streamtubes. (source: sources/va9.md)
 - The calculation iterates an upstream interference factor until the force comparison converges with error `10^-4`, then computes final torque and power coefficient before repeating for the downstream side. (source: sources/va9.md)
+- The va22 paper uses a related low-TSR helical-VAWT workflow where the DMS/DMST-style power model is supplied with lift and drag coefficients from `2D` CFD so the stall-region angle-of-attack range can still be handled at `λ = 1.1`. (source: sources/va22.md)
+- That source presents the combination as a way to avoid full high-fidelity `3D` rotor CFD while still getting reasonable agreement with wind-tunnel power measurements for an urban-targeted design. (source: sources/va22.md)
 
 Model comparison from va9:
 - Single streamtube is very fast but does not predict wind variation across the rotor. (source: sources/va9.md)
@@ -34,6 +38,8 @@ Novel sliced DMS approach:
 Original caption: Fig. 19. Novel approach to the DMS model in a V shaped Darrieus VAWT. [[va9|Source]]
 ![Source figure](../../images/va9-fig20.jpg)
 Original caption: Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow. [[va9|Source]]
+![Source figure](../../images/va22-fig3.jpg)
+Original caption: Figure 3. Angle of attack variation in a blade revolution for different tip speed ratios. [[va22|Source]]
 
 Related:
 - [[Blade Element-Momentum Model]]
@@ -41,5 +47,6 @@ Related:
 - [[Darrieus Turbine]]
 - [[H-VAWT]]
 - [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
+- [[va22 100-W Helical-Blade Vertical-Axis Wind Turbine]]
 
 #methods
