@@ -6,12 +6,15 @@ Sources:
 - [[va16]]
 - [[va15]]
 - [[va14]]
+- [[va25]]
+- [[va26]]
+- [[va27]]
 - [[va9]]
 - [[va11]]
 - [[vj14]]
 - [[vj15]]
 - [[vj4]]
-Source_count: 9
+Source_count: 12
 Tags:
 - concepts
 ---
@@ -48,10 +51,15 @@ The vj15 study adds that harmonic variable pitch can improve both startup and po
 - The va16 panel-method study adds a spanwise-performance view for straight-bladed H-rotors, showing that larger `H/D` can improve peak `Cp` at fixed solidity while lower `H/D` strengthens tip-vortex influence near the blade tip. (source: sources/va16.md)
 - The vj14 case study adds a real deployed H-Darrieus turbine with a `3.5 m` diameter, `3 m` blade height, `5 kW` nominal capacity, and a `15.6 m` mast on the Bialystok campus. (source: sources/vj14.md)
 - It reports that the prototype's poor performance was dominated by the local wind resource rather than by the LCA method itself. (source: sources/vj14.md)
+- The va25 paper adds a 3-bladed straight-bladed H-rotor CFD reference model and uses it to compare how airfoil family and camber orientation affect startup and `Cp` over low-to-mid TSR operation. (source: sources/va25.md)
+- That source reports cambered-in `NACA6712` as best for low TSR, symmetric `E474` as best for mid-to-high TSR, and flipped `Clark Y` as the best cambered-out case for startup-oriented improvement. (source: sources/va25.md)
+- The va26 paper adds a fixed-pitch-angle study on a low-solidity 3-bladed H-rotor and reports an optimum of `-2` degrees at `TSR = 4`. (source: sources/va26.md)
+- It also argues that the way pitch redistributes instantaneous moment over azimuth makes dynamic pitching a promising next step for H-rotor performance improvement. (source: sources/va26.md)
+- The va27 paper adds a one-bladed low-solidity H-type reference rotor used to isolate how symmetric airfoil-shape parameters affect power performance in deep dynamic stall. (source: sources/va27.md)
 
 ![Source figure](../../images/va9-fig20.jpg)
 Original caption: Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow. [[va9|Source]]
 
-Related: [[VAWT]], [[Darrieus Turbine]], [[HAWT vs VAWT]], [[Kriging Surrogate Model]], [[CST Parameterization]], [[Multi-Island Genetic Algorithm]], [[Straight-bladed Darrieus]], [[Double-Multiple Streamtube Model]], [[H-rotor Wake Aerodynamics]]
+Related: [[VAWT]], [[Darrieus Turbine]], [[HAWT vs VAWT]], [[Kriging Surrogate Model]], [[CST Parameterization]], [[Multi-Island Genetic Algorithm]], [[Straight-bladed Darrieus]], [[Double-Multiple Streamtube Model]], [[H-rotor Wake Aerodynamics]], [[va25 Reference H-Rotor Darrieus VAWT]], [[va25 Blade Airfoil Profile]], [[va25 Cambered Airfoil Orientation]], [[va26 3-Bladed H-Type VAWT]], [[va26 Fixed Blade Pitch Angle]], [[va27 Reference One-Bladed H-Type VAWT]], [[va27 Airfoil Relative Maximum Thickness]], [[va27 Airfoil Maximum-Thickness Position]], [[va27 Leading-Edge Radius Index]]
  
 #concepts 

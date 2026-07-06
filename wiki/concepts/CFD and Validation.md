@@ -9,6 +9,9 @@ Sources:
 - [[va17]]
 - [[va18]]
 - [[va21]]
+- [[va25]]
+- [[va26]]
+- [[va27]]
 - [[va11]]
 - [[va9]]
 - [[vj11]]
@@ -19,7 +22,7 @@ Sources:
 - [[vj15]]
 - [[vj17]]
 - [[vj18]]
-Source_count: 14
+Source_count: 17
 Tags:
 - concepts
 ---
@@ -53,6 +56,12 @@ This page covers the simulation workflow used to check a VAWT before hardware is
 - The same source reports less than `10%` deviation in rotor speed and less than `20%` deviation in voltage and power relative to measured data, while explicitly attributing part of the remaining error to simplified blade geometry and `2D` modeling of a `3D` turbine. (source: sources/va21.md)
 - The vj18 review says many variable-design results are still simulation-heavy and calls for more wind-tunnel and real-world testing before commercialization claims are trusted. (source: sources/vj18.md)
 - It treats validation as especially important for complex active systems such as variable pitch, flap control, and synthetic jets. (source: sources/vj18.md)
+- The va25 airfoil study adds a `2D` URANS CFD workflow with SST `k-omega`, sliding mesh, grid-independence analysis, and GCI, validated against published experimental data with less than `5%` maximum `Cp` error for the reference rotor. (source: sources/va25.md)
+- It also places the inlet and outlet much farther from the rotor than many wind-tunnel-style setups, explicitly to suppress solid blockage and allow more open-field-like wake development. (source: sources/va25.md)
+- The va26 pitch-angle study adds a high-fidelity `2D` URANS workflow with transition SST, extensive sensitivity checks on revolutions, grid and azimuthal increment, and two validation studies against wake and power-coefficient data. (source: sources/va26.md)
+- That source explicitly ties observed CFD disagreement to missing blade-tip losses, absent strut/tower drag in `2D`, and the inability of `2D` URANS to capture some `3D` dynamic-stall and blade-wake effects. (source: sources/va26.md)
+- The va27 airfoil-shape study adds a very large transient CFD campaign, `252` simulations, based on URANS for `126` symmetric airfoils at `lambda = 2.5` and `3.0`, with three validation studies used to justify the setup. (source: sources/va27.md)
+- It uses the same CFD framework to map the coupled influence of thickness, thickness position, and leading-edge radius in deep dynamic stall, rather than validating only one chosen shape. (source: sources/va27.md)
 
 The VAWT review says URANS with `k-ω SST` is the main design-stage tool, while transition SST and DES/LES are preferred when dynamic stall fidelity matters most. (source: sources/vj11.md)
 It reports that 2-D URANS can overpredict Cp by 15-30% relative to validated 3-D simulations. (source: sources/vj11.md)
@@ -78,6 +87,12 @@ Original caption: Figure 13: Mean Wind Power Density (W/m2), Horizontal section 
 Original caption: Table 2. Comparison between the measured CP [81] and simulated CP (present CFD study). [[va14|Source]]
 ![Source figure](../../images/va21-fig22.jpg)
 Original caption: Figure 22. Comparison between computed and measured parameters: (a) rotor speed, (b) DC voltage and (c) power (source: Authors' elaboration). [[va21|Source]]
+![Source figure](../../images/va25-fig8.jpg)
+Original caption: Fig. 8 Reference model (NACA0021) validation and verification. [[va25|Source]]
+![Source figure](../../images/va27-fig14.jpg)
+Original caption: Fig. 14. Turbine CP in t/c - xt/c space. Each contour plot is based on 42 simulations. Note the difference in range of colormaps. [[va27|Source]]
+![Source figure](../../images/va26-fig10.jpg)
+Original caption: Fig. 10. Comparison of calculated power coefficient against experimental and numerical data by Castelli et al. [69]. [[va26|Source]]
 
 Related:
 - [[Optimization]]
@@ -88,3 +103,6 @@ Related:
 - [[Climatology Assimilation]]
 - [[va21 Rooftop Vertical-Axis Wind Turbine]]
 - [[Variable VAWT Design]]
+- [[va25 Reference H-Rotor Darrieus VAWT]]
+- [[va27 Reference One-Bladed H-Type VAWT]]
+- [[va26 3-Bladed H-Type VAWT]]

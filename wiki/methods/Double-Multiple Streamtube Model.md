@@ -5,7 +5,8 @@ Sources:
 - [[va9]]
 - [[va22]]
 - [[va24]]
-Source_count: 3
+- [[va25]]
+Source_count: 4
 Tags:
 - methods
 ---
@@ -26,6 +27,7 @@ Core idea:
 - The va24 paper extends DMST by integrating two active blade-pitching strategies directly into a MATLAB DMST code so the local angle of attack is kept just below stall through the rotor cycle. (source: sources/va24.md)
 - It reports that more than `20` stream tubes are needed for reliable `Cp` convergence and uses `180` stream tubes for the pitched-rotor calculations. (source: sources/va24.md)
 - The same source uses XFLR5 aerodynamic lookup data over Reynolds numbers from `2 x 10^4` to `10 x 10^7`, with an induction-factor tolerance of `1 x 10^-6`. (source: sources/va24.md)
+- The va25 paper adds a CFD comparison layer around a straight-bladed H-rotor case, using the DMST/BEM context to motivate why startup and low-TSR airfoil choice are difficult to predict with simpler assumptions alone. (source: sources/va25.md)
 
 Model comparison from va9:
 - Single streamtube is very fast but does not predict wind variation across the rotor. (source: sources/va9.md)

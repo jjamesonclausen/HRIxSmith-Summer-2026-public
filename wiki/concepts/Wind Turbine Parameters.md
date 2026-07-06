@@ -6,6 +6,9 @@ Sources:
 - [[va20]]
 - [[va22]]
 - [[va24]]
+- [[va25]]
+- [[va26]]
+- [[va27]]
 - [[va16]]
 - [[va15]]
 - [[va14]]
@@ -24,8 +27,7 @@ Sources:
 - [[vj18]]
 - [[vj19]]
 - [[vj20]]
-- [[vj22]]
-Source_count: 20
+Source_count: 23
 Tags:
 - concepts
 ---
@@ -98,8 +100,14 @@ It also reports multiple context-specific startup values: `1.72 m/s` in the expe
 
 > Discrepancy: `vj20` contains several different cut-in-style values depending on whether the paper is discussing direct experiment, scaled comparison plots, or similarity-scaled full-size parameters. Treat these as source-context-specific rather than one single definitive cut-in number. (source: sources/vj20.md)
 
-The vj22 low-wind simulation paper adds a small-rotor case where `3` blades reach peak `Cp` about `0.3` with `TSR` between `3` and `4`, while `5` and `8` blades lower `TSRmax` to `2.5` and `1.6` and reduce `Cp`. (source: sources/vj22.md)
-It also reports corresponding solidity values of `0.51`, `0.85`, and `1.36`, reinforcing the tradeoff between higher torque and lower aerodynamic efficiency as blade count rises. (source: sources/vj22.md)
+The va25 paper adds airfoil-family choice and camber orientation as major low-TSR design knobs for H-Darrieus startup and performance. (source: sources/va25.md)
+It reports `NACA6712` cambered-in peaking at `Cp = 0.3645` around `TSR = 2.037`, while symmetric `E474` peaks at `Cp = 0.3557` around `TSR = 3.0`. (source: sources/va25.md)
+
+The va26 paper adds fixed blade pitch angle as a simple but sensitive control parameter, with `-2` degrees giving the best average performance in the studied case. (source: sources/va26.md)
+It reports that positive pitch quickly becomes harmful because it pushes the blade into stall earlier, while too much negative pitch also becomes counterproductive in the downwind region. (source: sources/va26.md)
+
+The va27 study adds three coupled airfoil-shape parameters as important VAWT design knobs in deep dynamic stall: relative maximum thickness `t/c`, thickness position `xt/c`, and leading-edge radius index `I`. (source: sources/va27.md)
+It reports that the optimum parameter combination changes with tip-speed ratio, from `NACA0024e4.5/3.5` at `lambda = 2.5` to `NACA0018e4.5/2.75` at `lambda = 3.0`. (source: sources/va27.md)
 
 ## Figures
 
@@ -127,6 +135,12 @@ Original caption: Figure 26. Electrical characteristics: (a) rotor power and (b)
 Original caption: Figure 9. Graph of power output according to wind velocity obtained from wind tunnel test (symbols: test results; lines: fitting curve). [[va22|Source]]
 ![Source figure](../../images/va24-fig10.jpg)
 Original caption: Fig. 10. a) Comparison of Coefficient of Performance against different tip speed ratios for fixed blade with pitching model technique 1 and 2, b) Maximum local angle of attack (S) used during technique 1 and 2 to achieve Cp in Fig. 10(a). [[va24|Source]]
+![Source figure](../../images/va25-fig19.jpg)
+Original caption: Fig. 19 Max Cp and corresponding lambda for the studied airfoils with their different orientations. [[va25|Source]]
+![Source figure](../../images/va26-fig13.jpg)
+Original caption: Fig. 13. Coefficients of (a) power, (b) thrust, (c) lateral force and their relative change to b = 0 versus pitch angle for the last revolution. (d) A schematic showing a blade with positive pitch angle. [[va26|Source]]
+![Source figure](../../images/va27-fig15.jpg)
+Original caption: Fig. 15. Optimal airfoil shapes for lambda = 2.5 and 3.0. [[va27|Source]]
 
 These parameters are often visualized using a power curve, which relates wind speed to power output. (source: sources/HRI2526.md)
 
@@ -143,6 +157,12 @@ Related:
 - [[va16 Span-to-Diameter Ratio (H-D)]]
 - [[vj15 Pitch Amplitude]]
 - [[va24 Variable Blade Pitching Strategy]]
+- [[va25 Blade Airfoil Profile]]
+- [[va25 Cambered Airfoil Orientation]]
+- [[va26 Fixed Blade Pitch Angle]]
+- [[va27 Airfoil Relative Maximum Thickness]]
+- [[va27 Airfoil Maximum-Thickness Position]]
+- [[va27 Leading-Edge Radius Index]]
 - [[va20 Rotor Blade Profile]]
 - [[va20 Wind Flow Modifier]]
 - [[Variable VAWT Design]]

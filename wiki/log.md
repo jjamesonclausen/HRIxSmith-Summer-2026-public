@@ -85,6 +85,99 @@
 - Open:
   - None.
 
+### 2026-07-06 — Clean va27 source-note formatting and math rendering
+
+- Task: improve `sources/va27.md` readability after conversion by fixing broken header formatting and replacing the roughest math/table OCR with direct source-page snapshots.
+- Actions:
+  - Cleaned the top of `sources/va27.md` so the title, affiliations, keywords, and abstract read in the correct order without duplicated header text.
+  - Replaced the broken nomenclature block with a clean image from the source page.
+  - Replaced the large literature-overview table with two source-page images instead of leaving the noisy OCR dump inline.
+  - Replaced the roughest airfoil-shape equation block with equation images and removed the worst duplicated symbolic fragments.
+  - Replaced the validation-summary and leading-edge-radius summary tables with source-page images instead of malformed OCR text.
+- Decisions:
+  - Preferred source-page images for the heavy tables and equations because they preserved the original notation more faithfully than the extracted text.
+  - Left the rest of the paper in text form because most narrative sections were already readable enough and fully re-rendering the full methods section as images would make the note harder to search.
+- Open:
+  - `sources/va27.md` is substantially cleaner, but some long literature/reference formatting and a few figure-caption line breaks are still not perfectly normalized.
+
+### 2026-07-06 — Convert and ingest va27 dynamic-stall airfoil-shape study
+
+- Task: convert `PDFs/va27_raw.pdf` into `sources/va27.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va27.md` with source frontmatter and linked figure images `va27-fig1` through `va27-fig18`.
+  - Added `wiki/summaries/va27-summary.md`.
+  - Added the design page `wiki/designs/va27 Reference One-Bladed H-Type VAWT.md`.
+  - Added three source-specific parameter pages: `wiki/parameters/va27 Airfoil Relative Maximum Thickness.md`, `wiki/parameters/va27 Airfoil Maximum-Thickness Position.md`, and `wiki/parameters/va27 Leading-Edge Radius Index.md`.
+  - Added the concept page `wiki/concepts/Morphing Airfoil.md`.
+  - Updated `wiki/concepts/Optimization.md`, `wiki/concepts/CFD and Validation.md`, `wiki/methods/CFD.md`, `wiki/concepts/H-VAWT.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/concepts/Wind Turbine Parameters.md`, and `wiki/index.md` with `va27`-supported claims and links.
+  - Marked `sources/va27.md` as processed.
+- Decisions:
+  - Added three parameter pages because the paper explicitly studies three distinct airfoil-shape parameters: `t/c`, `xt/c`, and `I`.
+  - Added one concept page for morphing airfoils because the paper frames the optimization results as a stepping stone toward adaptive airfoil geometry rather than just a one-off static optimization.
+  - Added one design page for the reference one-bladed H-type rotor because the source defines a specific computational turbine geometry used across all shape comparisons.
+- Open:
+  - `sources/va27.md` is readable and figure-linked, but the long equation-heavy shape-generation section is still rough text extraction rather than clean mathematical notation.
+
+### 2026-07-06 — Re-extract va26 figures for complete graph bounds
+
+- Task: replace the `va26` figure images because several graph crops cut off important parts of the figure area, including axis labels or the intended plot region.
+- Actions:
+  - Audited the full `va26` figure sequence against `PDFs/va26_raw.pdf` and re-mapped `Fig. 1` through `Fig. 22` to the correct visible figure regions.
+  - Rebuilt the full `images/va26-fig*.jpg` set from the PDF using corrected page coordinates.
+  - Spot-checked the sensitivity, validation, static-airfoil, pitch-angle, and wake-generation plots to confirm that the graph bounds, axes, and labels are now visible.
+- Decisions:
+  - Rebuilt the whole set instead of patching only the obviously broken files because one earlier remap had also assigned a figure number to the wrong page region.
+  - Kept `sources/va26.md` unchanged because its figure numbering and image links were already correct; only the underlying image files needed replacement.
+- Open:
+  - The figures are now correctly mapped and substantially cleaner, but they remain page renders from the PDF rather than original vector exports.
+
+### 2026-07-06 — Re-extract va25 figures for correctness
+
+- Task: replace the `va25` figure images because many of the first-pass crops included surrounding page text or missed the actual figure content.
+- Actions:
+  - Audited the PDF layout page by page and matched each `Fig. 1` through `Fig. 21` caption to the visible figure region in `PDFs/va25_raw.pdf`.
+  - Replaced all `images/va25-fig*.jpg` files with tighter figure-only renders based on the visible figure regions rather than the earlier rough page crops.
+  - Spot-checked the corrected set, with special attention to the symmetric-airfoil, cambered-in, cambered-out, and comparison plots that were previously wrong or incomplete.
+- Decisions:
+  - Preferred page-region renders over trying to recover every figure from embedded image objects because several plots are page-drawn/vector content rather than standalone embedded raster images.
+  - Left `sources/va25.md` unchanged because its figure links were already correct; only the underlying image files needed replacement.
+- Open:
+  - A few figures are still close crops of page-rendered charts rather than original vector exports, but they now show the intended figures cleanly without the earlier page-fragment errors.
+
+### 2026-07-06 — Convert and ingest va26 fixed-pitch H-rotor study
+
+- Task: convert `PDFs/va26_raw.pdf` into `sources/va26.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va26.md` with source frontmatter and linked figure images `va26-fig1` through `va26-fig22`.
+  - Added `wiki/summaries/va26-summary.md`.
+  - Added the design page `wiki/designs/va26 3-Bladed H-Type VAWT.md`.
+  - Added the source-specific parameter page `wiki/parameters/va26 Fixed Blade Pitch Angle.md`.
+  - Updated `wiki/concepts/H-VAWT.md`, `wiki/concepts/CFD and Validation.md`, `wiki/methods/CFD.md`, `wiki/methods/Double-Multiple Streamtube Model.md`, `wiki/concepts/Straight-bladed Darrieus.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/concepts/Wind Turbine Parameters.md`, and `wiki/index.md` with `va26`-supported claims and figure links.
+  - Marked `sources/va26.md` as processed.
+- Decisions:
+  - Added one parameter page because the paper's central design variable is the fixed blade pitch angle.
+  - Added one design page because the study uses one specific 3-bladed H-type VAWT geometry as the basis for all comparisons.
+  - Kept the source conversion text-heavy because the methodology and equation sections are long and symbol-dense, and a full equation-image cleanup would be a larger separate pass.
+- Open:
+  - `sources/va26.md` is figure-linked and source-usable, but several equations and some layout fragments remain rough text extraction rather than clean typeset math.
+
+### 2026-07-06 — Convert and ingest va25 airfoil self-starting study
+
+- Task: convert `PDFs/va25_raw.pdf` into `sources/va25.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va25.md` with source frontmatter and linked figure images `va25-fig1` through `va25-fig21`.
+  - Added `wiki/summaries/va25-summary.md`.
+  - Added the design page `wiki/designs/va25 Reference H-Rotor Darrieus VAWT.md`.
+  - Added two source-specific parameter pages: `wiki/parameters/va25 Blade Airfoil Profile.md` and `wiki/parameters/va25 Cambered Airfoil Orientation.md`.
+  - Updated `wiki/concepts/H-VAWT.md`, `wiki/concepts/CFD and Validation.md`, `wiki/methods/CFD.md`, `wiki/methods/Double-Multiple Streamtube Model.md`, `wiki/concepts/Straight-bladed Darrieus.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/concepts/Wind Turbine Parameters.md`, and `wiki/index.md` with `va25`-supported claims and links.
+  - Marked `sources/va25.md` as processed.
+- Decisions:
+  - Added two parameter pages because the paper studies two distinct design levers: airfoil profile selection and camber orientation.
+  - Added one reference-rotor design page because the study uses a specific H-rotor baseline geometry as the common platform for all comparisons.
+  - Kept the source conversion text-heavy because the equation and table layout in the source PDF is difficult to normalize cleanly without a much larger cleanup pass.
+- Open:
+  - `sources/va25.md` is figure-linked and usable for ingestion, but some of the OCR-style line breaking and table/equation formatting remain rough compared with the source PDF.
+
 ### 2026-07-06 — Convert and ingest va24 DMST variable-pitch study
 
 - Task: convert `PDFs/va24_raw.pdf` into `sources/va24.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
