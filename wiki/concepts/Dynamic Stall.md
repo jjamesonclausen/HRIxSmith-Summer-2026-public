@@ -6,12 +6,13 @@ Sources:
 - [[va15]]
 - [[va14]]
 - [[va11]]
+- [[va23]]
 - [[va7]]
 - [[vj11]]
 - [[vj5]]
 - [[vj6]]
 - [[vj15]]
-Source_count: 9
+Source_count: 10
 Tags:
 - concepts
 ---
@@ -35,6 +36,7 @@ Unsteady aerodynamic separation that occurs when a blade experiences rapidly cha
 - The CFD review treats dynamic stall as one of the central aerodynamic challenges in VAWT development alongside blade-wake interaction and changing angle of attack. (source: sources/vj6.md)
 - It also uses dynamic stall as part of the motivation for comparing mesh strategies, turbulence models, and validation approaches. (source: sources/vj6.md)
 - The helical-VAWT helix-angle study analyzes leading-edge vortex formation, flow separation, and wake interaction through z-vorticity contours, linking those flow features to secondary peaks in moment coefficient. (source: sources/va7.md)
+- The va23 shifted-troposkien paper says the rising low-TSR side of the power curve is dominated by dynamic stall behavior, while the post-peak performance drop is increasingly shaped by secondary effects including blade-wake interaction. (source: sources/va23.md)
 
 The VAWT review says dynamic stall is driven by leading-edge vortex growth and shedding, plus blade-vortex interaction on the downwind pass. (source: sources/vj11.md)
 It notes that the lift overshoot during dynamic stall can reach about 50% above the static maximum lift coefficient. (source: sources/vj11.md)

@@ -6,6 +6,7 @@ Sources:
 - [[n1]]
 - [[va1]]
 - [[va15]]
+- [[va23]]
 - [[va3]]
 - [[va8]]
 - [[va9]]
@@ -15,7 +16,7 @@ Sources:
 - [[vj5]]
 - [[vj14]]
 - [[vj15]]
-Source_count: 13
+Source_count: 14
 Tags:
 - concepts
 ---
@@ -69,6 +70,8 @@ The field-test prototype reported self-start at 1.25 m/s, stable behavior in a 2
 The hybrid-CFD study in `vj2` says turbulence produced by an internal Savonius rotor negatively affects the lift-based Darrieus blades, and reports lower interference after the Savonius component is moved to split top-and-bottom positions outside the Darrieus space. (source: sources/vj2.md)
 
 The va15 experiment qualifies the startup weakness: a small H-Darrieus did self-start in some tested configurations at 7 m/s, but only with favorable choices of solidity, profile, pitch, and aspect ratio. (source: sources/va15.md)
+The va23 paper adds a troposkien-shape comparison where a conventional two-bladed Darrieus baseline is tested against two vertically shifted troposkien variants intended to reduce blade-wake interaction. (source: sources/va23.md)
+It reports that the `50% STS-VAWT` outperformed both the conventional and `100%` shifted case, showing that partial wake-interference reduction can help more than either no shift or excessive shift. (source: sources/va23.md)
 The vj15 CFD study adds that harmonic variable pitch can improve both power and self-starting in an H-type Darrieus turbine, with Case 1 at 3 degrees giving the best reported result. (source: sources/vj15.md)
 - The vj14 case study adds a real 5 kW H-Darrieus deployment whose measured annual generation was only 219.4 kWh, showing how weak local wind can dominate the practical outcome. (source: sources/vj14.md)
 It also notes that the site-specific tower, foundation, and cabling can outweigh the turbine itself in lifecycle impact. (source: sources/vj14.md)
@@ -92,7 +95,11 @@ Related:
 - [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[Wind Tunnel Testing]]
 - [[Double-Multiple Streamtube Model]]
+- [[Blade-Wake Interaction]]
 - [[va9 EN0005 Self-start Darrieus VAWT]]
+- [[va23 Conventional Troposkien VAWT]]
+- [[va23 50% STS-VAWT]]
+- [[va23 100% STS-VAWT]]
 - [[va9 EN0005 Blade Profile]]
 - [[vj2 Savonius-Darrieus Hybrid Wind Turbine]]
 - [[vj2 Shaftless Savonius-Darrieus Hybrid Wind Turbine]]

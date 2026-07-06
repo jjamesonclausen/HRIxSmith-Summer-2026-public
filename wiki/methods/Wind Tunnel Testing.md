@@ -9,7 +9,8 @@ Sources:
 - [[va11]]
 - [[va9]]
 - [[va22]]
-Source_count: 7
+- [[va23]]
+Source_count: 8
 Tags:
 - methods
 ---
@@ -43,6 +44,8 @@ Measurements:
 - The va22 paper adds a large closed-loop wind-tunnel case with a `5 m x 2.5 m x 20 m` test section, inflow turbulence intensity below `1.5%`, and flow nonuniformity below about `±2%`. (source: sources/va22.md)
 - That source measures starting wind speed by increasing wind speed in `0.5 m/s` steps with no electrical resistance, then measures power-production behavior in `1 m/s` steps while varying controller duty ratio to locate the maximum-power operating point. (source: sources/va22.md)
 - It estimates turbine rotational speed from generator three-phase frequency and reports startup at `3.5 m/s` plus rated-condition output of `114.7 W` at `9 m/s` and `170 rpm`. (source: sources/va22.md)
+- The va23 paper adds an atmospheric-boundary-layer wind-tunnel test with a `1.68 m x 1.12 m` cross section, repeated measurements at fixed turbine rpm (`600` and `700 rpm`), rheostatic load adjustment to hold rotation constant, and three repeats for each condition. (source: sources/va23.md)
+- The same source explicitly corrects raw `Cp` and `lambda` for a high tunnel blockage ratio of about `19.1%`, using velocity measurements before and beside the rotor. (source: sources/va23.md)
 
 ![Source figure](../../images/va8-fig5.jpg)
 Original caption: Figure 5: Relation between lift coefficient and angle of attack. [[va8|Source]]
@@ -58,6 +61,8 @@ Original caption: Figure 1. (a) Side-view and (b) top view of the wind tunnel te
 Original caption: FIGURE 3 The three-bladed H-Darrieus wind turbine in the Durham 2 m2, 3/4 open-jet, open-return wind tunnel [[va15|Source]]
 ![Source figure](../../images/va22-fig7.jpg)
 Original caption: Figure 7. Wind tunnel test section. [[va22|Source]]
+![Source figure](../../images/va23-fig5.jpg)
+Original caption: Figure 5. Schematic of the experimental setup. [[va23|Source]]
 
 Limitations:
 - Scaling mismatch with real-world conditions. (source: sources/HRI2526.md)
@@ -73,5 +78,6 @@ Related:
 - [[Double-Multiple Streamtube Model]]
 - [[va15 Blade Surface Roughness]]
 - [[va22 100-W Helical-Blade Vertical-Axis Wind Turbine]]
+- [[Wind Tunnel Blockage Correction]]
 
 #methods

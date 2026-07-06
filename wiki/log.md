@@ -1,6 +1,24 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest va23 shifted-troposkien comparison paper
+
+- Task: convert `PDFs/va23_raw.pdf` into `sources/va23.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va23.md` with source frontmatter, linked figure images `va23-fig1` through `va23-fig12`, and converted the turbine-specification table into Markdown.
+  - Added `wiki/summaries/va23-summary.md`.
+  - Added three single-source design pages: `va23 Conventional Troposkien VAWT`, `va23 50% STS-VAWT`, and `va23 100% STS-VAWT`.
+  - Added the source-specific parameter page `va23 Shifted Troposkien Vertical Offset`.
+  - Added the new concept page `wiki/concepts/Blade-Wake Interaction.md` and the new method page `wiki/methods/Wind Tunnel Blockage Correction.md`.
+  - Updated `wiki/concepts/Darrieus Turbine.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/methods/Wind Tunnel Testing.md`, and `wiki/index.md` with `va23`-supported claims and links.
+  - Marked `sources/va23.md` as processed.
+- Decisions:
+  - Split the paper into three design pages because it evaluates three explicit turbine configurations with distinct geometry and performance outcomes.
+  - Added one parameter page for vertical shift amount because that is the central design variable the paper changes to influence blade-wake interaction and power coefficient.
+  - Added a dedicated blockage-correction method page because the paper's modified Pope-and-Harper correction is a reusable workflow element, not just a one-off detail.
+- Open:
+  - `sources/va23.md` is usable and fully figure-linked, but the equation-heavy sections still contain rough text extraction artifacts rather than clean equation-image renderings.
+
 ### 2026-07-06 — Convert and ingest va22 low-TSR helical VAWT design paper
 
 - Task: convert `PDFs/va22_raw.pdf` into `sources/va22.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
