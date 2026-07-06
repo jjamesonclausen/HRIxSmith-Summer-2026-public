@@ -1,18 +1,20 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-06
 Sources:
 - [[va10]]
 - [[va13]]
 - [[va15]]
 - [[va14]]
+- [[va17]]
+- [[va18]]
 - [[va11]]
 - [[va9]]
 - [[vj11]]
 - [[vj2]]
 - [[vj5]]
 - [[vj6]]
-Source_count: 10
+Source_count: 12
 Tags:
 - concepts
 ---
@@ -34,6 +36,9 @@ This page covers the simulation workflow used to check a VAWT before hardware is
 - The va13 building-integration study uses ANSYS Fluent with the SST `k-ω` model to compare rooftop turbine cases, but it explicitly says mesh sensitivity and experimental validation were not included in that study. (source: sources/va13.md)
 - The va15 experiment adds scarce low-`lambda`, time-accurate startup data that the paper explicitly positions as future validation material for numerical models. (source: sources/va15.md)
 - The va14 study adds a validated 2D URANS parameter sweep using transition SST (`γ-Reθ`), sliding mesh, grid-sensitivity analysis, and two separate experimental comparisons. (source: sources/va14.md)
+- The va17 rooftop-siting thesis adds a building-scale CFD use case: screening candidate roof edges and then recommending follow-up anemometer measurements instead of treating the simulation alone as sufficient validation. (source: sources/va17.md)
+- The va18 urban-resource paper validates a CFD-based siting workflow against two local met towers, comparing mean wind speed, wind power density, and Weibull-based wind-distribution shape between measured and reconstructed site statistics. (source: sources/va18.md)
+- It reports that local climatology assimilation best matched the measured site-to-site ratios, while background assimilation, TopoWind transfer, and MCP normalization still preserved the ranking of the two sites. (source: sources/va18.md)
 
 The VAWT review says URANS with `k-ω SST` is the main design-stage tool, while transition SST and DES/LES are preferred when dynamic stall fidelity matters most. (source: sources/vj11.md)
 It reports that 2-D URANS can overpredict Cp by 15-30% relative to validated 3-D simulations. (source: sources/vj11.md)
@@ -51,6 +56,10 @@ Original caption: Fig. 5. Computational grid independency study [31]. [[va10|Sou
 Original caption: Fig. 25. Vorticity magnitudes in the blade mid-span and vertical planes (units, 1/s) [52]. [[va11|Source]]
 ![Source figure](../../images/va13-fig7.jpg)
 Original caption: Figure 7. Computational domain and mesh setup. [[va13|Source]]
+![Source figure](../../images/va17-fig6.jpg)
+Original caption: Figure 6. Navier-Stokes Equations employed by the CFD program. [[va17|Source]]
+![Source figure](../../images/va18-fig13.jpg)
+Original caption: Figure 13: Mean Wind Power Density (W/m2), Horizontal section 20m above the ground; Mean Wind Power Density (W/m2), Vertical cross-section through MT1 and MT2; Mean Turbulence Intensity, Vertical cross-section through MT1 and MT2. [[va18|Source]]
 ![Source figure](../../images/va14-table2.jpg)
 Original caption: Table 2. Comparison between the measured CP [81] and simulated CP (present CFD study). [[va14|Source]]
 
@@ -59,3 +68,5 @@ Related:
 - [[Dynamic Stall]]
 - [[Wind Tunnel Testing]]
 - [[Double-Multiple Streamtube Model]]
+- [[Architectural Wind Turbines]]
+- [[Climatology Assimilation]]

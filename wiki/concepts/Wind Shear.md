@@ -1,8 +1,11 @@
 ---
 Created: 2026-06-30
-Updated: 2026-06-30
-Sources: [[vj10]], [[vj3]]
-Source_count: 2
+Updated: 2026-07-06
+Sources:
+- [[va18]]
+- [[vj10]]
+- [[vj3]]
+Source_count: 3
 Tags:
 - concepts
 ---
@@ -21,6 +24,7 @@ Effects on turbines:
 - The same study reports that wind shear reduces angle of attack, lift coefficient, and power coefficient, while increasing thrust coefficient. (source: sources/vj10.md)
 - The study reports a maximum local power reduction of about 4.4% around 70-80% blade length in the 20-slice case. (source: sources/vj10.md)
 - Atmospheric-turbulence material also identifies wind shear and surface friction as causes of turbulence. (source: sources/vj3.md)
+- In the va18 urban campus study, the high-wind channel through the western site modified the local vertical shear and brought stronger winds closer to the ground than at the more wake-dominated eastern site. (source: sources/va18.md)
 
 Figures:
 - ![Source figure](../../images/vj10-fig3.jpg)
@@ -33,5 +37,6 @@ Related:
 - [[Wind Turbine Parameters]]
 - [[Atmospheric Turbulence]]
 - [[Urban Wind Conditions]]
+- [[Climatology Assimilation]]
 
 #concepts

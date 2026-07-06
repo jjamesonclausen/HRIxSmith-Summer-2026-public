@@ -1,6 +1,69 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Improve va19 source-note readability after conversion
+
+- Task: clean `sources/va19.md` so the converted source is readable without rough extraction artifacts.
+- Actions:
+  - Removed OCR text that had been pulled from inside figures, including chart axes, legend labels, and decorative figure text that should not appear in the source note.
+  - Replaced rough appendix table dumps with readable Markdown for Tables 1-3 and table-image inserts for Tables 4-17.
+  - Added an image for Equation 3 and cleaned several obvious extraction issues such as broken product names and unreadable cross-reference placeholders.
+  - Verified that `sources/va19.md` now links 24 figure images, 17 table images or clean table renderings, and 3 equation images without unresolved local-note links.
+- Decisions:
+  - Used image fallbacks for most appendix tables because they were symbol-heavy or badly laid out in extraction, and forcing them into text would have made the note less readable.
+  - Kept the original wording where readable, limiting edits to cleanup and presentation rather than rewriting content.
+- Open:
+  - `sources/va19.md` is substantially cleaner, but a few references still contain original line-wrap awkwardness from the source PDF rather than fully normalized bibliography formatting.
+
+### 2026-07-06 — Convert and ingest va19 MIT campus wind-feasibility study
+
+- Task: convert `PDFs/va19_raw.pdf` into `sources/va19.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va19.md` with source frontmatter, cleaned extracted text, linked extracted figures `va19-fig1` through `va19-fig24`, and added equation images for the MCP and wind-power equations.
+  - Added `wiki/summaries/va19-summary.md`.
+  - Added `wiki/methods/Measure-Correlate-Predict (MCP).md`.
+  - Added source-specific design pages `wiki/designs/va19 Skystream 3.7.md` and `wiki/designs/va19 AeroVironment AVX1000.md`.
+  - Updated `wiki/concepts/Architectural Wind Turbines.md`, `wiki/concepts/Urban Wind Conditions.md`, `wiki/methods/Payback Period Analysis.md`, and `wiki/index.md` with `va19`-supported claims and figure links.
+  - Marked `sources/va19.md` as processed.
+- Decisions:
+  - Added two design pages because the source directly compares two concrete turbine products with source-specific geometry, installation intent, and reported economic outcomes.
+  - Added an MCP method page because the source's resource-normalization workflow is one of its main reusable technical pieces.
+  - Did not add parameter pages because the source is a siting and feasibility study rather than a turbine design-parameter experiment.
+- Open:
+  - `sources/va19.md` is usable and grounded, but parts of the long appendix remain rough text extraction rather than fully normalized Markdown tables, and some captions still reflect the original scan formatting.
+
+### 2026-07-06 — Convert and ingest va18 urban CFD resource-assessment paper
+
+- Task: convert `PDFs/va18_raw.pdf` into `sources/va18.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va18.md` with source frontmatter, cleaned section structure, linked extracted figures `va18-fig1` through `va18-fig16`, one equation image, and a screenshot for `Table 2`.
+  - Added `wiki/summaries/va18-summary.md`.
+  - Added `wiki/methods/Climatology Assimilation.md`.
+  - Updated `wiki/concepts/Urban Wind Conditions.md`, `wiki/methods/CFD.md`, `wiki/concepts/CFD and Validation.md`, `wiki/concepts/Wind Shear.md`, and `wiki/index.md` with `va18`-supported claims and figure links.
+  - Marked `sources/va18.md` as processed.
+- Decisions:
+  - Did not add a design page because the paper compares urban candidate sites and assessment methods rather than documenting one source-owned turbine design.
+  - Did not add a parameter page because the controlled variables are resource-assessment inputs and climatology-transfer techniques, not turbine design parameters in the schema sense.
+  - Added a new method page for climatology assimilation because it is the source's main reusable technical contribution beyond generic CFD siting.
+- Open:
+  - `sources/va18.md` is readable and grounded, but some figure-heavy content was preserved as images rather than fully retyped tables/equations, and the paper still leaves the low 2-year TopoWind-assimilation result unexplained.
+
+### 2026-07-06 — Convert and ingest va17 MIT rooftop wind-resource thesis
+
+- Task: convert `PDFs/va17_raw.pdf` into `sources/va17.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/va17.md` with source frontmatter, cleaned section structure, and linked extracted figures `va17-fig1` through `va17-fig12`.
+  - Added `wiki/summaries/va17-summary.md`.
+  - Added `wiki/concepts/Architectural Wind Turbines.md`.
+  - Updated `wiki/concepts/Urban Wind Conditions.md`, `wiki/methods/CFD.md`, `wiki/concepts/CFD and Validation.md`, and `wiki/index.md` with `va17`-supported claims and figure links.
+  - Marked `sources/va17.md` as processed.
+- Decisions:
+  - Did not add a design page because the thesis studies rooftop siting for a generic small building-mounted turbine rather than documenting one source-owned turbine design.
+  - Did not add a parameter page because the comparison is primarily between candidate sites and building geometries, not a turbine design-parameter sweep in the sense used by `schema/Ingest Source`.
+  - Added a new concept page for architectural wind turbines because the source's main reusable idea is roof-edge siting with Venturi acceleration.
+- Open:
+  - `sources/va17.md` is readable and complete enough to ingest, but a few figure captions still reflect OCR artifacts from the scan, especially Figures 1, 3, and 5.
+
 ### 2026-07-03 — Rename va17 PDF to va16 and ingest panel-method span/solidity study
 
 - Task: rename `PDFs/va17_raw.pdf` to `PDFs/va16_raw.pdf`, convert it into `sources/va16.md`, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
