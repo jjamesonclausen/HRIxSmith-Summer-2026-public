@@ -21,7 +21,8 @@ Sources:
 - [[vj5]]
 - [[vj6]]
 - [[vj8]]
-Source_count: 19
+- [[vj20]]
+Source_count: 20
 Tags:
 - methods
 ---
@@ -71,6 +72,8 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 - It found that 3D effects such as tip vortex and second flow reduce performance relative to 2D predictions. (source: sources/va4.md)
 - A helical-VAWT helix-angle study used Ansys FLUENT with stationary and rotating domains, a sliding mesh interface, transition SST k-omega turbulence modeling, grid/time-step independence checks, and validation against McLaren's experimental VAWT data. (source: sources/va7.md)
 - That study used z-vorticity contours and wake profiles to connect section-wise blade loading, vortex shedding, wake interaction, and flow separation to moment-coefficient behavior. (source: sources/va7.md)
+- The vj20 paper uses a sliding-mesh URANS workflow with a `k-epsilon` turbulence model, about `14.5D` streamwise domain size, symmetry sidewalls, pressure outlet, and wall treatment on the blades and shaft. (source: sources/vj20.md)
+- It reports more than `2 million` mesh elements, `15` inflation layers, element length `0.005 m` at the interface, no meaningful `Cp` change beyond refinement level `2` (`321,189` nodes in the reported MIT), and a chosen time step of `0.05 s`. (source: sources/vj20.md)
 
 ## Figures
 

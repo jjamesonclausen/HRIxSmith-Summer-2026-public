@@ -10,7 +10,8 @@ Sources:
 - [[vj15]]
 - [[vj17]]
 - [[vj18]]
-Source_count: 8
+- [[vj20]]
+Source_count: 9
 Tags:
 - concepts
 ---
@@ -36,6 +37,7 @@ It notes that no single enhancement strategy is universally best; the useful obj
 
 - The vj18 review adds a broader optimization taxonomy for variable VAWT design, grouping pitch, flap, Gurney flap, morphing blade, movable mass, synthetic jet, and swept-area strategies by reported gain and complexity. (source: sources/vj18.md)
 - It suggests that the useful optimization target is often a tradeoff between performance, self-starting, load smoothing, actuation power, and durability. (source: sources/vj18.md)
+- The vj20 hybrid paper adds a DOE-driven geometry optimization stage using Box-Behnken design, response-surface modeling, and CFD databases to tune chord, blade count, shaft distance, pitch angle, and rotor height for `Cp` and cut-in speed. (source: sources/vj20.md)
 Related:
 - [[Variable VAWT Design]]
 - [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]

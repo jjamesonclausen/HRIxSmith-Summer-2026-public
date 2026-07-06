@@ -11,14 +11,13 @@
             "id": "70651a00716fe7ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "sources/vj19.md",
-                "mode": "source",
-                "source": false
+                "file": "analysis/table of all designs.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "vj19"
+              "icon": "lucide-table",
+              "title": "table of all designs"
             }
           }
         ]
@@ -78,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -185,21 +183,37 @@
   },
   "active": "70651a00716fe7ef",
   "lastOpenFiles": [
+    "analysis/data view testing.md",
+    "sources/va1.md",
+    "analysis/table of all designs.base",
+    "wiki/designs/vj20 Proposed Hybrid VAWT.md",
+    "sources/vj20.md",
+    "wiki/designs/vj19 Curved-Blade Savonius VAWT.md",
+    "wiki/methods/Box-Behnken Design.md",
+    "wiki/parameters/vj20 Blade Surface Roughness.md",
+    "wiki/summaries/vj20-summary.md",
+    "images/vj20-eq12.png",
+    "images/vj20-eq11.png",
+    "images/vj20-eq10.png",
+    "images/vj20-eq9.png",
+    "images/vj20-eq8.png",
+    "images/vj20-eq7.png",
+    "images/vj20-eq6.png",
+    "images/vj20-eq5.png",
+    "images/vj20-eq4.png",
+    "images/vj20-eq3.png",
+    "wiki/designs/Windkop 5 kW H-Darrieus VAWT.md",
+    "wiki/designs/vj9 Classical Savonius with 0.1 Overlap Ratio.md",
+    "wiki/designs/vj9 Scooplet-Based Savonius.md",
+    "wiki/designs/vj12 Counter-rotating Dual-Rotor VAWT.md",
+    "wiki/designs/vj2 Split Savonius Outside Darrieus Hybrid Wind Turbine.md",
+    "wiki/designs/vj9 Modified Classical Savonius.md",
+    "wiki/designs/vj17 Airfoil-Based Savonius Wind Turbine.md",
+    "sources/vj19.md",
+    "PDFs/vj20.pdf",
     "sources/vj18.md",
     "wiki/parameters/vj19 Savonius Blade Shape.md",
-    "wiki/designs/vj19 Curved-Blade Savonius VAWT.md",
     "wiki/summaries/vj19-summary.md",
-    "sources/vj19.md",
-    "images/vj19-eq6.png",
-    "images/vj19-eq5.png",
-    "images/vj19-eq4.png",
-    "images/vj19-eq3.png",
-    "images/vj19-eq2.png",
-    "images/vj19-eq1.png",
-    "images/vj19-fig7.jpg",
-    "images/vj19-fig6.jpg",
-    "images/vj19-fig5.jpg",
-    "images/vj19-fig4.jpg",
     "PDFs/vj19.pdf",
     "wiki/summaries/va24-summary.md",
     "wiki/parameters/va24 Variable Blade Pitching Strategy.md",
@@ -208,15 +222,6 @@
     "sources/vj17.md",
     "wiki/summaries/va22-summary.md",
     "wiki/summaries/va23-summary.md",
-    "wiki/parameters/va23 Shifted Troposkien Vertical Offset.md",
-    "wiki/designs/va22 100-W Helical-Blade Vertical-Axis Wind Turbine.md",
-    "wiki/methods/Wind Tunnel Blockage Correction.md",
-    "wiki/designs/va23 100% STS-VAWT.md",
-    "wiki/designs/va23 50% STS-VAWT.md",
-    "wiki/designs/va23 Conventional Troposkien VAWT.md",
-    "wiki/concepts/Blade-Wake Interaction.md",
-    "sources/va23.md",
-    "sources/va22.md",
     "PDFs/vj18.pdf",
     "PDFs/vj17.pdf",
     "PDFs/vj16.pdf",
@@ -224,13 +229,6 @@
     "PDFs/vj14.pdf",
     "PDFs/vj13.pdf",
     "PDFs/vj12_raw.pdf",
-    "PDFs/vj11_raw.pdf",
-    "PDFs/vj10_raw.pdf",
-    "sources/va1.md",
-    "wiki/concepts/Variable VAWT Design.md",
-    "wiki/summaries/vj18-summary.md",
-    "wiki/summaries/va17-summary.md",
-    "wiki/summaries/va18-summary.md",
     "Untitled.canvas"
   ]
 }

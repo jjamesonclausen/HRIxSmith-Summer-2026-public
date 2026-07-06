@@ -23,7 +23,8 @@ Sources:
 - [[vj6]]
 - [[vj18]]
 - [[vj19]]
-Source_count: 18
+- [[vj20]]
+Source_count: 19
 Tags:
 - concepts
 ---
@@ -90,6 +91,11 @@ The vj19 Savonius study reports `3 m/s` cut-in speed, `17 m/s` cut-out speed, ra
 The same paper says rotor efficiency falls when TSR is much lower or higher than `1.65`, treating that value as the practical threshold in its discussion. (source: sources/vj19.md)
 
 > Discrepancy: `vj19` states rated power is reached at `9 m/s`, but the table in the same paper lists electrical power values that continue increasing above `9 m/s`. Treat the rated-speed claim as supported, but the exact rated-power value as source-unclear. (source: sources/vj19.md)
+
+The vj20 hybrid study adds positive static torque coefficient `Cts` at all azimuths as the key startup metric, alongside peak `Cp = 0.486` and `Ct = 0.324` at `TSR = 3`. (source: sources/vj20.md)
+It also reports multiple context-specific startup values: `1.72 m/s` in the experimental section, `1.54 m/s` in later comparison figures, and `2.81 m/s` / `1.405 m/s` in the full-scale / scaled similarity table. (source: sources/vj20.md)
+
+> Discrepancy: `vj20` contains several different cut-in-style values depending on whether the paper is discussing direct experiment, scaled comparison plots, or similarity-scaled full-size parameters. Treat these as source-context-specific rather than one single definitive cut-in number. (source: sources/vj20.md)
 
 ## Figures
 

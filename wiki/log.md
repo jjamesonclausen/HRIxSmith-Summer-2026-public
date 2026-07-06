@@ -1,6 +1,25 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest vj20 proposed asymmetric-inner hybrid VAWT study
+
+- Task: convert `PDFs/vj20.pdf` into `sources/vj20.md`, extract its figures and equations, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj20.md` with source frontmatter, cleaned section structure, figure links `vj20-fig1` through `vj20-fig18`, equation images `vj20-eq1` through `vj20-eq12`, and Markdown versions of Tables 1-5.
+  - Added `wiki/summaries/vj20-summary.md`.
+  - Added the single-source design page `wiki/designs/vj20 Proposed Hybrid VAWT.md`.
+  - Added the source-specific parameter page `wiki/parameters/vj20 Blade Surface Roughness.md`.
+  - Added the new method page `wiki/methods/Box-Behnken Design.md`.
+  - Updated `wiki/concepts/Hybrid VAWT.md`, `wiki/concepts/Scaling Effects.md`, `wiki/concepts/Optimization.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/methods/CFD.md`, `wiki/methods/Wind Tunnel Testing.md`, and `wiki/index.md` with `vj20`-supported claims and links.
+  - Marked `sources/vj20.md` as processed.
+- Decisions:
+  - Created one design page because the paper centers on one concrete proposed hybrid turbine with full-scale and scaled-model geometry.
+  - Created one parameter page for blade surface roughness because that is the explicit source-specific performance sweep reported experimentally.
+  - Added one new method page for Box-Behnken design because the source uses it as a reusable optimization workflow rather than only as background vocabulary.
+  - Used the full-scale similarity-table values for the design-page cut-in and rated-speed fields, while noting that the paper also reports different scaled-model startup values elsewhere.
+- Open:
+  - `vj20` contains multiple context-dependent startup values (`1.72`, `1.54`, `1.405`, and `2.81 m/s` depending on section and scaling context), so cut-in comparisons to other sources should keep that discrepancy visible.
+
 ### 2026-07-06 — Convert and ingest vj19 Savonius design, modeling, and economics paper
 
 - Task: convert `PDFs/vj19.pdf` into `sources/vj19.md`, extract its figures, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

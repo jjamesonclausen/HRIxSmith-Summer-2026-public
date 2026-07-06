@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-06
 Sources:
 - [[HRI2526]]
 - [[n2]]
@@ -8,7 +8,8 @@ Sources:
 - [[va8]]
 - [[vj11]]
 - [[vj2]]
-Source_count: 6
+- [[vj20]]
+Source_count: 7
 Tags:
 - concepts
 ---
@@ -77,6 +78,8 @@ Tradeoffs:
 - Potential interference: outer Darrieus may reduce wind capture of inner Savonius at low speeds. (source: sources/n2.md)
 - CFD case study: a helical Savonius inside a helical Darrieus rotor gained 10.5% torque after removing the Savonius shaft and 22.3% after moving split Savonius halves outside the Darrieus rotor. (source: sources/vj2.md)
 - The same study reports the initial hybrid geometry used a 1000 mm by 500 mm Savonius rotor inside a 1600 mm diameter, three-bladed helical Darrieus rotor with NACA 0018 blades of 110 mm chord and 1800 mm projected height. (source: sources/vj2.md)
+- The vj20 paper adds a different hybrid architecture that removes the inner Savonius completely and replaces it with a smaller inner H-rotor using asymmetric `DU 06-W-200` blades inside an outer `NACA0018` H-rotor. (source: sources/vj20.md)
+- It reports that this asymmetric-inner hybrid reached `Cp = 0.486` at `TSR = 3`, kept positive `Cts` at all azimuths, and outperformed both the compared H-rotor Darrieus and cited existing hybrid cases by about `11%-13%`. (source: sources/vj20.md)
 
 ![Source figure](../../images/vj2-fig8.jpg)
 Original caption: Figure 8: Torque values calculated for each configuration, for one third of a complete rotation (15 degree steps) [[vj2|Source]]
