@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-06
 Sources:
 - [[HRI2526]]
 - [[va15]]
@@ -14,9 +14,9 @@ Sources:
 - [[vj8]]
 Source_count: 10
 Tags:
-- Parameters
+- concepts
 ---
-## Aerodynamic Design Parameters
+## VAWT Aerodynamic Design Parameters
 
 These are the main geometry knobs the sources repeatedly treat as design variables.
 
