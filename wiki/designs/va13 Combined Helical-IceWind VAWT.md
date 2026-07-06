@@ -1,15 +1,18 @@
 ---
 Created: 2026-07-03
 Source: [[va13]]
-Tags: "#designs"
-Cp: 0.31
-Efficiency:
-TSR: 1.5
-Swept area: 1.45 m2
-Cut-in speed:
-Starting torque:
-Rated speed: 191 rev/min
-Rated power: 590 W
+Tags: #designs
+max Cp (1-4 m/s):
+max Cp (4-8 m/s):
+Efficiency (%):
+max TSR (1-4 m/s):
+max TSR (4-8 m/s):
+Swept area (m^2): 1.45
+Cut-in speed (m/s):
+Cut-out speed (m/s):
+max starting torque (Nm), (0-3 m/s):
+Rated speed (m/s): 13
+Rated power (W): 590
 ---
 
 ## Combined Helical-IceWind VAWT

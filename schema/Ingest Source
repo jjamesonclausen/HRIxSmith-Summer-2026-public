@@ -13,20 +13,28 @@
 	- `#concepts` for concepts and entities
 	- `#methods` for procedures and techniques
 9. If the source discusses any specific turbine designs create a separate wiki page in `wiki/designs/` that includes information about the turbine geometry, any unique design choices or specifications, and the turbine's performance. Title the page according to the source and the design, eg `va9 EN0005 Self-start Darrieus VAWT.md`.These pages should refrence only one source. Also include properties using the format below. If any information is unavailable leave it blank.
+    - Input the following information as a number (not text) using the listed units. Convert units if necessary.
+    - For Cp, TSR, and starting torque, include only the maximum value reported in the paper, that falls between the listed wind speed range, eg (1-4 m/s).
+    - Swept area is equal to the rotor height times its diameter. If these values are available, calculate and populate the swept area value.
+    - Rated power is the maximum power output of the turbine, rated speed is the wind speed at which the rated power is reached.
+    - Make sure all properties included are data for the turbine as a whole and not for components such as power electronics.
     `---
     Created: YYYY-MM-DD
     Source: [[va1]]
     Tags: #designs
-    Cp:
-    Efficiency:
-    TSR:
-    Swept area:
-    Cut-in speed:
-    Starting torque:
-    Rated speed:
-    Rated power:
+    max Cp (1-4 m/s):
+    max Cp (4-8 m/s):
+    Efficiency (%):
+    max TSR (1-4 m/s):
+    max TSR (4-8 m/s):
+    Swept area (m^2):
+    Cut-in speed (m/s):
+    Cut-out speed (m/s):
+    max starting torque (Nm), (0-3 m/s):
+    Rated speed (m/s):
+    Rated power (W):
     ---`
-10. If the source discusses any specific design parameters (aspects of the design that were changed to influence the turbine's behavior) create a separate wiki page in `wiki/parameters/` that describes the parameter and the outcome. Title the page according to the source and the design, eg `va9 EN0005 Blade Profile.md`.These pages should reference only one source. Also include properties using the format below. If any information is unavailable leave it blank.
+10. If the source discusses any specific design parameters (aspects of the design that were changed to influence the turbine's behavior) create a separate wiki page in `wiki/parameters/` that describes the parameter and the outcome. It does not matter if a previous source analyzed a similar parameter, always make a new page for each parameter studied in every paper. Include a high level of detail and report specific results where they are helpful. Title the page according to the source and the design, eg `va9 EN0005 Blade Profile.md`.These pages should reference only one source. Also include properties using the format below. If any information is unavailable leave it blank.
     - Report the objective of the study in a few words. This should be something like "increase Cp", "decrease noise", "increase turbine lifetime", etc.
     - Report the outcome of the study as one of the following: negative effect, no effect, minimal positive effect, significant positive effect. This should reflect how the design change being studied impacted the turbine's performance in relation to the target.
     `---

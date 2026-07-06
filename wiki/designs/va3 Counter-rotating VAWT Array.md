@@ -1,15 +1,18 @@
 ---
 Created: 2026-07-02
 Source: [[va3]]
-Tags: "#designs"
-Cp:
-Efficiency:
-TSR: higher than 2 preferred for wake/turbulence suppression
-Swept area:
-Cut-in speed:
-Starting torque:
-Rated speed:
-Rated power: 3-5 kW for small 10 m VAWTs discussed nearby
+Tags: #designs
+max Cp (1-4 m/s):
+max Cp (4-8 m/s):
+Efficiency (%):
+max TSR (1-4 m/s):
+max TSR (4-8 m/s):
+Swept area (m^2): 12
+Cut-in speed (m/s):
+Cut-out speed (m/s):
+max starting torque (Nm), (0-3 m/s):
+Rated speed (m/s):
+Rated power (W):
 ---
 
 ## Counter-rotating VAWT Array

@@ -1,15 +1,18 @@
 ---
 Created: 2026-07-02
 Source: [[va3]]
-Tags: "#designs"
-Cp:
-Efficiency:
-TSR: peak tip speed ratio 2.8
-Swept area: 80 sq ft / 7.43 sq m
-Cut-in speed: 9 mph / 4 m/s
-Starting torque:
-Rated speed: 500 rpm maximum rotor speed; rated wind speed 25 mph / 11.2 m/s
-Rated power: 1.2 kW instantaneous power rating
+Tags: #designs
+max Cp (1-4 m/s):
+max Cp (4-8 m/s):
+Efficiency (%):
+max TSR (1-4 m/s):
+max TSR (4-8 m/s):
+Swept area (m^2): 7.43
+Cut-in speed (m/s): 4
+Cut-out speed (m/s):
+max starting torque (Nm), (0-3 m/s):
+Rated speed (m/s): 11.2
+Rated power (W): 1200
 ---
 
 ## Windspire Gyromill

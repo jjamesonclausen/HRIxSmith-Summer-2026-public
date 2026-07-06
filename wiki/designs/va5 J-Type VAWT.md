@@ -1,15 +1,18 @@
 ---
 Created:
 Source: [[va5]]
-Tags: "#designs"
-Cp:
-Efficiency: 23.3%
-TSR:
-Swept area:
-Cut-in speed: 3 m/s
-Starting torque:
-Rated speed: 6.67 m/s
-Rated power: 35 W
+Tags: #designs
+max Cp (1-4 m/s):
+max Cp (4-8 m/s):
+Efficiency (%): 23.3
+max TSR (1-4 m/s):
+max TSR (4-8 m/s):
+Swept area (m^2):
+Cut-in speed (m/s): 3
+Cut-out speed (m/s):
+max starting torque (Nm), (0-3 m/s):
+Rated speed (m/s): 6.67
+Rated power (W): 35
 ---
 ## J-Type VAWT
 

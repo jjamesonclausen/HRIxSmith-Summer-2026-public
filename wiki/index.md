@@ -144,6 +144,7 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[va2 H-VAWT Airfoil Geometry]]
 - [[va3 Blade Count for VAWT Startup and Pulsation]]
 - [[va3 Counter-rotating Array Spacing]]
+- [[va4 Tip Speed Ratio]]
 - [[va7 Helix Angle]]
 - [[va8 Asymmetrical Blade Profile]]
 - [[va8 Blade-to-Horizontal-Beam Angle]]

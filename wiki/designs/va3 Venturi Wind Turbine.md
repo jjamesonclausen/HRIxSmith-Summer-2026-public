@@ -1,15 +1,18 @@
 ---
 Created: 2026-07-02
 Source: [[va3]]
-Tags: "#designs"
-Cp:
-Efficiency: 85 percent measured efficiency claimed from Delft wind-tunnel measurements
-TSR:
-Swept area: 1 m2
-Cut-in speed: 2 m/s
-Starting torque:
-Rated speed: 2100 rpm maximum at 40 m/s
-Rated power: 100 W at 10 m/s; 500 W maximum at 17 m/s
+Tags: #designs
+max Cp (1-4 m/s):
+max Cp (4-8 m/s):
+Efficiency (%): 85
+max TSR (1-4 m/s):
+max TSR (4-8 m/s):
+Swept area (m^2): 1
+Cut-in speed (m/s): 2
+Cut-out speed (m/s):
+max starting torque (Nm), (0-3 m/s):
+Rated speed (m/s): 17
+Rated power (W): 500
 ---
 
 ## Venturi Wind Turbine

@@ -1,15 +1,18 @@
 ---
 Created: 2026-07-02
 Source: [[va9]]
-Tags: "#designs"
-Cp: 0.416 at 1.25 m/s in field-test torque table
-Efficiency:
-TSR:
-Swept area:
-Cut-in speed: 1.25 m/s self-start reported in field test
-Starting torque: 0.035 Nm at 1.25 m/s; 0.069 Nm at 2 m/s; 0.087 Nm at 2.25 m/s; 0.156 Nm at 3 m/s
-Rated speed:
-Rated power:
+Tags: #designs
+max Cp (1-4 m/s): 0.416
+max Cp (4-8 m/s):
+Efficiency (%):
+max TSR (1-4 m/s):
+max TSR (4-8 m/s):
+Swept area (m^2): 0.16608
+Cut-in speed (m/s): 1.25
+Cut-out speed (m/s):
+max starting torque (Nm), (0-3 m/s): 0.156
+Rated speed (m/s):
+Rated power (W):
 ---
 
 ## EN0005 Self-start Darrieus VAWT
