@@ -9,7 +9,8 @@ Sources:
 - [[va9]]
 - [[va11]]
 - [[vj4]]
-Source_count: 7
+- [[vj21]]
+Source_count: 8
 Tags:
 - concepts
 ---
@@ -38,6 +39,8 @@ The straight-bladed Darrieus family with blades arranged around a vertical shaft
 - It also reports that, in its fixed-`H/c` comparison, power coefficient depends more on solidity than on `H/D` alone. (source: sources/va16.md)
 - The va24 paper adds an active-pitch case where a straight-bladed NACA0015 Darrieus rotor is modeled with DMST and two variable-pitch control strategies. (source: sources/va24.md)
 - That source says variable blade pitching can both improve self-starting behavior at low TSR and raise peak `Cp` well above the fixed-blade baseline. (source: sources/va24.md)
+- The vj21 design-parameter paper reframes the fixed-pitch straight-bladed rotor as a small-system candidate for urban and off-grid use, emphasizing that ground-level maintenance access and geometric simplicity are major practical advantages. (source: sources/vj21.md)
+- It also says the most sensitive design choices for this family include blade airfoil, strut layout and shape, solidity, and blade material. (source: sources/vj21.md)
 
 ![Source figure](../../images/va9-fig18.jpg)
 Original caption: Fig. 18. Darrieus VAWT performance prediction. [[va9|Source]]

@@ -7,7 +7,8 @@ Sources:
 - [[vj1]]
 - [[vj7]]
 - [[vj18]]
-Source_count: 5
+- [[vj21]]
+Source_count: 6
 Tags:
 - concepts
 ---
@@ -25,6 +26,8 @@ Blade material choice is not just a cost issue; it affects fatigue life, stiffne
 - Its patented blade design uses a main body and two blade ends that can be fixed or dynamically changed during operation. (source: sources/va9.md)
 - The vj18 review says deforming aerofoils depend on flexible materials and warns that UV exposure, recyclability, bonding, and wear at joints can become limiting factors. (source: sources/vj18.md)
 - It also treats material choice as part of the commercialization problem, not just a strength or cost detail. (source: sources/vj18.md)
+- The vj21 paper adds a source-specific SB-VAWT checklist: high yield strength, fatigue resistance, stiffness, low density, corrosion resistance, and low-cost manufacturability. (source: sources/vj21.md)
+- It also says pultruded FRP was the most economically viable material in a cited comparative study, while aluminum remains common but fatigue-limited and wood remains attractive but moisture- and joining-limited. (source: sources/vj21.md)
 
 ![Source figure](../../images/va8-fig4a.jpg)
 Original caption: Figure 4a: Ratio of airfoil profile thickness to distance from leading edge of the present application. [[va8|Source]]

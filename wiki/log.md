@@ -1,6 +1,22 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest vj21 fixed-pitch straight-bladed VAWT design-parameter paper
+
+- Task: convert `PDFs/vj21.pdf` into `sources/vj21.md`, extract its figures, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj21.md` with source frontmatter, cleaned section structure, linked figures `vj21-fig1` through `vj21-fig7`, and converted the design-parameter table into Markdown.
+  - Added `wiki/summaries/vj21-summary.md`.
+  - Added four source-specific parameter pages: `vj21 Blade Airfoil`, `vj21 Blade Number`, `vj21 Supporting Strut Shape`, and `vj21 Blade Material`.
+  - Updated `wiki/concepts/Straight-bladed Darrieus.md`, `wiki/concepts/VAWT Aerodynamic Design Parameters.md`, `wiki/concepts/Materials and Manufacturing.md`, `wiki/concepts/Design Checklist.md`, `wiki/concepts/Rules of Thumb.md`, and `wiki/index.md` with `vj21`-supported claims and links.
+  - Marked `sources/vj21.md` as processed.
+- Decisions:
+  - Treated `vj21` as a design-guide/review ingest rather than a single turbine-design ingest, so I did not create a design page.
+  - Added only the clearest source-specific parameter pages where the paper gives direct comparative or directional recommendations, instead of splitting every listed design consideration into its own weak page.
+  - Folded broader guidance on solidity, aspect ratio, cut-out speed, and overall fixed-pitch SB-VAWT design practice into the existing concept pages rather than inventing new umbrella notes.
+- Open:
+  - The figures for winglets, endplates, and elliptical blades are concept illustrations tied to cited prior work, and the source explicitly says further aerodynamic and economic analysis is still required before concluding their practical value for SB-VAWT blades.
+
 ### 2026-07-06 — Convert and ingest vj20 proposed asymmetric-inner hybrid VAWT study
 
 - Task: convert `PDFs/vj20.pdf` into `sources/vj20.md`, extract its figures and equations, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

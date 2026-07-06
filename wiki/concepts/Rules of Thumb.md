@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-06
 Sources:
 - [[HRI2526]]
 - [[n2]]
@@ -29,6 +29,9 @@ These are practical heuristics supported by the sources. They are not laws.
 - If blade life matters, prioritize fatigue strength, stiffness, low density, and corrosion resistance. (source: sources/vj7.md)
 - If you are tuning a detailed design, start with pitch angle, airfoil thickness, rotor spacing, and included angle. (source: sources/vj8.md)
 - If you need a quick performance snapshot, look first at TSR, Cp, torque, starting torque, swept area, and Reynolds number. (source: sources/HRI2526.md, sources/vj1.md)
+- If you are building a small fixed-pitch straight-bladed VAWT, avoid very low aspect ratio and treat blade airfoil, strut drag, solidity, and blade material as first-order decisions. (source: sources/vj21.md)
+- If low-speed starting torque matters, expect higher solidity and three blades to help, but accept some sacrifice in high-speed efficiency or cost. (source: sources/vj21.md)
+- If you need a first-pass cut-out target for a smaller-capacity SB-VAWT, the paper treats about `25 m/s` as a typical value. (source: sources/vj21.md)
 
 Related:
 - [[Design Checklist]]

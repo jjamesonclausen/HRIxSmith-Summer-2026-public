@@ -62,6 +62,7 @@ _One page per file in `sources/`._
 - [[vj18-summary]]
 - [[vj19-summary]]
 - [[vj20-summary]]
+- [[vj21-summary]]
 
 ## Concepts
 
@@ -210,6 +211,10 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[vj15 Pitch Amplitude]]
 - [[vj19 Savonius Blade Shape]]
 - [[vj20 Blade Surface Roughness]]
+- [[vj21 Blade Airfoil]]
+- [[vj21 Blade Number]]
+- [[vj21 Supporting Strut Shape]]
+- [[vj21 Blade Material]]
 - [[va12 Array Angle in Paired VAWT Arrays]]
 - [[va12 Relative Rotational Orientation in Paired VAWT Arrays]]
 - [[va12 Turbine Spacing in Paired VAWT Arrays]]

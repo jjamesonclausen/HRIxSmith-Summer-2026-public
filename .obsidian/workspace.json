@@ -11,13 +11,14 @@
             "id": "70651a00716fe7ef",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "analysis/table of all designs.base",
-                "viewName": "Table"
+                "file": "sources/vj21.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "table of all designs"
+              "icon": "lucide-file",
+              "title": "vj21"
             }
           }
         ]
@@ -183,9 +184,23 @@
   },
   "active": "70651a00716fe7ef",
   "lastOpenFiles": [
+    "PDFs/vj21.pdf",
+    "sources/vj21.md",
+    "analysis/table of all designs.base",
+    "wiki/parameters/vj21 Blade Material.md",
+    "wiki/parameters/vj21 Supporting Strut Shape.md",
+    "wiki/parameters/vj21 Blade Number.md",
+    "wiki/parameters/vj21 Blade Airfoil.md",
+    "wiki/summaries/vj21-summary.md",
+    "images/vj21-fig7.jpg",
+    "images/vj21-fig6.jpg",
+    "images/vj21-fig5.jpg",
+    "images/vj21-fig4.jpg",
+    "images/vj21-fig3.jpg",
+    "images/vj21-fig2.jpg",
+    "images/vj21-fig1.jpg",
     "analysis/data view testing.md",
     "sources/va1.md",
-    "analysis/table of all designs.base",
     "wiki/designs/vj20 Proposed Hybrid VAWT.md",
     "sources/vj20.md",
     "wiki/designs/vj19 Curved-Blade Savonius VAWT.md",
@@ -195,13 +210,6 @@
     "images/vj20-eq12.png",
     "images/vj20-eq11.png",
     "images/vj20-eq10.png",
-    "images/vj20-eq9.png",
-    "images/vj20-eq8.png",
-    "images/vj20-eq7.png",
-    "images/vj20-eq6.png",
-    "images/vj20-eq5.png",
-    "images/vj20-eq4.png",
-    "images/vj20-eq3.png",
     "wiki/designs/Windkop 5 kW H-Darrieus VAWT.md",
     "wiki/designs/vj9 Classical Savonius with 0.1 Overlap Ratio.md",
     "wiki/designs/vj9 Scooplet-Based Savonius.md",
@@ -215,20 +223,12 @@
     "wiki/parameters/vj19 Savonius Blade Shape.md",
     "wiki/summaries/vj19-summary.md",
     "PDFs/vj19.pdf",
-    "wiki/summaries/va24-summary.md",
-    "wiki/parameters/va24 Variable Blade Pitching Strategy.md",
-    "wiki/designs/va24 Variable-Pitch 3-Bladed NACA0015 Straight-Bladed VAWT.md",
-    "sources/va24.md",
-    "sources/vj17.md",
-    "wiki/summaries/va22-summary.md",
-    "wiki/summaries/va23-summary.md",
     "PDFs/vj18.pdf",
     "PDFs/vj17.pdf",
     "PDFs/vj16.pdf",
     "PDFs/vj15.pdf",
     "PDFs/vj14.pdf",
     "PDFs/vj13.pdf",
-    "PDFs/vj12_raw.pdf",
     "Untitled.canvas"
   ]
 }
