@@ -1,6 +1,37 @@
 #maintenance
 ## Log
 
+### 2026-07-06 — Convert and ingest vj19 Savonius design, modeling, and economics paper
+
+- Task: convert `PDFs/vj19.pdf` into `sources/vj19.md`, extract its figures, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj19.md` with source frontmatter, cleaned paper structure, inline figure links, equation image links, and Markdown versions of the two paper tables.
+  - Extracted `vj19-fig1a` through `vj19-fig7` and `vj19-eq1` through `vj19-eq6` into `images/`.
+  - Added `wiki/summaries/vj19-summary.md`.
+  - Added the single-source design page `wiki/designs/vj19 Curved-Blade Savonius VAWT.md`.
+  - Added the source-specific parameter page `wiki/parameters/vj19 Savonius Blade Shape.md`.
+  - Updated `wiki/concepts/Savonius Turbine.md`, `wiki/concepts/Annual Energy Output.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/Economic Viability of VAWTs.md`, `wiki/methods/AEO Calculation.md`, `wiki/methods/Payback Period Analysis.md`, and `wiki/index.md` with `vj19`-supported claims and links.
+  - Marked `sources/vj19.md` as processed.
+- Decisions:
+  - Created one design page for the curved-blade Savonius turbine because that is the configuration the paper carries into the full modeling and economics workflow.
+  - Created one parameter page for Savonius blade shape because the experimental comparison of curved, straight, aerofoil, and twisted blades is the source's main changed design variable.
+  - Left rated power blank on the design page because the source says rated power is reached at `9 m/s`, but the paper's electrical-power table continues increasing above that point.
+- Open:
+  - The paper's Table 2 is internally awkward around rated-power reporting, so any use of its payback claim should stay source-specific until corroborated.
+
+### 2026-07-06 — Tighten vj19 equation crops
+
+- Task: check the crop quality of the `vj19` equation images and fix any bad crops.
+- Actions:
+  - Reviewed `images/vj19-eq1.png` through `images/vj19-eq6.png` against the source page.
+  - Found that several crops included surrounding paragraph text or clipped parts of the formulas.
+  - Re-rendered all six equation images as tighter formula-only crops from page 3 of `PDFs/vj19.pdf`.
+- Decisions:
+  - Overwrote the existing `vj19-eq*.png` files in place so `sources/vj19.md` did not need link changes.
+  - Kept the equation numbering and placement unchanged because the source note structure was already correct.
+- Open:
+  - None.
+
 ### 2026-07-06 — Convert and ingest va24 DMST variable-pitch study
 
 - Task: convert `PDFs/va24_raw.pdf` into `sources/va24.md` and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

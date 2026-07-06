@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sources/vj18.md",
+                "file": "sources/vj19.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vj18"
+              "title": "vj19"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -184,23 +185,27 @@
   },
   "active": "70651a00716fe7ef",
   "lastOpenFiles": [
-    "images/vj18-eq17.png",
-    "images/vj18-eq16.png",
-    "images/vj18-eq15.png",
-    "images/vj18-eq14.png",
-    "images/vj18-eq13.png",
-    "images/vj18-eq11.png",
-    "images/vj18-eq10.png",
-    "images/vj18-eq9.png",
-    "images/vj18-eq8.png",
-    "images/vj18-eq7.png",
-    "images/vj18-eq6.png",
+    "sources/vj18.md",
+    "wiki/parameters/vj19 Savonius Blade Shape.md",
+    "wiki/designs/vj19 Curved-Blade Savonius VAWT.md",
+    "wiki/summaries/vj19-summary.md",
+    "sources/vj19.md",
+    "images/vj19-eq6.png",
+    "images/vj19-eq5.png",
+    "images/vj19-eq4.png",
+    "images/vj19-eq3.png",
+    "images/vj19-eq2.png",
+    "images/vj19-eq1.png",
+    "images/vj19-fig7.jpg",
+    "images/vj19-fig6.jpg",
+    "images/vj19-fig5.jpg",
+    "images/vj19-fig4.jpg",
+    "PDFs/vj19.pdf",
     "wiki/summaries/va24-summary.md",
     "wiki/parameters/va24 Variable Blade Pitching Strategy.md",
     "wiki/designs/va24 Variable-Pitch 3-Bladed NACA0015 Straight-Bladed VAWT.md",
     "sources/va24.md",
     "sources/vj17.md",
-    "sources/vj18.md",
     "wiki/summaries/va22-summary.md",
     "wiki/summaries/va23-summary.md",
     "wiki/parameters/va23 Shifted Troposkien Vertical Offset.md",
@@ -221,15 +226,11 @@
     "PDFs/vj12_raw.pdf",
     "PDFs/vj11_raw.pdf",
     "PDFs/vj10_raw.pdf",
-    "PDFs/vj9_raw.pdf",
     "sources/va1.md",
     "wiki/concepts/Variable VAWT Design.md",
     "wiki/summaries/vj18-summary.md",
     "wiki/summaries/va17-summary.md",
     "wiki/summaries/va18-summary.md",
-    "wiki/summaries/va19-summary.md",
-    "wiki/summaries/va20-summary.md",
-    "wiki/summaries/va21-summary.md",
     "Untitled.canvas"
   ]
 }

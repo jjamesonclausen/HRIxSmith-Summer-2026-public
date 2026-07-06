@@ -22,7 +22,8 @@ Sources:
 - [[vj15]]
 - [[vj6]]
 - [[vj18]]
-Source_count: 17
+- [[vj19]]
+Source_count: 18
 Tags:
 - concepts
 ---
@@ -84,6 +85,11 @@ It also reports startup at `3.5 m/s`, measured `114.7 W` and `Cp = 0.163` at the
 
 The va24 paper adds maximum local angle of attack `S` as an active control parameter, reporting that different optimal `S` values are needed at different TSRs and for different pitch strategies. (source: sources/va24.md)
 It reports a fixed-blade peak `Cp` near `0.48` at `TSR = 5`, compared with `0.568` for pitching Technique 1 and `0.532` for Technique 2 at the same TSR. (source: sources/va24.md)
+
+The vj19 Savonius study reports `3 m/s` cut-in speed, `17 m/s` cut-out speed, rated-speed text at `9 m/s`, and a peak modeled `Cp` of about `0.46` as TSR varies from `0.05` to `2.5`. (source: sources/vj19.md)
+The same paper says rotor efficiency falls when TSR is much lower or higher than `1.65`, treating that value as the practical threshold in its discussion. (source: sources/vj19.md)
+
+> Discrepancy: `vj19` states rated power is reached at `9 m/s`, but the table in the same paper lists electrical power values that continue increasing above `9 m/s`. Treat the rated-speed claim as supported, but the exact rated-power value as source-unclear. (source: sources/vj19.md)
 
 ## Figures
 

@@ -6,7 +6,8 @@ Sources:
 - [[va13]]
 - [[va21]]
 - [[n2]]
-Source_count: 4
+- [[vj19]]
+Source_count: 5
 Tags:
 - concepts
 ---
@@ -21,6 +22,7 @@ Findings:
 - The report estimated about 10 kWh/year of output and a breakeven period over 5,000 years at the current cost and Cp assumptions. (source: sources/HRI2526.md)
 - A stronger-wind rooftop case in Çe¸sme reports much better economics, with payback periods of 12.89 years for a helical design, 10.60 years for an Ice-type design, and 10.49 years for a combined design. (source: sources/va13.md)
 - The va21 rooftop prototype paper reports installed cost of about `INR 75k` and an estimated `7-15 year` payback, while also describing the device as a supplementary power source rather than a full replacement for home supply. (source: sources/va21.md)
+- The vj19 Savonius study reports a much more optimistic small-scale case: `7838 kWh/year`, `846.51 USD/year` revenue at `0.108 USD/kWh`, and `3.5 years` simple payback if the total system cost is assumed to be `3000 USD`. (source: sources/vj19.md)
 
 Drivers:
 - Low wind speeds reduce energy generation. (source: sources/HRI2526.md)
@@ -28,12 +30,15 @@ Drivers:
 - In the report, low rooftop wind speeds and low Cp were the main reasons the breakeven period was unacceptable. (source: sources/HRI2526.md)
 - The va13 study links better viability to a 7 m/s site, higher turbine outputs, and larger total savings from deploying 42 rooftop turbines on one building. (source: sources/va13.md)
 - The va21 paper ties its more optimistic payback estimate to low installed cost, low maintenance, and reduced grid dependence rather than to high electrical output. (source: sources/va21.md)
+- The vj19 paper ties its favorable payback primarily to modeled annual output and a low assumed upfront cost rather than to long-term field data. (source: sources/vj19.md)
 
 Implications:
 - Not currently viable for low-wind rooftop applications. (source: sources/HRI2526.md)
 - May be viable in higher wind environments or with improved designs. (source: sources/HRI2526.md)
 
 > Discrepancy: `va21` reports a much shorter `7-15 year` payback for a low-wind rooftop prototype than the other low-wind rooftop examples currently in this wiki, despite only `0.05-2.7 W` measured output. Treat that estimate as source-specific until corroborated. (source: sources/va21.md, sources/HRI2526.md)
+
+> Discrepancy: `vj19` reports a favorable `3.5 year` simple payback from a modeled output table and assumed `3000 USD` total cost, but the same paper's power table is internally awkward above the stated `9 m/s` rated-speed point. Treat that payback as source-specific rather than broadly representative. (source: sources/vj19.md)
 
 Quantitative example:
 - Estimated annual output ~10 kWh/year with ~0.67 m/s average wind; break-even >5000 years. (source: sources/n2.md)

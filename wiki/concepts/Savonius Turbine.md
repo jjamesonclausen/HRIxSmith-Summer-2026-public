@@ -14,7 +14,8 @@ Sources:
 - [[vj13]]
 - [[vj2]]
 - [[vj17]]
-Source_count: 12
+- [[vj19]]
+Source_count: 13
 Tags:
 - concepts
 ---
@@ -37,6 +38,7 @@ Original caption: Figure 1: Basic design of a Savonius rotor [[vj2|Source]]
 - The vj13 cluster study uses a conventional two-blade Savonius rotor with overlap ratio `0.1`, `D = 0.95 m`, and `H = 1 m` as the base turbine for a three-rotor cluster. (source: sources/vj13.md)
 - It reports a validated isolated-turbine maximum Cp of about `0.3372` at `7 m/s` and shows that cluster output is dominated by wind-direction wake interaction. (source: sources/vj13.md)
 - The vj17 optimization study adds an airfoil-based Savonius variant that raises Cp by about 27% over a semicircular baseline when optimized with DVM, CST, and SSA. (source: sources/vj17.md)
+- The vj19 experimental-modeling study uses a three-blade Savonius layout and reports that straight blades gave the lowest RPM, twisted blades the highest RPM, and curved blades nearly matched twisted performance before being selected for the later system study. (source: sources/vj19.md)
 - Tradeoffs:
   - Simple, low-cost construction and low noise are advantages. (source: sources/HRI2526.md)
   - Negative torque on the returning blade limits efficiency. (source: sources/HRI2526.md)
@@ -65,6 +67,7 @@ In hybrid systems, Savonius is the startup element that helps cover Darrieus neg
 - Modern variants evolved from half drums into fluted spiral-bladed designs that improve efficiency and reduce vibration. (source: sources/va3.md)
 - The J-type rooftop design is a separate drag-based VAWT concept, but it shares the low-cost drag-rotor rationale. (source: sources/va5.md)
 - The vj13 cluster study shows that a Savonius rotor can perform better when installed as part of a direction-aware cluster rather than as a standalone machine. (source: sources/vj13.md)
+- The vj19 paper also shows that blade shape alone can shift rotational performance substantially even before guide vanes or hybridization are introduced. (source: sources/vj19.md)
 
 ![Source figure](../../images/va3-fig10.jpg)
 Original caption: Figure 10. Evolution of the Savonius design for water pumping from half drums into the fluted spiral bladed design. [[va3|Source]]
