@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources:
 - [[va2]]
 - [[va27]]
@@ -12,7 +12,8 @@ Sources:
 - [[vj17]]
 - [[vj18]]
 - [[vj20]]
-Source_count: 10
+- [[vj27]]
+Source_count: 11
 Tags:
 - concepts
 ---
@@ -41,7 +42,10 @@ It notes that no single enhancement strategy is universally best; the useful obj
 - The vj18 review adds a broader optimization taxonomy for variable VAWT design, grouping pitch, flap, Gurney flap, morphing blade, movable mass, synthetic jet, and swept-area strategies by reported gain and complexity. (source: sources/vj18.md)
 - It suggests that the useful optimization target is often a tradeoff between performance, self-starting, load smoothing, actuation power, and durability. (source: sources/vj18.md)
 - The vj20 hybrid paper adds a DOE-driven geometry optimization stage using Box-Behnken design, response-surface modeling, and CFD databases to tune chord, blade count, shaft distance, pitch angle, and rotor height for `Cp` and cut-in speed. (source: sources/vj20.md)
+- The `vj27` review adds a deflector-specific optimization workflow where shape, inclination angle, upstream/downstream position, spacing from the rotor, and deflector length are tuned together rather than one at a time. (source: sources/vj27.md)
+- It reports representative gains ranging from about `27%` for simple Savonius flat-plate cases to `50%` for one airfoil-shaped Savonius case and `38.6%` for one kite-shaped twin-turbine case. (source: sources/vj27.md)
 Related:
+- [[Wind Deflector]]
 - [[Variable VAWT Design]]
 - [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[CFD and Validation]]

@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources:
 - [[HRI2526]]
 - [[n1]]
@@ -25,7 +25,8 @@ Sources:
 - [[vj6]]
 - [[vj8]]
 -[[vj20]]
-Source_count: 23
+- [[vj27]]
+Source_count: 24
 Tags:
 - methods
 ---
@@ -86,6 +87,8 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 - That study used z-vorticity contours and wake profiles to connect section-wise blade loading, vortex shedding, wake interaction, and flow separation to moment-coefficient behavior. (source: sources/va7.md)
 - The vj20 paper uses a sliding-mesh URANS workflow with a `k-epsilon` turbulence model, about `14.5D` streamwise domain size, symmetry sidewalls, pressure outlet, and wall treatment on the blades and shaft. (source: sources/vj20.md)
 - It reports more than `2 million` mesh elements, `15` inflation layers, element length `0.005 m` at the interface, no meaningful `Cp` change beyond refinement level `2` (`321,189` nodes in the reported MIT), and a chosen time step of `0.05 s`. (source: sources/vj20.md)
+- The `vj27` review adds that deflector studies commonly rely on commercial CFD plus URANS, and it specifically cites `k-omega` / URANS for one airfoil-shaped Savonius-deflector study and `3D` CFD for flat-plate deflector studies. (source: sources/vj27.md)
+- It also emphasizes that many deflector concepts still lack enough real-time experiments, so CFD-heavy gains should be treated as promising rather than fully mature. (source: sources/vj27.md)
 
 ## Figures
 

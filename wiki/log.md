@@ -1,6 +1,23 @@
 #maintenance
 ## Log
 
+### 2026-07-07 - Convert and ingest vj27 wind-deflector review
+
+- Task: convert `PDFs/vj27.pdf` into `sources/vj27.md`, extract its figures and equations, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj27.md` with source frontmatter, cleaned review structure, linked figures `vj27-fig1` through `vj27-fig12`, linked displayed equations `vj27-eq1` through `vj27-eq10`, and converted Tables 1-3 into Markdown tables.
+  - Added `wiki/summaries/vj27-summary.md`.
+  - Added the concept page `wiki/concepts/Wind Deflector.md`.
+  - Added the source-specific parameter pages `wiki/parameters/vj27 Wind Deflector Shape.md` and `wiki/parameters/vj27 Wind Deflector Position and Orientation.md`.
+  - Updated `wiki/concepts/Wind Flow Modifier.md`, `wiki/concepts/Savonius Turbine.md`, `wiki/concepts/Optimization.md`, `wiki/concepts/VAWT Aerodynamic Design Parameters.md`, `wiki/methods/CFD.md`, `wiki/methods/Wind Tunnel Testing.md`, and `wiki/index.md` with `vj27`-supported claims and links.
+  - Marked `sources/vj27.md` as processed.
+- Decisions:
+  - Treated `vj27` as a review ingest rather than creating design pages, because it synthesizes many deflector studies and turbine types instead of defining one source-specific turbine geometry with a coherent single performance dataset.
+  - Added one reusable `Wind Deflector` concept page because the paper's main value is a cross-study framework for passive flow augmentation, broader than the existing `Wind Flow Modifier` note.
+  - Added two parameter pages because the review explicitly centers its conclusions on deflector shape and on installation position/orientation as the key tuned variables affecting `Cp`.
+- Open:
+  - Most of the large performance gains in `vj27` are review-level summaries of cited papers, many of them CFD-heavy; cross-source experimental corroboration remains limited according to the review itself.
+
 ### 2026-07-07 - Convert and ingest vj26 VAWT rotor-design review
 
 - Task: convert `PDFs/vj26.pdf` into `sources/vj26.md`, extract its figures, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

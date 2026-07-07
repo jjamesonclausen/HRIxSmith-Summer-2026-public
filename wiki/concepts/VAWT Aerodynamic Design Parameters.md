@@ -19,7 +19,8 @@ Sources:
 - [[vj22]]
 - [[vj24]]
 - [[vj25]]
-Source_count: 17
+- [[vj27]]
+Source_count: 18
 Tags:
 - concepts
 ---
@@ -50,6 +51,8 @@ The vj17 study adds CST curvature coefficients as airfoil-shape design knobs for
 - It keeps maximum thickness at `18%` chord and zero pitching moment as design constraints while changing the effective surface `alpha*` distribution to reach its power target. (source: sources/vj24.md)
 - The vj25 paper adds rotor aspect ratio `AR = h/R` as a first-order H-rotor sizing knob, linking lower `AR` to larger radius and chord, higher Reynolds number, and slightly higher `Cp` in its `1 kW` `NACA 0018` case study. (source: sources/vj25.md)
 - It also makes the tradeoff explicit that lower `AR` reduces rotational speed while increasing structural thickness and rotor inertia. (source: sources/vj25.md)
+- The `vj27` review adds wind-deflector geometry and placement as explicit passive design knobs, covering flat plates, airfoil-shaped deflectors, kite-shaped compound layouts, inclination angle, upstream spacing, and deflector length. (source: sources/vj27.md)
+- It says these deflector variables matter because they redistribute upstream flow, suppress returning-blade penalty, and can materially raise both torque coefficient and power coefficient when tuned correctly. (source: sources/vj27.md)
 - The VAWT review gives Savonius TSR around 0.6-1.2, Darrieus TSR around 2.5-5.0, and emphasizes that the optimum shifts with solidity. (source: sources/vj11.md)
 - It treats blade profile, pitch angle, blade count, and chord Reynolds number as the main coupled design knobs. (source: sources/vj11.md)
 - It notes that low-solidity rotors push peak Cp to higher TSR, while high-solidity rotors self-start better but suffer more blade-wake interaction. (source: sources/vj11.md)
@@ -84,3 +87,6 @@ Related:
 - [[va15 Blade Pitch Angle]]
 - [[vj24 Blade Airfoil]]
 - [[vj25 Rotor Aspect Ratio]]
+- [[Wind Deflector]]
+- [[vj27 Wind Deflector Shape]]
+- [[vj27 Wind Deflector Position and Orientation]]

@@ -71,6 +71,7 @@ _One page per file in `sources/`._
 - [[vj24-summary]]
 - [[vj25-summary]]
 - [[vj26-summary]]
+- [[vj27-summary]]
 
 ## Concepts
 
@@ -124,6 +125,7 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 - [[VAWT]]
 - [[Wind Turbine Parameters]]
 - [[Wind Flow Modifier]]
+- [[Wind Deflector]]
 - [[Wind Shear]]
 
 ## Designs
@@ -238,6 +240,8 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[vj23 Gearbox Sizing]]
 - [[vj24 Blade Airfoil]]
 - [[vj25 Rotor Aspect Ratio]]
+- [[vj27 Wind Deflector Shape]]
+- [[vj27 Wind Deflector Position and Orientation]]
 - [[va12 Array Angle in Paired VAWT Arrays]]
 - [[va12 Relative Rotational Orientation in Paired VAWT Arrays]]
 - [[va12 Turbine Spacing in Paired VAWT Arrays]]

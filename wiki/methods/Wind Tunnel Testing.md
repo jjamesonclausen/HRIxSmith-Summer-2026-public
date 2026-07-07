@@ -12,7 +12,8 @@ Sources:
 - [[va23]]
 - [[vj20]]
 - [[vj26]]
-Source_count: 10
+- [[vj27]]
+Source_count: 11
 Tags:
 - methods
 ---
@@ -53,6 +54,8 @@ Measurements:
 - The source also reports Kline-McClintock uncertainty equations for `Cp` and `Ct`, with experimental coefficient errors within `3%`. (source: sources/vj20.md)
 - The vj26 review adds a simple straight-flow wind-tunnel apparatus as an explicitly useful low-cost test platform for VAWT rotor studies, and it points to larger wind-tunnel campaigns as a practical way to validate CFD or compare new rotor shapes. (source: sources/vj26.md)
 - It also highlights blockage as a serious interpretation problem for Savonius tests, especially at high solidity, rather than a secondary correction that can be ignored. (source: sources/vj26.md)
+- The `vj27` review adds multiple deflector-specific wind-tunnel cases, including flat-plate Savonius tests, twin-turbine deflector experiments, and CFD-versus-experiment comparisons for kite-shaped deflectors. (source: sources/vj27.md)
+- It also frames the present evidence base as still experiment-light relative to the number of CFD studies, especially when judging whether a deflector concept is practical beyond one tunnel setup. (source: sources/vj27.md)
 
 ![Source figure](../../images/va8-fig5.jpg)
 Original caption: Figure 5: Relation between lift coefficient and angle of attack. [[va8|Source]]

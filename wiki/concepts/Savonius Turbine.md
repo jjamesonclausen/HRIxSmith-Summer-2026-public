@@ -16,7 +16,8 @@ Sources:
 - [[vj17]]
 - [[vj19]]
 - [[vj26]]
-Source_count: 14
+- [[vj27]]
+Source_count: 15
 Tags:
 - concepts
 ---
@@ -69,6 +70,9 @@ In hybrid systems, Savonius is the startup element that helps cover Darrieus neg
 - The J-type rooftop design is a separate drag-based VAWT concept, but it shares the low-cost drag-rotor rationale. (source: sources/va5.md)
 - The vj13 cluster study shows that a Savonius rotor can perform better when installed as part of a direction-aware cluster rather than as a standalone machine. (source: sources/vj13.md)
 - The vj19 paper also shows that blade shape alone can shift rotational performance substantially even before guide vanes or hybridization are introduced. (source: sources/vj19.md)
+- The `vj27` review adds a broad deflector-augmentation summary for Savonius rotors: simple flat plates can improve `Cp` by about `27%`, while one airfoil-shaped deflector case is reported to reach `50%` improvement. (source: sources/vj27.md)
+- It also says two-bladed Savonius layouts remain the more attractive deflector partner than three-bladed layouts when performance, cost, and complexity are considered together. (source: sources/vj27.md)
+- The same review treats correct deflector position and orientation as critical, and notes that the wrong orientation can make the turbine perform worse than the no-deflector baseline. (source: sources/vj27.md)
 
 - The vj26 review adds that two-bucket Savonius systems generally outperform three-bucket cases in the studies it surveys, including one wind-tunnel review that also found two stages better than one or three. (source: sources/vj26.md)
 - It also summarizes several passive improvement levers for drag rotors: blade vents, top and bottom caps, middle plates, curtain vanes, wing-wall shielding, and twisted blades. (source: sources/vj26.md)
@@ -97,5 +101,8 @@ Related:
 - [[Wind Turbine Parameters]]
 - [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]]
 - [[va3 Tip Speed Ratio Classification]]
+- [[Wind Deflector]]
+- [[vj27 Wind Deflector Shape]]
+- [[vj27 Wind Deflector Position and Orientation]]
 
 #concepts 
