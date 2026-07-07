@@ -17,7 +17,8 @@ Sources:
 - [[vj18]]
 - [[vj21]]
 - [[vj22]]
-Source_count: 15
+- [[vj24]]
+Source_count: 16
 Tags:
 - concepts
 ---
@@ -44,6 +45,8 @@ The vj17 study adds CST curvature coefficients as airfoil-shape design knobs for
 - It also notes that large `c/R` worsens flow-curvature effects and therefore tends to hurt blade aerodynamic efficiency. (source: sources/vj21.md)
 - The vj22 simulation paper adds a direct low-wind comparison between `NACA 0012` and `NACA 0015`, using `Cl`, `Cd`, and `Cl/Cd` to choose the better rotor airfoil. (source: sources/vj22.md)
 - It also links blade count to TSR and solidity explicitly, reporting `TSRmax` values of `4.2`, `2.5`, and `1.6` for `3`, `5`, and `8` blades and corresponding solidity values of `0.51`, `0.85`, and `1.36`. (source: sources/vj22.md)
+- The vj24 paper adds inverse-tailored airfoil surface velocity distribution as a design knob for low-speed straight-bladed Darrieus rotors, with the transition-ramp shape used to influence low-Re separation-bubble behavior. (source: sources/vj24.md)
+- It keeps maximum thickness at `18%` chord and zero pitching moment as design constraints while changing the effective surface `alpha*` distribution to reach its power target. (source: sources/vj24.md)
 - The VAWT review gives Savonius TSR around 0.6-1.2, Darrieus TSR around 2.5-5.0, and emphasizes that the optimum shifts with solidity. (source: sources/vj11.md)
 - It treats blade profile, pitch angle, blade count, and chord Reynolds number as the main coupled design knobs. (source: sources/vj11.md)
 - It notes that low-solidity rotors push peak Cp to higher TSR, while high-solidity rotors self-start better but suffer more blade-wake interaction. (source: sources/vj11.md)
@@ -76,3 +79,4 @@ Related:
 - [[va14 Blade Number]]
 - [[va15 Solidity]]
 - [[va15 Blade Pitch Angle]]
+- [[vj24 Blade Airfoil]]

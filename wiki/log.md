@@ -1,6 +1,24 @@
 #maintenance
 ## Log
 
+### 2026-07-06 - Convert and ingest vj24 inverse-airfoil-design paper
+
+- Task: convert `PDFs/vj24.pdf` into `sources/vj24.md`, extract its figures and displayed equation, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj24.md` with source frontmatter, cleaned section structure, linked figures `vj24-fig1` through `vj24-fig4`, linked the displayed approximation equation as an image, and converted Table 1 into Markdown.
+  - Added `wiki/summaries/vj24-summary.md`.
+  - Added the source-specific design page `wiki/designs/vj24 3-Bladed Straight-Bladed Darrieus VAWT.md`.
+  - Added the source-specific parameter page `wiki/parameters/vj24 Blade Airfoil.md`.
+  - Added the method page `wiki/methods/PROFOIL.md`.
+  - Updated `wiki/concepts/Darrieus Turbine.md`, `wiki/concepts/Straight-bladed Darrieus.md`, `wiki/concepts/VAWT Aerodynamic Design Parameters.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/methods/Double-Multiple Streamtube Model.md`, and `wiki/index.md` with `vj24`-supported claims and links.
+  - Marked `sources/vj24.md` as processed.
+- Decisions:
+  - Added one design page because the paper evaluates one concrete `3`-bladed straight-bladed Darrieus example with full source-stated geometry and comparative whole-rotor output values.
+  - Added one parameter page for blade airfoil because the central changed design variable is the inverse-tailored airfoil (`NACA 0018` to `NACA 0018-M`).
+  - Added one method page for `PROFOIL` because the paper's main reusable contribution is the inverse-design workflow rather than CFD or a new whole-rotor control strategy.
+- Open:
+  - The paper explicitly says the reported gain should be treated as a relative qualitative improvement because low-Re, high-angle-of-attack post-stall prediction remains unreliable in the analysis chain.
+
 ### 2026-07-06 — Convert and ingest vj23 simple Darrieus VAWT design note
 
 - Task: convert `PDFs/vj23.pdf` into `sources/vj23.md`, extract its figures and displayed equation, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

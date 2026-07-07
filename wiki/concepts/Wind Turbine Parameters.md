@@ -28,7 +28,8 @@ Sources:
 - [[vj19]]
 - [[vj20]]
 - [[vj23]]
-Source_count: 24
+- [[vj24]]
+Source_count: 25
 Tags:
 - concepts
 ---
@@ -104,6 +105,9 @@ It also reports multiple context-specific startup values: `1.72 m/s` in the expe
 The vj23 paper adds a qualitative small-Darrieus case where `3` blades are reported to give torque above `40 rpm` at `4.5 to 5 m/s`, and a gearbox around `1:60` is mentioned as the speed-increase stage between turbine and generator. (source: sources/vj23.md)
 
 > Discrepancy: `vj23` says the `3`-blade case achieves the cited torque level, but the later discussion says a `4`-blade turbine has greater and more stable torque. Treat its blade-count recommendation as internally mixed. (source: sources/vj23.md)
+
+The vj24 inverse-design paper adds a fixed `12 m/s` straight-bladed Darrieus case where baseline `NACA 0018` performance is reported as `1.610 kW`, `CP = 0.294`, and `CQ = 0.184`, while the modified `NACA 0018-M` case reaches `1.850 kW`, `CP = 0.338`, and `CQ = 0.211`. (source: sources/vj24.md)
+It also defines the example operating envelope with `TSR = 1.6`, `30 rad/s` rotational speed, local blade Reynolds numbers from `45000` to `250000`, and local angles of attack from `-37.70` to `41.59` degrees. (source: sources/vj24.md)
 
 The va25 paper adds airfoil-family choice and camber orientation as major low-TSR design knobs for H-Darrieus startup and performance. (source: sources/va25.md)
 It reports `NACA6712` cambered-in peaking at `Cp = 0.3645` around `TSR = 2.037`, while symmetric `E474` peaks at `Cp = 0.3557` around `TSR = 3.0`. (source: sources/va25.md)

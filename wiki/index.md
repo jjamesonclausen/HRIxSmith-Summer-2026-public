@@ -68,6 +68,7 @@ _One page per file in `sources/`._
 - [[vj21-summary]]
 - [[vj22-summary]]
 - [[vj23-summary]]
+- [[vj24-summary]]
 
 ## Concepts
 
@@ -137,6 +138,7 @@ _Specific turbine design pages live in [`designs/`](designs/)._
 - [[vj20 Proposed Hybrid VAWT]]
 - [[vj22 Simulated Small-Scale Straight-Bladed VAWT]]
 - [[vj23 3-Bladed Darrieus VAWT with Gearbox]]
+- [[vj24 3-Bladed Straight-Bladed Darrieus VAWT]]
 - [[va3 Counter-rotating VAWT Array]]
 - [[HRI2526 Darrieus above Savonius]]
 - [[HRI2526 Double Darrieus with Inner H-rotor and Outer Eggbeater]]
@@ -230,6 +232,7 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[vj22 Blade Number]]
 - [[vj23 Blade Number]]
 - [[vj23 Gearbox Sizing]]
+- [[vj24 Blade Airfoil]]
 - [[va12 Array Angle in Paired VAWT Arrays]]
 - [[va12 Relative Rotational Orientation in Paired VAWT Arrays]]
 - [[va12 Turbine Spacing in Paired VAWT Arrays]]
@@ -280,6 +283,7 @@ _Procedure and technique pages live in [`methods/`](methods/)._
 - [[Panel Method]]
 - [[PIV Testing]]
 - [[QBlade]]
+- [[PROFOIL]]
 - [[Wind Tunnel Testing]]
 - [[Box-Behnken Design]]
 

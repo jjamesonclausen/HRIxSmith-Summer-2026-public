@@ -16,9 +16,10 @@ Sources:
 - [[vj5]]
 - [[vj14]]
 - [[vj15]]
-- [[vj22]]
-- [[vj23]]
-Source_count: 16
+ - [[vj22]]
+ - [[vj23]]
+ - [[vj24]]
+Source_count: 17
 Tags:
 - concepts
 ---
@@ -79,6 +80,8 @@ The vj15 CFD study adds that harmonic variable pitch can improve both power and 
 - The same source also frames blade count as a low-wind Darrieus tradeoff: `3` blades give the best and most stable `Cp`, while `5` and `8` blades increase torque and self-rotation tendency at the expense of efficiency. (source: sources/vj22.md)
 - The vj23 conference paper adds a simple low-wind design argument for a small Darrieus rotor in Indonesia, emphasizing near-ground drivetrain placement, omnidirectional operation, and a gearbox-coupled `3`-blade configuration. (source: sources/vj23.md)
 - It also repeats the usual Darrieus weakness that external energy may be needed to start rotation, while presenting gearbox sizing and blade count as the main practical levers in its proposed setup. (source: sources/vj23.md)
+- The vj24 paper adds a low-speed straight-bladed design case where a `3`-bladed Darrieus rotor is used to test inverse airfoil redesign, and it reports a relative `10-15%` performance improvement from the modified `NACA 0018-M` section. (source: sources/vj24.md)
+- It also reinforces that low-Reynolds-number airfoil behavior and post-stall prediction remain central Darrieus design limits for smaller rotors. (source: sources/vj24.md)
 - The vj14 case study adds a real 5 kW H-Darrieus deployment whose measured annual generation was only 219.4 kWh, showing how weak local wind can dominate the practical outcome. (source: sources/vj14.md)
 It also notes that the site-specific tower, foundation, and cabling can outweigh the turbine itself in lifecycle impact. (source: sources/vj14.md)
 
@@ -113,5 +116,6 @@ Related:
 - [[va3 Ropatec WRE.060 WindRotor]]
 - [[va3 Eurowind VAWT]]
 - [[va3 Tip Speed Ratio Classification]]
+- [[vj24 3-Bladed Straight-Bladed Darrieus VAWT]]
 
 #concepts 
