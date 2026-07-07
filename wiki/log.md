@@ -1,6 +1,24 @@
 #maintenance
 ## Log
 
+### 2026-07-07 - Convert and ingest vj25 aspect-ratio H-rotor design paper
+
+- Task: convert `PDFs/vj25.pdf` into `sources/vj25.md`, extract its figures and equations, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj25.md` with source frontmatter, cleaned section structure, linked figures `vj25-fig1` through `vj25-fig8`, linked displayed equations `vj25-eq1` through `vj25-eq8`, and converted Tables 1-2 into Markdown.
+  - Added `wiki/summaries/vj25-summary.md`.
+  - Added the method page `wiki/methods/Multiple Stream Tube Model.md`.
+  - Added the source-specific parameter page `wiki/parameters/vj25 Rotor Aspect Ratio.md`.
+  - Added the source-specific design pages `wiki/designs/vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 2).md` and `wiki/designs/vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 0.4).md`.
+  - Updated `wiki/concepts/H-VAWT.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/VAWT Aerodynamic Design Parameters.md`, and `wiki/index.md` with `vj25`-supported claims and links.
+  - Marked `sources/vj25.md` as processed.
+- Decisions:
+  - Added a new `Multiple Stream Tube Model` method page because the paper's main reusable contribution is an MSTM-based sizing workflow rather than a new airfoil, CFD, or control technique.
+  - Split the case study into two design pages because the paper reports two distinct converged rotors (`AR = 2` and `AR = 0.4`) with different final geometry and performance values.
+  - Classified the aspect-ratio result as a `minimal positive effect` on the parameter page because the direction is clear but the explicit `Cp` gain in the `1 kW` comparison is modest (`0.464` to `0.475`).
+- Open:
+  - The paper's design recommendation is based on MSTM-generated characteristic curves and a numerical case study, not on experimental validation of the two final rotors.
+
 ### 2026-07-06 - Convert and ingest vj24 inverse-airfoil-design paper
 
 - Task: convert `PDFs/vj24.pdf` into `sources/vj24.md`, extract its figures and displayed equation, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

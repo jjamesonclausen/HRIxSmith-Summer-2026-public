@@ -69,6 +69,7 @@ _One page per file in `sources/`._
 - [[vj22-summary]]
 - [[vj23-summary]]
 - [[vj24-summary]]
+- [[vj25-summary]]
 
 ## Concepts
 
@@ -139,6 +140,8 @@ _Specific turbine design pages live in [`designs/`](designs/)._
 - [[vj22 Simulated Small-Scale Straight-Bladed VAWT]]
 - [[vj23 3-Bladed Darrieus VAWT with Gearbox]]
 - [[vj24 3-Bladed Straight-Bladed Darrieus VAWT]]
+- [[vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 2)]]
+- [[vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 0.4)]]
 - [[va3 Counter-rotating VAWT Array]]
 - [[HRI2526 Darrieus above Savonius]]
 - [[HRI2526 Double Darrieus with Inner H-rotor and Outer Eggbeater]]
@@ -233,6 +236,7 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[vj23 Blade Number]]
 - [[vj23 Gearbox Sizing]]
 - [[vj24 Blade Airfoil]]
+- [[vj25 Rotor Aspect Ratio]]
 - [[va12 Array Angle in Paired VAWT Arrays]]
 - [[va12 Relative Rotational Orientation in Paired VAWT Arrays]]
 - [[va12 Turbine Spacing in Paired VAWT Arrays]]
@@ -280,6 +284,7 @@ _Procedure and technique pages live in [`methods/`](methods/)._
 - [[3D Particle Tracking Velocimetry]]
 - [[Climatology Assimilation]]
 - [[Measure-Correlate-Predict (MCP)]]
+- [[Multiple Stream Tube Model]]
 - [[Panel Method]]
 - [[PIV Testing]]
 - [[QBlade]]

@@ -16,9 +16,9 @@ Sources:
 - [[vj5]]
 - [[vj14]]
 - [[vj15]]
- - [[vj22]]
- - [[vj23]]
- - [[vj24]]
+- [[vj22]]
+- [[vj23]]
+- [[vj24]]
 Source_count: 17
 Tags:
 - concepts

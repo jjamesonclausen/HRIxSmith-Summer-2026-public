@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources:
 - [[va2]]
 - [[va16]]
@@ -14,7 +14,8 @@ Sources:
 - [[vj14]]
 - [[vj15]]
 - [[vj4]]
-Source_count: 12
+- [[vj25]]
+Source_count: 13
 Tags:
 - concepts
 ---
@@ -56,10 +57,12 @@ The vj15 study adds that harmonic variable pitch can improve both startup and po
 - The va26 paper adds a fixed-pitch-angle study on a low-solidity 3-bladed H-rotor and reports an optimum of `-2` degrees at `TSR = 4`. (source: sources/va26.md)
 - It also argues that the way pitch redistributes instantaneous moment over azimuth makes dynamic pitching a promising next step for H-rotor performance improvement. (source: sources/va26.md)
 - The va27 paper adds a one-bladed low-solidity H-type reference rotor used to isolate how symmetric airfoil-shape parameters affect power performance in deep dynamic stall. (source: sources/va27.md)
+- The vj25 paper adds a sizing-rule view for straight-bladed H-rotors, arguing that lower rotor aspect ratio (`h/R`) increases blade Reynolds number and can slightly improve `Cp` while lowering rotational speed in its `1 kW` `NACA 0018` case study. (source: sources/vj25.md)
+- That source compares converged `AR = 2` and `AR = 0.4` designs and reports `cpmax` changing from `0.464` to `0.475` while rotor speed drops from `299 rpm` to `137 rpm`. (source: sources/vj25.md)
 
 ![Source figure](../../images/va9-fig20.jpg)
 Original caption: Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow. [[va9|Source]]
 
-Related: [[VAWT]], [[Darrieus Turbine]], [[HAWT vs VAWT]], [[Kriging Surrogate Model]], [[CST Parameterization]], [[Multi-Island Genetic Algorithm]], [[Straight-bladed Darrieus]], [[Double-Multiple Streamtube Model]], [[H-rotor Wake Aerodynamics]], [[va25 Reference H-Rotor Darrieus VAWT]], [[va25 Blade Airfoil Profile]], [[va25 Cambered Airfoil Orientation]], [[va26 3-Bladed H-Type VAWT]], [[va26 Fixed Blade Pitch Angle]], [[va27 Reference One-Bladed H-Type VAWT]], [[va27 Airfoil Relative Maximum Thickness]], [[va27 Airfoil Maximum-Thickness Position]], [[va27 Leading-Edge Radius Index]]
+Related: [[VAWT]], [[Darrieus Turbine]], [[HAWT vs VAWT]], [[Kriging Surrogate Model]], [[CST Parameterization]], [[Multi-Island Genetic Algorithm]], [[Straight-bladed Darrieus]], [[Double-Multiple Streamtube Model]], [[Multiple Stream Tube Model]], [[H-rotor Wake Aerodynamics]], [[va25 Reference H-Rotor Darrieus VAWT]], [[va25 Blade Airfoil Profile]], [[va25 Cambered Airfoil Orientation]], [[va26 3-Bladed H-Type VAWT]], [[va26 Fixed Blade Pitch Angle]], [[va27 Reference One-Bladed H-Type VAWT]], [[va27 Airfoil Relative Maximum Thickness]], [[va27 Airfoil Maximum-Thickness Position]], [[va27 Leading-Edge Radius Index]], [[vj25 Rotor Aspect Ratio]], [[vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 2)]], [[vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 0.4)]]
  
 #concepts 

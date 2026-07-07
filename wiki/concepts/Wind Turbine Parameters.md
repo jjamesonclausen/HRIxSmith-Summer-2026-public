@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources:
 - [[HRI2526]]
 - [[va20]]
@@ -29,7 +29,8 @@ Sources:
 - [[vj20]]
 - [[vj23]]
 - [[vj24]]
-Source_count: 25
+- [[vj25]]
+Source_count: 26
 Tags:
 - concepts
 ---
@@ -109,6 +110,9 @@ The vj23 paper adds a qualitative small-Darrieus case where `3` blades are repor
 The vj24 inverse-design paper adds a fixed `12 m/s` straight-bladed Darrieus case where baseline `NACA 0018` performance is reported as `1.610 kW`, `CP = 0.294`, and `CQ = 0.184`, while the modified `NACA 0018-M` case reaches `1.850 kW`, `CP = 0.338`, and `CQ = 0.211`. (source: sources/vj24.md)
 It also defines the example operating envelope with `TSR = 1.6`, `30 rad/s` rotational speed, local blade Reynolds numbers from `45000` to `250000`, and local angles of attack from `-37.70` to `41.59` degrees. (source: sources/vj24.md)
 
+The vj25 aspect-ratio paper adds a design-method case where lower `AR = h/R` raises Reynolds number and lowers rotor speed in a `2`-bladed `NACA 0018` H-rotor sized for `1 kW` at `10 m/s`. (source: sources/vj25.md)
+Its converged comparison changes `cpmax` from `0.464` at `AR = 2` to `0.475` at `AR = 0.4`, while rotor speed drops from `299 rpm` to `137 rpm`. (source: sources/vj25.md)
+
 The va25 paper adds airfoil-family choice and camber orientation as major low-TSR design knobs for H-Darrieus startup and performance. (source: sources/va25.md)
 It reports `NACA6712` cambered-in peaking at `Cp = 0.3645` around `TSR = 2.037`, while symmetric `E474` peaks at `Cp = 0.3557` around `TSR = 3.0`. (source: sources/va25.md)
 
@@ -176,5 +180,6 @@ Related:
 - [[va20 Wind Flow Modifier]]
 - [[Variable VAWT Design]]
 - [[va22 100-W Helical-Blade Vertical-Axis Wind Turbine]]
+- [[vj25 Rotor Aspect Ratio]]
 
 #concepts
