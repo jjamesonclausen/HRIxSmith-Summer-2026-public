@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources:
 - [[HRI2526]]
 - [[va7]]
@@ -12,7 +12,8 @@ Sources:
 - [[vj6]]
 - [[vj8]]
 - [[vj18]]
-Source_count: 10
+- [[vj26]]
+Source_count: 11
 Tags:
 - concepts
 ---
@@ -32,6 +33,9 @@ This page collects the load and structural issues that shape a VAWT design.
 - The same source says Savonius-generated turbulence can negatively affect the lift-based Darrieus blades when the Savonius rotor sits in the middle of the hybrid rotor. (source: sources/vj2.md)
 - The vj18 review says movable mass blocks can cut radial loading and shaft deformation but can also slow startup because the extra inertia works against self-starting. (source: sources/vj18.md)
 - It also treats strut durability and load path design as long-term issues for variable mechanisms. (source: sources/vj18.md)
+- The vj26 review adds that large oscillatory stresses on the tower and rotor arms are a main reason VAWTs have historically been harder to scale safely than HAWTs. (source: sources/vj26.md)
+- It also cites experimental evidence that high-solidity H-type VAWTs can show significant resonance in the supporting struts, with vibration response strongly tied to rotor rotational frequency and changing flow conditions. (source: sources/vj26.md)
+- For offshore VAWTs, the same review identifies gyroscopic effects and large overturning moments as central structural problems, and points to V-shaped rotors with sails and rotating float concepts as attempts to reduce those loads. (source: sources/vj26.md)
 
 ![Source figure](../../images/va8-fig2.jpg)
 Original caption: Figure 2: Vertical cross section of the turbine shaft. [[va8|Source]]

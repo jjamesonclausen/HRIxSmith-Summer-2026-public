@@ -1,6 +1,21 @@
 #maintenance
 ## Log
 
+### 2026-07-07 - Convert and ingest vj26 VAWT rotor-design review
+
+- Task: convert `PDFs/vj26.pdf` into `sources/vj26.md`, extract its figures, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj26.md` with source frontmatter, cleaned section structure, linked figures `vj26-fig1` through `vj26-fig9`, and preserved the review text and references.
+  - Added `wiki/summaries/vj26-summary.md`.
+  - Updated `wiki/concepts/VAWT.md`, `wiki/concepts/Darrieus Turbine.md`, `wiki/concepts/Savonius Turbine.md`, `wiki/concepts/Hybrid VAWT.md`, `wiki/concepts/HAWT vs VAWT.md`, `wiki/concepts/Structures and Loads.md`, `wiki/concepts/CFD and Validation.md`, `wiki/methods/Wind Tunnel Testing.md`, `wiki/methods/Wind Tunnel Blockage Correction.md`, and `wiki/index.md` with `vj26`-supported claims and links.
+  - Marked `sources/vj26.md` as processed.
+- Decisions:
+  - Treated `vj26` as a review ingest rather than creating source-specific design pages, because the paper mainly surveys many cited third-party rotor concepts instead of defining one `vj26` turbine geometry with its own consolidated performance dataset.
+  - Did not create source-specific parameter pages because the paper is structured as a broad literature review of many improvement strategies rather than a direct comparative study of one controlled parameter sweep under one source-specific experiment or model.
+  - Folded the strongest actionable findings into existing concept and method pages, especially around self-starting, drag-rotor improvements, hybrid rationale, CFD limits, wind-tunnel blockage, and offshore structural issues.
+- Open:
+  - Several strong claims in `vj26` are themselves review-level summaries of cited studies, so they should be treated as source-grounded summaries of the reviewed literature rather than as direct experimental findings from the review authors' own single apparatus.
+
 ### 2026-07-07 - Convert and ingest vj25 aspect-ratio H-rotor design paper
 
 - Task: convert `PDFs/vj25.pdf` into `sources/vj25.md`, extract its figures and equations, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

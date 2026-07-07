@@ -70,6 +70,7 @@ _One page per file in `sources/`._
 - [[vj23-summary]]
 - [[vj24-summary]]
 - [[vj25-summary]]
+- [[vj26-summary]]
 
 ## Concepts
 

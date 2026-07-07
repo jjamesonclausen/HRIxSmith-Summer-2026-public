@@ -1,8 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources: [[va23]]
-Source_count: 1
+Updated: 2026-07-07
+Sources:
+- [[va23]]
+- [[vj26]]
+Source_count: 2
 Tags:
 - methods
 ---
@@ -16,6 +18,7 @@ Method for correcting VAWT power coefficient and tip-speed-ratio measurements wh
 - The method corrects both `Cp` and `lambda` by first estimating a correction factor `epsilon_t`, then using that to compute corrected velocity `Uc`. (source: sources/va23.md)
 - Unlike a pure area-ratio correction, the paper also measures local side-flow velocity `Uside` with a hot-wire probe and uses the ratio `U/Uside` to refine the blockage estimate for each turbine and operating condition. (source: sources/va23.md)
 - The source says the correction lowers `Cp`, shifts the `Cp-lambda` curves leftward, and better represents blockage effects created by turbine rotation and geometry. (source: sources/va23.md)
+- The vj26 review adds a higher-level warning that blockage can greatly affect Savonius wind-tunnel testing, especially for high-solidity rotors, so blockage handling is not optional for trustworthy interpretation. (source: sources/vj26.md)
 
 ![Source figure](../../images/va23-fig6.jpg)
 Original caption: Figure 6. A schematic of the velocity measurement locations at the ABL wind tunnel: A, hot-wire anemometer experimental setup. B, Top view of the rotor inserted into the ABL wind tunnel, where U and Uside are velocities, AT, As are areas for the tunnel and the turbine. C, Front view schematic of the velocity measurement locations for the three different configurations (dimensions are not to scale). [[va23|Source]]

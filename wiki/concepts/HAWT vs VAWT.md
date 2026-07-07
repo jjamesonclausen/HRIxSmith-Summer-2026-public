@@ -1,13 +1,14 @@
 ---
 Created:
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources:
 - [[HRI2526]]
 - [[va3]]
 - [[va6]]
 - [[vj1]]
 - [[vj23]]
-Source_count: 5
+- [[vj26]]
+Source_count: 6
 Tags:
 - concepts
 ---
@@ -44,6 +45,7 @@ VAWTs:
 - The comparison paper says VAWTs can be more suitable for cities because noise is lower and maintenance is easier. (source: sources/va6.md)
 - It also reports higher torque in VAWTs because of slower rotational speed. (source: sources/va6.md)
 - The vj23 paper repeats the same practical contrast for a small Darrieus case: VAWTs do not need yawing, can keep the gearbox and generator near the ground, and are therefore easier to maintain. (source: sources/vj23.md)
+- The vj26 review adds that VAWTs usually have lower acoustic emissions and better responses to varying, unsteady, and turbulent wind than HAWTs, which is why they remain attractive for urban and off-grid use despite lower efficiency. (source: sources/vj26.md)
 
 Tradeoff summary:
 - HAWTs: optimized, efficient, dominant at large scale
@@ -51,6 +53,7 @@ Tradeoff summary:
 - Large HAWTs face scaling, transportation, installation, and tower-stability constraints. (source: sources/va3.md)
 - Properly spaced VAWT arrays may reduce wake losses and sometimes benefit downstream machines. (source: sources/va3.md)
 - The comparison paper says HAWTs remain the better choice for large capacities and offshore or remote sites. (source: sources/va6.md)
+- The same vj26 review adds two important VAWT caveats against HAWTs at larger scale: VAWTs do not furl in high winds, and the repeated lift-loss cycle on each blade adds fatigue and structural cost. (source: sources/vj26.md)
 
 Related:
 - [[VAWT]]

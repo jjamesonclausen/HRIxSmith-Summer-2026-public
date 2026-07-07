@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources:
 - [[HRI2526]]
 - [[n1]]
@@ -15,7 +15,8 @@ Sources:
 - [[vj2]]
 - [[vj17]]
 - [[vj19]]
-Source_count: 13
+- [[vj26]]
+Source_count: 14
 Tags:
 - concepts
 ---
@@ -68,6 +69,10 @@ In hybrid systems, Savonius is the startup element that helps cover Darrieus neg
 - The J-type rooftop design is a separate drag-based VAWT concept, but it shares the low-cost drag-rotor rationale. (source: sources/va5.md)
 - The vj13 cluster study shows that a Savonius rotor can perform better when installed as part of a direction-aware cluster rather than as a standalone machine. (source: sources/vj13.md)
 - The vj19 paper also shows that blade shape alone can shift rotational performance substantially even before guide vanes or hybridization are introduced. (source: sources/vj19.md)
+
+- The vj26 review adds that two-bucket Savonius systems generally outperform three-bucket cases in the studies it surveys, including one wind-tunnel review that also found two stages better than one or three. (source: sources/vj26.md)
+- It also summarizes several passive improvement levers for drag rotors: blade vents, top and bottom caps, middle plates, curtain vanes, wing-wall shielding, and twisted blades. (source: sources/vj26.md)
+- One cited stirring application in the review reports a twisted two-bladed drag rotor outperforming the three-bladed case, with an optimum twist angle near `30 degrees` for that use. (source: sources/vj26.md)
 
 ![Source figure](../../images/va3-fig10.jpg)
 Original caption: Figure 10. Evolution of the Savonius design for water pumping from half drums into the fluted spiral bladed design. [[va3|Source]]

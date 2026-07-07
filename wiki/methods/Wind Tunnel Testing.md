@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources:
 - [[HRI2526]]
 - [[va15]]
@@ -11,7 +11,8 @@ Sources:
 - [[va22]]
 - [[va23]]
 - [[vj20]]
-Source_count: 9
+- [[vj26]]
+Source_count: 10
 Tags:
 - methods
 ---
@@ -50,6 +51,8 @@ Measurements:
 - The vj20 paper adds a closed-circuit subsonic wind-tunnel case with `2 x 3 ft^2` test-section cross section, remote speed control, turbulence intensity within about `±1%`, and tests across `1-6 m/s` and `TSR 1-6`. (source: sources/vj20.md)
 - It measures wind speed with a BENETECH `GM8902` anemometer (`±3%`), rotational speed with a laser tachometer (`±2%`), and dynamic force with a dynamometer converted into torque. (source: sources/vj20.md)
 - The source also reports Kline-McClintock uncertainty equations for `Cp` and `Ct`, with experimental coefficient errors within `3%`. (source: sources/vj20.md)
+- The vj26 review adds a simple straight-flow wind-tunnel apparatus as an explicitly useful low-cost test platform for VAWT rotor studies, and it points to larger wind-tunnel campaigns as a practical way to validate CFD or compare new rotor shapes. (source: sources/vj26.md)
+- It also highlights blockage as a serious interpretation problem for Savonius tests, especially at high solidity, rather than a secondary correction that can be ignored. (source: sources/vj26.md)
 
 ![Source figure](../../images/va8-fig5.jpg)
 Original caption: Figure 5: Relation between lift coefficient and angle of attack. [[va8|Source]]

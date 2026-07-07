@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources:
 - [[HRI2526]]
 - [[n2]]
@@ -9,7 +9,8 @@ Sources:
 - [[vj11]]
 - [[vj2]]
 - [[vj20]]
-Source_count: 7
+- [[vj26]]
+Source_count: 8
 Tags:
 - concepts
 ---
@@ -80,6 +81,9 @@ Tradeoffs:
 - The same study reports the initial hybrid geometry used a 1000 mm by 500 mm Savonius rotor inside a 1600 mm diameter, three-bladed helical Darrieus rotor with NACA 0018 blades of 110 mm chord and 1800 mm projected height. (source: sources/vj2.md)
 - The vj20 paper adds a different hybrid architecture that removes the inner Savonius completely and replaces it with a smaller inner H-rotor using asymmetric `DU 06-W-200` blades inside an outer `NACA0018` H-rotor. (source: sources/vj20.md)
 - It reports that this asymmetric-inner hybrid reached `Cp = 0.486` at `TSR = 3`, kept positive `Cts` at all azimuths, and outperformed both the compared H-rotor Darrieus and cited existing hybrid cases by about `11%-13%`. (source: sources/vj20.md)
+
+The vj26 review reinforces the common hybrid rationale: a high-torque Savonius stage is paired with a higher-efficiency Darrieus stage so startup behavior improves without giving up all higher-speed performance. (source: sources/vj26.md)
+It also says the surveyed hybrid studies consistently outperform Savonius-only rotors in overall power-conversion potential, while the exact benefit still depends on overlap, rotor placement, and how much the drag stage interferes with the lift stage. (source: sources/vj26.md)
 
 ![Source figure](../../images/vj2-fig8.jpg)
 Original caption: Figure 8: Torque values calculated for each configuration, for one third of a complete rotation (15 degree steps) [[vj2|Source]]

@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources:
 - [[HRI2526]]
 - [[n1]]
@@ -19,7 +19,8 @@ Sources:
 - [[vj22]]
 - [[vj23]]
 - [[vj24]]
-Source_count: 17
+- [[vj26]]
+Source_count: 18
 Tags:
 - concepts
 ---
@@ -84,6 +85,10 @@ The vj15 CFD study adds that harmonic variable pitch can improve both power and 
 - It also reinforces that low-Reynolds-number airfoil behavior and post-stall prediction remain central Darrieus design limits for smaller rotors. (source: sources/vj24.md)
 - The vj14 case study adds a real 5 kW H-Darrieus deployment whose measured annual generation was only 219.4 kWh, showing how weak local wind can dominate the practical outcome. (source: sources/vj14.md)
 It also notes that the site-specific tower, foundation, and cabling can outweigh the turbine itself in lifecycle impact. (source: sources/vj14.md)
+
+The vj26 review adds that both passive and active blade-pitching strategies remain an important Darrieus improvement path, with one cited active-control case reporting around `30%` more power than a fixed-blade approach. (source: sources/vj26.md)
+It also summarizes mixed self-start findings: one cited CFD study says a lightly loaded `3`-bladed H-type can self-start in some steady conditions while a `2`-bladed case may only start under favorable conditions, but another cited study warns CFD is still unreliable in the startup transient itself. (source: sources/vj26.md)
+The same review says canted and helical Darrieus layouts can reduce local flow reversal and torque fluctuation relative to straight blades, though the helical form is still treated as a configuration tradeoff rather than a free gain. (source: sources/vj26.md)
 
 ![Source figure](../../images/va9-fig5.jpg)
 Original caption: Fig. 5. Blade profile EN0005. [[va9|Source]]

@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources:
 - [[va10]]
 - [[va13]]
@@ -22,7 +22,8 @@ Sources:
 - [[vj15]]
 - [[vj17]]
 - [[vj18]]
-Source_count: 17
+- [[vj26]]
+Source_count: 18
 Tags:
 - concepts
 ---
@@ -66,6 +67,9 @@ This page covers the simulation workflow used to check a VAWT before hardware is
 The VAWT review says URANS with `k-ω SST` is the main design-stage tool, while transition SST and DES/LES are preferred when dynamic stall fidelity matters most. (source: sources/vj11.md)
 It reports that 2-D URANS can overpredict Cp by 15-30% relative to validated 3-D simulations. (source: sources/vj11.md)
 It also recommends practical setup ranges of about 15D upstream, 10D downstream, 20D lateral extent, and 20-30 revolutions before sampling. (source: sources/vj11.md)
+
+The vj26 review adds a broader caution that turbulence-model choice has a strong effect on VAWT torque prediction, so CFD setup details materially affect the answer rather than only its precision. (source: sources/vj26.md)
+It also says CFD gives useful insight into steady operation and comparative rotor behavior, but cited startup studies still found poor reliability during the startup transient when compared against experiments. (source: sources/vj26.md)
 
 The va9 paper says its sliced DMS approach can be integrated into existing CFD and CAD tools to improve analysis of complex Darrieus blade-form designs. (source: sources/va9.md)
 It also compares streamtube, vortex, and cascade models, noting that vortex models have high experimental correlation with the latest improvements but take the highest computation time among the listed prediction models. (source: sources/va9.md)

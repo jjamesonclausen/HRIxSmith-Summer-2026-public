@@ -1,6 +1,6 @@
 ---
 Created:
-Updated: 2026-07-03
+Updated: 2026-07-07
 Sources:
 - [[HRI2526]]
 - [[n1]]
@@ -20,7 +20,8 @@ Sources:
 - [[vj6]]
 - [[vj7]]
 - [[vj8]]
-Source_count: 18
+- [[vj26]]
+Source_count: 19
 Tags:
 - concepts
 ---
@@ -85,6 +86,9 @@ Inefficiencies:
 The VAWT review frames the main archetypes as Savonius, H-Darrieus, troposkein Darrieus, helical Darrieus, and Savonius-Darrieus hybrids. (source: sources/vj11.md)
 It treats dynamic stall, leading-edge vortex shedding, and blade-wake interaction as the main low-TSR aerodynamic limits. (source: sources/vj11.md)
 It emphasizes urban and floating offshore use cases because VAWTs tolerate omnidirectional and disturbed inflow. (source: sources/vj11.md)
+
+The vj26 review adds a broader practical framing: VAWTs regained attention for small-scale and off-grid use because they can accept wind from all directions, place the generator and gearbox on the ground, and often produce lower acoustic emissions than HAWTs. (source: sources/vj26.md)
+It also argues that VAWTs respond better than HAWTs to varying, unsteady, and turbulent wind flows, but still remain less efficient overall and harder to scale safely to large capacities because of oscillatory loading. (source: sources/vj26.md)
 
 The va8 patent presents a rooftop/rural hybrid VAWT concept intended for low-speed, scattered wind, using asymmetrical lift blades plus drag-producing compartmented channel beams for starting torque. (source: sources/va8.md)
 The design keeps generator and storage elements near the bottom of the turbine, which the source frames as a stability advantage. (source: sources/va8.md)
