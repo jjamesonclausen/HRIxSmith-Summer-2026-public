@@ -1,6 +1,18 @@
 #maintenance
 ## Log
 
+### 2026-07-08 - Add wind-data tag to Markdown export
+
+- Task: add the `#wind Data` tag to files in `wind data/` where it is safe to do so.
+- Actions:
+  - Inspected the folder contents: `bos_wind.txt`, `bos_wind.json`, `bos_wind_mps.json`, and `bos_wind_mps.md`.
+  - Added `#wind Data` to the top of `wind data/bos_wind_mps.md`.
+  - Verified the tag placement after correcting a leading-space formatting issue.
+- Decisions:
+  - Did not add the tag directly to the `.txt` or `.json` data files because prepending tag text would break the CSV and JSON file formats.
+- Open:
+  - If you want the non-Markdown files labeled too, the safe approach would be a separate README or sidecar metadata file in `wind data/`.
+
 ### 2026-07-08 - Export Boston wind dataset as Markdown table
 
 - Task: create a Markdown-table version of the Boston wind dataset in meters per second.

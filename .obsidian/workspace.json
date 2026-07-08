@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bos_wind_mps.md",
+                "file": "wind data/bos_wind_mps.md",
                 "mode": "source",
                 "source": false
               },
@@ -184,9 +184,9 @@
   },
   "active": "70651a00716fe7ef",
   "lastOpenFiles": [
+    "bos_wind_mps.md",
     "analysis/table of all designs.base",
     "wind data/bos_wind_mps.md",
-    "bos_wind_mps.md",
     "wind data/bos_wind.txt",
     "wind data/bos_wind.json",
     "wind data/bos_wind_mps.json",
@@ -212,7 +212,6 @@
     "images/vj27-eq3.png",
     "images/vj27-eq2.png",
     "images/vj27-eq1.png",
-    "PDFs/vj27.pdf",
     "wiki/summaries/vj26-summary.md",
     "sources/vj26.md",
     "wiki/designs/vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 0.4).md",

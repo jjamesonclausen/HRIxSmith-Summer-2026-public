@@ -1,3 +1,5 @@
+#wind Data
+
 | station | station_name | valid(UTC) | wind_speed_mps |
 | --- | --- | --- | --- |
 | BOS | BOSTON/LOGAN INTL | 2024-07-08 00:00 | 1.543332 |
