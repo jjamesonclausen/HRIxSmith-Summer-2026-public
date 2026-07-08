@@ -1,6 +1,47 @@
 #maintenance
 ## Log
 
+### 2026-07-08 - Export all_wind_data m/s dataset as Markdown table
+
+- Task: create a Markdown-table version of the `all_wind_data` dataset in meters per second.
+- Actions:
+  - Created `wind data/all_wind_data_mps.md`.
+  - Exported the dataset as a Markdown table with columns `station`, `station_name`, `valid(UTC)`, `wind_speed_mps`, `drct`, `gust_drct`, and `gust_speed_mps`.
+  - Preserved missing values as blank cells in the Markdown table.
+  - Added the `#wind Data` tag at the top of the Markdown file for consistency with the existing wind-data Markdown export.
+  - Verified the header row, separator row, and representative data rows in the output.
+- Decisions:
+  - Wrote the Markdown table next to the related text and JSON files in `wind data/` so the full set of exports stays grouped together.
+- Open:
+  - The table is large because it includes the full dataset; if needed, it could also be split by date range or summarized.
+
+### 2026-07-08 - Convert all_wind_data speeds from knots to meters per second
+
+- Task: create a meters-per-second JSON export for `wind data/all_wind_data.txt`.
+- Actions:
+  - Created `wind data/all_wind_data_mps.json` from the source text file.
+  - Converted `sknt` to `wind_speed_mps` and `gust_sknt` to `gust_speed_mps` using `1 kt = 0.514444 m/s`, rounded to `6` decimal places.
+  - Kept `drct` and `gust_drct` unchanged as direction values in degrees.
+  - Preserved missing speed values as `null` and verified the file contains `6407` JSON objects with `44` null values in each converted speed field.
+- Decisions:
+  - Kept `wind data/all_wind_data.json` unchanged in knots and wrote a second file for the SI-unit version to preserve both unit systems.
+- Open:
+  - If needed, this dataset could also be exported as a Markdown table or with both knot and meter-per-second speed fields in the same rows.
+
+### 2026-07-08 - Convert all_wind_data CSV text file to JSON
+
+- Task: convert `wind data/all_wind_data.txt` into a JSON file for downstream use.
+- Actions:
+  - Read `wind data/all_wind_data.txt` and confirmed it is a comma-separated table with headers `station`, `station_name`, `valid(UTC)`, `sknt`, `drct`, `gust_drct`, and `gust_sknt`.
+  - Created `wind data/all_wind_data.json` as a JSON array of row objects, preserving the original column names.
+  - Normalized numeric values in `sknt`, `drct`, `gust_drct`, and `gust_sknt` to JSON numbers and converted `M` entries to `null`.
+  - Verified the conversion by counting rows in both formats: `6407` CSV rows and `6407` JSON objects.
+- Decisions:
+  - Kept the derived JSON file next to the source text file inside `wind data/` so the wind-data files stay grouped together.
+  - Kept `valid(UTC)` as the original string field rather than changing timestamp format during conversion.
+- Open:
+  - If needed, this dataset could also be re-exported in meters per second for `sknt` and `gust_sknt` while leaving direction columns unchanged.
+
 ### 2026-07-08 - Add wind-data tag to Markdown export
 
 - Task: add the `#wind Data` tag to files in `wind data/` where it is safe to do so.

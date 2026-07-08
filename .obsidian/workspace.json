@@ -11,14 +11,10 @@
             "id": "70651a00716fe7ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wind data/bos_wind_mps.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "bos_wind_mps"
+              "title": "New tab"
             }
           }
         ]
