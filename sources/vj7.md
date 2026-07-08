@@ -27,7 +27,7 @@ At present, Aluminum blades fabricated by extrusion and bending are the most com
 
 Fig-1: Vertical Wind giromill wind turbine
 
-![Fig-1: Vertical Wind giromill wind turbine](../images/vj7-fig1.jpg)
+![Fig-1: Vertical Wind giromill wind turbine](vj7-fig1.jpg)
 
 ## 2. Required Properties of the Blade Materials
 SB-VAWT blades are exposed to diversified load conditions and dynamic stresses are considerably more severe than many mechanical applications. Based on the operational parameters and the surrounding conditions of a typical SB-VAWT for delivering electrical or mechanical energy, the following properties of the SB-VAWT blade materials are required [1]:
@@ -45,7 +45,7 @@ Among all these requirements, fatigue is the major problem facing both HAWTs and
 
 Fig-2: Three-bladed Darrieus wind turbine
 
-![Fig-2: Three-bladed Darrieus wind turbine](../images/vj7-fig2.jpg)
+![Fig-2: Three-bladed Darrieus wind turbine](vj7-fig2.jpg)
 
 ## 3. Prospective Materials
 The smaller wind turbine blades are usually made of aluminum, or laminated wood. Metals were initially a popular material because they yield a low-cost blade and can be manufactured with a high degree of reliability, however most metallic blades (like steel) proved to be relatively heavy which limits their application in commercial turbines [4]. In the past, laminated wood was also tried on early machines in 1977. At present, the most popular materials for design of different types of wind turbines are wood, aluminum and fiberglass composites that are briefly discussed below.
@@ -69,7 +69,7 @@ The most significant advancement over this decade is the development of an exten
 
 Fig-3: Cycloturbine Rotor
 
-![Fig-3: Cycloturbine Rotor](../images/vj7-fig3.jpg)
+![Fig-3: Cycloturbine Rotor](vj7-fig3.jpg)
 
 ## 4. Literature Survey
 MicolChigliaro [12] The authors presented the effect of shaft diameter of darrieus wind turbine performance and marked reduction of overall rotor performance with increment of shaft diameter.

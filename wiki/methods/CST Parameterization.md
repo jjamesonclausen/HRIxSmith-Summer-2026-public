@@ -9,7 +9,7 @@ Tags: #methods
 
 Class/Shape Transformation (CST) is a geometry representation method for defining airfoil profiles with a compact set of coefficients. (source: sources/va2.md)
 
-![Source figure](../../images/va2-fig9.jpg)
+![Source figure](va2-fig9.jpg)
 Original caption: Figure 9: NACA0015 airfoil expressed by CST function [[va2|Source]]
 
 - The class function is written as `C(x) = k x^N1 (1-x)^N2`. (source: sources/va2.md)

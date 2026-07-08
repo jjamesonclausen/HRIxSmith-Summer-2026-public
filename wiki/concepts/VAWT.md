@@ -40,11 +40,11 @@ Performance context:
 
 ## Figures
 
-![Source figure](../../images/va5-fig1.jpg)
+![Source figure](va5-fig1.jpg)
 Original caption: Fig 1: Configurations for shaft and rotor orientation [[va5|Source]]
-![Source figure](../../images/va6-fig1.jpg)
+![Source figure](va6-fig1.jpg)
 Original caption: Figure 1(a): VAWT parts [[va6|Source]]
-![Source figure](../../images/va6-fig4.jpg)
+![Source figure](va6-fig4.jpg)
 Original caption: Figure 3. Wind turbines rotor power coefficient and the tip speed ratio for several wind turbines [[va6|Source]]
 
 Inefficiencies:

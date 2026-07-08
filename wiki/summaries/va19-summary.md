@@ -9,9 +9,9 @@ Tags: #summaries
 
 MIT student feasibility study on small-scale rooftop wind power that combines campus measurements, long-term airport correlation, and cost-benefit analysis to rank candidate buildings and turbine options. (source: sources/va19.md)
 
-![Source figure](../../images/va19-fig7.jpg)
+![Source figure](va19-fig7.jpg)
 Original caption: Figure 7. Average predicted and measured wind speeds and classification. [[va19|Source]]
-![Source figure](../../images/va19-fig19.jpg)
+![Source figure](va19-fig19.jpg)
 Original caption: Figure 19. Payback versus a carbon tax or credit for a Skystream on Eastgate. [[va19|Source]]
 
 Key points:

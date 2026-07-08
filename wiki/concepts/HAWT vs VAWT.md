@@ -19,13 +19,13 @@ HAWTs:
 
 ## Figures
 
-![Source figure](../../images/va6-fig1.jpg)
+![Source figure](va6-fig1.jpg)
 Original caption: Figure 1(a): VAWT parts [[va6|Source]]
-![Source figure](../../images/va6-fig2.jpg)
+![Source figure](va6-fig2.jpg)
 Original caption: Figure 1(b): HAWT parts [[va6|Source]]
-![Source figure](../../images/va6-fig4.jpg)
+![Source figure](va6-fig4.jpg)
 Original caption: Figure 3. Wind turbines rotor power coefficient and the tip speed ratio for several wind turbines [[va6|Source]]
-![Source figure](../../images/va6-fig5.jpg)
+![Source figure](va6-fig5.jpg)
 Original caption: Figure 4. Wind turbines peak efficiencies [[va6|Source]]
 
 VAWTs:

@@ -16,13 +16,13 @@ This review surveys post-2005 VAWT rotor-design and testing work across lift-bas
 - It also says CFD has become central to VAWT design, but startup prediction and torque accuracy still depend strongly on turbulence-model choice and still need experimental checking. (source: sources/vj26.md)
 - The review closes by identifying four immediate research needs: affordable high-wind output control, lower fatigue/vibration, higher conversion efficiency, and better low-wind self-starting for lift-based rotors. (source: sources/vj26.md)
 
-![Source figure](../../images/vj26-fig2.jpg)
+![Source figure](vj26-fig2.jpg)
 Original caption: Figure 2: (a) Egg-Beater, (b) h-type and (c) Gyromill VAWT rotors. [[vj26|Source]]
 
-![Source figure](../../images/vj26-fig8.jpg)
+![Source figure](vj26-fig8.jpg)
 Original caption: Figure 8: A typical hybrid VAWT rotor. [[vj26|Source]]
 
-![Source figure](../../images/vj26-fig9.jpg)
+![Source figure](vj26-fig9.jpg)
 Original caption: Figure 9: An offshore V-shaped VAWT with sails [modified from 45]. [[vj26|Source]]
 
 Related pages: [[VAWT]], [[Darrieus Turbine]], [[Savonius Turbine]], [[Hybrid VAWT]], [[HAWT vs VAWT]], [[Structures and Loads]], [[CFD and Validation]], [[Wind Tunnel Testing]]

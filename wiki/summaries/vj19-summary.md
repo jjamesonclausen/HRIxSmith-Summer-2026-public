@@ -19,10 +19,10 @@ This paper designs a small-scale Savonius-type VAWT, compares four blade shapes 
 
 Related pages: [[Savonius Turbine]], [[Annual Energy Output]], [[AEO Calculation]], [[Payback Period Analysis]], [[Wind Turbine Parameters]], [[vj19 Curved-Blade Savonius VAWT]], [[vj19 Savonius Blade Shape]]
 
-![Source figure](../../images/vj19-fig3.jpg)
+![Source figure](vj19-fig3.jpg)
 Original caption: Fig. 3. Variation of RPM with air velocity for the tested blades. (The Figure was recreated from the source data with permission, Shah, 2014; Kumar et al., 2018). [[vj19|Source]]
 
-![Source figure](../../images/vj19-fig7.jpg)
+![Source figure](vj19-fig7.jpg)
 Original caption: Fig. 7. Variation of power and torque coefficients vs. TSR. [[vj19|Source]]
 
 #summaries

@@ -98,35 +98,35 @@ It therefore treats Reynolds number as a primary airfoil-selection filter rather
 
 ## Figures
 
-![Source figure](../../images/va4-fig6.jpg)
+![Source figure](va4-fig6.jpg)
 Original caption: Figure 6. Power coefficient at different TSR with Reynold number 60,800. The instantaneous torque of the HVAWT at different TSR values is shown in Figure 7. The black and red lines represent the results of the 2D U-RANS and LES simulation, respectively. It is found that due to the uniform arrangement of the four blades along the azimuthal direction, the torque is varied with a 90◦cycle. Furthermore, the peak torque position during one revolution is also rotated in a counterclockwise direction with the increase of TSR. As for the differences between the U-RANS and LES methods, it is obvious to see that the instantaneous torque results of the LES method show much distinct oscillation. This is caused by the fact the U-RANS method applied a time averaged solver, which would smoothen the oscillation along with the time scale. [[va4|Source]]
-![Source figure](../../images/va6-fig6.jpg)
+![Source figure](va6-fig6.jpg)
 Original caption: Figure 5. Wind turbines properties at the same nominal power [[va6|Source]]
-![Source figure](../../images/va6-fig4.jpg)
+![Source figure](va6-fig4.jpg)
 Original caption: Figure 3. Wind turbines rotor power coefficient and the tip speed ratio for several wind turbines [[va6|Source]]
-![Source figure](../../images/va5-fig4.jpg)
+![Source figure](va5-fig4.jpg)
 Original caption: Fig. 4: Block Diagram [[va5|Source]]
-![Source figure](../../images/vj10-fig8.jpg)
+![Source figure](vj10-fig8.jpg)
 Original caption: Figure 8: Distribution of angle of attack. [[vj10|Source]]
-![Source figure](../../images/vj10-fig10.jpg)
+![Source figure](vj10-fig10.jpg)
 Original caption: Figure 10: Distribution of thrust coefficient. [[vj10|Source]]
-![Source figure](../../images/va7-fig7.jpg)
+![Source figure](va7-fig7.jpg)
 Original caption: Figure 7. Coefficient of performance of VAWT for various helix angles. [[va7|Source]]
-![Source figure](../../images/va7-fig14.jpg)
+![Source figure](va7-fig14.jpg)
 Original caption: Figure 14. The standard deviation of Cp of different helical-bladed and straight-bladed VAWT [[va7|Source]]
-![Source figure](../../images/va14-fig7.jpg)
+![Source figure](va14-fig7.jpg)
 Original caption: Fig. 7. Optimal tip speed ratio vs. solidity with a curve fit using Eq. (1) based on data sets in Table 7. [[va14|Source]]
-![Source figure](../../images/va20-fig26.jpg)
+![Source figure](va20-fig26.jpg)
 Original caption: Figure 26. Electrical characteristics: (a) rotor power and (b) power coefficient. [[va20|Source]]
-![Source figure](../../images/va22-fig9.jpg)
+![Source figure](va22-fig9.jpg)
 Original caption: Figure 9. Graph of power output according to wind velocity obtained from wind tunnel test (symbols: test results; lines: fitting curve). [[va22|Source]]
-![Source figure](../../images/va24-fig10.jpg)
+![Source figure](va24-fig10.jpg)
 Original caption: Fig. 10. a) Comparison of Coefficient of Performance against different tip speed ratios for fixed blade with pitching model technique 1 and 2, b) Maximum local angle of attack (S) used during technique 1 and 2 to achieve Cp in Fig. 10(a). [[va24|Source]]
-![Source figure](../../images/va25-fig19.jpg)
+![Source figure](va25-fig19.jpg)
 Original caption: Fig. 19 Max Cp and corresponding lambda for the studied airfoils with their different orientations. [[va25|Source]]
-![Source figure](../../images/va26-fig13.jpg)
+![Source figure](va26-fig13.jpg)
 Original caption: Fig. 13. Coefficients of (a) power, (b) thrust, (c) lateral force and their relative change to b = 0 versus pitch angle for the last revolution. (d) A schematic showing a blade with positive pitch angle. [[va26|Source]]
-![Source figure](../../images/va27-fig15.jpg)
+![Source figure](va27-fig15.jpg)
 Original caption: Fig. 15. Optimal airfoil shapes for lambda = 2.5 and 3.0. [[va27|Source]]
 
 These parameters are often visualized using a power curve, which relates wind speed to power output. (source: sources/HRI2526.md)

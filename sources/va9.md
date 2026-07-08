@@ -156,7 +156,7 @@ W: Relative flow velocity.
 
 The aerodynamic forces exerted on the blade profile surface are the result of the viscosity effect of the wind on the blade surface, inducing a shear stress τw and a normal tension resulting from pressure distribution p [25]. Specifically an undisturbed wind at a speed V∞ arriving with an angle of attack α to a blade surface induces a force RS on the blade profile. By definition the lift force L is the force on the blade surface given by the RS component perpendicular to undisturbed wind speed V∞; and the drag force D is the RS component parallel to the V∞. By definition the normal force N is the RS component perpendicular to the blade profile chord; and the axial force A is the RS component parallel to the blade profile chord. The geometrical relation between L, D, N, A is given by a reference system rotation of the blade angle of attack α. So, L, D are respectively given by:
 
-![Equations 1-8](../images/va9-eq1-8.jpg)
+![Equations 1-8](va9-eq1-8.jpg)
 
 The pressure p and the shear stress τw contributions dN'S to the normal force and dA'S to the axial force at an infinitesimal surface dSS on the blade upper profile [25] are respectively given by.
 
@@ -168,7 +168,7 @@ The total normal force N and the total axial force A [25] are respectively the i
 
 The wind behavior over the blade surface in what regards the contribution to the self-start of the wind turbine is assessed by a new approach, offering the ability to rapidly assesses small blade profiles surface modifications and the contribution to the performance of the Darrieus VAWT. The wind influence over the blade surface is assessed in function of the pressure coefficient Cpr, giving a relation between the pressure of the undisturbed wind p∞ and the pressure at a certain point in the surface of the blade p [25]. The pressure coefficient is given by:
 
-![Equations 9-15](../images/va9-eq9-15.jpg)
+![Equations 9-15](va9-eq9-15.jpg)
 
 The Cpr contributions to the tangential force Tpr and to the normal force Npr on an infinitesimal upper surface on the blade are respectively given by.
 
@@ -236,7 +236,7 @@ The flow velocities diagram of a lift-type VAWT is shown in Fig. 12.
 
 The undisturbed wind velocity V∞ reaches the wind turbine blade profile as an induced velocity Va. The induced velocity is due to the rotor angular speed at the wind turbine Vr, given by:
 
-![Equations 16-20](../images/va9-eq16-20.jpg)
+![Equations 16-20](va9-eq16-20.jpg)
 
 The blade is influenced by the contribution of the induced velocity Va and by the induced velocity due to the rotor angular speed at the wind turbine Vr in a resulting chordal velocity, i.e., velocity parallel to the chord line of the blade profile Vc, given by.
 
@@ -248,7 +248,7 @@ The wind flow reaches the blade at an angle of attack α that depends on Va and 
 
 By considering the forces acting on the blade, the tangential force coefficient Ct and the normal force coefficient Cn are respectively given by:
 
-![Equations 21-28](../images/va9-eq21-28.jpg)
+![Equations 21-28](va9-eq21-28.jpg)
 
 The tangential force Ft and the normal force Fn are respectively given by.
 
@@ -272,7 +272,7 @@ The single streamtube (SS) model assumes that the turbine is placed inside a SS 
 
 The uniform velocity through the rotor is given by:
 
-![Equations 29-33](../images/va9-eq29-33.jpg)
+![Equations 29-33](va9-eq29-33.jpg)
 
 where Va is the wind velocity in the actuator disc and Vw is the wake velocity.
 
@@ -294,7 +294,7 @@ The multiple streamtube (MS) model is a variation of the SS model, where the str
 
 The induced velocity ration equation for of this model is given by:
 
-![Equations 34-38](../images/va9-eq34-38.jpg)
+![Equations 34-38](va9-eq34-38.jpg)
 
 where k is a value found by iteration.
 
@@ -320,7 +320,7 @@ The induced velocity in the downstream Vad is given by.
 
 The interference factor for the downstream uds is given by:
 
-![Equation 39](../images/va9-eq39.jpg)
+![Equation 39](va9-eq39.jpg)
 
 The aerodynamic behavior of the blades in the upstream side of the wind turbine will influence the induced velocity on the blades in the downstream side [17]. The undisturbed wind velocity V∞i is defined by the wind velocity profile and increases along the wind turbine height. The torque and power coefficient of the VAWT are determined by integrating the aerodynamic behaviors in all streamtubes.
 
@@ -362,7 +362,7 @@ Two performance prediction cases are presented to explain and illustrate the mai
 
 Fig. 19 shows that the wind turbine is going to be sliced parallel to the undisturbed wind velocity V∞ flow path. One slice example is represented as slice S1, made in the middle of the wind turbine. The blade movement path and the blade profile mutations inside the slice are analyzed during the wind flow in the path. The blade profile airfoil B1, which is the same airfoil of the blade, has a movement that follows a circular path P1 with radius R. The DMS model is applied by considering a turbine height equal to the height between slices. Another example of a slicing is S2. Again, the slice is analyzed for the blade movement path and the blade profile mutations during the wind flow in path. The blade moves another circular path P2 with a different radius R'. The airfoil is different from the airfoil of the blade, with a higher airfoil height. The height h' of this blade is a function of the angle β of the blade and of the blade airfoil height h given by:
 
-![Equations 40-41](../images/va9-eq40-41.jpg)
+![Equations 40-41](va9-eq40-41.jpg)
 
 Each slice is analyzed as an independent wind turbine, allowing that the aerodynamic behavior of the wind turbine and the blade shape can be studied with more detail. Moreover, is simpler to integrate the DMS model into existing CFD and CAD applications.
 
@@ -516,119 +516,119 @@ This work is funded by Portuguese Funds through the Foundation for Science and T
 
 Fig. 1. Blade profile segmentation.
 
-![Fig. 1. Blade profile segmentation.](../images/va9-fig1.jpg)
+![Fig. 1. Blade profile segmentation.](va9-fig1.jpg)
 
 Fig. 2. Cpr at each blade profile segment.
 
-![Fig. 2. Cpr at each blade profile segment.](../images/va9-fig2.jpg)
+![Fig. 2. Cpr at each blade profile segment.](va9-fig2.jpg)
 
 Fig. 3. Cpr at one blade profile segment.
 
-![Fig. 3. Cpr at one blade profile segment.](../images/va9-fig3.jpg)
+![Fig. 3. Cpr at one blade profile segment.](va9-fig3.jpg)
 
 Fig. 4. Cpr contribution to Tpr and Npr.
 
-![Fig. 4. Cpr contribution to Tpr and Npr.](../images/va9-fig4.jpg)
+![Fig. 4. Cpr contribution to Tpr and Npr.](va9-fig4.jpg)
 
 Fig. 5. Blade profile EN0005.
 
-![Fig. 5. Blade profile EN0005.](../images/va9-fig5.jpg)
+![Fig. 5. Blade profile EN0005.](va9-fig5.jpg)
 
 Fig. 6. Blade profiles NACA0018, NACA0020, NACA4418, NACA4420.
 
-![Fig. 6. Blade profiles NACA0018, NACA0020, NACA4418, NACA4420.](../images/va9-fig6.jpg)
+![Fig. 6. Blade profiles NACA0018, NACA0020, NACA4418, NACA4420.](va9-fig6.jpg)
 
 Fig. 7. Cpr contribution to Tpr.
 
-![Fig. 7. Cpr contribution to Tpr.](../images/va9-fig7.jpg)
+![Fig. 7. Cpr contribution to Tpr.](va9-fig7.jpg)
 
 Fig. 8. Cpr contribution to Npr.
 
-![Fig. 8. Cpr contribution to Npr.](../images/va9-fig8.jpg)
+![Fig. 8. Cpr contribution to Npr.](va9-fig8.jpg)
 
 Fig. 9. Lift coefficient.
 
-![Fig. 9. Lift coefficient.](../images/va9-fig9.jpg)
+![Fig. 9. Lift coefficient.](va9-fig9.jpg)
 
 Fig. 10. Drag coefficient.
 
-![Fig. 10. Drag coefficient.](../images/va9-fig10.jpg)
+![Fig. 10. Drag coefficient.](va9-fig10.jpg)
 
 Fig. 11. Moment coefficient.
 
-![Fig. 11. Moment coefficient.](../images/va9-fig11.jpg)
+![Fig. 11. Moment coefficient.](va9-fig11.jpg)
 
 Fig. 12. Flow velocities diagram of a lift-type VAWT.
 
-![Fig. 12. Flow velocities diagram of a lift-type VAWT.](../images/va9-fig12.jpg)
+![Fig. 12. Flow velocities diagram of a lift-type VAWT.](va9-fig12.jpg)
 
 Fig. 13. Single streamtube model diagram.
 
-![Fig. 13. Single streamtube model diagram.](../images/va9-fig13.jpg)
+![Fig. 13. Single streamtube model diagram.](va9-fig13.jpg)
 
 Fig. 14. Multiple streamtube model diagram.
 
-![Fig. 14. Multiple streamtube model diagram.](../images/va9-fig14.jpg)
+![Fig. 14. Multiple streamtube model diagram.](va9-fig14.jpg)
 
 Fig. 15. SS model and MS model comparison with experimental data [31].
 
-![Fig. 15. SS model and MS model comparison with experimental data [31].](../images/va9-fig15.jpg)
+![Fig. 15. SS model and MS model comparison with experimental data [31].](va9-fig15.jpg)
 
 Fig. 16. Double-multiple streamtube model diagram.
 
-![Fig. 16. Double-multiple streamtube model diagram.](../images/va9-fig16.jpg)
+![Fig. 16. Double-multiple streamtube model diagram.](va9-fig16.jpg)
 
 Fig. 17. MS model and DMS model comparison with experimental data [17].
 
-![Fig. 17. MS model and DMS model comparison with experimental data [17].](../images/va9-fig17.jpg)
+![Fig. 17. MS model and DMS model comparison with experimental data [17].](va9-fig17.jpg)
 
 Fig. 18. Darrieus VAWT performance prediction.
 
-![Fig. 18. Darrieus VAWT performance prediction.](../images/va9-fig18.jpg)
+![Fig. 18. Darrieus VAWT performance prediction.](va9-fig18.jpg)
 
 Fig. 19. Novel approach to the DMS model in a V shaped Darrieus VAWT.
 
-![Fig. 19. Novel approach to the DMS model in a V shaped Darrieus VAWT.](../images/va9-fig19.jpg)
+![Fig. 19. Novel approach to the DMS model in a V shaped Darrieus VAWT.](va9-fig19.jpg)
 
 Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow.
 
-![Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow.](../images/va9-fig20.jpg)
+![Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow.](va9-fig20.jpg)
 
 Fig. 21. Novel approach, power coefficient vectors for several slices at TSR equal to 3.
 
-![Fig. 21. Novel approach, power coefficient vectors for several slices at TSR equal to 3.](../images/va9-fig21.jpg)
+![Fig. 21. Novel approach, power coefficient vectors for several slices at TSR equal to 3.](va9-fig21.jpg)
 
 Fig. 22. Novel approach, power coefficient vectors for several slices at TSR equal to 11.
 
-![Fig. 22. Novel approach, power coefficient vectors for several slices at TSR equal to 11.](../images/va9-fig22.jpg)
+![Fig. 22. Novel approach, power coefficient vectors for several slices at TSR equal to 11.](va9-fig22.jpg)
 
 Fig. 23. New Darrieus VAWT with blade ends in two different positions.
 
-![Fig. 23. New Darrieus VAWT with blade ends in two different positions.](../images/va9-fig23.jpg)
+![Fig. 23. New Darrieus VAWT with blade ends in two different positions.](va9-fig23.jpg)
 
 Fig. 24. Wind flow reaching the new Darrieus VAWT in vertical or horizontal planes.
 
-![Fig. 24. Wind flow reaching the new Darrieus VAWT in vertical or horizontal planes.](../images/va9-fig24.jpg)
+![Fig. 24. Wind flow reaching the new Darrieus VAWT in vertical or horizontal planes.](va9-fig24.jpg)
 
 Fig. 25. Different blade main body configurations with various blade ends positions.
 
-![Fig. 25. Different blade main body configurations with various blade ends positions.](../images/va9-fig25.jpg)
+![Fig. 25. Different blade main body configurations with various blade ends positions.](va9-fig25.jpg)
 
 Fig. 26. New Darrieus VAWT design prototype.
 
-![Fig. 26. New Darrieus VAWT design prototype.](../images/va9-fig26.jpg)
+![Fig. 26. New Darrieus VAWT design prototype.](va9-fig26.jpg)
 
 Fig. 27. Different field tests scenarios.
 
-![Fig. 27. Different field tests scenarios.](../images/va9-fig27.jpg)
+![Fig. 27. Different field tests scenarios.](va9-fig27.jpg)
 
 Fig. 28. Field test sensors.
 
-![Fig. 28. Field test sensors.](../images/va9-fig28.jpg)
+![Fig. 28. Field test sensors.](va9-fig28.jpg)
 
 Fig. 29. Prototype rotor speed at different wind speeds.
 
-![Fig. 29. Prototype rotor speed at different wind speeds.](../images/va9-fig29.jpg)
+![Fig. 29. Prototype rotor speed at different wind speeds.](va9-fig29.jpg)
 
 ## Tables
 

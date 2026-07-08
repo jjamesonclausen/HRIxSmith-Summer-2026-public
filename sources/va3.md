@@ -43,16 +43,16 @@ rated power output of 10 MW could be developed, with at least the same availabil
 horizontal axis turbine, but at a lower cost per unit of rated power, then it would not matter if
 its blade efficiency was slightly lower from 56 to about 19-40 percent.
 
-![Figure 1](../images/va3-fig1.jpg)
+![Figure 1](va3-fig1.jpg)
 
 Figure 1. Darrieus vertical wind turbine with the generator positioned at the base of the tower. The
 tower is reinforced with guy wires.
 
-![Figure 2](../images/va3-fig2.jpg)
+![Figure 2](va3-fig2.jpg)
 
 Figure 2. Hybrid Darrieus and Savonius self-starting Neoga turbine on top of a building.
 
-![Figure 3](../images/va3-fig3.jpg)
+![Figure 3](va3-fig3.jpg)
 
 Figure 3. Experimental concept for a vertical sail wind machine with a 3 kW rated output.
 
@@ -75,17 +75,17 @@ the turbine into the wind compensates for this shortfall. The original Darrieus 
 from some negative features such as violent vibrations leading to eventual fatigue blade failure, a
 high noise level and a relatively low efficiency, which severely limited its success.
 
-![Figure 4](../images/va3-fig4.jpg)
+![Figure 4](va3-fig4.jpg)
 
 Figure 4. Darrieus vertical axis turbines principle of operation. The resultant of the wind speed
 and the air speed due to rotation forms a positive angle of attack of the lift force to the wing.
 
-![Figure 5](../images/va3-fig5.jpg)
+![Figure 5](va3-fig5.jpg)
 
 Figure 5. Experimental Department of Energy (DOE) and US Department of Agriculture (USDA) 34 meter
 diameter Darrieus wind turbine.
 
-![Figure 6](../images/va3-fig6.jpg)
+![Figure 6](va3-fig6.jpg)
 
 Figure 6. Blade end attachments in a Darrieus wind turbine.
 
@@ -106,8 +106,8 @@ located in Carmarthen Bay in South Wales. This machine known as the VAWT 450, wa
 consortium of Sir Robert McAlpine and Northern Engineering Industries (Vertical Axis Wind Turbines
 Limited) in 1986. The project was funded by the UK government’s Department of Trade and Industry.
 
-![Figure 7a](../images/va3-fig7a.jpg)
-![Figure 7b](../images/va3-fig7b.jpg)
+![Figure 7a](va3-fig7a.jpg)
+![Figure 7b](va3-fig7b.jpg)
 
 Figure 7. Variable Geometry wind turbine machines.
 
@@ -120,8 +120,8 @@ propel the whole blade configuration forward. The fixed straight bladed or H Rot
 therefore self regulating in all wind speeds reaching its optimal rotational speed, early after its
 cut in wind speed.
 
-![Figure 8a](../images/va3-fig8a.jpg)
-![Figure 8b](../images/va3-fig8b.jpg)
+![Figure 8a](va3-fig8a.jpg)
+![Figure 8b](va3-fig8b.jpg)
 
 Figure 8. H Rotor wind turbine designs.
 
@@ -153,8 +153,8 @@ than “Close hauled” or “Half wind.” Without slip, the maximum rotor spee
 speed as the wind speed. An example is the three cup anemometers commonly used for measuring wind
 speed.
 
-![Figure 9a](../images/va3-fig9a.jpg)
-![Figure 9b](../images/va3-fig9b.jpg)
+![Figure 9a](va3-fig9a.jpg)
+![Figure 9b](va3-fig9b.jpg)
 
 Figure 9. Rotating cup anemometer and drag cup wind turbine.
 
@@ -181,7 +181,7 @@ small generator. These types of windmills are also commonly used for wind speed 
 the anemometer. Modern Savonius machines have evolved into fluted bladed devices, which have a
 higher efficiency and less vibration than the older twin cup or drum machines.
 
-![Figure 10](../images/va3-fig10.jpg)
+![Figure 10](va3-fig10.jpg)
 
 Figure 10. Evolution of the Savonius design for water pumping from half drums into the fluted spiral
 bladed design.
@@ -197,7 +197,7 @@ with the horizontal axis machines, both the USA and Canada did have large resear
 on the Darrieus design in the 1970's and 1980's. This work culminated with the construction of a 4.2
 MW machine designated as “Eole C” at Cap Chat, Québec, Canada.
 
-![Figure 11](../images/va3-fig11.jpg)
+![Figure 11](va3-fig11.jpg)
 
 Figure 11. Eole C 4.2 MW Darrieus vertical axis wind turbine, Cap Chat, Québec, Canada.
 
@@ -239,12 +239,12 @@ design. The wind rotors are made from airfoil sections like those of an airplane
 panel between the wings referred to as the turtle back, acts as a diffuser and directs the wind flow
 toward the wings, turning the wind rotor at low wind speed.
 
-![Figure 12](../images/va3-fig12.jpg)
+![Figure 12](va3-fig12.jpg)
 
 Figure 12. Hybrid Darrieus and Savonius Ropatec vertical axis wind generator.
 
-![Figure 13a](../images/va3-fig13a.jpg)
-![Figure 13b](../images/va3-fig13b.jpg)
+![Figure 13a](va3-fig13a.jpg)
+![Figure 13b](va3-fig13b.jpg)
 
 Figure 13. Ropatec rotors without turtle shell diffuser and the columnar tower with the generator on
 top.
@@ -264,7 +264,7 @@ creates an aerodynamic braking effect causing it to stall at high wind speeds. W
 wind rotor is rated to produce power in winds up to 230 km/hr, the central wind speeds of a Category
 2 hurricane or cyclone. It is designed for a maintenance free operation of 15 years.
 
-![Figure 14](../images/va3-fig14.jpg)
+![Figure 14](va3-fig14.jpg)
 
 Figure 14. Power curve of Rotapec wind generator showing a low cut in wind speed around 3 m/s.
 
@@ -303,7 +303,7 @@ turbines when the blades pass close to the mast at each revolution. The blades a
 same distance from the mast. The blades are made from composite fiber glass, stainless steel and
 lightweight aluminum, making them extremely strong yet flexible and easy to handle.
 
-![Figure 15](../images/va3-fig15.jpg)
+![Figure 15](va3-fig15.jpg)
 
 Figure 15. Four rotor vertical axis wind generator for remote sites.
 
@@ -313,8 +313,8 @@ wind speeds the turbine will start to stall, causing the machine to slow down at
 the stalling mode, the turbine will automatically maintain its output speed. This Darrieus based
 design lends itself to taking the wind from any direction and does not need a yawing mechanism.
 
-![Figure 16a](../images/va3-fig16a.jpg)
-![Figure 16b](../images/va3-fig16b.jpg)
+![Figure 16a](va3-fig16a.jpg)
+![Figure 16b](va3-fig16b.jpg)
 
 Figure 16. Two and four rotor blades vertical wind generators.
 
@@ -349,12 +349,12 @@ lower blade stresses experienced by vertical axis turbines allow the blades to b
 mechanically in sections by extrusion or pultrusion. A directly coupled slow speed alternator
 eliminates the need for separate generator sets, gearboxes and clutches.
 
-![Figure 17a](../images/va3-fig17a.jpg)
-![Figure 17b](../images/va3-fig17b.jpg)
+![Figure 17a](va3-fig17a.jpg)
+![Figure 17b](va3-fig17b.jpg)
 
 Figure 17. Eurowind wind mill designs.
 
-![Figure 18](../images/va3-fig18.jpg)
+![Figure 18](va3-fig18.jpg)
 
 Figure 18. Large Eurowind modular vertical wind mill concept.
 
@@ -369,7 +369,7 @@ permanent magnet generator is used and there are no gear boxes with the machine 
 moving part. These machines have been adapted for use in the marine environment such as at harbors,
 on barges or oil rigs.
 
-![Figure 19](../images/va3-fig19.jpg)
+![Figure 19](va3-fig19.jpg)
 
 Figure 19. Vertical axis wind turbine in a marine environment.
 
@@ -404,12 +404,12 @@ and down times are long because they will rotate only about half of the time. Al
 noisy when they run. At such a location, the Venturi turbine will produce 2-3 times as much energy
 and down times are short.
 
-![Figure 20a](../images/va3-fig20a.jpg)
-![Figure 20b](../images/va3-fig20b.jpg)
+![Figure 20a](va3-fig20a.jpg)
+![Figure 20b](va3-fig20b.jpg)
 
 Figure 20. Venturi wind turbines.
 
-![Figure 21](../images/va3-fig21.jpg)
+![Figure 21](va3-fig21.jpg)
 
 Figure 21. Visualisation of the Venturi Effect.
 
@@ -492,7 +492,7 @@ from the shaft, its reaches a maximum. The low blade speed close to the shaft re
 attack of the apparent wind that over large parts of a revolution exceeds the allowable limit with
 stall as a consequence.
 
-![Figure 22](../images/va3-fig22.jpg)
+![Figure 22](va3-fig22.jpg)
 
 Figure 22. Turby three bladed vertical axis turbine.
 
@@ -508,7 +508,7 @@ the inevitable vibrations due to the change of the angle of attack between + 20 
 resulting in a change of the mechanical stress in the blade two times per revolution, its developers
 chose an odd number of 3 blades of a helical shape, making all changes occur gradually.
 
-![Figure 23](../images/va3-fig23.jpg)
+![Figure 23](va3-fig23.jpg)
 
 Figure 23. Turby triple blade wind turbine design on top of a building.
 
@@ -529,11 +529,11 @@ Type, rated voltage, rated voltage 250 V 6.3 A, 3 phase synchronous permanent ma
 current, rated power 60 A, 2.5 kW During 250 ms Overload 20 percent 120 min 50 percent 30 min 100
 percent 10 min
 
-![Figure 24](../images/va3-fig24.jpg)
+![Figure 24](va3-fig24.jpg)
 
 Figure 24. Wind tunnel testing of Turby wind turbine design.
 
-![Figure 25](../images/va3-fig25.jpg)
+![Figure 25](va3-fig25.jpg)
 
 Figure 25. Turby turbine power curve.
 
@@ -552,11 +552,11 @@ sailing engineering principles. The turbine rotor is rotated by two spiral forme
 intended for both inland and marine environments. Designs are for use in wind speeds of up to 60
 m/s.
 
-![Figure 26](../images/va3-fig26.jpg)
+![Figure 26](va3-fig26.jpg)
 
 Figure 26. Helical wind turbine with generator at its base.
 
-![Figure 27](../images/va3-fig27.jpg)
+![Figure 27](va3-fig27.jpg)
 
 Figure 27. Manufacturing of helical wind blades. The generator is at right.
 
@@ -585,11 +585,11 @@ fiber structure and is rated at 6kW and has an expected output of 9,600 kWhr per
 annual wind speed of 5.9 m/s. This would provide 10 percent of the energy for a 600 m2 office
 building. Its design life is 25 years.
 
-![Figure 28](../images/va3-fig28.jpg)
+![Figure 28](va3-fig28.jpg)
 
 Figure 28. Quiet revolution QR5 wind turbine.
 
-![Figure 29](../images/va3-fig29.jpg)
+![Figure 29](va3-fig29.jpg)
 
 Figure 29. A direct drive in line electrical generator has auto shut down features and peak power
 tracking. It is directly incorporated into the mast. The helical design of the blades captures
@@ -622,7 +622,7 @@ main structures are made it is relatively simple to make them with a center of g
 bottom. Because of this the technology lends itself to large engineering projects, which is what is
 needed with wind power.
 
-![Figure 30](../images/va3-fig30.jpg)
+![Figure 30](va3-fig30.jpg)
 
 Figure 30. Offshore vertical Aerogenerator concept. Photo: Grimshaw Architects.
 
@@ -644,7 +644,7 @@ cost. At 10 mph wind, the noise level is imperceptible, and it is 8.8 dB above t
 a 50 mph wind; compared with 65-100 dB of other turbine designs. The installation includes a poured
 concrete foundation without the need for guy wires.
 
-![Figure 31](../images/va3-fig31.jpg)
+![Figure 31](va3-fig31.jpg)
 
 Figure 31. Winsdspire vertical straight blade or gyromill Darrieus wind turbine design.
 
@@ -656,7 +656,7 @@ possible efficiency at low cost. The Windspire generator technology was dynamome
 performance verified by Oregon State University and the University of Nevada, Reno, under a program
 sponsored by the National Renewable Energy Laboratory (NREL).
 
-![Figure 32](../images/va3-fig32.jpg)
+![Figure 32](va3-fig32.jpg)
 
 Figure 32. Air core generator used with the Windspire turbine.
 
@@ -666,7 +666,7 @@ The design has its own integrated inverter to convert the raw electrical power f
 into regulated electricity that ties in with the grid. The high efficiency inverter was designed to
 optimize operation with the rotor and generator over the encountered range of wind speeds.
 
-![Figure 33](../images/va3-fig33.jpg)
+![Figure 33](va3-fig33.jpg)
 
 Figure 33. Inverter for the Windspire vertical wind turbine design.
 
@@ -676,7 +676,7 @@ The Windspire concept is equipped with a wireless modem that is continuously tra
 production information. With the Zigbee dongle modem unit, similar to a flash drive, plugged into a
 computer's USB drive, one can monitor the performance of the turbine.
 
-![Figure 34](../images/va3-fig34.jpg)
+![Figure 34](va3-fig34.jpg)
 
 Figure 34. USB connection of wireless modem for monitoring the performance of the Windspire design.
 
@@ -698,11 +698,11 @@ industrial grade paint
 
 ### POWER CURVE
 
-![Figure 35](../images/va3-fig35.jpg)
+![Figure 35](va3-fig35.jpg)
 
 Figure 35. Power curve of the Windspire flat blade Darrieus turbine.
 
-![Figure 36](../images/va3-fig36.jpg)
+![Figure 36](va3-fig36.jpg)
 
 Figure 36. The Beacon: a conceptual design of vertical wind turbines providing power for green
 buildings.
@@ -713,14 +713,14 @@ Pramac, an Italian power generation equipment manufacturer offers wind turbines 
 use. A quadrangular 400 WT model with a rated power of 400 Watts, and a helical shape 1kW WT with a
 rated power of 1,000 Watts are produced and offered at a price of $3,500.
 
-![Figure 37a](../images/va3-fig37a.jpg)
-![Figure 37b](../images/va3-fig37b.jpg)
+![Figure 37a](va3-fig37a.jpg)
+![Figure 37b](va3-fig37b.jpg)
 
 Figure 37. Two and three bladed vertical axis wind turbines. Source: Pramac.
 
 ## COUNTER ROTATING TURBINES ARRAYS
 
-![Figure 38](../images/va3-fig38.jpg)
+![Figure 38](va3-fig38.jpg)
 
 Figure 38. Array of counter-rotating vertical-axis wind turbines 10 m tall and 1.2 m in diameter
 relative to a person 1.9 m in height. Turbine spacing is 1.6 turbine diameters [2]. Horizontal axis
@@ -780,8 +780,8 @@ electrical generator. As the blades alternatively catch the wind and then move a
 create wear and tear on the structure. Adding half a shield against the return stroke would solve
 the problem.
 
-![Figure 39a](../images/va3-fig39a.jpg)
-![Figure 39b](../images/va3-fig39b.jpg)
+![Figure 39a](va3-fig39a.jpg)
+![Figure 39b](va3-fig39b.jpg)
 
 Figure 39. Vertical axis wind turbines, Los Angeles County, California [3].
 

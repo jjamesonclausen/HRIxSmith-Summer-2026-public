@@ -16,16 +16,16 @@ This `va4` study varies turbine tip speed ratio to understand how it changes pow
 - The paper presents TSR as the main combined operating parameter linking rotation speed and wind speed for this turbine. (source: sources/va4.md)
 - The experimental turbine is a 2.6:1 scale model of the 3D CFD case, with aspect ratio and blade solidity preserved between the compared cases. (source: sources/va4.md)
 
-![Source figure](../../images/va4-fig6.jpg)
+![Source figure](va4-fig6.jpg)
 Original caption: Figure 6. Power coefficient at different TSR with Reynold number 60,800. [[va4|Source]]
 
-![Source figure](../../images/va4-fig7.jpg)
+![Source figure](va4-fig7.jpg)
 Original caption: Figure 7. The power output at different TSR conditions, (a-f) represent 0.9, 1.14, 1.25, 1.46, 1.8, 2.3 TSR lambda respectively, red line and black lines represent the 2D LES and U-RANS results, respectively. [[va4|Source]]
 
-![Source figure](../../images/va4-fig13.jpg)
+![Source figure](va4-fig13.jpg)
 Original caption: Figure 13. Power fluctuation coefficient at different azimuthal points and TSR conditions, the lines on axis plane are isoline of power fluctuation coefficient. [[va4|Source]]
 
-![Source figure](../../images/va4-fig19.jpg)
+![Source figure](va4-fig19.jpg)
 Original caption: Figure 19. Wake vortex diffusion pattern at 2.3 TSR condition. [[va4|Source]]
 
 ## Detailed Results

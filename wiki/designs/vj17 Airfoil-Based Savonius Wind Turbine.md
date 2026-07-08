@@ -18,10 +18,10 @@ Rated power (W):
 
 The `vj17` study proposes an optimized airfoil-based Savonius rotor by coupling DVM, CST, and SSA. (source: sources/vj17.md)
 
-![Source figure](../../images/vj17-fig5.jpg)
+![Source figure](vj17-fig5.jpg)
 Original caption: Fig. 5. The achieved optimum geometry coordinates. [[vj17|Source]]
 
-![Source figure](../../images/vj17-fig6.jpg)
+![Source figure](vj17-fig6.jpg)
 Original caption: Fig. 6. The Airfoil and the semicircular simple Savonius coordinate. [[vj17|Source]]
 
 - The optimized geometry is evaluated at TSR 0.4 and free-stream velocity 7 m/s. (source: sources/vj17.md)

@@ -25,7 +25,7 @@ A VAWT concept that uses two coaxial rotors spinning in opposite directions. Thi
 - Rotor radius is 1000 mm, rotor height is 1200 mm, blade chord is 265 mm, and baseline rotor spacing is 300 mm. (source: sources/vj8.md)
 - The baseline blade pitch angle is 6 degrees. (source: sources/vj8.md)
 
-![Source figure](../../images/vj8-fig3.jpg)
+![Source figure](vj8-fig3.jpg)
 Original caption: Fig. 3. Model and parameters of CRVAWT. [[vj8|Source]]
 
 ## Unique Design Choices
@@ -41,7 +41,7 @@ Original caption: Fig. 3. Model and parameters of CRVAWT. [[vj8|Source]]
 - The optimized values reported by the paper are 1.2 degrees pitch angle, 19.7% relative airfoil thickness, 449.4 mm rotor spacing, and 0 degrees included angle. (source: sources/vj8.md)
 - The source says excessively small spacing causes strong rotor interference, while excessively large spacing raises the center of gravity and hurts stability. (source: sources/vj8.md)
 
-![Source figure](../../images/vj8-fig17.jpg)
+![Source figure](vj8-fig17.jpg)
 Original caption: Fig. 17. Response surface fitting results. [[vj8|Source]]
 
 ## Related

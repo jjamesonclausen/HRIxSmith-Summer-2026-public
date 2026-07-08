@@ -26,7 +26,7 @@ The `va8` patent discloses a hybrid vertical-axis wind turbine that combines lif
 - The blade profile is asymmetrical with unequal upper and lower cambers. (source: sources/va8.md)
 - Power generation and storage hardware are placed at the bottom of the turbine. (source: sources/va8.md)
 
-![Source figure](../../images/va8-fig1.jpg)
+![Source figure](va8-fig1.jpg)
 Original caption: Figure 1: External perspective view of the vertical axis wind turbine. [[va8|Source]]
 
 ## Unique Design Choices

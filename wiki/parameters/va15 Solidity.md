@@ -14,7 +14,7 @@ The `va15` study treats turbine solidity as a main startup and performance varia
 - The paper tests three solidities: `sigma = 0.67`, `sigma = 0.81`, and `sigma = 1.0`. (source: sources/va15.md)
 - Solidity is changed by modifying turbine radius while keeping blade number and chord fixed. (source: sources/va15.md)
 
-![Source figure](../../images/va15-fig4.jpg)
+![Source figure](va15-fig4.jpg)
 Original caption: FIGURE 4 Schematic drawing of turbine configurations for different solidities [[va15|Source]]
 
 ## Outcome

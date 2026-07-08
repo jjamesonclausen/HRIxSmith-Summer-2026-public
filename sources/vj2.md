@@ -35,10 +35,10 @@ Savonius is a drag-based, simple, vertical axis equipment (Figure 1), but it is 
 
 The lift-based Darrieus rotors (Figure 2) have usually two or three blades with a symmetric, thin, NACA cross-section. They are aerodynamic efficient, with power coefficient Cp approx. 0.4, thus being comparable with horizontal axis wind turbines (HAWT) (Hashem, I., Mohamed, M.H., 2018; Tjiu, W., Marnoto, T., Mat, S., et al., 2015; Pallotta, A., Pietrogiacomi, D., Romano, G.P., 2020). These rotors are characterized by high-power output, but they have a low starting torque which renders them unable to self-start unless certain accidental wind conditions are met. Their performance is negatively affected by the windstream turbulence (Fujisawa, N., Shibuya, S., 2001; Kyozuka, Y., 2008).
 
-![Figure 1: Basic design of a Savonius rotor](../images/vj2-fig1.jpg)
+![Figure 1: Basic design of a Savonius rotor](vj2-fig1.jpg)
 
-![Figure 2: (a) The "TEV 100" Darrieus generator, made by ICPITMUA Brasov; nominal power: 100 kW; nominal wind speed: 11...13 m/s; blade profile: NACA 0015; maximum Cp: 0.38. (b) The "TEV 20" H-type Darrieus generator, made by ICPITMUA Brasov; nominal power: 20 kW; blade profile: NACA 0012; nominal wind speed: 11 m/s; maximum Cp: 0.31](../images/vj2-fig2a.jpg)
-![Figure 2: (a) The "TEV 100" Darrieus generator, made by ICPITMUA Brasov; nominal power: 100 kW; nominal wind speed: 11...13 m/s; blade profile: NACA 0015; maximum Cp: 0.38. (b) The "TEV 20" H-type Darrieus generator, made by ICPITMUA Brasov; nominal power: 20 kW; blade profile: NACA 0012; nominal wind speed: 11 m/s; maximum Cp: 0.31](../images/vj2-fig2b.jpg)
+![Figure 2: (a) The "TEV 100" Darrieus generator, made by ICPITMUA Brasov; nominal power: 100 kW; nominal wind speed: 11...13 m/s; blade profile: NACA 0015; maximum Cp: 0.38. (b) The "TEV 20" H-type Darrieus generator, made by ICPITMUA Brasov; nominal power: 20 kW; blade profile: NACA 0012; nominal wind speed: 11 m/s; maximum Cp: 0.31](vj2-fig2a.jpg)
+![Figure 2: (a) The "TEV 100" Darrieus generator, made by ICPITMUA Brasov; nominal power: 100 kW; nominal wind speed: 11...13 m/s; blade profile: NACA 0015; maximum Cp: 0.38. (b) The "TEV 20" H-type Darrieus generator, made by ICPITMUA Brasov; nominal power: 20 kW; blade profile: NACA 0012; nominal wind speed: 11 m/s; maximum Cp: 0.31](vj2-fig2b.jpg)
 
 An approach to overcome both the Savonius lack of efficiency for power generation and the Darrieus poor starting torque, is to place both rotors on the same shaft in a hybrid wind turbine configuration. Thus, the Savonius rotor can be used to start the Darrieus one in low wind speeds.
 
@@ -58,8 +58,8 @@ Nominal windspeed velocity was set to 7 m/s at the inlet of the domain, and stan
 
 SolidWorks Flow Simulation uses the Favre-averaged Navier-Stokes equations to predict turbulent flows. These equations use the time-averaged effects of the turbulence on the flow parameters, while the time-dependent, large-scale phenomena are directly considered. For turbulent kinetic energy Flow Simulation uses the Lam and Bremhorst modified k-e model, which describes turbulent, laminar, and transitional flows of homogeneous fluids (Sobachkin, A., Dumnov, G., 2014).
 
-![Figure 3: (a) CAD model of the initial configuration of the proposed hybrid wind turbine (at the bottom - bearing housing and power generator); (b) simplified CAD model for CFD analysis](../images/vj2-fig3a.jpg)
-![Figure 3: (a) CAD model of the initial configuration of the proposed hybrid wind turbine (at the bottom - bearing housing and power generator); (b) simplified CAD model for CFD analysis](../images/vj2-fig3b.jpg)
+![Figure 3: (a) CAD model of the initial configuration of the proposed hybrid wind turbine (at the bottom - bearing housing and power generator); (b) simplified CAD model for CFD analysis](vj2-fig3a.jpg)
+![Figure 3: (a) CAD model of the initial configuration of the proposed hybrid wind turbine (at the bottom - bearing housing and power generator); (b) simplified CAD model for CFD analysis](vj2-fig3b.jpg)
 
 ## 3. Results
 
@@ -67,8 +67,8 @@ The Flow Simulation solver uses a robust approach that allows relatively fast co
 
 Figure 4 shows the turbulent flow due to the Savonius component (side and top views). It is expected that these turbulences negatively affect proper operation of the Darrieus blades that are lift-based and require laminar flow.
 
-![Figure 4: Turbulent flow due to the Savonius rotor for an angle of attack of 30 degrees: (a) - side view; (b) - top view](../images/vj2-fig4a.jpg)
-![Figure 4: Turbulent flow due to the Savonius rotor for an angle of attack of 30 degrees: (a) - side view; (b) - top view](../images/vj2-fig4b.jpg)
+![Figure 4: Turbulent flow due to the Savonius rotor for an angle of attack of 30 degrees: (a) - side view; (b) - top view](vj2-fig4a.jpg)
+![Figure 4: Turbulent flow due to the Savonius rotor for an angle of attack of 30 degrees: (a) - side view; (b) - top view](vj2-fig4b.jpg)
 
 Table 1 shows the torque generated by the hybrid wind turbine in this configuration, for each angle of attack.
 
@@ -88,12 +88,12 @@ Figure 7 shows that the turbulence produced by the Savonius rotor has now influe
 
 Table 2 shows the torque values obtained for the original design as well as for each of the two optimized configurations. The last two columns show the increase in torque relative to the original design, for one third of a complete rotation, in steps of 15 degrees. While removing the shaft from the Savonius turbine produced an average increase in torque of 10.5%, the highest gain of 22.3% was obtained without shaft and with the Savonius rotor removed from within the Darrieus space and placed at the top and bottom of the turbine. However, this increase can also be partially explained by the increase in swept area. Figure 8 shows a graphical representation of torque variation for the original design and the two optimized configurations.
 
-![Figure 5: The shaft (in blue) occupies about 66% of the overlapping space between the two blades of the Savonius rotor](../images/vj2-fig5.jpg)
+![Figure 5: The shaft (in blue) occupies about 66% of the overlapping space between the two blades of the Savonius rotor](vj2-fig5.jpg)
 
-![Figure 6: The Savonius rotor was split in two halves that were placed on top and bottom of the hybrid wind turbine](../images/vj2-fig6.jpg)
+![Figure 6: The Savonius rotor was split in two halves that were placed on top and bottom of the hybrid wind turbine](vj2-fig6.jpg)
 
-![Figure 7: The influence of turbulence produced on the Darrieus blades is reduced compared with the original design; (a) - side view; (b) - top view](../images/vj2-fig7a.jpg)
-![Figure 7: The influence of turbulence produced on the Darrieus blades is reduced compared with the original design; (a) - side view; (b) - top view](../images/vj2-fig7b.jpg)
+![Figure 7: The influence of turbulence produced on the Darrieus blades is reduced compared with the original design; (a) - side view; (b) - top view](vj2-fig7a.jpg)
+![Figure 7: The influence of turbulence produced on the Darrieus blades is reduced compared with the original design; (a) - side view; (b) - top view](vj2-fig7b.jpg)
 
 | Angle (degrees) | Original configuration Torque Torig (Nm) | Configuration 1 Torque T1 (Nm) | Configuration 2 Torque T2 (Nm) | T1 - Torig (Nm) | T1 - Torig (%) | T2 - Torig (Nm) | T2 - Torig (%) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -108,7 +108,7 @@ Table 2 shows the torque values obtained for the original design as well as for 
 | 120 | 1.075 | 1.200 | 1.493 | 0.125 | 11.63 | 0.418 | 38.88 |
 | Average torque increase (%) |  |  |  | 10.5 |  | 22.32 |  |
 
-![Figure 8: Torque values calculated for each configuration, for one third of a complete rotation (15 degree steps)](../images/vj2-fig8.jpg)
+![Figure 8: Torque values calculated for each configuration, for one third of a complete rotation (15 degree steps)](vj2-fig8.jpg)
 
 ## 4. Conclusions
 

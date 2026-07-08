@@ -16,10 +16,10 @@ Passive flow-augmentation device placed around or upstream of a VAWT to redirect
 - It also warns that wrong deflector orientation can hurt performance enough to make the turbine perform worse than the no-deflector case. (source: sources/vj27.md)
 - The review says experimental evidence is still much thinner than CFD evidence, so deflector concepts should not be treated as fully mature only because simulations look strong. (source: sources/vj27.md)
 
-![Source figure](../../images/vj27-fig7.jpg)
+![Source figure](vj27-fig7.jpg)
 Original caption: Figure 7. Various installation angles and positions of flat-plate deflectors (adapted from [20]). [[vj27|Source]]
 
-![Source figure](../../images/vj27-fig11.jpg)
+![Source figure](vj27-fig11.jpg)
 Original caption: Figure 11. A kite-shaped wind deflector installed upstream of the VAWT. (a) Design. (b) Experimental test setup (adapted from [81]). [[vj27|Source]]
 
 Related:

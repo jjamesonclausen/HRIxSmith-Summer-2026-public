@@ -11,10 +11,10 @@ This page turns the current BOS design direction into three scoped work plans: `
 
 ## Grounded Constraints
 
-- The current BOS target is Boston Logan International Airport, using wind data collected at `9 m` above ground; the design brief notes an average wind speed of `4.8 m/s`, average gusts of `6.3 m/s`, and a likely need to use a `5`-year span for annual-energy calculations because the sample year has gaps. (source: analysis/Design goal.pdf)
-- The BOS brief also says siting remains unresolved because runway-area restrictions, rooftop placement limits, and allowable turbine count still need to be checked. (source: analysis/Design goal.pdf)
-- The BOS brief notes that many Darrieus turbines have rated speeds around `10-15 m/s`, while the `va9 EN0005` concept appears to have a much lower cut-in speed, below `2 m/s`, which matters for a lower-wind site. (source: analysis/Design goal.pdf)
-- The same brief says the turbine should ideally be designed near the wind-measurement height because wind speed can vary strongly within the near-ground boundary layer. (source: analysis/Design goal.pdf)
+- The current BOS target is Boston Logan International Airport, using wind data collected at `9 m` above ground; the design brief notes an average wind speed of `4.8 m/s`, average gusts of `6.3 m/s`, and a likely need to use a `5`-year span for annual-energy calculations because the sample year has gaps. (source: active/analysis/Design goal.pdf)
+- The BOS brief also says siting remains unresolved because runway-area restrictions, rooftop placement limits, and allowable turbine count still need to be checked. (source: active/analysis/Design goal.pdf)
+- The BOS brief notes that many Darrieus turbines have rated speeds around `10-15 m/s`, while the `va9 EN0005` concept appears to have a much lower cut-in speed, below `2 m/s`, which matters for a lower-wind site. (source: active/analysis/Design goal.pdf)
+- The same brief says the turbine should ideally be designed near the wind-measurement height because wind speed can vary strongly within the near-ground boundary layer. (source: active/analysis/Design goal.pdf)
 - The prior HRI/Smith phase found that concept narrowing, CFD setup, troubleshooting, and validation consumed substantial time even before a design was ready for high-confidence conclusions. (source: sources/HRI2526.md)
 - That phase also recommended improving the testing workflow, exploring higher-wind environments, and advancing CFD fidelity before putting too much confidence in detailed performance claims. (source: sources/HRI2526.md)
 - The CFD review material says grid independence, domain-size sensitivity, and validation against reference data should be done before trusting performance outputs. (source: sources/va10.md)
@@ -42,11 +42,11 @@ Scope:
 Day-by-day structure:
 
 1. Day 1: Lock requirements and decision criteria.
-- Define the site case, target installation height, target wind-speed range, and success metrics for `Cp`, cut-in behavior, AEO method, manufacturability, and siting realism. (source: analysis/Design goal.pdf, sources/HRI2526.md)
+- Define the site case, target installation height, target wind-speed range, and success metrics for `Cp`, cut-in behavior, AEO method, manufacturability, and siting realism. (source: active/analysis/Design goal.pdf, sources/HRI2526.md)
 - Translate those into a short scoring matrix for `3-4` candidate turbine families or candidate designs already in the wiki. (source: sources/HRI2526.md, sources/vj21.md)
 
 2. Day 2: Downselect the concept.
-- Compare at least one low-risk self-starting path, one higher-efficiency Darrieus path, and one hybrid path. (source: analysis/Design goal.pdf, sources/HRI2526.md)
+- Compare at least one low-risk self-starting path, one higher-efficiency Darrieus path, and one hybrid path. (source: active/analysis/Design goal.pdf, sources/HRI2526.md)
 - Make a formal decision by end of day, with one backup concept kept only as a contingency. (> Inference)
 
 3. Day 3: Build baseline CAD.
@@ -86,7 +86,7 @@ Scope:
 Week-by-week structure:
 
 1. Week 1: Requirements, siting frame, and concept lock.
-- Finalize BOS assumptions, including measurement height, wind dataset choice, and what siting questions remain unresolved. (source: analysis/Design goal.pdf)
+- Finalize BOS assumptions, including measurement height, wind dataset choice, and what siting questions remain unresolved. (source: active/analysis/Design goal.pdf)
 - Downselect to one primary concept and one backup concept. (source: sources/HRI2526.md)
 - Build the baseline CAD and define the exact parameter list you may vary later. (source: sources/vj21.md)
 
@@ -100,7 +100,7 @@ Week-by-week structure:
 
 4. Week 4: Downselect final design and estimate performance.
 - Pick the best-performing configuration from the validated sweep.
-- Estimate BOS-relevant performance using the site wind regime and state uncertainty clearly, especially if the result is still based mainly on CFD. (source: analysis/Design goal.pdf, sources/vj18.md, sources/vj11.md)
+- Estimate BOS-relevant performance using the site wind regime and state uncertainty clearly, especially if the result is still based mainly on CFD. (source: active/analysis/Design goal.pdf, sources/vj18.md, sources/vj11.md)
 - Draft the core technical figures and tables for the report.
 
 Suggested division of labor:
@@ -134,7 +134,7 @@ Scope:
 Week-by-week structure:
 
 1. Week 1: Frame the project and lock the concept.
-- Turn the BOS brief into explicit engineering requirements and decision criteria. (source: analysis/Design goal.pdf)
+- Turn the BOS brief into explicit engineering requirements and decision criteria. (source: active/analysis/Design goal.pdf)
 - Downselect to one primary concept and one fallback concept. (source: sources/HRI2526.md)
 - Freeze the initial CAD baseline.
 
@@ -153,7 +153,7 @@ Week-by-week structure:
 
 5. Week 5: BOS performance story and report drafting.
 - Combine the selected design with the BOS wind framing and annual-energy method.
-- Write the technical report sections on site, concept selection, CAD workflow, CFD workflow, results, and uncertainty. (source: analysis/Design goal.pdf, sources/vj18.md)
+- Write the technical report sections on site, concept selection, CAD workflow, CFD workflow, results, and uncertainty. (source: active/analysis/Design goal.pdf, sources/vj18.md)
 - Add an explicit section on what the AI tools accelerated, where they created overhead, and where human review was still essential. (> Inference)
 
 6. Final half week: Review, tighten, and package.

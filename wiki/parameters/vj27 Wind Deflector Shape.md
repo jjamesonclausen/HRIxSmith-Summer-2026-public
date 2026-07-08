@@ -15,10 +15,10 @@ This `vj27` review compares several wind-deflector geometries as passive augment
 - Flat-plate deflectors are presented as the simplest and cheapest option, while airfoil-shaped and compound layouts are treated as higher-performance but more complex alternatives. (source: sources/vj27.md)
 - The compound category includes layouts such as V-shaped deflectors and kite-shaped deflectors for twin-turbine arrangements. (source: sources/vj27.md)
 
-![Source figure](../../images/vj27-fig6.jpg)
+![Source figure](vj27-fig6.jpg)
 Original caption: Figure 6. An airfoil-shaped wind deflector in the upstream of a Savonius rotor [75]. [[vj27|Source]]
 
-![Source figure](../../images/vj27-fig11.jpg)
+![Source figure](vj27-fig11.jpg)
 Original caption: Figure 11. A kite-shaped wind deflector installed upstream of the VAWT. (a) Design. (b) Experimental test setup (adapted from [81]). [[vj27|Source]]
 
 ## Outcome

@@ -18,7 +18,7 @@ Rated power (W):
 
 This page covers the source's proposed hybrid turbine that combines an outer straight-bladed H-rotor with an inner asymmetric-airfoil H-rotor instead of a Savonius starter. (source: sources/vj20.md)
 
-![Source figure](../../images/vj20-fig1.jpg)
+![Source figure](vj20-fig1.jpg)
 Original caption: Figure 1. Conceptual model and operating principle of the hybrid wind turbine under consideration. Wind's kinetic energy is transformed into electricity using a hybrid vertical axis wind turbine (VAWT) with asymmetric (inner side) and symmetric (outer side) airfoil blades that can be employed via an energy storage device. [[vj20|Source]]
 
 ## Geometry
@@ -28,7 +28,7 @@ Original caption: Figure 1. Conceptual model and operating principle of the hybr
 - The inner turbine is mounted `60` degrees from the outer turbine, while the three outer blades are spaced `120` degrees apart. (source: sources/vj20.md)
 - The paper presents the whole system as a connected dual-rotor arrangement on a central shaft with connecting rods, joints, bearings, generator, and battery storage. (source: sources/vj20.md)
 
-![Source figure](../../images/vj20-fig2.jpg)
+![Source figure](vj20-fig2.jpg)
 Original caption: Figure 2. Computer-aided design (CAD) of a scaled-down model of the proposed design. The dimensions with small letters represent the scaled-down model. [[vj20|Source]]
 
 ## Performance

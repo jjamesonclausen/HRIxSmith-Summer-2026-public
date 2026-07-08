@@ -24,9 +24,9 @@ The baseline `va23` turbine is a two-bladed conventional troposkien Darrieus VAW
 - Its blade height is `0.75 m` and blade length is `1.10 m`. (source: sources/va23.md)
 - The reported solidity is `0.59`, and the blade airfoil is NACA0015. (source: sources/va23.md)
 
-![Source figure](../../images/va23-fig1.jpg)
+![Source figure](va23-fig1.jpg)
 Original caption: Figure 1. Vertical axis wind turbine (VAWT) configurations: (A) conventional VAWT (troposkien shape), (B) novel 50% STS-VAWT (50% shifted troposkien shape-VAWT), (C) novel 100% STS-VAWT. [[va23|Source]]
-![Source figure](../../images/va23-fig2.jpg)
+![Source figure](va23-fig2.jpg)
 Original caption: Figure 2. Conventional and shifted troposkien shape designs: (A) conventional VAWT (B) 50% STS-VAST (C) 100% STS-VAWT. [[va23|Source]]
 
 ## Unique Design Choices

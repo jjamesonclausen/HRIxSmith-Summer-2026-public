@@ -11,11 +11,11 @@ Summary of `sources/vj7.md`. (source: sources/vj7.md)
 
 Review of blade materials for straight-bladed VAWTs. (source: sources/vj7.md)
 
-![Source figure](../../images/vj7-fig1.jpg)
+![Source figure](vj7-fig1.jpg)
 Original caption: Fig-1: Vertical Wind giromill wind turbine [[vj7|Source]]
-![Source figure](../../images/vj7-fig2.jpg)
+![Source figure](vj7-fig2.jpg)
 Original caption: Fig-2: Three-bladed Darrieus wind turbine [[vj7|Source]]
-![Source figure](../../images/vj7-fig3.jpg)
+![Source figure](vj7-fig3.jpg)
 Original caption: Fig-3: Cycloturbine Rotor [[vj7|Source]]
 
 Key points:

@@ -24,9 +24,9 @@ The third `va20` configuration adds a front-mounted wind flow modifier (`WFM`) t
 - The added WFM uses `12` diffuser tubes in `4` rows and `3` columns, with diameter reduction from `0.3 m` to `0.15 m` toward the turbine. (source: sources/va20.md)
 - Reported WFM envelope dimensions are `1.4 m` height, `1.0 m` width, and `0.6 m` length. (source: sources/va20.md)
 
-![Source figure](../../images/va20-fig6.jpg)
+![Source figure](va20-fig6.jpg)
 Original caption: Figure 6. Involute-type blade with WFM. [[va20|Source]]
-![Source figure](../../images/va20-fig20.jpg)
+![Source figure](va20-fig20.jpg)
 Original caption: Figure 20. Pressure (a) and velocity (b) variations inside the diffuser tubes. [[va20|Source]]
 
 ## Unique Design Choices

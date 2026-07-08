@@ -36,7 +36,7 @@ In the present paper, the performances of H-shaped and helical-shaped architectu
 ### Figure 1
 
 Possible variants of Darrieus VAWT: H-type (a), V-type (b), Troposkien type (c), and Gorlov (helical type, d) [7].
-![Figure 1: Possible variants of Darrieus VAWT](../images/vj4-fig1.jpg)
+![Figure 1: Possible variants of Darrieus VAWT](vj4-fig1.jpg)
 
 ## 2. The loads predictor model
 
@@ -53,12 +53,12 @@ To validate the load predictor model here described, the power coefficient of th
 ### Figure 2
 
 Predicted (blue line) and experimental (grey square markers) power coefficients for the SANDIA wind turbine [16].
-![Figure 2: Predicted and experimental power coefficients for the SANDIA wind turbine](../images/vj4-fig2.jpg)
+![Figure 2: Predicted and experimental power coefficients for the SANDIA wind turbine](vj4-fig2.jpg)
 
 ### Figure 3
 
 Predicted (blue dashed line) and experimental (black line) tangential force coefficients during a rotor revolution [18].
-![Figure 3: Predicted and experimental tangential force coefficients during a rotor revolution](../images/vj4-fig3.jpg)
+![Figure 3: Predicted and experimental tangential force coefficients during a rotor revolution](vj4-fig3.jpg)
 
 ## 3. Results and Comments
 
@@ -107,22 +107,22 @@ On the basis of both the performance and energetic considerations presented abov
 ### Figure 4
 
 Shape profile comparison between the DU 06-W-200 and the NACA 0018 airfoils [20].
-![Figure 4: Shape profile comparison between the DU 06-W-200 and the NACA 0018 airfoils](../images/vj4-fig4.jpg)
+![Figure 4: Shape profile comparison between the DU 06-W-200 and the NACA 0018 airfoils](vj4-fig4.jpg)
 
 ### Figure 5
 
 Clean wind tunnel data comparison between the DU 06-W-200 and the NACA 0018 airfoils [20] at Re = 300 000.
-![Figure 5: Clean wind tunnel data comparison between the DU 06-W-200 and the NACA 0018 airfoils](../images/vj4-fig5.jpg)
+![Figure 5: Clean wind tunnel data comparison between the DU 06-W-200 and the NACA 0018 airfoils](vj4-fig5.jpg)
 
 ### Figure 6
 
 Power coefficient CP curves at different TSRs.
-![Figure 6: Power coefficient CP curves at different TSRs](../images/vj4-fig6.jpg)
+![Figure 6: Power coefficient CP curves at different TSRs](vj4-fig6.jpg)
 
 ### Figure 7
 
 Power curves at different wind speeds V0 for the considered turbines.
-![Figure 7: Power curves at different wind speeds V0 for the considered turbines](../images/vj4-fig7.jpg)
+![Figure 7: Power curves at different wind speeds V0 for the considered turbines](vj4-fig7.jpg)
 
 ### Table 2. Performance characteristics of the analysed VAWTs
 
@@ -137,7 +137,7 @@ Power curves at different wind speeds V0 for the considered turbines.
 ### Figure 8
 
 Annual energy output (AEO) at different wind speeds V0 for the considered turbines (the Weibull shape parameter is set to 1.7). All the presented rotors operate at fixed angular speed; the chord Reynolds number is 2.17 x 10^5, except for the case B (Re = 3.25 x 10^5).
-![Figure 8: Annual energy output (AEO) at different wind speeds V0 for the considered turbines](../images/vj4-fig8.jpg)
+![Figure 8: Annual energy output (AEO) at different wind speeds V0 for the considered turbines](vj4-fig8.jpg)
 
 ### Streamwise thrust
 
@@ -152,22 +152,22 @@ The simulation results collected in Figures 11 and 12 show, as expected, that th
 ### Figure 9
 
 Streamwise thrust coefficient CTX curves at different TSRs.
-![Figure 9: Streamwise thrust coefficient CTX curves at different TSRs](../images/vj4-fig9.jpg)
+![Figure 9: Streamwise thrust coefficient CTX curves at different TSRs](vj4-fig9.jpg)
 
 ### Figure 10
 
 Streamwise thrust curves at different wind speeds V0 for the considered turbines.
-![Figure 10: Streamwise thrust curves at different wind speeds V0 for the considered turbines](../images/vj4-fig10.jpg)
+![Figure 10: Streamwise thrust curves at different wind speeds V0 for the considered turbines](vj4-fig10.jpg)
 
 ### Figure 11
 
 Torque curves during a rotor revolution at the maximum CP (reached at different TSRs by the considered turbines).
-![Figure 11: Torque curves during a rotor revolution at the maximum CP](../images/vj4-fig11.jpg)
+![Figure 11: Torque curves during a rotor revolution at the maximum CP](vj4-fig11.jpg)
 
 ### Figure 12
 
 Thrust curves during a rotor revolution at the maximum CP (reached at different TSRs by the considered turbines).
-![Figure 12: Thrust curves during a rotor revolution at the maximum CP](../images/vj4-fig12.jpg)
+![Figure 12: Thrust curves during a rotor revolution at the maximum CP](vj4-fig12.jpg)
 
 ### Table 3. Relevant characteristics of the VAWT loads analysed at the maximum power coefficient (CP,opt)
 

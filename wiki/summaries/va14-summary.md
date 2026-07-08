@@ -9,9 +9,9 @@ Tags: #summaries
 
 Primary aerodynamic parameter study on Darrieus H-type VAWTs, focusing on the impact of solidity and blade number across a wide range of tip-speed ratio, Reynolds number, turbulence intensity, and reduced frequency. (source: sources/va14.md)
 
-![Source figure](../../images/va14-fig3.jpg)
+![Source figure](va14-fig3.jpg)
 Original caption: Fig. 3. Contours of power and thrust coefficients in l e s space for 2-, 3- and 4-bladed VAWTs with the same Rec at identical l e s positions. Each contour plot is based on 48 simulations (TI = 5%). [[va14|Source]]
-![Source figure](../../images/va14-table5.jpg)
+![Source figure](va14-table5.jpg)
 Original caption: Table 5. The optimal performance versus solidities for 2-, 3- and 4-bladed VAWTs (TI = 5%). [[va14|Source]]
 
 Key points:

@@ -75,7 +75,7 @@ rotor diameters, VAWTs can be incorporated into streetlights [4–6] installed o
 or even integrated into building facades [7–11] (examples are as shown in Fig. 1).
 
 Figure 1: (a) Eco-Greenergy™hybrid wind-solar energy generation system design and general arrangement [6], (b)
-![Figure 1: (a) Eco-Greenergy™hybrid wind-solar energy generation system design and general arrangement [6], (b)](../images/vj6-fig1.jpg)
+![Figure 1: (a) Eco-Greenergy™hybrid wind-solar energy generation system design and general arrangement [6], (b)](vj6-fig1.jpg)
 Crossflex wind turbine blended into a corner of a building [11]
 
 VAWTs are omnidirectional, meaning they can capture wind from any direction without needing
@@ -158,7 +158,7 @@ key stages: problem definition, meshing, equation discretisation, boundary condi
 solution, and post-processing [25].
 
 Figure 2: A typical numerical framework consists of problem definition, meshing, discretisation of equations,
-![Figure 2: A typical numerical framework consists of problem definition, meshing, discretisation of equations,](../images/vj6-fig2.jpg)
+![Figure 2: A typical numerical framework consists of problem definition, meshing, discretisation of equations,](vj6-fig2.jpg)
 boundary condition application, numerical solution and finally post-processing
 
 ### Contribution of the Current Review
@@ -200,7 +200,7 @@ higher power output per unit of land area [39]. For detailed information on diff
 and configurations, readers may refer to other excellent reviews, such as the works by [46,47].
 
 Figure 3: Various wind turbine types and their general power coefficient vs. tip speed ratio characteristic curves [38]
-![Figure 3: Various wind turbine types and their general power coefficient vs. tip speed ratio characteristic curves [38]](../images/vj6-fig3.jpg)
+![Figure 3: Various wind turbine types and their general power coefficient vs. tip speed ratio characteristic curves [38]](vj6-fig3.jpg)
 
 VAWT designs (some examples are shown in Fig. 4) are broadly categorised based on the primary
 aerodynamic principle they employ [48]:
@@ -246,7 +246,7 @@ blades, potentially leading to transient load fluctuations and a lower overall p
 an equivalent standalone Darrieus turbine [52].
 
 Figure 4: From left to right—Savonius rotor, Darrieus rotor, H-rotor Darrieus (images from [48])
-![Figure 4: From left to right—Savonius rotor, Darrieus rotor, H-rotor Darrieus (images from [48])](../images/vj6-fig4.jpg)
+![Figure 4: From left to right—Savonius rotor, Darrieus rotor, H-rotor Darrieus (images from [48])](vj6-fig4.jpg)
 
 ### Inherent Aerodynamic Challenges of VAWTs
 
@@ -264,7 +264,7 @@ the lift (or drag) coefficient in the blades (as shown in Fig. 5b). This cyclic 
 significant aerodynamic challenges that complicate analysis and can limit performance.
 
 Figure 5: Schematic representation of a vertical axis wind turbine: (a) segmentation of a wind turbine path, (b) lift
-![Figure 5: Schematic representation of a vertical axis wind turbine: (a) segmentation of a wind turbine path, (b) lift](../images/vj6-fig5.jpg)
+![Figure 5: Schematic representation of a vertical axis wind turbine: (a) segmentation of a wind turbine path, (b) lift](vj6-fig5.jpg)
 coefficient, Cl vs. α of an airfoil top surface, (c) schematic 2-D cross section of a single blade as an example of a VAWT
 blade path, (d) velocity vectors and angles. Adopted from [55]
 
@@ -404,7 +404,7 @@ transferring flow information between the moving and fixed mesh zones while acco
 relative motion.
 
 Figure 6: (Left) Schematic of the computational domain, where d i and do are the distances from the turbine centre to
-![Figure 6: (Left) Schematic of the computational domain, where d i and do are the distances from the turbine centre to](../images/vj6-fig6.jpg)
+![Figure 6: (Left) Schematic of the computational domain, where d i and do are the distances from the turbine centre to](vj6-fig6.jpg)
 the inlet and outlet, dc is the diameter of the rotating core, and w is the width of the domain, (Right) a representation of
 the control, rotating and whole domains [80], a 3-D computational domain and boundary conditions (not to scale) [19]
 
@@ -445,7 +445,7 @@ struts can be difficult and time-consuming [84,85]. Fig. 7 illustrates the varia
 the 2-D and 3-D simulation of VAWT.
 
 Figure 7: (a) 2-D structured mesh near a blade, (b) structured mesh of the whole domain, where the mesh is clustered
-![Figure 7: (a) 2-D structured mesh near a blade, (b) structured mesh of the whole domain, where the mesh is clustered](../images/vj6-fig7.jpg)
+![Figure 7: (a) 2-D structured mesh near a blade, (b) structured mesh of the whole domain, where the mesh is clustered](vj6-fig7.jpg)
 around the rotor and in the wake region, (c) 3-D mesh around the blade and the adjacent arm, and (d) the 3-D mesh
 of the surrounding subdomain at the symmetric plane [69]
 
@@ -458,7 +458,7 @@ not generated carefully, which can impact solver convergence and solution accura
 an example of unstructured mesh on a Savonius turbine simulation.
 
 Figure 8: The unstructured meshing of the Savonius turbine [88]
-![Figure 8: The unstructured meshing of the Savonius turbine [88]](../images/vj6-fig8.jpg)
+![Figure 8: The unstructured meshing of the Savonius turbine [88]](vj6-fig8.jpg)
 
 •
 Hybrid mesh: Hybrid meshes represent the most common and effective strategy in modern VAWT CFD,
@@ -470,7 +470,7 @@ efficiently handling complex geometries, and is now standard practice in high-fi
 studies of VAWTs [90–92]. Fig. 9 depicts an example of structured and unstructured mesh combination.
 
 Figure 9: The hybrid mesh strategy, where the structured grids are used near the airfoil walls, and unstructured grids
-![Figure 9: The hybrid mesh strategy, where the structured grids are used near the airfoil walls, and unstructured grids](../images/vj6-fig9.jpg)
+![Figure 9: The hybrid mesh strategy, where the structured grids are used near the airfoil walls, and unstructured grids](vj6-fig9.jpg)
 elsewhere in the domain [93]
 
 #### Mesh Refinement and Independence
@@ -518,11 +518,11 @@ of the mesh resolution perpendicular to the wall, often quantified by the non-di
 It represents the distance of the first mesh cell centre from the wall, normalised by the viscous scales [98], as
 defined by Eq. (1).
 
-![Eq. (1)](../images/vj6-eq1.png)
+![Eq. (1)](vj6-eq1.png)
 
 where uτ is the friction velocity as defined as
 
-![Eq. (2)](../images/vj6-eq2.png)
+![Eq. (2)](vj6-eq2.png)
 
 where y is the distance from the wall to the first cell center, ν is the kinematic viscosity, and τw is the wall
 shear stress.
@@ -560,7 +560,7 @@ VAWTs requires time-accurate CFD simulations where the turbine’s rotation is e
 of the key parameters influencing the stability and accuracy of such unsteady simulations is the Courant–
 Friedrichs–Lewy (CFL) number, defined as:
 
-![Eq. (3)](../images/vj6-eq3.png)
+![Eq. (3)](vj6-eq3.png)
 
 where u is the local flow velocity, Δt is the time step, and Δx is the characteristic mesh length scale. In transient
 VAWT simulations, maintaining CFL ≤1 is typically recommended to ensure numerical stability, particularly
@@ -624,7 +624,7 @@ resolution in these areas. Poor overlap or resolution can cause significant erro
 and robust algorithms are needed to manage potential orphan cells that lack interpolation data [120].
 
 Figure 10: (a) Computational mesh topology showing the overset and overlap regions (image cropped from [116]), and
-![Figure 10: (a) Computational mesh topology showing the overset and overlap regions (image cropped from [116]), and](../images/vj6-fig10.jpg)
+![Figure 10: (a) Computational mesh topology showing the overset and overlap regions (image cropped from [116]), and](vj6-fig10.jpg)
 (b) a structured background mesh overlapping with an unstructured but layered mesh around the turbine in the overset
 region (image cropped from [118])
 
@@ -652,7 +652,7 @@ invalid cells, and frequent remeshing to correct distortion can be both computat
 to interpolation errors [65,124,126].
 
 Figure 11: (a) NACA0021 unaltered shape profile vs. (a) NACA0021 morphed shape profile, and box encasement for
-![Figure 11: (a) NACA0021 unaltered shape profile vs. (a) NACA0021 morphed shape profile, and box encasement for](../images/vj6-fig11.jpg)
+![Figure 11: (a) NACA0021 unaltered shape profile vs. (a) NACA0021 morphed shape profile, and box encasement for](vj6-fig11.jpg)
 the blade showing the control points [125]
 
 Table 1 provides a comparison of sliding mesh, overset mesh, and morphing mesh strategies, highlighting their descriptions, advantages, and disadvantages in the context of simulating rotating systems.
@@ -774,7 +774,7 @@ This tensor represents the effects of turbulent fluctuations on the mean flow.
 
 ) = −∂p
 
-![Eq. (4)](../images/vj6-eq4.png)
+![Eq. (4)](vj6-eq4.png)
 
 ∂x2
 
@@ -814,7 +814,7 @@ the viscous sublayer near walls, thus avoiding the need for extremely fine mesh 
 wall. It is governed by the following transport equations:
 Turbulent kinetic energy (k) equation:
 
-![Eq. (5)](../images/vj6-eq5.png)
+![Eq. (5)](vj6-eq5.png)
 
 ∂x2
 
@@ -826,7 +826,7 @@ j
 
 Turbulent dissipation rate (ε) equation:
 
-![Eq. (6)](../images/vj6-eq6.png)
+![Eq. (6)](vj6-eq6.png)
 
 ∂x j
 
@@ -869,7 +869,7 @@ for advanced models like the Scale Adaptive Simulation (SAS) and the Stress-Blen
 k-ω formulation are:
 Turbulent kinetic energy (k) equation:
 
-![Eq. (7)](../images/vj6-eq7.png)
+![Eq. (7)](vj6-eq7.png)
 
 ∂xj
 
@@ -877,7 +877,7 @@ Turbulent kinetic energy (k) equation:
 
 Specific dissipation rate (ε) equation:
 
-![Eq. (8)](../images/vj6-eq8.png)
+![Eq. (8)](vj6-eq8.png)
 
 ∂xj
 
@@ -905,18 +905,18 @@ equation for a modified turbulent kinematic viscosity (˜ν) [95,135,136]. Origi
 aerodynamic flows in the aerospace industry, particularly for attached boundary layers on airfoils and
 wings. The model computes the eddy viscosity from ˜ν using the relation:
 
-![Eq. (9)](../images/vj6-eq9.png)
+![Eq. (9)](vj6-eq9.png)
 
 where fv1 is a viscous damping function,and defined as:
 
-![Eq. (10)](../images/vj6-eq10.png)
+![Eq. (10)](vj6-eq10.png)
 
 (χ3 + C3
 
 where ν is a molecular kinematic viscosity, and Cv1 is a model constant. The governing equation for ˜ν is
 given by:
 
-![Eq. (11)](../images/vj6-eq11.png)
+![Eq. (11)](vj6-eq11.png)
 
 ∂xj
 
@@ -1383,7 +1383,7 @@ simulation’s specific goals, the required accuracy level, and the available co
 following Table 3 encapsulates the general guidance on turbulence model selection.
 
 Figure 13: Conceptual illustration of the Accuracy vs. Computational Cost trade-off for turbulence models in VAWT
-![Figure 13: Conceptual illustration of the Accuracy vs. Computational Cost trade-off for turbulence models in VAWT](../images/vj6-fig13.jpg)
+![Figure 13: Conceptual illustration of the Accuracy vs. Computational Cost trade-off for turbulence models in VAWT](vj6-fig13.jpg)
 CFD
 
 Table 3: General guidance on turbulence model selection
@@ -2788,7 +2788,7 @@ to show that adding auxiliary blades increased the maximum static torque by 84%,
 stronger initial turning force.
 
 Figure 14: Illustrating the relationship between the static torque coefficient and the azimuthal angle. In general, the
-![Figure 14: Illustrating the relationship between the static torque coefficient and the azimuthal angle. In general, the](../images/vj6-fig14.jpg)
+![Figure 14: Illustrating the relationship between the static torque coefficient and the azimuthal angle. In general, the](vj6-fig14.jpg)
 higher the static torque coefficient, the better the self-start characteristic of the rotor is. Figures are obtained from studies
 of (a) Xu et al. [180] and (b) Uma Reddy et al. [182]
 
@@ -2817,7 +2817,7 @@ indicated by the green dot in Fig. 15. The Lunt point (i.e., blue dot) refers to
 in which they adopted a TSR of 1 as the self-starting point.
 
 Figure 15: A self-starting process of a NACA2418 VAWT [180]
-![Figure 15: A self-starting process of a NACA2418 VAWT [180]](../images/vj6-fig15.jpg)
+![Figure 15: A self-starting process of a NACA2418 VAWT [180]](vj6-fig15.jpg)
 
 CFD contour plots are essential for visualising the underlying physics that performance curves cannot
 show alone. They allow researchers to diagnose the precise causes of poor torque generation. (Note: General
@@ -2981,7 +2981,7 @@ points in the domain. Vector plots provide a direct view of the flow field, high
 and low velocity and flow direction changes around the blades and in the wake.
 
 Figure 16: Examples of (a) streamline plot [207], and (b) velocity vector plot [208]
-![Figure 16: Examples of (a) streamline plot [207], and (b) velocity vector plot [208]](../images/vj6-fig16.jpg)
+![Figure 16: Examples of (a) streamline plot [207], and (b) velocity vector plot [208]](vj6-fig16.jpg)
 
 ### Pressure and Velocity Field Analysis
 
@@ -2999,7 +2999,7 @@ flow acceleration over the suction surfaces of the blades, regions of low veloci
 separation or stall, and the characteristic velocity deficit in the turbine’s wake.
 
 Figure 17: Examples of (a) pressure contour plot [83], and (b) velocity contour plot [209]
-![Figure 17: Examples of (a) pressure contour plot [83], and (b) velocity contour plot [209]](../images/vj6-fig17.jpg)
+![Figure 17: Examples of (a) pressure contour plot [83], and (b) velocity contour plot [209]](vj6-fig17.jpg)
 
 ### Analysis of Vortex Dynamics and Dynamic Stall
 
@@ -3014,7 +3014,7 @@ tions) [42]. Analysing the strength, location, and convection of these vortices 
 unsteady loads, energy losses, and wake behaviour [64].
 
 Figure 18: Example of vorticity contours on VAWT blades [210]
-![Figure 18: Example of vorticity contours on VAWT blades [210]](../images/vj6-fig18.jpg)
+![Figure 18: Example of vorticity contours on VAWT blades [210]](vj6-fig18.jpg)
 
 •
 Dynamic Stall Visualisation (e.g., Fig. 19): CFD allows for a detailed, time-resolved visualisation of
@@ -3042,10 +3042,10 @@ coherent vortical structures (like tip vortices or complex wake eddies) more cle
 magnitude plots [71,206].
 
 Figure 19: Example of dynamic stall visualisation, with LSB and separation of flows [211]
-![Figure 19: Example of dynamic stall visualisation, with LSB and separation of flows [211]](../images/vj6-fig19.jpg)
+![Figure 19: Example of dynamic stall visualisation, with LSB and separation of flows [211]](vj6-fig19.jpg)
 
 Figure 20: Example of Q-criterion representation of eddies on VAWT’s (a) bottom view, and (b) isometric view [83]
-![Figure 20: Example of Q-criterion representation of eddies on VAWT’s (a) bottom view, and (b) isometric view [83]](../images/vj6-fig20.jpg)
+![Figure 20: Example of Q-criterion representation of eddies on VAWT’s (a) bottom view, and (b) isometric view [83]](vj6-fig20.jpg)
 
 ### Wake Structure Characterisation
 
@@ -3128,7 +3128,7 @@ in bridging the gap between numerical and experimental results, particularly for
 VAWT applications.
 
 Figure 21: Examples of CFD validation for various VAWT types and CFD models. (a) URANS CFD validations for
-![Figure 21: Examples of CFD validation for various VAWT types and CFD models. (a) URANS CFD validations for](../images/vj6-fig21.jpg)
+![Figure 21: Examples of CFD validation for various VAWT types and CFD models. (a) URANS CFD validations for](vj6-fig21.jpg)
 2-D and 3-D Darrieus CFD models [223], (b) comparison of Darrieus power coefficient vs. TSR between 3-D DMST,
 3-D CFD and experimental data [217], and (c) validation of Savonius rotor using different turbulence models with
 experimental data [214]

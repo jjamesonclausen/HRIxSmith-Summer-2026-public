@@ -9,9 +9,9 @@ Tags: #summaries
 
 CFD study of three low-profile VAWT configurations for urban low-wind areas: a C-blade H-type rotor, an involute rotor, and an involute rotor augmented with a wind flow modifier. (source: sources/va20.md)
 
-![Source figure](../../images/va20-fig6.jpg)
+![Source figure](va20-fig6.jpg)
 Original caption: Figure 6. Involute-type blade with WFM. [[va20|Source]]
-![Source figure](../../images/va20-fig26.jpg)
+![Source figure](va20-fig26.jpg)
 Original caption: Figure 26. Electrical characteristics: (a) rotor power and (b) power coefficient. [[va20|Source]]
 
 Key points:

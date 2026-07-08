@@ -36,7 +36,7 @@ Wind-energy effects:
 - The va11 wake review says turbulent inflow can delay dynamic stall, distort the counter-rotating wake vortices, and improve H-rotor self-starting and performance relative to smoother inflow. (source: sources/va11.md)
 - It also reviews atmospheric-boundary-layer inflow as a distinct wake condition, with stronger three-dimensionality and downward or upward wake shifts depending on the case studied. (source: sources/va11.md)
 
-![Source figure](../../images/vj3-fig2.jpg)
+![Source figure](vj3-fig2.jpg)
 Original caption: Figure 2: Power Curve Variability with Turbulence Intensity [[vj3|Source]]
 
 Related:

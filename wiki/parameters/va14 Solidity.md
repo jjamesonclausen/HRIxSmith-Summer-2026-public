@@ -15,7 +15,7 @@ The `va14` study treats solidity as a core aerodynamic design variable for Darri
 - The paper reports that increasing solidity lowers the optimal tip-speed ratio. (source: sources/va14.md)
 - It also introduces `sλ^3` as an approximately invariant parameter for `λopt` across the tested cases. (source: sources/va14.md)
 
-![Source figure](../../images/va14-fig2.jpg)
+![Source figure](va14-fig2.jpg)
 Original caption: Fig. 2. Power coefficient versus (a) tip speed ratio and (b) solidity for 2-bladed VAWTs (TI = 5%). [[va14|Source]]
 
 ## Outcome

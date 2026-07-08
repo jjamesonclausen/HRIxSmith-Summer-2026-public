@@ -9,9 +9,9 @@ Tags: #summaries
 
 Review paper on CFD simulation techniques for Darrieus VAWTs, focused on reliable setup choices, turbulence-model selection, and the use of CFD to study geometry, wake interaction, aeroacoustics, skewed wind, guide vanes, and self-starting. (source: sources/va10.md)
 
-![Source figure](../../images/va10-fig5.jpg)
+![Source figure](va10-fig5.jpg)
 Original caption: Fig. 5. Computational grid independency study [31]. [[va10|Source]]
-![Source figure](../../images/va10-fig7.jpg)
+![Source figure](va10-fig7.jpg)
 Original caption: Fig. 7. Lift coefficient comparison for transition SST and k omega SST turbulence models. Adapted from [32]. [[va10|Source]]
 
 Key points:

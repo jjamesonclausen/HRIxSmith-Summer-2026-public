@@ -13,7 +13,7 @@ This `vj12` review discusses overlap ratio as a core Savonius parameter affectin
 
 - The source summarizes studies on no-overlap and overlapping rotors, with several reported favorable cases in the `0.1-0.15` range and others favoring null overlap. (source: sources/vj12.md)
 
-![Source figure](../../images/vj12-fig5.jpg)
+![Source figure](vj12-fig5.jpg)
 Original caption: Figure 5: Scheme of a Savonius rotor: (a) without overlap; (b) with overlap [46]. [[vj12|Source]]
 
 ## Outcome

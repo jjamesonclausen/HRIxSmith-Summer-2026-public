@@ -9,13 +9,13 @@ Tags: #concepts
 
 Vertical axis wind turbine combining Darrieus (lift-based) and Savonius (drag-based) rotors. (source: sources/HRI2526.md)
 
-![Source figure](../../images/vj2-fig3a.jpg)
+![Source figure](vj2-fig3a.jpg)
 Original caption: Figure 3: (a) CAD model of the initial configuration of the proposed hybrid wind turbine (at the bottom - bearing housing and power generator); (b) simplified CAD model for CFD analysis [[vj2|Source]]
-![Source figure](../../images/hri2526-fig9.jpg)
+![Source figure](hri2526-fig9.jpg)
 Original caption: Fig. 9. Hybrid VAWT with inner classical Savonius and outer H-rotor Darrieus [29] [[HRI2526|Source]]
-![Source figure](../../images/hri2526-fig14.jpg)
+![Source figure](hri2526-fig14.jpg)
 Original caption: Fig. 14. Final CAD Model of the Helical Hybrid VAWT. [[HRI2526|Source]]
-![Source figure](../../images/va8-fig1.jpg)
+![Source figure](va8-fig1.jpg)
 Original caption: Figure 1: External perspective view of the vertical axis wind turbine. [[va8|Source]]
 
 - Geometry:
@@ -76,7 +76,7 @@ Tradeoffs:
 The vj26 review reinforces the common hybrid rationale: a high-torque Savonius stage is paired with a higher-efficiency Darrieus stage so startup behavior improves without giving up all higher-speed performance. (source: sources/vj26.md)
 It also says the surveyed hybrid studies consistently outperform Savonius-only rotors in overall power-conversion potential, while the exact benefit still depends on overlap, rotor placement, and how much the drag stage interferes with the lift stage. (source: sources/vj26.md)
 
-![Source figure](../../images/vj2-fig8.jpg)
+![Source figure](vj2-fig8.jpg)
 Original caption: Figure 8: Torque values calculated for each configuration, for one third of a complete rotation (15 degree steps) [[vj2|Source]]
 
 Method note:

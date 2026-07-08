@@ -9,9 +9,9 @@ Tags: #summaries
 
 Wind-tunnel comparison of a conventional two-bladed troposkien Darrieus VAWT against two novel shifted-troposkien variants intended to reduce blade-wake interaction while keeping the same swept area. (source: sources/va23.md)
 
-![Source figure](../../images/va23-fig1.jpg)
+![Source figure](va23-fig1.jpg)
 Original caption: Figure 1. Vertical axis wind turbine (VAWT) configurations: (A) conventional VAWT (troposkien shape), (B) novel 50% STS-VAWT (50% shifted troposkien shape-VAWT), (C) novel 100% STS-VAWT. [[va23|Source]]
-![Source figure](../../images/va23-fig9.jpg)
+![Source figure](va23-fig9.jpg)
 Original caption: Figure 9. Power coefficient (Cp) vs TSR after corrections at 600 rpm. [[va23|Source]]
 
 Key points:

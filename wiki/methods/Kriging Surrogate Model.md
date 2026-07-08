@@ -9,7 +9,7 @@ Tags: #methods
 
 A surrogate modeling method used to approximate expensive objective functions with a fitted statistical response surface. (source: sources/va2.md)
 
-![Source figure](../../images/va2-fig12.jpg)
+![Source figure](va2-fig12.jpg)
 Original caption: Figure 12: The error analysis of the proxy model [[va2|Source]]
 
 - The model decomposes the response into deterministic drift and a stochastic component. (source: sources/va2.md)

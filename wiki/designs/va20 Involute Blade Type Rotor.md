@@ -24,9 +24,9 @@ The second `va20` configuration is a three-bladed involute rotor intended to con
 - Reported blade height is `0.6 m`, rotor radius is `0.8 m`, and swept area is `0.96 m^2`. (source: sources/va20.md)
 - The paper reports blade curvature `0.0024 per mm`, maximum curvature `1.799 per m`, and solidity about `3.43`. (source: sources/va20.md)
 
-![Source figure](../../images/va20-fig3.jpg)
+![Source figure](va20-fig3.jpg)
 Original caption: Figure 3. Involute rotor type blades profile. [[va20|Source]]
-![Source figure](../../images/va20-fig4.jpg)
+![Source figure](va20-fig4.jpg)
 Original caption: Figure 4. Case 2: Geometry of involute-type rotor. [[va20|Source]]
 
 ## Unique Design Choices

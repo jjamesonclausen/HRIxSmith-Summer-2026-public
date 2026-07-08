@@ -19,10 +19,10 @@ This paper is a simple design-oriented discussion of a small Darrieus-type VAWT 
 
 Related pages: [[Darrieus Turbine]], [[HAWT vs VAWT]], [[Wind Turbine Parameters]], [[vj23 3-Bladed Darrieus VAWT with Gearbox]], [[vj23 Blade Number]], [[vj23 Gearbox Sizing]]
 
-![Source figure](../../images/vj23-fig4.jpg)
+![Source figure](vj23-fig4.jpg)
 Original caption: Figure 4. Darrieus Turbine [9] [[vj23|Source]]
 
-![Source figure](../../images/vj23-fig5.jpg)
+![Source figure](vj23-fig5.jpg)
 Original caption: Figure 5. Vertical Axis Wind Turbine Type of Darrieus [[vj23|Source]]
 
 #summaries

@@ -18,10 +18,10 @@ Rated power (W):
 
 The `vj19` paper advances one small-scale curved-blade Savonius VAWT after comparing four blade-shape options experimentally. (source: sources/vj19.md)
 
-![Source figure](../../images/vj19-fig1a.jpg)
+![Source figure](vj19-fig1a.jpg)
 Original caption: Fig. 1a. A side view of designed and assembled blade configuration of VAWT. [[vj19|Source]]
 
-![Source figure](../../images/vj19-fig1b.jpg)
+![Source figure](vj19-fig1b.jpg)
 Original caption: Fig. 1b. A block diagram of experimental measurement setup. [[vj19|Source]]
 
 - The rotor uses three flattened trapezoidal galvanized-steel blades attached with `120` degree spacing. (source: sources/vj19.md)

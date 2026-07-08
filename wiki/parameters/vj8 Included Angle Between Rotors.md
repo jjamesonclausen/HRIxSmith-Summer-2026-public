@@ -13,7 +13,7 @@ This `vj8` study changes the included angle between the upper and lower rotors o
 
 - The study simulates included angles from `0°` to `180°` in `30°` steps. (source: sources/vj8.md)
 
-![Source figure](../../images/vj8-fig16.jpg)
+![Source figure](vj8-fig16.jpg)
 Original caption: Fig. 16. The variation of torque and time of CRVAWT under different included angles. [[vj8|Source]]
 
 ## Outcome

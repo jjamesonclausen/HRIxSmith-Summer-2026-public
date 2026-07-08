@@ -23,7 +23,7 @@ The `va13` building-retrofit study models a three-bladed helical rooftop VAWT as
 - The design uses three blades. (source: sources/va13.md)
 - Rotor diameter is 1.515 m. (source: sources/va13.md)
 
-![Source figure](../../images/va13-fig6.jpg)
+![Source figure](va13-fig6.jpg)
 Original caption: Figure 6. Turbine designs for each case and rooftop installation (developed by authors). [[va13|Source]]
 
 ## Unique Design Choices

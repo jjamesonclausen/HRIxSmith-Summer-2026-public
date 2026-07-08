@@ -40,7 +40,7 @@ The orientation of the shaft and rotational axis determines the classification o
 
 Fig 1: Configurations for shaft and rotor orientation
 
-![Fig 1: Configurations for shaft and rotor orientation](../images/va5-fig1.jpg)
+![Fig 1: Configurations for shaft and rotor orientation](va5-fig1.jpg)
 
 The two configurations have instantly distinguishable rotor designs, each with its own favorable characteristics. Vertical-axis wind turbines (VAWT) can be divided into two major groups: those that use aerodynamic drag to extract power from the wind and those that use lift. The advantages of the VAWTs are that they can accept the wind from any direction. This simplifies their design and eliminates the problem imposed by gyroscopic forces on the rotor of a convectional machine as the turbine tracks the wind. The vertical axis of rotation also permits mounting the generator and drive train at ground level [2]. The disadvantages of this type of rotors is that it is quite difficult to control power output by pitching the rotor blades, they are not self - starting and they have low tip-speed ratio [3]. Horizontal - axis wind turbines (HAWT) are convectional wind turbines and unlikely the VAWT are not omnidirectional. As the wind changes direction, HAWTs must change direction with it. They must have some means for orienting the rotor with respect to the wind.
 
@@ -50,7 +50,7 @@ The two configurations have instantly distinguishable rotor designs, each with i
 
 High rotor efficiency is desirable for increased wind energy extraction and should be maximized within the limits of affordable production. Energy (P) carried by moving air is expressed as a sum of its kinetic energy [Equation (1)]:
 
-![Equation (1)](../images/va5-eq1.jpg)
+![Equation (1)](va5-eq1.jpg)
 
 A physical limit exists to the quantity of energy that can be extracted, which is independent of design. The energy extraction is maintained in a flow process through the reduction of kinetic energy and subsequent velocity of the wind. The magnitude of energy harnessed is a function of the reduction in air speed over the turbine. 100% extraction would imply zero final velocity and therefore zero flow. The zero flow scenario cannot be achieved hence all the winds kinetic energy may not be utilised. This principle is widely accepted and indicates that wind turbine efficiency cannot exceed 59.3%. This parameter is commonly known as the power coefficient Cp, where max Cp = 0.593 referred to as the Betz limit. The Betz theory assumes constant linear velocity. Therefore, any rotational forces such as wake rotation, turbulence caused by drag or vortex shedding (tip losses) will further reduce the maximum efficiency.
 
@@ -67,7 +67,7 @@ In practice rotor designs suffer from the accumulation of minor losses resulting
 
 Table. 1: Comparison of wind turbines.
 
-![Table. 1: Comparison of wind turbines.](../images/va5-fig2.jpg)
+![Table. 1: Comparison of wind turbines.](va5-fig2.jpg)
 
 ### J- Type Vertical Axis Wind Turbine
 
@@ -90,39 +90,39 @@ The wind turbine parameters considered in the design process are:
 
 The wind turbine works on the principle of converting kinetic energy of the wind to mechanical energy. The kinetic energy of any particle is equal to one half its mass times the square of its velocity,
 
-![Equations in Section 3.1](../images/va5-eq2.jpg)
+![Equations in Section 3.1](va5-eq2.jpg)
 
-![Design of Turbine Blades [6]](../images/va5-eq3.jpg)
+![Design of Turbine Blades [6]](va5-eq3.jpg)
 
 Fig 3: Blade parameters
 
-![Fig 3: Blade parameters](../images/va5-fig3.jpg)
+![Fig 3: Blade parameters](va5-fig3.jpg)
 
 Block diagram
 
 Fig. 4: Block Diagram
 
-![Fig. 4: Block Diagram](../images/va5-fig4.jpg)
+![Fig. 4: Block Diagram](va5-fig4.jpg)
 
 ## 4. CAD DESIGN
 
 ### Wooden frame
 
-![Wooden frame](../images/va5-fig5.jpg)
+![Wooden frame](va5-fig5.jpg)
 
 ### Blades
 
-![Blades drawing](../images/va5-fig6.jpg)
+![Blades drawing](va5-fig6.jpg)
 
-![Blades](../images/va5-fig7.jpg)
+![Blades](va5-fig7.jpg)
 
 ### Exploded view
 
-![Exploded view](../images/va5-fig8.jpg)
+![Exploded view](va5-fig8.jpg)
 
 ### Assembly
 
-![Assembly](../images/va5-fig9.jpg)
+![Assembly](va5-fig9.jpg)
 
 ## 5. DESIGN SPECIFICATIONS
 

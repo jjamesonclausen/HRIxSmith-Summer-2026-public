@@ -23,9 +23,9 @@ A Savonius variant with the scoop geometry twisted helically around the shaft. (
 - Listed in the report as one of the Savonius forms examined in the design space. (source: sources/HRI2526.md)
 - Used as part of hybrid configurations in the report's concept search. (source: sources/HRI2526.md)
 
-![Source figure](../../images/vj12-fig18.jpg)
+![Source figure](vj12-fig18.jpg)
 Original caption: Figure 18: Top and side view of wind rotor shapes with different twist angle [95]. [[vj12|Source]]
-![Source figure](../../images/vj12-fig19.jpg)
+![Source figure](vj12-fig19.jpg)
 Original caption: Figure 19: Comparison of helical and conventional Savonius rotor [81]. [[vj12|Source]]
 
 Related:

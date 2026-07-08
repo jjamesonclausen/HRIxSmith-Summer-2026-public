@@ -16,7 +16,7 @@ This paper compares grid partitioning, subtractive clustering, and fuzzy c-means
 
 Related pages: [[PSO-ANFIS Forecasting]], [[Wind Turbine Parameters]]
 
-![Source figure](../../images/vj16-fig4.jpg)
+![Source figure](vj16-fig4.jpg)
 Original caption: Fig. 4. Wind speed distribution of Eastern Cape Province, South Africa. The location with a placemark is where the data was collected. [[vj16|Source]]
 
 #summaries

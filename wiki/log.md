@@ -47,6 +47,19 @@
   - The calendar assumes the current Tuesday HRI cadence and daily professor meetings remain stable across the full project window.
   - The schedule still depends on resolving BOS siting assumptions and getting a CFD workflow that is trustworthy by the end of Week 2.
 
+### 2026-07-08 - Update live path references after repo folder restructure
+
+- Task: inspect the current repo restructure and update live notes that still depended on the old folder paths.
+- Actions:
+  - Checked the current tree and confirmed that planning notes moved to `active/planning/`, the design-brief files moved to `active/analysis/`, and attachments moved under `attachments/`.
+  - Updated `active/planning/Work Plan A1.md` and `active/planning/Work Plan A2.md` so their BOS brief references now point to `active/analysis/Design goal.pdf`.
+  - Updated `sources/va4.md` so its source-path note now points to `attachments/PDFs/va4_raw.pdf`.
+  - Updated the remaining `va16` image embeds in `sources/va16.md`, `wiki/summaries/va16-summary.md`, `wiki/parameters/va16 Span-to-Diameter Ratio (H-D).md`, `wiki/parameters/va16 Solidity.md`, and `wiki/methods/Panel Method.md` from the old root `images/` folder to `attachments/images/`.
+- Decisions:
+  - Left historical log entries unchanged even when they mention old paths, because they are records of earlier repo states rather than live navigation targets.
+- Open:
+  - The `va16` image files themselves do not currently appear to exist under `attachments/images/`, so those embeds now match the new folder structure but still need the actual files to be present before they will render.
+
 ### 2026-07-08 - Export all_wind_data wind-speed histogram
 
 - Task: create a histogram of wind speeds from `wind data/all_wind_data.txt`.

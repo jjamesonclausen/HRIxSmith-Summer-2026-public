@@ -18,7 +18,7 @@ Rated power (W):
 
 This page covers the small simulated straight-bladed VAWT geometry used in `vj22` to compare blade airfoils and blade number for low-wind-speed operation. (source: sources/vj22.md)
 
-![Source figure](../../images/vj22-fig3.jpg)
+![Source figure](vj22-fig3.jpg)
 Original caption: Fig. 3 Side view of the rotor blade design [[vj22|Source]]
 
 - The simulated rotor uses `0.66 m` turbine height, `0.167 m` chord length, and `1.00 m` blade radius. (source: sources/vj22.md)

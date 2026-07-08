@@ -17,11 +17,11 @@ This paper studies how vertical wind shear affects the aerodynamic performance a
 - The maximum local power reduction reported for the 20-slice case occurs around 70-80% of blade length and is about 4.4%. (source: sources/vj10.md)
 
 Figures:
-- ![Source figure](../../images/vj10-fig2.jpg)
+- ![Source figure](vj10-fig2.jpg)
   Original caption: Figure 2: Schematic view of designed wind turbine. [[vj10|Source]]
-- ![Source figure](../../images/vj10-fig3.jpg)
+- ![Source figure](vj10-fig3.jpg)
   Original caption: Figure 3: Wind speed in the case of sheared inflow and no shear. [[vj10|Source]]
-- ![Source figure](../../images/vj10-fig11.jpg)
+- ![Source figure](vj10-fig11.jpg)
   Original caption: Figure 11: Distribution of power coefficient. [[vj10|Source]]
 
 Related pages: [[Wind Shear]], [[Blade Element-Momentum Model]], [[Wind Turbine Parameters]], [[Atmospheric Turbulence]], [[Urban Wind Conditions]]

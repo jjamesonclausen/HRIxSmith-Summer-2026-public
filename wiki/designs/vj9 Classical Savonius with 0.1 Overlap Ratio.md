@@ -24,7 +24,7 @@ The `vj9` source uses a classical two-bladed Savonius rotor with overlap ratio `
 - The source uses circular end plates with diameter about 10% larger than rotor diameter (`dep = 1.1d`). (source: sources/vj9.md)
 - The optimization and validation work is centered near TSR 0.9 and wind speed 12 m/s. (source: sources/vj9.md)
 
-![Source figure](../../images/vj9-fig1.jpg)
+![Source figure](vj9-fig1.jpg)
 Original caption: Figure 1: Schematic of Savonius-type VAWT. [[vj9|Source]]
 
 ## Unique Design Choices

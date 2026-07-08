@@ -64,9 +64,9 @@ The motive power of a horizontal wind turbine is either the lift force, drag for
 
 Figure 1. Wind turbine diagram for (a) VAWT parts [19] and (b) HAWT parts [20]
 
-![Figure 1(a): VAWT parts](../images/va6-fig1.jpg)
+![Figure 1(a): VAWT parts](va6-fig1.jpg)
 
-![Figure 1(b): HAWT parts](../images/va6-fig2.jpg)
+![Figure 1(b): HAWT parts](va6-fig2.jpg)
 
 ### 2.2. Characteristics of VAWT and HAWT
 
@@ -78,7 +78,7 @@ With the passage of time, the capacity for wind turbines increases, as well as t
 
 Wind energy can definition that the energy contained in the wind by motion, it is called kinetic energy. Also, it is depending on velocity of motion fluid and its mass. Kinetic energy can calculate by (1) [27].
 
-![Equations (1)-(5)](../images/va6-eq1-5.jpg)
+![Equations (1)-(5)](va6-eq1-5.jpg)
 
 From (5) the amount of power produced by the turbine depends on density of air, area of circle that rotor make, velocity of wind which is have major effect because its cubic and power coefficient. All increase of one or more of them will enhance wind turbine power.
 
@@ -94,11 +94,11 @@ Followed by Figure 3 which is represent the variance in rotor power coefficient 
 
 Figure 2. Diagram showing some types of wind turbines and their rotor power coefficient and tip speed ratio [22]
 
-![Figure 2. Diagram showing some types of wind turbines and their rotor power coefficient and tip speed ratio [22]](../images/va6-fig3.jpg)
+![Figure 2. Diagram showing some types of wind turbines and their rotor power coefficient and tip speed ratio [22]](va6-fig3.jpg)
 
 Figure 3. Wind turbines rotor power coefficient and the tip speed ratio for several wind turbines
 
-![Figure 3. Wind turbines rotor power coefficient and the tip speed ratio for several wind turbines](../images/va6-fig4.jpg)
+![Figure 3. Wind turbines rotor power coefficient and the tip speed ratio for several wind turbines](va6-fig4.jpg)
 
 ### 3.2. Wind turbine efficiency
 
@@ -106,7 +106,7 @@ Table 1 shows some characteristics of a group of wind turbines also the characte
 
 Figure 4. Wind turbines peak efficiencies
 
-![Figure 4. Wind turbines peak efficiencies](../images/va6-fig5.jpg)
+![Figure 4. Wind turbines peak efficiencies](va6-fig5.jpg)
 
 Table 1. Comparison of efficiency between some types of HAWT and VAWT [28]
 
@@ -147,15 +147,15 @@ Table 2. Comparison between the power, for the HAWT and the VAWT in several wind
 
 Figure 5. Wind turbines properties at the same nominal power
 
-![Figure 5. Wind turbines properties at the same nominal power](../images/va6-fig6.jpg)
+![Figure 5. Wind turbines properties at the same nominal power](va6-fig6.jpg)
 
 Figure 6. Wind turbines power, and wind velocity for the HAWT and VAWT [35]
 
-![Figure 6. Wind turbines power, and wind velocity for the HAWT and VAWT [35]](../images/va6-fig7.jpg)
+![Figure 6. Wind turbines power, and wind velocity for the HAWT and VAWT [35]](va6-fig7.jpg)
 
 Figure 7. Wind turbines power according wind velocity
 
-![Figure 7. Wind turbines power according wind velocity](../images/va6-fig8.jpg)
+![Figure 7. Wind turbines power according wind velocity](va6-fig8.jpg)
 
 #### 3.3.2. Vertical axis wind turbine VAWT
 
@@ -169,7 +169,7 @@ Table 3 shows many comparisons between (HAWT and VAWT). At the beginning the tor
 
 Figure 8. VAWT in offshore site [41]
 
-![Figure 8. VAWT in offshore site [41]](../images/va6-fig9.jpg)
+![Figure 8. VAWT in offshore site [41]](va6-fig9.jpg)
 
 ## 4. CONCLUSION
 

@@ -15,10 +15,10 @@ This `vj20` study directly compares rough and smoothed rotor-blade surfaces on t
 - The source reports a roughness-to-chord ratio of `0.008` before smoothing and `0.0004` after smoothing with fine-grid glass paper. (source: sources/vj20.md)
 - The authors state that changes in dimensions and profile shape after smoothing were negligible. (source: sources/vj20.md)
 
-![Source figure](../../images/vj20-fig7.jpg)
+![Source figure](vj20-fig7.jpg)
 Original caption: Figure 7. Comparison of rotor blade surface (a) rough surface and (b) smooth surface; the figure shows a significant difference for both the blades. [[vj20|Source]]
 
-![Source figure](../../images/vj20-fig8.jpg)
+![Source figure](vj20-fig8.jpg)
 Original caption: Figure 8. Variation of Cp versus tip speed ratio (TSR) for rough and smooth surfaces at various wind speeds; the figure represents that for the wind speeds of 2 and 3 m/s, the rough surface has improved efficiency than the smooth surface. Above a wind speed of 3 m/s, the smooth surface resulted in more Cp at all TSR values. [[vj20|Source]]
 
 ## Outcome

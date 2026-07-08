@@ -25,7 +25,7 @@ The `va13` study presents a combined rooftop VAWT that merges helical/Darrieus a
 - The outer Darrieus/helical rotor diameter is 1.05 m and height is 1.52 m. (source: sources/va13.md)
 - Reported total swept area is 1.45 m2. (source: sources/va13.md)
 
-![Source figure](../../images/va13-fig6.jpg)
+![Source figure](va13-fig6.jpg)
 Original caption: Figure 6. Turbine designs for each case and rooftop installation (developed by authors). [[va13|Source]]
 
 ## Unique Design Choices

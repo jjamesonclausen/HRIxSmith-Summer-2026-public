@@ -13,7 +13,7 @@ The `va15` study compares two blade spans, keeping chord fixed, to test how aspe
 
 - The tested aspect ratios are `AR = 7` and `AR = 6`, obtained from blade spans of 700 mm and 600 mm with the same 100 mm chord. (source: sources/va15.md)
 
-![Source figure](../../images/va15-fig20.jpg)
+![Source figure](va15-fig20.jpg)
 Original caption: FIGURE 20 Self-starting time-varying results for turbine with different blade aspect ratios at sigma = 1.0 [[va15|Source]]
 
 ## Outcome

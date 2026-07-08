@@ -9,9 +9,9 @@ Tags: #summaries
 
 Design-and-validation paper for a `100 W` urban-targeted helical VAWT, combining IEC-based sizing, a low-TSR mathematical model with CFD-derived airfoil coefficients, and wind-tunnel testing. (source: sources/va22.md)
 
-![Source figure](../../images/va22-fig6.jpg)
+![Source figure](va22-fig6.jpg)
 Original caption: Figure 6. 100-W helical-blade vertical-axis wind turbine. [[va22|Source]]
-![Source figure](../../images/va22-fig9.jpg)
+![Source figure](va22-fig9.jpg)
 Original caption: Figure 9. Graph of power output according to wind velocity obtained from wind tunnel test (symbols: test results; lines: fitting curve). [[va22|Source]]
 
 Key points:

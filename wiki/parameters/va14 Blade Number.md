@@ -14,7 +14,7 @@ The `va14` study compares 2-, 3-, and 4-bladed Darrieus H-type VAWTs to evaluate
 - The paper studies turbines with 2, 3, and 4 blades. (source: sources/va14.md)
 - It compares them at fixed Reynolds number and identical solidity and tip-speed ratio to isolate blade-number effects. (source: sources/va14.md)
 
-![Source figure](../../images/va14-fig16.jpg)
+![Source figure](va14-fig16.jpg)
 Original caption: Fig. 16. Power coefficients versus tip speed ratio and solidity for 2-, 3-, and 4-bladed VAWTs with fixed Rec at identical l e s positions (TI = 5%). [[va14|Source]]
 
 ## Outcome

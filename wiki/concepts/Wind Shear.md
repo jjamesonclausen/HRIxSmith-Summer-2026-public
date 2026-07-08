@@ -22,9 +22,9 @@ Effects on turbines:
 - In the va18 urban campus study, the high-wind channel through the western site modified the local vertical shear and brought stronger winds closer to the ground than at the more wake-dominated eastern site. (source: sources/va18.md)
 
 Figures:
-- ![Source figure](../../images/vj10-fig3.jpg)
+- ![Source figure](vj10-fig3.jpg)
   Original caption: Figure 3: Wind speed in the case of sheared inflow and no shear. [[vj10|Source]]
-- ![Source figure](../../images/vj10-fig11.jpg)
+- ![Source figure](vj10-fig11.jpg)
   Original caption: Figure 11: Distribution of power coefficient. [[vj10|Source]]
 
 Related:

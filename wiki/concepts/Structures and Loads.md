@@ -25,7 +25,7 @@ This page collects the load and structural issues that shape a VAWT design.
 - It also cites experimental evidence that high-solidity H-type VAWTs can show significant resonance in the supporting struts, with vibration response strongly tied to rotor rotational frequency and changing flow conditions. (source: sources/vj26.md)
 - For offshore VAWTs, the same review identifies gyroscopic effects and large overturning moments as central structural problems, and points to V-shaped rotors with sails and rotating float concepts as attempts to reduce those loads. (source: sources/vj26.md)
 
-![Source figure](../../images/va8-fig2.jpg)
+![Source figure](va8-fig2.jpg)
 Original caption: Figure 2: Vertical cross section of the turbine shaft. [[va8|Source]]
 
 Related:

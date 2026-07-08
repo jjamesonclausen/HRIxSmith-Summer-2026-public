@@ -25,9 +25,9 @@ The `va22` paper presents a small helical lift-type VAWT designed for urban use 
 - The aspect ratio is `1.3`, and the rated rotational speed is `170 rpm`. (source: sources/va22.md)
 - The source says the axis, hubs, and struts were designed according to IEC `61400-2`, with FRP blades and a carbon-steel rotating shaft pipe of outer diameter `60.5 mm`. (source: sources/va22.md)
 
-![Source figure](../../images/va22-fig6.jpg)
+![Source figure](va22-fig6.jpg)
 Original caption: Figure 6. 100-W helical-blade vertical-axis wind turbine. [[va22|Source]]
-![Source figure](../../images/va22-fig1.jpg)
+![Source figure](va22-fig1.jpg)
 Original caption: Figure 1. Basic design parameters of the vertical wind turbine. [[va22|Source]]
 
 ## Unique Design Choices

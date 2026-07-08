@@ -9,9 +9,9 @@ Tags: #summaries
 
 Urban wind-resource assessment paper for the MIT campus that combines met-tower measurements, CFD, and multiple climatology-transfer methods to compare two candidate small-turbine sites. (source: sources/va18.md)
 
-![Source figure](../../images/va18-fig4.jpg)
+![Source figure](va18-fig4.jpg)
 Original caption: Figure 4: Spatial analysis of wind resource - GIS site map with directional wind statistics at met towers locations [[va18|Source]]
-![Source figure](../../images/va18-fig13.jpg)
+![Source figure](va18-fig13.jpg)
 Original caption: Figure 13: Mean Wind Power Density (W/m2), Horizontal section 20m above the ground; Mean Wind Power Density (W/m2), Vertical cross-section through MT1 and MT2; Mean Turbulence Intensity, Vertical cross-section through MT1 and MT2. [[va18|Source]]
 
 Key points:

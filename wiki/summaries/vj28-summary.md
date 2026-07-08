@@ -16,10 +16,10 @@ This paper is a design-guidance and airfoil-screening study for smaller-capacity
 - In the public-domain comparison, the paper does not find one complete winner: `S1210` leads several positive-incidence performance metrics, `NLF(1)-0416` has the widest low-Re drag bucket, `LS(1)-0417` is least roughness-sensitive in `Cdo`, and `NACA 4415` is the quietest in the `NAFNoise` comparison. (source: sources/vj28.md)
 - It ends by calling for purpose-built low-Re SB-VAWT airfoils rather than naming a final best section, because the available candidates each miss some desired traits and several dedicated VAWT airfoils could not be fully assessed. (source: sources/vj28.md)
 
-![Source figure](../../images/vj28-fig8.jpg)
+![Source figure](vj28-fig8.jpg)
 Original caption: Figure 8. Geometries of Selected Asymmetric Airfoils [[vj28|Source]]
 
-![Source figure](../../images/vj28-fig22.jpg)
+![Source figure](vj28-fig22.jpg)
 Original caption: Figure 22. Geometric Features of a Typical Asymmetric Airfoil [[vj28|Source]]
 
 > Uncertainty: the candidate-airfoil comparison is partly based on `XFOIL` plus `FoilCheck` / deep-stall extrapolation rather than a full unsteady rotating-blade validation campaign, and the nose-radius / deep-stall relation used in the paper comes from a much higher Reynolds number regime. (source: sources/vj28.md)

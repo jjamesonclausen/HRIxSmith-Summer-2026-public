@@ -25,9 +25,9 @@ The `va24` paper studies a straight-bladed Darrieus rotor under active variable-
 
 > Discrepancy: The source results repeatedly refer to a `3`-bladed rotor, but the validation table included in the same paper lists a `2`-bladed reference turbine with `R = 3 m`, `h = 6 m`, and `c = 0.2 m` for model validation. The paper does not cleanly separate those two parameter sets. (source: sources/va24.md)
 
-![Source figure](../../images/va24-fig9.jpg)
+![Source figure](va24-fig9.jpg)
 Original caption: Fig. 9. Comparison of Cp against different TSR from 2 to 9 for fixed blades compared against active blade pitching model techniques 1 and 2. [[va24|Source]]
-![Source figure](../../images/va24-fig11.jpg)
+![Source figure](va24-fig11.jpg)
 Original caption: Fig. 11. Instantaneous Coefficient of Performance (Cp) as a function of one blade azimuth position obtained using Variable blade pitching technique 1 and 2 compared to fixed 3 blade rotor configuration at TSR 4 (a, b), 5(c, d), and 6 (e, f). [[va24|Source]]
 
 ## Unique Design Choices

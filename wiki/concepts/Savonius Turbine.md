@@ -9,7 +9,7 @@ Tags: #concepts
 
 Drag-based VAWT using scooped blades. (source: sources/n1.md, sources/va1.md)
 
-![Source figure](../../images/vj2-fig1.jpg)
+![Source figure](vj2-fig1.jpg)
 Original caption: Figure 1: Basic design of a Savonius rotor [[vj2|Source]]
 
 - Geometry:
@@ -40,9 +40,9 @@ Original caption: Figure 1: Basic design of a Savonius rotor [[vj2|Source]]
 - Suffers from negative torque on returning blade, reducing efficiency. (source: sources/HRI2526.md)
 - Optimization includes blade count, overlap ratio, and augmentation devices. (source: sources/HRI2526.md)
 
-![Source figure](../../images/vj12-fig12.jpg)
+![Source figure](vj12-fig12.jpg)
 Original caption: Figure 12: Savonius rotor with endplates [19]. [[vj12|Source]]
-![Source figure](../../images/vj12-fig19.jpg)
+![Source figure](vj12-fig19.jpg)
 Original caption: Figure 19: Comparison of helical and conventional Savonius rotor [81]. [[vj12|Source]]
 
 The review places Savonius operation around TSR 0.6-1.2 and peak Cp about 0.15-0.25, with self-starting as the main advantage. (source: sources/vj11.md)
@@ -62,7 +62,7 @@ In hybrid systems, Savonius is the startup element that helps cover Darrieus neg
 - It also summarizes several passive improvement levers for drag rotors: blade vents, top and bottom caps, middle plates, curtain vanes, wing-wall shielding, and twisted blades. (source: sources/vj26.md)
 - One cited stirring application in the review reports a twisted two-bladed drag rotor outperforming the three-bladed case, with an optimum twist angle near `30 degrees` for that use. (source: sources/vj26.md)
 
-![Source figure](../../images/va3-fig10.jpg)
+![Source figure](va3-fig10.jpg)
 Original caption: Figure 10. Evolution of the Savonius design for water pumping from half drums into the fluted spiral bladed design. [[va3|Source]]
 
 - Two-bladed configurations often achieve higher power coefficients. (source: sources/n2.md)

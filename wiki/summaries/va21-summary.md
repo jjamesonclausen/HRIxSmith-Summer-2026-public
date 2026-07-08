@@ -9,9 +9,9 @@ Tags: #summaries
 
 Experimental and CFD study of a small rooftop VAWT installed on a Kolkata building, focused on the prototype's mechanical layout, electrical output, vibration behavior, and numerical validation. (source: sources/va21.md)
 
-![Source figure](../../images/va21-fig3.jpg)
+![Source figure](va21-fig3.jpg)
 Original caption: Figure 3. Major components of the WT: (a) isometric view and (b) photographic view. Legends: 1. Blades (04 in count); 2. Holding table; 3. Vertical axis of rotation; 4. Table legs (04 in count); 5. Threaded stud (04 in number); 6. Electrical motor (DC to AC); 7. Large spur gear; 8. Hollow flanged attachment (source: Shantanu Dutta). [[va21|Source]]
-![Source figure](../../images/va21-fig22.jpg)
+![Source figure](va21-fig22.jpg)
 Original caption: Figure 22. Comparison between computed and measured parameters: (a) rotor speed, (b) DC voltage and (c) power (source: Authors' elaboration). [[va21|Source]]
 
 Key points:

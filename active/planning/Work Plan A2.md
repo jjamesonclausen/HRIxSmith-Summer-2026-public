@@ -5,9 +5,9 @@ Tags: #planning
 ---
 ## Work Plan A2
 
-This note turns the `5.5`-week path from [[analysis/planning/Work Plan A1|Work Plan A1]] into a dated working calendar.
+This note turns the `5.5`-week path from [[Work Plan A1|Work Plan A1]] into a dated working calendar.
 
-Technical sequencing is based on [[CFD and Validation]], [[Design Checklist]], and the BOS framing in `analysis/Design goal.pdf`.
+Technical sequencing is based on [[CFD and Validation]], [[Design Checklist]], and the BOS framing in `active/analysis/Design goal.pdf`.
 
 > Unverified: The meeting cadence and staffing assumptions below come from the current project brief in chat, not from a repo source file.
 
@@ -37,7 +37,7 @@ Weekly goals:
 
 ### Wednesday 2026-07-08 Afternoon
 
-- [ ] Review [[analysis/planning/Work Plan A1|Work Plan A1]] together and agree that the primary path is concept lock, then CFD validation, then a narrow parameter study.
+- [ ] Review [[Work Plan A1|Work Plan A1]] together and agree that the primary path is concept lock, then CFD validation, then a narrow parameter study.
 - [ ] Define the live project folders and logs you will actually maintain: wiki notes, project log, Zookeeper prompt log, CFD case log, and report draft location.
 - [ ] Create a short running question list for your professor and HRI.
 - [ ] Decide who owns the first pass of CAD organization and who owns the first pass of CFD organization.
@@ -256,7 +256,7 @@ Weekly goals:
 
 ## Related
 
-- [[analysis/planning/Work Plan A1|Work Plan A1]]
+- [[Work Plan A1|Work Plan A1]]
 - [[CFD and Validation]]
 - [[Design Checklist]]
 - [[Annual Energy Output]]

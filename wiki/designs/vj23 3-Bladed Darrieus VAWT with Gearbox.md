@@ -18,7 +18,7 @@ Rated power (W):
 
 This page covers the specific Darrieus-type VAWT sketched in `vj23`, which uses three blades and a gearbox-chain drive to the generator. (source: sources/vj23.md)
 
-![Source figure](../../images/vj23-fig5.jpg)
+![Source figure](vj23-fig5.jpg)
 Original caption: Figure 5. Vertical Axis Wind Turbine Type of Darrieus [[vj23|Source]]
 
 - The source says the design uses `3` blades. (source: sources/vj23.md)

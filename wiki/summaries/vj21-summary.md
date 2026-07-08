@@ -19,10 +19,10 @@ This paper is a design-parameter analysis for smaller-capacity fixed-pitch strai
 
 Related pages: [[Straight-bladed Darrieus]], [[VAWT Aerodynamic Design Parameters]], [[Materials and Manufacturing]], [[Design Checklist]], [[Rules of Thumb]], [[vj21 Blade Airfoil]], [[vj21 Supporting Strut Shape]], [[vj21 Blade Material]], [[vj21 Blade Number]]
 
-![Source figure](../../images/vj21-fig1.jpg)
+![Source figure](vj21-fig1.jpg)
 Original caption: Figure 1: The Main Components of a Typical SB-VAWT [[vj21|Source]]
 
-![Source figure](../../images/vj21-fig6.jpg)
+![Source figure](vj21-fig6.jpg)
 Original caption: Figure 6: Illustration of a Typical Power Curve of a 3kW SB-VAWT [[vj21|Source]]
 
 #summaries

@@ -14,7 +14,7 @@ Airfoil concept in which the blade shape is actively or adaptively changed so th
 - The paper presents its symmetric-airfoil optimization study as a step toward morphing blades by identifying which shape is best at `lambda = 2.5` and which is best at `lambda = 3.0`. (source: sources/va27.md)
 - It reports the optimum shape changing from `NACA0024e4.5/3.5` at `lambda = 2.5` to `NACA0018e4.5/2.75` at `lambda = 3.0`, which is exactly the kind of operating-point dependence that motivates morphing geometry. (source: sources/va27.md)
 
-![Source figure](../../images/va27-fig15.jpg)
+![Source figure](va27-fig15.jpg)
 Original caption: Fig. 15. Optimal airfoil shapes for lambda = 2.5 and 3.0. [[va27|Source]]
 
 Related:

@@ -14,7 +14,7 @@ The study varies center-to-center spacing to determine how closely interacting t
 - Co-rotating arrays were tested at 1.25 D, 1.5 D, 2 D, and 3 D spacing. (source: sources/va12.md)
 - The detailed three-dimensional flow study then focused on 1.5 D spacing because it preserved strong interaction while still resolving the accelerated flow region between rotors. (source: sources/va12.md)
 
-![Source figure](../../images/va12-fig5.jpg)
+![Source figure](va12-fig5.jpg)
 Original caption: Figure 5. Normalized performance of (a) Turbine 1 and (b) Turbine 2 versus adjusted array angle (phi*) for turbine spacings of 1.25 D, 1.5 D, 2 D, and 3 D in a clockwise, co-rotating array. Error bands represent plus or minus one standard deviation from the mean measurement. [[va12|Source]]
 
 ## Outcome

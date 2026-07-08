@@ -14,7 +14,7 @@ The `vj25` paper uses a calculation code based on the Multiple Stream Tube Model
 - The paper says the process is iterative because geometry changes the Reynolds number, and that numerical convergence usually needs only `2` or `3` iterations. (source: sources/vj25.md)
 - In the presented example, the MSTM is used as the core design-performance model rather than as a final experimental validation method. (source: sources/vj25.md)
 
-![Source figure](../../images/vj25-fig8.jpg)
+![Source figure](vj25-fig8.jpg)
 Original caption: Fig. 8 VAWT design flowchart [[vj25|Source]]
 
 Related: [[H-VAWT]], [[Wind Turbine Parameters]], [[Double-Multiple Streamtube Model]], [[vj25-summary]]

@@ -15,7 +15,7 @@ This `vj25` paper studies rotor aspect ratio in a straight-bladed H-rotor, defin
 - It argues that for fixed design power, lowering `AR` increases `R`, which also increases chord `c`, and therefore raises blade Reynolds number. (source: sources/vj25.md)
 - The same geometric change also lowers rotational speed because `omega` is inversely proportional to `R` in the paper's design equations. (source: sources/vj25.md)
 
-![Source figure](../../images/vj25-fig6.jpg)
+![Source figure](vj25-fig6.jpg)
 Original caption: Fig. 6 How aspect ratio influences Reynolds number and rotational velocity, for different design powers [[vj25|Source]]
 
 ## Outcome

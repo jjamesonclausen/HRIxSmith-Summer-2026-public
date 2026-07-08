@@ -9,9 +9,9 @@ Tags: #summaries
 
 Primary panel-method study on straight-bladed H-type VAWTs, focused on how rotor span-to-diameter ratio and solidity affect power coefficient and spanwise vortex behavior. (source: sources/va16.md)
 
-![Source figure](../../images/va16-fig5.jpg)
+![Source figure](../../attachments/images/va16-fig5.jpg)
 Original caption: Fig. 5. Fluctuations of power coefficient are compared with a fixed solidity in different rotor aspect ratios, depending on the tip speed ratio lambda. The ratio of the diameter and blade span length are H/D = 0.4, 0.6, 0.9 and 1.2. [[va16|Source]]
-![Source figure](../../images/va16-fig9.jpg)
+![Source figure](../../attachments/images/va16-fig9.jpg)
 Original caption: Fig. 9. Fluctuation of power coefficient curve against the tip speed ratio lambda in the case of the fixed aspect ratio. [[va16|Source]]
 
 Key points:

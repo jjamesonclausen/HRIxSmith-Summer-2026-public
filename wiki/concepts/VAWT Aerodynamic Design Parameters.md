@@ -46,15 +46,15 @@ The vj17 study adds CST curvature coefficients as airfoil-shape design knobs for
 - The same paper compares EN0005 with NACA0018, NACA0020, NACA4418, and NACA4420 using pressure-coefficient contributions to tangential and normal force. (source: sources/va9.md)
 - It reports EN0005 has better lift coefficient between -60 and -10 degrees, lower drag coefficient in that same interval, and a higher moment-coefficient peak between -30 and 0 degrees than the compared profiles. (source: sources/va9.md)
 
-![Source figure](../../images/va8-fig4.jpg)
+![Source figure](va8-fig4.jpg)
 Original caption: Figure 4: Cross sectional view showing the blade having the asymmetrical airfoil profile. [[va8|Source]]
-![Source figure](../../images/va8-fig5.jpg)
+![Source figure](va8-fig5.jpg)
 Original caption: Figure 5: Relation between lift coefficient and angle of attack. [[va8|Source]]
-![Source figure](../../images/va9-fig7.jpg)
+![Source figure](va9-fig7.jpg)
 Original caption: Fig. 7. Cpr contribution to Tpr. [[va9|Source]]
-![Source figure](../../images/va9-fig9.jpg)
+![Source figure](va9-fig9.jpg)
 Original caption: Fig. 9. Lift coefficient. [[va9|Source]]
-![Source figure](../../images/va14-fig3.jpg)
+![Source figure](va14-fig3.jpg)
 Original caption: Fig. 3. Contours of power and thrust coefficients in l e s space for 2-, 3- and 4-bladed VAWTs with the same Rec at identical l e s positions. Each contour plot is based on 48 simulations (TI = 5%). [[va14|Source]]
 
 Related:

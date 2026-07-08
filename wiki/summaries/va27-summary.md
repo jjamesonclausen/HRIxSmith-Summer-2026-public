@@ -9,9 +9,9 @@ Tags: #summaries
 
 High-fidelity CFD airfoil-shape characterization for a low-solidity Darrieus H-type VAWT in deep dynamic stall, focused on the coupled effects of thickness, thickness position, and leading-edge radius. (source: sources/va27.md)
 
-![Source figure](../../images/va27-fig14.jpg)
+![Source figure](va27-fig14.jpg)
 Original caption: Fig. 14. Turbine CP in t/c - xt/c space. Each contour plot is based on 42 simulations. Note the difference in range of colormaps. [[va27|Source]]
-![Source figure](../../images/va27-fig15.jpg)
+![Source figure](va27-fig15.jpg)
 Original caption: Fig. 15. Optimal airfoil shapes for lambda = 2.5 and 3.0. [[va27|Source]]
 
 Key points:

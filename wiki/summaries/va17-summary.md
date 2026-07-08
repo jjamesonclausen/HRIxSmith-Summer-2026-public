@@ -9,9 +9,9 @@ Tags: #summaries
 
 MIT campus rooftop-wind siting thesis that uses CFD to compare Eastgate dormitory and Johnson Athletic Center as candidates for small building-mounted wind turbines. (source: sources/va17.md)
 
-![Source figure](../../images/va17-fig2.jpg)
+![Source figure](va17-fig2.jpg)
 Original caption: Figure 2. Diagram showing wind acceleration over edge of building. [[va17|Source]]
-![Source figure](../../images/va17-fig12.jpg)
+![Source figure](va17-fig12.jpg)
 Original caption: Figure 12. Region of peak wind velocity surrounding Johnson Athletic Center. [[va17|Source]]
 
 Key points:

@@ -37,17 +37,17 @@ It notes that 120 degrees gives smoother loading, while 60 degrees gave the best
 
 ## Figures
 
-![Source figure](../../images/va4-fig1.jpg)
+![Source figure](va4-fig1.jpg)
 Original caption: Figure 1. The sketch of HVAWT. [[va4|Source]]
-![Source figure](../../images/va4-fig14.jpg)
+![Source figure](va4-fig14.jpg)
 Original caption: Figure 14. Power coefficient results derived by 2D LES and 3D U-RANS methods for Rec = 60,800, TSR = 1.46. [[va4|Source]]
-![Source figure](../../images/va7-fig1.jpg)
+![Source figure](va7-fig1.jpg)
 Original caption: Figure 1. Top view of (a) Helical blade vertical axis wind turbines (VAWT) with definition of direction of rotation (θ) and [[va7|Source]]
-![Source figure](../../images/va7-fig7.jpg)
+![Source figure](va7-fig7.jpg)
 Original caption: Figure 7. Coefficient of performance of VAWT for various helix angles. [[va7|Source]]
-![Source figure](../../images/va7-fig14.jpg)
+![Source figure](va7-fig14.jpg)
 Original caption: Figure 14. The standard deviation of Cp of different helical-bladed and straight-bladed VAWT [[va7|Source]]
-![Source figure](../../images/va22-fig6.jpg)
+![Source figure](va22-fig6.jpg)
 Original caption: Figure 6. 100-W helical-blade vertical-axis wind turbine. [[va22|Source]]
 
 Related:

@@ -9,9 +9,9 @@ Tags: #methods
 
 CFD-aided method that reconstructs a spatial wind-resource climatology from measured wind statistics at one reference point, then extrapolates those statistics across the full domain. (source: sources/va18.md)
 
-![Source figure](../../images/va18-fig12.jpg)
+![Source figure](va18-fig12.jpg)
 Original caption: Figure 12. [[va18|Source]]
-![Source figure](../../images/va18-fig15.jpg)
+![Source figure](va18-fig15.jpg)
 Original caption: Figure 15: Input climatology for background Climatology Assimilation at MT1 90m [[va18|Source]]
 
 - The source's local version assimilates long-term climatology measured at one point inside the computational domain and reconstructs three-dimensional fields of mean wind speed, Weibull shape `k`, Weibull scale `A`, wind power density, and turbulence intensity. (source: sources/va18.md)

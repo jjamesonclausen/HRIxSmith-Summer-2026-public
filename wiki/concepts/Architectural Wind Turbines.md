@@ -22,13 +22,13 @@ Small wind turbines installed over the edges of building rooftops to use locally
 - That source frames rooftop VAWTs as compact building-integrated systems that must balance limited space, low and unsteady wind, noise, vibration, architectural fit, and biodiversity concerns. (source: sources/va21.md)
 - It also makes clear that the demonstrated electrical output is supplementary rather than a full replacement for household supply, even when the prototype operates satisfactorily at low to moderate wind speeds. (source: sources/va21.md)
 
-![Source figure](../../images/va17-fig2.jpg)
+![Source figure](va17-fig2.jpg)
 Original caption: Figure 2. Diagram showing wind acceleration over edge of building. [[va17|Source]]
-![Source figure](../../images/va17-fig12.jpg)
+![Source figure](va17-fig12.jpg)
 Original caption: Figure 12. Region of peak wind velocity surrounding Johnson Athletic Center. [[va17|Source]]
-![Source figure](../../images/va19-fig5.jpg)
+![Source figure](va19-fig5.jpg)
 Original caption: Figure 5. Diagram from AV proposal illustrating wind shear effect on the top of a building parapet. [[va19|Source]]
-![Source figure](../../images/va21-fig3.jpg)
+![Source figure](va21-fig3.jpg)
 Original caption: Figure 3. Major components of the WT: (a) isometric view and (b) photographic view. Legends: 1. Blades (04 in count); 2. Holding table; 3. Vertical axis of rotation; 4. Table legs (04 in count); 5. Threaded stud (04 in number); 6. Electrical motor (DC to AC); 7. Large spur gear; 8. Hollow flanged attachment (source: Shantanu Dutta). [[va21|Source]]
 
 Related:

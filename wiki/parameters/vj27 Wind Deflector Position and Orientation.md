@@ -15,10 +15,10 @@ This `vj27` review emphasizes that the installation position and orientation of 
 - It explicitly warns that the wrong orientation can reduce performance below the no-deflector case. (source: sources/vj27.md)
 - The review also says performance depends on whether the rotor is placed inside the near-wake region of the deflector or outside it. (source: sources/vj27.md)
 
-![Source figure](../../images/vj27-fig7.jpg)
+![Source figure](vj27-fig7.jpg)
 Original caption: Figure 7. Various installation angles and positions of flat-plate deflectors (adapted from [20]). [[vj27|Source]]
 
-![Source figure](../../images/vj27-fig8.jpg)
+![Source figure](vj27-fig8.jpg)
 Original caption: Figure 8. Power coefficient optimization of two-bladed and three-bladed Savonius turbine with flat-plate deflector (adapted from [77]). [[vj27|Source]]
 
 ## Outcome

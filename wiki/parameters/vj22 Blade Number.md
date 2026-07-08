@@ -15,10 +15,10 @@ This `vj22` study varies blade number on the simulated low-wind-speed rotor to c
 - It reports calculated `TSRmax` values of `4.2`, `2.5`, and `1.6` for `3`, `5`, and `8` blades respectively. (source: sources/vj22.md)
 - It also reports rotor solidity values of `0.51`, `0.85`, and `1.36` for `3`, `5`, and `8` blades respectively. (source: sources/vj22.md)
 
-![Source figure](../../images/vj22-fig9.jpg)
+![Source figure](vj22-fig9.jpg)
 Original caption: Fig. 9. Comparison of Cp against TSR for 3 blades [[vj22|Source]]
 
-![Source figure](../../images/vj22-fig12.jpg)
+![Source figure](vj22-fig12.jpg)
 Original caption: Fig. 12 Comparison of Cp against TSR of NACA 0015 for 3, 5 and 8 blades. [[vj22|Source]]
 
 ## Outcome

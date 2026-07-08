@@ -24,9 +24,9 @@ The `va27` paper uses a simplified one-bladed H-type Darrieus rotor as a computa
 - Reported baseline airfoil is `NACA0018` with `t/c = 18%`, `xt/c = 30%`, and `I = 6`. (source: sources/va27.md)
 - The table gives turbine diameter `1 m`, chord `0.06 m`, solidity `0.06`, freestream velocity `9.3 m/s`, and studied tip-speed ratios `2.5` and `3.0`. (source: sources/va27.md)
 
-![Source figure](../../images/va27-fig1.jpg)
+![Source figure](va27-fig1.jpg)
 Original caption: Fig. 1. Top view of the reference turbine (not to scale). The `(+)` and `(-)` signs denote the pressure and suction sides for `0 degrees <= q < 180 degrees`. [[va27|Source]]
-![Source figure](../../images/va27-fig2.jpg)
+![Source figure](va27-fig2.jpg)
 Original caption: Fig. 2. Schematic of (a) the computational domain (not to scale); (b-e) grid. [[va27|Source]]
 
 ## Unique Design Choices

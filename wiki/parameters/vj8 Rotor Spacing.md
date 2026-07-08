@@ -13,7 +13,7 @@ This `vj8` study changes the spacing between the upper and lower CRVAWT rotors t
 
 - The source analyzes spacing cases of 265 mm, 500 mm, 750 mm, and 1000 mm. (source: sources/vj8.md)
 
-![Source figure](../../images/vj8-fig15.jpg)
+![Source figure](vj8-fig15.jpg)
 Original caption: Fig. 15. Simulation results and analysis of rotor spacing. [[vj8|Source]]
 
 ## Outcome

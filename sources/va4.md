@@ -10,7 +10,7 @@ tags:
 
 # Aerodynamic Analysis of a Helical Vertical Axis Wind Turbine
 
-> Source: PDFs/va4_raw.pdf
+> Source: attachments/PDFs/va4_raw.pdf
 Article
 Qian Cheng 1, Xiaolan Liu 1, Ho Seong Ji 2, Kyung Chun Kim 2 and Bo Yang 1,*
 School of Mechanical Engineering, Shanghai Jiao Tong University, Shanghai 200240, China;
@@ -122,7 +122,7 @@ the blades to a generator. In this study, the arms and shaft were simplified in 
 behavior of the blades as well as reduce the meshing difficulty and computational resource demands.
 Some of the main geometrical parameters are listed in Table 1.
 
-![Figure 1](../images/va4-fig1.jpg)
+![Figure 1](va4-fig1.jpg)
 
 Figure 1. The sketch of HVAWT.
 Table 1. Main geometrical parameters of the tested model.
@@ -149,9 +149,9 @@ tip vortex and second flow, were then studied by 3D U-RANS simulation.
 In this paper, LES was adopted in the 2D flowing field simulation. In the LES algorithm, large
 scale eddies are explicitly solved, while the effects of smaller eddies are taken into account by a
 Sub-Grid-Scale model. The governing equations of LES are defined as:
-![Equation 1](../images/va4-eq1.jpg)
+![Equation 1](va4-eq1.jpg)
 
-![Equation 2](../images/va4-eq2.jpg)
+![Equation 2](va4-eq2.jpg)
 where τij is the subgrid stress, and can be calculated from ρ(uiuj − uiuj).
 The SIMPLEC scheme was used to couple the pressure-velocity field.
 For 2D LES spatial
@@ -185,7 +185,7 @@ connected together by a non-conformal interface. To achieve more accurate data t
 mesh method was applied to this interface rather than moving reference frame (MRF) method for
 unsteady simulations.
 
-![Figure 2](../images/va4-fig2.jpg)
+![Figure 2](va4-fig2.jpg)
 
 Figure 2. The computational zone division and boundary condition setting.
 In order to ensure a good mesh quality, O-block topologies were used to get orthogonal grids
@@ -208,12 +208,12 @@ Table 2. 2D Grid discretization parameters for independence check.
 | Mesh 2 | 501,340 | 1 |
 | Mesh 3 | 683,980 | 1 |
 
-![Figure 3](../images/va4-fig3.jpg)
+![Figure 3](va4-fig3.jpg)
 
 Figure 3. The total torque output at 1.46 TSR condition. (a,b) represent the mesh density and time step
 independence check respectively.
 
-![Figure 4](../images/va4-fig4.jpg)
+![Figure 4](va4-fig4.jpg)
 
 Figure 4. The mesh adjacent to the blade. (a,b) represent the mesh applied in 2D and 3D simulation
 respectively.
@@ -233,7 +233,7 @@ The wind tunnel properties are shown in Table 3. The wind velocity was measured 
 The rotation speed of the turbine was adjusted by a variable load controller. As shown in Figure 5,
 by detecting the frequency of the voltage fluctuation, the rotation speed of HVAWT, n, is calculated by
 Equation (3):
-![Equation 3](../images/va4-eq3.jpg)
+![Equation 3](va4-eq3.jpg)
 where f is the frequency of output voltage, m is the number of magnetic pole pairs. The power
 output was calculated by the ratio of electrical power to the power conversion efficiency. In this
 study, the power conversion efficiency is 0.9. In order to absorb the power output of the HVAWT,
@@ -249,7 +249,7 @@ Table 3. Wind tunnel properties.
 | Wind velocity range | 0.5–30 m/s |
 | Turbulence intensity | 1.5% or less |
 
-![Figure 5](../images/va4-fig5.jpg)
+![Figure 5](va4-fig5.jpg)
 
 Figure 5. Experiment rigs in the wind tunnel. (a,b) represent the wind tunnel and measuring
 devices respectively.
@@ -265,15 +265,15 @@ HVAWT studied here. The pressure force also can be resolved into two mutually pe
 tangential force Ft and normal force Fn. The tangential force is the force parallel to the chord direction
 while the normal force is at right angles to the tangential force. Then, the total torque and the power
 coefficient Cp of the HVAWT can be derived by Equations (4) and (5) as follows:
-![Equation 4](../images/va4-eq4.jpg)
-![Equation 5](../images/va4-eq5.jpg)
+![Equation 4](va4-eq4.jpg)
+![Equation 5](va4-eq5.jpg)
 where Ft1, Ft2, Ft3 and Ft4 represent the instantaneous tangential force of blades1,2,3,4 respectively. D is
 revolution diameter, H is the blade height, V∞corresponds to the velocity in the far field.
 Rotation speed is a very important parameter for the power output of HVAWT besides the
 wind velocity. Thus, TSR is usually introduced as a comprehensive parameter to study the working
 mechanism of a HVAWT. In this paper, the definition of TSR can be found in Equation (6):
 
-![Equation 6](../images/va4-eq6.jpg)
+![Equation 6](va4-eq6.jpg)
 
 The power coefficient at different TSR values is shown in Figure 6. The HVAWT model used in
 the experiment is a 2.6:1 scale model of the one used for 3D CFD simulation, and the aspect ratio and
@@ -291,7 +291,7 @@ data, the results obtained from 3D simulation are more reasonable than those fro
 This is because in the 2D LES simulation the three dimensional effects was ignored naturally, and only
 the airfoil shape influences were considered.
 
-![Figure 6](../images/va4-fig6.jpg)
+![Figure 6](va4-fig6.jpg)
 
 Figure 6. Power coefficient at different TSR with Reynold number 60,800.
 The instantaneous torque of the HVAWT at different TSR values is shown in Figure 7. The black
@@ -303,7 +303,7 @@ LES methods, it is obvious to see that the instantaneous torque results of the L
 distinct oscillation. This is caused by the fact the U-RANS method applied a time averaged solver,
 which would smoothen the oscillation along with the time scale.
 
-![Figure 7](../images/va4-fig7.jpg)
+![Figure 7](va4-fig7.jpg)
 
 Figure 7. The power output at different TSR conditions, (a–f) represent 0.9, 1.14, 1.25, 1.46, 1.8, 2.3 TSR
 λ respectively, red line and black lines represent the 2D LES and U-RANS results, respectively.
@@ -316,9 +316,9 @@ Angle of attack (AOA), α, is considered as one of the most major factors for bl
 performance, especially in the case of HVAWTs, whose AOA varies significantly during one revolution.
 In this study, AOA was defined as the angle included between the chord direction and the relative
 velocity, W, as shown in Figure 2 and it was calculated by Equations (7) and (8):
-![Equation 7](../images/va4-eq7.jpg)
+![Equation 7](va4-eq7.jpg)
 
-![Equation 8](../images/va4-eq8.jpg)
+![Equation 8](va4-eq8.jpg)
 
 The results of AOA, α, at different TSR in one revolution are shown in Figure 8a. It is found that
 as TSR increased, the maximum AOA decreased from 85◦to 30◦correspondingly and the position of
@@ -329,7 +329,7 @@ because at higher AOA, a much more obvious and severe flow separation occurs, an
 a sudden loss of the power. It is noticed that in the downwind zone, 180◦–360◦azimuthal position,
 the negative power also increased with the increase of TSR.
 
-![Figure 8](../images/va4-fig8.jpg)
+![Figure 8](va4-fig8.jpg)
 
 Figure 8. (a,b) represent the angle of attack and power output of single blade along one revolution
 under different TSR conditions respectively.
@@ -348,7 +348,7 @@ compared with other small TSR conditions, leading to a severe self-consumption o
 generation. It explains the reduction of the net power of HVAWT at 2.3 TSR compared with 1.46 or
 1.8 TSR conditions.
 
-![Figure 9](../images/va4-fig9.jpg)
+![Figure 9](va4-fig9.jpg)
 
 Figure 9. Instantaneous torque generation of each blade during one revolution; subfigures (a–c)
 correspond to the results at 0.9, 1.46, 2.3 TSR, respectively.
@@ -360,7 +360,7 @@ vorticity distributions are shown in Figure 10. The positive data corresponds to
 rotation. In the azimuthal range from 0◦to 180◦, the wind flow can be divided into four periods,
 namely attached flowing, separated flowing, vortex detaching and reattached flowing as shown in Figure 11.
 
-![Figure 10](../images/va4-fig10.jpg)
+![Figure 10](va4-fig10.jpg)
 
 Figure 10. The vorticity distributions of HVAWT at different azimuthal positions.
 However, for different TSR conditions, the time milestone for each period and the detailed flow
@@ -368,7 +368,7 @@ field at the same period all varied significantly. It’s found that higher TSR 
 on the vortex detachment as shown in Figures 10 and 11. Meanwhile, the size of the shedding vortex
 also diminished with the increase of TSR due to the smaller AOA, as shown in Figure 8a.
 
-![Figure 11](../images/va4-fig11.jpg)
+![Figure 11](va4-fig11.jpg)
 
 Figure 11. The streamlines at 60◦, 90◦, 150◦, 180◦, (a–c) corresponding to the results at TSR 0.9, 1.46
 and 2.3 respectively, red frames represent the wake vortex generated from another blade.
@@ -394,7 +394,7 @@ Thus, due to the smaller AOA at high TSR conditions, it is hard for the flow to 
 angle. Much bigger lift force then was generated which served as a source of negative power. This
 explains the bigger negative power of high TSR conditions, as shown in Figure 8b.
 
-![Figure 12](../images/va4-fig12.jpg)
+![Figure 12](va4-fig12.jpg)
 
 Figure 12. The streamlines and pressure distribution around blade leading edge at azimuth 270◦,
 (a–c) corresponding to the results at TSR 0.9, 1.46 and 2.3, respectively.
@@ -407,7 +407,7 @@ of voltage stabilization and aggravate the risk of breakdown of the whole power 
 Thus, in this case, the fluctuation coefficient, ξ is introduced to study the stability of HVAWT. ξ can be
 calculated by the equation:
 
-![Equation 9](../images/va4-eq9.jpg)
+![Equation 9](va4-eq9.jpg)
 
 where T represents the instantaneous torque, T represents the averaged torque in a revolution.
 The power fluctuation results are shown in Figure 13. At the lower TSR, because of the higher
@@ -421,7 +421,7 @@ higher power fluctuation. Therefore, it is very important for a HVAWT to choose 
 get not only higher power output but also much more stable power supply, which is about 1.8 in this
 case with a Reynolds number of 60,800.
 
-![Figure 13](../images/va4-fig13.jpg)
+![Figure 13](va4-fig13.jpg)
 
 Figure 13. Power fluctuation coefficient at different azimuthal points and TSR conditions, the lines on
 axis plane are isoline of power fluctuation coefficient.
@@ -437,7 +437,7 @@ helical blade has a range of azimuthal angles, the total power generation is a s
 single airfoil powers, leading to much wider range of phase angles than 2D or straight blade at any
 specific moment. This wider azimuthal range leads to much smoother power output.
 
-![Figure 14](../images/va4-fig14.jpg)
+![Figure 14](va4-fig14.jpg)
 
 Figure 14. Power coefficient results derived by 2D LES and 3D U-RANS methods for Rec = 60,800,
 TSR = 1.46.
@@ -448,9 +448,9 @@ of chord position χ is shown in Figure 15. For any random point d on blade surf
 χ is defined as the division the distance L, the distance between the leading edge a and the projection
 point of d on chord ab, and chord length c as shown in Equation (10):
 
-![Equation 10](../images/va4-eq10.jpg)
+![Equation 10](va4-eq10.jpg)
 
-![Figure 15](../images/va4-fig15.jpg)
+![Figure 15](va4-fig15.jpg)
 
 Figure 15. Chord position definition scheme.
 The pressure distributions along the blade at different azimuth are shown in Figure 16, the static
@@ -474,17 +474,17 @@ the limited length left upper, the dynamic stall region is counteracted by the t
 thus flow in the 85% spanwise position can still keep parallel to the horizontal plane, thus maintaining
 a stable power output.
 
-![Figure 16](../images/va4-fig16.jpg)
+![Figure 16](va4-fig16.jpg)
 
 Figure 16. Pressure distribution along blades at different height positions at TSR 1.46, (a–d) corresponded
 to 30◦, 60◦, 90◦, 120◦respectively.
 
-![Figure 17](../images/va4-fig17.jpg)
+![Figure 17](va4-fig17.jpg)
 
 Figure 17. Streamlines around blades when the mid-plane of rotor at different azimuthal positions at
 TSR 1.46.
 
-![Figure 18](../images/va4-fig18.jpg)
+![Figure 18](va4-fig18.jpg)
 
 Figure 18. Pressure distribution at inner blade surface, (a,b) represents the results when the 95% and
 50% span-wise plane reached 120◦azimuths, respectively.
@@ -506,7 +506,7 @@ flow is introduced by the wake vortex and combined with the original flowing wit
 the real flow field. Therefore, the effect of the shedding wake vortex on the aerodynamic performance
 should be studied to get more accurate estimation of a HVAWT performance.
 
-![Figure 19](../images/va4-fig19.jpg)
+![Figure 19](va4-fig19.jpg)
 
 Figure 19. Wake vortex diffusion pattern at 2.3 TSR condition.
 

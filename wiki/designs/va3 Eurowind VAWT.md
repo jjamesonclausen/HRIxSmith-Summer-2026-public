@@ -26,11 +26,11 @@ The Eurowind concept is a vertical-axis turbine design adapted for mounting on i
 - The simple blade shape and lower VAWT blade stresses allow sectional mechanical production by extrusion or pultrusion. (source: sources/va3.md)
 - The source shows small and large modular Eurowind concepts and a marine adaptation. (source: sources/va3.md)
 
-![Source figure](../../images/va3-fig17a.jpg)
+![Source figure](va3-fig17a.jpg)
 Original caption: Figure 17. Eurowind wind mill designs. [[va3|Source]]
-![Source figure](../../images/va3-fig18.jpg)
+![Source figure](va3-fig18.jpg)
 Original caption: Figure 18. Large Eurowind modular vertical wind mill concept. [[va3|Source]]
-![Source figure](../../images/va3-fig19.jpg)
+![Source figure](va3-fig19.jpg)
 Original caption: Figure 19. Vertical axis wind turbine in a marine environment. [[va3|Source]]
 
 ## Performance

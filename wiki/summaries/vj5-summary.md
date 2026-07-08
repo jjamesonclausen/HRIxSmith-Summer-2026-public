@@ -11,13 +11,13 @@ Summary of `sources/vj5.md`. (source: sources/vj5.md)
 
 CFD study of dynamic stall in a 2D single-bladed VAWT section using PIV validation. (source: sources/vj5.md)
 
-![Source figure](../../images/vj5-fig1.jpg)
+![Source figure](vj5-fig1.jpg)
 Original caption: Figure 1: Diagram of the model geometry, sub-grid distribution and boundary conditions [[vj5|Source]]
-![Source figure](../../images/vj5-fig10.jpg)
+![Source figure](vj5-fig10.jpg)
 Original caption: Figure 10: Vorticity field at θ = 90°, Detached Eddy Simulation [[vj5|Source]]
-![Source figure](../../images/vj5-fig14.jpg)
+![Source figure](vj5-fig14.jpg)
 Original caption: Figure 14: Tangential and normal force in the blade, DES, Δt = 1/4°/ω [[vj5|Source]]
-![Source figure](../../images/vj5-fig22.jpg)
+![Source figure](vj5-fig22.jpg)
 Original caption: Figure 22: The effect of convergence on tangential and normal force of change of the convergence iteration [[vj5|Source]]
 
 Key points:

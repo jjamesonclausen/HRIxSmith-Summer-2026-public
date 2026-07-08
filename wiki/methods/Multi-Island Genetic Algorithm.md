@@ -9,7 +9,7 @@ Tags: #methods
 
 A genetic algorithm variant that splits the population into multiple islands that evolve separately and periodically exchange individuals. (source: sources/va2.md)
 
-![Source figure](../../images/va2-fig13.jpg)
+![Source figure](va2-fig13.jpg)
 Original caption: Figure 13: MIGA and surrogate model optimization flowchart [[va2|Source]]
 
 - Each island performs selection, crossover, and mutation independently. (source: sources/va2.md)

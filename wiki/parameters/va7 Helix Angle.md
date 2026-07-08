@@ -14,10 +14,10 @@ This `va7` study changes the blade helix angle of a helical VAWT to investigate 
 - The study compares helix angles of 60 degrees, 90 degrees, and 120 degrees. (source: sources/va7.md)
 - The rest of the baseline geometry is held constant: NACA0015 blades, no pitch, 210 mm chord, 1 m diameter, and 3 m height. (source: sources/va7.md)
 
-![Source figure](../../images/va7-fig7.jpg)
+![Source figure](va7-fig7.jpg)
 Original caption: Figure 7. Coefficient of performance of VAWT for various helix angles. [[va7|Source]]
 
-![Source figure](../../images/va7-fig14.jpg)
+![Source figure](va7-fig14.jpg)
 Original caption: Figure 14. The standard deviation of Cp of different helical-bladed and straight-bladed VAWT operating at different TSR. [[va7|Source]]
 
 ## Outcome

@@ -9,9 +9,9 @@ Tags: #methods
 
 Potential-flow method that models blade and wake vortices without a computational mesh, here coupled with a free-vortex wake and viscosity correction from 2-D airfoil data. (source: sources/va16.md)
 
-![Source figure](../../images/va16-fig1.jpg)
+![Source figure](../../attachments/images/va16-fig1.jpg)
 Original caption: Fig. 1. Schematic of (a) the reference turbine, (b) computational domain (both not to scale); (c-e) computational grid near the (c) rotating core, (d) airfoil, and (e) trailing edge. [[va16|Source]]
-![Source figure](../../images/va16-fig3.jpg)
+![Source figure](../../attachments/images/va16-fig3.jpg)
 Original caption: Fig. 3. Process of viscosity correction in this study. [[va16|Source]]
 
 - The source uses an incompressible potential-flow panel method coupled with a free-vortex wake. (source: sources/va16.md)

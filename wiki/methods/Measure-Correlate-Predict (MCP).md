@@ -9,9 +9,9 @@ Tags: #methods
 
 Method for using a short on-site measurement campaign together with a long-term reference station to estimate long-term wind conditions at the site of interest. (source: sources/va19.md)
 
-![Equation](../../images/va19-eq1.jpg)
+![Equation](va19-eq1.jpg)
 Original caption: Equation 1. Correlation. [[va19|Source]]
-![Source figure](../../images/va19-fig23.jpg)
+![Source figure](va19-fig23.jpg)
 Original caption: Figure 23. Location of Beverly Municipal Airport in relation to Cambridge. [[va19|Source]]
 
 - In `va19`, campus measurements were correlated with long-term hourly observations from Beverly Municipal Airport because the airport offered about 30 years of historical weather data and a better coastal match than Logan. (source: sources/va19.md)

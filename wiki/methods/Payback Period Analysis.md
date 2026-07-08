@@ -19,7 +19,7 @@ Method for estimating how long a turbine retrofit takes to recover its initial c
 - The vj19 paper adds a simple small-turbine variant: estimate annual electricity savings from annual energy output times local tariff, assume a total installed cost, and divide cost by annual savings to get simple payback. (source: sources/vj19.md)
 - In that source, `7838 kWh/year` at `0.108 USD/kWh` gives `846.51 USD/year`, and an assumed `3000 USD` total cost gives a stated simple payback of `3.5 years`. (source: sources/vj19.md)
 
-![Source figure](../../images/va19-fig19.jpg)
+![Source figure](va19-fig19.jpg)
 Original caption: Figure 19. Payback versus a carbon tax or credit for a Skystream on Eastgate. [[va19|Source]]
 
 Related:

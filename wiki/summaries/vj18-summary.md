@@ -16,10 +16,10 @@ This review maps variable-design approaches for VAWTs and groups them by how the
 
 Related pages: [[Variable VAWT Design]], [[Optimization]], [[Dynamic Stall]], [[Materials and Manufacturing]], [[Structures and Loads]], [[VAWT Aerodynamic Design Parameters]]
 
-![Source figure](../../images/vj18-fig1.jpg)
+![Source figure](vj18-fig1.jpg)
 Original caption: FIGURE 1. VAWT performance studies. [[vj18|Source]]
 
-![Source figure](../../images/vj18-fig3.jpg)
+![Source figure](vj18-fig3.jpg)
 Original caption: FIGURE 3. Anatomy of variable VAWT designs. [[vj18|Source]]
 
 #summaries

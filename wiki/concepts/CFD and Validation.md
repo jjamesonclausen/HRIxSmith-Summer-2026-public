@@ -55,25 +55,25 @@ It also compares streamtube, vortex, and cascade models, noting that vortex mode
 The hybrid-rotor CFD paper in `vj2` uses 3D SolidWorks Flow Simulation rather than 2D analysis because the authors say the vortex-like structures in the rotor require a full 3D domain. (source: sources/vj2.md)
 It reports a computational domain of 15 m by 12 m by 12 m, 7 m/s inlet wind speed, 5% turbulence intensity, and torque samples at nine attack angles from 0 degrees to 120 degrees. (source: sources/vj2.md)
 
-![Source figure](../../images/va10-fig5.jpg)
+![Source figure](va10-fig5.jpg)
 Original caption: Fig. 5. Computational grid independency study [31]. [[va10|Source]]
-![Source figure](../../images/va11-fig25.jpg)
+![Source figure](va11-fig25.jpg)
 Original caption: Fig. 25. Vorticity magnitudes in the blade mid-span and vertical planes (units, 1/s) [52]. [[va11|Source]]
-![Source figure](../../images/va13-fig7.jpg)
+![Source figure](va13-fig7.jpg)
 Original caption: Figure 7. Computational domain and mesh setup. [[va13|Source]]
-![Source figure](../../images/va17-fig6.jpg)
+![Source figure](va17-fig6.jpg)
 Original caption: Figure 6. Navier-Stokes Equations employed by the CFD program. [[va17|Source]]
-![Source figure](../../images/va18-fig13.jpg)
+![Source figure](va18-fig13.jpg)
 Original caption: Figure 13: Mean Wind Power Density (W/m2), Horizontal section 20m above the ground; Mean Wind Power Density (W/m2), Vertical cross-section through MT1 and MT2; Mean Turbulence Intensity, Vertical cross-section through MT1 and MT2. [[va18|Source]]
-![Source figure](../../images/va14-table2.jpg)
+![Source figure](va14-table2.jpg)
 Original caption: Table 2. Comparison between the measured CP [81] and simulated CP (present CFD study). [[va14|Source]]
-![Source figure](../../images/va21-fig22.jpg)
+![Source figure](va21-fig22.jpg)
 Original caption: Figure 22. Comparison between computed and measured parameters: (a) rotor speed, (b) DC voltage and (c) power (source: Authors' elaboration). [[va21|Source]]
-![Source figure](../../images/va25-fig8.jpg)
+![Source figure](va25-fig8.jpg)
 Original caption: Fig. 8 Reference model (NACA0021) validation and verification. [[va25|Source]]
-![Source figure](../../images/va27-fig14.jpg)
+![Source figure](va27-fig14.jpg)
 Original caption: Fig. 14. Turbine CP in t/c - xt/c space. Each contour plot is based on 42 simulations. Note the difference in range of colormaps. [[va27|Source]]
-![Source figure](../../images/va26-fig10.jpg)
+![Source figure](va26-fig10.jpg)
 Original caption: Fig. 10. Comparison of calculated power coefficient against experimental and numerical data by Castelli et al. [69]. [[va26|Source]]
 
 Related:

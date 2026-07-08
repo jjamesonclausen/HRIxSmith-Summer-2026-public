@@ -15,10 +15,10 @@ This `vj22` study compares two symmetric NACA blade profiles for a low-wind-spee
 - Both profiles have zero camber, with thicknesses `12` and `15` respectively. (source: sources/vj22.md)
 - The comparison is based on `Cl`, `Cd`, `Cl/Cd`, output power, and later rotor `Cp` behavior. (source: sources/vj22.md)
 
-![Source figure](../../images/vj22-fig2.jpg)
+![Source figure](vj22-fig2.jpg)
 Original caption: Fig. 2. The comparison of shape of NACA 0012 and NACA0015 [[vj22|Source]]
 
-![Source figure](../../images/vj22-fig5.jpg)
+![Source figure](vj22-fig5.jpg)
 Original caption: Fig. 5 Comparison of Cl/Cd versus AoA for NACA 0012 and NACA 0015 in 50000 Re [[vj22|Source]]
 
 ## Outcome

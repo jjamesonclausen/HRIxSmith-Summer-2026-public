@@ -14,7 +14,7 @@ The `va16` study evaluates solidity through chord and span changes to understand
 - At fixed `H/c = 6`, the tested cases include `H/D = 0.6`, `0.9`, and `1.2`, with corresponding solidity changes. (source: sources/va16.md)
 - The paper explicitly compares fixed-solidity and fixed-rotor-aspect-ratio cases to separate the roles of solidity and `H/D`. (source: sources/va16.md)
 
-![Source figure](../../images/va16-fig9.jpg)
+![Source figure](../../attachments/images/va16-fig9.jpg)
 Original caption: Fig. 9. Fluctuation of power coefficient curve against the tip speed ratio lambda in the case of the fixed aspect ratio. [[va16|Source]]
 
 ## Outcome

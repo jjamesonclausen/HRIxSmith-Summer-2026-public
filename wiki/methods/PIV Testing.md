@@ -9,9 +9,9 @@ Tags: #methods
 
 Experimental flow-visualization method that tracks seeded particles in an illuminated plane to recover wake velocity and vortex structure. (source: sources/va11.md)
 
-![Source figure](../../images/va11-fig16.jpg)
+![Source figure](va11-fig16.jpg)
 Original caption: Fig. 16. PIV test of near wake of a VAWT [19]. [[va11|Source]]
-![Source figure](../../images/va11-fig17.jpg)
+![Source figure](va11-fig17.jpg)
 Original caption: Fig. 17. Contours of normalized out-of-plane vorticity for the combined field of views of the horizontal plane [*] [19]. [[va11|Source]]
 
 - The review treats PIV as a main wake-analysis method for H-rotor VAWTs. (source: sources/va11.md)

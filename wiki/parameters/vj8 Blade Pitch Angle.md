@@ -13,7 +13,7 @@ This `vj8` study varies the fixed blade pitch angle of the contra-rotating VAWT 
 
 - The source compares fixed pitch angles of `-3°`, `0°`, and `6°`. (source: sources/vj8.md)
 
-![Source figure](../../images/vj8-fig9.jpg)
+![Source figure](vj8-fig9.jpg)
 Original caption: Fig. 9. Schematic diagram of the blade pitch angle. [[vj8|Source]]
 
 ## Outcome

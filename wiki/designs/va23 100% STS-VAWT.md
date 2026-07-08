@@ -24,9 +24,9 @@ The `100% STS-VAWT` is the more extreme shifted-troposkien `va23` concept, inten
 - Its blade height is `0.375 m`, blade length `0.855 m`, and solidity `0.46`, making it the shortest and lowest-solidity case in the paper. (source: sources/va23.md)
 - The blade airfoil remains NACA0015. (source: sources/va23.md)
 
-![Source figure](../../images/va23-fig1.jpg)
+![Source figure](va23-fig1.jpg)
 Original caption: Figure 1. Vertical axis wind turbine (VAWT) configurations: (A) conventional VAWT (troposkien shape), (B) novel 50% STS-VAWT (50% shifted troposkien shape-VAWT), (C) novel 100% STS-VAWT. [[va23|Source]]
-![Source figure](../../images/va23-fig10.jpg)
+![Source figure](va23-fig10.jpg)
 Original caption: Figure 10. Power coefficient (Cp) vs TSR before corrections at 700 rpm. [[va23|Source]]
 
 ## Unique Design Choices

@@ -24,9 +24,9 @@ The `va19` campus study evaluates the `Skystream 3.7` as the stronger of its two
 - The report also gives a swept area of `10.87 m^2`. (source: sources/va19.md)
 - It includes an integrated inverter in the nacelle and `360 degrees` wind-tracking capability. (source: sources/va19.md)
 
-![Source figure](../../images/va19-fig3.jpg)
+![Source figure](va19-fig3.jpg)
 Original caption: Figure 3. Skystream 3.7. [[va19|Source]]
-![Source figure](../../images/va19-fig4.jpg)
+![Source figure](va19-fig4.jpg)
 Original caption: Figure 4. Skystream's integrated AC inverter. [[va19|Source]]
 
 ## Unique Design Choices

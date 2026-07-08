@@ -16,7 +16,7 @@ This paper optimizes an airfoil-based Savonius wind turbine by coupling DVM, CST
 
 Related pages: [[Savonius Turbine]], [[Optimization]], [[Discrete Vortex Method]], [[Salp Swarm Algorithm]], [[CST Parameterization]], [[vj17 Airfoil-Based Savonius Wind Turbine]]
 
-![Source figure](../../images/vj17-fig5.jpg)
+![Source figure](vj17-fig5.jpg)
 Original caption: Fig. 5. The achieved optimum geometry coordinates. [[vj17|Source]]
 
 #summaries

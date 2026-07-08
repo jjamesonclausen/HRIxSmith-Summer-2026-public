@@ -88,7 +88,7 @@ its quality or requiring a large mesh with over refinement in areas of lower imp
 
 Figure 1. Diagram of the model geometry, sub-grid distribution and boundary conditions.
 
-![Figure 1: Diagram of the model geometry, sub-grid distribution and boundary conditions](../images/vj5-fig1.jpg)
+![Figure 1: Diagram of the model geometry, sub-grid distribution and boundary conditions](vj5-fig1.jpg)
 
 ## 3. Simulated Flow Conditions
 
@@ -122,11 +122,11 @@ reattachment; this wake experiences a roll up due to the strong vorticity.
 
 Figure 2. PIV experimental data of the evolution of the circulation of leading edge separated vortex for λ = 2 at 90°, 108°, 133° and 158°.
 
-![Figure 2: PIV experimental data of the evolution of the circulation of leading edge separated vortex for λ = 2 at 90°, 108°, 133° and 158°](../images/vj5-fig2.jpg)
+![Figure 2: PIV experimental data of the evolution of the circulation of leading edge separated vortex for λ = 2 at 90°, 108°, 133° and 158°](vj5-fig2.jpg)
 
 Figure 3. PIV experimental data of the evolution of the counter-clockwise vorticity shed after the roll-up of the trailing edge vorticity.
 
-![Figure 3: PIV experimental data of the evolution of the counter-clockwise vorticity shed after the roll-up of the trailing edge vorticity](../images/vj5-fig3.jpg)
+![Figure 3: PIV experimental data of the evolution of the counter-clockwise vorticity shed after the roll-up of the trailing edge vorticity](vj5-fig3.jpg)
 
 ### 4.1 URANS Models
 
@@ -142,19 +142,19 @@ The k- model is the standard implementation in Fluent [11] referred as Standard 
 
 Figure 4. Vorticity field at θ = 90°, Spalart-Allmaras model.
 
-![Figure 4: Vorticity field at θ = 90°, Spalart-Allmaras model](../images/vj5-fig4.jpg)
+![Figure 4: Vorticity field at θ = 90°, Spalart-Allmaras model](vj5-fig4.jpg)
 
 Figure 5. Vorticity field at θ = 120°, Spalart-Allmaras model.
 
-![Figure 5: Vorticity field at θ = 120°, Spalart-Allmaras model](../images/vj5-fig5.jpg)
+![Figure 5: Vorticity field at θ = 120°, Spalart-Allmaras model](vj5-fig5.jpg)
 
 Figure 6. Vorticity field at θ = 90°, k-ε model.
 
-![Figure 6: Vorticity field at θ = 90°, k-ε model](../images/vj5-fig6.jpg)
+![Figure 6: Vorticity field at θ = 90°, k-ε model](vj5-fig6.jpg)
 
 Figure 7. Vorticity field at θ = 120°, k-ε model.
 
-![Figure 7: Vorticity field at θ = 120°, k-ε model](../images/vj5-fig7.jpg)
+![Figure 7: Vorticity field at θ = 120°, k-ε model](vj5-fig7.jpg)
 
 ### 4.2 LES
 
@@ -165,11 +165,11 @@ previous research and the application of more complex models such as LES and DES
 
 Figure 8. Vorticity field at θ = 90°, Large Eddy Simulation.
 
-![Figure 8: Vorticity field at θ = 90°, Large Eddy Simulation](../images/vj5-fig8.jpg)
+![Figure 8: Vorticity field at θ = 90°, Large Eddy Simulation](vj5-fig8.jpg)
 
 Figure 9. Vorticity field at θ = 120°, Large Eddy Simulation.
 
-![Figure 9: Vorticity field at θ = 120°, Large Eddy Simulation](../images/vj5-fig9.jpg)
+![Figure 9: Vorticity field at θ = 120°, Large Eddy Simulation](vj5-fig9.jpg)
 
 ### 4.3 DES
 
@@ -185,11 +185,11 @@ insufficient for this flow.
 
 Figure 10. Vorticity field at θ = 90°, Detached Eddy Simulation.
 
-![Figure 10: Vorticity field at θ = 90°, Detached Eddy Simulation](../images/vj5-fig10.jpg)
+![Figure 10: Vorticity field at θ = 90°, Detached Eddy Simulation](vj5-fig10.jpg)
 
 Figure 11. Vorticity field at θ = 120°, Detached Eddy Simulation.
 
-![Figure 11: Vorticity field at θ = 120°, Detached Eddy Simulation](../images/vj5-fig11.jpg)
+![Figure 11: Vorticity field at θ = 120°, Detached Eddy Simulation](vj5-fig11.jpg)
 
 ## 5. Comparison of Force Simulation
 
@@ -202,19 +202,19 @@ models.
 
 Figure 12. Tangential and normal force in the blade, SA model, Δt = 1/2°/ω. Instantaneous values over three rotations.
 
-![Figure 12: Tangential and normal force in the blade, SA model, Δt = 1/2°/ω](../images/vj5-fig12.jpg)
+![Figure 12: Tangential and normal force in the blade, SA model, Δt = 1/2°/ω](vj5-fig12.jpg)
 
 Figure 13. Tangential and normal force in the blade, k-ε model, Δt = 1/2°/ω. Instantaneous values over three rotations.
 
-![Figure 13: Tangential and normal force in the blade, k-ε model, Δt = 1/2°/ω](../images/vj5-fig13.jpg)
+![Figure 13: Tangential and normal force in the blade, k-ε model, Δt = 1/2°/ω](vj5-fig13.jpg)
 
 Figure 14. Tangential and normal force in the blade, DES, Δt = 1/4°/ω. Instantaneous values over five rotations.
 
-![Figure 14: Tangential and normal force in the blade, DES, Δt = 1/4°/ω](../images/vj5-fig14.jpg)
+![Figure 14: Tangential and normal force in the blade, DES, Δt = 1/4°/ω](vj5-fig14.jpg)
 
 Figure 15. Tangential and normal force in the blade, LES model, Δt = 1/4°/ω. Instantaneous values over four rotations.
 
-![Figure 15: Tangential and normal force in the blade, LES model, Δt = 1/4°/ω](../images/vj5-fig15.jpg)
+![Figure 15: Tangential and normal force in the blade, LES model, Δt = 1/4°/ω](vj5-fig15.jpg)
 
 ## 6. Verification to Grid Sensitivity
 
@@ -236,15 +236,15 @@ compares this simulation with two other with the same initial conditions but tim
 
 Figure 16. Vorticity field at θ = 90°, Δt = 1/8°/ω.
 
-![Figure 16: Vorticity field at θ = 90°, Δt = 1/8°/ω](../images/vj5-fig16.jpg)
+![Figure 16: Vorticity field at θ = 90°, Δt = 1/8°/ω](vj5-fig16.jpg)
 
 Figure 17. Vorticity field at θ = 90°, Δt = 1/16°/ω.
 
-![Figure 17: Vorticity field at θ = 90°, Δt = 1/16°/ω](../images/vj5-fig17.jpg)
+![Figure 17: Vorticity field at θ = 90°, Δt = 1/16°/ω](vj5-fig17.jpg)
 
 Figure 18. Effect on tangential and normal force of change of the time grid refinement.
 
-![Figure 18: Effect on tangential and normal force of change of the time grid refinement](../images/vj5-fig18.jpg)
+![Figure 18: Effect on tangential and normal force of change of the time grid refinement](vj5-fig18.jpg)
 
 ### 6.2 Space Grid Refinement
 
@@ -256,15 +256,15 @@ simulation towards grid refinement.
 
 Figure 19. Vorticity field at θ = 90°, Δt = 0.25°/ω, 2 times coarser grid.
 
-![Figure 19: Vorticity field at θ = 90°, Δt = 0.25°/ω, 2 times coarser grid](../images/vj5-fig19.jpg)
+![Figure 19: Vorticity field at θ = 90°, Δt = 0.25°/ω, 2 times coarser grid](vj5-fig19.jpg)
 
 Figure 20. Vorticity field at θ = 90°, Δt = 0.25°/ω.
 
-![Figure 20: Vorticity field at θ = 90°, Δt = 0.25°/ω](../images/vj5-fig20.jpg)
+![Figure 20: Vorticity field at θ = 90°, Δt = 0.25°/ω](vj5-fig20.jpg)
 
 Figure 21. Effect on tangential and normal force of change of the space grid refinement.
 
-![Figure 21: Effect on tangential and normal force of change of the space grid refinement](../images/vj5-fig21.jpg)
+![Figure 21: Effect on tangential and normal force of change of the space grid refinement](vj5-fig21.jpg)
 
 ## 7. Verification Convergence Error
 
@@ -277,7 +277,7 @@ initial condition are compared (Figure 22). The three solutions encompass:
 
 Figure 22. The effect of convergence on tangential and normal force of change of the convergence iteration.
 
-![Figure 22: The effect of convergence on tangential and normal force of change of the convergence iteration](../images/vj5-fig22.jpg)
+![Figure 22: The effect of convergence on tangential and normal force of change of the convergence iteration](vj5-fig22.jpg)
 
 ## 8. Conclusions
 

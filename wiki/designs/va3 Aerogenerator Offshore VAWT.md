@@ -25,7 +25,7 @@ The Aerogenerator is an offshore V-shaped vertical-axis turbine concept describe
 - Rigid sails are mounted along the arms at intervals and act like airfoils as wind passes over them. (source: sources/va3.md)
 - The concept is intended to keep its center of gravity near the bottom even as the structure scales upward. (source: sources/va3.md)
 
-![Source figure](../../images/va3-fig30.jpg)
+![Source figure](va3-fig30.jpg)
 Original caption: Figure 30. Offshore vertical Aerogenerator concept. Photo: Grimshaw Architects. [[va3|Source]]
 
 ## Performance

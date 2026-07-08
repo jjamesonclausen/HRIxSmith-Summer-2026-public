@@ -16,7 +16,7 @@ Method for correcting VAWT power coefficient and tip-speed-ratio measurements wh
 - The source says the correction lowers `Cp`, shifts the `Cp-lambda` curves leftward, and better represents blockage effects created by turbine rotation and geometry. (source: sources/va23.md)
 - The vj26 review adds a higher-level warning that blockage can greatly affect Savonius wind-tunnel testing, especially for high-solidity rotors, so blockage handling is not optional for trustworthy interpretation. (source: sources/vj26.md)
 
-![Source figure](../../images/va23-fig6.jpg)
+![Source figure](va23-fig6.jpg)
 Original caption: Figure 6. A schematic of the velocity measurement locations at the ABL wind tunnel: A, hot-wire anemometer experimental setup. B, Top view of the rotor inserted into the ABL wind tunnel, where U and Uside are velocities, AT, As are areas for the tunnel and the turbine. C, Front view schematic of the velocity measurement locations for the three different configurations (dimensions are not to scale). [[va23|Source]]
 
 Related:

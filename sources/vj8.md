@@ -161,7 +161,7 @@ Secondly, regarding computational fluid dynamics, The authors in
 thickness, camber, and span shape of VAWT. They optimized the airfoil
 parameters through the Latin hypercube sampling method, and their
 Fig. 1. Research hotspots of wind turbines in recent years.
-![Fig. 1. Research hotspots of wind turbines in recent years.](../images/vj8-fig1.jpg)
+![Fig. 1. Research hotspots of wind turbines in recent years.](vj8-fig1.jpg)
 P. Zheng et al.
 Journal of Cleaner Production 435 (2024) 140475
 3
@@ -238,7 +238,7 @@ in Section 5.
 This study utilizes the finite volume-based CFD software STAR CCM
 + for simulation calculations and conducted STAR CCM+ a general CFD
 Fig. 2. Schematic diagram of CRVAWT simulation analysis and optimization.
-![Fig. 2. Schematic diagram of CRVAWT simulation analysis and optimization.](../images/vj8-fig2.jpg)
+![Fig. 2. Schematic diagram of CRVAWT simulation analysis and optimization.](vj8-fig2.jpg)
 P. Zheng et al.
 Journal of Cleaner Production 435 (2024) 140475
 4
@@ -273,7 +273,7 @@ data to verify the accuracy of the simulation model. However, the
 simulation model consists of a computational domain that includes both
 the fluid and rotational domains. The fluid domain is designed to be
 Fig. 3. Model and parameters of CRVAWT.
-![Fig. 3. Model and parameters of CRVAWT.](../images/vj8-fig3.jpg)
+![Fig. 3. Model and parameters of CRVAWT.](vj8-fig3.jpg)
 Table 1
 Dimensional parameters of CRVAWT.
 Parameters
@@ -295,7 +295,7 @@ pitch angle
 ◦
 6
 Fig. 4. Calculation domain of VAWT.
-![Fig. 4. Calculation domain of VAWT.](../images/vj8-fig4.jpg)
+![Fig. 4. Calculation domain of VAWT.](vj8-fig4.jpg)
 P. Zheng et al.
 Journal of Cleaner Production 435 (2024) 140475
 5
@@ -413,9 +413,9 @@ V
 (2)
 where ω is the angular velocity of the rotor, R is the radius of the rotor,
 Fig. 5. Topology diagram of the numerical mesh.
-![Fig. 5. Topology diagram of the numerical mesh.](../images/vj8-fig5.jpg)
+![Fig. 5. Topology diagram of the numerical mesh.](vj8-fig5.jpg)
 Fig. 6. Torque of three turbulence models at different TSRs.
-![Fig. 6. Torque of three turbulence models at different TSRs.](../images/vj8-fig6.jpg)
+![Fig. 6. Torque of three turbulence models at different TSRs.](vj8-fig6.jpg)
 P. Zheng et al.
 Journal of Cleaner Production 435 (2024) 140475
 6
@@ -516,9 +516,9 @@ Mesh
 0.18793
 1.46%
 Fig. 7. Computational domain of CRVAWT.
-![Fig. 7. Computational domain of CRVAWT.](../images/vj8-fig7.jpg)
+![Fig. 7. Computational domain of CRVAWT.](vj8-fig7.jpg)
 Fig. 8. Torque comparison between VAWT and CRVAWT.
-![Fig. 8. Torque comparison between VAWT and CRVAWT.](../images/vj8-fig8.jpg)
+![Fig. 8. Torque comparison between VAWT and CRVAWT.](vj8-fig8.jpg)
 P. Zheng et al.
 Journal of Cleaner Production 435 (2024) 140475
 7
@@ -576,11 +576,11 @@ on these four airfoils to explore the influence of airfoil relative thickness
 on the power coefficient of the wind turbine. The cross-sectional views
 of the four airfoils are shown in Fig. 10.
 Fig. 9. Schematic diagram of the blade pitch angle.
-![Fig. 9. Schematic diagram of the blade pitch angle.](../images/vj8-fig9.jpg)
+![Fig. 9. Schematic diagram of the blade pitch angle.](vj8-fig9.jpg)
 Fig. 10. Cross sections of four airfoils.
-![Fig. 10. Cross sections of four airfoils.](../images/vj8-fig10.jpg)
+![Fig. 10. Cross sections of four airfoils.](vj8-fig10.jpg)
 Fig. 11. Schematic diagram of spacing and included angle between rotors.
-![Fig. 11. Schematic diagram of spacing and included angle between rotors.](../images/vj8-fig11.jpg)
+![Fig. 11. Schematic diagram of spacing and included angle between rotors.](vj8-fig11.jpg)
 P. Zheng et al.
 Journal of Cleaner Production 435 (2024) 140475
 8
@@ -611,7 +611,7 @@ the parameter design range, with a total of 29 sets of simulation ex­
 periments. The design of the sample points and the analysis of the results
 are carried out in the fourth chapter.
 Fig. 12. Simulation results and analysis of blade pitch angle.
-![Fig. 12. Simulation results and analysis of blade pitch angle.](../images/vj8-fig12.jpg)
+![Fig. 12. Simulation results and analysis of blade pitch angle.](vj8-fig12.jpg)
 P. Zheng et al.
 Journal of Cleaner Production 435 (2024) 140475
 9
@@ -723,7 +723,7 @@ However, an excessively long rotor spacing increases the center of
 gravity of the wind turbine, making the turbine unstable. Therefore, the
 length of the rotor spacing needs to be limited in response surface
 Fig. 13. Diagrams of Cp of the upper and lower rotors under different airfoils.
-![Fig. 13. Diagrams of Cp of the upper and lower rotors under different airfoils.](../images/vj8-fig13.jpg)
+![Fig. 13. Diagrams of Cp of the upper and lower rotors under different airfoils.](vj8-fig13.jpg)
 P. Zheng et al.
 Journal of Cleaner Production 435 (2024) 140475
 10
@@ -756,7 +756,7 @@ the CRVAWT is too long, it may result in a higher overall center of
 gravity of the turbine, which can cause instability at high wind speeds.
 Hence, the power coefficient and overall stability of the turbine need to
 Fig. 14. Upper rotor surface pressures of four types of airfoils.
-![Fig. 14. Upper rotor surface pressures of four types of airfoils.](../images/vj8-fig14.jpg)
+![Fig. 14. Upper rotor surface pressures of four types of airfoils.](vj8-fig14.jpg)
 P. Zheng et al.
 Journal of Cleaner Production 435 (2024) 140475
 11
@@ -774,9 +774,9 @@ shown in Table 3.
 Solve the second-order fitting model by software calculation and
 obtain the response regression model of the power coefficient:
 Fig. 15. Simulation results and analysis of rotor spacing.
-![Fig. 15. Simulation results and analysis of rotor spacing.](../images/vj8-fig15.jpg)
+![Fig. 15. Simulation results and analysis of rotor spacing.](vj8-fig15.jpg)
 Fig. 16. The variation of torque and time of CRVAWT under different included angles.
-![Fig. 16. The variation of torque and time of CRVAWT under different included angles.](../images/vj8-fig16.jpg)
+![Fig. 16. The variation of torque and time of CRVAWT under different included angles.](vj8-fig16.jpg)
 P. Zheng et al.
 Journal of Cleaner Production 435 (2024) 140475
 12
@@ -1125,7 +1125,7 @@ offshore platforms.
 i) The influence of the supports is not considered in the simulation,
 which may have some influence on the simulation process.
 Fig. 17. Response surface fitting results.
-![Fig. 17. Response surface fitting results.](../images/vj8-fig17.jpg)
+![Fig. 17. Response surface fitting results.](vj8-fig17.jpg)
 Table 4
 Optimization results of blade parameters.
 β(◦)
@@ -1162,11 +1162,11 @@ The photovoltaic panels can reduce the mutual interference between the
 rotors and improve the wind energy recovery efficiency while main­
 taining the overall stability of the CRVAWT. At the same time, the
 Fig. 18. Flow chart of CRVAWT parameter optimization method.
-![Fig. 18. Flow chart of CRVAWT parameter optimization method.](../images/vj8-fig18.jpg)
+![Fig. 18. Flow chart of CRVAWT parameter optimization method.](vj8-fig18.jpg)
 Fig. 19. Application of the optimized CRVAWT for offshore wind energy recovery.
-![Fig. 19. Application of the optimized CRVAWT for offshore wind energy recovery.](../images/vj8-fig19.jpg)
+![Fig. 19. Application of the optimized CRVAWT for offshore wind energy recovery.](vj8-fig19.jpg)
 Fig. 20. The design, optimization, and scheme of CRVAWT.
-![Fig. 20. The design, optimization, and scheme of CRVAWT.](../images/vj8-fig20.jpg)
+![Fig. 20. The design, optimization, and scheme of CRVAWT.](vj8-fig20.jpg)
 P. Zheng et al.
 Journal of Cleaner Production 435 (2024) 140475
 15

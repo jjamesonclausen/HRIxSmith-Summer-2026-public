@@ -42,7 +42,7 @@ To address the issues of high computational costs and long convergence cycles in
 
 As shown in Figure 1, the aerodynamic force F acting on the blade airfoil is composed of the lift force FL and drag force FD. The resultant vector can be decomposed into a tangential component Ft and a normal component Fn relative to the airfoil surface. In Figure 1, ω is the angular velocity; θ denotes the azimuth angle; W is the resultant speed; V∞ is the inflow wind speed; R is the rotation radius.
 
-![Figure 1: Schematic of VAWT blade forces at different azimuthal angles](../images/va2-fig1.jpg)
+![Figure 1: Schematic of VAWT blade forces at different azimuthal angles](va2-fig1.jpg)
 
 Figure 1 illustrates the aerodynamic force distribution on the blades of an H-type vertical-axis wind turbine (H-VAWT) at different azimuth angles θ. When the azimuth angle falls within the 0–180° range, the angle of attack α becomes negative and the resultant vector of lift and drag forces points toward the rotor interior. Conversely, when the azimuth angle θ is in the 180–360° range, the angle of attack α turns positive, and the resultant vector points outward from the rotor. Notably, at 0° and 180° azimuth positions, only the drag component contributes to torque generation, and when the tip speed ratio (TSR) exceeds 1, the torque becomes negative, with no contribution from the lift component. For other azimuth angles, torque arises from the combined action of lift and drag forces. Consequently, the overall loading state of the rotor represents the dynamic superposition of aerodynamic contributions from all blades. As the blades rotate, they alternately experience positive and negative angles of attack, thereby continuously providing driving torque to the rotor throughout the operational cycle.
 
@@ -81,11 +81,11 @@ To validate the accuracy of numerical calculations, this study establishes a ben
 
 According to the wind tunnel model, the computational model is divided into three computational domains, as shown in Figure 2. A represents the fixed domain of the rotor axis and the outflow field; B represents the rotational domain of the blade; data from the numerical computation are transferred between different domains by means of the intersection interface. The rotor axis has a radius of 0.5 m; the rotational domain has a radius of 2.8 m; the inlet adopts 10-times the rotational radius; the outlet adopts 32-times the rotational radius; and the upper and lower boundaries use 12-times the rotation radius to establish the outflow field.
 
-![Figure 2: VAWT schematic diagram of the flow field scale](../images/va2-fig2.jpg)
+![Figure 2: VAWT schematic diagram of the flow field scale](va2-fig2.jpg)
 
 Meshing is a key step in CFD simulation. This study involves a large amount of computational work and ANSYS 2020 Meshing software is selected to generate the mesh. As shown in Figure 3, a hybrid grid is used to discretize the computational domain, controlling the Y+ value to be less than 1, setting the height of the first layer of the grid to be 0.1 mm, 1.1 as the growth rate of the boundary layer, and dividing a total of 30 layers.
 
-![Figure 3: 2D mesh of H-VAWT](../images/va2-fig3.jpg)
+![Figure 3: 2D mesh of H-VAWT](va2-fig3.jpg)
 
 The turbulence of the k-ω SST model [23] is introduced to calculate the aerodynamic performance of H-VAWT. A second-order pressure equation in this turbulent model is used. In addition, the second-order upwind is chosen to discretize potential energy, turbulent kinetic energy and specific dissipation rate, respectively. Then, a SIMPLE algorithm is used in the pressure-velocity coupling algorithm. The residual is set to 10−6. The pressure is 101,325 Pa. The air density ρ is equal to 1.225 kg/m3. The dynamic viscosity µ is 1.7894 × 10−5 (m·s).
 
@@ -95,11 +95,11 @@ The turbulence of the k-ω SST model [23] is introduced to calculate the aerodyn
 
 In this study, three sets of grids are established for the model. The number of grids is 139,310, 200,320 and 385,627, and a grid schematic is shown in Figure 4.
 
-![Figure 4: The grid-independent verification grid](../images/va2-fig4.jpg)
+![Figure 4: The grid-independent verification grid](va2-fig4.jpg)
 
 The moment coefficients versus azimuth change curves for the seventh cycle of the three different grid number models are shown in Figure 5. The results of the latter two sets of grid calculations basically overlap, whereas the gap with the first set of grids is larger. The average values of the moment coefficients of one blade are 1.2129, 1.3266 and 1.3308, which shows that the difference in the second set of grids and the third set of moment coefficients is only 0.32%. That means the second set of grids can satisfy the computational requirements by considering the comprehensive computational efficiency and computational accuracy.
 
-![Figure 5: Comparison of moment coefficients for mesh independence validation](../images/va2-fig5.jpg)
+![Figure 5: Comparison of moment coefficients for mesh independence validation](va2-fig5.jpg)
 
 ##### 2.3.2. Verification of Time-Step Irrelevance
 
@@ -115,13 +115,13 @@ In this study, the rotating domain is simulated in a transient manner using a sl
 
 A comparison of the moment coefficient with the number of iterations in the seventh cycle of each time step is shown in Figure 6. It can be seen that the torque curve calculated from each time step rotated by 1° is overlapped with that of each time step rotated by 0.5°, whereas the difference between the curve of each time step rotated by 1° and that of each time step rotated by 2° is larger. Considering the computational efficiency and calculation accuracy, each time-step rotation of 1° is chosen to calculate the aerodynamic performance of the H-VAWT.
 
-![Figure 6: Comparison of moment coefficients for time-step independence validation](../images/va2-fig6.jpg)
+![Figure 6: Comparison of moment coefficients for time-step independence validation](va2-fig6.jpg)
 
 ##### 2.3.3. Comparative Validation of Calculation Results
 
 To verify the accuracy of the aerodynamic performance of the H-VAWT calculated by CFD, a comparison between the simulated results and wind tunnel test data is shown in Figure 7. It is shown that the numerical calculation is higher than the test data. When the tip speed ratio is small, the two are closer. However, with the increase in the tip speed ratio, the error increases. The reason is that the 2D simulation assumes that the blade is of infinite length, which results in no flow along the spreading direction, while the actual wind turbine blade is of finite height. Therefore, the airflow will bypass the blade tip and flow from the surface of higher relative pressure to the surface of lower relative pressure, resulting in pressure loss. As a result, the test results are lower than the simulation results.
 
-![Figure 7: Comparison of simulation results and wind tunnel tests](../images/va2-fig7.jpg)
+![Figure 7: Comparison of simulation results and wind tunnel tests](va2-fig7.jpg)
 
 In response to the problem that the numerically calculated values are higher than the experimental values, Musgrove [22] proposed two correction factors for the VAWT: one is the wind speed correction factor k and the other is the height correction factor τ, whose values are taken as 1.1 and 1.15, respectively. Therefore, the corrected tip speed ratios and corrected power coefficient are:
 
@@ -135,7 +135,7 @@ C_{Pff} = C_P / (k^3 \tau)
 
 Comparisons of the modified power coefficient simulation results with the test data are shown in Figure 8. From the figure, the modified 2D simulation results are basically the same as the test data, especially the simulation values at a high-tip-speed ratio. This can prove the accuracy of the numerical calculation method adopted in this study.
 
-![Figure 8: Comparison between simulated and experimental results after correction](../images/va2-fig8.jpg)
+![Figure 8: Comparison between simulated and experimental results after correction](va2-fig8.jpg)
 
 ## 3. Airfoil Expression Method of H-VAWT
 
@@ -172,13 +172,13 @@ Z_l &= \sqrt{x}(1-x)\sum_{r=0}^{n} b_r S_{r,n}(x) + x\cdot \Delta z_l
 
 In the formula, ar and br are the parameters that control the airfoil curve substitution. By setting reasonable coefficients, any airfoils can be fitted using the CST method. For the NACA0015 airfoil, twelve cubic Bernstein polynomial coefficients were used to define the geometry of the upper and lower surfaces of the airfoil. The fitting result of the NACA 0015 airfoil is shown in Figure 9, which matches well with the original airfoil.
 
-![Figure 9: NACA0015 airfoil expressed by CST function](../images/va2-fig9.jpg)
+![Figure 9: NACA0015 airfoil expressed by CST function](va2-fig9.jpg)
 
 ### 3.2. The Effect of CST Function Coefficients on Airfoil Geometry
 
 For the H-VAWT airfoil optimization, the NACA 0015 airfoil was chosen as the initial reference profile. In order to study the influence of CST function coefficients on airfoil geometry, six coefficients are selected to generate different airfoil shapes, as shown in Figure 10. Firstly, the leading-edge radius of the airfoils is mainly affected by the coefficients (a1, b1). Then, the maximum thickness of the airfoils is mainly affected by the coefficients (a2, b2). Lastly, the trailing-edge thickness of the airfoils is mainly affected by the coefficients (a5, b5). According to aerodynamic theory, the leading-edge radius (a1, b1) primarily affects stall characteristics, while the camber and trailing-edge thickness (a5, b5) are related to power output. That means the six coefficients of CST function must be considered when optimizing the airfoil of the H-VAWT.
 
-![Figure 10: The effect of CST function coefficients on airfoil geometry](../images/va2-fig10.jpg)
+![Figure 10: The effect of CST function coefficients on airfoil geometry](va2-fig10.jpg)
 
 ## 4. Airfoil Optimized Design of H-VAWT
 
@@ -258,9 +258,9 @@ We selected seven parameters as optimization variables, namely a1, a2, a5, b1, b
 
 Based on the data in Table 3, the sensitivity analysis of the influence of each parameter on the power coefficient of the H-VAWT is shown in Figure 11. It shows that the power coefficient is the most sensitive to the radius of the leading edge, followed by the relative thickness, and finally the shape of the trailing edge. Therefore, the reasonable design of the radius of the leading edge is the most critical element to the power coefficient of the H-VAWT. Figure 12 shows the error analysis between the surrogate model and experimental data. Ideally, if the predicted values perfectly match the actual values, the data points would align along the diagonal. In Figure 12, the coefficient of determination R2 is 0.91368, which is generally accepted in engineering applications (R2 > 0.8). Therefore, it can be used to optimize the airfoil profiles of the H-VAWT.
 
-![Figure 11: The parameter sensitivity analysis on power coefficients](../images/va2-fig11.jpg)
+![Figure 11: The parameter sensitivity analysis on power coefficients](va2-fig11.jpg)
 
-![Figure 12: The error analysis of the proxy model](../images/va2-fig12.jpg)
+![Figure 12: The error analysis of the proxy model](va2-fig12.jpg)
 
 ### 4.2. MIGA-Based H-VAWT Airfoil Optimization
 
@@ -298,7 +298,7 @@ In the optimization process, the surrogate model plays a central supporting role
 
 The co-optimization flow of MIGA and the proxy model is shown in Figure 13. The H-VAWT airfoil parametric design program code was developed using MATLAB 2020 and integrated with the Kriging surrogate model into the ISIGHT automatic optimization platform. The MIGA was used to solve the objective function, achieving the optimization design of the VAWT airfoil. The MIGA algorithm was set with 10 independent islands, each with a population size of 40, a crossover probability of 0.85, a mutation probability of 0.02, and a migration frequency of once every five generations with a migration rate of 10%. The optimization process was iterated for 40 generations, with a total of 16,000 calculations, and converged at the 4000th generation. MIGA can significantly enhance the global search capability through the parallel evolution and migration strategy, while the introduction of the proxy model significantly reduces the frequency of CFD simulation calls. This efficient coupling method can achieve high-quality airfoil optimization under limited computational resources and provides a reliable optimization strategy for wind turbine aerodynamic design.
 
-![Figure 13: MIGA and surrogate model optimization flowchart](../images/va2-fig13.jpg)
+![Figure 13: MIGA and surrogate model optimization flowchart](va2-fig13.jpg)
 
 Taking 10 populations with 40 samples for each population and a total of 40 iterations, the final parameters of the two optimized airfoils are shown in Table 4. Compared with the NACA0015 airfoil, the power coefficients of optimized airfoil 1 were improved by 14.2%, and the power coefficients of optimized airfoil 2 were improved by 11.6%. Therefore, the two new airfoils both showed better aerodynamic performance.
 
@@ -317,27 +317,27 @@ Taking 10 populations with 40 samples for each population and a total of 40 iter
 
 A comparison of optimized airfoil shapes is shown in Figure 14. Compared to the original symmetric airfoil, both optimized airfoils have positive mounting angles. The upper airfoil is fuller than the lower airfoil. The thickness of the trailing edge is relatively larger. In addition, the relative thickness and mounting angle of optimized airfoil 2 are smaller than those of optimized airfoil 1.
 
-![Figure 14: Optimized configuration vs. original configuration](../images/va2-fig14.jpg)
+![Figure 14: Optimized configuration vs. original configuration](va2-fig14.jpg)
 
 Figure 15 demonstrates the variation pattern of the wind turbine power coefficient with tip speed ratio calculated using McLaren’s correction formula before and after optimization. From the figure, it can be seen that the power coefficients of both optimized airfoils are significantly better than the original airfoil in the whole range of tip speed ratios. Under the low-tip-speed ratio condition, the power coefficient enhancements of optimized airfoil type 1 and optimized airfoil type 2 are basically equal, but the maximum power coefficient of optimized airfoil type 1 is larger than that of airfoil type 2. The results show that the two optimized airfoils have similar starting performance under low-tip-speed ratio conditions. However, for the high-tip-speed ratio, the power coefficient of optimized airfoil 1 is higher than that of optimized airfoil 2.
 
-![Figure 15: Comparison of power coefficient between optimized and original results](../images/va2-fig15.jpg)
+![Figure 15: Comparison of power coefficient between optimized and original results](va2-fig15.jpg)
 
 Figure 16 demonstrates the variation rule of the moment coefficient with the azimuth angle for individual blades before and after optimization, when the tip speed ratio is 1.8. The horizontal coordinate indicates the azimuth angle of blade rotation. The results show that the main power output of the blades is concentrated in the 50~180° azimuth interval, and the power generated by the remaining azimuth region is smaller. Due to the cyclic rotational characteristics of the three-bladed wind turbine, each blade will enter the 50~180° azimuth region alternately, so as to maintain the continuous operation of the wind turbine effectively. After optimization, the wind turbine not only improves the maximum moment coefficient of the blades but also improves the moment coefficient of the blades in most of the azimuthal angles, so that the whole power coefficient of the H-VAWT is improved.
 
-![Figure 16: Comparison of individual blade results between optimized and original configurations](../images/va2-fig16.jpg)
+![Figure 16: Comparison of individual blade results between optimized and original configurations](va2-fig16.jpg)
 
 ### 4.4. Fluid Characteristics of the 2D H-VAWT with New Airfoils
 
 Figure 17 shows, comparatively, the pressure distribution clouds of the original configuration, optimized airfoil 1 and optimized airfoil 2, at different azimuthal angles when the tip speed ratio is 1.8. The legends are the same in all the figures for the sake of comparison. The comparative analysis shows that the optimized H-VAWT exhibits a significant aerodynamic performance enhancement at different azimuth angles. Specifically, in the range of a 60–120° key azimuth angle, the optimized blade surface pressure gradient distribution is more uniform. The leading-edge high-pressure-zone area is reduced, and the trailing-edge low-pressure-zone pressure value is increased, which effectively reduces the pressure drag loss and, overall, improves the wind energy utilization of the wind turbine. At the same time, the results of the flow field diagram show that the optimized design effectively reduces the flow separation and turbulence area. The flow line is smoother. The flow adhesion on the surface of the wind turbine blade is improved, which reduces the drag and improves the performance. These optimization results show that the improved airfoil design has significant advantages in pressure distribution and aerodynamic efficiency, which enhances the overall performance and energy capture capability of the wind turbine. The main effect of the optimization is to improve the lift effect of the airfoil in an integrated way, since the airfoil angle of approach is not changed, so the direction of the lift force remains unchanged, which, in turn, can provide a larger torque.
 
-![Figure 17: Cloud map of pressure distribution at different azimuths](../images/va2-fig17.jpg)
+![Figure 17: Cloud map of pressure distribution at different azimuths](va2-fig17.jpg)
 
 As shown in Figure 17c, under the working conditions of TSR = 1.8 and azimuth 120°, the static pressure at the leading edge of the original airfoil is 400 Pa. Optimized airfoil 1 reduces the area of the high-pressure zone by 23% by increasing the leading-edge curvature (a1 increases from 0.2117 to 0.2281), and the peak static pressure drops to 320 Pa. The pressure in the low-pressure area at the trailing edge increased from −800 Pa to −680 Pa, reducing the pressure difference by 15% and effectively lowering the pressure difference resistance.
 
 Figure 18 represents a comparison of the velocity distribution cloud plots of the original airfoil, optimized airfoil 1 and optimized airfoil 2, at different azimuthal angles when the modified tip speed ratio is 1.8, respectively. The legends of all the plots are the same in order to facilitate the comparison, from which it can be seen that all three airfoils are rotating for one week. According to the velocity cloud plots at different azimuthal angles, the optimized H-VAWT shows significant improvements in fluid characteristics. The optimized design results in a more uniform flow over the blade surface, especially at the 0° and 60° positions, where the flow structure is smoother, reducing vortices and flow separation phenomena, thus reducing energy losses. The velocity field analysis (Figure 18b) shows that the velocity distribution on the blade surface of the optimized airfoil at the 60° azimuth angle is more uniform. The maximum velocity decreases from 20 m/s to 18 m/s, and the area of the tail vortex region reduces by 40%, indicating a significant improvement in the flow separation phenomenon. At the 120° position, the optimized design significantly improves the adhesion of the flow lines. As a result, it can reduce unnecessary energy consumption and enhance the aerodynamic efficiency. Further analysis of the flow distribution at azimuth angles of 180° and 240° shows that the optimized model exhibits smoother flow at the trailing edge of the airfoil and near-tail region, improving the wind energy conversion capability. The explanation for the more pronounced vortex shedding phenomenon of the original airfoil after azimuth angle 240° may be related to the changes in the design parameters of the airfoil. Specifically, the NACA0015 airfoil at this azimuth angle may lead to accelerated changes in the airflow or increased local pressure differences, which exacerbate airflow separation and lead to more pronounced vortex shedding in the wake.
 
-![Figure 18: Velocity distribution clouds in different azimuths](../images/va2-fig18.jpg)
+![Figure 18: Velocity distribution clouds in different azimuths](va2-fig18.jpg)
 
 Finally, at 300°, the optimized design similarly improves the flow uniformity and reduces vortex formation, which can enhance the wind energy capture capability of the blade. Overall, the optimized design reduces the flow resistance and energy loss by improving the fluid characteristics of the wind turbine. Therefore, it can effectively enhance the overall performance and efficiency of the H-VAWT. With an azimuth angle greater than 90°, the airfoil appears to stall, and a trailing vortex is generated at the trailing edge, which increases drag and reduces aerodynamic performance. The optimized airfoil is able to provide greater torque by improving the flow field characteristics, weakening the airflow separation, reducing drag, and reducing the negative torque generated by the drag. In conclusion, it is demonstrated that the new airfoils can effectively reduce drag and increase torque.
 

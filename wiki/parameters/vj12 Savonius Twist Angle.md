@@ -13,7 +13,7 @@ This `vj12` review discusses changing the twist angle of helical Savonius blades
 
 - The review summarizes twist-angle studies at `0°`, `30°`, `45°`, `90°`, `105°`, `135°`, `150°`, and `180°`. (source: sources/vj12.md)
 
-![Source figure](../../images/vj12-fig18.jpg)
+![Source figure](vj12-fig18.jpg)
 Original caption: Figure 18: Top and side view of wind rotor shapes with different twist angle [95]. [[vj12|Source]]
 
 ## Outcome

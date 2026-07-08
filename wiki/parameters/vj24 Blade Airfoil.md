@@ -22,10 +22,10 @@ This `vj24` paper treats blade airfoil redesign as the main design variable for 
 - The source frames this as meeting the intended `10-15%` relative improvement target for a small VAWT at `TSR = 1.6`. (source: sources/vj24.md)
 - Qualitatively, the final design is reported to delay transition, improve lift-curve behavior, and reduce drag at `alpha > 15 deg`, even though it has slightly higher drag at low angles of attack. (source: sources/vj24.md)
 
-![Source figure](../../images/vj24-fig2.jpg)
+![Source figure](vj24-fig2.jpg)
 Original caption: Figure 2: Comparison of aerodynamic and boundary layer characteristics of the original NACA 0018 airfoil and the final design NACA 0018-M airfoil with experiments [9]. [[vj24|Source]]
 
-![Source figure](../../images/vj24-fig4.jpg)
+![Source figure](vj24-fig4.jpg)
 Original caption: Figure 4: Comparison of surface pressure coefficient distribution at Re = 200000 and alpha = 0 deg. [[vj24|Source]]
 
 > Uncertainty: the source explicitly says the improvement should be interpreted qualitatively and relatively, because XFOIL remains weak for low-Re high-angle-of-attack post-stall prediction. (source: sources/vj24.md)

@@ -16,7 +16,7 @@ Airfoil-selection framework for smaller-capacity fixed-pitch straight-bladed Dar
 - It explicitly argues that the older symmetric `NACA` 4-digit sections widely reused in SB-VAWT work are a poor fit for this application, and that a high-lift, low-drag asymmetric thick airfoil is more appropriate. (source: sources/vj28.md)
 - The public-domain candidate comparison still shows tradeoffs rather than one universally best section: `S1210` is strongest on several positive-incidence force metrics, `NLF(1)-0416` has the widest low-Re drag bucket, `LS(1)-0417` is least roughness-sensitive in `Cdo`, and `NACA 4415` is the quietest in the model-based noise comparison. (source: sources/vj28.md)
 
-![Source figure](../../images/vj28-fig22.jpg)
+![Source figure](vj28-fig22.jpg)
 Original caption: Figure 22. Geometric Features of a Typical Asymmetric Airfoil [[vj28|Source]]
 
 > Uncertainty: the paper's framework is stronger as a screening guide than as proof of one best airfoil, because some results rely on `XFOIL` plus extrapolated post-stall data and several dedicated VAWT airfoils could not be fully evaluated. (source: sources/vj28.md)

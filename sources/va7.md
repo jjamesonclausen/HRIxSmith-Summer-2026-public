@@ -258,7 +258,7 @@ where ρ is the density, V is the velocity, µ is the dynamic viscosity, p is th
 Pγ, Pθt are the production terms for respective quantities, ˆDk, Dω, Dγ are destruction terms
 of the respective quantities.
 Figure 1. Top view of (a) Helical blade vertical axis wind turbines (VAWT) with definition of direction of rotation (θ) and
-![Figure 1](../images/va7-fig1.jpg)
+![Figure 1](va7-fig1.jpg)
 helix angle (ψ); front view of helical blade VAWT (b) ψ = 60◦(c) ψ = 90◦(d) ψ = 120◦.
 
 ### 2.1. Computational Domain and Grid
@@ -280,9 +280,9 @@ that of the diameter of the turbine. The outlet pressure plane is 30 times the d
 the centre of the turbine at the downstream. The sidewalls and the top and bottom surfaces
 are defined to be free shear walls.
 Figure 2. Domain consisting of the stationary cuboidal domain and rotating cylindrical domain.
-![Figure 2](../images/va7-fig2.jpg)
+![Figure 2](va7-fig2.jpg)
 Figure 3. (a) Sectional view of the domain mesh: (b) mesh near the blade, (c) mesh growth surrounding the blade.
-![Figure 3](../images/va7-fig3.jpg)
+![Figure 3](va7-fig3.jpg)
 
 ### 2.2. Boundary, Initial Conditions, and Computational Procedure
 The rectangular numerical domain considered consists of two side walls and top
@@ -322,14 +322,14 @@ of rotation of the turbine. Three different resolutions (2◦, 1◦, and 0.5◦)
 to make sure the results predicted are reasonable. From Figure 4b, it is evident that all
 three-time step definitions are predicting similar solutions with significantly fewer errors.
 Figure 4. Moment coefficient (Cm) plot for a single blade indicating (a) grid independence, (b) time step independence.
-![Figure 4](../images/va7-fig4.jpg)
+![Figure 4](va7-fig4.jpg)
 Figure 5 illustrates the cyclic convergence for a tip speed ratio of 2.3, 60◦helical-bladed
 VAWT case. The solution has achieved a cyclic nature by the end of the 10th cycle itself,
 which indicates that the solution has reached convergence. All the simulations were run
 for 14 rotation cycles of the turbine to remove any non-cyclic behaviour in the solution.
 
 Figure 5. Cyclic convergence of solution for a 60◦helical blade VAWT running at λ = 2.3.
-![Figure 5](../images/va7-fig5.jpg)
+![Figure 5](va7-fig5.jpg)
 To validate the numerical model used in this study, McLaren’s experimental data [46]
 were used. In the experimental study, a 420 mm chord three-bladed straight VAWT was
 studied and tested in the wind tunnel. The numerical model with similar dimensions was
@@ -339,7 +339,7 @@ to the numerical model settings that are used in this study. Moreover, the exper
 uncertainity reported by McLaren was ±14.5%. It should also be noted that in the present
 work, the helical turbine studied has same dimensions of McLaren’s straight VAWT.
 Figure 6. Validation of numerical results to McLarens experimental results.
-![Figure 6](../images/va7-fig6.jpg)
+![Figure 6](va7-fig6.jpg)
 
 ## 3. Results
 
@@ -358,7 +358,7 @@ large for a small variation of TSR. For a 120◦helical blade turbine, the perfo
 looks far inferior to any other turbines that are considered.
 
 Figure 7. Coefficient of performance of VAWT for various helix angles.
-![Figure 7](../images/va7-fig7.jpg)
+![Figure 7](va7-fig7.jpg)
 The moment coefficient (Cm) of a single blade is plotted against the azimuthal angle of
 rotation in Figure 8a–c for helix angles of 60◦, 90◦, and 120◦, respectively. The Cm curve at
 different TSRs (λ) for different helix angles are plotted for each helical turbine. It should be
@@ -379,11 +379,11 @@ the lowest peak. It is interesting to look at the curve slope for each helix ang
 curve is steep for lower helix angles. To further investigate the effect of the slope of the
 curve on the performance, a normalised cumulative Cm was plotted.
 Figure 8. Moment coefficient for various tip speed ratios (TSRs), (a) helix angle 60◦, (b) helix angle
-![Figure 8](../images/va7-fig8.jpg)
+![Figure 8](va7-fig8.jpg)
 90◦, (c) helix angle 120◦.
 
 Figure 9. Cm curve for the first blade of straight 60◦, 90◦, and 120◦helix angles of blades compared at (a) λ = 2.3, (b) λ = 2.7,
-![Figure 9](../images/va7-fig9.jpg)
+![Figure 9](va7-fig9.jpg)
 (c) λ = 3.1, (d) λ = 3.5, and (e) λ = 3.9.
 In Figure 10, the normalised curve was plotted, which gave a better understanding
 of the nature of energy generated. The trend of power generated in each of these cases
@@ -401,15 +401,15 @@ effect of all three blades on the turbine power generation curve. Hence, the cum
 curve as plotted in Figure 11.
 
 Figure 10. Normalised cumulative Cm Curve of blade 1 at different λ for (a) ψ = 0◦, (b) ψ = 60◦
-![Figure 10](../images/va7-fig10.jpg)
+![Figure 10](va7-fig10.jpg)
 (c) ψ = 90◦, (d) ψ = 120◦, (e) Normalised curve of all helical-bladed turbines compared against straight
 blade turbine at a TSR of 3.1.
 Figure 11. Cumulative Cm plot for helical turbine having (a) ψ = 60◦, (b) ψ = 90◦, and (c) ψ = 120◦.
-![Figure 11](../images/va7-fig11.jpg)
+![Figure 11](va7-fig11.jpg)
 
 The cumulative Cm effect of each turbine was plotted for different tip speed ratios in
 Figure 12. It was found that the Cm curve had a maximum point and a minimum point.
-![Figure 12](../images/va7-fig12.jpg)
+![Figure 12](va7-fig12.jpg)
 These fluctuations in maximum and minimum are large for lower TSRs for all the types of
 turbines. For 60◦and 90◦helical-bladed turbines, it is noticed that the fluctuations minimise
 as the TSR increases. It is seen that for lower TSRs, the Cm curve has a lot of instability for
@@ -432,7 +432,7 @@ value of Cm by the end of the quartile. It is also noticed that for such cases, 
 contribution of the blades will go into negative values in other quartiles as the sum total
 has to be 100%.
 Figure 13. (a) Definition of quartile and percentage contribution by a blade in each quartile for all helical blades and straight
-![Figure 13](../images/va7-fig13.jpg)
+![Figure 13](va7-fig13.jpg)
 blades at (b) TSR = 2.3, (c) TSR = 2.7, (d) TSR = 3.1, (e) TSR = 3.5, and (f) TSR = 3.9.
 
 It is interesting to note that the percentage contribution in the downwind side is
@@ -460,7 +460,7 @@ blade shows the maximum variation, and it is approximately 85% higher than the 1
 helical-bladed VAWT. The maximum standard deviation for a turbine is away from the
 peak performance of that turbine.
 Figure 14. The standard deviation of Cp of different helical-bladed and straight-bladed VAWT
-![Figure 14](../images/va7-fig14.jpg)
+![Figure 14](va7-fig14.jpg)
 operating at different TSR.
 
 ### 3.2. Effect of Helix Angle on Turbine Blade Loads
@@ -473,7 +473,7 @@ trailing section while the turbine is in rotation. A sectional analysis is essen
 the blade interacts with the flow continuously across different quadrants.
 
 Figure 15. Sections of blades of a helical vertical axis wind turbine.
-![Figure 15](../images/va7-fig15.jpg)
+![Figure 15](va7-fig15.jpg)
 The Cm contribution of each blade segment was observed over a rotation of 360◦.
 The leading section, mid-section, and trailing section Cm are plotted in red, green, and
 blue colours, respectively in Figure 16. Figure 16a–c represents the contribution curves of
@@ -489,18 +489,18 @@ Figure 16 to highlight important azimuth angles. Corresponding to those azimuth 
 the z-vorticity contours are plotted in Figures 17–19. These points are of importance as
 they represent the peaks of individual segments of the same blade.
 Figure 16. Section-wise Cm contribution of each segment of a single blade of (a) ϕ = 60◦, (b) ϕ = 90◦, and (c) ϕ = 120◦
-![Figure 16](../images/va7-fig16.jpg)
+![Figure 16](va7-fig16.jpg)
 helical-bladed VAWT operating at a TSR of 3.1.
 
 Figure 17. Z-vortex magnitude for 60◦helical VAWT at z planes at heights of −1.45 m, −0.75 m, 0 m, 0.75 m, and 1.45 m at
-![Figure 17](../images/va7-fig17.jpg)
+![Figure 17](va7-fig17.jpg)
 azimuth angles of rotation of (a) 75◦, (b) 100◦, (c) 135◦, (d) 150◦, and (e) 165◦.
 Figure 18. Z-vortex magnitude for 90◦helical VAWT at z planes at heights of −1.45 m, −0.75 m, 0 m, 0.75 m, and 1.45 m at
-![Figure 18](../images/va7-fig18.jpg)
+![Figure 18](va7-fig18.jpg)
 azimuth angles of rotation of (a) 75◦, (b) 100◦, (c) 135◦, (d) 150◦, and (e) 165◦.
 
 Figure 19. Z-vortex magnitude for 120◦helical VAWT at z planes at heights of −1.45 m, −0.75 m, 0 m, 0.75 m, and 1.45 m at
-![Figure 19](../images/va7-fig19.jpg)
+![Figure 19](va7-fig19.jpg)
 azimuth angles of rotation of (a) 75◦, (b) 100◦, (c) 135◦, (d) 150◦, and (e) 165◦.
 Figures 17–19 represent the z-vorticity contours of 60◦(Figure 17), 90◦(Figure 18), and
 120◦(Figure 19) helical blade VAWT at operating condition of TSR 3.1. It is essential to
@@ -549,7 +549,7 @@ performance was observed. In Figure 20, a 90◦helical-bladed VAWT was observed 
 the performance of different sections of the blade. As already observed from Figure 7, the
 performance of the 90◦helical-bladed VAWT improves from TSR 2.7 to 3.1.
 Figure 20. Section-wise Cm contribution of different segments of a single blade of a 90◦helical VAWT operating at TSRs of
-![Figure 20](../images/va7-fig20.jpg)
+![Figure 20](va7-fig20.jpg)
 (a) 2.7, (b) 3.1, and (c) 3.5.
 To have a better understanding of how the blade sections behave with a change in TSR,
 a 90◦helical-bladed VAWT is studied for sectional contributions. From Figure 17, it can
@@ -572,7 +572,7 @@ in Figure 20. The flow separations are found to be minimal in TSR3.5, thereby pr
 better Cm when compared to other TSRs. It is also found that the z-vorticity generated by
 the shaft reduces as the TSR increases.
 Figure 21. Z-vorticity magnitude of 90◦helical-bladed VAWT at 100◦, 130◦, and 150◦of azimuth angles of rotation of a
-![Figure 21](../images/va7-fig21.jpg)
+![Figure 21](va7-fig21.jpg)
 turbine operating at (a–c) TSR = 2.7, (d–f) TSR = 3.1, and (g–i) TSR = 3.5.
 
 ### 3.3. Effect of Helix Angle on Turbine Wake
@@ -586,10 +586,10 @@ The turbine wake gets weaker at TSR 3.1 for 120◦helical-bladed VAWT when compa
 The wake profile gets weaker when the helix angle is increased even from a closer
 X/D rage of 2.
 Figure 22. Wake structure of helical blade VAWT at Y/D of 2 (a,d,g,j), 3 (b,e,h,k), and 4 (c,f,i,l). For straight and helicalbladed VAWT at TSR = 3.1.
-![Figure 22](../images/va7-fig22.jpg)
+![Figure 22](va7-fig22.jpg)
 
 Figure 23. Wake structure of helical blade VAWT at Y/D of 2 (a,d,g), 3 (b,e,h), and 4 (c,f,i). For helical-bladed VAWT at
-![Figure 23](../images/va7-fig23.jpg)
+![Figure 23](va7-fig23.jpg)
 TSR = 3.5.
 The wake of a helical-bladed VAWT unlike that with straight blades seems to be
 dissipating quickly as the helix angle increases. It further degrades when the tip speed
@@ -605,7 +605,7 @@ of energy. It is also noted that the wake characteristic shapes remain almost si
 given Y/D despite different TSR.
 
 Figure 24. Wake structure for a 90◦helical-bladed VAWT at Y/D of 2 (a,d,g,j), 3 (b,e,h,k), and 4 (c, Figure 2. 7 (a–c), 3.1 (d–f),
-![Figure 24](../images/va7-fig24.jpg)
+![Figure 24](va7-fig24.jpg)
 3.5 (g–i) and 3.9 (j–l).
 
 ## 4. Conclusions

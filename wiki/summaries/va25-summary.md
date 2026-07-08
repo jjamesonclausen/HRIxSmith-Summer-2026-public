@@ -9,9 +9,9 @@ Tags: #summaries
 
 CFD airfoil-selection study for a straight-bladed H-Darrieus VAWT, focused on self-starting and low-TSR performance across symmetric, cambered-in, and cambered-out blade profiles. (source: sources/va25.md)
 
-![Source figure](../../images/va25-fig19.jpg)
+![Source figure](va25-fig19.jpg)
 Original caption: Fig. 19 Max Cp and corresponding lambda for the studied airfoils with their different orientations. [[va25|Source]]
-![Source figure](../../images/va25-fig18.jpg)
+![Source figure](va25-fig18.jpg)
 Original caption: Fig. 18 Startup analysis of cambered-out Clark Y and S1210. [[va25|Source]]
 
 Key points:

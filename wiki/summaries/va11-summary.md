@@ -9,9 +9,9 @@ Tags: #summaries
 
 Review paper on the wake aerodynamics of H-rotor VAWTs, covering wake asymmetry, dynamic-stall-driven vortex shedding, experimental and CFD wake studies, and wake-model development for wind-farm layout design. (source: sources/va11.md)
 
-![Source figure](../../images/va11-fig9.jpg)
+![Source figure](va11-fig9.jpg)
 Original caption: Fig. 9. Time-averaged vertical velocity contour in the y-z plane [*] [53]. [[va11|Source]]
-![Source figure](../../images/va11-fig38.jpg)
+![Source figure](va11-fig38.jpg)
 Original caption: Fig. 38. Schematic of the wake model [78]. [[va11|Source]]
 
 Key points:

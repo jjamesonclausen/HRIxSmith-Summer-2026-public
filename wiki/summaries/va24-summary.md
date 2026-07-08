@@ -9,9 +9,9 @@ Tags: #summaries
 
 DMST-based study of active variable blade pitching for a straight-bladed Darrieus VAWT, showing large modeled performance gains when local angle of attack is kept below stall across the rotor cycle. (source: sources/va24.md)
 
-![Source figure](../../images/va24-fig9.jpg)
+![Source figure](va24-fig9.jpg)
 Original caption: Fig. 9. Comparison of Cp against different TSR from 2 to 9 for fixed blades compared against active blade pitching model techniques 1 and 2. [[va24|Source]]
-![Source figure](../../images/va24-fig10.jpg)
+![Source figure](va24-fig10.jpg)
 Original caption: Fig. 10. a) Comparison of Coefficient of Performance against different tip speed ratios for fixed blade with pitching model technique 1 and 2, b) Maximum local angle of attack (S) used during technique 1 and 2 to achieve Cp in Fig. 10(a). [[va24|Source]]
 
 Key points:

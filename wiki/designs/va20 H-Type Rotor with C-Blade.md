@@ -25,9 +25,9 @@ The first `va20` reference design is a three-bladed drag-force H-type VAWT using
 - The reported arc radius / chord parameter is `0.13 m`, and the aspect ratio is `0.75`. (source: sources/va20.md)
 - The paper reports solidity `0.05` for this configuration. (source: sources/va20.md)
 
-![Source figure](../../images/va20-fig1.jpg)
+![Source figure](va20-fig1.jpg)
 Original caption: Figure 1. C-blade rotor. [[va20|Source]]
-![Source figure](../../images/va20-fig2.jpg)
+![Source figure](va20-fig2.jpg)
 Original caption: Figure 2. Case 1: Geometry H-type C-blade (drag force) rotor. [[va20|Source]]
 
 ## Unique Design Choices

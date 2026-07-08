@@ -16,7 +16,7 @@ Interaction between an advancing VAWT blade and the wake left by another blade o
 - The shifted-troposkien designs are proposed specifically to reduce direct wake interference between the two blades. (source: sources/va23.md)
 - The paper reports that partial vertical shifting (`50% STS-VAWT`) improves performance more than the baseline, while the fully shifted case shows that reducing BWI alone is not enough if blade size and solidity are reduced too much. (source: sources/va23.md)
 
-![Source figure](../../images/va23-fig1.jpg)
+![Source figure](va23-fig1.jpg)
 Original caption: Figure 1. Vertical axis wind turbine (VAWT) configurations: (A) conventional VAWT (troposkien shape), (B) novel 50% STS-VAWT (50% shifted troposkien shape-VAWT), (C) novel 100% STS-VAWT. [[va23|Source]]
 
 Related:

@@ -15,7 +15,7 @@ This `vj9` paper changes Savonius blade shape while keeping the design manufactu
 - The optimization is centered on rotor-blade geometry rather than guide vanes or other external devices. (source: sources/vj9.md)
 - The designs are compared at the paper's main design point of `TSR 0.9` and `12 m/s`. (source: sources/vj9.md)
 
-![Source figure](../../images/vj9-fig16.jpg)
+![Source figure](vj9-fig16.jpg)
 Original caption: Figure 16. Torque coefficient curves for the proposed designs. [[vj9|Source]]
 
 ## Outcome

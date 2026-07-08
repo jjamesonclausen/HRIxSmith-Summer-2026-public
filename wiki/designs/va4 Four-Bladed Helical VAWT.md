@@ -27,7 +27,7 @@ The `va4` study investigates a four-bladed helical vertical-axis wind turbine as
 - Rotor radius: 0.21 m. (source: sources/va4.md)
 - Blade height: 0.54 m. (source: sources/va4.md)
 
-![Source figure](../../images/va4-fig1.jpg)
+![Source figure](va4-fig1.jpg)
 Original caption: Figure 1. The sketch of HVAWT. [[va4|Source]]
 
 ## Unique Design Choices

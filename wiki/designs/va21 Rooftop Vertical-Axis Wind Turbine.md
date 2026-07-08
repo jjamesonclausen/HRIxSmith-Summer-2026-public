@@ -25,9 +25,9 @@ The `va21` paper presents a small experimental rooftop VAWT that was built and i
 - The turbine is mounted at the south-west corner of the roof on a `0.45 m` thick parapet wall, with a brick support pillar of plan area `1.2 m x 0.6 m`. (source: sources/va21.md)
 - The blades are straight, tapered, and twisted by a trial-and-error process intended to improve torque production under low urban wind conditions. (source: sources/va21.md)
 
-![Source figure](../../images/va21-fig3.jpg)
+![Source figure](va21-fig3.jpg)
 Original caption: Figure 3. Major components of the WT: (a) isometric view and (b) photographic view. Legends: 1. Blades (04 in count); 2. Holding table; 3. Vertical axis of rotation; 4. Table legs (04 in count); 5. Threaded stud (04 in number); 6. Electrical motor (DC to AC); 7. Large spur gear; 8. Hollow flanged attachment (source: Shantanu Dutta). [[va21|Source]]
-![Source figure](../../images/va21-fig5.jpg)
+![Source figure](va21-fig5.jpg)
 Original caption: Figure 5. WT and motor details (source: Authors' elaboration). [[va21|Source]]
 
 ## Unique Design Choices

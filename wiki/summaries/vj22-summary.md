@@ -19,10 +19,10 @@ This paper uses QBlade simulations to compare `NACA 0012` and `NACA 0015` for a 
 
 Related pages: [[Darrieus Turbine]], [[Straight-bladed Darrieus]], [[Wind Turbine Parameters]], [[VAWT Aerodynamic Design Parameters]], [[QBlade]], [[vj22 Simulated Small-Scale Straight-Bladed VAWT]], [[vj22 Blade Profile]], [[vj22 Blade Number]]
 
-![Source figure](../../images/vj22-fig2.jpg)
+![Source figure](vj22-fig2.jpg)
 Original caption: Fig. 2. The comparison of shape of NACA 0012 and NACA0015 [[vj22|Source]]
 
-![Source figure](../../images/vj22-fig12.jpg)
+![Source figure](vj22-fig12.jpg)
 Original caption: Fig. 12 Comparison of Cp against TSR of NACA 0015 for 3, 5 and 8 blades. [[vj22|Source]]
 
 #summaries

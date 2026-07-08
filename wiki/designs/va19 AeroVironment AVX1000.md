@@ -24,9 +24,9 @@ The `va19` campus study evaluates the `AeroVironment AVX1000` as a rooftop-edge 
 - The report gives a swept area of `2.21 m^2`. (source: sources/va19.md)
 - It says the turbine has only `60 degrees` of turning capability and is intended to be installed in systems of six or more along a building roofline. (source: sources/va19.md)
 
-![Source figure](../../images/va19-fig5.jpg)
+![Source figure](va19-fig5.jpg)
 Original caption: Figure 5. Diagram from AV proposal illustrating wind shear effect on the top of a building parapet. [[va19|Source]]
-![Source figure](../../images/va19-fig6.jpg)
+![Source figure](va19-fig6.jpg)
 Original caption: Figure 6. AVX1000. [[va19|Source]]
 
 ## Unique Design Choices

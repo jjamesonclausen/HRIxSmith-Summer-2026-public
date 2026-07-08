@@ -14,7 +14,7 @@ The `va15` study compares rough wooden blades against smoother blades covered wi
 - The roughness comparison uses original plywood blades and blades coated with 0.03 mm aluminum tape. (source: sources/va15.md)
 - The measured wood surface roughness is much larger than the taped surface roughness. (source: sources/va15.md)
 
-![Source figure](../../images/va15-table1.jpg)
+![Source figure](va15-table1.jpg)
 Original caption: TABLE 1 Measured surface roughness (mean value) of the wood sample and the sample covered with thin aluminum tape. Unit: micrometers [[va15|Source]]
 
 ## Outcome

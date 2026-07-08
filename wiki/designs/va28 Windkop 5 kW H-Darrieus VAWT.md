@@ -25,7 +25,7 @@ The paper studies a prototype H-Darrieus, three-blade VAWT manufactured in Polan
 - Measured generation over three years totaled `658.3 kWh`, or `219.4 kWh/year`, for a `0.50%` capacity factor. (source: sources/va28.md)
 - The paper attributes the poor output mainly to low wind speed at the site and surrounding buildings. (source: sources/va28.md)
 
-![Source figure](../../images/va28-fig2.jpg)
+![Source figure](va28-fig2.jpg)
 Original caption: Fig. 2. Main components of the Windkop 5 kW Vertical Axis Wind Turbine system. [[va28|Source]]
 
 Related: [[Capacity Factor]], [[Life Cycle Assessment]], [[Urban Wind Conditions]], [[Economic Viability of VAWTs]]

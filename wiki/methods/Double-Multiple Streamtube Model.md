@@ -9,7 +9,7 @@ Tags: #methods
 
 The double-multiple streamtube (DMS) model is a Blade Element-Momentum variant for Darrieus VAWTs where the actuator disk is divided into upstream and downstream half-cycles, each with its own induced velocity. (source: sources/va9.md)
 
-![Source figure](../../images/va9-fig16.jpg)
+![Source figure](va9-fig16.jpg)
 Original caption: Fig. 16. Double-multiple streamtube model diagram. [[va9|Source]]
 
 Core idea:
@@ -36,13 +36,13 @@ Novel sliced DMS approach:
 - The va9 paper proposes slicing the wind turbine parallel to the wind-flow path, analyzing blade movement path and blade-profile mutations inside each slice, treating each slice as a virtual Darrieus VAWT, and integrating the resulting slice performance data. (source: sources/va9.md)
 - The source presents this as useful for complex blade forms and for integration into CFD and CAD tools. (source: sources/va9.md)
 
-![Source figure](../../images/va9-fig19.jpg)
+![Source figure](va9-fig19.jpg)
 Original caption: Fig. 19. Novel approach to the DMS model in a V shaped Darrieus VAWT. [[va9|Source]]
-![Source figure](../../images/va9-fig20.jpg)
+![Source figure](va9-fig20.jpg)
 Original caption: Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow. [[va9|Source]]
-![Source figure](../../images/va22-fig3.jpg)
+![Source figure](va22-fig3.jpg)
 Original caption: Figure 3. Angle of attack variation in a blade revolution for different tip speed ratios. [[va22|Source]]
-![Source figure](../../images/va24-fig4.jpg)
+![Source figure](va24-fig4.jpg)
 Original caption: Fig. 4. Double Multiple Stream Tube algorithm. [[va24|Source]]
 
 Related:

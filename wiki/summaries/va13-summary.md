@@ -9,9 +9,9 @@ Tags: #summaries
 
 Primary study of three rooftop VAWT retrofit options on a residential building in Çe¸sme, Türkiye, comparing aerodynamic performance, building energy savings, and payback period. (source: sources/va13.md)
 
-![Source figure](../../images/va13-fig6.jpg)
+![Source figure](va13-fig6.jpg)
 Original caption: Figure 6. Turbine designs for each case and rooftop installation (developed by authors). [[va13|Source]]
-![Source figure](../../images/va13-table2.jpg)
+![Source figure](va13-table2.jpg)
 Original caption: Table 2. Simulation results for all cases. [[va13|Source]]
 
 Key points:

@@ -11,9 +11,9 @@ Summary of `sources/vj4.md`. (source: sources/vj4.md)
 
 This paper compares small VAWT blade architectures using a BE-M load predictor and experimental validation. (source: sources/vj4.md)
 
-![Source figure](../../images/vj4-fig1.jpg)
+![Source figure](vj4-fig1.jpg)
 Original caption: Figure 1: Possible variants of Darrieus VAWT [[vj4|Source]]
-![Source figure](../../images/vj4-fig6.jpg)
+![Source figure](vj4-fig6.jpg)
 Original caption: Figure 6: Power coefficient CP curves at different TSRs [[vj4|Source]]
 
 Key points:

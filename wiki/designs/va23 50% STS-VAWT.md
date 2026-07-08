@@ -24,9 +24,9 @@ The `50% STS-VAWT` is the best-performing `va23` shifted-troposkien concept, des
 - The blade height is reduced to `0.50 m`, blade length to `0.93 m`, and solidity to `0.50`. (source: sources/va23.md)
 - The blade airfoil remains NACA0015. (source: sources/va23.md)
 
-![Source figure](../../images/va23-fig1.jpg)
+![Source figure](va23-fig1.jpg)
 Original caption: Figure 1. Vertical axis wind turbine (VAWT) configurations: (A) conventional VAWT (troposkien shape), (B) novel 50% STS-VAWT (50% shifted troposkien shape-VAWT), (C) novel 100% STS-VAWT. [[va23|Source]]
-![Source figure](../../images/va23-fig9.jpg)
+![Source figure](va23-fig9.jpg)
 Original caption: Figure 9. Power coefficient (Cp) vs TSR after corrections at 600 rpm. [[va23|Source]]
 
 ## Unique Design Choices

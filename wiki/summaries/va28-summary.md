@@ -16,11 +16,11 @@ This paper evaluates a specific 5 kW H-Darrieus VAWT at a real campus site and u
 - The source recommends better siting, recycling metals, and roof mounting instead of a steel mast and concrete foundation where possible. (source: sources/va28.md)
 
 Figures:
-- ![Source figure](../../images/va28-fig1.jpg)
+- ![Source figure](va28-fig1.jpg)
   Original caption: Fig. 1. Research methodology flowchart. [[va28|Source]]
-- ![Source figure](../../images/va28-fig2.jpg)
+- ![Source figure](va28-fig2.jpg)
   Original caption: Fig. 2. Main components of the Windkop 5 kW Vertical Axis Wind Turbine system. [[va28|Source]]
-- ![Source figure](../../images/va28-fig8.jpg)
+- ![Source figure](va28-fig8.jpg)
   Original caption: Fig. 8. Life Cycle environmental impacts of the VAWT per component. [[va28|Source]]
 
 > Inference: `va28` appears to be a duplicate upload of the same paper already present as [[vj14]], but this summary records the source under its own file as requested. (source: sources/va28.md)

@@ -74,7 +74,7 @@ The wind has been used as an energy source for a very long time, for example in 
 
 Fig. 1. To the left is a Savonius rotor, in the middle a Darrieus turbine and to the right an H-rotor. 
 
-![Figure 1: To the left is a Savonius rotor, in the middle a Darrieus turbine and to the right an H-rotor.](../images/vj1-fig1.jpg)
+![Figure 1: To the left is a Savonius rotor, in the middle a Darrieus turbine and to the right an H-rotor.](vj1-fig1.jpg)
 
 the same time, water pumping windmills became popular in the United States, recognisable for their many blades and typically situated on a farm [8]. 
 
@@ -200,7 +200,7 @@ Power curves for the three different turbines can be seen in Fig. 2. The power c
 
 Fig. 2. Power curves for the three different turbine types. 
 
-![Figure 2: Power curves for the three different turbine types.](../images/vj1-fig2.jpg)
+![Figure 2: Power curves for the three different turbine types.](vj1-fig2.jpg)
 
 Table 2 
 

@@ -9,11 +9,11 @@ Tags: #concepts
 
 Lift-based VAWT using airfoil blades to generate lift and rotation. (source: sources/n1.md, sources/va1.md)
 
-![Source figure](../../images/vj2-fig2a.jpg)
+![Source figure](vj2-fig2a.jpg)
 Original caption: Figure 2: (a) The "TEV 100" Darrieus generator, made by ICPITMUA Brasov; nominal power: 100 kW; nominal wind speed: 11...13 m/s; blade profile: NACA 0015; maximum Cp: 0.38. (b) The "TEV 20" H-type Darrieus generator, made by ICPITMUA Brasov; nominal power: 20 kW; blade profile: NACA 0012; nominal wind speed: 11 m/s; maximum Cp: 0.31 [[vj2|Source]]
-![Source figure](../../images/hri2526-fig4.jpg)
+![Source figure](hri2526-fig4.jpg)
 Original caption: Fig. 4. Pressure contour from Darrieus turbine CFD showing high pressure above the airfoil blade and low pressure below it causing rotating in the counterclockwise direction [17] [[HRI2526|Source]]
-![Source figure](../../images/hri2526-fig6.jpg)
+![Source figure](hri2526-fig6.jpg)
 Original caption: Fig. 6. Different Types of Darrieus VAWTs [19] [[HRI2526|Source]]
 
 - Geometry:
@@ -71,9 +71,9 @@ The vj26 review adds that both passive and active blade-pitching strategies rema
 It also summarizes mixed self-start findings: one cited CFD study says a lightly loaded `3`-bladed H-type can self-start in some steady conditions while a `2`-bladed case may only start under favorable conditions, but another cited study warns CFD is still unreliable in the startup transient itself. (source: sources/vj26.md)
 The same review says canted and helical Darrieus layouts can reduce local flow reversal and torque fluctuation relative to straight blades, though the helical form is still treated as a configuration tradeoff rather than a free gain. (source: sources/vj26.md)
 
-![Source figure](../../images/va9-fig5.jpg)
+![Source figure](va9-fig5.jpg)
 Original caption: Fig. 5. Blade profile EN0005. [[va9|Source]]
-![Source figure](../../images/va9-fig26.jpg)
+![Source figure](va9-fig26.jpg)
 Original caption: Fig. 26. New Darrieus VAWT design prototype. [[va9|Source]]
 
 Related:

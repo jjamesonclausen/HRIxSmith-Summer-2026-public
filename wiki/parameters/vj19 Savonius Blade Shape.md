@@ -15,10 +15,10 @@ This `vj19` study changes Savonius blade shape and compares the resulting RPM be
 - The comparison metric shown in the paper is rotational speed (RPM) versus wind speed. (source: sources/vj19.md)
 - All four variants are treated as drag-type Savonius layouts, and the paper highlights straight-blade `120` degree spacing as the worst case because it experiences higher drag and therefore lower torque. (source: sources/vj19.md)
 
-![Source figure](../../images/vj19-fig2.jpg)
+![Source figure](vj19-fig2.jpg)
 Original caption: Fig. 2. A sectional view of tested blade designs. [[vj19|Source]]
 
-![Source figure](../../images/vj19-fig3.jpg)
+![Source figure](vj19-fig3.jpg)
 Original caption: Fig. 3. Variation of RPM with air velocity for the tested blades. (The Figure was recreated from the source data with permission, Shah, 2014; Kumar et al., 2018). [[vj19|Source]]
 
 ## Outcome

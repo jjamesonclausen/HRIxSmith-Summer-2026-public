@@ -14,9 +14,9 @@ Variable VAWT design means changing blade geometry or rotor behavior during oper
 - The main barriers are moving-part complexity, actuator power, material durability, and maintenance burden. (source: sources/vj18.md)
 - The review treats passive or low-complexity variants as more realistic for commercialization than heavy active systems. (source: sources/vj18.md)
 
-![Source figure](../../images/vj18-fig1.jpg)
+![Source figure](vj18-fig1.jpg)
 Original caption: FIGURE 1. VAWT performance studies. [[vj18|Source]]
-![Source figure](../../images/vj18-fig3.jpg)
+![Source figure](vj18-fig3.jpg)
 Original caption: FIGURE 3. Anatomy of variable VAWT designs. [[vj18|Source]]
 
 Related:

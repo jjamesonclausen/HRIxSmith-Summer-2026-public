@@ -25,7 +25,7 @@ This `vj2` configuration keeps the original three-bladed helical Darrieus rotor 
 - The design change is the removal of the 38 mm shaft from the Savonius overlap region. (source: sources/vj2.md)
 - In the original configuration, that shaft occupied about 66% of the 58 mm overlap space between the Savonius blades. (source: sources/vj2.md)
 
-![Source figure](../../images/vj2-fig5.jpg)
+![Source figure](vj2-fig5.jpg)
 Original caption: Figure 5: The shaft (in blue) occupies about 66% of the overlapping space between the two blades of the Savonius rotor [[vj2|Source]]
 
 ## Unique Design Choices
@@ -39,7 +39,7 @@ Original caption: Figure 5: The shaft (in blue) occupies about 66% of the overla
 - Removing the shaft reports an average torque increase of 10.5% relative to the original configuration. (source: sources/vj2.md)
 - The source reports positive torque gains at every tested angle, ranging from 3.35% to 19.51%. (source: sources/vj2.md)
 
-![Source figure](../../images/vj2-fig8.jpg)
+![Source figure](vj2-fig8.jpg)
 Original caption: Figure 8: Torque values calculated for each configuration, for one third of a complete rotation (15 degree steps) [[vj2|Source]]
 
 ## Related

@@ -25,7 +25,7 @@ This `vj2` configuration moves the Savonius component out of the middle of the D
 - The Savonius component is split into two shaftless halves. (source: sources/vj2.md)
 - One half is placed at the top of the Darrieus rotor and the other at the bottom. (source: sources/vj2.md)
 
-![Source figure](../../images/vj2-fig6.jpg)
+![Source figure](vj2-fig6.jpg)
 Original caption: Figure 6: The Savonius rotor was split in two halves that were placed on top and bottom of the hybrid wind turbine [[vj2|Source]]
 
 ## Unique Design Choices
@@ -40,11 +40,11 @@ Original caption: Figure 6: The Savonius rotor was split in two halves that were
 - The source also reports an 11.8% gain relative to the first optimized shaftless-middle-Savonius configuration. (source: sources/vj2.md)
 - The source notes that some of the improvement may also be partially explained by increased swept area. (source: sources/vj2.md)
 
-![Source figure](../../images/vj2-fig7a.jpg)
+![Source figure](vj2-fig7a.jpg)
 Original caption: Figure 7: The influence of turbulence produced on the Darrieus blades is reduced compared with the original design; (a) - side view; (b) - top view [[vj2|Source]]
-![Source figure](../../images/vj2-fig7b.jpg)
+![Source figure](vj2-fig7b.jpg)
 Original caption: Figure 7: The influence of turbulence produced on the Darrieus blades is reduced compared with the original design; (a) - side view; (b) - top view [[vj2|Source]]
-![Source figure](../../images/vj2-fig8.jpg)
+![Source figure](vj2-fig8.jpg)
 Original caption: Figure 8: Torque values calculated for each configuration, for one third of a complete rotation (15 degree steps) [[vj2|Source]]
 
 ## Related

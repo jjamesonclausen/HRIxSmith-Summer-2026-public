@@ -39,9 +39,9 @@ The straight-bladed Darrieus family with blades arranged around a vertical shaft
 - The `vj28` paper reframes small fixed-pitch straight-bladed Darrieus design around low-Re airfoil choice, arguing that the older symmetric `NACA` sections commonly reused from aviation are a poor fit for smaller-capacity SB-VAWTs. (source: sources/vj28.md)
 - It says the preferred blade-section geometry for this class is cambered, thicker, with a larger leading-edge radius and a sharper trailing edge, but still warns that no single screened public-domain airfoil satisfied every desired criterion. (source: sources/vj28.md)
 
-![Source figure](../../images/va9-fig18.jpg)
+![Source figure](va9-fig18.jpg)
 Original caption: Fig. 18. Darrieus VAWT performance prediction. [[va9|Source]]
-![Source figure](../../images/va24-fig11.jpg)
+![Source figure](va24-fig11.jpg)
 Original caption: Fig. 11. Instantaneous Coefficient of Performance (Cp) as a function of one blade azimuth position obtained using Variable blade pitching technique 1 and 2 compared to fixed 3 blade rotor configuration at TSR 4 (a, b), 5(c, d), and 6 (e, f). [[va24|Source]]
 
 Related:

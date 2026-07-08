@@ -44,7 +44,7 @@ Characteristics of airflow in built environments. (source: sources/HRI2526.md)
 - The same source says the broader study area typically sees `2.6-10 m/s` wind speeds, but the measured rotor-speed response on the building roof still showed no single clean pattern of variation with wind magnitude. (source: sources/va21.md)
 - The vj14 study shows that buildings around the site likely reduced wind speed, and that low local wind speed was the main reason the H-Darrieus prototype underperformed. (source: sources/vj14.md)
 - It also suggests roof mounting could reduce environmental impact because the mast and foundation dominate many LCA categories. (source: sources/vj14.md)
-![Source figure](../../images/hri2526-fig16.jpg)
+![Source figure](hri2526-fig16.jpg)
 Original caption: Fig. 16. Wind Data from McConnell Rooftop [[HRI2526|Source]]
 
 Implications:
@@ -52,19 +52,19 @@ Implications:
 - Favors omnidirectional and low cut-in technologies like VAWTs. (source: sources/HRI2526.md)
 - For CFD, the team used a 2 m/s inlet velocity as a practical design point because it was reached with some frequency. (source: sources/HRI2526.md)
 
-![Source figure](../../images/vj12-fig26.jpg)
+![Source figure](vj12-fig26.jpg)
 Original caption: Figure 26: The effect of obstacle on the height of a wind turbine [133]. [[vj12|Source]]
-![Source figure](../../images/vj12-fig27.jpg)
+![Source figure](vj12-fig27.jpg)
 Original caption: Figure 27: Typical wind farm layout arranged with a rectangular grid pattern [136]. [[vj12|Source]]
-![Source figure](../../images/vj12-fig28.jpg)
+![Source figure](vj12-fig28.jpg)
 Original caption: Figure 28: Schematic diagram for wind farms (a) aligned, (b) staggered, (c) scattered [137]. [[vj12|Source]]
-![Source figure](../../images/va17-fig12.jpg)
+![Source figure](va17-fig12.jpg)
 Original caption: Figure 12. Region of peak wind velocity surrounding Johnson Athletic Center. [[va17|Source]]
-![Source figure](../../images/va18-fig13.jpg)
+![Source figure](va18-fig13.jpg)
 Original caption: Figure 13: Mean Wind Power Density (W/m2), Horizontal section 20m above the ground; Mean Wind Power Density (W/m2), Vertical cross-section through MT1 and MT2; Mean Turbulence Intensity, Vertical cross-section through MT1 and MT2. [[va18|Source]]
-![Source figure](../../images/va19-fig7.jpg)
+![Source figure](va19-fig7.jpg)
 Original caption: Figure 7. Average predicted and measured wind speeds and classification. [[va19|Source]]
-![Source figure](../../images/va20-fig5.jpg)
+![Source figure](va20-fig5.jpg)
 Original caption: Figure 5. Rectangular (a) and circular (b) wind flow modifier. [[va20|Source]]
 
 Related:

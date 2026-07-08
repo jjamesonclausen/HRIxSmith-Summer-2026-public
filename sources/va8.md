@@ -100,55 +100,55 @@ A hybrid vertical axis wind turbine using a highly aerodynamic blade-profile is 
 
 [0021] FIG. 1 is an external perspective view of the vertical axis wind turbine comprising of one or more blades using a simple, asymmetrical blade-profile with unequal upper and lower surface cambers enclosed in this invention.
 
-![Figure 1: External perspective view of the vertical axis wind turbine.](../images/va8-fig1.jpg)
+![Figure 1: External perspective view of the vertical axis wind turbine.](va8-fig1.jpg)
 
 [0022] FIG. 2 is vertical cross section of the turbine shaft. Cross section is taken through its diameter.
 
-![Figure 2: Vertical cross section of the turbine shaft.](../images/va8-fig2.jpg)
+![Figure 2: Vertical cross section of the turbine shaft.](va8-fig2.jpg)
 
 [0023] FIG. 2a is a view from top along A-A as shown in FIG. 2.
 
-![Figure 2a: View from top along A-A as shown in FIG. 2.](../images/va8-fig2a.jpg)
+![Figure 2a: View from top along A-A as shown in FIG. 2.](va8-fig2a.jpg)
 
 [0024] FIG. 2b is a perspective view of the horizontal member that supports the blade of present invention along B-B as shown in FIG. 2.
 
-![Figure 2b: Perspective view of the horizontal member that supports the blade.](../images/va8-fig2b.jpg)
+![Figure 2b: Perspective view of the horizontal member that supports the blade.](va8-fig2b.jpg)
 
 [0025] FIG. 2c is another sectional view of the vertical axis along C-C as shown in FIG. 2.
 
-![Figure 2c: Sectional view of the vertical axis along C-C.](../images/va8-fig2c.jpg)
+![Figure 2c: Sectional view of the vertical axis along C-C.](va8-fig2c.jpg)
 
 [0026] FIG. 2d is another sectional view of the vertical axis along D-D as shown in FIG. 2.
 
-![Figure 2d: Sectional view of the vertical axis along D-D.](../images/va8-fig2d.jpg)
+![Figure 2d: Sectional view of the vertical axis along D-D.](va8-fig2d.jpg)
 
 [0027] FIG. 2e is another sectional view of the vertical axis along E-E as shown in FIG. 2.
 
-![Figure 2e: Sectional view of the vertical axis along E-E.](../images/va8-fig2e.jpg)
+![Figure 2e: Sectional view of the vertical axis along E-E.](va8-fig2e.jpg)
 
 [0028] FIG. 3 is a close up view of a blade along with the connecting beams.
 
-![Figure 3: Close up view of a blade along with the connecting beams.](../images/va8-fig3.jpg)
+![Figure 3: Close up view of a blade along with the connecting beams.](va8-fig3.jpg)
 
 [0029] FIG. 4 is a cross sectional view showing the blade having the asymmetrical airfoil profile enclosed in this invention.
 
-![Figure 4: Cross sectional view showing the blade having the asymmetrical airfoil profile.](../images/va8-fig4.jpg)
+![Figure 4: Cross sectional view showing the blade having the asymmetrical airfoil profile.](va8-fig4.jpg)
 
 [0030] FIG. 4a gives how the ratio of airfoil profile thickness to distance from leading edge of the present application varies with distance from the leading edge.
 
-![Figure 4a: Ratio of airfoil profile thickness to distance from leading edge of the present application.](../images/va8-fig4a.jpg)
+![Figure 4a: Ratio of airfoil profile thickness to distance from leading edge of the present application.](va8-fig4a.jpg)
 
 [0031] FIG. 4b gives how the ratio of airfoil profile thickness to distance from leading edge for a typical flat bottom profile varies with distance from the leading edge.
 
-![Figure 4b: Ratio of airfoil profile thickness to distance from leading edge for a typical flat bottom profile.](../images/va8-fig4b.jpg)
+![Figure 4b: Ratio of airfoil profile thickness to distance from leading edge for a typical flat bottom profile.](va8-fig4b.jpg)
 
 [0032] FIG. 5 shows the relation between lift coefficient and angle of attack based on observations from wind tunnel tests using blade made from the profile enclosed in the present application. The dotted curve corresponds to the case when wind blows from leading edge to trailing edge. The solid curve corresponds to the case when wind comes from the opposite direction.
 
-![Figure 5: Relation between lift coefficient and angle of attack.](../images/va8-fig5.jpg)
+![Figure 5: Relation between lift coefficient and angle of attack.](va8-fig5.jpg)
 
 [0033] FIG. 6 is a view showing the arrangement of two airfoil blade-profiles with respect to the connecting beams. Lift forces acting on the blades at two locations are also shown.
 
-![Figure 6: Arrangement of two airfoil blade-profiles with respect to the connecting beams.](../images/va8-fig6.jpg)
+![Figure 6: Arrangement of two airfoil blade-profiles with respect to the connecting beams.](va8-fig6.jpg)
 
 ## Detailed Description of the Invention
 
@@ -204,7 +204,7 @@ A hybrid vertical axis wind turbine using a highly aerodynamic blade-profile is 
 
 [0054] FIG. 5 gives two plots based on wind tunnel test observations. One curve (solid line) corresponds to the case when wind comes from trailing end towards leading end. It is clear from the plots that when the angle of attack is around 25.degree., both the blades create maximum lift forces. The equations of the best-fit curves, as shown in FIG. 5, can be given as:
 
-![Displayed equations for C.sub.L best-fit curves.](../images/va8-eq1.jpg)
+![Displayed equations for C.sub.L best-fit curves.](va8-eq1.jpg)
 
 Where x is the angle of attack in degree.
 

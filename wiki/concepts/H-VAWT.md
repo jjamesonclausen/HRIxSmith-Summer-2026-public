@@ -9,7 +9,7 @@ Tags: #concepts
 
 Vertical-axis wind turbine with straight blades arranged around the rotor, often used as a benchmark for aerodynamic modeling and optimization. (source: sources/va2.md)
 
-![Source figure](../../images/va2-fig1.jpg)
+![Source figure](va2-fig1.jpg)
 Original caption: Figure 1: Schematic of VAWT blade forces at different azimuthal angles [[va2|Source]]
 
 - Geometry:
@@ -47,7 +47,7 @@ The vj15 study adds that harmonic variable pitch can improve both startup and po
 - That source compares converged `AR = 2` and `AR = 0.4` designs and reports `cpmax` changing from `0.464` to `0.475` while rotor speed drops from `299 rpm` to `137 rpm`. (source: sources/vj25.md)
 - The `vj28` design-guidance paper adds a source-specific airfoil-screening view for small fixed-pitch H-rotor / SB-VAWTs, arguing that low-Re asymmetric thick sections are more suitable than the older symmetric `NACA` sections commonly reused in earlier designs. (source: sources/vj28.md)
 
-![Source figure](../../images/va9-fig20.jpg)
+![Source figure](va9-fig20.jpg)
 Original caption: Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow. [[va9|Source]]
 
 Related: [[VAWT]], [[Darrieus Turbine]], [[HAWT vs VAWT]], [[Kriging Surrogate Model]], [[CST Parameterization]], [[Multi-Island Genetic Algorithm]], [[Straight-bladed Darrieus]], [[Double-Multiple Streamtube Model]], [[Multiple Stream Tube Model]], [[H-rotor Wake Aerodynamics]], [[va25 Reference H-Rotor Darrieus VAWT]], [[va25 Blade Airfoil Profile]], [[va25 Cambered Airfoil Orientation]], [[va26 3-Bladed H-Type VAWT]], [[va26 Fixed Blade Pitch Angle]], [[va27 Reference One-Bladed H-Type VAWT]], [[va27 Airfoil Relative Maximum Thickness]], [[va27 Airfoil Maximum-Thickness Position]], [[va27 Leading-Edge Radius Index]], [[vj25 Rotor Aspect Ratio]], [[vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 2)]], [[vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 0.4)]]

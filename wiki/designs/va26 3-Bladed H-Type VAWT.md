@@ -24,9 +24,9 @@ The `va26` paper studies a low-solidity 3-bladed H-type VAWT and uses it to exam
 - Reported geometry is diameter `1 m`, height `1 m`, swept area `1 m^2`, and solidity `0.172`. (source: sources/va26.md)
 - The chord-to-radius ratio is `0.115`, and the operating case studied most closely is `TSR = 4` with freestream velocity `7.0 m/s`. (source: sources/va26.md)
 
-![Source figure](../../images/va26-fig3.jpg)
+![Source figure](va26-fig3.jpg)
 Original caption: Fig. 3. Computational domain for the VAWT (not to scale). [[va26|Source]]
-![Source figure](../../images/va26-fig10.jpg)
+![Source figure](va26-fig10.jpg)
 Original caption: Fig. 10. Comparison of calculated power coefficient against experimental and numerical data by Castelli et al. [69]. [[va26|Source]]
 
 ## Unique Design Choices

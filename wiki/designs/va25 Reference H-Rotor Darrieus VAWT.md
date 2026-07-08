@@ -24,9 +24,9 @@ The `va25` paper uses a published straight-bladed H-rotor Darrieus VAWT as its C
 - Reported geometry includes rotor diameter `1.03 m`, chord `0.0858 m`, and solidity `0.5`. (source: sources/va25.md)
 - The table says rotor height is treated as unity for the `2D` simulation and gives installed power as about `0.2 kW`. (source: sources/va25.md)
 
-![Source figure](../../images/va25-fig3.jpg)
+![Source figure](va25-fig3.jpg)
 Original caption: Fig. 3 Computational domain with specified boundary conditions. [[va25|Source]]
-![Source figure](../../images/va25-fig8.jpg)
+![Source figure](va25-fig8.jpg)
 Original caption: Fig. 8 Reference model (NACA0021) validation and verification. [[va25|Source]]
 
 ## Unique Design Choices

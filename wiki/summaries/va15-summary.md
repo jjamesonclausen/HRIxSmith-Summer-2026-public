@@ -9,9 +9,9 @@ Tags: #summaries
 
 Primary experimental study of how solidity, blade profile, pitch angle, surface roughness, and aspect ratio affect self-starting and overall performance of a small-scale 3-bladed H-Darrieus VAWT. (source: sources/va15.md)
 
-![Source figure](../../images/va15-fig10.jpg)
+![Source figure](va15-fig10.jpg)
 Original caption: FIGURE 10 Turbine performance with three different blade profiles at sigma = 1.0 and V = 7 m/s. A, Self-starting, time-varying results. B, Cp ~ lambda curve [[va15|Source]]
-![Source figure](../../images/va15-fig20.jpg)
+![Source figure](va15-fig20.jpg)
 Original caption: FIGURE 20 Self-starting time-varying results for turbine with different blade aspect ratios at sigma = 1.0 [[va15|Source]]
 
 Key points:

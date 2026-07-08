@@ -15,7 +15,7 @@ Interactive multipoint inverse-airfoil-design code used in `vj24` as the core to
 - In `vj24`, PROFOIL is coupled with `XFOIL` for airfoil analysis and `CARDAAV` for rotor-performance prediction, and the combined workflow is iterated until the VAWT meets a `10-15%` power-improvement target at `TSR = 1.6`. (source: sources/vj24.md)
 - The paper says the strength of the approach is the inverse-design logic itself, while the main weakness is still the low-Re/high-angle-of-attack aerodynamic analysis used to judge the result. (source: sources/vj24.md)
 
-![Source figure](../../images/vj24-fig1.jpg)
+![Source figure](vj24-fig1.jpg)
 Original caption: Figure 1: The inverse airfoil design strategy as employed for improved performance of a VAWT. [[vj24|Source]]
 
 Related: [[Double-Multiple Streamtube Model]], [[Panel Method]], [[Straight-bladed Darrieus]], [[vj24-summary]]

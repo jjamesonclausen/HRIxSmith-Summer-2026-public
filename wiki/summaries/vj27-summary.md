@@ -15,13 +15,13 @@ This review focuses on wind deflectors as a passive flow-augmentation strategy f
 - The review argues that deflectors are especially attractive because they can improve `Cp` without adding as much structural complexity as some other augmentation strategies. (source: sources/vj27.md)
 - It also says reliability is still limited by the small number of real-time experimental validations compared with the much larger number of CFD studies. (source: sources/vj27.md)
 
-![Source figure](../../images/vj27-fig6.jpg)
+![Source figure](vj27-fig6.jpg)
 Original caption: Figure 6. An airfoil-shaped wind deflector in the upstream of a Savonius rotor [75]. [[vj27|Source]]
 
-![Source figure](../../images/vj27-fig8.jpg)
+![Source figure](vj27-fig8.jpg)
 Original caption: Figure 8. Power coefficient optimization of two-bladed and three-bladed Savonius turbine with flat-plate deflector (adapted from [77]). [[vj27|Source]]
 
-![Source figure](../../images/vj27-fig11.jpg)
+![Source figure](vj27-fig11.jpg)
 Original caption: Figure 11. A kite-shaped wind deflector installed upstream of the VAWT. (a) Design. (b) Experimental test setup (adapted from [81]). [[vj27|Source]]
 
 Related pages: [[Wind Deflector]], [[Wind Flow Modifier]], [[Savonius Turbine]], [[Optimization]], [[VAWT Aerodynamic Design Parameters|Aerodynamic Design Parameters]], [[CFD]], [[Wind Tunnel Testing]], [[vj27 Wind Deflector Shape]], [[vj27 Wind Deflector Position and Orientation]]

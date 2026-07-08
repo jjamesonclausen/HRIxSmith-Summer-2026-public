@@ -23,11 +23,11 @@ Blade material choice is not just a cost issue; it affects fatigue life, stiffne
 - It also says pultruded FRP was the most economically viable material in a cited comparative study, while aluminum remains common but fatigue-limited and wood remains attractive but moisture- and joining-limited. (source: sources/vj21.md)
 - The `vj28` paper adds a blade-shape manufacturability tradeoff: thicker airfoils can improve structural strength with little cost penalty, but very sharp trailing edges may still be harder and costlier to fabricate even when they are aerodynamically helpful. (source: sources/vj28.md)
 
-![Source figure](../../images/va8-fig4a.jpg)
+![Source figure](va8-fig4a.jpg)
 Original caption: Figure 4a: Ratio of airfoil profile thickness to distance from leading edge of the present application. [[va8|Source]]
-![Source figure](../../images/va8-fig4b.jpg)
+![Source figure](va8-fig4b.jpg)
 Original caption: Figure 4b: Ratio of airfoil profile thickness to distance from leading edge for a typical flat bottom profile. [[va8|Source]]
-![Source figure](../../images/va9-fig23.jpg)
+![Source figure](va9-fig23.jpg)
 Original caption: Fig. 23. New Darrieus VAWT with blade ends in two different positions. [[va9|Source]]
 
 Related:

@@ -67,43 +67,43 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 
 ## Figures
 
-![Source figure](../../images/va4-fig11.jpg)
+![Source figure](va4-fig11.jpg)
 Original caption: Figure 11. The streamlines at 60◦, 90◦, 150◦, 180◦, (a–c) corresponding to the results at TSR 0.9, 1.46 and 2.3 respectively, red frames represent the wake vortex generated from another blade. [[va4|Source]]
-![Source figure](../../images/va4-fig14.jpg)
+![Source figure](va4-fig14.jpg)
 Original caption: Figure 14. Power coefficient results derived by 2D LES and 3D U-RANS methods for Rec = 60,800, TSR = 1.46. [[va4|Source]]
-![Source figure](../../images/va7-fig2.jpg)
+![Source figure](va7-fig2.jpg)
 Original caption: Figure 3. (a) Sectional view of the domain mesh: (b) mesh near the blade, (c) mesh growth surrounding the blade. [[va7|Source]]
-![Source figure](../../images/va7-fig21.jpg)
+![Source figure](va7-fig21.jpg)
 Original caption: Figure 21. Z-vorticity magnitude of 90◦helical-bladed VAWT at 100◦, 130◦, and 150◦of azimuth angles of rotation of a [[va7|Source]]
-![Source figure](../../images/va10-fig4.jpg)
+![Source figure](va10-fig4.jpg)
 Original caption: Fig. 4. Structured computational grid around blade [25]. [[va10|Source]]
-![Source figure](../../images/va10-fig5.jpg)
+![Source figure](va10-fig5.jpg)
 Original caption: Fig. 5. Computational grid independency study [31]. [[va10|Source]]
-![Source figure](../../images/va10-fig7.jpg)
+![Source figure](va10-fig7.jpg)
 Original caption: Fig. 7. Lift coefficient comparison for transition SST and k omega SST turbulence models. Adapted from [32]. [[va10|Source]]
-![Source figure](../../images/va10-fig8.jpg)
+![Source figure](va10-fig8.jpg)
 Original caption: Fig. 8. Comparison of power coefficient at different tip speed ratios for IDDES and k omega SST turbulence models [53]. [[va10|Source]]
-![Source figure](../../images/va11-fig25.jpg)
+![Source figure](va11-fig25.jpg)
 Original caption: Fig. 25. Vorticity magnitudes in the blade mid-span and vertical planes (units, 1/s) [52]. [[va11|Source]]
-![Source figure](../../images/va11-fig26.jpg)
+![Source figure](va11-fig26.jpg)
 Original caption: Fig. 26. Vorticity magnitudes in the top blade-tip and vertical planes (units, 1/s) [52]. [[va11|Source]]
-![Source figure](../../images/va13-fig7.jpg)
+![Source figure](va13-fig7.jpg)
 Original caption: Figure 7. Computational domain and mesh setup. [[va13|Source]]
-![Source figure](../../images/va17-fig11.jpg)
+![Source figure](va17-fig11.jpg)
 Original caption: Figure 11. Wind velocity profile around Johnson Athletic Center. [[va17|Source]]
-![Source figure](../../images/va18-fig2.jpg)
+![Source figure](va18-fig2.jpg)
 Original caption: Figure 2: Unstructured Cartesian meshing grid. [[va18|Source]]
-![Source figure](../../images/va20-fig7.jpg)
+![Source figure](va20-fig7.jpg)
 Original caption: Figure 7. Computational domain defined in ANSYS design modeler. [[va20|Source]]
-![Source figure](../../images/va14-fig1.jpg)
+![Source figure](va14-fig1.jpg)
 Original caption: Fig. 1. Schematic of (a) the reference turbine, (b) computational domain (both not to scale); (c-e) computational grid near the (c) rotating core, (d) airfoil, and (e) trailing edge. [[va14|Source]]
 - The CRVAWT optimization paper used STAR-CCM+ CFD, validated an isolated VAWT against wind-tunnel data, and then used the simulation outputs in a response-surface optimization workflow. (source: sources/vj8.md)
 
-![Source figure](../../images/vj12-fig21.jpg)
+![Source figure](vj12-fig21.jpg)
 Original caption: Figure 21: Schematic view and CFD streamlines for flow around a flanged diffuser [110]. [[vj12|Source]]
-![Source figure](../../images/vj2-fig4a.jpg)
+![Source figure](vj2-fig4a.jpg)
 Original caption: Figure 4: Turbulent flow due to the Savonius rotor for an angle of attack of 30 degrees: (a) - side view; (b) - top view [[vj2|Source]]
-![Source figure](../../images/vj2-fig4b.jpg)
+![Source figure](vj2-fig4b.jpg)
 Original caption: Figure 4: Turbulent flow due to the Savonius rotor for an angle of attack of 30 degrees: (a) - side view; (b) - top view [[vj2|Source]]
 
 #methods

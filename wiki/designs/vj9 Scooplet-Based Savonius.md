@@ -25,7 +25,7 @@ The `vj9` source's main novel design is a scooplet-based Savonius rotor built fr
 - The scooplet has radius 144 mm and spans 102 degrees. (source: sources/vj9.md)
 - The outermost point of the scooplet is 105 mm from the scoop at one end and decreases to about 65 mm. (source: sources/vj9.md)
 
-![Source figure](../../images/vj9-fig16.jpg)
+![Source figure](vj9-fig16.jpg)
 Original caption: Figure 16: Optimization results: a) modified classical Savonius b) the scooplet-based design c) separated scoop from the scooplet-based design. [[vj9|Source]]
 
 ## Unique Design Choices

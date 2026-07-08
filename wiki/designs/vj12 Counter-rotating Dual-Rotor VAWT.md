@@ -25,7 +25,7 @@ This `vj12` design is a stacked dual-rotor counter-rotating VAWT in which two ro
 - The source says only one rotor is mounted on the shaft, while the other is mounted on the magnetic coil of the generator to create relative rotational speed. (source: sources/vj12.md)
 - Each rotor is fixed to its rotation direction with unidirectional bearings. (source: sources/vj12.md)
 
-![Source figure](../../images/vj12-fig2.jpg)
+![Source figure](vj12-fig2.jpg)
 Original caption: Figure 2: Counter-rotating VAWT [28]. [[vj12|Source]]
 
 ## Unique Design Choices
@@ -39,7 +39,7 @@ Original caption: Figure 2: Counter-rotating VAWT [28]. [[vj12|Source]]
 - The review says the first counter-rotating Darrieus design nearly doubled output relative to a single-rotor turbine with the same design. (source: sources/vj12.md)
 - The same source says that design had a relatively high starting speed of 5 m/s. (source: sources/vj12.md)
 
-![Source figure](../../images/vj12-fig3.jpg)
+![Source figure](vj12-fig3.jpg)
 Original caption: Figure 3: Power coefficient against wind speed for single-rotor and dual-rotor wind turbine [32]. [[vj12|Source]]
 
 ## Related

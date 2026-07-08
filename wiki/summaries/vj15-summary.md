@@ -16,7 +16,7 @@ This paper tests harmonic variable-pitch functions for an H-type Darrieus turbin
 
 Related pages: [[Darrieus Turbine]], [[Dynamic Stall]], [[Optimization]], [[vj15 Pitch Amplitude]]
 
-![Source figure](../../images/vj15-fig5.jpg)
+![Source figure](vj15-fig5.jpg)
 Original caption: Fig. 5. Performance of turbine with variable pitch blades case 1,2,3 and sinusoidal pitch function for Amplitude of A) 3 degrees B) 10 C) 20 degrees. [[vj15|Source]]
 
 #summaries
