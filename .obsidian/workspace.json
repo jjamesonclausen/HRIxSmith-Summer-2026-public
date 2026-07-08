@@ -182,6 +182,12 @@
   },
   "active": "70651a00716fe7ef",
   "lastOpenFiles": [
+    "analysis/planning/j_two_week_plan.md",
+    "analysis/planning/J_5_week_plan.md",
+    "analysis/planning/Work Plan A2.md",
+    "analysis/planning/Work Plan A1.md",
+    "analysis/planning",
+    "analysis/Design goal.pdf",
     "analysis/j_two_week_plan.md",
     "analysis/J_5_week_plan.md",
     "analysis/table of all designs.base",
@@ -209,9 +215,7 @@
     "wind data",
     "bos_wind_mps.json",
     "bos_wind.json",
-    "sources/bos_wind.txt",
     "analysis/data view testing.md",
-    "tmp_normalize_metadata.py",
     "wiki/parameters/vj27 Wind Deflector Position and Orientation.md",
     "wiki/parameters/vj27 Wind Deflector Shape.md",
     "wiki/concepts/Wind Deflector.md",
@@ -224,10 +228,6 @@
     "wiki/parameters/vj25 Rotor Aspect Ratio.md",
     "wiki/methods/Multiple Stream Tube Model.md",
     "wiki/summaries/vj25-summary.md",
-    "sources/vj25.md",
-    "wiki/designs/va5 J-Type VAWT.md",
-    "sources/vj23.md",
-    "wiki/methods/PROFOIL.md",
     "Untitled.canvas"
   ]
 }
