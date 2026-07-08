@@ -102,6 +102,8 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 - [[CFD and Validation]]
 - [[Optimization]]
 - [[Design Checklist]]
+- [[analysis/planning/Work Plan A1|Work Plan A1]]
+- [[analysis/planning/Work Plan A2|Work Plan A2]]
 - [[Rules of Thumb]]
 - [[H-VAWT]]
 - [[H-rotor Wake Aerodynamics]]

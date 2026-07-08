@@ -1,6 +1,52 @@
 #maintenance
 ## Log
 
+### 2026-07-08 - Create BOS VAWT work plans for 1 week, 4 weeks, and 5.5 weeks
+
+- Task: create three work plans for the current Boston Logan VAWT project, scoped to `1` week, `4` weeks, and `5.5` weeks, and ground them in the BOS design brief plus the existing wiki's lessons about concept selection and CFD validation.
+- Actions:
+  - Read `analysis/Design goal.pdf` to capture the BOS site motivation, `9 m` measurement height, `4.8 m/s` average wind speed, `6.3 m/s` average gusts, and the open siting questions around runway and rooftop placement.
+  - Reviewed existing wiki context on `CFD and Validation`, `Turbine Concept Selection`, `Design Checklist`, and `HRI2526-summary` to pull in source-backed lessons about concept downselection, parameter review, validation needs, and prior project bottlenecks.
+  - Added `analysis/planning/Work Plan A1.md` with three scoped plans, explicit grounded constraints, unverified chat-brief assumptions, and an overall recommendation.
+  - Updated `wiki/index.md` to link the new planning page.
+- Decisions:
+  - Treated the team-size, schedule, CAD tool, CFD tool, and advisor-access details from the current chat brief as `> Unverified:` because they are not yet captured in a repo source file.
+  - Framed the plans around early concept lock and early CFD validation because that is the clearest repeated constraint supported by the BOS brief and prior HRI/CFD sources.
+  - Kept all three plans centered on one primary design path plus a limited fallback path rather than suggesting broad parallel exploration, because the sources consistently show that validation effort is a major schedule constraint.
+- Open:
+  - The BOS siting constraints near runways or on airport roofs are still unresolved and may materially change the preferred design envelope.
+  - If desired, the new planning page could be tightened further into a dated calendar with named meetings, deliverables, and weekly owner assignments.
+
+### 2026-07-08 - Rename BOS work-plan note to Work Plan A1
+
+- Task: rename the BOS work-plan note after it was moved into `analysis/planning/`.
+- Actions:
+  - Renamed `analysis/planning/BOS VAWT Project Work Plans.md` to `analysis/planning/Work Plan A1.md`.
+  - Updated the note heading from `BOS VAWT Project Work Plans` to `Work Plan A1`.
+  - Updated `wiki/index.md` to point to `[[analysis/planning/Work Plan A1|Work Plan A1]]`.
+  - Updated the earlier `2026-07-08` log entry so its file-path reference matches the renamed file.
+- Decisions:
+  - Kept the note in `analysis/planning/` rather than moving it back into `wiki/`, because the user had already relocated it there.
+- Open:
+  - If you want the planning notes treated as a formal part of the wiki taxonomy, the next cleanup would be deciding whether `analysis/planning/` should get its own index section or stay linked only from `wiki/index.md`.
+
+### 2026-07-08 - Create dated BOS project calendar as Work Plan A2
+
+- Task: create a dated calendar version of the longer BOS VAWT work plan, with daily tasks, weekly goals, and the current meeting cadence with HRI and the professor.
+- Actions:
+  - Created `analysis/planning/Work Plan A2.md` as an Obsidian-friendly Markdown note.
+  - Converted the `5.5`-week structure from `Work Plan A1` into a dated calendar covering the kickoff half week from `2026-07-08` through `2026-07-10` and the five full weeks from `2026-07-13` through `2026-08-14`.
+  - Incorporated the current operating cadence from the project brief: daily `9 AM` professor meetings, Tuesday afternoon HRI meetings, and ad hoc HRI troubleshooting via Slack or Zoom when needed.
+  - Added a lightweight recurring documentation lane for the wiki, CFD case log, and Zookeeper prompt log without making tool-learning the main theme of the schedule.
+  - Updated `wiki/index.md` to link `[[analysis/planning/Work Plan A2|Work Plan A2]]`.
+- Decisions:
+  - Kept the note in `analysis/planning/` to match the user's current planning-file organization rather than moving it into `wiki/`.
+  - Included the kickoff half week explicitly because the user said it starts this afternoon and affects readiness for the first full week.
+  - Treated the meeting cadence and staffing details from the current brief as `> Unverified:` inside the note because they are not yet recorded in a repo source file.
+- Open:
+  - The calendar assumes the current Tuesday HRI cadence and daily professor meetings remain stable across the full project window.
+  - The schedule still depends on resolving BOS siting assumptions and getting a CFD workflow that is trustworthy by the end of Week 2.
+
 ### 2026-07-08 - Export all_wind_data wind-speed histogram
 
 - Task: create a histogram of wind speeds from `wind data/all_wind_data.txt`.
