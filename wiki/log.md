@@ -1,6 +1,25 @@
 #maintenance
 ## Log
 
+### 2026-07-08 - Convert and ingest vj28 small straight-bladed VAWT airfoil-guidance paper
+
+- Task: convert `PDFs/vj28.pdf` into `sources/vj28.md`, extract its figures and displayed equations, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
+- Actions:
+  - Created `sources/vj28.md` with source frontmatter, cleaned section structure, linked figures `vj28-fig1` through `vj28-fig24`, and linked the two displayed equations as `vj28-eq1` and `vj28-eq2` images.
+  - Added `wiki/summaries/vj28-summary.md`.
+  - Added the concept page `wiki/concepts/Airfoil Selection for Small Straight-Bladed VAWTs.md`.
+  - Added the method pages `wiki/methods/XFOIL.md` and `wiki/methods/NAFNoise.md`.
+  - Added the source-specific parameter page `wiki/parameters/vj28 Blade Airfoil.md`.
+  - Updated `wiki/concepts/Straight-bladed Darrieus.md`, `wiki/concepts/H-VAWT.md`, `wiki/concepts/Dynamic Stall.md`, `wiki/concepts/VAWT Aerodynamic Design Parameters.md`, `wiki/concepts/Wind Turbine Parameters.md`, `wiki/concepts/Materials and Manufacturing.md`, `wiki/concepts/Rules of Thumb.md`, and `wiki/index.md` with `vj28`-supported claims and links.
+  - Marked `sources/vj28.md` as processed.
+- Decisions:
+  - Did not create a design page because `vj28` is a guidance-and-screening paper about desirable airfoil features for small fixed-pitch SB-VAWTs, not a source with one fully specified turbine design and coherent whole-rotor performance dataset.
+  - Created one source-specific parameter page for blade airfoil rather than splitting the paper into multiple small parameter notes, because the paper's main contribution is a coupled multi-criteria airfoil-selection framework.
+  - Added `XFOIL` and `NAFNoise` method pages because both tools are used as named, reusable parts of the paper's analysis workflow.
+- Open:
+  - The `vj28` source conversion still reflects PDF block extraction, so some table formatting remains less clean than a hand-retyped transcription, especially for the dense rating-style tables.
+  - The paper's airfoil comparison itself is partly based on `XFOIL` plus extrapolated post-stall data, so the ingest should be read as a source-backed design framework rather than proof of one universally best SB-VAWT airfoil.
+
 ### 2026-07-08 - Export all_wind_data m/s dataset as Markdown table
 
 - Task: create a Markdown-table version of the `all_wind_data` dataset in meters per second.

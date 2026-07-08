@@ -1,8 +1,8 @@
 ---
 Created: 2026-07-02
-Updated: 2026-07-07
-Sources: [[HRI2526]], [[vj4]], [[va9]], [[va11]], [[va16]], [[va24]], [[vj21]], [[vj24]], [[va25]], [[va26]]
-Source_count: 10
+Updated: 2026-07-08
+Sources: [[HRI2526]], [[vj4]], [[va9]], [[va11]], [[va16]], [[va24]], [[vj21]], [[vj24]], [[va25]], [[va26]], [[vj28]]
+Source_count: 11
 Tags: #concepts
 ---
 ## Straight-bladed Darrieus / H-rotor
@@ -36,6 +36,8 @@ The straight-bladed Darrieus family with blades arranged around a vertical shaft
 - In that case, the modified `NACA 0018-M` profile is reported to raise predicted power from `1.610 kW` to `1.850 kW` and `Cp` from `0.294` to `0.338` relative to the baseline `NACA 0018` case. (source: sources/vj24.md)
 - The va25 airfoil study adds a 3-bladed H-rotor CFD comparison where startup and low-TSR performance depend strongly on airfoil family and on whether a cambered airfoil is installed camber-in or camber-out. (source: sources/va25.md)
 - The va26 study adds that even a simple fixed pitch offset can materially change both peak `Cp` and the azimuthal distribution of moment on a straight-bladed H-rotor. (source: sources/va26.md)
+- The `vj28` paper reframes small fixed-pitch straight-bladed Darrieus design around low-Re airfoil choice, arguing that the older symmetric `NACA` sections commonly reused from aviation are a poor fit for smaller-capacity SB-VAWTs. (source: sources/vj28.md)
+- It says the preferred blade-section geometry for this class is cambered, thicker, with a larger leading-edge radius and a sharper trailing edge, but still warns that no single screened public-domain airfoil satisfied every desired criterion. (source: sources/vj28.md)
 
 ![Source figure](../../images/va9-fig18.jpg)
 Original caption: Fig. 18. Darrieus VAWT performance prediction. [[va9|Source]]

@@ -1,8 +1,8 @@
 ---
 Created: 2026-06-25
-Updated: 2026-07-07
-Sources: [[HRI2526]], [[vj12]], [[vj1]], [[va14]], [[va16]], [[vj6]], [[va4]], [[va5]], [[va6]], [[vj10]], [[va7]], [[vj11]], [[va15]], [[vj15]], [[vj17]], [[vj18]], [[vj14]], [[va20]], [[va22]], [[va24]], [[vj19]], [[vj20]], [[vj23]], [[vj24]], [[vj25]], [[va25]], [[va26]], [[va27]]
-Source_count: 28
+Updated: 2026-07-08
+Sources: [[HRI2526]], [[vj12]], [[vj1]], [[va14]], [[va16]], [[vj6]], [[va4]], [[va5]], [[va6]], [[vj10]], [[va7]], [[vj11]], [[va15]], [[vj15]], [[vj17]], [[vj18]], [[vj14]], [[va20]], [[va22]], [[va24]], [[vj19]], [[vj20]], [[vj23]], [[vj24]], [[vj25]], [[va25]], [[va26]], [[va27]], [[vj28]]
+Source_count: 29
 Tags: #concepts
 ---
 ## Wind Turbine Parameters
@@ -92,6 +92,9 @@ It reports that positive pitch quickly becomes harmful because it pushes the bla
 
 The va27 study adds three coupled airfoil-shape parameters as important VAWT design knobs in deep dynamic stall: relative maximum thickness `t/c`, thickness position `xt/c`, and leading-edge radius index `I`. (source: sources/va27.md)
 It reports that the optimum parameter combination changes with tip-speed ratio, from `NACA0024e4.5/3.5` at `lambda = 2.5` to `NACA0018e4.5/2.75` at `lambda = 3.0`. (source: sources/va27.md)
+
+The `vj28` paper tightens the small-SB-VAWT Reynolds-number context, saying this class commonly operates around chord Reynolds numbers of `100,000-500,000`, where stall angle, `Cdo`, `Cl/Cd`, roughness sensitivity, and pitching moment strongly affect startup and performance. (source: sources/vj28.md)
+It therefore treats Reynolds number as a primary airfoil-selection filter rather than only a reporting variable. (source: sources/vj28.md)
 
 ## Figures
 

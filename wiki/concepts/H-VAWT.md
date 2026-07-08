@@ -1,8 +1,8 @@
 ---
 Created: 2026-06-26
-Updated: 2026-07-07
-Sources: [[va2]], [[vj4]], [[va9]], [[va11]], [[va14]], [[va15]], [[vj15]], [[va16]], [[vj14]], [[va25]], [[va26]], [[va27]], [[vj25]]
-Source_count: 13
+Updated: 2026-07-08
+Sources: [[va2]], [[vj4]], [[va9]], [[va11]], [[va14]], [[va15]], [[vj15]], [[va16]], [[vj14]], [[va25]], [[va26]], [[va27]], [[vj25]], [[vj28]]
+Source_count: 14
 Tags: #concepts
 ---
 ## H-Type Vertical-Axis Wind Turbine (H-VAWT)
@@ -45,6 +45,7 @@ The vj15 study adds that harmonic variable pitch can improve both startup and po
 - The va27 paper adds a one-bladed low-solidity H-type reference rotor used to isolate how symmetric airfoil-shape parameters affect power performance in deep dynamic stall. (source: sources/va27.md)
 - The vj25 paper adds a sizing-rule view for straight-bladed H-rotors, arguing that lower rotor aspect ratio (`h/R`) increases blade Reynolds number and can slightly improve `Cp` while lowering rotational speed in its `1 kW` `NACA 0018` case study. (source: sources/vj25.md)
 - That source compares converged `AR = 2` and `AR = 0.4` designs and reports `cpmax` changing from `0.464` to `0.475` while rotor speed drops from `299 rpm` to `137 rpm`. (source: sources/vj25.md)
+- The `vj28` design-guidance paper adds a source-specific airfoil-screening view for small fixed-pitch H-rotor / SB-VAWTs, arguing that low-Re asymmetric thick sections are more suitable than the older symmetric `NACA` sections commonly reused in earlier designs. (source: sources/vj28.md)
 
 ![Source figure](../../images/va9-fig20.jpg)
 Original caption: Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow. [[va9|Source]]

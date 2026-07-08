@@ -1,8 +1,8 @@
 ---
 Created: 2026-07-01
-Updated: 2026-07-07
-Sources: [[vj7]], [[vj1]], [[va8]], [[va9]], [[vj18]], [[vj21]]
-Source_count: 6
+Updated: 2026-07-08
+Sources: [[vj7]], [[vj1]], [[va8]], [[va9]], [[vj18]], [[vj21]], [[vj28]]
+Source_count: 7
 Tags: #concepts
 ---
 ## Materials and Manufacturing
@@ -21,6 +21,7 @@ Blade material choice is not just a cost issue; it affects fatigue life, stiffne
 - It also treats material choice as part of the commercialization problem, not just a strength or cost detail. (source: sources/vj18.md)
 - The vj21 paper adds a source-specific SB-VAWT checklist: high yield strength, fatigue resistance, stiffness, low density, corrosion resistance, and low-cost manufacturability. (source: sources/vj21.md)
 - It also says pultruded FRP was the most economically viable material in a cited comparative study, while aluminum remains common but fatigue-limited and wood remains attractive but moisture- and joining-limited. (source: sources/vj21.md)
+- The `vj28` paper adds a blade-shape manufacturability tradeoff: thicker airfoils can improve structural strength with little cost penalty, but very sharp trailing edges may still be harder and costlier to fabricate even when they are aerodynamically helpful. (source: sources/vj28.md)
 
 ![Source figure](../../images/va8-fig4a.jpg)
 Original caption: Figure 4a: Ratio of airfoil profile thickness to distance from leading edge of the present application. [[va8|Source]]

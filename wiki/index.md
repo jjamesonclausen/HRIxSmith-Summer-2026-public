@@ -72,12 +72,14 @@ _One page per file in `sources/`._
 - [[vj25-summary]]
 - [[vj26-summary]]
 - [[vj27-summary]]
+- [[vj28-summary]]
 
 ## Concepts
 
 _Concept and entity pages live in [`concepts/`](concepts/)._
 
 - [[Annual Energy Output]]
+- [[Airfoil Selection for Small Straight-Bladed VAWTs]]
 - [[Architectural Wind Turbines]]
 - [[Atmospheric Turbulence]]
 - [[Capacity Factor]]
@@ -242,6 +244,7 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[vj25 Rotor Aspect Ratio]]
 - [[vj27 Wind Deflector Shape]]
 - [[vj27 Wind Deflector Position and Orientation]]
+- [[vj28 Blade Airfoil]]
 - [[va12 Array Angle in Paired VAWT Arrays]]
 - [[va12 Relative Rotational Orientation in Paired VAWT Arrays]]
 - [[va12 Turbine Spacing in Paired VAWT Arrays]]
@@ -291,10 +294,12 @@ _Procedure and technique pages live in [`methods/`](methods/)._
 - [[Measure-Correlate-Predict (MCP)]]
 - [[Multiple Stream Tube Model]]
 - [[Panel Method]]
+- [[NAFNoise]]
 - [[PIV Testing]]
 - [[QBlade]]
 - [[PROFOIL]]
 - [[Wind Tunnel Testing]]
+- [[XFOIL]]
 - [[Box-Behnken Design]]
 
 ---

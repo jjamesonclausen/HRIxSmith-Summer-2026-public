@@ -1,8 +1,8 @@
 ---
 Created: 2026-06-29
-Updated: 2026-07-07
-Sources: [[vj5]], [[va10]], [[va11]], [[va14]], [[va15]], [[vj15]], [[vj18]], [[vj6]], [[va7]], [[va23]], [[va24]], [[va25]], [[va26]], [[va27]], [[vj11]]
-Source_count: 15
+Updated: 2026-07-08
+Sources: [[vj5]], [[va10]], [[va11]], [[va14]], [[va15]], [[vj15]], [[vj18]], [[vj6]], [[va7]], [[va23]], [[va24]], [[va25]], [[va26]], [[va27]], [[vj11]], [[vj28]]
+Source_count: 16
 Tags: #concepts
 ---
 ## Dynamic Stall
@@ -31,6 +31,8 @@ Unsteady aerodynamic separation that occurs when a blade experiences rapidly cha
 - The va25 paper links poor low-TSR self-starting to abrupt angle-of-attack changes, aerodynamic stall, and low-Reynolds-number separation effects, and treats airfoil selection as one way to delay or soften those losses. (source: sources/va25.md)
 - The va26 paper adds a detailed static-versus-dynamic comparison for NACA0015, showing that even without classic deep dynamic stall at every pitch setting, unsteady angle-of-attack variation still creates large hysteresis in lift, drag, and boundary-layer events. (source: sources/va26.md)
 - The va27 study focuses directly on deep dynamic stall and shows that the optimal symmetric airfoil shape itself changes with tip-speed ratio as the dynamic-stall regime changes. (source: sources/va27.md)
+- The `vj28` design-guidance paper treats delayed deep stall as one of the key desired airfoil traits for small fixed-pitch SB-VAWTs, and links larger leading-edge radius to later deep-stall onset. (source: sources/vj28.md)
+- It also notes that the nose-radius / deep-stall relation it uses came from a much higher Reynolds-number dataset, so its direct applicability to small low-Re SB-VAWTs remains uncertain. (source: sources/vj28.md)
 
 The VAWT review says dynamic stall is driven by leading-edge vortex growth and shedding, plus blade-vortex interaction on the downwind pass. (source: sources/vj11.md)
 It notes that the lift overshoot during dynamic stall can reach about 50% above the static maximum lift coefficient. (source: sources/vj11.md)
