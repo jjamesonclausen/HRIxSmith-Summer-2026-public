@@ -151,6 +151,21 @@
   - The `vj28` source conversion still reflects PDF block extraction, so some table formatting remains less clean than a hand-retyped transcription, especially for the dense rating-style tables.
   - The paper's airfoil comparison itself is partly based on `XFOIL` plus extrapolated post-stall data, so the ingest should be read as a source-backed design framework rather than proof of one universally best SB-VAWT airfoil.
 
+### 2026-07-08 - Convert active daily-log PDFs to Markdown
+
+- Task: convert the two PDFs dropped into `active/` into clean Markdown while preserving heading structure, list structure, web links, and embedded images.
+- Actions:
+  - Created `active/_anna daily log.md` from `active/_anna daily log.pdf`.
+  - Created `active/_julie daily log.md` from `active/_julie daily log.pdf`.
+  - Preserved the embedded web links from Anna's log, including the hidden hyperlink on `agile project management strategy` and the two visible Zoo links.
+  - Extracted the embedded timeline image from Anna's PDF into `active/_anna daily log.assets/image-1.png` and linked it from the Markdown note.
+  - Cleaned list formatting, nested bullets, and a few extraction artifacts such as empty bullets and a glued image caption.
+- Decisions:
+  - Wrote the converted Markdown files next to the original PDFs in `active/` rather than moving them into `sources/`, because these are active project working documents rather than source-ingest papers.
+  - Kept the conversion focused on faithful transcription and structure cleanup without adding wiki summaries or source-ingest pages, because the request was only to convert the files.
+- Open:
+  - Some long note sections still reflect the original document's informal structure, so a human polish pass could improve readability further if you want these turned into cleaner meeting notes rather than direct conversions.
+
 ### 2026-07-08 - Export all_wind_data m/s dataset as Markdown table
 
 - Task: create a Markdown-table version of the `all_wind_data` dataset in meters per second.
