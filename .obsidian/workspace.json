@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "active/_julie_daily_log.md",
+                "file": "active/_Julie_daily_log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_julie_daily_log"
+              "title": "_Julie_daily_log"
             }
           }
         ]
@@ -184,8 +184,18 @@
   },
   "active": "70651a00716fe7ef",
   "lastOpenFiles": [
+    "active/_julie daily log.md",
+    "active/_Julie_daily_log.md",
+    "active/_julie daily log.pdf",
+    "active/resources/zoo dev notes.pdf",
+    "active/resources/research resources.pdf",
+    "active/resources/llm wiki resources.pdf",
+    "active/_anna daily log.pdf",
+    "active/_anna daily log.md",
+    "active/_anna daily log.assets/image-1.png",
+    "active/_anna daily log.assets",
+    "Notes from meeting June 30th.md",
     "Notes on meeting July 7.md",
-    "active/_julie_daily_log.md",
     "wiki/evals.md",
     "active/Daily Log for Honda Project - Julie & Anna.pdf",
     "active/_Julie_daily_log",
@@ -198,16 +208,9 @@
     "attachments/images/hri2526-fig141.jpg",
     "attachments/images/hri2526-fig142.jpg",
     "attachments/images/hri2526-fig144.jpg",
-    "attachments/images/hri2526-fig143.jpg",
     "attachments/wind data/all_wind_data_mps.md",
     "attachments/wind data/all_wind_data_mps.json",
     "attachments/wind data/all_wind_data.txt",
-    "attachments/wind data/all_wind_data.json",
-    "attachments/wind data",
-    "attachments/images",
-    "attachments/PDFs/vj9_raw.pdf",
-    "attachments/PDFs/vj8_raw.pdf",
-    "attachments/PDFs/vj7_raw.pdf",
     "active/resources/RESOURCES.md",
     "active/resources/README.md",
     "active/resources/Obsidian + Markdown Cheatsheet.md",
@@ -226,10 +229,6 @@
     "analysis/planning/j_two_week_plan.md",
     "analysis/planning/J_5_week_plan.md",
     "analysis/planning/Work Plan A2.md",
-    "analysis/planning/Work Plan A1.md",
-    "analysis/j_two_week_plan.md",
-    "analysis/J_5_week_plan.md",
-    "wiki/summaries/vj28-summary.md",
     "Untitled.canvas"
   ]
 }
