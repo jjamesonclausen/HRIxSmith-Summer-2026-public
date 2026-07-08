@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase torque
 Outcome: minimal positive effect
 ---
-
 ## Blade Number
 
 This `vj23` paper treats blade count as one of the main design choices affecting turbine effectiveness in low wind. (source: sources/vj23.md)

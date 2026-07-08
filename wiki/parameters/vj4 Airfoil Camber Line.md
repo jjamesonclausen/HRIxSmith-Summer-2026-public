@@ -5,7 +5,6 @@ Tags: #parameters
 Target: improve low-TSR startup performance
 Outcome: significant positive effect
 ---
-
 ## Airfoil Camber Line
 
 This `vj4` study compares a symmetrical NACA0018 airfoil with the cambered DU 06-W-200 airfoil on otherwise similar H-Darrieus rotors. (source: sources/vj4.md)

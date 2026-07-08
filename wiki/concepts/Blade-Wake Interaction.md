@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources: [[va23]]
 Source_count: 1
-Tags:
-- concepts
+Tags: #concepts
 ---
-
 ## Blade-Wake Interaction
 
 Interaction between an advancing VAWT blade and the wake left by another blade or by earlier revolutions of the rotor. (source: sources/va23.md)

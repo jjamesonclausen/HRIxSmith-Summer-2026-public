@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources: [[va24]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va24 Summary
 
 DMST-based study of active variable blade pitching for a straight-bladed Darrieus VAWT, showing large modeled performance gains when local angle of attack is kept below stall across the rotor cycle. (source: sources/va24.md)

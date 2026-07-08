@@ -1,31 +1,9 @@
 ---
-Created:
+Created: 2026-07-01
 Updated: 2026-07-07
-Sources:
-- [[va10]]
-- [[va13]]
-- [[va15]]
-- [[va14]]
-- [[va17]]
-- [[va18]]
-- [[va21]]
-- [[va25]]
-- [[va26]]
-- [[va27]]
-- [[va11]]
-- [[va9]]
-- [[vj11]]
-- [[vj2]]
-- [[vj5]]
-- [[vj6]]
-- [[vj13]]
-- [[vj15]]
-- [[vj17]]
-- [[vj18]]
-- [[vj26]]
-Source_count: 18
-Tags:
-- concepts
+Sources: [[va10]], [[vj5]], [[vj6]], [[va11]], [[va13]], [[va15]], [[va14]], [[vj13]], [[vj15]], [[vj17]], [[va17]], [[va18]], [[va21]], [[vj18]], [[va25]], [[va26]], [[va27]], [[vj11]], [[vj26]], [[va9]], [[vj2]]
+Source_count: 21
+Tags: #concepts
 ---
 ## CFD and Validation
 

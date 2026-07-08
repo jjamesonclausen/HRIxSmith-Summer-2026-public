@@ -1,16 +1,10 @@
 ---
 Created: 2026-07-03
-Updated: 2026-07-03
-Sources:
-- [[va16]]
-- [[va14]]
-- [[va11]]
-- [[va12]]
+Updated: 2026-07-07
+Sources: [[va11]], [[va12]], [[va14]], [[va16]]
 Source_count: 4
-Tags:
-- concepts
+Tags: #concepts
 ---
-
 ## H-rotor Wake Aerodynamics
 
 Wake behavior of an H-rotor VAWT, including how velocity deficit, vortex structures, asymmetry, and wake recovery evolve downstream. (source: sources/va11.md)

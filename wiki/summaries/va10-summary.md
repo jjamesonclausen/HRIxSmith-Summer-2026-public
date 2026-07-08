@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-03
-Updated: 2026-07-03
+Updated: 2026-07-07
 Sources: [[va10]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va10 Summary
 
 Review paper on CFD simulation techniques for Darrieus VAWTs, focused on reliable setup choices, turbulence-model selection, and the use of CFD to study geometry, wake interaction, aeroacoustics, skewed wind, guide vanes, and self-starting. (source: sources/va10.md)

@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj19]]
+Updated: 2026-07-07
+Sources: [[vj19]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj19 Summary
 
 This paper designs a small-scale Savonius-type VAWT, compares four blade shapes experimentally by RPM, and then models the selected curved-blade turbine with a MATLAB/Simulink performance and economics workflow. (source: sources/vj19.md)

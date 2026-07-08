@@ -1,12 +1,10 @@
 ---
-Created:
-Updated: 2026-07-02
+Created: 2026-06-29
+Updated: 2026-07-07
 Sources: [[va6]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va6 Source Summary
 
 Summary of `sources/va6.md`. (source: sources/va6.md)

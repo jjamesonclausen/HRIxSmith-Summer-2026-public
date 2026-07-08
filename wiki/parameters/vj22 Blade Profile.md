@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Blade Profile
 
 This `vj22` study compares two symmetric NACA blade profiles for a low-wind-speed straight-bladed VAWT using QBlade simulation. (source: sources/vj22.md)

@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Savonius End Plates
 
 This `vj12` review discusses adding end plates at the top and bottom of a Savonius rotor to reduce leakage flow and improve high-TSR operation. (source: sources/vj12.md)

@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj15]]
+Updated: 2026-07-07
+Sources: [[vj15]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj15 Summary
 
 This paper tests harmonic variable-pitch functions for an H-type Darrieus turbine and finds that Case 1 with a 3-degree amplitude performs best overall. (source: sources/vj15.md)

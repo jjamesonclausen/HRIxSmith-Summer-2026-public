@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-03
-Updated: 2026-07-03
+Updated: 2026-07-07
 Sources: [[va14]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va14 Summary
 
 Primary aerodynamic parameter study on Darrieus H-type VAWTs, focusing on the impact of solidity and blade number across a wide range of tip-speed ratio, Reynolds number, turbulence intensity, and reduced frequency. (source: sources/va14.md)

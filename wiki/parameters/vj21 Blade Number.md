@@ -5,7 +5,6 @@ Tags: #parameters
 Target: improve smoothness
 Outcome: minimal positive effect
 ---
-
 ## Blade Number
 
 This `vj21` paper compares one-, two-, and three-bladed straight-bladed VAWT layouts as a structural and performance tradeoff rather than a single-metric optimization. (source: sources/vj21.md)

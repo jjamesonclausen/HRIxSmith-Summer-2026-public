@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj16]]
+Updated: 2026-07-07
+Sources: [[vj16]]
 Source_count: 1
-Tags:
-- methods
+Tags: #methods
 ---
-
 ## PSO-ANFIS Forecasting
 
 PSO-ANFIS combines adaptive neuro-fuzzy inference with particle swarm optimization to tune ANFIS parameters for prediction. (source: sources/vj16.md)

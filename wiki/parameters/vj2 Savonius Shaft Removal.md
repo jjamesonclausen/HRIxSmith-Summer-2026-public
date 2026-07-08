@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase torque
 Outcome: significant positive effect
 ---
-
 ## Savonius Shaft Removal
 
 This parameter change removes the shaft from inside the Savonius rotor in the hybrid Savonius-Darrieus turbine studied in `vj2`. (source: sources/vj2.md)

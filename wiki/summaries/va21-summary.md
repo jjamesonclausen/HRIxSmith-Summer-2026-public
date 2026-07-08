@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources: [[va21]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va21 Summary
 
 Experimental and CFD study of a small rooftop VAWT installed on a Kolkata building, focused on the prototype's mechanical layout, electrical output, vibration behavior, and numerical validation. (source: sources/va21.md)

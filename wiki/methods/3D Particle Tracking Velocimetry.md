@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-03
-Updated: 2026-07-03
+Updated: 2026-07-07
 Sources: [[va12]]
 Source_count: 1
-Tags:
-- methods
+Tags: #methods
 ---
-
 ## 3D Particle Tracking Velocimetry
 
 Volumetric flow-measurement method that reconstructs three-dimensional particle trajectories from multiple synchronized camera views. (source: sources/va12.md)

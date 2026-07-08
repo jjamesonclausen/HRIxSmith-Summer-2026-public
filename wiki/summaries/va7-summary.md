@@ -1,12 +1,10 @@
 ---
 Created: 2026-06-30
-Updated: 2026-06-30
+Updated: 2026-07-07
 Sources: [[va7]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va7 Source Summary
 
 Summary of `sources/va7.md`. (source: sources/va7.md)

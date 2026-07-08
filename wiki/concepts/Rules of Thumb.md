@@ -1,20 +1,9 @@
 ---
-Created:
-Updated: 2026-07-06
-Sources:
-- [[HRI2526]]
-- [[n2]]
-- [[va7]]
-- [[vj1]]
-- [[vj2]]
-- [[vj4]]
-- [[vj5]]
-- [[vj6]]
-- [[vj7]]
-- [[vj8]]
-Source_count: 10
-Tags:
-- concepts
+Created: 2026-07-01
+Updated: 2026-07-07
+Sources: [[vj6]], [[vj1]], [[vj7]], [[vj8]], [[vj21]]
+Source_count: 5
+Tags: #concepts
 ---
 ## Rules of Thumb
 

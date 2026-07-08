@@ -2,19 +2,18 @@
 Created: 2026-07-02
 Source: [[va3]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
 Swept area (m^2): 7.43
 Cut-in speed (m/s): 4
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
 Rated speed (m/s): 11.2
 Rated power (W): 1200
 ---
-
 ## Windspire Gyromill
 
 The Windspire is a slender, straight-bladed Darrieus/gyromill design optimized for small-scale power generation with low tip speed ratio and low noise. (source: sources/va3.md)

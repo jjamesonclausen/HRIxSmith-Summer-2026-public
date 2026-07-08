@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources: [[va23]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va23 Summary
 
 Wind-tunnel comparison of a conventional two-bladed troposkien Darrieus VAWT against two novel shifted-troposkien variants intended to reduce blade-wake interaction while keeping the same swept area. (source: sources/va23.md)

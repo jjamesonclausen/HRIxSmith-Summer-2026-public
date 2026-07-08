@@ -1,21 +1,9 @@
 ---
-Created:
+Created: 2026-07-01
 Updated: 2026-07-07
-Sources:
-- [[HRI2526]]
-- [[va7]]
-- [[va8]]
-- [[vj1]]
-- [[vj2]]
-- [[vj4]]
-- [[vj5]]
-- [[vj6]]
-- [[vj8]]
-- [[vj18]]
-- [[vj26]]
-Source_count: 11
-Tags:
-- concepts
+Sources: [[vj8]], [[vj4]], [[va8]], [[vj2]], [[vj18]], [[vj26]]
+Source_count: 6
+Tags: #concepts
 ---
 ## Structures and Loads
 

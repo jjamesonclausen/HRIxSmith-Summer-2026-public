@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-07
 Updated: 2026-07-07
-Sources:
-- [[vj27]]
+Sources: [[vj27]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj27 Summary
 
 This review focuses on wind deflectors as a passive flow-augmentation strategy for small VAWTs, especially Savonius and other urban-targeted rotors. (source: sources/vj27.md)

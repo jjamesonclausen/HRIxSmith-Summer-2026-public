@@ -1,19 +1,9 @@
 ---
-Created:
-Updated: 2026-07-03
-Sources:
-- [[HRI2526]]
-- [[n1]]
-- [[va1]]
-- [[va2]]
-- [[va5]]
-- [[va8]]
-- [[vj2]]
-- [[vj4]]
-- [[vj8]]
-Source_count: 9
-Tags:
-- concepts
+Created: 2026-07-01
+Updated: 2026-07-07
+Sources: [[HRI2526]], [[va5]], [[va8]], [[vj8]]
+Source_count: 4
+Tags: #concepts
 ---
 ## VAWT Types
 

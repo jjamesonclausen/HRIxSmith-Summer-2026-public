@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase power output
 Outcome: significant positive effect
 ---
-
 ## Blade Airfoil
 
 This `vj24` paper treats blade airfoil redesign as the main design variable for improving a low-speed straight-bladed Darrieus rotor. (source: sources/vj24.md)

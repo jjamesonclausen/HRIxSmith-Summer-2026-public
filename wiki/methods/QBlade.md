@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj22]]
+Updated: 2026-07-07
+Sources: [[vj22]]
 Source_count: 1
-Tags:
-- methods
+Tags: #methods
 ---
-
 ## QBlade
 
 Simulation software used in `vj22` to analyze low-Re airfoil behavior and then test a small straight-bladed VAWT rotor design. (source: sources/vj22.md)

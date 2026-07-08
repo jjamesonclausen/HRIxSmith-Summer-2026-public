@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase annual power output
 Outcome: significant positive effect
 ---
-
 ## Cluster Installation Orientation
 
 The source varies the direction of the entire three-turbine cluster without changing the internal layout. (source: sources/vj13.md)

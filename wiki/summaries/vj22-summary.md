@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj22]]
+Updated: 2026-07-07
+Sources: [[vj22]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj22 Summary
 
 This paper uses QBlade simulations to compare `NACA 0012` and `NACA 0015` for a small straight-bladed VAWT intended for low-wind-speed use, then studies how blade count changes `Cp`, `TSR`, and torque. (source: sources/vj22.md)

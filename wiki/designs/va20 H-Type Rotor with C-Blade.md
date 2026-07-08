@@ -2,19 +2,18 @@
 Created: 2026-07-06
 Source: [[va20]]
 Tags: #designs
-max Cp (1-4 m/s):
+max Cp (1-4 m/s): 
 max Cp (4-8 m/s): 0.071
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
 Swept area (m^2): 0.96
-Cut-in speed (m/s):
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
-Rated speed (m/s):
-Rated power (W):
+Cut-in speed (m/s): 
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
+Rated speed (m/s): 
+Rated power (W): 
 ---
-
 ## H-Type Rotor with C-Blade
 
 The first `va20` reference design is a three-bladed drag-force H-type VAWT using C-shaped blades. (source: sources/va20.md)

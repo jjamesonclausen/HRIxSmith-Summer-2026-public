@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase turbine lifetime
 Outcome: significant positive effect
 ---
-
 ## Blade Material
 
 This `vj21` paper treats blade material as one of the most critical design choices for smaller-capacity straight-bladed VAWTs because it controls fatigue life, weight, corrosion resistance, manufacturability, and cost. (source: sources/vj21.md)

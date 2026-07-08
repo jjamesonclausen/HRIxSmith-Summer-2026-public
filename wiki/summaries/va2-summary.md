@@ -1,12 +1,10 @@
 ---
-Created:
-Updated: 2026-07-02
+Created: 2026-06-26
+Updated: 2026-07-07
 Sources: [[va2]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va2 Summary
 
 Airfoil optimization study for an H-type vertical-axis wind turbine using CST parameterization, a Kriging surrogate model, and a multi-island genetic algorithm (MIGA). (source: sources/va2.md)

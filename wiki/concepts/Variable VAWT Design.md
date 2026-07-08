@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj18]]
+Updated: 2026-07-07
+Sources: [[vj18]]
 Source_count: 1
-Tags:
-- concepts
+Tags: #concepts
 ---
-
 ## Variable VAWT Design
 
 Variable VAWT design means changing blade geometry or rotor behavior during operation so the turbine can respond better to changing wind conditions. The review treats this as a broad family of methods rather than one specific mechanism. (source: sources/vj18.md)

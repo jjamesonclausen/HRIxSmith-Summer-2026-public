@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-02
-Updated: 2026-07-02
+Updated: 2026-07-07
 Sources: [[va8]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va8 Source Summary
 
 Summary of `sources/va8.md`. (source: sources/va8.md)

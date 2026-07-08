@@ -5,7 +5,6 @@ Tags: #parameters
 Target: improve self-starting and Cp
 Outcome: significant positive effect
 ---
-
 ## Cambered Airfoil Orientation
 
 This `va25` study compares cambered-in and cambered-out orientations for several cambered airfoils to see whether simply flipping the camber improves Darrieus VAWT performance. (source: sources/va25.md)

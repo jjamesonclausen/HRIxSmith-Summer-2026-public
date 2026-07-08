@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj24]]
+Updated: 2026-07-07
+Sources: [[vj24]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj24 Summary
 
 This paper presents an inverse-airfoil-design workflow for improving a low-speed straight-bladed Darrieus VAWT, using a coupled `PROFOIL` + `XFOIL` + `CARDAAV` toolbox and one `3`-bladed example rotor. (source: sources/vj24.md)

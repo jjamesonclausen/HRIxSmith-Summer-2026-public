@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Wind Flow Modifier
 
 This `va20` study adds a directional wind flow modifier (`WFM`) ahead of the involute rotor to accelerate low-speed urban wind before it reaches the turbine. (source: sources/va20.md)

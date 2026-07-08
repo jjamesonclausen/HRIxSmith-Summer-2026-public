@@ -5,7 +5,6 @@ Tags: #parameters
 Target: reduce total torque
 Outcome: significant positive effect
 ---
-
 ## Included Angle Between Rotors
 
 This `vj8` study changes the included angle between the upper and lower rotors of the CRVAWT to improve stability by reducing total torque. (source: sources/vj8.md)

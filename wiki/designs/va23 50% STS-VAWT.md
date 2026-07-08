@@ -2,19 +2,18 @@
 Created: 2026-07-06
 Source: [[va23]]
 Tags: #designs
-max Cp (1-4 m/s):
+max Cp (1-4 m/s): 
 max Cp (4-8 m/s): 0.286
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
 Swept area (m^2): 0.36
-Cut-in speed (m/s):
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
-Rated speed (m/s):
-Rated power (W):
+Cut-in speed (m/s): 
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
+Rated speed (m/s): 
+Rated power (W): 
 ---
-
 ## 50% STS-VAWT
 
 The `50% STS-VAWT` is the best-performing `va23` shifted-troposkien concept, designed so one blade wake only partially intersects the other blade. (source: sources/va23.md)

@@ -1,11 +1,9 @@
 ---
-Created:
-Updated: 2026-07-02
-Sources:
-- [[va1]]
+Created: 2026-06-25
+Updated: 2026-07-07
+Sources: [[va1]]
 Source_count: 1
-Tags:
-- methods
+Tags: #methods
 ---
 ## Bin Method
 

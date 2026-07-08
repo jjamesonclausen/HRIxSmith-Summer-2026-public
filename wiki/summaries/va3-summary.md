@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-02
-Updated: 2026-07-02
+Updated: 2026-07-07
 Sources: [[va3]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va3 Summary
 
 Overview article on vertical-axis wind turbines, covering drag-based, lift-based, and helical variants, plus array effects and practical deployment tradeoffs. (source: sources/va3.md)

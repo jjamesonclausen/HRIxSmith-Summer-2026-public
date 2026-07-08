@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj14]]
+Updated: 2026-07-07
+Sources: [[vj14]]
 Source_count: 1
-Tags:
-- concepts
+Tags: #concepts
 ---
-
 ## Capacity Factor
 
 The fraction of a turbine's theoretical maximum output that is actually generated over a period of time. (source: sources/vj14.md)

@@ -2,19 +2,18 @@
 Created: 2026-07-03
 Source: [[va1]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
 Swept area (m^2): 13.6
-Cut-in speed (m/s):
+Cut-in speed (m/s): 
 Cut-out speed (m/s): 19
-max starting torque (Nm), (0-3 m/s):
-Rated speed (m/s):
+max starting torque (Nm), (0-3 m/s): 
+Rated speed (m/s): 
 Rated power (W): 6000
 ---
-
 ## QuietRevolution QR5
 
 The QR5 is a lift-driven Darrieus-type VAWT chosen in `va1` as one of the two candidate urban turbines for rooftop evaluation in Trieste. (source: sources/va1.md)

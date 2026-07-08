@@ -2,19 +2,18 @@
 Created: 2026-07-06
 Source: [[va25]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
 Swept area (m^2): 1.03
-Cut-in speed (m/s):
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
-Rated speed (m/s):
+Cut-in speed (m/s): 
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
+Rated speed (m/s): 
 Rated power (W): 200
 ---
-
 ## Reference H-Rotor Darrieus VAWT
 
 The `va25` paper uses a published straight-bladed H-rotor Darrieus VAWT as its CFD reference model for airfoil-comparison and self-starting analysis. (source: sources/va25.md)

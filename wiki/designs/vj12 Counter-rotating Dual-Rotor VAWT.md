@@ -2,19 +2,18 @@
 Created: 2026-07-03
 Source: [[vj12]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
-Swept area (m^2):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
+Swept area (m^2): 
 Cut-in speed (m/s): 5
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
-Rated speed (m/s):
-Rated power (W):
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
+Rated speed (m/s): 
+Rated power (W): 
 ---
-
 ## Counter-rotating Dual-Rotor VAWT
 
 This `vj12` design is a stacked dual-rotor counter-rotating VAWT in which two rotors are mounted on the same vertical axis and rotate in opposite directions. (source: sources/vj12.md)

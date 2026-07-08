@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-02
-Updated: 2026-07-02
+Updated: 2026-07-07
 Sources: [[vj12]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj12 Summary
 
 This review argues that VAWT performance gains come from two broad paths: active rotor changes and passive flow-guiding devices. (source: sources/vj12.md)

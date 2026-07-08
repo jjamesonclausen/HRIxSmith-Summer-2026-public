@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj13]]
+Updated: 2026-07-07
+Sources: [[vj13]]
 Source_count: 1
-Tags:
-- methods
+Tags: #methods
 ---
-
 ## Power Curve Annual Prediction
 
 Method for estimating annual cluster output by fitting power curves and combining them with site wind roses. (source: sources/vj13.md)

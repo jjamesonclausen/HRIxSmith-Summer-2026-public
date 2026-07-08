@@ -5,7 +5,6 @@ Tags: #parameters
 Target: improve self-starting
 Outcome: significant positive effect
 ---
-
 ## Blade Aspect Ratio
 
 The `va15` study compares two blade spans, keeping chord fixed, to test how aspect ratio affects self-starting. (source: sources/va15.md)

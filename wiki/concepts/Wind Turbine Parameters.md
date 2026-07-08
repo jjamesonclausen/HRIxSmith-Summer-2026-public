@@ -1,38 +1,9 @@
 ---
-Created:
+Created: 2026-06-25
 Updated: 2026-07-07
-Sources:
-- [[HRI2526]]
-- [[va20]]
-- [[va22]]
-- [[va24]]
-- [[va25]]
-- [[va26]]
-- [[va27]]
-- [[va16]]
-- [[va15]]
-- [[va14]]
-- [[va4]]
-- [[va5]]
-- [[va6]]
-- [[va7]]
-- [[vj1]]
-- [[vj10]]
-- [[vj11]]
-- [[vj12]]
-- [[vj14]]
-- [[vj17]]
-- [[vj15]]
-- [[vj6]]
-- [[vj18]]
-- [[vj19]]
-- [[vj20]]
-- [[vj23]]
-- [[vj24]]
-- [[vj25]]
-Source_count: 26
-Tags:
-- concepts
+Sources: [[HRI2526]], [[vj12]], [[vj1]], [[va14]], [[va16]], [[vj6]], [[va4]], [[va5]], [[va6]], [[vj10]], [[va7]], [[vj11]], [[va15]], [[vj15]], [[vj17]], [[vj18]], [[vj14]], [[va20]], [[va22]], [[va24]], [[vj19]], [[vj20]], [[vj23]], [[vj24]], [[vj25]], [[va25]], [[va26]], [[va27]]
+Source_count: 28
+Tags: #concepts
 ---
 ## Wind Turbine Parameters
 

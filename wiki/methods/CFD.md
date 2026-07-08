@@ -1,34 +1,9 @@
 ---
-Created:
+Created: 2026-06-25
 Updated: 2026-07-07
-Sources:
-- [[HRI2526]]
-- [[n1]]
-- [[va1]]
-- [[va10]]
-- [[va11]]
-- [[va13]]
-- [[va14]]
-- [[va17]]
-- [[va18]]
-- [[va20]]
-- [[va21]]
-- [[va22]]
-- [[va25]]
-- [[va26]]
-- [[va27]]
-- [[va4]]
-- [[va7]]
-- [[vj12]]
-- [[vj2]]
-- [[vj5]]
-- [[vj6]]
-- [[vj8]]
--[[vj20]]
-- [[vj27]]
-Source_count: 24
-Tags:
-- methods
+Sources: [[n1]], [[HRI2526]], [[vj12]], [[vj2]], [[vj5]], [[vj6]], [[va10]], [[va11]], [[va13]], [[va17]], [[va18]], [[va20]], [[va21]], [[va22]], [[va25]], [[va26]], [[va27]], [[va14]], [[va4]], [[va7]], [[vj20]], [[vj27]], [[vj8]]
+Source_count: 23
+Tags: #methods
 ---
 ## Computational Fluid Dynamics (CFD)
 

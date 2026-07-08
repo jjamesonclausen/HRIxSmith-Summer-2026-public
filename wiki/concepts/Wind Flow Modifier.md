@@ -1,14 +1,10 @@
 ---
 Created: 2026-07-06
 Updated: 2026-07-07
-Sources:
-- [[va20]]
-- [[vj27]]
+Sources: [[va20]], [[vj27]]
 Source_count: 2
-Tags:
-- concepts
+Tags: #concepts
 ---
-
 ## Wind Flow Modifier
 
 Passive front-end flow-acceleration structure used to increase the wind speed reaching a VAWT rotor in low-wind conditions. (source: sources/va20.md)

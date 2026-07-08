@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: minimal positive effect
 ---
-
 ## Blade Number
 
 The `va14` study compares 2-, 3-, and 4-bladed Darrieus H-type VAWTs to evaluate how blade number changes loads, wake, and performance. (source: sources/va14.md)

@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources: [[va22]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va22 Summary
 
 Design-and-validation paper for a `100 W` urban-targeted helical VAWT, combining IEC-based sizing, a low-TSR mathematical model with CFD-derived airfoil coefficients, and wind-tunnel testing. (source: sources/va22.md)

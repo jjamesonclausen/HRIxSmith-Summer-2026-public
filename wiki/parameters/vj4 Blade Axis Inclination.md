@@ -5,7 +5,6 @@ Tags: #parameters
 Target: smooth load oscillations
 Outcome: significant positive effect
 ---
-
 ## Blade Axis Inclination
 
 This `vj4` study changes blade-axis inclination by comparing a straight H-shaped rotor with a helical twisted-blade rotor. (source: sources/vj4.md)

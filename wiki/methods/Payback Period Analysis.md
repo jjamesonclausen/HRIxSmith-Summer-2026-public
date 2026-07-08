@@ -1,15 +1,10 @@
 ---
 Created: 2026-07-03
-Updated: 2026-07-06
-Sources:
-- [[va13]]
-- [[va19]]
-- [[vj19]]
+Updated: 2026-07-07
+Sources: [[va13]], [[va19]], [[vj19]]
 Source_count: 3
-Tags:
-- methods
+Tags: #methods
 ---
-
 ## Payback Period Analysis
 
 Method for estimating how long a turbine retrofit takes to recover its initial cost through annual energy-cost savings. (source: sources/va13.md)

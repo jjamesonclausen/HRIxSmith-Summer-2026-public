@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-03
-Updated: 2026-07-03
+Updated: 2026-07-07
 Sources: [[va11]]
 Source_count: 1
-Tags:
-- methods
+Tags: #methods
 ---
-
 ## Particle Image Velocimetry (PIV) Testing
 
 Experimental flow-visualization method that tracks seeded particles in an illuminated plane to recover wake velocity and vortex structure. (source: sources/va11.md)

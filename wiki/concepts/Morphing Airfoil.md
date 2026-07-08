@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources: [[va27]]
 Source_count: 1
-Tags:
-- concepts
+Tags: #concepts
 ---
-
 ## Morphing Airfoil
 
 Airfoil concept in which the blade shape is actively or adaptively changed so the rotor can use a different airfoil geometry at different operating conditions. (source: sources/va27.md)

@@ -2,19 +2,18 @@
 Created: 2026-07-02
 Source: [[va3]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
 Efficiency (%): 85
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
 Swept area (m^2): 1
 Cut-in speed (m/s): 2
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
 Rated speed (m/s): 17
 Rated power (W): 500
 ---
-
 ## Venturi Wind Turbine
 
 The Venturi turbine concept attaches rotor blades to the hub at both ends so rotation generates a spherical surface, creating a Venturi-like converging flow pattern and low-pressure region. (source: sources/va3.md)

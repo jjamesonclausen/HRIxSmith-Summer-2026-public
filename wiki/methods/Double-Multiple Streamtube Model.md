@@ -1,17 +1,10 @@
 ---
 Created: 2026-07-02
-Updated: 2026-07-06
-Sources:
-- [[va9]]
-- [[va22]]
-- [[va24]]
-- [[va25]]
-- [[vj24]]
+Updated: 2026-07-07
+Sources: [[va9]], [[va22]], [[va24]], [[vj24]], [[va25]]
 Source_count: 5
-Tags:
-- methods
+Tags: #methods
 ---
-
 ## Double-Multiple Streamtube Model
 
 The double-multiple streamtube (DMS) model is a Blade Element-Momentum variant for Darrieus VAWTs where the actuator disk is divided into upstream and downstream half-cycles, each with its own induced velocity. (source: sources/va9.md)

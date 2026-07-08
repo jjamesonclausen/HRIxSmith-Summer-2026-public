@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-02
-Updated: 2026-07-02
+Updated: 2026-07-07
 Sources: [[vj11]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj11 Summary
 
 This review synthesizes VAWT aerodynamic theory, rotor configurations, performance trends, numerical methods, experiments, and optimization strategies. (source: sources/vj11.md)

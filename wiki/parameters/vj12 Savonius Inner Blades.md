@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Savonius Inner Blades
 
 This `vj12` review discusses adding inner blades to a Savonius rotor to reduce negative torque and improve overall performance. (source: sources/vj12.md)

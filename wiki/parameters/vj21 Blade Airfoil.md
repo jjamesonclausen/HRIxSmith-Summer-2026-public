@@ -5,7 +5,6 @@ Tags: #parameters
 Target: improve self-starting
 Outcome: significant positive effect
 ---
-
 ## Blade Airfoil
 
 This `vj21` paper treats blade airfoil as one of the most critical design parameters for a smaller-capacity fixed-pitch straight-bladed VAWT. (source: sources/vj21.md)

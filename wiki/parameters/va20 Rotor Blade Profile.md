@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Rotor Blade Profile
 
 This `va20` study changes the blade profile from a drag-oriented `C-shaped` blade to an involute blade to improve low-wind urban VAWT performance. (source: sources/va20.md)

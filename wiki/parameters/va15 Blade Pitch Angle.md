@@ -5,7 +5,6 @@ Tags: #parameters
 Target: improve self-starting
 Outcome: minimal positive effect
 ---
-
 ## Blade Pitch Angle
 
 The `va15` study evaluates how small negative pitch angles affect startup and peak power in a 3-bladed H-Darrieus turbine. (source: sources/va15.md)

@@ -5,7 +5,6 @@ Tags: #parameters
 Target: smooth torque output
 Outcome: minimal positive effect
 ---
-
 ## Savonius Number of Stages
 
 This `vj12` review discusses multi-staging, where similar Savonius units are stacked on one shaft to smooth torque fluctuations. (source: sources/vj12.md)

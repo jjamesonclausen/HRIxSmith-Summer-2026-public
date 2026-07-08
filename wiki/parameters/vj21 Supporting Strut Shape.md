@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase net Cp
 Outcome: significant positive effect
 ---
-
 ## Supporting Strut Shape
 
 This `vj21` paper treats the profile of the supporting struts as an aerodynamic design variable because struts create parasitic drag that directly lowers net output. (source: sources/vj21.md)

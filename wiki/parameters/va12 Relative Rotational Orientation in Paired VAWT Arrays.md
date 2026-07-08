@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase array performance
 Outcome: significant positive effect
 ---
-
 ## Relative Rotational Orientation in Paired VAWT Arrays
 
 The study compares co-rotating and counter-rotating pair orientations, including doublet and reverse-doublet cases, to identify which wake interactions improve performance and replenishment. (source: sources/va12.md)

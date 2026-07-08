@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: negative effect
 ---
-
 ## Savonius Blade Count
 
 This `vj12` review discusses changing the number of Savonius blades to alter torque characteristics and power output. (source: sources/vj12.md)

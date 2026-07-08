@@ -2,19 +2,18 @@
 Created: 2026-07-03
 Source: [[va4]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
 Swept area (m^2): 0.2268
-Cut-in speed (m/s):
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
-Rated speed (m/s):
-Rated power (W):
+Cut-in speed (m/s): 
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
+Rated speed (m/s): 
+Rated power (W): 
 ---
-
 ## Four-Bladed Helical VAWT
 
 The `va4` study investigates a four-bladed helical vertical-axis wind turbine as its reference design for 2D LES and 3D U-RANS analysis. (source: sources/va4.md)

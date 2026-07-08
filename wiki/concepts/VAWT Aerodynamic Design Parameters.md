@@ -1,28 +1,9 @@
 ---
-Created:
+Created: 2026-07-06
 Updated: 2026-07-07
-Sources:
-- [[HRI2526]]
-- [[va15]]
-- [[va14]]
-- [[va8]]
-- [[va9]]
-- [[vj1]]
-- [[vj11]]
-- [[vj4]]
-- [[vj6]]
-- [[vj15]]
-- [[vj17]]
-- [[vj8]]
-- [[vj18]]
-- [[vj21]]
-- [[vj22]]
-- [[vj24]]
-- [[vj25]]
-- [[vj27]]
-Source_count: 18
-Tags:
-- concepts
+Sources: [[vj8]], [[vj4]], [[va14]], [[va15]], [[vj15]], [[vj17]], [[vj18]], [[vj21]], [[vj22]], [[vj24]], [[vj25]], [[vj27]], [[vj11]], [[va8]], [[va9]]
+Source_count: 15
+Tags: #concepts
 ---
 ## VAWT Aerodynamic Design Parameters
 

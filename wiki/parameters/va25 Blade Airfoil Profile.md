@@ -5,7 +5,6 @@ Tags: #parameters
 Target: improve self-starting and Cp
 Outcome: significant positive effect
 ---
-
 ## Blade Airfoil Profile
 
 This `va25` study compares multiple blade airfoil profiles on the same straight-bladed Darrieus rotor to improve low-TSR self-starting and overall aerodynamic efficiency. (source: sources/va25.md)

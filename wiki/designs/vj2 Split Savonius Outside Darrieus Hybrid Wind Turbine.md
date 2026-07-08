@@ -2,19 +2,18 @@
 Created: 2026-07-03
 Source: [[vj2]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
-Swept area (m^2):
-Cut-in speed (m/s):
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
-Rated speed (m/s):
-Rated power (W):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
+Swept area (m^2): 
+Cut-in speed (m/s): 
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
+Rated speed (m/s): 
+Rated power (W): 
 ---
-
 ## Split Savonius Outside Darrieus Hybrid Wind Turbine
 
 This `vj2` configuration moves the Savonius component out of the middle of the Darrieus rotor, splitting it into two shaftless halves placed at the top and bottom of the turbine. (source: sources/vj2.md)

@@ -2,19 +2,18 @@
 Created: 2026-07-02
 Source: [[va3]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
 Swept area (m^2): 5.29735
 Cut-in speed (m/s): 4
 Cut-out speed (m/s): 14
-max starting torque (Nm), (0-3 m/s):
+max starting torque (Nm), (0-3 m/s): 
 Rated speed (m/s): 14
 Rated power (W): 2500
 ---
-
 ## Turby Wind Turbine
 
 The Turby is a three-bladed helical vertical-axis turbine advocated for urban environments, with blades designed at a fixed distance from the vertical shaft. (source: sources/va3.md)

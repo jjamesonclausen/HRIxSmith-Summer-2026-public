@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj20]]
+Updated: 2026-07-07
+Sources: [[vj20]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj20 Summary
 
 This paper proposes a hybrid VAWT that replaces the usual inner Savonius rotor with an inner asymmetric-airfoil H-rotor, then evaluates it with similarity-based scaling, wind-tunnel testing, and CFD. (source: sources/vj20.md)

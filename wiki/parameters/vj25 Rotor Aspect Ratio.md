@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: minimal positive effect
 ---
-
 ## Rotor Aspect Ratio
 
 This `vj25` paper studies rotor aspect ratio in a straight-bladed H-rotor, defining it as `AR = h/R` where `h` is blade height and `R` is rotor radius. (source: sources/vj25.md)

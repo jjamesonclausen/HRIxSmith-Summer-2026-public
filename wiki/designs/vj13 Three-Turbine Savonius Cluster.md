@@ -2,19 +2,18 @@
 Created: 2026-07-06
 Source: [[vj13]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
-Swept area (m^2):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
+Swept area (m^2): 
 Cut-in speed (m/s): 2
 Cut-out speed (m/s): 15
-max starting torque (Nm), (0-3 m/s):
-Rated speed (m/s):
-Rated power (W):
+max starting torque (Nm), (0-3 m/s): 
+Rated speed (m/s): 
+Rated power (W): 
 ---
-
 ## Three-Turbine Savonius Cluster
 
 The source studies a three-turbine cluster built from a conventional two-blade Savonius rotor with overlap ratio `0.1`, `D = 0.95 m`, and `H = 1 m`. (source: sources/vj13.md)

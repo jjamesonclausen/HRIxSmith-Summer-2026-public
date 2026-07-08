@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## H-VAWT Airfoil Geometry
 
 This `va2` study changes H-VAWT airfoil geometry by optimizing six CST shape coefficients together with installation angle relative to a NACA0015 baseline. (source: sources/va2.md)

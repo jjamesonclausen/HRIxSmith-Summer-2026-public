@@ -5,7 +5,6 @@ Tags: #parameters
 Target: improve self-starting
 Outcome: significant positive effect
 ---
-
 ## Blade Profile
 
 The `va15` study compares three typical small-scale H-Darrieus blade profiles for startup and performance. (source: sources/va15.md)

@@ -3,18 +3,17 @@ Created: 2026-07-02
 Source: [[va9]]
 Tags: #designs
 max Cp (1-4 m/s): 0.416
-max Cp (4-8 m/s):
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
+max Cp (4-8 m/s): 
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
 Swept area (m^2): 0.16608
 Cut-in speed (m/s): 1.25
-Cut-out speed (m/s):
+Cut-out speed (m/s): 
 max starting torque (Nm), (0-3 m/s): 0.156
-Rated speed (m/s):
-Rated power (W):
+Rated speed (m/s): 
+Rated power (W): 
 ---
-
 ## EN0005 Self-start Darrieus VAWT
 
 The source presents a Darrieus VAWT intended for urban areas, designed to self-start without extra components or external electricity feed-in by using the EN0005 blade profile and blade-end geometry. (source: sources/va9.md)

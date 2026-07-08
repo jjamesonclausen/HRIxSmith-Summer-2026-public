@@ -5,7 +5,6 @@ Tags: #parameters
 Target: balance Cp and manufacturability
 Outcome: minimal positive effect
 ---
-
 ## Airfoil Relative Thickness
 
 This `vj8` study changes the relative thickness of the CRVAWT blade airfoil to evaluate its effect on power coefficient and pressure distribution. (source: sources/vj8.md)

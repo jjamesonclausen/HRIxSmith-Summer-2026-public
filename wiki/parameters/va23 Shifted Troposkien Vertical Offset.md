@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Shifted Troposkien Vertical Offset
 
 This `va23` paper studies how far one troposkien blade should be shifted vertically relative to the other to reduce blade-wake interaction without giving away too much blade area or solidity. (source: sources/va23.md)

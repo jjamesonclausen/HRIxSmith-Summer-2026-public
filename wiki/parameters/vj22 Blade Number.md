@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Blade Number
 
 This `vj22` study varies blade number on the simulated low-wind-speed rotor to compare `Cp`, `TSR`, solidity, and torque behavior. (source: sources/vj22.md)

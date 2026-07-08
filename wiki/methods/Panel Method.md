@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-03
-Updated: 2026-07-03
+Updated: 2026-07-07
 Sources: [[va16]]
 Source_count: 1
-Tags:
-- methods
+Tags: #methods
 ---
-
 ## Panel Method
 
 Potential-flow method that models blade and wake vortices without a computational mesh, here coupled with a free-vortex wake and viscosity correction from 2-D airfoil data. (source: sources/va16.md)

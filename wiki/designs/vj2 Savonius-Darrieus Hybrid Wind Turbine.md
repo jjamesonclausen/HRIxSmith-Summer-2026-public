@@ -2,19 +2,18 @@
 Created: 2026-07-03
 Source: [[vj2]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
 Swept area (m^2): 2.88
-Cut-in speed (m/s):
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
-Rated speed (m/s):
-Rated power (W):
+Cut-in speed (m/s): 
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
+Rated speed (m/s): 
+Rated power (W): 
 ---
-
 ## Savonius-Darrieus Hybrid Wind Turbine
 
 This page covers the original `vj2` hybrid configuration before the paper's two later optimization variants. It places a helical Savonius rotor inside a three-bladed helical Darrieus rotor to improve startup torque while retaining Darrieus lift-based performance. (source: sources/vj2.md)

@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources: [[va20]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va20 Summary
 
 CFD study of three low-profile VAWT configurations for urban low-wind areas: a C-blade H-type rotor, an involute rotor, and an involute rotor augmented with a wind flow modifier. (source: sources/va20.md)

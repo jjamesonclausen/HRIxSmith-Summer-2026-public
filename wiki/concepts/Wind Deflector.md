@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-07
 Updated: 2026-07-07
-Sources:
-- [[vj27]]
+Sources: [[vj27]]
 Source_count: 1
-Tags:
-- concepts
+Tags: #concepts
 ---
-
 ## Wind Deflector
 
 Passive flow-augmentation device placed around or upstream of a VAWT to redirect wind toward the advancing blade and away from the returning blade. (source: sources/vj27.md)

@@ -1,18 +1,9 @@
 ---
-Created:
-Updated: 2026-07-03
-Sources:
-- [[HRI2526]]
-- [[n2]]
-- [[va7]]
-- [[va5]]
-- [[vj1]]
-- [[vj2]]
-- [[vj4]]
-- [[vj8]]
-Source_count: 8
-Tags:
-- concepts
+Created: 2026-07-01
+Updated: 2026-07-07
+Sources: [[vj2]], [[va5]], [[vj8]]
+Source_count: 3
+Tags: #concepts
 ---
 ## Turbine Concept Selection
 

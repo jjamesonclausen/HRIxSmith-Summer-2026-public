@@ -1,21 +1,9 @@
 ---
-Created:
+Created: 2026-07-01
 Updated: 2026-07-07
-Sources:
-- [[va2]]
-- [[va27]]
-- [[vj11]]
-- [[vj12]]
-- [[vj2]]
-- [[vj8]]
-- [[vj15]]
-- [[vj17]]
-- [[vj18]]
-- [[vj20]]
-- [[vj27]]
+Sources: [[vj8]], [[vj2]], [[va2]], [[vj12]], [[vj11]], [[vj15]], [[vj17]], [[va27]], [[vj18]], [[vj20]], [[vj27]]
 Source_count: 11
-Tags:
-- concepts
+Tags: #concepts
 ---
 ## Optimization
 

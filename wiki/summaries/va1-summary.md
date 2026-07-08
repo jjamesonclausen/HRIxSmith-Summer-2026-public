@@ -1,12 +1,10 @@
 ---
-Created:
-Updated: 2026-07-02
+Created: 2026-06-26
+Updated: 2026-07-07
 Sources: [[va1]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va1 Summary
 
 Comparison of lift-driven and drag-driven VAWTs for low-wind urban environments, focusing on Annual Energy Output (AEO). (source: sources/va1.md)

@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Tip Speed Ratio
 
 This `va4` study varies turbine tip speed ratio to understand how it changes power output, torque fluctuation, angle of attack, and blade-wake interaction in a four-bladed helical VAWT. (source: sources/va4.md)

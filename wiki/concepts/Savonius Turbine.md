@@ -1,25 +1,9 @@
 ---
-Created:
+Created: 2026-06-25
 Updated: 2026-07-07
-Sources:
-- [[HRI2526]]
-- [[n1]]
-- [[n2]]
-- [[va1]]
-- [[va3]]
-- [[va5]]
-- [[va8]]
-- [[vj11]]
-- [[vj12]]
-- [[vj13]]
-- [[vj2]]
-- [[vj17]]
-- [[vj19]]
-- [[vj26]]
-- [[vj27]]
-Source_count: 15
-Tags:
-- concepts
+Sources: [[HRI2526]], [[vj12]], [[vj13]], [[vj17]], [[vj19]], [[n1]], [[vj11]], [[va8]], [[va3]], [[va5]], [[vj27]], [[vj26]], [[n2]], [[vj2]]
+Source_count: 14
+Tags: #concepts
 ---
 ## Savonius Turbine
 

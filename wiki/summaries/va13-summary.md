@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-03
-Updated: 2026-07-03
+Updated: 2026-07-07
 Sources: [[va13]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va13 Summary
 
 Primary study of three rooftop VAWT retrofit options on a residential building in Çe¸sme, Türkiye, comparing aerodynamic performance, building energy savings, and payback period. (source: sources/va13.md)

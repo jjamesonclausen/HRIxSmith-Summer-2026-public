@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase starting torque
 Outcome: significant positive effect
 ---
-
 ## Asymmetrical Blade Profile
 
 This `va8` patent changes the blade cross-section from a conventional profile to an asymmetrical profile with unequal upper and lower cambers. (source: sources/va8.md)

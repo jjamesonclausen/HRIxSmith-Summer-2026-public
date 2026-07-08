@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj23]]
+Updated: 2026-07-07
+Sources: [[vj23]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj23 Summary
 
 This paper is a simple design-oriented discussion of a small Darrieus-type VAWT for low-wind Indonesian conditions, emphasizing low mounting height, blade count, and gearbox use. (source: sources/vj23.md)

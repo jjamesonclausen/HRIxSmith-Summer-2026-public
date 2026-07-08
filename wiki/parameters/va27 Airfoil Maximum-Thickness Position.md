@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp in dynamic stall
 Outcome: significant positive effect
 ---
-
 ## Airfoil Maximum-Thickness Position
 
 This `va27` study varies the chordwise position of maximum thickness `xt/c` to understand how moving the airfoil thickness peak fore or aft changes VAWT dynamic-stall performance. (source: sources/va27.md)

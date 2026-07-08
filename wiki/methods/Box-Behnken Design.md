@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj20]]
+Updated: 2026-07-07
+Sources: [[vj20]]
 Source_count: 1
-Tags:
-- methods
+Tags: #methods
 ---
-
 ## Box-Behnken Design
 
 DOE method used to optimize several design variables at once with fewer runs than a full factorial design. (source: sources/vj20.md)

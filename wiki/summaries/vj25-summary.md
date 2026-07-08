@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-07
 Updated: 2026-07-07
-Sources:
-- [[vj25]]
+Sources: [[vj25]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj25 Summary
 
 This paper studies how rotor aspect ratio changes the performance of a straight-bladed H-rotor VAWT, using a Multiple Stream Tube Model workflow and a `NACA 0018` two-bladed design example. (source: sources/vj25.md)

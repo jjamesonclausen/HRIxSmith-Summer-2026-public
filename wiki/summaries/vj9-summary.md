@@ -1,12 +1,10 @@
 ---
 Created: 2026-06-30
-Updated: 2026-06-30
+Updated: 2026-07-07
 Sources: [[vj9]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj9 Source Summary
 
 This paper studies CFD-based optimization of Savonius wind turbine blade shapes, with a novel scooplet-based design that outperforms the classical and modified classical Savonius cases. (source: sources/vj9.md)

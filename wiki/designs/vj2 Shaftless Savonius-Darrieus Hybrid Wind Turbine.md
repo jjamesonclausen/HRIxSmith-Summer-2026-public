@@ -2,19 +2,18 @@
 Created: 2026-07-03
 Source: [[vj2]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
 Swept area (m^2): 2.88
-Cut-in speed (m/s):
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
-Rated speed (m/s):
-Rated power (W):
+Cut-in speed (m/s): 
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
+Rated speed (m/s): 
+Rated power (W): 
 ---
-
 ## Shaftless Savonius-Darrieus Hybrid Wind Turbine
 
 This `vj2` configuration keeps the original three-bladed helical Darrieus rotor and central helical Savonius layout, but removes the shaft from inside the Savonius rotor to reduce internal flow blockage. (source: sources/vj2.md)

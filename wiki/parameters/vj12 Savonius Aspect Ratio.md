@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: minimal positive effect
 ---
-
 ## Savonius Aspect Ratio
 
 This `vj12` review discusses changing Savonius aspect ratio, defined as rotor height divided by rotor width, to influence power coefficient, RPM, and torque. (source: sources/vj12.md)

@@ -5,7 +5,6 @@ Tags: #parameters
 Target: improve power output and self-starting
 Outcome: strong positive effect at 3 degrees
 ---
-
 ## Pitch Amplitude
 
 The `vj15` study varies harmonic pitch amplitude in an H-type Darrieus turbine and tests `0`, `3`, `10`, and `20` degree amplitudes. (source: sources/vj15.md)

@@ -1,23 +1,9 @@
 ---
-Created:
+Created: 2026-06-26
 Updated: 2026-07-07
-Sources:
-- [[va2]]
-- [[va16]]
-- [[va15]]
-- [[va14]]
-- [[va25]]
-- [[va26]]
-- [[va27]]
-- [[va9]]
-- [[va11]]
-- [[vj14]]
-- [[vj15]]
-- [[vj4]]
-- [[vj25]]
+Sources: [[va2]], [[vj4]], [[va9]], [[va11]], [[va14]], [[va15]], [[vj15]], [[va16]], [[vj14]], [[va25]], [[va26]], [[va27]], [[vj25]]
 Source_count: 13
-Tags:
-- concepts
+Tags: #concepts
 ---
 ## H-Type Vertical-Axis Wind Turbine (H-VAWT)
 

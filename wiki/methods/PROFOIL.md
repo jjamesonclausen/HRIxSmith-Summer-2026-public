@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj24]]
+Updated: 2026-07-07
+Sources: [[vj24]]
 Source_count: 1
-Tags:
-- methods
+Tags: #methods
 ---
-
 ## PROFOIL
 
 Interactive multipoint inverse-airfoil-design code used in `vj24` as the core tool for tailoring a low-Re symmetric airfoil for a straight-bladed Darrieus VAWT. (source: sources/vj24.md)

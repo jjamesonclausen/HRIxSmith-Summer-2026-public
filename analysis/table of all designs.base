@@ -6,9 +6,7 @@ views:
     name: Table
     order:
       - file.name
-      - Swept area (m^2)
       - Rated speed (m/s)
-      - Rated power (W)
       - max TSR (4-8 m/s)
       - max TSR (1-4 m/s)
       - max starting torque (Nm), (0-3 m/s)

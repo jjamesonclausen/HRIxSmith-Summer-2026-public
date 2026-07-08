@@ -3,18 +3,17 @@ Created: 2026-07-06
 Source: [[vj20]]
 Tags: #designs
 max Cp (1-4 m/s): 0.486
-max Cp (4-8 m/s):
-Efficiency (%):
+max Cp (4-8 m/s): 
+Efficiency (%): 
 max TSR (1-4 m/s): 3
-max TSR (4-8 m/s):
+max TSR (4-8 m/s): 
 Swept area (m^2): 12.02448
 Cut-in speed (m/s): 2.81
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
 Rated speed (m/s): 7.5
-Rated power (W):
+Rated power (W): 
 ---
-
 ## Proposed Hybrid VAWT
 
 This page covers the source's proposed hybrid turbine that combines an outer straight-bladed H-rotor with an inner asymmetric-airfoil H-rotor instead of a Savonius starter. (source: sources/vj20.md)

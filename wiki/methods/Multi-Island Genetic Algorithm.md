@@ -1,11 +1,9 @@
 ---
-Created:
-Updated: 2026-07-02
-Sources:
-- [[va2]]
+Created: 2026-06-26
+Updated: 2026-07-07
+Sources: [[va2]]
 Source_count: 1
-Tags:
-- methods
+Tags: #methods
 ---
 ## Multi-Island Genetic Algorithm (MIGA)
 

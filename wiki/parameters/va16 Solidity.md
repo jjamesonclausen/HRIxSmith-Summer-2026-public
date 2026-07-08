@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Solidity
 
 The `va16` study evaluates solidity through chord and span changes to understand how it alters power coefficient in a straight-bladed VAWT. (source: sources/va16.md)

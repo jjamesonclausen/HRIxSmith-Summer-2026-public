@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Solidity
 
 The `va14` study treats solidity as a core aerodynamic design variable for Darrieus H-type VAWTs. (source: sources/va14.md)

@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase self-start ability
 Outcome: significant positive effect
 ---
-
 ## EN0005 Blade Profile
 
 The EN0005 blade profile is the design parameter changed in `va9` to improve Darrieus VAWT self-start ability without extra components or external electricity feed-in. (source: sources/va9.md)

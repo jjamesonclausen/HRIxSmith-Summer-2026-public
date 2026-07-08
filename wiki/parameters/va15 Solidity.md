@@ -5,7 +5,6 @@ Tags: #parameters
 Target: improve self-starting
 Outcome: significant positive effect
 ---
-
 ## Solidity
 
 The `va15` study treats turbine solidity as a main startup and performance variable for a 3-bladed H-Darrieus rotor. (source: sources/va15.md)

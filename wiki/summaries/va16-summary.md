@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-03
-Updated: 2026-07-03
+Updated: 2026-07-07
 Sources: [[va16]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va16 Summary
 
 Primary panel-method study on straight-bladed H-type VAWTs, focused on how rotor span-to-diameter ratio and solidity affect power coefficient and spanwise vortex behavior. (source: sources/va16.md)

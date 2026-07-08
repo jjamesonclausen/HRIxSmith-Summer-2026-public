@@ -2,19 +2,18 @@
 Created: 2026-07-06
 Source: [[va19]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
 Swept area (m^2): 10.87
-Cut-in speed (m/s):
+Cut-in speed (m/s): 
 Cut-out speed (m/s): 26.82
-max starting torque (Nm), (0-3 m/s):
-Rated speed (m/s):
+max starting torque (Nm), (0-3 m/s): 
+Rated speed (m/s): 
 Rated power (W): 2400
 ---
-
 ## Skystream 3.7
 
 The `va19` campus study evaluates the `Skystream 3.7` as the stronger of its two candidate small wind systems for MIT rooftop use. (source: sources/va19.md)

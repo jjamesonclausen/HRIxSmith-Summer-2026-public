@@ -2,19 +2,18 @@
 Created: 2026-07-06
 Source: [[vj19]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
-Swept area (m^2):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
+Swept area (m^2): 
 Cut-in speed (m/s): 3
 Cut-out speed (m/s): 17
-max starting torque (Nm), (0-3 m/s):
+max starting torque (Nm), (0-3 m/s): 
 Rated speed (m/s): 9
-Rated power (W):
+Rated power (W): 
 ---
-
 ## Curved-Blade Savonius VAWT
 
 The `vj19` paper advances one small-scale curved-blade Savonius VAWT after comparing four blade-shape options experimentally. (source: sources/vj19.md)

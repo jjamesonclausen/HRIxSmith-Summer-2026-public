@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Span-to-Diameter Ratio (H-D)
 
 The `va16` study varies `H/D` to understand how span length relative to rotor diameter changes spanwise loading and peak power coefficient. (source: sources/va16.md)

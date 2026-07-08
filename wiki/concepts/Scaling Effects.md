@@ -1,13 +1,9 @@
 ---
-Created:
-Updated: 2026-07-06
-Sources:
-- [[HRI2526]]
-- [[vj11]]
-- [[vj20]]
+Created: 2026-06-25
+Updated: 2026-07-07
+Sources: [[HRI2526]], [[vj11]], [[vj20]]
 Source_count: 3
-Tags:
-- concepts
+Tags: #concepts
 ---
 ## Scaling Effects
 

@@ -1,6 +1,48 @@
 #maintenance
 ## Log
 
+### 2026-07-08 - Convert Boston wind JSON values from knots to meters per second
+
+- Task: convert the Boston wind-speed dataset from knots to meters per second.
+- Actions:
+  - Created `bos_wind_mps.json` at the repo root from `sources/bos_wind.txt`.
+  - Replaced the source `sknt` field with `wind_speed_mps` so the exported unit is explicit.
+  - Converted knot values using `1 kt = 0.514444 m/s`, rounded to `6` decimal places, and preserved missing values as `null`.
+  - Verified the converted file contains `13044` JSON objects and `86` null wind-speed entries.
+- Decisions:
+  - Kept `bos_wind.json` unchanged in knots and wrote a second file for the SI-unit version to avoid ambiguity and preserve the original derived export.
+- Open:
+  - If needed, the meter-per-second file could also be re-exported with fewer decimal places or with both units present in each row.
+
+### 2026-07-08 - Convert Boston wind CSV text file to JSON
+
+- Task: convert `sources/bos_wind.txt` into a JSON file for downstream use.
+- Actions:
+  - Read `sources/bos_wind.txt` and confirmed it is a comma-separated table with headers `station`, `station_name`, `valid(UTC)`, and `sknt`.
+  - Created `bos_wind.json` at the repo root as a JSON array of row objects, preserving the original column names.
+  - Normalized numeric `sknt` values to JSON numbers and converted missing `M` entries to `null`.
+  - Verified the conversion by counting rows in both formats: `13044` CSV rows and `13044` JSON objects.
+- Decisions:
+  - Wrote the derived JSON file outside `sources/` to respect the repo rule that treats `sources/` as read-only input material.
+  - Kept `valid(UTC)` as the original string field rather than changing timestamp format during conversion.
+- Open:
+  - If a different JSON shape would be more useful, the file could also be re-exported as newline-delimited JSON or with renamed keys.
+
+### 2026-07-07 - Normalize existing wiki metadata to updated ingest schema
+
+- Task: read the updated metadata instructions in `schema/Ingest Source` and update all existing wiki metadata to match the new schema format.
+- Actions:
+  - Audited metadata across `wiki/summaries/`, `wiki/concepts/`, `wiki/methods/`, `wiki/designs/`, and `wiki/parameters/` against the current `schema/Ingest Source` templates.
+  - Normalized frontmatter in existing wiki content pages so summaries, concepts, and methods now use `Created`, `Updated`, `Sources`, `Source_count`, and single-line `Tags` fields in the new schema style.
+  - Normalized design and parameter page frontmatter so `Tags` are single-line values and missing `Created` fields were populated.
+  - Recomputed `Sources` backlinks and `Source_count` from the cited sources in each general wiki page, and repaired malformed metadata in pages such as `Discrete Vortex Method`, `Salp Swarm Algorithm`, and several older design notes with blank `Created` values.
+  - Verified there are no blank required metadata fields, no old list-style `Tags` metadata blocks left in wiki content pages, and no Markdown `.md` links or unresolved wikilinks introduced by the maintenance pass.
+- Decisions:
+  - Used the current `schema/Ingest Source` text as authoritative and normalized all wiki metadata to one practical repo-wide rule: inline `Tags` values, explicit `Source_count`, and `Sources` backlinks collected from cited source notes.
+  - Left `wiki/concepts/VAWT Design Comparisons.md` with empty `Sources` because it currently contains only wiki-link navigation and an `> Inference:` note, not direct source-backed claims.
+- Open:
+  - The schema is still somewhat ambiguous about whether multi-source `Sources` should be represented as inline strings or YAML lists; I normalized them as inline source-link strings to stay closest to the updated examples now written in `schema/Ingest Source`.
+
 ### 2026-07-07 - Convert and ingest vj27 wind-deflector review
 
 - Task: convert `PDFs/vj27.pdf` into `sources/vj27.md`, extract its figures and equations, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.

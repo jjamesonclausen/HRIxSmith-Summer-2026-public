@@ -1,14 +1,10 @@
 ---
 Created: 2026-07-06
 Updated: 2026-07-07
-Sources:
-- [[va23]]
-- [[vj26]]
+Sources: [[va23]], [[vj26]]
 Source_count: 2
-Tags:
-- methods
+Tags: #methods
 ---
-
 ## Wind Tunnel Blockage Correction
 
 Method for correcting VAWT power coefficient and tip-speed-ratio measurements when the wind tunnel test section is small enough that the turbine materially accelerates the surrounding flow. (source: sources/va23.md)

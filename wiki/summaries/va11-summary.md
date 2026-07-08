@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-03
-Updated: 2026-07-03
+Updated: 2026-07-07
 Sources: [[va11]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va11 Summary
 
 Review paper on the wake aerodynamics of H-rotor VAWTs, covering wake asymmetry, dynamic-stall-driven vortex shedding, experimental and CFD wake studies, and wake-model development for wind-farm layout design. (source: sources/va11.md)

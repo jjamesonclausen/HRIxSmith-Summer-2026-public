@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: minimal positive effect
 ---
-
 ## Savonius Overlap Ratio
 
 This `vj12` review discusses overlap ratio as a core Savonius parameter affecting startup, leakage flow, torque, and power coefficient. (source: sources/vj12.md)

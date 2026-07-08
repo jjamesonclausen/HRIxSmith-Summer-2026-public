@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj16]]
+Updated: 2026-07-07
+Sources: [[vj16]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj16 Summary
 
 This paper compares grid partitioning, subtractive clustering, and fuzzy c-means inside standalone ANFIS and PSO-ANFIS wind-power forecasting models. (source: sources/vj16.md)

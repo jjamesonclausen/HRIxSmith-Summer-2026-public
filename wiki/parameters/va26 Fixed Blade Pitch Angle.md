@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: minimal positive effect
 ---
-
 ## Fixed Blade Pitch Angle
 
 This `va26` study varies fixed blade pitch angle on a 3-bladed H-type VAWT to improve aerodynamic performance at `TSR = 4`. (source: sources/va26.md)

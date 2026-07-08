@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Savonius Blade Shape
 
 This `vj9` paper changes Savonius blade shape while keeping the design manufacturable with simple circular segments of constant thickness. (source: sources/vj9.md)

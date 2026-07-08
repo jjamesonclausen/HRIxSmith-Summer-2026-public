@@ -1,15 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[va17]]
-- [[va19]]
-- [[va21]]
+Updated: 2026-07-07
+Sources: [[va17]], [[va19]], [[va21]]
 Source_count: 3
-Tags:
-- concepts
+Tags: #concepts
 ---
-
 ## Architectural Wind Turbines
 
 Small wind turbines installed over the edges of building rooftops to use locally accelerated flow rather than open-field tower siting. (source: sources/va17.md)

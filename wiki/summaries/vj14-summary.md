@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj14]]
+Updated: 2026-07-07
+Sources: [[vj14]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj14 Summary
 
 This paper evaluates a specific 5 kW H-Darrieus VAWT at a real campus site and uses its measured generation data in a cradle-to-grave LCA. (source: sources/vj14.md)

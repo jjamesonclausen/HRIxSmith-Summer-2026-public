@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources: [[va18]]
 Source_count: 1
-Tags:
-- methods
+Tags: #methods
 ---
-
 ## Climatology Assimilation
 
 CFD-aided method that reconstructs a spatial wind-resource climatology from measured wind statistics at one reference point, then extrapolates those statistics across the full domain. (source: sources/va18.md)

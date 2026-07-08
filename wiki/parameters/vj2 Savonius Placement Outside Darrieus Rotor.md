@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase torque
 Outcome: significant positive effect
 ---
-
 ## Savonius Placement Outside Darrieus Rotor
 
 This parameter change moves the Savonius component from the middle of the Darrieus rotor to split top-and-bottom positions in the hybrid turbine studied in `vj2`. (source: sources/vj2.md)

@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Blade Number
 
 This `vj4` study compares two-bladed and three-bladed small VAWT architectures at fixed solidity and Reynolds number. (source: sources/vj4.md)

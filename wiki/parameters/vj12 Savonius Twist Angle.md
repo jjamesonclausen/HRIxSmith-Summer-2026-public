@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Savonius Twist Angle
 
 This `vj12` review discusses changing the twist angle of helical Savonius blades to improve power and torque coefficients. (source: sources/vj12.md)

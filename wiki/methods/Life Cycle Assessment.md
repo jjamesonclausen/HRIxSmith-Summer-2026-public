@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj14]]
+Updated: 2026-07-07
+Sources: [[vj14]]
 Source_count: 1
-Tags:
-- methods
+Tags: #methods
 ---
-
 ## Life Cycle Assessment
 
 Cradle-to-grave environmental accounting method used to evaluate the impacts of a turbine and its support infrastructure. (source: sources/vj14.md)

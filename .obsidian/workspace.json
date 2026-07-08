@@ -11,12 +11,13 @@
             "id": "70651a00716fe7ef",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "bases",
               "state": {
-                "file": "PDFs/va5_raw.pdf"
+                "file": "analysis/table of all designs.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file-text",
-              "title": "va5_raw"
+              "icon": "lucide-table",
+              "title": "table of all designs"
             }
           }
         ]
@@ -76,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -183,6 +183,16 @@
   },
   "active": "70651a00716fe7ef",
   "lastOpenFiles": [
+    "wind data/bos_wind.txt",
+    "wind data/bos_wind.json",
+    "wind data/bos_wind_mps.json",
+    "wind data",
+    "bos_wind_mps.json",
+    "bos_wind.json",
+    "sources/bos_wind.txt",
+    "analysis/data view testing.md",
+    "tmp_normalize_metadata.py",
+    "PDFs/va5_raw.pdf",
     "wiki/parameters/vj27 Wind Deflector Position and Orientation.md",
     "wiki/parameters/vj27 Wind Deflector Shape.md",
     "wiki/concepts/Wind Deflector.md",
@@ -208,7 +218,6 @@
     "wiki/methods/Multiple Stream Tube Model.md",
     "wiki/summaries/vj25-summary.md",
     "sources/vj25.md",
-    "PDFs/vj25.pdf",
     "wiki/designs/va5 J-Type VAWT.md",
     "sources/vj23.md",
     "wiki/methods/PROFOIL.md",
@@ -216,19 +225,10 @@
     "wiki/designs/vj24 3-Bladed Straight-Bladed Darrieus VAWT.md",
     "wiki/summaries/vj24-summary.md",
     "sources/vj24.md",
-    "PDFs/vj24.pdf",
-    "PDFs/vj23.pdf",
     "wiki/parameters/va3 Blade Count for VAWT Startup and Pulsation.md",
     "wiki/parameters/vj23 Gearbox Sizing.md",
     "wiki/parameters/vj23 Blade Number.md",
     "wiki/designs/vj23 3-Bladed Darrieus VAWT with Gearbox.md",
-    "wiki/summaries/vj23-summary.md",
-    "wiki/summaries/va25-summary.md",
-    "analysis/table of all designs.base",
-    "PDFs/vj22.pdf",
-    "PDFs/vj21.pdf",
-    "PDFs/vj20.pdf",
-    "PDFs/vj19.pdf",
     "Untitled.canvas"
   ]
 }

@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj13]]
+Updated: 2026-07-07
+Sources: [[vj13]]
 Source_count: 1
-Tags:
-- concepts
+Tags: #concepts
 ---
-
 ## Savonius Wind Turbine Cluster
 
 A cluster of multiple Savonius turbines arranged so wake interaction and wind-direction effects can change the total output. (source: sources/vj13.md)

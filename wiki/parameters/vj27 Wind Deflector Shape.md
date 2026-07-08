@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Wind Deflector Shape
 
 This `vj27` review compares several wind-deflector geometries as passive augmentation devices for small VAWTs. (source: sources/vj27.md)

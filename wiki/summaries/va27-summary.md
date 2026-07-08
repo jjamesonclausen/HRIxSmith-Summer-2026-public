@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources: [[va27]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va27 Summary
 
 High-fidelity CFD airfoil-shape characterization for a low-solidity Darrieus H-type VAWT in deep dynamic stall, focused on the coupled effects of thickness, thickness position, and leading-edge radius. (source: sources/va27.md)

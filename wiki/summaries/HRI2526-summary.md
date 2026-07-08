@@ -1,12 +1,10 @@
 ---
-Created:
-Updated: 2026-07-02
+Created: 2026-06-25
+Updated: 2026-07-07
 Sources: [[HRI2526]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## HRI2526 Source Summary
 
 Summary of `sources/HRI2526.md`. (source: sources/HRI2526.md)

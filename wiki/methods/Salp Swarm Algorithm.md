@@ -1,9 +1,10 @@
 ---
 Created: 2026-07-06
-Source: [[vj17]]
+Updated: 2026-07-07
+Sources: [[vj17]]
+Source_count: 1
 Tags: #methods
 ---
-
 ## Salp Swarm Algorithm
 
 Salp Swarm Algorithm is a nature-inspired optimization method that splits the population into a leader and followers. The `vj17` paper uses SSA to search CST curvature coefficients for maximum Savonius power coefficient. (source: sources/vj17.md)

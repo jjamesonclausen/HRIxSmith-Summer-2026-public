@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp in dynamic stall
 Outcome: significant positive effect
 ---
-
 ## Leading-Edge Radius Index
 
 This `va27` study varies the leading-edge radius index `I` to understand how sharper or blunter symmetric airfoils affect VAWT power performance under deep dynamic stall. (source: sources/va27.md)

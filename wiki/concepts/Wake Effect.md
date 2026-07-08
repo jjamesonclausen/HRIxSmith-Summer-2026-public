@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj13]]
+Updated: 2026-07-07
+Sources: [[vj13]]
 Source_count: 1
-Tags:
-- concepts
+Tags: #concepts
 ---
-
 ## Wake Effect
 
 The reduced-speed, more turbulent flow behind an upstream turbine that can lower downstream turbine output. (source: sources/vj13.md)

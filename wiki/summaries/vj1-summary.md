@@ -1,12 +1,10 @@
 ---
-Created:
-Updated: 2026-07-02
+Created: 2026-06-26
+Updated: 2026-07-07
 Sources: [[vj1]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj1 Source Summary
 
 Summary of `sources/vj1.md`. (source: sources/vj1.md)

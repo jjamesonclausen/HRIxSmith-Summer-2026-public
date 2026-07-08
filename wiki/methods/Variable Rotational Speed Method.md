@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj13]]
+Updated: 2026-07-07
+Sources: [[vj13]]
 Source_count: 1
-Tags:
-- methods
+Tags: #methods
 ---
-
 ## Variable Rotational Speed Method
 
 Method for adjusting turbine rotational speed during simulation so each turbine follows its local optimal power point. (source: sources/vj13.md)

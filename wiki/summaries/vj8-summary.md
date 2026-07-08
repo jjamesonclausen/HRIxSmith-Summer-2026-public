@@ -1,12 +1,10 @@
 ---
-Created:
-Updated: 2026-07-02
+Created: 2026-06-29
+Updated: 2026-07-07
 Sources: [[vj8]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj8 Source Summary
 
 Summary of `sources/vj8.md`. (source: sources/vj8.md)

@@ -5,7 +5,6 @@ Tags: #parameters
 Target: reduce torque ripple
 Outcome: significant positive effect
 ---
-
 ## Helix Angle
 
 This `va7` study changes the blade helix angle of a helical VAWT to investigate how it affects power output, wake structure, and load smoothness. (source: sources/va7.md)

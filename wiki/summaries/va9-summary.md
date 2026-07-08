@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-02
-Updated: 2026-07-02
+Updated: 2026-07-07
 Sources: [[va9]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va9 Source Summary
 
 Summary of `sources/va9.md`. (source: sources/va9.md)

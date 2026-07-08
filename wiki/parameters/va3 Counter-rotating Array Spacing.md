@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase wind-farm power density
 Outcome: significant positive effect
 ---
-
 ## Counter-rotating Array Spacing
 
 The source treats close spacing and counter-rotation as array design parameters for improving VAWT wind-farm power density. (source: sources/va3.md)

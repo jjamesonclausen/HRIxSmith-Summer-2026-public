@@ -1,13 +1,9 @@
 ---
-Created:
-Updated: 2026-07-02
-Sources:
-- [[HRI2526]]
-- [[va4]]
-- [[va7]]
-Source_count: 3
-Tags:
-- concepts
+Created: 2026-07-02
+Updated: 2026-07-07
+Sources: [[HRI2526]], [[va7]]
+Source_count: 2
+Tags: #concepts
 ---
 ## Helical Darrieus
 

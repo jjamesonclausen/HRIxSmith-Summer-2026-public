@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-07
 Updated: 2026-07-07
-Sources:
-- [[vj25]]
+Sources: [[vj25]]
 Source_count: 1
-Tags:
-- methods
+Tags: #methods
 ---
-
 ## Multiple Stream Tube Model
 
 The `vj25` paper uses a calculation code based on the Multiple Stream Tube Model (`MSTM`) to generate `Cp` versus `TSR` curves for a straight-bladed H-rotor over different Reynolds numbers. (source: sources/vj25.md)

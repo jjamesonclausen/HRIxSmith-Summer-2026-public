@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources: [[va26]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va26 Summary
 
 URANS CFD study of how fixed blade pitch changes the performance and blade aerodynamics of a low-solidity 3-bladed H-type VAWT at `TSR = 4`. (source: sources/va26.md)

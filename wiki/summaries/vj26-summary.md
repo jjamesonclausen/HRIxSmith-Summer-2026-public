@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-07
 Updated: 2026-07-07
-Sources:
-- [[vj26]]
+Sources: [[vj26]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj26 Summary
 
 This review surveys post-2005 VAWT rotor-design and testing work across lift-based, drag-based, hybrid, experimental, CFD, rooftop, and offshore themes. (source: sources/vj26.md)

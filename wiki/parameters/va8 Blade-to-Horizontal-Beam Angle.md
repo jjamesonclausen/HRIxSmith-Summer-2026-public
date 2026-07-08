@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase torque
 Outcome: significant positive effect
 ---
-
 ## Blade-to-Horizontal-Beam Angle
 
 This `va8` patent fixes the angle between the blade chord and the horizontal support beam to control lift-force direction and torque generation. (source: sources/va8.md)

@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-03
-Updated: 2026-07-03
+Updated: 2026-07-07
 Sources: [[va12]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va12 Summary
 
 Primary experimental study of interacting VAWT pairs, linking array-angle, spacing, and rotational-orientation changes to performance and three-dimensional wake structure. (source: sources/va12.md)

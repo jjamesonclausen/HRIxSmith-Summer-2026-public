@@ -5,7 +5,6 @@ Tags: #parameters
 Target: improve self-start and stability
 Outcome: significant positive effect
 ---
-
 ## Blade-End Position
 
 This `va9` design change varies the position of the blade ends relative to the main Darrieus blade body. (source: sources/va9.md)

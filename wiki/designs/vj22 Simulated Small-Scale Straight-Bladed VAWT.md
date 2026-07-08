@@ -3,18 +3,17 @@ Created: 2026-07-06
 Source: [[vj22]]
 Tags: #designs
 max Cp (1-4 m/s): 0.3
-max Cp (4-8 m/s):
-Efficiency (%):
+max Cp (4-8 m/s): 
+Efficiency (%): 
 max TSR (1-4 m/s): 4.2
-max TSR (4-8 m/s):
+max TSR (4-8 m/s): 
 Swept area (m^2): 1.32
-Cut-in speed (m/s):
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
-Rated speed (m/s):
-Rated power (W):
+Cut-in speed (m/s): 
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
+Rated speed (m/s): 
+Rated power (W): 
 ---
-
 ## Simulated Small-Scale Straight-Bladed VAWT
 
 This page covers the small simulated straight-bladed VAWT geometry used in `vj22` to compare blade airfoils and blade number for low-wind-speed operation. (source: sources/vj22.md)

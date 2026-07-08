@@ -2,19 +2,18 @@
 Created: 2026-07-06
 Source: [[va23]]
 Tags: #designs
-max Cp (1-4 m/s):
+max Cp (1-4 m/s): 
 max Cp (4-8 m/s): 0.24
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
 Swept area (m^2): 0.36
-Cut-in speed (m/s):
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
-Rated speed (m/s):
-Rated power (W):
+Cut-in speed (m/s): 
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
+Rated speed (m/s): 
+Rated power (W): 
 ---
-
 ## 100% STS-VAWT
 
 The `100% STS-VAWT` is the more extreme shifted-troposkien `va23` concept, intended so one blade wake affects only that same blade in later revolutions rather than the other blade directly. (source: sources/va23.md)

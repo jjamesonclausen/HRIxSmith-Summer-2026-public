@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources: [[va18]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va18 Summary
 
 Urban wind-resource assessment paper for the MIT campus that combines met-tower measurements, CFD, and multiple climatology-transfer methods to compare two candidate small-turbine sites. (source: sources/va18.md)

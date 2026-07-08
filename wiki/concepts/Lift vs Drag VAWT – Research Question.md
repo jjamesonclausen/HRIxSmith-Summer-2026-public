@@ -1,12 +1,9 @@
 ---
-Created:
-Updated: 2026-07-02
-Sources:
-- [[n1]]
-- [[va1]]
-Source_count: 2
-Tags:
-- concepts
+Created: 2026-06-25
+Updated: 2026-07-07
+Sources: [[va1]]
+Source_count: 1
+Tags: #concepts
 ---
 ## Lift vs Drag (VAWT)
 

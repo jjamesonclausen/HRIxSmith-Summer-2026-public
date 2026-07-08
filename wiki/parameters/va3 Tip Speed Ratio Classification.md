@@ -5,7 +5,6 @@ Tags: #parameters
 Target: classify drag vs lift behavior
 Outcome: significant positive effect
 ---
-
 ## Tip Speed Ratio Classification
 
 The source uses tip speed ratio as a design/analysis parameter for distinguishing primarily drag-based vertical-axis turbines from aerodynamic lift-based designs. (source: sources/va3.md)

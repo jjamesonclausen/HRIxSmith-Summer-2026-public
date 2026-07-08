@@ -5,7 +5,6 @@ Tags: #parameters
 Target: improve Cp and self-starting
 Outcome: significant positive effect
 ---
-
 ## Variable Blade Pitching Strategy
 
 This `va24` study compares two active blade-pitching strategies against a fixed-blade straight-bladed Darrieus rotor to keep local angle of attack below stall and improve aerodynamic performance. (source: sources/va24.md)

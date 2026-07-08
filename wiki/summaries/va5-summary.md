@@ -1,12 +1,10 @@
 ---
-Created:
-Updated: 2026-07-02
+Created: 2026-06-29
+Updated: 2026-07-07
 Sources: [[va5]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va5 Source Summary
 
 Summary of `sources/va5.md`. (source: sources/va5.md)

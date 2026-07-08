@@ -2,19 +2,18 @@
 Created: 2026-07-06
 Source: [[va27]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
-Efficiency (%):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
+Efficiency (%): 
 max TSR (1-4 m/s): 3
-max TSR (4-8 m/s):
-Swept area (m^2):
-Cut-in speed (m/s):
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
-Rated speed (m/s):
-Rated power (W):
+max TSR (4-8 m/s): 
+Swept area (m^2): 
+Cut-in speed (m/s): 
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
+Rated speed (m/s): 
+Rated power (W): 
 ---
-
 ## Reference One-Bladed H-Type VAWT
 
 The `va27` paper uses a simplified one-bladed H-type Darrieus rotor as a computational reference turbine so it can study a large airfoil-shape design space at manageable cost. (source: sources/va27.md)

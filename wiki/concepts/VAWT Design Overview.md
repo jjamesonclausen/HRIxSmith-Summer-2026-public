@@ -1,20 +1,9 @@
 ---
-Created:
-Updated: 2026-07-06
-Sources:
-- [[HRI2526]]
-- [[vj1]]
-- [[vj2]]
-- [[vj3]]
-- [[vj4]]
-- [[vj5]]
-- [[vj6]]
-- [[vj7]]
-- [[vj8]]
-- [[vj18]]
-Source_count: 9
-Tags:
-- concepts
+Created: 2026-07-01
+Updated: 2026-07-07
+Sources: [[vj18]]
+Source_count: 1
+Tags: #concepts
 ---
 ## VAWT Design Overview
 

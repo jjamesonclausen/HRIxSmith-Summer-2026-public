@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase rotational performance
 Outcome: significant positive effect
 ---
-
 ## Savonius Blade Shape
 
 This `vj19` study changes Savonius blade shape and compares the resulting RPM behavior before selecting one configuration for the later modeling and techno-economic analysis. (source: sources/vj19.md)

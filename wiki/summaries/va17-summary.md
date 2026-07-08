@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources: [[va17]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va17 Summary
 
 MIT campus rooftop-wind siting thesis that uses CFD to compare Eastgate dormitory and Johnson Athletic Center as candidates for small building-mounted wind turbines. (source: sources/va17.md)

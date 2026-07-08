@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Wind Deflector Position and Orientation
 
 This `vj27` review emphasizes that the installation position and orientation of a wind deflector are as important as the deflector shape itself. (source: sources/vj27.md)

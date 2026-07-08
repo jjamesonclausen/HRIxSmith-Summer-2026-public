@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase generator torque
 Outcome: significant positive effect
 ---
-
 ## Gearbox Sizing
 
 This `vj23` paper treats gearbox sizing as a core power-transfer choice in the small Darrieus design. (source: sources/vj23.md)

@@ -1,29 +1,9 @@
 ---
-Created:
+Created: 2026-06-25
 Updated: 2026-07-07
-Sources:
-- [[HRI2526]]
-- [[n1]]
-- [[n2]]
-- [[va1]]
-- [[va12]]
-- [[va2]]
-- [[va3]]
-- [[va4]]
-- [[va5]]
-- [[va7]]
-- [[va8]]
-- [[va9]]
-- [[vj1]]
-- [[vj11]]
-- [[vj5]]
-- [[vj6]]
-- [[vj7]]
-- [[vj8]]
-- [[vj26]]
-Source_count: 19
-Tags:
-- concepts
+Sources: [[n1]], [[va1]], [[HRI2526]], [[va3]], [[va12]], [[vj1]], [[va2]], [[n2]], [[vj5]], [[vj6]], [[vj7]], [[va4]], [[va5]], [[vj8]], [[va7]], [[vj11]], [[vj26]], [[va8]], [[va9]], [[va6]]
+Source_count: 20
+Tags: #concepts
 ---
 ## Vertical-Axis Wind Turbine (VAWT)
 

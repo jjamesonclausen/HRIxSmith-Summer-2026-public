@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj13]]
+Updated: 2026-07-07
+Sources: [[vj13]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj13 Summary
 
 This paper studies a three-turbine Savonius cluster in real wind roses and shows that wind direction and wake interaction matter more than wind speed alone. (source: sources/vj13.md)

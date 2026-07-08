@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources: [[va19]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va19 Summary
 
 MIT student feasibility study on small-scale rooftop wind power that combines campus measurements, long-term airport correlation, and cost-benefit analysis to rank candidate buildings and turbine options. (source: sources/va19.md)

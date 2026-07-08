@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-03
-Updated: 2026-07-03
+Updated: 2026-07-07
 Sources: [[va15]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va15 Summary
 
 Primary experimental study of how solidity, blade profile, pitch angle, surface roughness, and aspect ratio affect self-starting and overall performance of a small-scale 3-bladed H-Darrieus VAWT. (source: sources/va15.md)

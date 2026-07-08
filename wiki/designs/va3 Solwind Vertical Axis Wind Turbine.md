@@ -2,19 +2,18 @@
 Created: 2026-07-02
 Source: [[va3]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
-Swept area (m^2):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
+Swept area (m^2): 
 Cut-in speed (m/s): 3.7
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
 Rated speed (m/s): 10
-Rated power (W):
+Rated power (W): 
 ---
-
 ## Solwind Vertical Axis Wind Turbine
 
 The Solwind turbine is described as a New Zealand vertical-axis turbine designed for low startup speed, quiet operation, and remote-site power generation. (source: sources/va3.md)

@@ -1,9 +1,10 @@
 ---
 Created: 2026-07-06
-Source: [[vj17]]
+Updated: 2026-07-07
+Sources: [[vj17]]
+Source_count: 1
 Tags: #methods
 ---
-
 ## Discrete Vortex Method
 
 Discrete vortex method models unsteady flow by discretizing the geometry into panels and placing vortices on the panels. The `vj17` paper uses DVM as the fast first-stage solver for Savonius airfoil optimization. (source: sources/vj17.md)

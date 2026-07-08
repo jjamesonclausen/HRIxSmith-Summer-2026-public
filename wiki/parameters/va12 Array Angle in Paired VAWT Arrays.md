@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase array performance
 Outcome: significant positive effect
 ---
-
 ## Array Angle in Paired VAWT Arrays
 
 The study varies adjusted array angle to identify when aerodynamic interaction helps or hurts a turbine pair. (source: sources/va12.md)

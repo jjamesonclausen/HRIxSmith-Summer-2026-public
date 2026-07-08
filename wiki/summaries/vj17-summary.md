@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj17]]
+Updated: 2026-07-07
+Sources: [[vj17]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj17 Summary
 
 This paper optimizes an airfoil-based Savonius wind turbine by coupling DVM, CST, and SSA. (source: sources/vj17.md)

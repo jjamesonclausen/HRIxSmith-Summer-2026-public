@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---
-
 ## Blade Pitch Angle
 
 This `vj8` study varies the fixed blade pitch angle of the contra-rotating VAWT to improve aerodynamic performance. (source: sources/vj8.md)

@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj21]]
+Updated: 2026-07-07
+Sources: [[vj21]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj21 Summary
 
 This paper is a design-parameter analysis for smaller-capacity fixed-pitch straight-bladed VAWTs rather than a report on one new built turbine. It organizes the main choices that drive cost-effectiveness, startup, efficiency, structural behavior, and practical deployment. (source: sources/vj21.md)

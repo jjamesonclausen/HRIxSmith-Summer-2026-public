@@ -5,7 +5,6 @@ Tags: #parameters
 Target: improve self-start and reduce pulsation
 Outcome: significant positive effect
 ---
-
 ## Blade Count for VAWT Startup and Pulsation
 
 The source treats blade count as a design parameter in the Eurowind and Venturi discussions, linking additional blades to startup reliability, torque, and reduced cyclic loading. (source: sources/va3.md)

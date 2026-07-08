@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase Cp in dynamic stall
 Outcome: significant positive effect
 ---
-
 ## Airfoil Relative Maximum Thickness
 
 This `va27` study varies symmetric-airfoil relative maximum thickness `t/c` to understand how blade thickness changes VAWT performance in deep dynamic stall. (source: sources/va27.md)

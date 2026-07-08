@@ -1,15 +1,10 @@
 ---
 Created: 2026-06-30
-Updated: 2026-07-06
-Sources:
-- [[va18]]
-- [[vj10]]
-- [[vj3]]
+Updated: 2026-07-07
+Sources: [[vj10]], [[vj3]], [[va18]]
 Source_count: 3
-Tags:
-- concepts
+Tags: #concepts
 ---
-
 ## Wind Shear
 
 Wind shear is a vertical change in wind speed caused by atmospheric-boundary-layer effects such as earth friction, climatic conditions, and vertical gradients of temperature and pressure. (source: sources/vj10.md)

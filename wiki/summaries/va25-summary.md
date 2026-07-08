@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources: [[va25]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## va25 Summary
 
 CFD airfoil-selection study for a straight-bladed H-Darrieus VAWT, focused on self-starting and low-TSR performance across symmetric, cambered-in, and cambered-out blade profiles. (source: sources/va25.md)

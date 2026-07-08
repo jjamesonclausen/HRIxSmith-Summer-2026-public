@@ -1,12 +1,10 @@
 ---
 Created: 2026-06-30
-Updated: 2026-06-30
+Updated: 2026-07-07
 Sources: [[vj10]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj10 Summary
 
 This paper studies how vertical wind shear affects the aerodynamic performance and energy production of a horizontal-axis wind turbine designed with blade element momentum (BEM) theory. (source: sources/vj10.md)

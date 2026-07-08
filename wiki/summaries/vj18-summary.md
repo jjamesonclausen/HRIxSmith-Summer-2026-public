@@ -1,13 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
-Sources:
-- [[vj18]]
+Updated: 2026-07-07
+Sources: [[vj18]]
 Source_count: 1
-Tags:
-- summaries
+Tags: #summaries
 ---
-
 ## vj18 Summary
 
 This review maps variable-design approaches for VAWTs and groups them by how they change the rotor during operation. (source: sources/vj18.md)

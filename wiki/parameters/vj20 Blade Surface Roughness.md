@@ -5,7 +5,6 @@ Tags: #parameters
 Target: improve low-wind performance
 Outcome: significant positive effect
 ---
-
 ## Blade Surface Roughness
 
 This `vj20` study directly compares rough and smoothed rotor-blade surfaces on the proposed hybrid VAWT to see how roughness changes low-Re performance. (source: sources/vj20.md)

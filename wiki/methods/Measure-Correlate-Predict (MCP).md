@@ -1,12 +1,10 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-06
+Updated: 2026-07-07
 Sources: [[va19]]
 Source_count: 1
-Tags:
-- methods
+Tags: #methods
 ---
-
 ## Measure-Correlate-Predict (MCP)
 
 Method for using a short on-site measurement campaign together with a long-term reference station to estimate long-term wind conditions at the site of interest. (source: sources/va19.md)

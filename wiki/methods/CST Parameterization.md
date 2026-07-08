@@ -1,12 +1,9 @@
 ---
-Created:
-Updated: 2026-07-02
-Sources:
-- [[va2]]
-- [[vj17]]
+Created: 2026-06-26
+Updated: 2026-07-07
+Sources: [[va2]], [[vj17]]
 Source_count: 2
-Tags:
-- methods
+Tags: #methods
 ---
 ## CST Parameterization
 

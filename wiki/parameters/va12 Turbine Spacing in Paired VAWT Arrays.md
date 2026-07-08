@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase array performance
 Outcome: significant positive effect
 ---
-
 ## Turbine Spacing in Paired VAWT Arrays
 
 The study varies center-to-center spacing to determine how closely interacting turbines can be placed before wake losses dominate. (source: sources/va12.md)

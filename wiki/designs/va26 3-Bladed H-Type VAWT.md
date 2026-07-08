@@ -2,19 +2,18 @@
 Created: 2026-07-06
 Source: [[va26]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
-Efficiency (%):
-max TSR (1-4 m/s):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
+Efficiency (%): 
+max TSR (1-4 m/s): 
 max TSR (4-8 m/s): 4
 Swept area (m^2): 1
-Cut-in speed (m/s):
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
+Cut-in speed (m/s): 
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
 Rated speed (m/s): 7
-Rated power (W):
+Rated power (W): 
 ---
-
 ## 3-Bladed H-Type VAWT
 
 The `va26` paper studies a low-solidity 3-bladed H-type VAWT and uses it to examine how fixed blade pitch changes aerodynamic loading, wake generation, and average power. (source: sources/va26.md)

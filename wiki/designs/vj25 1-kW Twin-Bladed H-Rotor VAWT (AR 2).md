@@ -2,19 +2,18 @@
 Created: 2026-07-07
 Source: [[vj25]]
 Tags: #designs
-max Cp (1-4 m/s):
-max Cp (4-8 m/s):
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
+max Cp (1-4 m/s): 
+max Cp (4-8 m/s): 
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
 Swept area (m^2): 3.588
-Cut-in speed (m/s):
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
+Cut-in speed (m/s): 
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
 Rated speed (m/s): 10
 Rated power (W): 1000
 ---
-
 ## 1-kW Twin-Bladed H-Rotor VAWT (AR 2)
 
 This page covers the higher-aspect-ratio case-study turbine from `vj25`, using the converged `h/R = 2` design values. (source: sources/vj25.md)

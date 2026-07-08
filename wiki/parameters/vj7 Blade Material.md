@@ -5,7 +5,6 @@ Tags: #parameters
 Target: increase blade lifetime
 Outcome: significant positive effect
 ---
-
 ## Blade Material
 
 This `vj7` review studies blade material choice for straight-bladed VAWTs, with emphasis on fatigue life, stiffness, density, cost, and manufacturability. (source: sources/vj7.md)

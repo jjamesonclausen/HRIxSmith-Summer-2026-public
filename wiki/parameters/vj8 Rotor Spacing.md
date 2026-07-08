@@ -5,7 +5,6 @@ Tags: #parameters
 Target: balance power and stability
 Outcome: significant positive effect
 ---
-
 ## Rotor Spacing
 
 This `vj8` study changes the spacing between the upper and lower CRVAWT rotors to balance wind-energy recovery against offshore stability. (source: sources/vj8.md)

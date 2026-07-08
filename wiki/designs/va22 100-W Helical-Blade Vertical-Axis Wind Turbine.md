@@ -4,17 +4,16 @@ Source: [[va22]]
 Tags: #designs
 max Cp (1-4 m/s): 0.001
 max Cp (4-8 m/s): 0.199
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
 Swept area (m^2): 1.57
 Cut-in speed (m/s): 3.5
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
 Rated speed (m/s): 9
 Rated power (W): 100
 ---
-
 ## 100-W Helical-Blade Vertical-Axis Wind Turbine
 
 The `va22` paper presents a small helical lift-type VAWT designed for urban use at unusually low tip-speed ratio and then validated in a wind tunnel. (source: sources/va22.md)

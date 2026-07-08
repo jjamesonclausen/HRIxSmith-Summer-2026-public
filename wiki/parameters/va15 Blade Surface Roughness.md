@@ -5,7 +5,6 @@ Tags: #parameters
 Target: improve self-starting
 Outcome: minimal positive effect
 ---
-
 ## Blade Surface Roughness
 
 The `va15` study compares rough wooden blades against smoother blades covered with thin aluminum tape. (source: sources/va15.md)

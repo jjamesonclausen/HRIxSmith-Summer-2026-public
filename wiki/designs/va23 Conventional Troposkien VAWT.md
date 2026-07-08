@@ -2,19 +2,18 @@
 Created: 2026-07-06
 Source: [[va23]]
 Tags: #designs
-max Cp (1-4 m/s):
+max Cp (1-4 m/s): 
 max Cp (4-8 m/s): 0.26
-Efficiency (%):
-max TSR (1-4 m/s):
-max TSR (4-8 m/s):
+Efficiency (%): 
+max TSR (1-4 m/s): 
+max TSR (4-8 m/s): 
 Swept area (m^2): 0.36
-Cut-in speed (m/s):
-Cut-out speed (m/s):
-max starting torque (Nm), (0-3 m/s):
-Rated speed (m/s):
-Rated power (W):
+Cut-in speed (m/s): 
+Cut-out speed (m/s): 
+max starting torque (Nm), (0-3 m/s): 
+Rated speed (m/s): 
+Rated power (W): 
 ---
-
 ## Conventional Troposkien VAWT
 
 The baseline `va23` turbine is a two-bladed conventional troposkien Darrieus VAWT used as the performance reference for the shifted-troposkien concepts. (source: sources/va23.md)
