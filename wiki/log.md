@@ -2772,3 +2772,19 @@ Open:
   - Kept the design page focused on the optimized airfoil-based Savonius rotor rather than inventing a broader design family.
 - Open:
   - `sources/vj17.md` is converted and figure-linked; the wiki map now includes the new source, method, and design pages.
+
+### 2026-07-08 - Convert and ingest va28 raw PDF
+
+- Task: convert `PDFs/va28_raw.pdf` into `sources/va28.md` and ingest it into the wiki according to the repository source-ingest workflow.
+- Actions:
+  - Extracted the paper figures into `images/va28-fig1.jpg` through `images/va28-fig8.jpg` and added one displayed equation crop as `images/va28-eq1.jpg`.
+  - Created `sources/va28.md` with source frontmatter, cleaned section structure, figure captions, inline image links, one equation image link, and Markdown tables for the reported scenario and end-of-life data.
+  - Added `wiki/summaries/va28-summary.md`.
+  - Added the source-specific design page `va28 Windkop 5 kW H-Darrieus VAWT`.
+  - Updated `wiki/index.md` to include the new summary and design pages.
+  - Marked `sources/va28.md` as processed.
+- Decisions:
+  - Kept the wiki changes minimal because `va28_raw.pdf` is a duplicate upload of the same Windkop/LCA paper already present as `sources/vj14.md`.
+  - Did not create new concept, method, or parameter pages because the source content is already represented in existing wiki pages from `vj14` and did not add source-distinct findings.
+- Open:
+  - `va28` now exists as a separate converted and ingested source file, but its content substantially overlaps `vj14`.
