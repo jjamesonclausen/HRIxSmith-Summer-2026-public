@@ -2953,3 +2953,15 @@ Open:
   - Did not create new concept, method, or parameter pages because the source content is already represented in existing wiki pages from `vj14` and did not add source-distinct findings.
 - Open:
   - `va28` now exists as a separate converted and ingested source file, but its content substantially overlaps `vj14`.
+
+### 2026-07-08 - Convert Julie daily log PDF to Markdown
+
+- Task: convert `active/Daily Log for Honda Project - Julie & Anna.pdf` into a Markdown transcription named `active/_julie_daily_log.md`.
+- Actions:
+  - Read the PDF text directly and transcribed it into Markdown with week headings, day headings, nested bullets, and labeled note sections.
+  - Added a source-path line at the top of the Markdown file so the transcription stays tied to the original PDF.
+  - Preserved the blank future dated sections from Weeks `4` through `8` so the document structure matches the original log template.
+- Decisions:
+  - Kept the transcription close to the original wording and organization rather than normalizing spelling or rewriting entries, because the request was to keep the formatting.
+- Open:
+  - If desired, the transcription could be cleaned into a more polished editorial version later, but the current file is a structure-preserving conversion.
