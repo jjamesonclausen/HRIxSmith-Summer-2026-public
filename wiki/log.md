@@ -1,6 +1,19 @@
 #maintenance
 ## Log
 
+### 2026-07-08 - Export Boston wind dataset as Markdown table
+
+- Task: create a Markdown-table version of the Boston wind dataset in meters per second.
+- Actions:
+  - Located the current data files in `wind data/` and created `wind data/bos_wind_mps.md`.
+  - Exported the dataset as a Markdown table with columns `station`, `station_name`, `valid(UTC)`, and `wind_speed_mps`.
+  - Kept the meter-per-second conversion consistent with the JSON export and preserved missing values as blank `null` cells rendered by PowerShell string conversion.
+  - Verified the table structure by checking the header row, separator row, and the first data rows.
+- Decisions:
+  - Wrote the Markdown table next to the current wind-data files in `wind data/` so the related raw and derived files stay grouped together.
+- Open:
+  - The table is large because it includes the full dataset; if needed, it could also be split by date range or summarized.
+
 ### 2026-07-08 - Convert Boston wind JSON values from knots to meters per second
 
 - Task: convert the Boston wind-speed dataset from knots to meters per second.

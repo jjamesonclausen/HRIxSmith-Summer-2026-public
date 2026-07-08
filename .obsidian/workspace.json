@@ -11,13 +11,14 @@
             "id": "70651a00716fe7ef",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "analysis/table of all designs.base",
-                "viewName": "Table"
+                "file": "bos_wind_mps.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "table of all designs"
+              "icon": "lucide-file",
+              "title": "bos_wind_mps"
             }
           }
         ]
@@ -183,6 +184,9 @@
   },
   "active": "70651a00716fe7ef",
   "lastOpenFiles": [
+    "analysis/table of all designs.base",
+    "wind data/bos_wind_mps.md",
+    "bos_wind_mps.md",
     "wind data/bos_wind.txt",
     "wind data/bos_wind.json",
     "wind data/bos_wind_mps.json",
@@ -211,7 +215,6 @@
     "PDFs/vj27.pdf",
     "wiki/summaries/vj26-summary.md",
     "sources/vj26.md",
-    "PDFs/vj26.pdf",
     "wiki/designs/vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 0.4).md",
     "wiki/designs/vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 2).md",
     "wiki/parameters/vj25 Rotor Aspect Ratio.md",
@@ -227,8 +230,6 @@
     "sources/vj24.md",
     "wiki/parameters/va3 Blade Count for VAWT Startup and Pulsation.md",
     "wiki/parameters/vj23 Gearbox Sizing.md",
-    "wiki/parameters/vj23 Blade Number.md",
-    "wiki/designs/vj23 3-Bladed Darrieus VAWT with Gearbox.md",
     "Untitled.canvas"
   ]
 }
