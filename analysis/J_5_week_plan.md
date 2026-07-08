@@ -2,7 +2,7 @@
 
 ## Goal
 
-Design a VAWT, model it in 3D with Zoo Keeper or another agentic modeling tool, test it, and write a report on the final design.
+Design a VAWT, model it in 3D with Zoo Keeper or another agentic modeling tool, test it through simulation, and write a report on the final design.
 
 ## Starting Point
 
@@ -111,39 +111,39 @@ Run first-pass analysis and choose the one design that deserves physical testing
 - Help interpret analysis against the site wind regime
 - Help write the final-selection rationale
 
-## Week 4: Prototype And Test
+## Week 4: Expand Simulation Testing And Refine The Design
 
 ### Main goal
 
-Build a testable prototype of the chosen design and collect the minimum data needed to support the report.
+Use simulation-only testing to stress the chosen design, compare operating conditions, and refine the final geometry.
 
 ### Tasks
 
-- Fabricate or print the selected design.
-- Build a test matrix before running tests.
-- Measure startup behavior and basic operating response.
-- Document noise, vibration, failure modes, and unexpected behavior.
+- Build a simulation test matrix before running the final round of cases.
+- Run the chosen design across the most important wind-speed range and operating conditions.
+- Check startup-related behavior, relative performance trends, and any obvious instability or sensitivity.
+- Document failure modes, weak operating regions, and unexpected behavior.
 
 ### How to accomplish it
 
-- Use [[Wind Tunnel Testing]] to define a practical small-scale test workflow.
-- Decide in advance what counts as startup, what wind-speed increments to use, and how many repeats you need.
-- At minimum, measure wind speed, whether the turbine starts, and rotational speed versus wind speed.
-- If possible, compare the physical test trend to the simulation trend, even if the scales are not identical.
+- Use [[CFD]], [[CFD and Validation]], and [[Wind Tunnel Testing]] as method references for what performance quantities and validation logic matter, even though the project itself will stay fully digital.
+- Decide in advance what simulation cases matter most: wind-speed steps, TSR range, startup-oriented conditions, and any geometry variants still under consideration.
+- At minimum, extract the quantities you need for comparison such as startup tendency, `Cp`, torque, rotational-speed trend, and any strong unsteady behavior.
+- Use this week to reduce uncertainty in the final design rather than to explore many new concepts.
 
 ### Deliverables
 
-- Test plan
-- Test data table
-- Basic plots of wind speed versus startup / rpm
-- Short summary of what worked and what failed
+- Simulation test matrix
+- Results table for the final design across key cases
+- Basic plots such as wind speed versus startup tendency / `Cp` / rpm / torque if available
+- Short summary of what worked, what failed, and what changed in the design
 
 ### What I can help with
 
-- Write the test matrix
-- Organize data tables
-- Make plots from your measurements
-- Draft methods and results text while you test
+- Write the simulation test matrix
+- Organize result tables
+- Make plots from simulation outputs
+- Draft methods and results text while you run cases
 
 ## Week 5: Freeze The Design And Write The Report
 
@@ -166,7 +166,7 @@ Finalize the design and produce a clear report explaining what you designed, why
   - concept selection
   - design choices
   - modeling method
-  - prototype / testing method
+  - simulation testing method
   - results
   - final design
   - limitations
@@ -201,11 +201,12 @@ Finalize the design and produce a clear report explaining what you designed, why
 - Build parameter tables and decision matrices
 - Review geometry choices against the sources
 - Help structure prompts/specs for your modeling workflow
-- Review CFD and test plans
+- Review CFD and simulation test plans
 - Analyze wind data and connect it to design decisions
 - Draft and edit the final report
 
 ## Uncertain
 
 - The repo supports the design workflow, testing logic, and validation sequence, but it does not contain a source-backed workflow for Zoo Keeper specifically.
-- The exact depth of modeling and testing you can reach in five weeks depends on what tools, fabrication access, and testing setup you actually have.
+- The plan now assumes a fully digital workflow with no physical prototype stage.
+- The exact depth of modeling and simulation testing you can reach in five weeks depends on what tools, compute access, and solver workflow you actually have.

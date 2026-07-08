@@ -1,6 +1,29 @@
 #maintenance
 ## Log
 
+### 2026-07-08 - Create two-week VAWT project plan note
+
+- Task: create a compressed two-week project plan for a fully digital VAWT design, modeling, simulation, and reporting workflow.
+- Actions:
+  - Added `analysis/j_two_week_plan.md`.
+  - Condensed the saved five-week workflow into a two-week schedule with one concept choice, one baseline model, one alternate model, one simulation comparison loop, and one final report-writing phase.
+  - Kept the note focused on project execution and triage rather than detailed technical targets.
+- Decisions:
+  - Prioritized a minimum viable comparison workflow over broad design-space exploration because the two-week schedule is too short for many concept branches.
+- Open:
+  - The plan still depends heavily on available modeling and compute capacity during Week 2.
+
+### 2026-07-08 - Revise five-week plan to simulation-only workflow
+
+- Task: update the saved five-week VAWT plan to reflect a fully digital workflow with no physical prototyping or lab testing.
+- Actions:
+  - Revised `analysis/J_5_week_plan.md` so Week 4 is now a simulation-testing and refinement phase rather than a prototype-and-test phase.
+  - Updated the plan language to refer to simulation testing, solver workflow, and digital deliverables instead of fabrication or physical measurements.
+- Decisions:
+  - Kept the overall five-week structure the same because the main change was the validation mode, not the project scope.
+- Open:
+  - The exact Week 4 workload still depends on what simulation tools and compute resources are available.
+
 ### 2026-07-08 - Create five-week VAWT project plan note
 
 - Task: create a five-week project plan for designing, modeling, testing, and reporting on a VAWT design.
