@@ -1,6 +1,19 @@
 #maintenance
 ## Log
 
+### 2026-07-08 - Create initial VAWT design-selection plan note
+
+- Task: save a detailed plan for selecting the initial VAWT concept family using the wiki, Boston airport wind data, available modeling tools, and the user's project constraints.
+- Actions:
+  - Created the `planning/` folder.
+  - Added `planning/J_design_selection_plan.md`.
+  - Structured the note as a multi-phase down-selection workflow covering criteria definition, candidate-set reduction, wiki evidence extraction, wind-data filtering, scoring, a small Zoo Keeper pilot, and final concept freeze.
+  - Included explicit role splits for the user, project partner, agent, wiki, Zoo Keeper, engineers, CAD, and general internet access.
+- Decisions:
+  - Kept the note focused on choosing the initial turbine family rather than expanding into geometry optimization, because the request was specifically about initial concept selection.
+- Open:
+  - The note still leaves the final concept weighting to the user because the best choice depends on whether the project prioritizes startup, efficiency, modeling simplicity, or novelty.
+
 ### 2026-07-08 - Create two-week VAWT project plan note
 
 - Task: create a compressed two-week project plan for a fully digital VAWT design, modeling, simulation, and reporting workflow.
