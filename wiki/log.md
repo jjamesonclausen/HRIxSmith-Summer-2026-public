@@ -1,6 +1,30 @@
 #maintenance
 ## Log
 
+### 2026-07-08 - Create five-week VAWT project plan note
+
+- Task: create a five-week project plan for designing, modeling, testing, and reporting on a VAWT design.
+- Actions:
+  - Added `analysis/J_5_week_plan.md`.
+  - Structured the note into weekly phases covering scope selection, first-pass geometry, modeling/analysis, prototyping/testing, and report writing.
+  - Included a short list of deliverables, execution steps, and places where the agent can directly help.
+- Decisions:
+  - Kept the plan at the project-management level rather than filling it with detailed design targets, because the request was for a schedule rather than another technical recommendation note.
+- Open:
+  - The note assumes the user will have access to Zoo Keeper or another modeling tool plus some path to prototype or test a design within the five-week window.
+
+### 2026-07-08 - Export focused 0-6 m/s wind-speed histogram
+
+- Task: create a focused histogram of wind speeds from `wind data/all_wind_data.txt` for the `0-6 m/s` range.
+- Actions:
+  - Converted numeric `sknt` values to meters per second using `1 kt = 0.514444 m/s`.
+  - Exported `wind data/all_wind_data_mps_histogram_0_to_6.svg` using `0.25 m/s` bins from `0` to `6 m/s`.
+  - Used a percentage-based y-axis and verified the file was built from `4585` observations within the `0-6 m/s` range.
+- Decisions:
+  - Wrote this as a second focused histogram instead of overwriting the broader all-range histogram so both views remain available.
+- Open:
+  - If needed, the focused histogram could also be normalized against the full dataset rather than only the observations in the `0-6 m/s` range.
+
 ### 2026-07-08 - Export all_wind_data wind-speed histogram
 
 - Task: create a histogram of wind speeds from `wind data/all_wind_data.txt`.

@@ -11,13 +11,12 @@
             "id": "70651a00716fe7ef",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "pdf",
               "state": {
-                "file": "analysis/table of all designs.base",
-                "viewName": "Table"
+                "file": "PDFs/va9_raw.pdf"
               },
-              "icon": "lucide-table",
-              "title": "table of all designs"
+              "icon": "lucide-file-text",
+              "title": "va9_raw"
             }
           }
         ]
@@ -77,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -184,6 +182,9 @@
   },
   "active": "70651a00716fe7ef",
   "lastOpenFiles": [
+    "analysis/J_5_week_plan.md",
+    "analysis/table of all designs.base",
+    "wind data/all_wind_data_mps_histogram_0_to_6.svg",
     "wind data/all_wind_data_mps_histogram.svg",
     "wiki/summaries/vj28-summary.md",
     "wiki/summaries/va28-summary.md",
@@ -197,11 +198,8 @@
     "images/va28-fig3.jpg",
     "images/va28-fig2.jpg",
     "images/va28-fig1.jpg",
-    "images/va28-eq1.jpg",
     "PDFs/va28_raw.pdf",
     "wiki/parameters/vj28 Blade Airfoil.md",
-    "analysis/table of all designs.base",
-    "images/vj28-eq2.png",
     "bos_wind_mps.md",
     "wind data/bos_wind_mps.md",
     "wind data/bos_wind.txt",
