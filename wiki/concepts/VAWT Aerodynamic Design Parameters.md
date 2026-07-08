@@ -1,8 +1,8 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-07
-Sources: [[vj8]], [[vj4]], [[va14]], [[va15]], [[vj15]], [[vj17]], [[vj18]], [[vj21]], [[vj22]], [[vj24]], [[vj25]], [[vj27]], [[vj11]], [[va8]], [[va9]]
-Source_count: 15
+Updated: 2026-07-08
+Sources: [[vj8]], [[vj4]], [[va14]], [[va15]], [[vj15]], [[vj17]], [[vj18]], [[vj21]], [[vj22]], [[vj24]], [[vj25]], [[vj27]], [[vj11]], [[va8]], [[va9]], [[vj28]]
+Source_count: 16
 Tags: #concepts
 ---
 ## VAWT Aerodynamic Design Parameters
@@ -32,6 +32,8 @@ The vj17 study adds CST curvature coefficients as airfoil-shape design knobs for
 - It keeps maximum thickness at `18%` chord and zero pitching moment as design constraints while changing the effective surface `alpha*` distribution to reach its power target. (source: sources/vj24.md)
 - The vj25 paper adds rotor aspect ratio `AR = h/R` as a first-order H-rotor sizing knob, linking lower `AR` to larger radius and chord, higher Reynolds number, and slightly higher `Cp` in its `1 kW` `NACA 0018` case study. (source: sources/vj25.md)
 - It also makes the tradeoff explicit that lower `AR` reduces rotational speed while increasing structural thickness and rotor inertia. (source: sources/vj25.md)
+- The `vj28` paper adds a reusable blade-airfoil-selection framework for small fixed-pitch SB-VAWTs, listing nine desired aerodynamic traits and four corresponding geometric features. (source: sources/vj28.md)
+- It specifically highlights camber, thickness, leading-edge radius, and trailing-edge sharpness as coupled airfoil-shape knobs rather than details that can be tuned one at a time in isolation. (source: sources/vj28.md)
 - The `vj27` review adds wind-deflector geometry and placement as explicit passive design knobs, covering flat plates, airfoil-shaped deflectors, kite-shaped compound layouts, inclination angle, upstream spacing, and deflector length. (source: sources/vj27.md)
 - It says these deflector variables matter because they redistribute upstream flow, suppress returning-blade penalty, and can materially raise both torque coefficient and power coefficient when tuned correctly. (source: sources/vj27.md)
 - The VAWT review gives Savonius TSR around 0.6-1.2, Darrieus TSR around 2.5-5.0, and emphasizes that the optimum shifts with solidity. (source: sources/vj11.md)

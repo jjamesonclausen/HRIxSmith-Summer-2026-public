@@ -15,6 +15,7 @@ views:
       - Efficiency (%)
       - Cut-out speed (m/s)
       - Cut-in speed (m/s)
+      - Swept area (m^2)
   - type: cards
     name: View
     cardSize: 270
