@@ -1,6 +1,18 @@
 #maintenance
 ## Log
 
+### 2026-07-08 - Export all_wind_data wind-speed histogram
+
+- Task: create a histogram of wind speeds from `wind data/all_wind_data.txt`.
+- Actions:
+  - Converted numeric `sknt` values to meters per second using `1 kt = 0.514444 m/s`.
+  - Exported a histogram as `wind data/all_wind_data_mps_histogram.svg`, then regenerated it with `0.5 m/s` bins from `0` to `18 m/s` and a percentage-based y-axis.
+  - Verified the histogram file exists and that it was built from `6363` numeric wind-speed observations.
+- Decisions:
+  - Wrote the histogram as an `SVG` instead of a `PNG` because `matplotlib` was not available in the environment.
+- Open:
+  - If needed, the histogram could also be regenerated with different bin widths or for the Boston-only subset rather than the full `all_wind_data` file.
+
 ### 2026-07-08 - Convert and ingest vj28 small straight-bladed VAWT airfoil-guidance paper
 
 - Task: convert `PDFs/vj28.pdf` into `sources/vj28.md`, extract its figures and displayed equations, and ingest it into the wiki according to `schema/Convert PDF to MD` and `schema/Ingest Source`.
