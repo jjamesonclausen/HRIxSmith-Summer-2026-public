@@ -1,6 +1,66 @@
 #maintenance
 ## Log
 
+### 2026-07-08 - Create initial VAWT design-selection plan note
+
+- Task: save a detailed plan for selecting the initial VAWT concept family using the wiki, Boston airport wind data, available modeling tools, and the user's project constraints.
+- Actions:
+  - Created the `planning/` folder.
+  - Added `planning/J_design_selection_plan.md`.
+  - Structured the note as a multi-phase down-selection workflow covering criteria definition, candidate-set reduction, wiki evidence extraction, wind-data filtering, scoring, a small Zoo Keeper pilot, and final concept freeze.
+  - Included explicit role splits for the user, project partner, agent, wiki, Zoo Keeper, engineers, CAD, and general internet access.
+- Decisions:
+  - Kept the note focused on choosing the initial turbine family rather than expanding into geometry optimization, because the request was specifically about initial concept selection.
+- Open:
+  - The note still leaves the final concept weighting to the user because the best choice depends on whether the project prioritizes startup, efficiency, modeling simplicity, or novelty.
+
+### 2026-07-08 - Create two-week VAWT project plan note
+
+- Task: create a compressed two-week project plan for a fully digital VAWT design, modeling, simulation, and reporting workflow.
+- Actions:
+  - Added `analysis/j_two_week_plan.md`.
+  - Condensed the saved five-week workflow into a two-week schedule with one concept choice, one baseline model, one alternate model, one simulation comparison loop, and one final report-writing phase.
+  - Kept the note focused on project execution and triage rather than detailed technical targets.
+- Decisions:
+  - Prioritized a minimum viable comparison workflow over broad design-space exploration because the two-week schedule is too short for many concept branches.
+- Open:
+  - The plan still depends heavily on available modeling and compute capacity during Week 2.
+
+### 2026-07-08 - Revise five-week plan to simulation-only workflow
+
+- Task: update the saved five-week VAWT plan to reflect a fully digital workflow with no physical prototyping or lab testing.
+- Actions:
+  - Revised `analysis/J_5_week_plan.md` so Week 4 is now a simulation-testing and refinement phase rather than a prototype-and-test phase.
+  - Updated the plan language to refer to simulation testing, solver workflow, and digital deliverables instead of fabrication or physical measurements.
+- Decisions:
+  - Kept the overall five-week structure the same because the main change was the validation mode, not the project scope.
+- Open:
+  - The exact Week 4 workload still depends on what simulation tools and compute resources are available.
+
+### 2026-07-08 - Create five-week VAWT project plan note
+
+- Task: create a five-week project plan for designing, modeling, testing, and reporting on a VAWT design.
+- Actions:
+  - Added `analysis/J_5_week_plan.md`.
+  - Structured the note into weekly phases covering scope selection, first-pass geometry, modeling/analysis, prototyping/testing, and report writing.
+  - Included a short list of deliverables, execution steps, and places where the agent can directly help.
+- Decisions:
+  - Kept the plan at the project-management level rather than filling it with detailed design targets, because the request was for a schedule rather than another technical recommendation note.
+- Open:
+  - The note assumes the user will have access to Zoo Keeper or another modeling tool plus some path to prototype or test a design within the five-week window.
+
+### 2026-07-08 - Export focused 0-6 m/s wind-speed histogram
+
+- Task: create a focused histogram of wind speeds from `wind data/all_wind_data.txt` for the `0-6 m/s` range.
+- Actions:
+  - Converted numeric `sknt` values to meters per second using `1 kt = 0.514444 m/s`.
+  - Exported `wind data/all_wind_data_mps_histogram_0_to_6.svg` using `0.25 m/s` bins from `0` to `6 m/s`.
+  - Used a percentage-based y-axis and verified the file was built from `4585` observations within the `0-6 m/s` range.
+- Decisions:
+  - Wrote this as a second focused histogram instead of overwriting the broader all-range histogram so both views remain available.
+- Open:
+  - If needed, the focused histogram could also be normalized against the full dataset rather than only the observations in the `0-6 m/s` range.
+
 ### 2026-07-08 - Create BOS VAWT work plans for 1 week, 4 weeks, and 5.5 weeks
 
 - Task: create three work plans for the current Boston Logan VAWT project, scoped to `1` week, `4` weeks, and `5.5` weeks, and ground them in the BOS design brief plus the existing wiki's lessons about concept selection and CFD validation.
