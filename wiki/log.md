@@ -1,6 +1,19 @@
 #maintenance
 ## Log
 
+### 2026-07-09 - Fill concept ranking worksheet with 1-5 scores
+
+- Task: fill the empty ranking table in `active/analysis/Concept ranking worksheet.md` with `1-5` rankings for each current turbine concept, using direct repo evidence where available and marking best-guess scores with `*`.
+- Actions:
+  - Read the existing worksheet plus the related design pages for `va9`, `va22`, `vj20`, `va5`, `va20`, `va23`, `vj9`, and `vj2`.
+  - Replaced the blank ranking table with filled scores across startup ability, efficiency/economics, rated-speed fit, cut-out-speed fit, room for growth, CAD/manufacturability, and interest.
+  - Added a short scoring note that defines the `1-5` scale and explains that `*` marks synthesis or best-guess scoring where the repo does not provide a direct metric.
+- Decisions:
+  - Kept the ranking relative to the current candidate set rather than trying to force an absolute engineering scale, because several concepts only have partial or family-level evidence.
+  - Marked family-level rows and under-specified metrics with `*` instead of presenting them as fully source-direct scores.
+- Open:
+  - `Interesting to us` remains the most subjective column; if the user's priorities change, that column should be re-ranked first.
+
 ### 2026-07-09 - Add concept ranking worksheet for BOS design selection
 
 - Task: create a comparison note in `active/analysis/` that gathers the currently discussed candidate concepts into one place and leaves the actual rankings blank for the user to fill in.

@@ -38,20 +38,20 @@ Use this page to compare the current candidate concepts before locking a baselin
 | [[va23 50% STS-VAWT]] | Non-traditional specific design | A wake-management concept rather than a startup concept. The source reports about `10%` corrected `Cp` improvement over the conventional troposkien baseline by shifting and shortening one blade to reduce blade-wake interaction. | No clear low-speed startup advantage is reported, and the evidence is more about mid-to-high TSR efficiency than BOS-style startup behavior. | [[va23 50% STS-VAWT]], [[Blade-Wake Interaction]] |
 | [[vj9 Scooplet-Based Savonius]] | Non-traditional specific design | A very manufacturable unconventional drag rotor. The source says it uses only straight lines and circular arcs of constant thickness and reports a `39%` `Cp` increase over the classical Savonius reference. | Still a Savonius-family concept, so even with improvement it likely remains below the top lift-based options on peak efficiency. | [[vj9 Scooplet-Based Savonius]], [[Savonius Turbine]] |
 
-## Blank Ranking Table
+## Ranking Table
 
-Leave the scoring blank here until you decide how you want to weight each category.
+Scoring is `1-5`, where `5` is best relative to the current candidate set for that category. A `*` marks an informed best guess where the repo does not give a direct metric or where the row is a broader concept family rather than one single tested turbine.
 
 | Candidate | Startup ability | Efficiency / economics | Rated speed fit | Cut-out speed fit | Room for growth | CAD + manufacturability | Interesting to us | Overall notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Self-starting straight-bladed H-rotor Darrieus |  |  |  |  |  |  |  |  |
-| Low-TSR helical Darrieus |  |  |  |  |  |  |  |  |
-| Reduced-interference hybrid |  |  |  |  |  |  |  |  |
-| Compact drag-based J-type / Savonius-derived fallback |  |  |  |  |  |  |  |  |
-| [[va20 Involute Rotor with Wind Flow Modifier]] |  |  |  |  |  |  |  |  |
-| [[vj20 Proposed Hybrid VAWT]] |  |  |  |  |  |  |  |  |
-| [[va23 50% STS-VAWT]] |  |  |  |  |  |  |  |  |
-| [[vj9 Scooplet-Based Savonius]] |  |  |  |  |  |  |  |  |
+| Self-starting straight-bladed H-rotor Darrieus | 5 | 4 | 4* | 5 | 5 | 4 | 5* | Strongest low-wind startup in the set, high reported `Cp`, and the cleanest path for modeling and iteration. |
+| Low-TSR helical Darrieus | 3 | 2 | 5 | 3* | 4 | 2 | 4* | Good urban-oriented refinement and closest known rated-speed match, but lower `Cp` and harder fabrication. |
+| Reduced-interference hybrid | 5* | 5* | 3* | 3* | 5* | 1* | 5* | Very strong startup-plus-`Cp` upside from the hybrid logic, but also the most complex family-level path here. |
+| Compact drag-based J-type / Savonius-derived fallback | 4 | 1 | 2 | 2* | 2* | 5 | 3* | Safest simple fallback for startup and fabrication, but the weakest efficiency ceiling. |
+| [[va20 Involute Rotor with Wind Flow Modifier]] | 3* | 4 | 1* | 4* | 4* | 2 | 4* | Interesting low-wind booster concept, but the directional modifier makes it less clean for BOS-style omnidirectional use. |
+| [[vj20 Proposed Hybrid VAWT]] | 4 | 5 | 3 | 3* | 5 | 1 | 5* | Best reported `Cp` in the worksheet and strong self-start evidence, with complexity as the main drawback. |
+| [[va23 50% STS-VAWT]] | 1* | 3 | 3* | 4* | 3* | 3 | 3* | Clever wake-management design, but it is much better supported as an efficiency tweak than as a low-wind startup solution. |
+| [[vj9 Scooplet-Based Savonius]] | 4* | 2* | 1* | 2* | 3* | 5 | 3* | Very manufacturable and clearly improved over a classical Savonius, but still limited by drag-rotor efficiency. |
 
 ## Notes
 
