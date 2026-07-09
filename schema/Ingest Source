@@ -20,8 +20,9 @@
     - Make sure all properties included are data for the turbine as a whole and not for components such as power electronics.
     `---
     Created: YYYY-MM-DD
-    Source: [[va1]]
-    Tags: #designs
+    Source: "[[va1]]"
+    tags:
+      - designs
     max Cp (1-4 m/s):
     max Cp (4-8 m/s):
     max Cp (8-12 m/s):
@@ -41,8 +42,9 @@
     - Report the outcome of the study as one of the following: negative effect, no effect, minimal positive effect, significant positive effect. This should reflect how the design change being studied impacted the turbine's performance in relation to the target.
     `---
     Created: YYYY-MM-DD
-    Source: [[va1]]
-    Tags: #parameters
+    Source: "[[va1]]"
+    tags:
+      - parameters
     Target:
     Outcome:
     ---`
@@ -51,14 +53,16 @@
    - `![Figure 1: caption text](../../images/va2-fig1.jpg)`
 13. Add properties using the format below (excpet for design and paramter pages), if any information is unavailable leave it blank.
     - Backlink all sources that are cited in this wiki page.
-    - Tag the wiki page according to which folder it is in: `#summaries`, `#concepts`, `#methods`.
+    - Tag the wiki page according to which folder it is in: `summaries`, `concepts`, `methods`.
     - Sources should include backlinks to whichever source documents are referenced. See example below.
    `---
     Created: YYYY-MM-DD
     Updated: YYYY-MM-DD
-    Sources: [[va1]]
+    Sources:
+      - "[[va1]]"
     Source_count: 0
-    Tags:
+    tags:
+      - summaries
     ---`
 14. Update `wiki/index.md` so it points to any new or changed wiki pages.
 15. Mark the source file as processed by changing the metadata in that field to be 'true'.

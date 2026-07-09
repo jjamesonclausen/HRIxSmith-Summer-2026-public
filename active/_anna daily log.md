@@ -260,21 +260,41 @@
 
 `09:00` met w/ Mike + Julie to get started (0.5 hrs)
 `09:30` worked with Julie to define design goal (3 hrs)
-	- Looked at more wind data around the greater boston area, selected Logan airport as the best location
+	- Looked at more wind data around the greater Boston area, selected Logan airport as the best location
 	- motivation for the project at this location (massport net zero goal)
 	- Looked into airport regulations to see if it is possible to install small vawts near runways or on the airport roof
 	- Working with llm wiki to analyze some of the wind data and determine if vawts will be effective here
-		- Helpful use of the llm and wiki!
+		- *Helpful use of the llm and wiki!*
+`13:00` (2.5 hrs)
+	- continued looking into logan airport logistics and wind data
+	- prompted llm to generate potential work plans for the remainder of the project
+		- generated several different timelines and a day by day breakdown
+		- compared with Julie and discussed best ideas
+		- *hard to get diverse results out of it without drastically *
+	- reorganized repo folders to be more navigable
+		- added daily logs and notes to the repo
+		- added folders to store CFD and CAD documentation
+`15:30` met w/ Mike + Julie, discussed progress, work plans, and design goal issues (0.5 hr)
+`16:00` worked with Julie, looking at logan logistics and other potential locations/data (0.5 hr)
 
----
+### Thursday 07/09
+
+`09:00` met w/ Mike + Julie to get started (0.5 hrs)
+
+
 
 Hours: 0
-	**Next tasks:**
-		- Dive into egr side of the project, looking towards next milestone of a report
-			- Continue adding sources AND LEARNING
-			- As we learn, think about WHAT data we need and HOW we want to see it
-		- Improve wiki's utility for the egr side of the project
-			- Qualitative assessments? - we might want to define each category
-		- Constrain design space! What application are we designing for? Where will these be most useful? How can that help us narrow down metadata?
-			- Boston, wind speeds
+**Next tasks:**
+	- logan airport logistics and/or blue hill data? or third option?
+		- height/distance rules surrounding runways
+	- finalize project plan using llm generated options
+	- start creating list of concepts to narrow down for vawt
+	-
+	- Dive into egr side of the project, looking towards next milestone of a report
+		- Continue adding sources AND LEARNING
+		- As we learn, think about WHAT data we need and HOW we want to see it
+	- Improve wiki's utility for the egr side of the project
+		- Qualitative assessments? - we might want to define each category
+	- Constrain design space! What application are we designing for? Where will these be most useful? How can that help us narrow down metadata?
+		- Boston, wind speeds
 
