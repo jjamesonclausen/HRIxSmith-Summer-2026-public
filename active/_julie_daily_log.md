@@ -17,7 +17,7 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 
 ### Tuesday 6/23
 
-- Continue to review past report + go though some references - 8:00
+- Continue to review past report + go though some references [[n2]] - 8:00
 - Meet with Mike and Anna - talk bout milestone setting + meeting later w/ Ryan - 9:00
 - Going through appendix of report + research on VAWTs (`3 hr`)
 - Review of fluids content (`3 hr`)
@@ -157,6 +157,7 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
   - Did tutorial
   - Messed around with zoo keeper - trying to have it re create va5 design
   - Watched some YouTube tutorials on kcl
+	  - [KCL: Parametric design with functions](KCL: Parametric design with functionshttps://youtu.be/JtCk20aTTOU?si=56fikWPQFCBU-tVx)
   - Toyed around making basic shapes + windmill shapes with tools
   - Potential questions
     - What are the collaboration options/how will that look
@@ -169,7 +170,7 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 
 - Met with Mike + Anna - 9am
 - Stayed on call with Anna - `3.75 hr`
-  - Picked out location + find data on the air port
+  - Picked out location + find [data on the airport ](https://mesonet.agron.iastate.edu/request/asos/1min.phtml)
     - Looks great has wind speed wind direction wind gust direction + speed
   - Look into airport regulation (air space)
   - Extract all data + convert to a json file + md file (and make folder)
@@ -187,33 +188,43 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 - Creating a workflow/plan
 
 ### Thursday 7/9
-
+- Met with Mike + Anna - 9am
+	- mike will contact brother about [ airport regulation](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-E/part-77) 
+	- gave this to the llm
+- stayed on call with anna to finalize plan 
+	- rename wind data 
+	- clean up files that aren't needed 
+	- write up final plan 
+		- refine with llm edits 
+	- lock in on location
+	- create [[design goal]] md file
 ### Friday 7/10
-
+- Met with Mike + Anna - 9am
 ## Week 4
 
 ### Monday 7/13
-
+- Met with Mike + Anna - 9am
 ### Tuesday 7/14
-
+- Met with Mike + Anna - 9am
 ### Wednesday 7/15
-
+- Met with Mike + Anna - 9am
 ### Thursday 7/16
-
+- Met with Mike + Anna - 9am
 ### Friday 7/17
-
+day off
 ## Week 5
 
 ### Monday 7/20
-
+- Met with Mike + Anna - 9am
 ### Tuesday 7/21
-
+- Met with Mike + Anna - 9am
+- meeting with Ryan and Duane -4 pm
 ### Wednesday 7/22
-
+- Met with Mike + Anna - 9am
 ### Thursday 7/23
-
+- Met with Mike + Anna - 9am
 ### Friday 7/24
-
+- Met with Mike + Anna - 9am
 ## Week 6
 
 ### Monday 7/27

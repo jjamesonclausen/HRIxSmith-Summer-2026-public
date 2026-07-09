@@ -11,14 +11,13 @@
             "id": "70651a00716fe7ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "active/_Julie_daily_log.md",
-                "mode": "source",
-                "source": false
+                "file": "active/analysis/table of all designs.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "_Julie_daily_log"
+              "icon": "lucide-table",
+              "title": "table of all designs"
             }
           }
         ]
@@ -78,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 254.5
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -184,21 +183,36 @@
   },
   "active": "70651a00716fe7ef",
   "lastOpenFiles": [
-    "active/_julie daily log.md",
     "active/_Julie_daily_log.md",
+    "active/analysis/table of all designs.base",
+    "wiki/designs/vj23 3-Bladed Darrieus VAWT with Gearbox.md",
+    "wiki/designs/HRI2526 Darrieus above Savonius.md",
+    "active/analysis/table of all designs 1.base",
+    "active/resources/Notes on meeting July 7.md",
+    "wiki/designs/vj13 Three-Turbine Savonius Cluster.md",
+    "wiki/designs/va3 Venturi Wind Turbine.md",
+    "wiki/designs/va1 QuietRevolution QR5.md",
+    "wiki/designs/Windkop 5 kW H-Darrieus VAWT.md",
+    "wiki/designs/HRI2526 Classical Savonius.md",
+    "wiki/designs/HRI2526 EN0005 Self-start Darrieus VAWT.md",
+    "wiki/designs/vj17 Airfoil-Based Savonius Wind Turbine.md",
+    "wiki/designs/va5 J-Type VAWT.md",
+    "wiki/designs/HRI2526 Multi-stage Savonius within H-rotor Darrieus.md",
+    "active/resources/fluids concepts.pdf",
+    "active/_anna daily log.md",
+    "active/planning/J_design_selection_plan.md",
+    "active/planning/J_5_week_plan.md",
+    "active/_julie daily log.md",
     "active/_julie daily log.pdf",
     "active/resources/zoo dev notes.pdf",
     "active/resources/research resources.pdf",
     "active/resources/llm wiki resources.pdf",
     "active/_anna daily log.pdf",
-    "active/_anna daily log.md",
     "active/_anna daily log.assets/image-1.png",
     "active/_anna daily log.assets",
-    "Notes from meeting June 30th.md",
-    "Notes on meeting July 7.md",
+    "active/resources/Notes from meeting June 30th.md",
     "wiki/evals.md",
     "active/Daily Log for Honda Project - Julie & Anna.pdf",
-    "active/_Julie_daily_log",
     "attachments/images/hri2526-fig136.jpg",
     "attachments/images/hri2526-fig138.jpg",
     "attachments/images/hri2526-fig137.jpg",
@@ -209,26 +223,11 @@
     "attachments/images/hri2526-fig142.jpg",
     "attachments/images/hri2526-fig144.jpg",
     "attachments/wind data/all_wind_data_mps.md",
-    "attachments/wind data/all_wind_data_mps.json",
-    "attachments/wind data/all_wind_data.txt",
     "active/resources/RESOURCES.md",
     "active/resources/README.md",
     "active/resources/Obsidian + Markdown Cheatsheet.md",
     "active/resources/Dataview Basics.md",
     "active/planning/Work Plan A2.md",
-    "active/planning/Work Plan A1.md",
-    "active/planning/j_two_week_plan.md",
-    "active/planning/J_design_selection_plan.md",
-    "active/planning/J_5_week_plan.md",
-    "active/analysis/data view testing.md",
-    "wiki/index.md",
-    "wiki/learning-log.md",
-    "wiki/log.md",
-    "analysis/planning/J_design_selection_plan.md",
-    "planning/J_design_selection_plan.md",
-    "analysis/planning/j_two_week_plan.md",
-    "analysis/planning/J_5_week_plan.md",
-    "analysis/planning/Work Plan A2.md",
     "Untitled.canvas"
   ]
 }
