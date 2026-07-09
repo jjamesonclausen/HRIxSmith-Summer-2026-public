@@ -14,6 +14,10 @@ Figure 1: Histogram of hourly wind speed from Jul 2025 - July 2026. There are si
 
 ![[BOS_07.25_to_07.26_histogram.svg]]
 
+Figure 2: Histogram of hourly wind speed from Jul 2021 - Jul 2026. This is the five-year BOS distribution intended for AEO-oriented analysis.
+
+![[BOS_07.21_to_07.26_histogram.svg]]
+
 
 ## Design thoughts
 

@@ -3120,3 +3120,107 @@ Open:
   - Kept the transcription close to the original wording and organization rather than normalizing spelling or rewriting entries, because the request was to keep the formatting.
 - Open:
   - If desired, the transcription could be cleaned into a more polished editorial version later, but the current file is a structure-preserving conversion.
+
+### 2026-07-09 - Convert BOS wind-data text file to JSON
+
+- Task: convert the newly added `attachments/wind data/BOS_07.21_to_07.26.txt` wind-data text file into JSON.
+- Actions:
+  - Located the new attachment in `attachments/wind data/`.
+  - Confirmed the file is comma-separated tabular data with a header row.
+  - Converted the file into `attachments/wind data/BOS_07.21_to_07.26.json`.
+  - Verified the JSON output was created and that it contains `37767` records.
+- Decisions:
+  - Preserved the source columns exactly, including the `valid(UTC)` field name and any missing-value markers like `M`, to avoid changing the raw dataset semantics during format conversion.
+  - Kept the JSON as an array of row objects in the same folder as the source text file for straightforward reuse.
+- Open:
+  - Numeric fields are currently serialized as strings because the source file is CSV text; if needed later, they can be normalized to numbers/nulls in a second pass.
+
+### 2026-07-09 - Add meters-per-second conversions to BOS wind-data JSON
+
+- Task: convert the knot-based wind-speed fields in `attachments/wind data/BOS_07.21_to_07.26.json` to meters per second.
+- Actions:
+  - Rebuilt the JSON from the original text dataset so the conversion stayed tied to the raw source file.
+  - Added `sknt_mps` and `gust_sknt_mps` fields to each row using the `1 knot = 0.514444 m/s` conversion factor.
+  - Preserved the original `sknt` and `gust_sknt` knot fields alongside the converted values.
+  - Verified the updated JSON still contains `37767` records and that missing knot values map to `null` in the new meter-per-second fields.
+- Decisions:
+  - Added new fields instead of overwriting the original ones so the raw source values remain available and the units are unambiguous.
+  - Rounded the converted meter-per-second values to three decimal places.
+- Open:
+  - Direction fields remain unchanged and still use the original source formatting.
+
+### 2026-07-09 - Rename BOS wind-speed field to speed in m/s
+
+- Task: replace the `sknt` field in `attachments/wind data/BOS_07.21_to_07.26.json` with a meter-per-second field labeled `speed`.
+- Actions:
+  - Rebuilt the JSON from the original text dataset.
+  - Removed the intermediate `sknt` and `sknt_mps` fields from the JSON output.
+  - Added a `speed` field containing the converted wind speed in meters per second.
+  - Preserved the rest of the row structure and verified the output still contains `37767` records.
+- Decisions:
+  - Treated `speed` as an SI-unit field in meters per second rather than keeping a unit suffix in the field name, because that matched the requested label change.
+  - Left the gust fields unchanged in name, while keeping the already-added `gust_sknt_mps` conversion field.
+- Open:
+  - If desired, the gust fields could be normalized next to `gust_speed` and `gust_direction` for a more consistent schema.
+
+### 2026-07-09 - Finalize BOS JSON speed field labels
+
+- Task: relabel the BOS JSON speed fields to `speed (m/s)` and `gust speed (m/s)`, and delete the remaining raw gust-knot field.
+- Actions:
+  - Rebuilt `attachments/wind data/BOS_07.21_to_07.26.json` from the original text dataset.
+  - Renamed `speed` to `speed (m/s)`.
+  - Deleted `gust_sknt` from the JSON output.
+  - Renamed `gust_sknt_mps` to `gust speed (m/s)`.
+  - Verified the updated JSON still contains `37767` records.
+- Decisions:
+  - Kept the direction fields unchanged because the request only covered the speed-related labels.
+  - Continued rounding converted speeds to three decimal places.
+- Open:
+  - If desired, `drct` and `gust_drct` could be relabeled to more descriptive names in a follow-up pass.
+
+### 2026-07-09 - Export five-year BOS wind-speed histogram
+
+- Task: create a histogram for the multi-year BOS wind dataset using the same style as the existing one-year BOS histogram.
+- Actions:
+  - Inspected the existing `attachments/wind data/BOS_07.25_to_07.26_histogram.svg` to match its layout and labeling.
+  - Generated `attachments/wind data/BOS_07.21_to_07.26_histogram.svg` from `attachments/wind data/BOS_07.21_to_07.26.json`.
+  - Used the same `0.5 m/s` bins from `0` to `18 m/s`, percentage-based y-axis, and the same SVG visual style.
+  - Verified the histogram spans `2021-07-09` through `2026-07-07` and uses `37338` numeric speed observations.
+- Decisions:
+  - Kept the histogram as `SVG` to match the existing file and avoid introducing a different rendering dependency.
+  - Added the date range to the title so the five-year histogram is visually distinct from the one-year version.
+- Open:
+  - Observations above `18 m/s` are not shown as separate bins because this regeneration intentionally matched the existing histogram's `0` to `18 m/s` range.
+
+### 2026-07-09 - Embed five-year BOS histogram in brainstorming note
+
+- Task: add the new five-year BOS histogram to the same analysis note that already embeds the one-year histogram.
+- Actions:
+  - Updated `active/analysis/brainstorm.md`.
+  - Added a `Figure 2` caption describing the `Jul 2021` to `Jul 2026` histogram as the five-year BOS distribution for AEO-oriented analysis.
+  - Embedded `![[BOS_07.21_to_07.26_histogram.svg]]` directly below the existing one-year histogram embed.
+  - Verified the note still uses Obsidian wikilinks and does not introduce local Markdown `.md` path links.
+- Decisions:
+  - Added the five-year histogram to `brainstorm.md` rather than `Design goal.md` because that is where the existing one-year histogram was already being used.
+  - Kept both histograms in the note so the one-year data-gap view and the five-year AEO view can be compared side by side in the same section.
+- Open:
+  - If desired, the same five-year histogram could also be embedded into `active/analysis/Design goal.md` later.
+
+### 2026-07-09 - Convert and ingest vj29 H-type Darrieus review
+
+- Task: convert `attachments/PDFs/vj29.pdf` into `sources/vj29.md` and ingest it into the wiki according to the repository conversion and source-ingest workflow.
+- Actions:
+  - Read the PDF and created `sources/vj29.md` with source frontmatter, major section structure, cleaned page text, and in-place figure captions.
+  - Extracted ten visible review figures into `attachments/images/vj29-fig1.jpg` through `attachments/images/vj29-fig10.jpg` and linked them from the source note.
+  - Added `wiki/summaries/vj29-summary.md`.
+  - Added source-specific parameter pages `wiki/parameters/vj29 Blade Profile.md`, `wiki/parameters/vj29 Pitch Angle.md`, `wiki/parameters/vj29 Solidity.md`, and `wiki/parameters/vj29 Blade Number.md`.
+  - Updated `wiki/concepts/H-VAWT.md`, `wiki/concepts/CFD and Validation.md`, and `wiki/concepts/Dynamic Stall.md` with `vj29`-supported claims.
+  - Updated `wiki/index.md` to include the new summary and parameter pages.
+  - Marked `sources/vj29.md` as processed.
+  - Verified there are no local Markdown `.md` path links in `wiki/` after the ingest edits.
+- Decisions:
+  - Treated `vj29` as a review-and-synthesis source, so the ingest focused on summary, concept updates, and source-specific parameter pages rather than creating a single design page for one turbine.
+  - Kept the source conversion close to the extracted paper text rather than rewriting it into a cleaner editorial form, because the conversion workflow requires preserving the paper content rather than paraphrasing it.
+  - Used rendered figure-region crops for the PDF figures instead of trying to recover every original embedded image object individually, because the visible review figures are composite page graphics.
+- Open:
+  - `sources/vj29.md` is readable and figure-linked, but some table-heavy sections remain rough PDF text extractions rather than fully normalized Markdown tables.

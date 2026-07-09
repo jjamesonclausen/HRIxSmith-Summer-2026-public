@@ -1,6 +1,6 @@
 ---
 Created: 2026-06-26
-Updated: 2026-07-08
+Updated: 2026-07-09
 Sources:
   - "[[va2]]"
   - "[[vj4]]"
@@ -13,10 +13,11 @@ Sources:
   - "[[vj14]]"
   - "[[va25]]"
   - "[[va26]]"
-  - "[[va27]]"
-  - "[[vj25]]"
-  - "[[vj28]]"
-Source_count: 14
+ - "[[va27]]"
+ - "[[vj25]]"
+ - "[[vj28]]"
+  - "[[vj29]]"
+Source_count: 15
 tags:
   - concepts
 ---
@@ -61,6 +62,8 @@ The vj15 study adds that harmonic variable pitch can improve both startup and po
 - The vj25 paper adds a sizing-rule view for straight-bladed H-rotors, arguing that lower rotor aspect ratio (`h/R`) increases blade Reynolds number and can slightly improve `Cp` while lowering rotational speed in its `1 kW` `NACA 0018` case study. (source: sources/vj25.md)
 - That source compares converged `AR = 2` and `AR = 0.4` designs and reports `cpmax` changing from `0.464` to `0.475` while rotor speed drops from `299 rpm` to `137 rpm`. (source: sources/vj25.md)
 - The `vj28` design-guidance paper adds a source-specific airfoil-screening view for small fixed-pitch H-rotor / SB-VAWTs, arguing that low-Re asymmetric thick sections are more suitable than the older symmetric `NACA` sections commonly reused in earlier designs. (source: sources/vj28.md)
+- The `vj29` review adds a broader H-rotor synthesis: it frames H-type Darrieus turbines as promising for low-wind and urban use because of their omnidirectional operation, but says poor self-starting torque, low-TSR efficiency loss, and unsteady dynamic-stall-driven flow remain the main aerodynamic obstacles. (source: sources/vj29.md)
+- It also compiles several passive improvement routes for H-rotors, including winglets, blade-profile optimization, slotted or flapped sections, blunt trailing edges, and wind-lens / fairing augmentation, while still treating blade profile, pitch angle, solidity, blade number, and TSR as the core recurring design variables. (source: sources/vj29.md)
 
 ![Source figure](va9-fig20.jpg)
 Original caption: Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow. [[va9|Source]]

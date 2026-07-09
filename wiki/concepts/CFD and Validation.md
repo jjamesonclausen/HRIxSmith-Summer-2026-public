@@ -1,6 +1,6 @@
 ---
 Created: 2026-07-01
-Updated: 2026-07-07
+Updated: 2026-07-09
 Sources:
   - "[[va10]]"
   - "[[vj5]]"
@@ -23,7 +23,8 @@ Sources:
   - "[[vj26]]"
   - "[[va9]]"
   - "[[vj2]]"
-Source_count: 21
+  - "[[vj29]]"
+Source_count: 22
 tags:
   - concepts
 ---
@@ -70,6 +71,11 @@ It also recommends practical setup ranges of about 15D upstream, 10D downstream,
 
 The vj26 review adds a broader caution that turbulence-model choice has a strong effect on VAWT torque prediction, so CFD setup details materially affect the answer rather than only its precision. (source: sources/vj26.md)
 It also says CFD gives useful insight into steady operation and comparative rotor behavior, but cited startup studies still found poor reliability during the startup transient when compared against experiments. (source: sources/vj26.md)
+
+The `vj29` H-rotor review reinforces that `RANS` / `URANS` formulations dominate the literature, with `k-omega SST` the single most common turbulence model in its survey. (source: sources/vj29.md)
+- It says `2D` simulations are still appropriate for early design, airfoil comparison, and trend analysis, but they neglect tip losses and spanwise flow and can overpredict `Cp` by anything from under `15%` in well-tuned cases to roughly `30%-40%` in optimistic ones. (source: sources/vj29.md)
+- The same source says `3D` simulations are required for reliable absolute-performance prediction, blade loading, wake interaction, and farm-level studies, though at much higher computational cost. (source: sources/vj29.md)
+- It also argues that validation should compare more than a single `Cp-TSR` curve and should include wake vortices, pressure fields, dynamic-stall signatures, and vorticity fields when possible. (source: sources/vj29.md)
 
 The va9 paper says its sliced DMS approach can be integrated into existing CFD and CAD tools to improve analysis of complex Darrieus blade-form designs. (source: sources/va9.md)
 It also compares streamtube, vortex, and cascade models, noting that vortex models have high experimental correlation with the latest improvements but take the highest computation time among the listed prediction models. (source: sources/va9.md)
