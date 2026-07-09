@@ -198,6 +198,8 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 		- refine with llm edits 
 	- lock in on location
 	- create [[design goal]] md file
+- spent some time learning + asking questions to come up with designs/concepts worth perusing 
+	- [[Julie initial design screening]] 
 ### Friday 7/10
 - Met with Mike + Anna - 9am
 ## Week 4
