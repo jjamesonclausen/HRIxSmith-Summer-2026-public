@@ -99,3 +99,24 @@ Using the same weights as above: startup `35%`, efficiency `35%`, CAD + manufact
 - The highest-overlap pair is `Reduced-interference hybrid` and [[vj20 Proposed Hybrid VAWT]]. Keep both for now if you want to compare a general hybrid path against one especially strong specific example.
 - The highest-overlap pair on the drag side is `Compact drag-based J-type / Savonius-derived fallback` and [[vj9 Scooplet-Based Savonius]].
 - The current BOS framing still matters while you rank: average wind speed around `4.8 m/s`, average gusts around `6.3 m/s`, and unresolved siting constraints at Logan. See [[Design goal]] and [[wiki/concepts/Airport Regulations|Airport Regulations]].
+
+## All-Designs Top Ten
+
+This ranking applies the same weighted system across the full `wiki/designs/` set: startup `35%`, efficiency / economics `35%`, CAD + manufacturability `15%`, rated speed fit `10%`, room for growth `2.5%`, and cut-out speed fit `2.5%`. Obvious duplicate real machines were collapsed so the same turbine does not occupy multiple top-ten slots.
+
+| Rank | Design | Score (/5) | Why |
+| --- | --- | --- | --- |
+| 1 | [[va9 EN0005 Self-start Darrieus VAWT]] | 4.30 | `1.25 m/s` self-start, `Cp = 0.416`, and reported stability at `25 m/s` make it the strongest match to this weighting. |
+| 2 | [[vj20 Proposed Hybrid VAWT]] | 4.10 | `Cp = 0.486` plus explicit self-start and `2.81 m/s` full-scale cut-in make it the strongest high-performance hybrid, with complexity as the main drawback. |
+| 3 | [[vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 0.4)]] | 3.58 | `cpmax = 0.475` and a `10 m/s` design point give it a very strong efficiency and rated-speed fit. |
+| 4 | [[va3 Solwind Vertical Axis Wind Turbine]] | 3.35 | `1.5 m/s` startup, `3.7 m/s` cut-in/power onset, and `10 m/s` rated output fit the worksheet criteria unusually well. |
+| 5 | [[vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 2)]] | 3.35 | Another strong `10 m/s` H-rotor case with `cpmax = 0.464`, just behind the lower-`AR` variant. |
+| 6 | [[vj19 Curved-Blade Savonius VAWT]] | 3.30 | `3 m/s` cut-in, `9 m/s` rated-speed claim, and good economics for a drag design keep it competitive. |
+| 7 | [[va3 Ropatec WRE.060 WindRotor]] | 3.20 | `2 m/s` cut-in and hybrid low-speed intent help a lot, though direct `Cp` evidence is thin. |
+| 8 | [[va24 Variable-Pitch 3-Bladed NACA0015 Straight-Bladed VAWT]] | 3.15 | Very high reported peak `Cp` (`0.568`) and better low-TSR behavior, but active pitch hurts manufacturability. |
+| 9 | [[va5 J-Type VAWT]] | 3.10 | `3 m/s` cut-in and very strong manufacturability keep it in the top ten despite lower efficiency. |
+| 10 | [[va20 Involute Rotor with Wind Flow Modifier]] | 3.05 | `Cp = 0.397` is strong, but the directional modifier hurts practicality and manufacturability. |
+
+Uncertainty:
+- Ranks `1` and `2` are the strongest.
+- Ranks `4` through `10` are less certain because many design pages are missing startup, rated-speed, or cut-out data, or mix product claims with sparse aerodynamic evidence.
