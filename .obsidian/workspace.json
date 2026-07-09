@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -184,18 +185,20 @@
   },
   "active": "70651a00716fe7ef",
   "lastOpenFiles": [
-    "active/_julie daily log.md",
+    "active/_anna daily log.md",
+    "active/planning/J_design_selection_plan.md",
+    "active/planning/J_5_week_plan.md",
     "active/_Julie_daily_log.md",
+    "active/_julie daily log.md",
     "active/_julie daily log.pdf",
     "active/resources/zoo dev notes.pdf",
     "active/resources/research resources.pdf",
     "active/resources/llm wiki resources.pdf",
     "active/_anna daily log.pdf",
-    "active/_anna daily log.md",
     "active/_anna daily log.assets/image-1.png",
     "active/_anna daily log.assets",
-    "Notes from meeting June 30th.md",
-    "Notes on meeting July 7.md",
+    "active/resources/Notes from meeting June 30th.md",
+    "active/resources/Notes on meeting July 7.md",
     "wiki/evals.md",
     "active/Daily Log for Honda Project - Julie & Anna.pdf",
     "active/_Julie_daily_log",
@@ -218,8 +221,6 @@
     "active/planning/Work Plan A2.md",
     "active/planning/Work Plan A1.md",
     "active/planning/j_two_week_plan.md",
-    "active/planning/J_design_selection_plan.md",
-    "active/planning/J_5_week_plan.md",
     "active/analysis/data view testing.md",
     "wiki/index.md",
     "wiki/learning-log.md",

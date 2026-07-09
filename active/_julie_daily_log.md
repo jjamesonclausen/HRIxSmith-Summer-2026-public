@@ -17,7 +17,7 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 
 ### Tuesday 6/23
 
-- Continue to review past report + go though some references - 8:00
+- Continue to review past report + go though some references [[n2]] - 8:00
 - Meet with Mike and Anna - talk bout milestone setting + meeting later w/ Ryan - 9:00
 - Going through appendix of report + research on VAWTs (`3 hr`)
 - Review of fluids content (`3 hr`)
@@ -157,6 +157,7 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
   - Did tutorial
   - Messed around with zoo keeper - trying to have it re create va5 design
   - Watched some YouTube tutorials on kcl
+	  - [KCL: Parametric design with functions](KCL: Parametric design with functionshttps://youtu.be/JtCk20aTTOU?si=56fikWPQFCBU-tVx)
   - Toyed around making basic shapes + windmill shapes with tools
   - Potential questions
     - What are the collaboration options/how will that look
