@@ -1,9 +1,11 @@
 ---
 Created: 2026-06-25
 Updated: 2026-07-07
-Sources: [[n1]]
+Sources:
+  - "[[n1]]"
 Source_count: 1
-Tags: #summaries
+tags:
+  - summaries
 ---
 ## n1 Summary
 

@@ -1,9 +1,17 @@
 ---
 Created: 2026-07-01
 Updated: 2026-07-08
-Sources: [[vj7]], [[vj1]], [[va8]], [[va9]], [[vj18]], [[vj21]], [[vj28]]
+Sources:
+  - "[[vj7]]"
+  - "[[vj1]]"
+  - "[[va8]]"
+  - "[[va9]]"
+  - "[[vj18]]"
+  - "[[vj21]]"
+  - "[[vj28]]"
 Source_count: 7
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Materials and Manufacturing
 

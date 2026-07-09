@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-06
-Source: [[va26]]
-Tags: #parameters
+Source: "[[va26]]"
+tags:
+  - parameters
 Target: increase Cp
 Outcome: minimal positive effect
 ---

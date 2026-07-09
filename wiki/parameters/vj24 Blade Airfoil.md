@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-06
-Source: [[vj24]]
-Tags: #parameters
+Source: "[[vj24]]"
+tags:
+  - parameters
 Target: increase power output
 Outcome: significant positive effect
 ---

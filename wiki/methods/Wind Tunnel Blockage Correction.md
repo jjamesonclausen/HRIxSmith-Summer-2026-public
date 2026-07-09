@@ -1,9 +1,12 @@
 ---
 Created: 2026-07-06
 Updated: 2026-07-07
-Sources: [[va23]], [[vj26]]
+Sources:
+  - "[[va23]]"
+  - "[[vj26]]"
 Source_count: 2
-Tags: #methods
+tags:
+  - methods
 ---
 ## Wind Tunnel Blockage Correction
 

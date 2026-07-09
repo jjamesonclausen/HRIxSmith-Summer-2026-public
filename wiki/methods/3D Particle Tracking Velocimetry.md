@@ -1,9 +1,11 @@
 ---
 Created: 2026-07-03
 Updated: 2026-07-07
-Sources: [[va12]]
+Sources:
+  - "[[va12]]"
 Source_count: 1
-Tags: #methods
+tags:
+  - methods
 ---
 ## 3D Particle Tracking Velocimetry
 

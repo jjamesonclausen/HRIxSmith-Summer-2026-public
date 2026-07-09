@@ -1,9 +1,12 @@
 ---
 Created: 2026-07-08
 Updated: 2026-07-08
-Sources: [[vj24]], [[vj28]]
+Sources:
+  - "[[vj24]]"
+  - "[[vj28]]"
 Source_count: 2
-Tags: #methods
+tags:
+  - methods
 ---
 ## XFOIL
 

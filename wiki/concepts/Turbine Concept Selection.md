@@ -1,9 +1,13 @@
 ---
 Created: 2026-07-01
 Updated: 2026-07-07
-Sources: [[vj2]], [[va5]], [[vj8]]
+Sources:
+  - "[[vj2]]"
+  - "[[va5]]"
+  - "[[vj8]]"
 Source_count: 3
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Turbine Concept Selection
 

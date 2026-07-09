@@ -1,9 +1,26 @@
 ---
 Created: 2026-06-29
 Updated: 2026-07-08
-Sources: [[vj5]], [[va10]], [[va11]], [[va14]], [[va15]], [[vj15]], [[vj18]], [[vj6]], [[va7]], [[va23]], [[va24]], [[va25]], [[va26]], [[va27]], [[vj11]], [[vj28]]
+Sources:
+  - "[[vj5]]"
+  - "[[va10]]"
+  - "[[va11]]"
+  - "[[va14]]"
+  - "[[va15]]"
+  - "[[vj15]]"
+  - "[[vj18]]"
+  - "[[vj6]]"
+  - "[[va7]]"
+  - "[[va23]]"
+  - "[[va24]]"
+  - "[[va25]]"
+  - "[[va26]]"
+  - "[[va27]]"
+  - "[[vj11]]"
+  - "[[vj28]]"
 Source_count: 16
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Dynamic Stall
 

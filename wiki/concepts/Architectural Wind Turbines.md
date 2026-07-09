@@ -1,9 +1,13 @@
 ---
 Created: 2026-07-06
 Updated: 2026-07-07
-Sources: [[va17]], [[va19]], [[va21]]
+Sources:
+  - "[[va17]]"
+  - "[[va19]]"
+  - "[[va21]]"
 Source_count: 3
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Architectural Wind Turbines
 

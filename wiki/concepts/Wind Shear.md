@@ -1,9 +1,13 @@
 ---
 Created: 2026-06-30
 Updated: 2026-07-07
-Sources: [[vj10]], [[vj3]], [[va18]]
+Sources:
+  - "[[vj10]]"
+  - "[[vj3]]"
+  - "[[va18]]"
 Source_count: 3
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Wind Shear
 

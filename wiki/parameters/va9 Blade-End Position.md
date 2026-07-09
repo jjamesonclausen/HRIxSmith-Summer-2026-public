@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-03
-Source: [[va9]]
-Tags: #parameters
+Source: "[[va9]]"
+tags:
+  - parameters
 Target: improve self-start and stability
 Outcome: significant positive effect
 ---

@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-06
-Source: [[vj15]]
-Tags: #parameters
+Source: "[[vj15]]"
+tags:
+  - parameters
 Target: improve power output and self-starting
 Outcome: strong positive effect at 3 degrees
 ---

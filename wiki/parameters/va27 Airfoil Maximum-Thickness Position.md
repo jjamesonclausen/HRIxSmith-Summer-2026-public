@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-06
-Source: [[va27]]
-Tags: #parameters
+Source: "[[va27]]"
+tags:
+  - parameters
 Target: increase Cp in dynamic stall
 Outcome: significant positive effect
 ---

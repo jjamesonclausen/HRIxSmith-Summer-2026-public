@@ -1,9 +1,26 @@
 ---
 Created: 2026-07-06
 Updated: 2026-07-08
-Sources: [[vj8]], [[vj4]], [[va14]], [[va15]], [[vj15]], [[vj17]], [[vj18]], [[vj21]], [[vj22]], [[vj24]], [[vj25]], [[vj27]], [[vj11]], [[va8]], [[va9]], [[vj28]]
+Sources:
+  - "[[vj8]]"
+  - "[[vj4]]"
+  - "[[va14]]"
+  - "[[va15]]"
+  - "[[vj15]]"
+  - "[[vj17]]"
+  - "[[vj18]]"
+  - "[[vj21]]"
+  - "[[vj22]]"
+  - "[[vj24]]"
+  - "[[vj25]]"
+  - "[[vj27]]"
+  - "[[vj11]]"
+  - "[[va8]]"
+  - "[[va9]]"
+  - "[[vj28]]"
 Source_count: 16
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## VAWT Aerodynamic Design Parameters
 

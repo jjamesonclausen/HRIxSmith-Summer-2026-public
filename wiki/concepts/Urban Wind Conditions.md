@@ -1,9 +1,24 @@
 ---
 Created: 2026-06-25
 Updated: 2026-07-07
-Sources: [[HRI2526]], [[vj10]], [[vj12]], [[vj11]], [[va8]], [[va9]], [[va13]], [[vj13]], [[va17]], [[va18]], [[va19]], [[va20]], [[va21]], [[vj14]]
+Sources:
+  - "[[HRI2526]]"
+  - "[[vj10]]"
+  - "[[vj12]]"
+  - "[[vj11]]"
+  - "[[va8]]"
+  - "[[va9]]"
+  - "[[va13]]"
+  - "[[vj13]]"
+  - "[[va17]]"
+  - "[[va18]]"
+  - "[[va19]]"
+  - "[[va20]]"
+  - "[[va21]]"
+  - "[[vj14]]"
 Source_count: 14
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Urban Wind Conditions
 

@@ -1,9 +1,11 @@
 ---
 Created: 2026-07-06
 Updated: 2026-07-07
-Sources: [[vj16]]
+Sources:
+  - "[[vj16]]"
 Source_count: 1
-Tags: #methods
+tags:
+  - methods
 ---
 ## PSO-ANFIS Forecasting
 

@@ -1,12 +1,15 @@
 ---
 Created: 2026-07-02
-Source: [[va9]]
-Tags: #designs
+Source: "[[va9]]"
+tags:
+  - designs
 max Cp (1-4 m/s): 0.416
 max Cp (4-8 m/s): 
+max Cp (8-12 m/s): 
 Efficiency (%): 
 max TSR (1-4 m/s): 
 max TSR (4-8 m/s): 
+max TSR (8-12 m/s): 
 Swept area (m^2): 0.16608
 Cut-in speed (m/s): 1.25
 Cut-out speed (m/s): 

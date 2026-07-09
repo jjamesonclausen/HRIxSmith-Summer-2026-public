@@ -80,6 +80,7 @@ _One page per file in `sources/`._
 _Concept and entity pages live in [`concepts/`](concepts/)._
 
 - [[Annual Energy Output]]
+- [[Airport Regulations]]
 - [[Airfoil Selection for Small Straight-Bladed VAWTs]]
 - [[Architectural Wind Turbines]]
 - [[Atmospheric Turbulence]]

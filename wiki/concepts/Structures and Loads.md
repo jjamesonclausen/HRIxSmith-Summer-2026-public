@@ -1,9 +1,16 @@
 ---
 Created: 2026-07-01
 Updated: 2026-07-07
-Sources: [[vj8]], [[vj4]], [[va8]], [[vj2]], [[vj18]], [[vj26]]
+Sources:
+  - "[[vj8]]"
+  - "[[vj4]]"
+  - "[[va8]]"
+  - "[[vj2]]"
+  - "[[vj18]]"
+  - "[[vj26]]"
 Source_count: 6
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Structures and Loads
 

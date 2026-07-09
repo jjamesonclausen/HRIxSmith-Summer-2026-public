@@ -1,9 +1,21 @@
 ---
 Created: 2026-06-25
 Updated: 2026-07-07
-Sources: [[HRI2526]], [[va8]], [[va9]], [[va11]], [[va12]], [[va15]], [[va22]], [[va23]], [[vj20]], [[vj26]], [[vj27]]
+Sources:
+  - "[[HRI2526]]"
+  - "[[va8]]"
+  - "[[va9]]"
+  - "[[va11]]"
+  - "[[va12]]"
+  - "[[va15]]"
+  - "[[va22]]"
+  - "[[va23]]"
+  - "[[vj20]]"
+  - "[[vj26]]"
+  - "[[vj27]]"
 Source_count: 11
-Tags: #methods
+tags:
+  - methods
 ---
 ## Wind Tunnel Testing
 

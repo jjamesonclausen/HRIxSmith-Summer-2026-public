@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-03
-Source: [[va15]]
-Tags: #parameters
+Source: "[[va15]]"
+tags:
+  - parameters
 Target: improve self-starting
 Outcome: significant positive effect
 ---

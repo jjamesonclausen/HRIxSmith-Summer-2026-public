@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-03
-Source: [[vj8]]
-Tags: #parameters
+Source: "[[vj8]]"
+tags:
+  - parameters
 Target: balance power and stability
 Outcome: significant positive effect
 ---

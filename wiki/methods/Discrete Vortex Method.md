@@ -1,9 +1,11 @@
 ---
 Created: 2026-07-06
 Updated: 2026-07-07
-Sources: [[vj17]]
+Sources:
+  - "[[vj17]]"
 Source_count: 1
-Tags: #methods
+tags:
+  - methods
 ---
 ## Discrete Vortex Method
 

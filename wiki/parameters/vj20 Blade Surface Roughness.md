@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-06
-Source: [[vj20]]
-Tags: #parameters
+Source: "[[vj20]]"
+tags:
+  - parameters
 Target: improve low-wind performance
 Outcome: significant positive effect
 ---

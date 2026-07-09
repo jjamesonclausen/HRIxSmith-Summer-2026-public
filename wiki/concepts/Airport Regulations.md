@@ -1,9 +1,12 @@
 ---
 Created: 2026-07-09
 Updated: 2026-07-09
-Sources: [[active/resources/14 CFR Part 77 -- Safe, Efficient Use, and Preservation of the Navigable Airspace]], [[active/analysis/Design goal.pdf|Design goal]]
+Sources:
+  - "[[active/resources/14 CFR Part 77 -- Safe, Efficient Use, and Preservation of the Navigable Airspace]]"
+  - "[[active/analysis/Design goal.pdf|Design goal]]"
 Source_count: 2
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Airport Regulations
 

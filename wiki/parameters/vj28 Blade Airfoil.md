@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-08
-Source: [[vj28]]
-Tags: #parameters
+Source: "[[vj28]]"
+tags:
+  - parameters
 Target: improve self-starting and aerodynamic performance
 Outcome: significant positive effect
 ---

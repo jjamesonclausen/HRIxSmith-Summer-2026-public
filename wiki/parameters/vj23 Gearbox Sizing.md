@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-06
-Source: [[vj23]]
-Tags: #parameters
+Source: "[[vj23]]"
+tags:
+  - parameters
 Target: increase generator torque
 Outcome: significant positive effect
 ---

@@ -1,9 +1,11 @@
 ---
 Created: 2026-07-07
 Updated: 2026-07-07
-Sources: [[vj27]]
+Sources:
+  - "[[vj27]]"
 Source_count: 1
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Wind Deflector
 

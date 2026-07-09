@@ -1,9 +1,11 @@
 ---
 Created: 2026-06-30
 Updated: 2026-07-07
-Sources: [[vj10]]
+Sources:
+  - "[[vj10]]"
 Source_count: 1
-Tags: #summaries
+tags:
+  - summaries
 ---
 ## vj10 Summary
 

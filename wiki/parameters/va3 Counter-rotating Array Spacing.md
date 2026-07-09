@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-02
-Source: [[va3]]
-Tags: #parameters
+Source: "[[va3]]"
+tags:
+  - parameters
 Target: increase wind-farm power density
 Outcome: significant positive effect
 ---

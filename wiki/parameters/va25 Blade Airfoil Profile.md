@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-06
-Source: [[va25]]
-Tags: #parameters
+Source: "[[va25]]"
+tags:
+  - parameters
 Target: improve self-starting and Cp
 Outcome: significant positive effect
 ---

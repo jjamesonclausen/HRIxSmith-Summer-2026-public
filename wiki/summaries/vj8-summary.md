@@ -1,9 +1,11 @@
 ---
 Created: 2026-06-29
 Updated: 2026-07-07
-Sources: [[vj8]]
+Sources:
+  - "[[vj8]]"
 Source_count: 1
-Tags: #summaries
+tags:
+  - summaries
 ---
 ## vj8 Source Summary
 

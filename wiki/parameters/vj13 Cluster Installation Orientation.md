@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-06
-Source: [[vj13]]
-Tags: #parameters
+Source: "[[vj13]]"
+tags:
+  - parameters
 Target: increase annual power output
 Outcome: significant positive effect
 ---

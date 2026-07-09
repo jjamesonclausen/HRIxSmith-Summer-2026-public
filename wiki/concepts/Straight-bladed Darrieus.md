@@ -1,9 +1,21 @@
 ---
 Created: 2026-07-02
 Updated: 2026-07-08
-Sources: [[HRI2526]], [[vj4]], [[va9]], [[va11]], [[va16]], [[va24]], [[vj21]], [[vj24]], [[va25]], [[va26]], [[vj28]]
+Sources:
+  - "[[HRI2526]]"
+  - "[[vj4]]"
+  - "[[va9]]"
+  - "[[va11]]"
+  - "[[va16]]"
+  - "[[va24]]"
+  - "[[vj21]]"
+  - "[[vj24]]"
+  - "[[va25]]"
+  - "[[va26]]"
+  - "[[vj28]]"
 Source_count: 11
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Straight-bladed Darrieus / H-rotor
 

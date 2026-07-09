@@ -1,9 +1,12 @@
 ---
 Created: 2026-07-06
 Updated: 2026-07-07
-Sources: [[va20]], [[vj27]]
+Sources:
+  - "[[va20]]"
+  - "[[vj27]]"
 Source_count: 2
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Wind Flow Modifier
 

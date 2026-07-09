@@ -1,9 +1,11 @@
 ---
 Created: 2026-07-06
 Updated: 2026-07-07
-Sources: [[vj22]]
+Sources:
+  - "[[vj22]]"
 Source_count: 1
-Tags: #methods
+tags:
+  - methods
 ---
 ## QBlade
 

@@ -1,9 +1,15 @@
 ---
 Created: 2026-07-02
 Updated: 2026-07-07
-Sources: [[va9]], [[va22]], [[va24]], [[vj24]], [[va25]]
+Sources:
+  - "[[va9]]"
+  - "[[va22]]"
+  - "[[va24]]"
+  - "[[vj24]]"
+  - "[[va25]]"
 Source_count: 5
-Tags: #methods
+tags:
+  - methods
 ---
 ## Double-Multiple Streamtube Model
 

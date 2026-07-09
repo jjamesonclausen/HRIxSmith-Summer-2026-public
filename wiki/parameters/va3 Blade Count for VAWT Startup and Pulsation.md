@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-02
-Source: [[va3]]
-Tags: #parameters
+Source: "[[va3]]"
+tags:
+  - parameters
 Target: improve self-start and reduce pulsation
 Outcome: significant positive effect
 ---

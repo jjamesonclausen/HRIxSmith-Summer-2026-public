@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-06
-Source: [[vj19]]
-Tags: #parameters
+Source: "[[vj19]]"
+tags:
+  - parameters
 Target: increase rotational performance
 Outcome: significant positive effect
 ---

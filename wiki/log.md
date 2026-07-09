@@ -1,6 +1,106 @@
 #maintenance
 ## Log
 
+### 2026-07-09 - Normalize wiki frontmatter for Obsidian Bases tags
+
+- Task: fix malformed YAML frontmatter so Obsidian Bases can reliably detect file tags, starting from the missing `#designs` results in `wiki/designs/` and then normalizing the same pattern across the wiki.
+- Actions:
+  - Replaced invalid `Tags: #...` fields with valid YAML `tags` lists across `wiki/designs/`, `wiki/parameters/`, `wiki/concepts/`, `wiki/methods/`, and `wiki/summaries/`.
+  - Quoted all single-source `Source` wikilinks and converted all `Sources` frontmatter values to YAML lists of quoted wikilinks.
+  - Updated `schema/Ingest Source` so the design, parameter, and summary/concept/method templates now use the corrected YAML format.
+  - Verified there are no remaining `Tags: #...`, `Source: [[...]]`, or `Sources: [[...]]` patterns anywhere under `wiki/`.
+  - Verified all `63` design pages now expose a `tags` field and `63` `designs` list entries in frontmatter.
+- Decisions:
+  - Used lowercase `tags:` with YAML lists because that is the most reliable Obsidian-compatible file-tag format.
+  - Kept existing `Source_count` values and source references intact while only changing serialization format.
+- Open:
+  - Obsidian may need a metadata refresh or app restart before Bases reflects the corrected counts.
+
+### 2026-07-09 - Add 8-12 m/s Cp and TSR bins to design-page schema
+
+- Task: update all `wiki/designs/*.md` pages to match the current `schema/Ingest Source` frontmatter by adding `max Cp (8-12 m/s)` and `max TSR (8-12 m/s)` fields.
+- Actions:
+  - Read `schema/Ingest Source` to confirm the required design-page property block.
+  - Updated all `63` current design pages in `wiki/designs/` to add the missing `8-12 m/s` Cp and TSR fields while preserving existing values.
+  - Verified that all design pages now include both new fields.
+  - Verified that no local Markdown `.md` links were introduced in `wiki/` during this update.
+- Decisions:
+  - Limited this pass to the schema-alignment change requested; existing blank values remain blank until supported source data is added.
+  - Left `wiki/index.md` unchanged because no pages were added, removed, or renamed.
+- Open:
+  - Many design pages still have empty `8-12 m/s` bins because the values have not yet been extracted from their source summaries or source files.
+
+### 2026-07-09 - Update design-goal histogram embed after file rename
+
+- Task: update the histogram embed in `active/analysis/Design goal.md` after the linked SVG was renamed.
+- Actions:
+  - Located the renamed file in `attachments/wind data/`.
+  - Replaced the old embed target with `![[BOS_07.25_to_07.26_histogram.svg]]`.
+- Decisions:
+  - Used a basename-only Obsidian wikilink embed instead of a path-qualified target because the filename is currently unique in the repo.
+- Open:
+  - If another attachment later shares the same basename, this embed would need to be changed to a path-qualified wikilink.
+
+### 2026-07-09 - Convert Logan design goal PDF to Markdown
+
+- Task: convert `active/analysis/Design goal.pdf` into a Markdown note for easier reuse in the project workspace.
+- Actions:
+  - Read the PDF and followed the repo's PDF-conversion procedure as far as it applied to an active project note.
+  - Created `active/analysis/Design goal.md` next to the source PDF.
+  - Preserved the note's main structure: location, motivation, wind data, figure caption, obstacles, and design thoughts.
+  - Cleaned line breaks into readable Markdown paragraphs and bullets without rewriting the content.
+  - Verified the converted Markdown after creation.
+- Decisions:
+  - Kept the converted file in `active/analysis/` rather than moving it into `sources/`, because this PDF is an active project brief rather than a source paper for wiki ingest.
+  - Preserved the figure as caption text only; no extracted image file was added in this pass.
+- Open:
+  - If needed later, the histogram image from the PDF could be extracted into a separate asset and linked from the Markdown note.
+
+### 2026-07-09 - Add airport regulations concept page for Logan siting screening
+
+- Task: create a new wiki concept page capturing the Part 77 airport-airspace constraints relevant to screening VAWT placement at Logan, based on the FAA regulation note in `active/resources/` and the active Logan design brief.
+- Actions:
+  - Read `active/resources/14 CFR Part 77 -- Safe, Efficient Use, and Preservation of the Navigable Airspace.md` and `active/analysis/Design goal.pdf`.
+  - Added `wiki/concepts/Airport Regulations.md` with source-backed summaries of the Part 77 notice triggers and civil airport imaginary surfaces.
+  - Added a separate `Logan screening implications` section marked as `> Inference:` for the site-specific interpretations about runway perimeters, runway ends, rooftop limits, and the `30 ft` ground-turbine screening logic.
+  - Updated `wiki/index.md` to link `[[Airport Regulations]]`.
+  - Verified that no local Markdown `.md` path links were introduced.
+- Decisions:
+  - Treated the Logan-specific siting conclusions as inferences rather than direct source facts because the repo does not currently contain a Logan Part 77 map, runway approach classification sheet, or terminal roof elevations.
+  - Used the active Part 77 markdown note and active design brief as the cited sources because the requested material is not yet represented in `sources/`.
+- Open:
+  - The new page still does not identify exact allowable turbine heights for specific Logan rooftops or perimeter parcels; that would require airport-layout and elevation data not currently in the repo.
+
+### 2026-07-09 - Revise project timeline to Wednesday-based weeks
+
+- Task: update `active/planning/project timeline` so the five-week plan starts on Wednesday-based weeks, begins Week `1` on `2026-07-09`, begins Week `2` on `2026-07-15`, ends Week `5` on `2026-08-11`, and reserves the final days for documentation, report writing, and a presentation.
+- Actions:
+  - Revised the standing cadence so each work week now runs Wednesday through Tuesday.
+  - Changed the week date ranges to `07/09-07/14`, `07/15-07/21`, `07/22-07/28`, `07/29-08/04`, and `08/05-08/11`.
+  - Converted each week's separate goals and outcomes sections into one combined `Goals and measurable outcomes` list.
+  - Reframed Week `5` around finalizing the technical package and added a separate `Final Documentation Window` for `08/12-08/14` covering report writing, documentation, and final presentation work.
+  - Verified the updated timeline note after editing.
+- Decisions:
+  - Kept the existing task content mostly intact and changed the schedule structure around it, since the request was to re-time and reorganize the plan rather than redesign the work itself.
+  - Treated the final three days as outside the five numbered work weeks so Week `5` can still end on `2026-08-11` as requested.
+- Open:
+  - If desired, the Wednesday-based weekly structure could later be expanded into day-level assignments within each week.
+
+### 2026-07-09 - Add five-week VAWT work plan to active project timeline
+
+- Task: expand `active/planning/project timeline` by adding a concrete five-week work plan beneath the existing guidance text without changing the brief itself.
+- Actions:
+  - Read the planning note to capture the stated timeline, resources, tools, goals, starting point, required plan structure, meeting cadence, and fallback workflow.
+  - Checked `schema/Maintain Wiki` before editing.
+  - Appended a new `5 Week Work Plan` section with a standing weekly cadence plus Week `1` through Week `5` blocks.
+  - Structured each week around goals, manageable tasks, LLM support, and measurable outcomes to match the user's requested format.
+  - Verified the note content after editing.
+- Decisions:
+  - Kept the schedule at the week level rather than expanding to daily tasks because the note asked for a calendar structure with week numbers and weekly breakdowns.
+  - Used the implied Monday start date of `2026-07-13` and the stated end date of `2026-08-14`.
+- Open:
+  - If desired, the new week-level plan could later be expanded into a day-by-day execution calendar, but that was not added here.
+
 ### 2026-07-08 - Increase indentation hierarchy in Anna daily log
 
 - Task: adjust `active/_anna daily log.md` so bulleted material is visually indented relative to the flush-left time-stamped entries.

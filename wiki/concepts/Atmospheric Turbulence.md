@@ -1,9 +1,14 @@
 ---
 Created: 2026-06-26
 Updated: 2026-07-07
-Sources: [[vj3]], [[vj10]], [[vj11]], [[va11]]
+Sources:
+  - "[[vj3]]"
+  - "[[vj10]]"
+  - "[[vj11]]"
+  - "[[va11]]"
 Source_count: 4
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Atmospheric Turbulence
 

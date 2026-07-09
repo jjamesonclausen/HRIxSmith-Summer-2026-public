@@ -1,9 +1,13 @@
 ---
 Created: 2026-07-03
 Updated: 2026-07-07
-Sources: [[va13]], [[va19]], [[vj19]]
+Sources:
+  - "[[va13]]"
+  - "[[va19]]"
+  - "[[vj19]]"
 Source_count: 3
-Tags: #methods
+tags:
+  - methods
 ---
 ## Payback Period Analysis
 

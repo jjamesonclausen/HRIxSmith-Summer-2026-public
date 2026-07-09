@@ -1,9 +1,18 @@
 ---
 Created: 2026-06-25
 Updated: 2026-07-07
-Sources: [[HRI2526]], [[vj2]], [[vj11]], [[va8]], [[va13]], [[n2]], [[vj20]], [[vj26]]
+Sources:
+  - "[[HRI2526]]"
+  - "[[vj2]]"
+  - "[[vj11]]"
+  - "[[va8]]"
+  - "[[va13]]"
+  - "[[n2]]"
+  - "[[vj20]]"
+  - "[[vj26]]"
 Source_count: 8
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Hybrid VAWT
 

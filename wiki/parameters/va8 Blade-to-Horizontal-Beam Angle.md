@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-03
-Source: [[va8]]
-Tags: #parameters
+Source: "[[va8]]"
+tags:
+  - parameters
 Target: increase torque
 Outcome: significant positive effect
 ---

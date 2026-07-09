@@ -1,9 +1,11 @@
 ---
 Created: 2026-07-03
 Updated: 2026-07-07
-Sources: [[va15]]
+Sources:
+  - "[[va15]]"
 Source_count: 1
-Tags: #summaries
+tags:
+  - summaries
 ---
 ## va15 Summary
 

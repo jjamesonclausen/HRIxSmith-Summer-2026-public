@@ -1,9 +1,13 @@
 ---
 Created: 2026-06-26
 Updated: 2026-07-07
-Sources: [[vj4]], [[vj10]], [[va9]]
+Sources:
+  - "[[vj4]]"
+  - "[[vj10]]"
+  - "[[va9]]"
 Source_count: 3
-Tags: #methods
+tags:
+  - methods
 ---
 ## Blade Element-Momentum Model
 

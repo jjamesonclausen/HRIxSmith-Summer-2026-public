@@ -1,9 +1,15 @@
 ---
 Created: 2026-06-25
 Updated: 2026-07-07
-Sources: [[HRI2526]], [[va13]], [[va21]], [[vj19]], [[n2]]
+Sources:
+  - "[[HRI2526]]"
+  - "[[va13]]"
+  - "[[va21]]"
+  - "[[vj19]]"
+  - "[[n2]]"
 Source_count: 5
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Economic Viability of VAWTs
 

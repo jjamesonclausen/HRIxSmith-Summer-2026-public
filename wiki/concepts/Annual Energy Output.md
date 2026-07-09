@@ -1,9 +1,13 @@
 ---
 Created: 2026-06-25
 Updated: 2026-07-07
-Sources: [[va1]], [[vj13]], [[vj19]]
+Sources:
+  - "[[va1]]"
+  - "[[vj13]]"
+  - "[[vj19]]"
 Source_count: 3
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Annual Energy Output (AEO)
 

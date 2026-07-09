@@ -1,9 +1,11 @@
 ---
 Created: 2026-07-01
 Updated: 2026-07-07
-Sources: [[vj18]]
+Sources:
+  - "[[vj18]]"
 Source_count: 1
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## VAWT Design Overview
 

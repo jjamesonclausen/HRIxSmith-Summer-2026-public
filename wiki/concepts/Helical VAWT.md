@@ -1,9 +1,15 @@
 ---
 Created: 2026-06-29
 Updated: 2026-07-07
-Sources: [[va4]], [[HRI2526]], [[va7]], [[vj11]], [[va22]]
+Sources:
+  - "[[va4]]"
+  - "[[HRI2526]]"
+  - "[[va7]]"
+  - "[[vj11]]"
+  - "[[va22]]"
 Source_count: 5
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Helical VAWT
 

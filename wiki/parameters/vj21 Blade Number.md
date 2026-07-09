@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-06
-Source: [[vj21]]
-Tags: #parameters
+Source: "[[vj21]]"
+tags:
+  - parameters
 Target: improve smoothness
 Outcome: minimal positive effect
 ---

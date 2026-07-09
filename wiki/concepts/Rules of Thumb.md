@@ -1,9 +1,16 @@
 ---
 Created: 2026-07-01
 Updated: 2026-07-08
-Sources: [[vj6]], [[vj1]], [[vj7]], [[vj8]], [[vj21]], [[vj28]]
+Sources:
+  - "[[vj6]]"
+  - "[[vj1]]"
+  - "[[vj7]]"
+  - "[[vj8]]"
+  - "[[vj21]]"
+  - "[[vj28]]"
 Source_count: 6
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Rules of Thumb
 

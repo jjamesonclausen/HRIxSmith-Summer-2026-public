@@ -1,9 +1,11 @@
 ---
 Created: 2026-06-25
 Updated: 2026-07-07
-Sources: [[HRI2526]]
+Sources:
+  - "[[HRI2526]]"
 Source_count: 1
-Tags: #summaries
+tags:
+  - summaries
 ---
 ## HRI2526 Source Summary
 

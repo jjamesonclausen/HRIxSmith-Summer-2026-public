@@ -1,9 +1,11 @@
 ---
 Created: 2026-07-06
 Updated: 2026-07-07
-Sources: [[vj14]]
+Sources:
+  - "[[vj14]]"
 Source_count: 1
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Capacity Factor
 

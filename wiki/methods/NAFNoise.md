@@ -1,9 +1,11 @@
 ---
 Created: 2026-07-08
 Updated: 2026-07-08
-Sources: [[vj28]]
+Sources:
+  - "[[vj28]]"
 Source_count: 1
-Tags: #methods
+tags:
+  - methods
 ---
 ## NAFNoise
 

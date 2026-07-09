@@ -1,9 +1,12 @@
 ---
 Created: 2026-06-25
 Updated: 2026-07-07
-Sources: [[va1]], [[vj19]]
+Sources:
+  - "[[va1]]"
+  - "[[vj19]]"
 Source_count: 2
-Tags: #methods
+tags:
+  - methods
 ---
 ## AEO Calculation
 

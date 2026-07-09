@@ -1,9 +1,10 @@
 ---
 Created: 2026-07-01
 Updated: 2026-07-07
-Sources: 
+Sources:
 Source_count: 0
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## VAWT Design Comparisons
 

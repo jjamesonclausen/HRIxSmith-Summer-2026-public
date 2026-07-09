@@ -1,9 +1,11 @@
 ---
 Created: 2026-07-02
 Updated: 2026-07-07
-Sources: [[va9]]
+Sources:
+  - "[[va9]]"
 Source_count: 1
-Tags: #summaries
+tags:
+  - summaries
 ---
 ## va9 Source Summary
 

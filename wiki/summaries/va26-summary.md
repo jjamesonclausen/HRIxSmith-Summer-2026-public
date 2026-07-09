@@ -1,9 +1,11 @@
 ---
 Created: 2026-07-06
 Updated: 2026-07-07
-Sources: [[va26]]
+Sources:
+  - "[[va26]]"
 Source_count: 1
-Tags: #summaries
+tags:
+  - summaries
 ---
 ## va26 Summary
 

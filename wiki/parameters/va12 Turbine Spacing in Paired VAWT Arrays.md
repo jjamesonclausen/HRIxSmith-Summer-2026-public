@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-03
-Source: [[va12]]
-Tags: #parameters
+Source: "[[va12]]"
+tags:
+  - parameters
 Target: increase array performance
 Outcome: significant positive effect
 ---

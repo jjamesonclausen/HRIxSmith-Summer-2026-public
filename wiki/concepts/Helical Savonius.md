@@ -1,9 +1,12 @@
 ---
 Created: 2026-07-02
 Updated: 2026-07-07
-Sources: [[HRI2526]], [[vj12]]
+Sources:
+  - "[[HRI2526]]"
+  - "[[vj12]]"
 Source_count: 2
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Helical Savonius
 

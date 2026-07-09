@@ -1,9 +1,14 @@
 ---
 Created: 2026-07-03
 Updated: 2026-07-07
-Sources: [[va11]], [[va12]], [[va14]], [[va16]]
+Sources:
+  - "[[va11]]"
+  - "[[va12]]"
+  - "[[va14]]"
+  - "[[va16]]"
 Source_count: 4
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## H-rotor Wake Aerodynamics
 

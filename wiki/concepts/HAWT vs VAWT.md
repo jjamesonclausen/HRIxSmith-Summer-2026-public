@@ -1,9 +1,16 @@
 ---
 Created: 2026-06-25
 Updated: 2026-07-07
-Sources: [[vj1]], [[va6]], [[HRI2526]], [[va3]], [[vj23]], [[vj26]]
+Sources:
+  - "[[vj1]]"
+  - "[[va6]]"
+  - "[[HRI2526]]"
+  - "[[va3]]"
+  - "[[vj23]]"
+  - "[[vj26]]"
 Source_count: 6
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## HAWT vs VAWT
 

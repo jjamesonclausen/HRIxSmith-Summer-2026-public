@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-03
-Source: [[va2]]
-Tags: #parameters
+Source: "[[va2]]"
+tags:
+  - parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---

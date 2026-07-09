@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-03
-Source: [[vj7]]
-Tags: #parameters
+Source: "[[vj7]]"
+tags:
+  - parameters
 Target: increase blade lifetime
 Outcome: significant positive effect
 ---

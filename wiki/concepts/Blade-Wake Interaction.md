@@ -1,9 +1,11 @@
 ---
 Created: 2026-07-06
 Updated: 2026-07-07
-Sources: [[va23]]
+Sources:
+  - "[[va23]]"
 Source_count: 1
-Tags: #concepts
+tags:
+  - concepts
 ---
 ## Blade-Wake Interaction
 

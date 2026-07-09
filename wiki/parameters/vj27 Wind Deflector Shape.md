@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-07
-Source: [[vj27]]
-Tags: #parameters
+Source: "[[vj27]]"
+tags:
+  - parameters
 Target: increase Cp
 Outcome: significant positive effect
 ---

@@ -1,9 +1,11 @@
 ---
 Created: 2026-07-06
 Updated: 2026-07-07
-Sources: [[vj24]]
+Sources:
+  - "[[vj24]]"
 Source_count: 1
-Tags: #methods
+tags:
+  - methods
 ---
 ## PROFOIL
 

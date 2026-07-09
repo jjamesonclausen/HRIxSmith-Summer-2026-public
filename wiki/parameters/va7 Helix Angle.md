@@ -1,7 +1,8 @@
 ---
 Created: 2026-07-03
-Source: [[va7]]
-Tags: #parameters
+Source: "[[va7]]"
+tags:
+  - parameters
 Target: reduce torque ripple
 Outcome: significant positive effect
 ---
