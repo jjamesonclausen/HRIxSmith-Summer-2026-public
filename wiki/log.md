@@ -1,6 +1,18 @@
 #maintenance
 ## Log
 
+### 2026-07-09 - Append all-designs top ten to concept ranking worksheet
+
+- Task: add the full-design top-ten ranking to the bottom of `active/analysis/Concept ranking worksheet.md` using the same weighted system already used in the worksheet.
+- Actions:
+  - Appended an `All-Designs Top Ten` section to the bottom of the worksheet.
+  - Added the weighted-score explanation, duplicate-handling note, top-ten table, and an uncertainty note.
+- Decisions:
+  - Kept the section as a summary table rather than adding the full all-designs ranking, because the request was specifically to add the top ten.
+  - Preserved the same weights already used elsewhere in the worksheet for consistency.
+- Open:
+  - If desired, the full ranked list across all design pages can be added later below this top-ten summary.
+
 ### 2026-07-09 - Narrow H-VAWT parameter Bases view to H-type-related sources
 
 - Task: update the `H-VAWT design parameters` Obsidian Bases list in `active/analysis/Concept ranking worksheet.md` so it only shows parameter pages about or referencing H-type / H-rotor / straight-bladed VAWT designs.
