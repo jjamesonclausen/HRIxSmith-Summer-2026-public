@@ -270,7 +270,7 @@
 	- prompted llm to generate potential work plans for the remainder of the project
 		- generated several different timelines and a day by day breakdown
 		- compared with Julie and discussed best ideas
-		- *hard to get diverse results out of it without drastically *
+		- *hard to get diverse results out of it without drastically changing prompt*
 	- reorganized repo folders to be more navigable
 		- added daily logs and notes to the repo
 		- added folders to store CFD and CAD documentation
@@ -280,14 +280,18 @@
 ### Thursday 07/09
 
 `09:00` met w/ Mike + Julie to get started (0.5 hrs)
+`09:30` worked w/ Julie to finalize [[Design goal]] and [[_project timeline]] (2 hrs)
+	- made 8-12 m/s bins for metadata
+	- cleaned up file tagging, some naming, and folder organization
+`11:30` utilized wiki to compile list of potential design concepts, also considered criteria (2 hrs)
+*13:00-13:30 lunch/prep, 13:30-14:00 interview, 14:00-14:30 resume*
+`14:30` met w/ Julie to compare notes, discuss final design concept list and criteria 
+`15:30` check in w/ Mike + Julie
 
 
 
 Hours: 0
 **Next tasks:**
-	- logan airport logistics and/or blue hill data? or third option?
-		- height/distance rules surrounding runways
-	- finalize project plan using llm generated options
 	- start creating list of concepts to narrow down for vawt
 	-
 	- Dive into egr side of the project, looking towards next milestone of a report
@@ -297,4 +301,5 @@ Hours: 0
 		- Qualitative assessments? - we might want to define each category
 	- Constrain design space! What application are we designing for? Where will these be most useful? How can that help us narrow down metadata?
 		- Boston, wind speeds
+
 

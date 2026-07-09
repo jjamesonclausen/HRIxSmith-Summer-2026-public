@@ -1,0 +1,40 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("#designs")
+        - or:
+            - '!note["max Cp (1-4 m/s)"].isEmpty()'
+            - '!note["max Cp (4-8 m/s)"].isEmpty()'
+            - '!note["max Cp (8-12 m/s)"].isEmpty()'
+            - '!note["Cut-in speed (m/s)"].isEmpty()'
+            - '!note["Cut-out speed (m/s)"].isEmpty()'
+            - '!note["Rated power (W)"].isEmpty()'
+            - '!note["Rated speed (m/s)"].isEmpty()'
+            - '!note["Swept area (m^2)"].isEmpty()'
+    groupBy:
+      property: Cut-in speed (m/s)
+      direction: ASC
+    order:
+      - file.name
+      - Cut-in speed (m/s)
+      - Cut-out speed (m/s)
+      - Rated power (W)
+      - Rated speed (m/s)
+      - Swept area (m^2)
+      - max Cp (1-4 m/s)
+      - max Cp (4-8 m/s)
+      - max Cp (8-12 m/s)
+    columnSize:
+      file.name: 226
+      note.Cut-in speed (m/s): 71
+      note.Cut-out speed (m/s): 79
+      note.Rated power (W): 128
+      note.Rated speed (m/s): 136
+      note.Swept area (m^2): 140
+      note.max Cp (1-4 m/s): 95
+      note.max Cp (4-8 m/s): 97
+      note.max Cp (8-12 m/s): 98
+  - type: table
+    name: View

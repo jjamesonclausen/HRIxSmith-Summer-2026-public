@@ -1,6 +1,20 @@
 #maintenance
 ## Log
 
+### 2026-07-09 - Add concept ranking worksheet for BOS design selection
+
+- Task: create a comparison note in `active/analysis/` that gathers the currently discussed candidate concepts into one place and leaves the actual rankings blank for the user to fill in.
+- Actions:
+  - Created `active/analysis/Concept ranking worksheet.md`.
+  - Added the user-specified criteria list: startup ability, efficiency/economic potential, rated-speed fit, cut-out-speed fit, room for growth, CAD/manufacturability, and interest.
+  - Included both the earlier concept-family recommendations and the later non-traditional design examples, excluding the Venturi concept as requested.
+  - Structured the note as one evidence snapshot table plus one blank ranking table so the source-backed context stays visible without pre-filling scores.
+- Decisions:
+  - Kept overlapping entries such as the general reduced-interference hybrid path and the specific `vj20` design because the user is still comparing broad concept families against standout source-specific examples.
+  - Left all ranking cells blank by request.
+- Open:
+  - If desired later, the worksheet could be converted into an Obsidian Base or given weighted-scoring columns once the user decides how to rank each criterion.
+
 ### 2026-07-09 - Normalize wiki frontmatter for Obsidian Bases tags
 
 - Task: fix malformed YAML frontmatter so Obsidian Bases can reliably detect file tags, starting from the missing `#designs` results in `wiki/designs/` and then normalizing the same pattern across the wiki.
