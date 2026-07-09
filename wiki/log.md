@@ -1,6 +1,47 @@
 #maintenance
 ## Log
 
+### 2026-07-08 - Increase indentation hierarchy in Anna daily log
+
+- Task: adjust `active/_anna daily log.md` so bulleted material is visually indented relative to the flush-left time-stamped entries.
+- Actions:
+  - Kept all content and ordering unchanged.
+  - Indented free-standing task bullets one level deeper than the time-stamped entries.
+  - Indented section labels such as `Notes` and `Next tasks` one level in, with their bullets one additional level deeper.
+  - Indented nested bullets one additional level beneath their parent bullets.
+- Decisions:
+  - Treated this as a presentation-only pass to better match the original PDF's visual hierarchy.
+- Open:
+  - Final appearance may still vary slightly between Markdown renderers depending on how tabs are displayed.
+
+### 2026-07-08 - Correct Anna daily log formatting to preserve original chronology
+
+- Task: revise the formatting cleanup in `active/_anna daily log.md` so all information stays in its original order while still making time-stamped entries visually distinct from bullets.
+- Actions:
+  - Reworked the note to keep the original sequence of entries exactly as they appeared in the converted document.
+  - Changed time-stamped lines to standalone lines with inline-code times instead of bullet points.
+  - Kept tasks, sub-tasks, and note items as bullets in place rather than separating them into new sections.
+  - Left the image embed and external links unchanged.
+- Decisions:
+  - Preserved chronology over structural consistency because the ordering of events is part of the meaning of the log.
+  - Treated the earlier same-day reformat as superseded because it improved scanability but broke the intended chronological reading order.
+- Open:
+  - If wanted, a later pass could make the spacing even closer to the original PDF without changing content or order.
+
+### 2026-07-08 - Reformat Anna daily log for readability
+
+- Task: improve the formatting of `active/_anna daily log.md` so time-stamped entries are easy to scan and are visually distinct from task lists.
+- Actions:
+  - Reorganized each dated section into consistent subsections: `Time-Stamped Entries`, `Task Lists`, and `Notes` where applicable.
+  - Converted time markers to inline code formatting so the chronological entries stand out visually.
+  - Moved untimed bullets out of mixed activity streams and into task-list sections without changing the underlying content.
+  - Fixed a small bold-formatting artifact and one wording typo introduced during the cleanup pass.
+- Decisions:
+  - Kept the original wording and chronology as much as possible, focusing on readability rather than rewriting the content into a new template.
+  - Left the existing image embed and external web links unchanged.
+- Open:
+  - A later cleanup pass could normalize a few retroactive date labels around the `07/01` section if you want the chronology itself tightened, not just the formatting.
+
 ### 2026-07-08 - Create initial VAWT design-selection plan note
 
 - Task: save a detailed plan for selecting the initial VAWT concept family using the wiki, Boston airport wind data, available modeling tools, and the user's project constraints.
