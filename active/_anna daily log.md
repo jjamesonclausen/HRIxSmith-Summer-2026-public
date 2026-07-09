@@ -293,7 +293,8 @@
 Hours: 0
 **Next tasks:**
 	- start creating list of concepts to narrow down for vawt
-	-
+	- add shorter time interval data to investigate wind direction fluctuations 
+
 	- Dive into egr side of the project, looking towards next milestone of a report
 		- Continue adding sources AND LEARNING
 		- As we learn, think about WHAT data we need and HOW we want to see it
