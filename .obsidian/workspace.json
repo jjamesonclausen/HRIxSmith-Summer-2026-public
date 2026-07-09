@@ -8,20 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "70651a00716fe7ef",
+            "id": "856a735e056cf38d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "attachments/wind data/BOS_07.21_to_07.26_histogram.svg"
+              },
+              "icon": "lucide-image",
+              "title": "BOS_07.21_to_07.26_histogram"
+            }
+          },
+          {
+            "id": "a81e6f40380f1d7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "active/resources/Julie initial design screening.md",
+                "file": "active/_Julie_daily_log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Julie initial design screening"
+              "title": "_Julie_daily_log"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -183,11 +195,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "70651a00716fe7ef",
+  "active": "a81e6f40380f1d7f",
   "lastOpenFiles": [
-    "wiki/summaries/vj29-summary.md",
+    "attachments/wind data/BOS_07.21_to_07.26_histogram.svg",
     "active/_Julie_daily_log.md",
+    "attachments/PDFs/vj23.pdf",
+    "wiki/designs/vj23 3-Bladed Darrieus VAWT with Gearbox.md",
+    "wiki/designs/vj20 Proposed Hybrid VAWT.md",
+    "active/analysis/table of all designs.base",
+    "active/analysis/Design Comparison.base",
+    "wiki/designs/vj2 Savonius-Darrieus Hybrid Wind Turbine.md",
+    "wiki/designs/vj2 Shaftless Savonius-Darrieus Hybrid Wind Turbine.md",
+    "wiki/designs/vj2 Split Savonius Outside Darrieus Hybrid Wind Turbine.md",
+    "wiki/designs/va20 Involute Rotor with Wind Flow Modifier.md",
+    "wiki/designs/vj9 Scooplet-Based Savonius.md",
     "active/resources/Julie initial design screening.md",
+    "wiki/parameters/va23 Shifted Troposkien Vertical Offset.md",
+    "active/analysis/Concept ranking worksheet.md",
+    "active/_project timeline.md",
+    "wiki/summaries/vj29-summary.md",
     "sources/vj29.md",
     "wiki/parameters/vj29 Blade Number.md",
     "wiki/parameters/vj29 Solidity.md",
@@ -203,34 +229,19 @@
     "attachments/images/vj29-fig4.jpg",
     "attachments/images/vj29-fig3.jpg",
     "attachments/images/vj29-fig2.jpg",
-    "attachments/images/vj29-fig1.jpg",
     "attachments/PDFs/vj29.pdf",
     "wiki/concepts/Darrieus Turbine.md",
     "wiki/concepts/H-VAWT.md",
     "wiki/designs/va20 H-Type Rotor with C-Blade.md",
     "attachments/wind data/BOS_07.21_to_07.26.json",
     "attachments/wind data/BOS_07.21_to_07.26.txt",
-    "active/analysis/table of all designs.base",
     "wiki/designs/va9 EN0005 Self-start Darrieus VAWT.md",
     "active/analysis/Design goal.md",
     "wiki/concepts/Airport Regulations.md",
-    "attachments/wind data/BOS_07.25_to_07.26.md",
     "attachments/wind data/BOS_07.25_to_07.26.json",
-    "active/resources/14 CFR Part 77 -- Safe, Efficient Use, and Preservation of the Navigable Airspace.md",
-    "active/analysis/brainstorm.md",
     "active/_project timeline",
-    "wiki/designs/vj23 3-Bladed Darrieus VAWT with Gearbox.md",
-    "wiki/designs/HRI2526 Darrieus above Savonius.md",
     "active/analysis/table of all designs 1.base",
-    "active/resources/Notes on meeting July 7.md",
-    "wiki/designs/vj13 Three-Turbine Savonius Cluster.md",
-    "wiki/designs/va3 Venturi Wind Turbine.md",
-    "wiki/designs/va1 QuietRevolution QR5.md",
-    "wiki/designs/Windkop 5 kW H-Darrieus VAWT.md",
-    "wiki/designs/HRI2526 Classical Savonius.md",
     "active/resources/fluids concepts.pdf",
-    "active/_julie daily log.pdf",
-    "active/resources/zoo dev notes.pdf",
     "Untitled.canvas"
   ]
 }

@@ -5,10 +5,11 @@ views:
   - type: table
     name: Table
     groupBy:
-      property: Cut-in speed (m/s)
+      property: Cut-out speed (m/s)
       direction: ASC
     order:
       - file.name
+      - Cut-out speed (m/s)
       - Cut-in speed (m/s)
       - max Cp (4-8 m/s)
       - max Cp (1-4 m/s)
@@ -16,12 +17,9 @@ views:
       - max TSR (4-8 m/s)
       - max starting torque (Nm), (0-3 m/s)
       - max TSR (1-4 m/s)
-      - Cut-out speed (m/s)
       - Efficiency (%)
       - Swept area (m^2)
-    sort:
-      - property: max Cp (1-4 m/s)
-        direction: ASC
+    sort: []
   - type: cards
     name: View
     cardSize: 270

@@ -201,6 +201,11 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 - spent some time learning + asking questions to come up with designs/concepts worth perusing 
 	- [[Julie initial design screening]] 
 	- added another paper on h-type Darrieus VAWT 
+	- looked into wind data 
+- call anna 
+	- get minute by minute data!!!!
+		- look at direction change 
+		- consistency of speed for cut in prediction 
 ### Friday 7/10
 - Met with Mike + Anna - 9am
 ## Week 4
