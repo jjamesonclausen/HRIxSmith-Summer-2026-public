@@ -11,13 +11,14 @@
             "id": "70651a00716fe7ef",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "active/analysis/table of all designs.base",
-                "viewName": "Table"
+                "file": "active/_Julie_daily_log.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "table of all designs"
+              "icon": "lucide-file",
+              "title": "_Julie_daily_log"
             }
           }
         ]
@@ -52,12 +53,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "va9",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabeticalReverse"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -183,8 +184,20 @@
   },
   "active": "70651a00716fe7ef",
   "lastOpenFiles": [
-    "active/_Julie_daily_log.md",
+    "attachments/wind data/BOS_07.21_to_07.26_histogram.svg",
+    "attachments/wind data/BOS_07.21_to_07.26.json",
+    "attachments/wind data/BOS_07.21_to_07.26.txt",
     "active/analysis/table of all designs.base",
+    "wiki/designs/va9 EN0005 Self-start Darrieus VAWT.md",
+    "active/_Julie_daily_log.md",
+    "active/analysis/Design goal.md",
+    "wiki/concepts/Airport Regulations.md",
+    "attachments/wind data/BOS_07.25_to_07.26_histogram.svg",
+    "attachments/wind data/BOS_07.25_to_07.26.md",
+    "attachments/wind data/BOS_07.25_to_07.26.json",
+    "active/resources/14 CFR Part 77 -- Safe, Efficient Use, and Preservation of the Navigable Airspace.md",
+    "active/analysis/brainstorm.md",
+    "active/_project timeline",
     "wiki/designs/vj23 3-Bladed Darrieus VAWT with Gearbox.md",
     "wiki/designs/HRI2526 Darrieus above Savonius.md",
     "active/analysis/table of all designs 1.base",
@@ -206,13 +219,9 @@
     "active/_julie daily log.pdf",
     "active/resources/zoo dev notes.pdf",
     "active/resources/research resources.pdf",
-    "active/resources/llm wiki resources.pdf",
-    "active/_anna daily log.pdf",
     "active/_anna daily log.assets/image-1.png",
-    "active/_anna daily log.assets",
     "active/resources/Notes from meeting June 30th.md",
     "wiki/evals.md",
-    "active/Daily Log for Honda Project - Julie & Anna.pdf",
     "attachments/images/hri2526-fig136.jpg",
     "attachments/images/hri2526-fig138.jpg",
     "attachments/images/hri2526-fig137.jpg",
@@ -221,13 +230,6 @@
     "attachments/images/hri2526-fig140.jpg",
     "attachments/images/hri2526-fig141.jpg",
     "attachments/images/hri2526-fig142.jpg",
-    "attachments/images/hri2526-fig144.jpg",
-    "attachments/wind data/all_wind_data_mps.md",
-    "active/resources/RESOURCES.md",
-    "active/resources/README.md",
-    "active/resources/Obsidian + Markdown Cheatsheet.md",
-    "active/resources/Dataview Basics.md",
-    "active/planning/Work Plan A2.md",
     "Untitled.canvas"
   ]
 }

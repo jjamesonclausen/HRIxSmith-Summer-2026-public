@@ -8,13 +8,13 @@ Airports are particularly bad offenders in terms of carbon emissions, so reducin
 https://www.massport.com/environment/roadmap-to-net-zero
 
 ## Design Criteria 
-- competetive efficiency compared to current on-the-market vawts
+- competitive efficiency compared to current on-the-market vawts
 - designed for optimal performance at installation site (better than avg vawt for BOS)
   - able to cut in to optimize use of available wind energy
 - should be reasonable to manufacture, not more complex than necessary
-- minimal maintenence requirements
+- minimal maintenance requirements
 
-- economic feasability
+- economic feasibility
   - should produce enough power to offset its cost within half its lifetime
 - must comply with airport regulations
   - no structure can intercept an imaginary space, see concepts/airport regulations 

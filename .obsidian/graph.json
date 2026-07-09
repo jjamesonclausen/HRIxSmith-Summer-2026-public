@@ -1,9 +1,9 @@
 {
   "collapse-filter": false,
-  "search": "path:wiki/designs  ",
+  "search": "",
   "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
@@ -12,6 +12,20 @@
       "color": {
         "a": 1,
         "rgb": 14048348
+      }
+    },
+    {
+      "query": "tag:#concepts  ",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "tag:#sources  ",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
       }
     }
   ],
