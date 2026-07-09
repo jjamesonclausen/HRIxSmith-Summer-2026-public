@@ -53,7 +53,7 @@ Avg gusts: 6.3 m/s
 #### Criteria:
 - start up ability, ideally <= 3 m/s 
 - good enough efficiency to be economic
-- rated speed ~ 10-15 m/s
+- rated speed ~ 10 m/s
 - cut-out speed >= 20 m/s
 - room for growth (are there parameters that seem promising which we can plausibly model)
 - CADing ability + manufacturability
