@@ -1,22 +1,30 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "path:wiki/designs  ",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#designs  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -1.8,
-  "nodeSizeMultiplier": 1.13284740740741,
-  "lineSizeMultiplier": 0.724005925925926,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.396193771626298,
-  "repelStrength": 15.5934814814815,
-  "linkStrength": 0.241125925925926,
-  "linkDistance": 30,
-  "scale": 0.2685851428062738,
-  "close": true
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.8283700178894741,
+  "close": false
 }

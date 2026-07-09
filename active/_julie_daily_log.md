@@ -170,7 +170,7 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 
 - Met with Mike + Anna - 9am
 - Stayed on call with Anna - `3.75 hr`
-  - Picked out location + find data on the air port
+  - Picked out location + find [data on the airport ](https://mesonet.agron.iastate.edu/request/asos/1min.phtml)
     - Looks great has wind speed wind direction wind gust direction + speed
   - Look into airport regulation (air space)
   - Extract all data + convert to a json file + md file (and make folder)
@@ -188,33 +188,43 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 - Creating a workflow/plan
 
 ### Thursday 7/9
-
+- Met with Mike + Anna - 9am
+	- mike will contact brother about [ airport regulation](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-E/part-77) 
+	- gave this to the llm
+- stayed on call with anna to finalize plan 
+	- rename wind data 
+	- clean up files that aren't needed 
+	- write up final plan 
+		- refine with llm edits 
+	- lock in on location
+	- create [[design goal]] md file
 ### Friday 7/10
-
+- Met with Mike + Anna - 9am
 ## Week 4
 
 ### Monday 7/13
-
+- Met with Mike + Anna - 9am
 ### Tuesday 7/14
-
+- Met with Mike + Anna - 9am
 ### Wednesday 7/15
-
+- Met with Mike + Anna - 9am
 ### Thursday 7/16
-
+- Met with Mike + Anna - 9am
 ### Friday 7/17
-
+day off
 ## Week 5
 
 ### Monday 7/20
-
+- Met with Mike + Anna - 9am
 ### Tuesday 7/21
-
+- Met with Mike + Anna - 9am
+- meeting with Ryan and Duane -4 pm
 ### Wednesday 7/22
-
+- Met with Mike + Anna - 9am
 ### Thursday 7/23
-
+- Met with Mike + Anna - 9am
 ### Friday 7/24
-
+- Met with Mike + Anna - 9am
 ## Week 6
 
 ### Monday 7/27
