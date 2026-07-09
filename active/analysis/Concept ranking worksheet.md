@@ -42,16 +42,57 @@ Use this page to compare the current candidate concepts before locking a baselin
 
 Scoring is `1-5`, where `5` is best relative to the current candidate set for that category. A `*` marks an informed best guess where the repo does not give a direct metric or where the row is a broader concept family rather than one single tested turbine.
 
+| Candidate                                       | Startup ability | Efficiency / economics | Rated speed fit | Cut-out speed fit | Room for growth | CAD + manufacturability | Interesting to us | Overall notes                                                                                                              |
+| ----------------------------------------------- | --------------- | ---------------------- | --------------- | ----------------- | --------------- | ----------------------- | ----------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Self-starting straight-bladed H-rotor Darrieus  | 5               | 4                      | 4*              | 5                 | 5               | 4                       | 5*                | Strongest low-wind startup in the set, high reported `Cp`, and the cleanest path for modeling and iteration.               |
+| Low-TSR helical Darrieus                        | 3               | 2                      | 5               | 3*                | 4               | 3                       | 4*                | Good urban-oriented refinement and closest known rated-speed match, but lower `Cp` and harder fabrication.                 |
+| [[va20 Involute Rotor with Wind Flow Modifier]] | 3*              | 4                      | 1*              | 4*                | 4*              | 2                       | 4*                | Interesting low-wind booster concept, but the directional modifier makes it less clean for BOS-style omnidirectional use.  |
+| [[vj20 Proposed Hybrid VAWT]]                   | 4               | 5                      | 3               | 3*                | 5               | 3                       | 5*                | Best reported `Cp` in the worksheet and strong self-start evidence, with complexity as the main drawback.                  |
+| [[va23 50% STS-VAWT]]                           | 1*              | 3                      | 3*              | 4*                | 3*              | 4                       | 3*                | Clever wake-management design, but it is much better supported as an efficiency tweak than as a low-wind startup solution. |
+| [[vj9 Scooplet-Based Savonius]]                 | 4*              | 2*                     | 1*              | 2*                | 3*              | 5                       | 3*                | Very manufacturable and clearly improved over a classical Savonius, but still limited by drag-rotor efficiency.            |
+
+## Weighted Overall Ranking
+
+Using your weights: startup `35%`, efficiency `35%`, CAD + manufacturability `15%`, rated speed fit `10%`, room for growth `2.5%`, and cut-out speed fit `2.5%`. The `Interesting to us` column is not included in this weighted score.
+
+| Rank | Candidate | Weighted score (/5) | Notes |
+| ---- | --------- | ------------------- | ----- |
+| 1 | Self-starting straight-bladed H-rotor Darrieus | 4.40 | Highest overall mainly because it stays strong in both startup and efficiency, which dominate your weighting. |
+| 2 | [[vj20 Proposed Hybrid VAWT]] | 4.10 | Very close second because of its top efficiency score and strong startup score, with lower CAD score holding it back. |
+| 3 | [[vj9 Scooplet-Based Savonius]] | 3.08 | CAD score helps a lot here, but low efficiency and rated-speed fit keep it mid-pack. |
+| 4 | [[va20 Involute Rotor with Wind Flow Modifier]] | 3.05 | Good efficiency and decent growth potential, but weak rated-speed fit and low CAD score reduce the total. |
+| 5 | Low-TSR helical Darrieus | 2.88 | Good rated-speed fit, but the lower startup and efficiency scores hurt because those categories carry most of the weight. |
+| 6 | [[va23 50% STS-VAWT]] | 2.48 | The weak startup score hurts most under this weighting, even though CAD and cut-out fit are better. |
+
+## H-Type Example Ranking
+
+This section narrows the comparison to explicit H-type / H-rotor Darrieus examples with dedicated design pages, plus `[[vj20 Proposed Hybrid VAWT]]` as the hybrid benchmark. It excludes the drag-only `va20` H-type C-blade and the HRI project-summary duplicates.
+
 | Candidate | Startup ability | Efficiency / economics | Rated speed fit | Cut-out speed fit | Room for growth | CAD + manufacturability | Interesting to us | Overall notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Self-starting straight-bladed H-rotor Darrieus | 5 | 4 | 4* | 5 | 5 | 4 | 5* | Strongest low-wind startup in the set, high reported `Cp`, and the cleanest path for modeling and iteration. |
-| Low-TSR helical Darrieus | 3 | 2 | 5 | 3* | 4 | 2 | 4* | Good urban-oriented refinement and closest known rated-speed match, but lower `Cp` and harder fabrication. |
-| Reduced-interference hybrid | 5* | 5* | 3* | 3* | 5* | 1* | 5* | Very strong startup-plus-`Cp` upside from the hybrid logic, but also the most complex family-level path here. |
-| Compact drag-based J-type / Savonius-derived fallback | 4 | 1 | 2 | 2* | 2* | 5 | 3* | Safest simple fallback for startup and fabrication, but the weakest efficiency ceiling. |
-| [[va20 Involute Rotor with Wind Flow Modifier]] | 3* | 4 | 1* | 4* | 4* | 2 | 4* | Interesting low-wind booster concept, but the directional modifier makes it less clean for BOS-style omnidirectional use. |
-| [[vj20 Proposed Hybrid VAWT]] | 4 | 5 | 3 | 3* | 5 | 1 | 5* | Best reported `Cp` in the worksheet and strong self-start evidence, with complexity as the main drawback. |
-| [[va23 50% STS-VAWT]] | 1* | 3 | 3* | 4* | 3* | 3 | 3* | Clever wake-management design, but it is much better supported as an efficiency tweak than as a low-wind startup solution. |
-| [[vj9 Scooplet-Based Savonius]] | 4* | 2* | 1* | 2* | 3* | 5 | 3* | Very manufacturable and clearly improved over a classical Savonius, but still limited by drag-rotor efficiency. |
+| [[va9 EN0005 Self-start Darrieus VAWT]] | 5 | 4 | 3* | 5 | 5 | 4 | 5* | Strongest startup evidence in the H-type set and still one of the better efficiency cases. |
+| [[va25 Reference H-Rotor Darrieus VAWT]] | 2* | 3 | 3* | 3* | 4 | 4 | 3* | Useful validated baseline, but much more of a reference model than a fully characterized product concept. |
+| [[va26 3-Bladed H-Type VAWT]] | 2* | 3* | 4* | 3* | 4 | 4 | 4* | Practical fixed-pitch H-type study with clear optimization room, but weak direct startup evidence. |
+| [[va27 Reference One-Bladed H-Type VAWT]] | 1* | 2* | 2* | 3* | 4 | 3 | 2* | Helpful for airfoil-shape exploration, but not a strong practical turbine candidate by itself. |
+| [[vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 2)]] | 2* | 4 | 5 | 3* | 3* | 4 | 3* | Strong modeled efficiency and a clean `10 m/s` design point, but still a design-method case with missing startup data. |
+| [[vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 0.4)]] | 2* | 5 | 5 | 3* | 4* | 3 | 4* | Best pure H-type efficiency case in this narrower set, with lower `AR` also presented as the better-performing option. |
+| [[va28 Windkop 5 kW H-Darrieus VAWT]] | 4* | 1* | 2* | 2* | 2* | 3 | 3* | Real deployed H-type hardware, but the reported operating results are poor and several key limits are unclear. |
+| [[vj20 Proposed Hybrid VAWT]] | 4 | 5 | 3 | 3* | 5 | 3 | 5* | Highest-performance hybrid benchmark here, with stronger startup than most pure H-types but added complexity. |
+
+## H-Type Weighted Ranking
+
+Using the same weights as above: startup `35%`, efficiency `35%`, CAD + manufacturability `15%`, rated speed fit `10%`, room for growth `2.5%`, and cut-out speed fit `2.5%`.
+
+| Rank | Candidate | Weighted score (/5) | Notes |
+| --- | --- | --- | --- |
+| 1 | [[va9 EN0005 Self-start Darrieus VAWT]] | 4.30 | Best overall because it combines the strongest startup evidence with still-strong efficiency and growth potential. |
+| 2 | [[vj20 Proposed Hybrid VAWT]] | 4.10 | Nearly as strong overall, with top-tier efficiency and good startup but more complexity. |
+| 3 | [[vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 0.4)]] | 3.58 | Best pure H-type efficiency score in this set, helped by a strong rated-speed fit. |
+| 4 | [[vj25 1-kW Twin-Bladed H-Rotor VAWT (AR 2)]] | 3.35 | Also a strong modeled H-type, but slightly behind the lower-`AR` variant. |
+| 5 | [[va26 3-Bladed H-Type VAWT]] | 2.93 | Reasonable all-around research candidate, but limited by missing direct startup and whole-rotor performance data. |
+| 6 | [[va25 Reference H-Rotor Darrieus VAWT]] | 2.83 | Solid benchmark reference, but not as compelling as a concept-selection target. |
+| 7 | [[va28 Windkop 5 kW H-Darrieus VAWT]] | 2.50 | Real-world deployment helps, but the reported performance record in the repo is weak. |
+| 8 | [[va27 Reference One-Bladed H-Type VAWT]] | 1.88 | Most useful as a simplified computational study rather than as a practical turbine concept. |
 
 ## Notes
 

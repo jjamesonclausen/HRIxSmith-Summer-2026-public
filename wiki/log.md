@@ -1,6 +1,53 @@
 #maintenance
 ## Log
 
+### 2026-07-09 - Add H-type-only concept ranking and weighted scores
+
+- Task: rank the explicit H-type / H-rotor Darrieus examples in the repo, plus `vj20`, using the same category style and weighted scoring approach as the main concept worksheet.
+- Actions:
+  - Selected the explicit H-type / H-rotor design-page set: `va9`, `va25`, `va26`, `va27`, `vj25 (AR 2)`, `vj25 (AR 0.4)`, `va28`, and `vj20`.
+  - Excluded the drag-only `va20` H-type C-blade case and the HRI summary duplicates so the comparison stayed focused on direct H-type examples and one hybrid benchmark.
+  - Added an `H-Type Example Ranking` table with `1-5` category scores and `*` markers on estimate-based cells.
+  - Added an `H-Type Weighted Ranking` section using the same weights as the main worksheet.
+- Decisions:
+  - Treated many startup, rated-speed, and cut-out scores as estimated because several H-type source pages are CFD references or design-method studies rather than full catalog-style performance reports.
+  - Kept `vj20` in the narrowed set because the user explicitly asked to include it alongside the H-type examples.
+- Open:
+  - If desired, the H-type set could be broadened later to include the straight-bladed but not explicitly labeled H-type cases such as `va24`, `vj22`, `vj24`, and `va3 Windspire Gyromill`.
+
+### 2026-07-09 - Add weighted overall concept ranking
+
+- Task: calculate an overall ranking for the remaining concept rows in `active/analysis/Concept ranking worksheet.md` using the user-specified weights.
+- Actions:
+  - Applied weights of `35%` startup, `35%` efficiency, `15%` CAD + manufacturability, `10%` rated-speed fit, `2.5%` room for growth, and `2.5%` cut-out-speed fit.
+  - Added a `Weighted Overall Ranking` section with ranked scores out of `5` for the six remaining candidates.
+- Decisions:
+  - Excluded `Interesting to us` from the weighted score because the user did not assign it a weight.
+  - Kept the weighted scores on the same `1-5` scale as the input rankings so they remain easy to compare.
+- Open:
+  - Because several source-row inputs are starred estimates, the weighted totals should also be treated as partly estimate-based.
+
+### 2026-07-09 - Adjust CAD rankings in concept worksheet
+
+- Task: change the `CAD + manufacturability` scores in `active/analysis/Concept ranking worksheet.md` to the user-specified order `4, 3, 2, 3, 4, 5` for the six remaining rows.
+- Actions:
+  - Updated the helical Darrieus, `vj20`, and `va23` rows so the CAD column now reads `4, 3, 2, 3, 4, 5` from top to bottom.
+- Decisions:
+  - Left all non-CAD rankings and notes unchanged.
+- Open:
+  - If desired, the written note text can be adjusted next so the commentary matches the revised CAD ordering more closely.
+
+### 2026-07-09 - Remove compact J-type row from concept ranking worksheet
+
+- Task: delete the `Compact drag-based J-type / Savonius-derived fallback` labeled row from the ranking table in `active/analysis/Concept ranking worksheet.md`.
+- Actions:
+  - Removed the `Compact drag-based J-type / Savonius-derived fallback` row from the ranking table only.
+  - Removed the `Reduced-interference hybrid` row from the ranking table only.
+- Decisions:
+  - Left the evidence snapshot and note text unchanged because the request was specifically to remove ranking-table rows.
+- Open:
+  - If desired, those same candidates can also be removed from the candidate list and evidence snapshot for consistency.
+
 ### 2026-07-09 - Fill concept ranking worksheet with 1-5 scores
 
 - Task: fill the empty ranking table in `active/analysis/Concept ranking worksheet.md` with `1-5` rankings for each current turbine concept, using direct repo evidence where available and marking best-guess scores with `*`.
