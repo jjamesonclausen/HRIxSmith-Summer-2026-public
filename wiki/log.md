@@ -1,6 +1,20 @@
 #maintenance
 ## Log
 
+### 2026-07-09 - Narrow H-VAWT parameter Bases view to H-type-related sources
+
+- Task: update the `H-VAWT design parameters` Obsidian Bases list in `active/analysis/Concept ranking worksheet.md` so it only shows parameter pages about or referencing H-type / H-rotor / straight-bladed VAWT designs.
+- Actions:
+  - Read the existing Bases block in `active/analysis/Concept ranking worksheet.md`.
+  - Replaced the old tag-only filter with a tag filter plus an explicit source-ID allowlist for the H-type-related parameter sources currently represented in the repo.
+  - Kept the existing view name, ordering, and sort settings unchanged.
+  - Verified that the note still uses Obsidian wikilinks and does not introduce Markdown `.md` path links.
+- Decisions:
+  - Filtered by `note.Source` values rather than by raw body text, because the parameter pages are single-source notes and the source IDs are the clearest stable boundary for this list.
+  - Included both pure H-type / straight-bladed sources and the clearly H-rotor-referencing hybrid case `vj20`, while excluding unrelated Savonius, helical-only, array-only, and generic VAWT parameter pages.
+- Open:
+  - If more H-type-related parameter sources are added later, this Bases allowlist will need to be extended to include their source IDs.
+
 ### 2026-07-09 - Add H-type-only concept ranking and weighted scores
 
 - Task: rank the explicit H-type / H-rotor Darrieus examples in the repo, plus `vj20`, using the same category style and weighted scoring approach as the main concept worksheet.
