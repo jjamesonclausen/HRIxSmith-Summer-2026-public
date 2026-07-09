@@ -74,6 +74,7 @@ _One page per file in `sources/`._
 - [[vj26-summary]]
 - [[vj27-summary]]
 - [[vj28-summary]]
+- [[vj29-summary]]
 
 ## Concepts
 
@@ -250,6 +251,10 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[vj27 Wind Deflector Shape]]
 - [[vj27 Wind Deflector Position and Orientation]]
 - [[vj28 Blade Airfoil]]
+- [[vj29 Blade Number]]
+- [[vj29 Blade Profile]]
+- [[vj29 Pitch Angle]]
+- [[vj29 Solidity]]
 - [[va12 Array Angle in Paired VAWT Arrays]]
 - [[va12 Relative Rotational Orientation in Paired VAWT Arrays]]
 - [[va12 Turbine Spacing in Paired VAWT Arrays]]

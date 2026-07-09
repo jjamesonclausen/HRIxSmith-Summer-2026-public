@@ -1,6 +1,6 @@
 ---
 Created: 2026-06-29
-Updated: 2026-07-08
+Updated: 2026-07-09
 Sources:
   - "[[vj5]]"
   - "[[va10]]"
@@ -18,7 +18,8 @@ Sources:
   - "[[va27]]"
   - "[[vj11]]"
   - "[[vj28]]"
-Source_count: 16
+  - "[[vj29]]"
+Source_count: 17
 tags:
   - concepts
 ---
@@ -54,6 +55,10 @@ Unsteady aerodynamic separation that occurs when a blade experiences rapidly cha
 The VAWT review says dynamic stall is driven by leading-edge vortex growth and shedding, plus blade-vortex interaction on the downwind pass. (source: sources/vj11.md)
 It notes that the lift overshoot during dynamic stall can reach about 50% above the static maximum lift coefficient. (source: sources/vj11.md)
 It treats low TSR operation as the regime where angle-of-attack excursions most strongly trigger dynamic stall and torque troughs. (source: sources/vj11.md)
+
+The `vj29` review again treats dynamic stall as one of the central H-rotor performance limits, alongside low self-starting torque and complicated unsteady wake behavior. (source: sources/vj29.md)
+- It says transition `SST` and hybrid `RANS-LES` approaches improve low-Reynolds-number and dynamic-stall prediction compared with simpler fully turbulent closures, while standard `RANS` models still tend to delay separation and under-resolve deep-stall behavior. (source: sources/vj29.md)
+- It also warns that the anisotropic, separated, rotating flows present during deep stall are a bad fit for simple eddy-viscosity assumptions, which is one reason peak-TSR `Cp` can be overpredicted in lower-fidelity CFD. (source: sources/vj29.md)
 
 Related:
 - [[VAWT]]

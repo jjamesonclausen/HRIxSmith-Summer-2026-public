@@ -1,4 +1,4 @@
-## Over all 
+## Overall 
 - hybrid is a good option to optimize for self starting and efficiency but might not be best fit for this project 
 	- hard to model?
 - Darrieus if we optimized it for its self starting abilities seems the best 

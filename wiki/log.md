@@ -3191,3 +3191,22 @@ Open:
   - Kept both histograms in the note so the one-year data-gap view and the five-year AEO view can be compared side by side in the same section.
 - Open:
   - If desired, the same five-year histogram could also be embedded into `active/analysis/Design goal.md` later.
+
+### 2026-07-09 - Convert and ingest vj29 H-type Darrieus review
+
+- Task: convert `attachments/PDFs/vj29.pdf` into `sources/vj29.md` and ingest it into the wiki according to the repository conversion and source-ingest workflow.
+- Actions:
+  - Read the PDF and created `sources/vj29.md` with source frontmatter, major section structure, cleaned page text, and in-place figure captions.
+  - Extracted ten visible review figures into `attachments/images/vj29-fig1.jpg` through `attachments/images/vj29-fig10.jpg` and linked them from the source note.
+  - Added `wiki/summaries/vj29-summary.md`.
+  - Added source-specific parameter pages `wiki/parameters/vj29 Blade Profile.md`, `wiki/parameters/vj29 Pitch Angle.md`, `wiki/parameters/vj29 Solidity.md`, and `wiki/parameters/vj29 Blade Number.md`.
+  - Updated `wiki/concepts/H-VAWT.md`, `wiki/concepts/CFD and Validation.md`, and `wiki/concepts/Dynamic Stall.md` with `vj29`-supported claims.
+  - Updated `wiki/index.md` to include the new summary and parameter pages.
+  - Marked `sources/vj29.md` as processed.
+  - Verified there are no local Markdown `.md` path links in `wiki/` after the ingest edits.
+- Decisions:
+  - Treated `vj29` as a review-and-synthesis source, so the ingest focused on summary, concept updates, and source-specific parameter pages rather than creating a single design page for one turbine.
+  - Kept the source conversion close to the extracted paper text rather than rewriting it into a cleaner editorial form, because the conversion workflow requires preserving the paper content rather than paraphrasing it.
+  - Used rendered figure-region crops for the PDF figures instead of trying to recover every original embedded image object individually, because the visible review figures are composite page graphics.
+- Open:
+  - `sources/vj29.md` is readable and figure-linked, but some table-heavy sections remain rough PDF text extractions rather than fully normalized Markdown tables.
