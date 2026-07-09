@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "active/resources/Julie initial design screening.md",
+                "file": "wiki/designs/va26 3-Bladed H-Type VAWT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Julie initial design screening"
+              "title": "va26 3-Bladed H-Type VAWT"
             }
           }
         ]
@@ -185,8 +185,11 @@
   },
   "active": "70651a00716fe7ef",
   "lastOpenFiles": [
-    "active/_Julie_daily_log.md",
+    "wiki/concepts/Darrieus Turbine.md",
+    "wiki/concepts/H-VAWT.md",
+    "wiki/designs/va20 H-Type Rotor with C-Blade.md",
     "active/resources/Julie initial design screening.md",
+    "active/_Julie_daily_log.md",
     "attachments/wind data/BOS_07.21_to_07.26_histogram.svg",
     "attachments/wind data/BOS_07.21_to_07.26.json",
     "attachments/wind data/BOS_07.21_to_07.26.txt",
@@ -217,13 +220,10 @@
     "active/_anna daily log.md",
     "active/planning/J_design_selection_plan.md",
     "active/planning/J_5_week_plan.md",
-    "active/_julie daily log.md",
     "active/_julie daily log.pdf",
     "active/resources/zoo dev notes.pdf",
     "active/resources/research resources.pdf",
     "active/_anna daily log.assets/image-1.png",
-    "active/resources/Notes from meeting June 30th.md",
-    "wiki/evals.md",
     "attachments/images/hri2526-fig136.jpg",
     "attachments/images/hri2526-fig138.jpg",
     "attachments/images/hri2526-fig137.jpg",

@@ -45,13 +45,17 @@ key things to look for seem to be cut in speed and Cp values for 4-5 m/s winds
 	- is the wind data we have accurate enough for the spot we would really put the turbine?
 - Best Darrieus subfamilies for BOS. 
 	- Straight-bladed H-Darrieus  
-		- 
+		- has the highest peak Cp 
+		- easiest to model 
 	- Helical Darrieus
-	- Troposkien 
+		- more complex to model 
+		- some losses in Cp 
 	- Eggbeater
-	- 
+		- we have less data on this kind 
+		- might be hard to model with the curved blades 
+- startup-improvement strategies for h-rotor
 
 
 
-2. Rank the best startup-improvement strategies for an H-rotor at BOS.
-3. Build a shortlist of 5 specific designs consistent with this updated family choice.
+
+2. Build a shortlist of 5 specific designs consistent with this updated family choice.
