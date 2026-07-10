@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sources/vj20.md",
+                "file": "active/_Julie_daily_log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vj20"
+              "title": "_Julie_daily_log"
             }
           }
         ]
@@ -182,20 +182,38 @@
       "bases:Create new base": false
     }
   },
-  "active": "a81e6f40380f1d7f",
+  "active": "430d4667079a6ae2",
   "lastOpenFiles": [
+    "AnuPpuccin/versions.json",
+    "AnuPpuccin/theme.css",
+    "AnuPpuccin/src/modules/Markdown-Elements/Callouts/styles/vanilla-plus.scss",
+    "AnuPpuccin/src/modules/Markdown-Elements/Callouts/styles/sleek.scss",
+    "AnuPpuccin/src/modules/Markdown-Elements/Callouts/styles/vanilla-normal.scss",
+    "AnuPpuccin/src/modules/Markdown-Elements/Callouts/styles/block.scss",
+    "AnuPpuccin/src/modules/Workspace/Tabs/safari-vanilla-tabs.scss",
+    "AnuPpuccin/src/modules/Workspace/Tabs/safari-tabs.scss",
+    "AnuPpuccin/src/modules/Workspace/Tabs/main.scss",
+    "AnuPpuccin/src/modules/Workspace/Tabs/minimalistic-tabs.scss",
+    "AnuPpuccin/src/modules/Workspace/Tabs/index.scss",
+    "AnuPpuccin/preview.png",
+    "AnuPpuccin/assets/colorschemes/solarized-light.webp",
+    "AnuPpuccin/assets/colorschemes/solarized-dark.webp",
+    "AnuPpuccin/assets/colorschemes/sandy-beaches-light.webp",
+    "AnuPpuccin/assets/colorschemes/royal-velvet.webp",
+    "AnuPpuccin/assets/colorschemes/rosepine-light.webp",
+    "AnuPpuccin/assets/colorschemes/rosepine-dark.webp",
+    "AnuPpuccin/assets/colorschemes/rosebox-dark.webp",
+    "AnuPpuccin/assets/colorschemes/notion-light.webp",
+    "AnuPpuccin/assets/colorschemes/dracula-dark.webp",
+    "AnuPpuccin/README.md",
+    "active/_Julie_daily_log.md",
     "sources/va9.md",
-    "attachments/PDFs/va9_raw.pdf",
-    "attachments/PDFs/vj20.pdf",
+    "active/CAD log/j710_va9_initial.md",
+    "active/CAD log/a710_vj20_initial.md",
     "sources/vj20.md",
     "active/analysis/Concept ranking worksheet.md",
-    "active/_Julie_daily_log.md",
-    "attachments/wind data/BOS_07.21_to_07.26_histogram.svg",
-    "attachments/PDFs/vj23.pdf",
     "wiki/designs/vj23 3-Bladed Darrieus VAWT with Gearbox.md",
     "wiki/designs/vj20 Proposed Hybrid VAWT.md",
-    "active/analysis/table of all designs.base",
-    "active/analysis/Design Comparison.base",
     "wiki/designs/vj2 Savonius-Darrieus Hybrid Wind Turbine.md",
     "wiki/designs/vj2 Shaftless Savonius-Darrieus Hybrid Wind Turbine.md",
     "wiki/designs/vj2 Split Savonius Outside Darrieus Hybrid Wind Turbine.md",
@@ -211,24 +229,7 @@
     "wiki/parameters/vj29 Pitch Angle.md",
     "wiki/parameters/vj29 Blade Profile.md",
     "wiki/designs/va26 3-Bladed H-Type VAWT.md",
-    "attachments/images/vj29-fig10.jpg",
-    "attachments/images/vj29-fig9.jpg",
-    "attachments/images/vj29-fig8.jpg",
-    "attachments/images/vj29-fig7.jpg",
-    "attachments/images/vj29-fig6.jpg",
-    "attachments/images/vj29-fig5.jpg",
-    "attachments/images/vj29-fig4.jpg",
-    "attachments/images/vj29-fig3.jpg",
-    "attachments/images/vj29-fig2.jpg",
-    "attachments/PDFs/vj29.pdf",
     "wiki/concepts/Darrieus Turbine.md",
-    "wiki/concepts/H-VAWT.md",
-    "wiki/designs/va20 H-Type Rotor with C-Blade.md",
-    "attachments/wind data/BOS_07.21_to_07.26.json",
-    "attachments/wind data/BOS_07.21_to_07.26.txt",
-    "wiki/designs/va9 EN0005 Self-start Darrieus VAWT.md",
-    "attachments/wind data/BOS_07.25_to_07.26.json",
-    "active/_project timeline",
     "Untitled.canvas"
   ]
 }
