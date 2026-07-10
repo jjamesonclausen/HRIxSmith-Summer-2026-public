@@ -292,18 +292,21 @@
 		- *used llm to compile and rank list of other designs of the winning category (h-vawts)*,
 		- *made an obsidian base list of all parameters pages that apply to h-vawts*
 
+### Friday 07/10
 
+`09:00` met w/ Mike + Julie to get started, discussed llm use (0.75 hrs)
+	*Using the LLM for the design selection greatly sped up the process \[of design selection] but potentially at the cost of a deeper understanding of the designs on our end. It feels as if some of the slow, inefficient tasks which we are handing off to the LLM are actually where we, the humans, would otherwise be learning. The LLM wiki is a very interesting and useful resource since it is essentially an expert in the field that can instantly retrieve lots of information across the many sources we gave it, however, since we are relying on the wiki to manage this knowledge, we feel like we don't have a very deep understanding of any of it. We have only briefly skimmed the many sources in the wiki so the decisions we are making with the LLM's help feel almost a little arbitrary and we are questioning if we have enough knowledge to be asking the right questions and making the right decisions about the LLM's output. Additionally, there are still sometimes questions about the LLM's 'understanding' of the information, or lack thereof, causes it to make choices that we wouldn't make, or give answers that sound very good, and technically aren't a lie, but aren't quite right either. Using it to rank designs has been interesting since we generally trust it a lot to pull out quantitative data accurately, but sometimes it would use general background info to infer a statistic it couldn't find and if Julie and I hadn't realized that, its ranking would have appeared to be more reliable than it was.* 
+`09:45` worked w/ Julie to further analyze rankings, discussed top options (1.25 hrs)
+	- different weights based on personas: results-oriented expert, process-oriented beginner
+	- looking into the top couple designs, verifying the rankings the llm gave (not 100% right)
+	- concluded that the top two designs are pretty  much on equal footing and that we should play around with both in Zoo and read up on both and potential parameters to change
+`11:00`
+	- 
 
 Hours: 0
 **Next tasks:**
 	- add shorter time interval data to investigate wind direction fluctuations 
--
-	- Dive into egr side of the project, looking towards next milestone of a report
-		- Continue adding sources AND LEARNING
-		- As we learn, think about WHAT data we need and HOW we want to see it
-	- Improve wiki's utility for the egr side of the project
-		- Qualitative assessments? - we might want to define each category
-	- Constrain design space! What application are we designing for? Where will these be most useful? How can that help us narrow down metadata?
-		- Boston, wind speeds
+	- play around in 
+
 
 
