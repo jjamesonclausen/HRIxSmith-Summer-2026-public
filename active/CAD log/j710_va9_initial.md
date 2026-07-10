@@ -108,6 +108,12 @@ Deliverables:
 - The repo does not currently give every hidden structural dimension.
 - The note should treat support-arm geometry and exact blade-end angle as inferred unless another source is added.
 
+## Prompts 
+- i first gave it the three images recommended 
+- then gave the demetons given 
+- told it to remove a section it added 
+- then gave it the blade profile to get it to get the shape correct 
+
 ## Related
 
 - [[va9 EN0005 Self-start Darrieus VAWT]]
