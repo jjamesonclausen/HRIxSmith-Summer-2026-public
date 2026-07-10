@@ -1,6 +1,20 @@
 #maintenance
 ## Log
 
+### 2026-07-10 - Move `va9` figures from end section into in-text locations
+
+- Task: update `sources/va9.md` so each figure appears where the manuscript first references it instead of using `See Fig. X at the end of the manuscript` placeholders.
+- Actions:
+  - Read `schema/Extract Figure` and `schema/Maintain Wiki` before editing.
+  - Replaced all `Fig. 1` through `Fig. 29` placeholder lines in `sources/va9.md` with the existing caption and image blocks.
+  - Removed the redundant `## Figure captions` section after moving those figure blocks into the body text.
+  - Verified that `sources/va9.md` no longer contains `See Fig.` placeholders or the trailing figure-captions section.
+- Decisions:
+  - Kept tables in their existing end-of-manuscript section because the request was specifically about figures.
+  - Reused the existing captions and image paths exactly rather than rewriting any source text.
+- Open:
+  - `See Table ... at the end of the manuscript` placeholders remain in `sources/va9.md` if the same cleanup is wanted for tables later.
+
 ### 2026-07-09 - Raise vj20 CAD score and add EN0005 comparison
 
 - Task: update the worksheet after the user judged `vj20` to deserve a `CAD + manufacturability` score of `4` instead of `3`, and compare `EN0005` against `vj20` across the weighting schemes already used in the note.
@@ -73,6 +87,20 @@
   - Preserved the same weights already used elsewhere in the worksheet for consistency.
 - Open:
   - If desired, the full ranked list across all design pages can be added later below this top-ten summary.
+
+### 2026-07-09 - Narrow H-VAWT parameter Bases view to H-type-related sources
+
+- Task: update the `H-VAWT design parameters` Obsidian Bases list in `active/analysis/Concept ranking worksheet.md` so it only shows parameter pages about or referencing H-type / H-rotor / straight-bladed VAWT designs.
+- Actions:
+  - Read the existing Bases block in `active/analysis/Concept ranking worksheet.md`.
+  - Replaced the old tag-only filter with a tag filter plus an explicit source-ID allowlist for the H-type-related parameter sources currently represented in the repo.
+  - Kept the existing view name, ordering, and sort settings unchanged.
+  - Verified that the note still uses Obsidian wikilinks and does not introduce Markdown `.md` path links.
+- Decisions:
+  - Filtered by `note.Source` values rather than by raw body text, because the parameter pages are single-source notes and the source IDs are the clearest stable boundary for this list.
+  - Included both pure H-type / straight-bladed sources and the clearly H-rotor-referencing hybrid case `vj20`, while excluding unrelated Savonius, helical-only, array-only, and generic VAWT parameter pages.
+- Open:
+  - If more H-type-related parameter sources are added later, this Bases allowlist will need to be extended to include their source IDs.
 
 ### 2026-07-09 - Add H-type-only concept ranking and weighted scores
 

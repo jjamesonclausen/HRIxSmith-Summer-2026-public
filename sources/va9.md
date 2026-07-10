@@ -180,17 +180,25 @@ The new approach assesses those Cpr contributions to the tangential force Tpr an
 
 1. Discrete procedure in the blade profile surface, chose a number of segments and divide the blade profile surface in segments, as illustrated in Fig. 1;
 
-"See Fig. 1 at the end of the manuscript".
+Fig. 1. Blade profile segmentation.
+
+![Fig. 1. Blade profile segmentation.](va9-fig1.jpg)
 
 2. Calculate using (9) the values of Cpr at each segment of the blade profile surface, values of Cpr are illustrated in Fig. 2;
 
-"See Fig. 2 at the end of the manuscript".
+Fig. 2. Cpr at each blade profile segment.
+
+![Fig. 2. Cpr at each blade profile segment.](va9-fig2.jpg)
 
 3. Calculate using (10), (11), (12) and (13) the Cpr contributions to the tangential force Tpr and the normal force Npr for the upper blade surface and for the lower blade surface, the contributions are respectively illustrated in Fig. 3 and in Fig. 4;
 
-"See Fig. 3 at the end of the manuscript".
+Fig. 3. Cpr at one blade profile segment.
 
-"See Fig. 4 at the end of the manuscript".
+![Fig. 3. Cpr at one blade profile segment.](va9-fig3.jpg)
+
+Fig. 4. Cpr contribution to Tpr and Npr.
+
+![Fig. 4. Cpr contribution to Tpr and Npr.](va9-fig4.jpg)
 
 4. Calculate using (14) and (15) the values for the total Cpr contributions to the total tangential force Tpr and to the total normal force Npr.
 
@@ -200,29 +208,43 @@ The new approach is able to provide assessment and comparison of blade design of
 
 Blade profile design solutions have been tested for Darrieus VAWT application, such as profiles with trapping vortex cell systems [26], thick blades [27], and modified profiles [28]. The motivation to develop a blade profile design to the Darrieus VAWT to be located in urban areas arose to give a different solution for the lack of self-start in order to technologically contribute with a enhanced solution. This new solution is the patented [29] blade profile named EN0005 shown with the segmentation in Fig. 5.
 
-"See Fig. 5 at the end of the manuscript".
+Fig. 5. Blade profile EN0005.
+
+![Fig. 5. Blade profile EN0005.](va9-fig5.jpg)
 
 The blade profile EN0005 upper surface is a high lift surface with a slight orientation in the desired movement of the blade. The nose of the blade is in a lower position in relation to the line chord with a tip formation in the front to increase the wind flow split. The first 20% of the blade profile lower surface length is a high lift surface. The remaining surface finishes in a cup form. The cup form increases the drag force of the blade when in a stopped position in the downstream zone. The drag force decreases to a negligible value with the starting rotation of the wind turbine blades.
 
 A comparison between the blade profile EN0005 and blade profiles NACA0018, NACA0020, NACA4418 and NACA4420 is made by applying the assessment approach for the blade design development presented before. The blade profiles designs NACA0018, NACA0020, NACA4418 and NACA4420 [30] are shown in Fig. 6.
 
-"See Fig. 6 at the end of the manuscript".
+Fig. 6. Blade profiles NACA0018, NACA0020, NACA4418, NACA4420.
+
+![Fig. 6. Blade profiles NACA0018, NACA0020, NACA4418, NACA4420.](va9-fig6.jpg)
 
 The total Cpr contributions to the tangential force Tpr and to the normal force Npr for each blade angle of attack on the blade profiles EN0005, NACA0018, NACA0020, NACA4418 and NACA4420 are shown in Fig. 7 and in Fig. 8, respectively.
 
-"See Fig. 7 at the end of the manuscript".
+Fig. 7. Cpr contribution to Tpr.
 
-"See Fig. 8 at the end of the manuscript".
+![Fig. 7. Cpr contribution to Tpr.](va9-fig7.jpg)
+
+Fig. 8. Cpr contribution to Npr.
+
+![Fig. 8. Cpr contribution to Npr.](va9-fig8.jpg)
 
 Fig. 7 shows a better capability for the blade profile EN0005 in what regards the offering of a self-start to the Darrieus VAWT. Notice that, from angle 0º to 80º and 180º to 310º this blade profile presents a better contribution to the lift force. Also, the EN0005 presents a drag force contributing for the forward movement of the Darrieus VAWT between the angles 100º and 150º and presents a lower variation in the normal force between the 70º and 180º. Although with inversed orientation for the remaining angles, the normal force is very similar to the other blade profiles.
 
 The lift coefficient CL, drag coefficient CD and moment coefficient CM comparison between the blade profiles EN0005, NACA0018 and NACA4418 are shown in Fig. 9, in Fig. 10 and in Fig. 11, respectively.
 
-"See Fig. 9 at the end of the manuscript".
+Fig. 9. Lift coefficient.
 
-"See Fig. 10 at the end of the manuscript".
+![Fig. 9. Lift coefficient.](va9-fig9.jpg)
 
-"See Fig. 11 at the end of the manuscript".
+Fig. 10. Drag coefficient.
+
+![Fig. 10. Drag coefficient.](va9-fig10.jpg)
+
+Fig. 11. Moment coefficient.
+
+![Fig. 11. Moment coefficient.](va9-fig11.jpg)
 
 The profile EN0005 presents a better lift coefficient between angles -60º and -10º as result of the upper surface design. Between these angles the profile EN0005 presents a lower drag coefficient. The profile EN0005 moment coefficient is higher than the other profiles presenting a peak between angles -30º and 0º.
 
@@ -232,7 +254,9 @@ Although of the complexity on the aerodynamic behavior of Darrieus VAWT, mathema
 
 The flow velocities diagram of a lift-type VAWT is shown in Fig. 12.
 
-"See Fig. 12 at the end of the manuscript".
+Fig. 12. Flow velocities diagram of a lift-type VAWT.
+
+![Fig. 12. Flow velocities diagram of a lift-type VAWT.](va9-fig12.jpg)
 
 The undisturbed wind velocity V∞ reaches the wind turbine blade profile as an induced velocity Va. The induced velocity is due to the rotor angular speed at the wind turbine Vr, given by:
 
@@ -268,7 +292,9 @@ The BEM model combines blade element theory with momentum theory, studying the f
 
 The single streamtube (SS) model assumes that the turbine is placed inside a SS and the blades in revolution are model by an actuator disk. The effects outside the streamtube are assumed to be negligible and the wind speeds in the upstream and downstream sides of the turbine remains with a constant value. The SS model diagram is shown in Fig. 13.
 
-"See Fig. 13 at the end of the manuscript".
+Fig. 13. Single streamtube model diagram.
+
+![Fig. 13. Single streamtube model diagram.](va9-fig13.jpg)
 
 The uniform velocity through the rotor is given by:
 
@@ -290,7 +316,9 @@ Equation (33) with the general mathematical expressions presented in Section 3 a
 
 The multiple streamtube (MS) model is a variation of the SS model, where the streamtube is divided horizontally and vertically in several parallel and adjacent streamtubes independent from each other. Each stresmtube has its own undisturbed, induced and wake velocities. The single streamtube model diagram is shown in Fig. 14.
 
-"See Fig. 14 at the end of the manuscript".
+Fig. 14. Multiple streamtube model diagram.
+
+![Fig. 14. Multiple streamtube model diagram.](va9-fig14.jpg)
 
 The induced velocity ration equation for of this model is given by:
 
@@ -300,13 +328,17 @@ where k is a value found by iteration.
 
 A comparison elaborated by Sandia National Laboratories between the Single Streamtube model and the Multiple Streamtube model (DART computer code) [31] is shown in Fig. 15.
 
-"See Fig. 15 at the end of the manuscript".
+Fig. 15. SS model and MS model comparison with experimental data [31].
+
+![Fig. 15. SS model and MS model comparison with experimental data [31].](va9-fig15.jpg)
 
 #### 3.1.3 Double Multiple Streamtube Model
 
 The DMS model [17] is a variation of the MS model, where the actuator disc is divided in two half cycles in tandem, representing the upstream and the downstream sides of the rotor. A DMS model diagram is shown in Fig. 16.
 
-"See Fig. 16 at the end of the manuscript".
+Fig. 16. Double-multiple streamtube model diagram.
+
+![Fig. 16. Double-multiple streamtube model diagram.](va9-fig16.jpg)
 
 The actuator disc is divided in two actuator discs, each with an induced velocity. The induced velocity decreases along the axial streamtube direction, so the induced velocity in the upstream Vaui is less than the undisturbed wind velocity V∞i that arrives to the streamtube i. Between the two actuator discs there is an equilibrium induced velocity Vei < Vaui. The induced velocity in the downstream Vad < Vei.
 
@@ -330,7 +362,9 @@ For Darrieus VAWT with complex shaped blades, the DMS adds implementation challe
 
 A comparison elaborated by Sandia National Laboratories between the Multiple Streamtube model and the Double-Multiple Streamtube model [17] is shown in Fig. 17.
 
-"See Fig. 17 at the end of the manuscript".
+Fig. 17. MS model and DMS model comparison with experimental data [17].
+
+![Fig. 17. MS model and DMS model comparison with experimental data [17].](va9-fig17.jpg)
 
 #### 3.1.4 Models comparison
 
@@ -348,7 +382,9 @@ The DMS model is used to study the EN0005 blade profile contribution to the VAWT
 
 A turbine with height of 4.6 m and blade radius of 2 m having five blades with a profile of 0.30 m is the used to apply the DMS model for the blade profile EN0005, NACA0012 and NACA0018. The VAWT performance prediction is evaluated with V∞ equal to 12 m/s. The performance prediction is shown in Fig. 18.
 
-"See Fig. 18 at the end of the manuscript".
+Fig. 18. Darrieus VAWT performance prediction.
+
+![Fig. 18. Darrieus VAWT performance prediction.](va9-fig18.jpg)
 
 Fig. 18 allows to conclude that the wind turbine with the profile EN0005 presents a better performance for higher TSR.
 
@@ -358,7 +394,9 @@ The novel approach for the DMS model slices the wind turbine in divisions parall
 
 Two performance prediction cases are presented to explain and illustrate the main concepts. The first case deals with a Darrieus VAWT with V shaped blades shown in Fig. 19.
 
-"See Fig. 19 at the end of the manuscript".
+Fig. 19. Novel approach to the DMS model in a V shaped Darrieus VAWT.
+
+![Fig. 19. Novel approach to the DMS model in a V shaped Darrieus VAWT.](va9-fig19.jpg)
 
 Fig. 19 shows that the wind turbine is going to be sliced parallel to the undisturbed wind velocity V∞ flow path. One slice example is represented as slice S1, made in the middle of the wind turbine. The blade movement path and the blade profile mutations inside the slice are analyzed during the wind flow in the path. The blade profile airfoil B1, which is the same airfoil of the blade, has a movement that follows a circular path P1 with radius R. The DMS model is applied by considering a turbine height equal to the height between slices. Another example of a slicing is S2. Again, the slice is analyzed for the blade movement path and the blade profile mutations during the wind flow in path. The blade moves another circular path P2 with a different radius R'. The airfoil is different from the airfoil of the blade, with a higher airfoil height. The height h' of this blade is a function of the angle β of the blade and of the blade airfoil height h given by:
 
@@ -368,7 +406,9 @@ Each slice is analyzed as an independent wind turbine, allowing that the aerodyn
 
 The second case deals with an H-Rotor VAWT in skewed flow as shown in Fig. 20.
 
-"See Fig. 20 at the end of the manuscript".
+Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow.
+
+![Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow.](va9-fig20.jpg)
 
 Fig. 20 shows an H-Rotor VAWT influenced by a wind in skewed flow. The common wind turbine blade path is represented as circular path P1 with radius R. An elliptical shaped path P3 is followed by the blade in the middle slice where the minor radius is equal to R and the major radius is equal to R'. The blade profile has different shapes depending on the blade angle in evaluation. On one hand, when the blade is close to the major radius the shape is the same as the shape in S2 of the previous case. On the other hand, when the blade is close to the minor radius the airfoil B3 has the same height h of the blade airfoil but with a different chord size c' that is related to the angle β and the blade airfoil chord c is given by.
 
@@ -376,9 +416,13 @@ All blade angles around the wind turbine are not analyzed for certain slices in 
 
 The power coefficient Cp for several slices along the V shaped blade Darrieus VAWT with the profile NACA0018 at TSR equal to 3 and to 11 are respectively shown in Fig. 21 and Fig. 22.
 
-"See Fig. 21 at the end of the manuscript".
+Fig. 21. Novel approach, power coefficient vectors for several slices at TSR equal to 3.
 
-"See Fig. 22 at the end of the manuscript".
+![Fig. 21. Novel approach, power coefficient vectors for several slices at TSR equal to 3.](va9-fig21.jpg)
+
+Fig. 22. Novel approach, power coefficient vectors for several slices at TSR equal to 11.
+
+![Fig. 22. Novel approach, power coefficient vectors for several slices at TSR equal to 11.](va9-fig22.jpg)
 
 The higher contribution for the movement of the blades comes from the extremities closer to the axis, when the TSR=3, but when the TSR=11 the major contribution comes from the mid part of the wind turbine, particularly where the wind flow finds the NACA0018, i.e., slice S1 shown in Fig. 19.
 
@@ -392,15 +436,21 @@ The approach applied to the development of a new Darrieus VAWT follows the steps
 
 This approach is the one followed for the new Darrieus VAWT patented design [29]. This design assumes the blades are constituted by three parts: a main body indicated by 1; and two blade ends indicated by 2 [29] as shown in Fig. 23.
 
-"See Fig. 23 at the end of the manuscript".
+Fig. 23. New Darrieus VAWT with blade ends in two different positions.
+
+![Fig. 23. New Darrieus VAWT with blade ends in two different positions.](va9-fig23.jpg)
 
 The blade ends are specially designed for working as new lift-capable blades that extend the main blade body. These blade ends can be placed with any angle to the inside or to the outside of the rotor, and can be placed as parallel to the main blade body, as seen respectively in B or A of Fig. 23. The blades configuration in position B allows for the wind turbine taking advantage of the energy flow reaching the turbine in any vertical or horizontal angle in relation to the rotor position as shown by 4 and 5 [29] in Fig. 24.
 
-"See Fig. 24 at the end of the manuscript".
+Fig. 24. Wind flow reaching the new Darrieus VAWT in vertical or horizontal planes.
+
+![Fig. 24. Wind flow reaching the new Darrieus VAWT in vertical or horizontal planes.](va9-fig24.jpg)
 
 If the blades ends are positioned to the inside of the rotor a drag increase is generated due to the augmented blade profile height, leading to an improved self-start capability. When the wind turbine reaches rotation velocities such that TSR is greater than 2, the lift forces exerted on blade ends positioned to the inside of the rotor have different directions, providing a turbine blade revolutions stability. The configuration of the blade ends can be fixed or can dynamically change during operation. Different blade main body configurations with various blade ends positions [29] are shown in Fig. 25.
 
-"See Fig. 25 at the end of the manuscript".
+Fig. 25. Different blade main body configurations with various blade ends positions.
+
+![Fig. 25. Different blade main body configurations with various blade ends positions.](va9-fig25.jpg)
 
 ## 5. Darrieus VAWT field test
 
@@ -410,15 +460,21 @@ The prototype of the Darrieus VAWT design developed for field test and modified 
 
 The final the prototype is shown in Fig. 26.
 
-"See Fig. 26 at the end of the manuscript".
+Fig. 26. New Darrieus VAWT design prototype.
+
+![Fig. 26. New Darrieus VAWT design prototype.](va9-fig26.jpg)
 
 The test is conducted in two different environments, i.e., in urban scenario and in wind tunnel controlled environment. Field test scenarios are shown in Fig. 27.
 
-"See Fig. 27 at the end of the manuscript".
+Fig. 27. Different field tests scenarios.
+
+![Fig. 27. Different field tests scenarios.](va9-fig27.jpg)
 
 From left to right in Fig. 27 the scenarios are: wind tunnel in Badajoz Campus of Extremadura University, Spain; Geophysics Center in Universidade de Evora, Portugal; residential area in Cabanas de Viriato, Viseu, Portugal; residential area in Povoa de Santa Iria, Lisbon, Portugal. The test is conducted to assess the behavior of the prototype. Also, sensor modules are developed for data acquisition, for instance, anemometer, rotation counter with infrared, tension and current sensor, having local processing accomplish with an Arduino board, communicating with a data collector over a low power wireless ZigBee network. Some of the sensors are shown in Fig. 28.
 
-"See Fig. 28 at the end of the manuscript".
+Fig. 28. Field test sensors.
+
+![Fig. 28. Field test sensors.](va9-fig28.jpg)
 
 The collected field tests data allows to conclude that the Darrieus VAWT design has self-start without at the wind velocities of 1.25 m/s. Also, the prototype presents a stable behavior under a stress test made in wind tunnel environment with a wind velocity of 25 m/s and has not audible noise emission in urban environment. The noise field test collected data is shown in Table 3.
 
@@ -430,7 +486,9 @@ The torque during self-start is shown in Table 4.
 
 The prototype presents a high torque but low rotor angular speed. The high torque help the wind turbine to work at low wind speed. The prototype rotor speed at different wind speeds is shown in Fig. 29.
 
-"See Fig. 29 at the end of the manuscript".
+Fig. 29. Prototype rotor speed at different wind speeds.
+
+![Fig. 29. Prototype rotor speed at different wind speeds.](va9-fig29.jpg)
 
 ## 6. Conclusions
 
@@ -511,124 +569,6 @@ This work is funded by Portuguese Funds through the Foundation for Science and T
 [33] Scheurich F, Fletcher TM, Brown RE. Simulating the aerodynamic performance and wake dynamics of a vertical-axis wind turbine. Wind Energy 2011;14:159-177.
 
 [34] Islam M, Amin MR, Ting DS-K, Fartaj A. Aerodynamic factors affecting performance of straight-bladed vertical axis wind turbines. In: Proc. ASME International Mechanical Engineering Congress and Exposition, Washington, USA, 2007, p. 331-341.
-
-## Figure captions
-
-Fig. 1. Blade profile segmentation.
-
-![Fig. 1. Blade profile segmentation.](va9-fig1.jpg)
-
-Fig. 2. Cpr at each blade profile segment.
-
-![Fig. 2. Cpr at each blade profile segment.](va9-fig2.jpg)
-
-Fig. 3. Cpr at one blade profile segment.
-
-![Fig. 3. Cpr at one blade profile segment.](va9-fig3.jpg)
-
-Fig. 4. Cpr contribution to Tpr and Npr.
-
-![Fig. 4. Cpr contribution to Tpr and Npr.](va9-fig4.jpg)
-
-Fig. 5. Blade profile EN0005.
-
-![Fig. 5. Blade profile EN0005.](va9-fig5.jpg)
-
-Fig. 6. Blade profiles NACA0018, NACA0020, NACA4418, NACA4420.
-
-![Fig. 6. Blade profiles NACA0018, NACA0020, NACA4418, NACA4420.](va9-fig6.jpg)
-
-Fig. 7. Cpr contribution to Tpr.
-
-![Fig. 7. Cpr contribution to Tpr.](va9-fig7.jpg)
-
-Fig. 8. Cpr contribution to Npr.
-
-![Fig. 8. Cpr contribution to Npr.](va9-fig8.jpg)
-
-Fig. 9. Lift coefficient.
-
-![Fig. 9. Lift coefficient.](va9-fig9.jpg)
-
-Fig. 10. Drag coefficient.
-
-![Fig. 10. Drag coefficient.](va9-fig10.jpg)
-
-Fig. 11. Moment coefficient.
-
-![Fig. 11. Moment coefficient.](va9-fig11.jpg)
-
-Fig. 12. Flow velocities diagram of a lift-type VAWT.
-
-![Fig. 12. Flow velocities diagram of a lift-type VAWT.](va9-fig12.jpg)
-
-Fig. 13. Single streamtube model diagram.
-
-![Fig. 13. Single streamtube model diagram.](va9-fig13.jpg)
-
-Fig. 14. Multiple streamtube model diagram.
-
-![Fig. 14. Multiple streamtube model diagram.](va9-fig14.jpg)
-
-Fig. 15. SS model and MS model comparison with experimental data [31].
-
-![Fig. 15. SS model and MS model comparison with experimental data [31].](va9-fig15.jpg)
-
-Fig. 16. Double-multiple streamtube model diagram.
-
-![Fig. 16. Double-multiple streamtube model diagram.](va9-fig16.jpg)
-
-Fig. 17. MS model and DMS model comparison with experimental data [17].
-
-![Fig. 17. MS model and DMS model comparison with experimental data [17].](va9-fig17.jpg)
-
-Fig. 18. Darrieus VAWT performance prediction.
-
-![Fig. 18. Darrieus VAWT performance prediction.](va9-fig18.jpg)
-
-Fig. 19. Novel approach to the DMS model in a V shaped Darrieus VAWT.
-
-![Fig. 19. Novel approach to the DMS model in a V shaped Darrieus VAWT.](va9-fig19.jpg)
-
-Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow.
-
-![Fig. 20. Novel approach to the DMS model in an H-Rotor VAWT influenced by a wind in skewed flow.](va9-fig20.jpg)
-
-Fig. 21. Novel approach, power coefficient vectors for several slices at TSR equal to 3.
-
-![Fig. 21. Novel approach, power coefficient vectors for several slices at TSR equal to 3.](va9-fig21.jpg)
-
-Fig. 22. Novel approach, power coefficient vectors for several slices at TSR equal to 11.
-
-![Fig. 22. Novel approach, power coefficient vectors for several slices at TSR equal to 11.](va9-fig22.jpg)
-
-Fig. 23. New Darrieus VAWT with blade ends in two different positions.
-
-![Fig. 23. New Darrieus VAWT with blade ends in two different positions.](va9-fig23.jpg)
-
-Fig. 24. Wind flow reaching the new Darrieus VAWT in vertical or horizontal planes.
-
-![Fig. 24. Wind flow reaching the new Darrieus VAWT in vertical or horizontal planes.](va9-fig24.jpg)
-
-Fig. 25. Different blade main body configurations with various blade ends positions.
-
-![Fig. 25. Different blade main body configurations with various blade ends positions.](va9-fig25.jpg)
-
-Fig. 26. New Darrieus VAWT design prototype.
-
-![Fig. 26. New Darrieus VAWT design prototype.](va9-fig26.jpg)
-
-Fig. 27. Different field tests scenarios.
-
-![Fig. 27. Different field tests scenarios.](va9-fig27.jpg)
-
-Fig. 28. Field test sensors.
-
-![Fig. 28. Field test sensors.](va9-fig28.jpg)
-
-Fig. 29. Prototype rotor speed at different wind speeds.
-
-![Fig. 29. Prototype rotor speed at different wind speeds.](va9-fig29.jpg)
 
 ## Tables
 
