@@ -206,8 +206,16 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 	- get minute by minute data!!!!
 		- look at direction change 
 		- consistency of speed for cut in prediction 
+- call mike and anna 
+- stay on with anna 
+	- rank all designs 
+		- come up with weights +categories 
+		- compare to each other + LLM 
+			- had it do ranking of h type, and all designs 
+- decided on h-type!!!
 ### Friday 7/10
 - Met with Mike + Anna - 9am
+- read through va9 vj20 and linked pages and new parameters page 
 ## Week 4
 
 ### Monday 7/13

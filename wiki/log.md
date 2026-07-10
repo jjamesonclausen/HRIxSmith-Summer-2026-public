@@ -1,6 +1,67 @@
 #maintenance
 ## Log
 
+### 2026-07-09 - Raise vj20 CAD score and add EN0005 comparison
+
+- Task: update the worksheet after the user judged `vj20` to deserve a `CAD + manufacturability` score of `4` instead of `3`, and compare `EN0005` against `vj20` across the weighting schemes already used in the note.
+- Actions:
+  - Updated `vj20` from `3` to `4` in the concept ranking table and the H-type example ranking table.
+  - Recomputed the affected weighted scores in the concept, H-type, BOS-focused all-design, beginner-friendly all-design, and expert BOS all-design sections.
+  - Added an `EN0005 vs vj20 Across Weightings` comparison table summarizing how the two designs perform under each weighting prompt.
+- Decisions:
+  - Kept the existing non-CAD category scores unchanged and only updated the sections directly affected by the CAD correction.
+  - Treated the performance-first comparison using the explicit `va9` H-type row rather than the broader concept-family row, so the comparison stays one-design-to-one-design.
+- Open:
+  - If desired, the written justification lines elsewhere in the note can be tightened further now that `vj20` is being treated as more CAD-manageable than before.
+
+### 2026-07-09 - Add expert-level BOS all-design ranking to worksheet
+
+- Task: add a third all-design ranking to `active/analysis/Concept ranking worksheet.md` for the scenario where the user is an expert in CAD and simulation and wants the best possible Boston-specific VAWT.
+- Actions:
+  - Added an `All-Designs Top Ten - Expert BOS Performance Prompt` section below the beginner-friendly section.
+  - Included the scenario prompt, expert-level weights, top-ten table, and uncertainty note.
+- Decisions:
+  - Used weights of `20%` startup, `25%` efficiency / economics, `20%` rated-speed fit, `10%` cut-out speed fit, `20%` room for growth / modelability, and `5%` CAD + manufacturability.
+  - Kept the same duplicate-collapse rule as the earlier all-design rankings so the same real machine is not listed twice.
+- Open:
+  - If desired, the concept-level and H-type-only tables can also be recomputed for this expert BOS scenario so all ranking layers match.
+
+### 2026-07-09 - Keep both BOS-focused and beginner-friendly all-design rankings in worksheet
+
+- Task: add both new all-design rankings to `active/analysis/Concept ranking worksheet.md` instead of leaving only the latest one.
+- Actions:
+  - Restored the BOS-focused all-design top-ten ranking as its own section.
+  - Kept the beginner-friendly all-design top-ten ranking as a separate section immediately after it.
+  - Added short `Prompt` and `Weights` blocks above both sections so the ranking assumptions are visible in the document.
+- Decisions:
+  - Labeled the two sections separately rather than merging them into one table, because they answer two different design-selection questions.
+- Open:
+  - If desired, the same prompt-and-weights format can also be added to the earlier concept-level and H-type-only ranking sections for consistency.
+
+### 2026-07-09 - Re-rank all-designs top ten with beginner-friendly weights
+
+- Task: recompute the all-designs top-ten section in `active/analysis/Concept ranking worksheet.md` using beginner-friendly weights focused on buildability and modelability.
+- Actions:
+  - Re-ranked the full `wiki/designs/` set using weights of `30%` CAD + manufacturability, `25%` room for growth / modelability, `20%` startup, `15%` efficiency / economics, `5%` rated-speed fit, and `5%` cut-out-speed fit.
+  - Updated the `All-Designs Top Ten` section with the new weights, scores, and ordering.
+- Decisions:
+  - Kept the same duplicate-collapse rule so repeated real machines still appear only once in the top ten.
+  - Left the rest of the worksheet unchanged and updated only the all-designs section requested.
+- Open:
+  - If desired, the earlier concept and H-type rankings can also be recomputed using these same beginner-friendly weights for consistency.
+
+### 2026-07-09 - Re-rank all-designs top ten with BOS-focused weights
+
+- Task: recompute the all-designs top-ten section in `active/analysis/Concept ranking worksheet.md` using the BOS-focused weights previously proposed.
+- Actions:
+  - Re-ranked the full `wiki/designs/` set using weights of `30%` startup, `25%` efficiency/economics, `15%` rated-speed fit, `15%` CAD + manufacturability, `10%` room for growth/modelability, and `5%` cut-out-speed fit.
+  - Updated the `All-Designs Top Ten` section at the bottom of the worksheet with the new weights, scores, and ordering.
+- Decisions:
+  - Kept the same duplicate-collapse rule so repeated real machines still appear only once in the top ten.
+  - Left the rest of the worksheet unchanged and updated only the all-designs section requested.
+- Open:
+  - If desired, the main concept ranking and the H-type-only ranking can also be recomputed using these same BOS-focused weights for full consistency.
+
 ### 2026-07-09 - Append all-designs top ten to concept ranking worksheet
 
 - Task: add the full-design top-ten ranking to the bottom of `active/analysis/Concept ranking worksheet.md` using the same weighted system already used in the worksheet.
