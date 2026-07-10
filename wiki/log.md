@@ -1,6 +1,18 @@
 #maintenance
 ## Log
 
+### 2026-07-10 - Restore deleted ranking sections in concept worksheet
+
+- Task: restore the ranking tables and comparison sections in `active/analysis/Concept ranking worksheet.md` after they were deleted from the note.
+- Actions:
+  - Restored the reduced candidate ranking table state that reflects the user's earlier row removals.
+  - Restored the weighted concept ranking, H-type example ranking, H-type weighted ranking, BOS-focused all-design top ten, beginner-friendly all-design top ten, expert BOS all-design top ten, and `EN0005 vs vj20 Across Weightings` sections.
+  - Preserved the later `vj20` CAD correction so the restored tables reflect the latest intended scores.
+- Decisions:
+  - Restored the latest intended worksheet state rather than the older intermediate version, so the document stays aligned with the most recent user decisions.
+- Open:
+  - If desired, the stale candidate list and evidence snapshot rows for the previously removed concept-family entries can also be pruned for full consistency with the current ranking table.
+
 ### 2026-07-10 - Rename `vj20` CAD brief and add recommended inferred hardware specs
 
 - Task: rename the new `vj20` CAD handoff note and extend it with concrete first-pass inferred hardware dimensions for Zookeeper.
