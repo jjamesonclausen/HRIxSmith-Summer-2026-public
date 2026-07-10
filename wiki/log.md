@@ -1,6 +1,20 @@
 #maintenance
 ## Log
 
+### 2026-07-10 - Move `va9` figures from end section into in-text locations
+
+- Task: update `sources/va9.md` so each figure appears where the manuscript first references it instead of using `See Fig. X at the end of the manuscript` placeholders.
+- Actions:
+  - Read `schema/Extract Figure` and `schema/Maintain Wiki` before editing.
+  - Replaced all `Fig. 1` through `Fig. 29` placeholder lines in `sources/va9.md` with the existing caption and image blocks.
+  - Removed the redundant `## Figure captions` section after moving those figure blocks into the body text.
+  - Verified that `sources/va9.md` no longer contains `See Fig.` placeholders or the trailing figure-captions section.
+- Decisions:
+  - Kept tables in their existing end-of-manuscript section because the request was specifically about figures.
+  - Reused the existing captions and image paths exactly rather than rewriting any source text.
+- Open:
+  - `See Table ... at the end of the manuscript` placeholders remain in `sources/va9.md` if the same cleanup is wanted for tables later.
+
 ### 2026-07-09 - Append all-designs top ten to concept ranking worksheet
 
 - Task: add the full-design top-ten ranking to the bottom of `active/analysis/Concept ranking worksheet.md` using the same weighted system already used in the worksheet.
