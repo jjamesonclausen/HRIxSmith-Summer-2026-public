@@ -300,7 +300,14 @@
 	- different weights based on personas: results-oriented expert, process-oriented beginner
 	- looking into the top couple designs, verifying the rankings the llm gave (not 100% right)
 	- concluded that the top two designs are pretty  much on equal footing and that we should play around with both in Zoo and read up on both and potential parameters to change
-`11:00`
+`11:00` CAD experimentation + design research (4.5 hrs)
+	- experimented with zookeeper and prompts from llm wiki, focusing on vj20 design
+		- shorter prompts work better than too much information which often results in glaring very-ai-style errors like blades that aren't connected to anything
+			- llm referred to the short prompt as "short \[and] production-ready"
+	- read [[vj20]] and [[va9]] for better understanding of the top two designs
+		- also read thru the H-vawt-related parameters pages
+		- 
+`16:00` met w/ Julie to discuss CAD progress (1 hr)
 	- 
 
 Hours: 0
