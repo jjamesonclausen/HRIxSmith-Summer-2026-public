@@ -215,7 +215,16 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 - decided on h-type!!!
 ### Friday 7/10
 - Met with Mike + Anna - 9am
-- read through va9 vj20 and linked pages and new parameters page 
+	- talk about how anna and I are feeling about our learning process and the LLM application generally 
+		- we were about to select top two designs to iterate on in about 1.5 hours which we both agree is pretty insane. the LLM was super useful for quickly comparing information and we found making weighted decision tables to be super helpful. we created several personas - such as a experience professional who wants to make the best possible VAWT, someone who has no engineering experience or CAD software experience who wants to make a good vawt with their limited skills, and we also personally came up with rankings and compared the top five results from each test. 
+		- we do feel like we might be missing some learning though using these tools. since we are using the llm to rank the technical details of each design we are not forced to struggle with all the concepts in the same way the previous team did (which is were learning is done)
+		- at the same time though we might have a better full picture understanding of these concepts because the LLM can synthesize all the information across a ton of trusted sources. we have essentially created an expert in the field who can pull up any information on command that we can question at any time. this i feel is the main gain of the LLM wiki, I can ask any sort of question just to see if the idea could be found. 
+		- anna and i separately discussed the zoo keeper agent. she said in her perspective that when doing CAD software you want to perfect and spend along time on the base of the model so that future edits go smoothly. I do have slight concern that although zoo keeper feels very promising because of its ability to quickly model a whole turbine, that the actual structure might not be that solid. 
+- anna and I stayed on the call to finalize the design that we will select
+	- we made some additional rankings and saw the same two on top and so we will move forward with va9 and vj20 designs. 
+	- created a page to track what prompts the LLM will make for zoo keeper to model off of 
+- spend some time playing around with zoo keeper 
+- spend some time reading through va9 and vj20 and questioning the LLM on the designs to learn more 
 ## Week 4
 
 ### Monday 7/13

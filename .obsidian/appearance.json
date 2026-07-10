@@ -1,3 +1,5 @@
 {
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "cssTheme": "AnuPpuccin",
+  "accentColor": "#1c5d04"
 }

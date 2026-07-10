@@ -1,6 +1,17 @@
 #maintenance
 ## Log
 
+### 2026-07-10 - Add VA9 CAD prompt handoff note
+
+- Task: add the earlier VA9 CAD-prompt guidance into `active/CAD log/j710_va9_initial.md`.
+- Actions:
+  - Created a structured handoff note with best reference files, source-backed dimensions, geometry rules, a ready-to-paste CAD prompt, and a grounded-vs-inferred breakdown.
+  - Linked the note to the existing `va9` design and related concept pages.
+- Decisions:
+  - Kept the note focused on the external rotor geometry and prompt wording rather than trying to infer extra hidden dimensions not supported by the source.
+- Open:
+  - If desired, this note can be extended with a second prompt tailored to a specific CAD system or CAD agent.
+
 ### 2026-07-10 - Restore deleted ranking sections in concept worksheet
 
 - Task: restore the ranking tables and comparison sections in `active/analysis/Concept ranking worksheet.md` after they were deleted from the note.
