@@ -1,6 +1,32 @@
 #maintenance
 ## Log
 
+### 2026-07-10 - Rename `vj20` CAD brief and add recommended inferred hardware specs
+
+- Task: rename the new `vj20` CAD handoff note and extend it with concrete first-pass inferred hardware dimensions for Zookeeper.
+- Actions:
+  - Renamed `active/CAD log/vj20 dual H-type zookeeper brief.md` to `active/CAD log/a710_vj20_initial.md`.
+  - Replaced the prior `TBD` support-hardware entries with recommended inferred values for shaft diameter, shaft wall thickness, hub sizes, strut sizes, blade attachment location, bearing layout, and generator-mount concept.
+  - Added a dedicated section explaining how to use those inferred values without treating them as source-backed facts.
+- Decisions:
+  - Kept the new hardware values explicitly labeled as inference because `sources/vj20.md` does not provide those dimensions.
+  - Scaled the small-model defaults approximately from the paper's `11.01` length scale so the two configurations stay visually consistent.
+- Open:
+  - If desired, the next pass can turn these inferred defaults into a more fabrication-oriented spec with preferred materials, wall thickness minimums, and printability constraints.
+
+### 2026-07-10 - Add `vj20` CAD brief and Zookeeper prompt note
+
+- Task: create a Markdown note in `active/CAD log/` with the full source-grounded CAD brief for the `vj20` dual-H-type turbine, plus a shorter production-ready Zookeeper prompt and a spec table.
+- Actions:
+  - Read `sources/vj20.md` and the related `vj20` wiki pages to collect the source-backed geometry, layout, and uncertainty points.
+  - Created `active/CAD log/vj20 dual H-type zookeeper brief.md`.
+  - Added a detailed Zookeeper prompt, a shorter production-ready prompt, a source-backed spec table, and uncertainty notes distinguishing explicit geometry from inferred support hardware.
+- Decisions:
+  - Framed the CAD target as a source-faithful dual-H-rotor recreation rather than a complete mechanical design, because the source does not fully dimension the shaft, hubs, struts, bearings, or generator mount.
+  - Included both full-scale and scaled-down geometry because the source provides both and the user asked for a reusable CAD handoff note.
+- Open:
+  - If desired, the new CAD note can be followed by a second note with explicit recommended inferred dimensions for shaft and strut hardware to make the first modeling pass faster.
+
 ### 2026-07-10 - Move `va9` figures from end section into in-text locations
 
 - Task: update `sources/va9.md` so each figure appears where the manuscript first references it instead of using `See Fig. X at the end of the manuscript` placeholders.
