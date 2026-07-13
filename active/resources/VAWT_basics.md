@@ -140,6 +140,29 @@ Torque, `Cp`, flow separation, and wake dynamics are specifically identified as 
 - Check mesh independence, time-step or azimuth-step sensitivity, and domain size before believing a difference between two geometries. (source: sources/va10.md, sources/va14.md, sources/va26.md)
 - Startup is especially uncertain in simulation because the startup transient has shown poorer agreement with experiments than steady operation. (source: sources/vj26.md)
 
+### Recommended First SimScale Turbulence Model
+
+For a first VAWT learning model in SimScale, start with **transient `k-omega SST` URANS** and a rotating domain around the rotor.
+
+Why this is a good starting point:
+
+- The HRI SimScale workflow used stationary and rotating domains with a `k-omega SST` turbulence model. (source: sources/HRI2526.md)
+- The VAWT review identifies URANS with `k-omega SST` as the main design-stage method. (source: sources/vj11.md)
+- `k-omega SST` is commonly used when separated flow and adverse pressure gradients matter around turbine blades. (source: sources/va10.md, sources/vj11.md)
+- It is much less computationally expensive than LES or hybrid RANS-LES. (source: sources/va10.md)
+
+For a first comparison:
+
+1. Use the same mesh, domain, wind speed, TSR, and number of revolutions for every design.
+2. Change only one design parameter.
+3. Run long enough for the transient torque to reach a repeating pattern.
+4. Average torque and `Cp` over several complete revolutions after the initial transient.
+5. Check mesh refinement before trusting a small performance difference.
+
+Do not begin with LES. It may provide more wake and dynamic-stall detail, but it is more computationally expensive and harder to set up correctly. Use transition SST or DES/LES later if your question specifically concerns low-Reynolds-number transition, deep dynamic stall, or detailed wake structures. (source: sources/va10.md, sources/vj5.md, sources/vj11.md)
+
+Important limitation: a steady-state turbulence model or a simple steady rotating result will not reliably predict actual self-starting. Use a transient startup simulation or physical test for that question, and treat the result cautiously. (source: sources/vj26.md)
+
 ### The Short Answer
 
 For an initial design, use:
@@ -258,6 +281,7 @@ Add later learning here, including:
 - Reading `Cp` versus TSR curves
 - Comparing published `Cp` versus TSR curves fairly
 - Choosing a first performance-model and CFD workflow
+- Choosing a turbulence model in SimScale
 - Quantifying cut-in versus `Cp` tradeoffs with a wind-speed histogram
 - Selecting a first H-rotor baseline
 - Modeling and validating a VAWT

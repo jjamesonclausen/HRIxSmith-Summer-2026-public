@@ -1,6 +1,17 @@
 #maintenance
 ## Log
 
+### 2026-07-10 - Add SimScale turbulence-model guidance
+
+- Task: recommend a first turbulence model for the user's VAWT learning simulations in SimScale.
+- Actions:
+  - Added a `Recommended First SimScale Turbulence Model` section to `active/resources/VAWT_basics.md`.
+  - Explained why transient `k-omega SST` URANS is a practical starting point, when to consider transition SST or LES/DES, and why steady simulations should not be treated as reliable startup predictions.
+- Decisions:
+  - Recommended `k-omega SST` for initial design comparisons because it matches the repo's HRI SimScale workflow and the broader design-stage VAWT guidance.
+- Open:
+  - The next lesson can translate this recommendation into a concrete first SimScale setup for one baseline geometry.
+
 ### 2026-07-10 - Add VA9 versus VJ20 Cp-TSR curve comparison
 
 - Task: compare the full published `Cp`-versus-TSR curves for VA9 EN0005 and VJ20 rather than comparing only their peak `Cp` values.

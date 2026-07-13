@@ -13,12 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "active/_project timeline.md",
+                "file": "active/resources/VAWT_basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_project timeline"
+              "title": "VAWT_basics"
+            }
+          },
+          {
+            "id": "9b080656a7125bfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "active/analysis/data view testing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "data view testing"
+            }
+          },
+          {
+            "id": "cb6d63aeb15f344f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "active/analysis/Decision Making Process.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Decision Making Process"
             }
           },
           {
@@ -35,7 +63,8 @@
               "title": "4eed3e3d-51dc-43a6-8dc7-1b7ae205f045"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -92,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -108,6 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "active/analysis/Decision Making Process.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +148,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Decision Making Process"
             }
           },
           {
@@ -182,7 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -196,12 +227,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "a81e6f40380f1d7f",
+  "active": "cb6d63aeb15f344f",
   "lastOpenFiles": [
+    "active/resources/VAWT_basics.md",
+    "active/analysis/Decision Making Process.md",
+    "active/analysis/brainstorm.md",
+    "active/analysis/Concept ranking worksheet.md",
+    "active/analysis/Design goal.md",
+    "active/analysis/Design Comparison.base",
+    "active/analysis/data view testing.md",
+    "active/_project timeline.md",
+    "wiki/designs/vj20 Proposed Hybrid VAWT.md",
+    "images/Pasted image 20260710142409.png",
+    "images/Pasted image 20260710140714.png",
+    "images/Pasted image 20260710135205.png",
+    "images/Pasted image 20260710133919.png",
+    "images",
     "active/_Julie_daily_log.md",
     "attachments/PDFs/vj20.pdf",
     "wiki/summaries/vj20-summary.md",
-    "active/resources/VAWT_basics.md",
     "sources/va9.md",
     "active/analysis/table of all designs.base",
     "active/CAD log/4eed3e3d-51dc-43a6-8dc7-1b7ae205f045.md",
@@ -220,17 +264,9 @@
     "active/CAD log/a710_vj20_initial.md",
     "AnuPpuccin/versions.json",
     "AnuPpuccin/theme.css",
-    "AnuPpuccin/src/modules/Markdown-Elements/Callouts/styles/vanilla-plus.scss",
-    "AnuPpuccin/src/modules/Markdown-Elements/Callouts/styles/sleek.scss",
     "AnuPpuccin/preview.png",
-    "AnuPpuccin/assets/colorschemes/solarized-light.webp",
-    "AnuPpuccin/assets/colorschemes/solarized-dark.webp",
-    "AnuPpuccin/assets/colorschemes/sandy-beaches-light.webp",
-    "AnuPpuccin/assets/colorschemes/royal-velvet.webp",
     "AnuPpuccin/README.md",
-    "active/analysis/Concept ranking worksheet.md",
     "wiki/designs/vj23 3-Bladed Darrieus VAWT with Gearbox.md",
-    "wiki/designs/vj20 Proposed Hybrid VAWT.md",
     "wiki/designs/vj2 Savonius-Darrieus Hybrid Wind Turbine.md",
     "wiki/designs/vj2 Shaftless Savonius-Darrieus Hybrid Wind Turbine.md",
     "wiki/designs/vj2 Split Savonius Outside Darrieus Hybrid Wind Turbine.md",
@@ -238,11 +274,6 @@
     "wiki/designs/vj9 Scooplet-Based Savonius.md",
     "active/resources/Julie initial design screening.md",
     "wiki/parameters/va23 Shifted Troposkien Vertical Offset.md",
-    "active/_project timeline.md",
-    "wiki/summaries/vj29-summary.md",
-    "sources/vj29.md",
-    "wiki/parameters/vj29 Blade Number.md",
-    "wiki/parameters/vj29 Solidity.md",
     "Untitled.canvas"
   ]
 }
