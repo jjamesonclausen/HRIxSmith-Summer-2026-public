@@ -302,11 +302,14 @@
 	- concluded that the top two designs are pretty  much on equal footing and that we should play around with both in Zoo and read up on both and potential parameters to change
 `11:00` CAD experimentation + design research (4.5 hrs)
 	- experimented with zookeeper and prompts from llm wiki, focusing on vj20 design
-		- shorter prompts work better than too much information which often results in glaring very-ai-style errors like blades that aren't connected to anything
+		- *shorter prompts work better than too much information which often results in glaring very-ai-style errors like blades that aren't connected to anything*
 			- llm referred to the short prompt as "short \[and] production-ready"
+		- *it does a good job and makes a large fairly complicated design with good accuracy incredibly quickly compared to doing it manually, but then when you try to make changes it makes random errors (like missing or floating pieces) that it has a hard time fixing, and since I didn't make the original drawing, I don't know exactly how to fix it myself*
+		- zoo often has trouble loading or connecting to the server which is annoying
+			- every time it makes a change the view is like hella zoomed in and often takes several minutes before i can zoom out or click any buttons
+		- tried to change `rotorAzimuth` and it rotated but the inner part got messed up and then it froze zoo. the next time it worked better.
 	- read [[vj20]] and [[va9]] for better understanding of the top two designs
 		- also read thru the H-vawt-related parameters pages
-		- 
 `16:00` met w/ Julie to discuss CAD progress (1 hr)
 	- 
 
