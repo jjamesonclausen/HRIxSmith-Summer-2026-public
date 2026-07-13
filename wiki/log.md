@@ -1,6 +1,19 @@
 #maintenance
 ## Log
 
+### 2026-07-13 - Add beginner VAWT CFD notes to SimScale resource
+
+- Task: add a shortened source-grounded version of the CFD guidance under `## wiki notes` in `active/resources/CFD, SimScale Notes.md`.
+- Actions:
+  - Added a staged CFD workflow from simple validation through 2D screening and 3D refinement.
+  - Added validation checks, operating-condition choices, turbulence-model guidance, domain dimensions, rotation representations, and mesh guidance.
+  - Added Obsidian links to the most relevant source and wiki pages.
+- Decisions:
+  - Kept the existing SimScale tutorial notes unchanged and appended the VAWT-specific guidance.
+  - Recommended `k-omega SST` and transient URANS as the practical starting point while reserving transition SST, DES, and LES for cases that justify their added cost.
+- Open:
+  - The final SimScale setup still depends on the proposed rotor geometry, target wind conditions, available compute, and the validation case selected.
+
 ### 2026-07-10 - Add VA9 versus VJ20 Cp-TSR curve comparison
 
 - Task: compare the full published `Cp`-versus-TSR curves for VA9 EN0005 and VJ20 rather than comparing only their peak `Cp` values.
