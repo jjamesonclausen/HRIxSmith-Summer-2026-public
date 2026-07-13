@@ -224,10 +224,15 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 	- we made some additional rankings and saw the same two on top and so we will move forward with va9 and vj20 designs. 
 	- created a page to track what prompts the LLM will make for zoo keeper to model off of 
 - spend some time playing around with zoo keeper 
+	- export convo to save how it was made - add to cad log folder in active 
 - spend some time reading through va9 and vj20 and questioning the LLM on the designs to learn more 
+- tried to make initial model in zoo keeper 
+	- having issues with it editing parts that are okay when i prompt it to change other elements 
+	- felt frustrated that i couldn't manually edit things so i told it to any time it made a change tell me what line of code it touched and what edits i could tweak manually 
 ## Week 4
 
 ### Monday 7/13
+- play around with new models - terra and luna - to learn more about parameters 
 - Met with Mike + Anna - 9am
 ### Tuesday 7/14
 - Met with Mike + Anna - 9am
