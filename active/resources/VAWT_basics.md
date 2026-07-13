@@ -163,6 +163,120 @@ Do not begin with LES. It may provide more wake and dynamic-stall detail, but it
 
 Important limitation: a steady-state turbulence model or a simple steady rotating result will not reliably predict actual self-starting. Use a transient startup simulation or physical test for that question, and treat the result cautiously. (source: sources/vj26.md)
 
+### Fast SimScale Learning Plan
+
+The goal is not to learn all of SimScale. Learn one complete, repeatable VAWT comparison workflow.
+
+#### Session 1: Learn The Interface
+
+Practice only these operations:
+
+1. Create a project.
+2. Upload a simple CAD model.
+3. Check and repair geometry.
+4. Create or extract the surrounding fluid volume.
+5. Create a mesh.
+6. Create an incompressible fluid-flow simulation.
+7. Set boundary conditions and run a short job.
+8. Open the result in the post-processor.
+
+Use a simple airfoil or cylinder first instead of a VAWT. SimScale's official documentation separates CAD preparation, analysis types, simulation setup, meshing, post-processing, tutorials, and validation cases; learn those basic stages before adding rotating machinery. (source: `https://www.simscale.com/docs/`)
+
+#### Session 2: Learn Rotation
+
+Use a simple three-bladed H-rotor rather than VA9 or VJ20 at first.
+
+Learn these ideas:
+
+- stationary outer fluid domain
+- rotating inner fluid region around the rotor
+- interface between stationary and rotating regions
+- transient time stepping
+- fixed wind-speed inlet
+- pressure outlet
+- wall treatment and near-wall mesh
+- torque measurement on the blades or rotor
+
+The HRI SimScale workflow used stationary and rotating domains with `k-omega SST`, which is why this is the recommended first VAWT setup. (source: sources/HRI2526.md)
+
+#### Session 3: Get A Cp Curve
+
+Pick one wind speed and hold it constant. Run the same rotor at several TSR values, such as:
+
+- `TSR = 1`
+- `TSR = 2`
+- `TSR = 3`
+- `TSR = 4`
+- `TSR = 5`
+
+For each TSR, calculate the required rotor speed:
+
+`omega = TSR * V / R`
+
+where `omega` is angular speed in rad/s, `V` is wind speed in m/s, and `R` is rotor radius in m.
+
+Then calculate:
+
+`Cp = P / (0.5 * rho * A * V^3)`
+
+and:
+
+`P = Q * omega`
+
+where `P` is mechanical power, `Q` is average torque, `rho` is air density, and `A` is swept area. (source: sources/HRI2526.md, sources/vj20.md)
+
+Plot `Cp` against TSR. That plot is your first performance curve.
+
+For example, using a `0.173 m` radius rotor at `4.8 m/s` and `TSR = 3`:
+
+`omega = 3 * 4.8 / 0.173 = 83.2 rad/s`
+
+This is approximately `795 rpm`. This is an example calculation, not a recommended VA9 operating speed.
+
+#### Session 4: Change One Thing
+
+Once one baseline produces a stable curve, duplicate the simulation and change exactly one item:
+
+- blade pitch
+- blade count
+- chord
+- airfoil
+- solidity
+- blade-end geometry
+
+Keep everything else identical. Compare:
+
+- average torque
+- torque ripple
+- peak `Cp`
+- TSR at peak `Cp`
+- blade force history
+- wake behavior
+
+This is a comparative study, not yet a claim about the turbine's final real-world performance. CFD results depend on mesh quality, domain size, time step, turbulence model, and whether the model is `2D` or `3D`. (source: sources/va10.md, sources/vj6.md, sources/vj29.md)
+
+#### Do Not Start With These
+
+- Do not begin with the full VA9 EN0005 geometry; its custom profile and angled blade ends add uncertainty.
+- Do not begin with the full VJ20 hybrid; its two coupled rotors add setup complexity.
+- Do not begin with LES; it is more expensive and harder to debug. (source: sources/va10.md)
+- Do not interpret the first successful run as validation.
+- Do not compare two designs if they used different wind speeds, TSR values, mesh quality, or averaging windows.
+
+#### The Minimum Successful First Project
+
+Your first useful SimScale result is not a perfect turbine. It is:
+
+- one simple rotor
+- one working rotating-domain simulation
+- one mesh check
+- five TSR runs
+- one `Cp`-versus-TSR plot
+- one documented geometry change
+- one honest comparison
+
+After that, move toward VA9 or VJ20.
+
 ### The Short Answer
 
 For an initial design, use:
@@ -282,6 +396,7 @@ Add later learning here, including:
 - Comparing published `Cp` versus TSR curves fairly
 - Choosing a first performance-model and CFD workflow
 - Choosing a turbulence model in SimScale
+- A fast SimScale learning plan for VAWTs
 - Quantifying cut-in versus `Cp` tradeoffs with a wind-speed histogram
 - Selecting a first H-rotor baseline
 - Modeling and validating a VAWT

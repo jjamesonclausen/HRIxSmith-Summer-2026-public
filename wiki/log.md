@@ -1,6 +1,18 @@
 #maintenance
 ## Log
 
+### 2026-07-10 - Add fast SimScale learning plan for VAWT work
+
+- Task: define the fastest practical path for learning enough SimScale to test newly designed VAWTs.
+- Actions:
+  - Added a staged SimScale plan to `active/resources/VAWT_basics.md`: interface basics, rotating domains, `Cp`-versus-TSR runs, one-variable comparisons, and progression to VA9/VJ20.
+  - Added the core `omega`, power, and `Cp` equations and a worked example for a `0.173 m` radius rotor.
+  - Added beginner-specific warnings against starting with the full VA9/VJ20 geometries or LES.
+- Decisions:
+  - Recommended learning on a simple three-bladed H-rotor before attempting the more complex project designs.
+- Open:
+  - The next practical step is to choose the first simple baseline and create a SimScale setup checklist for it.
+
 ### 2026-07-10 - Add SimScale turbulence-model guidance
 
 - Task: recommend a first turbulence model for the user's VAWT learning simulations in SimScale.
