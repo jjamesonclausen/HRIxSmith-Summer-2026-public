@@ -8,7 +8,6 @@ tags:
   - cad
 ---
 
-
 This note has my llm wiki and zookeeper work for recreating the  `vj20` proposed hybrid VAWT as a dual-H-type turbine. *\*more a learning experiment* 
 
 --- 

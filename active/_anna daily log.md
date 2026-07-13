@@ -300,7 +300,7 @@
 	- different weights based on personas: results-oriented expert, process-oriented beginner
 	- looking into the top couple designs, verifying the rankings the llm gave (not 100% right)
 	- concluded that the top two designs are pretty  much on equal footing and that we should play around with both in Zoo and read up on both and potential parameters to change
-`11:00` CAD experimentation + design research (4.5 hrs)
+`11:00` CAD experimentation + design research (4 hrs)
 	- experimented with zookeeper and prompts from llm wiki, focusing on vj20 design
 		- *shorter prompts work better than too much information which often results in glaring very-ai-style errors like blades that aren't connected to anything*
 			- llm referred to the short prompt as "short \[and] production-ready"
@@ -308,15 +308,21 @@
 		- zoo often has trouble loading or connecting to the server which is annoying
 			- every time it makes a change the view is like hella zoomed in and often takes several minutes before i can zoom out or click any buttons
 		- tried to change `rotorAzimuth` and it rotated but the inner part got messed up and then it froze zoo. the next time it worked better.
+		- began debugging an issue manually, read through all kcl files to understand structure and used opencode to help troubleshoot
+			- *this was helpful AND i felt like I was doing something so that was nice. After reading through the code I have a general understanding of how the rotor is constructed and how to make changes, however it is still fairly complicated and I'm not familiar enough with CAD in general to always know where to look for bugs. opencode was helpful with that and I'm making progress to fix this one issue.*
+	
+`16:00` met w/ Julie to discuss CAD progress (2.25 hr)
+	- talked about modeling progress and the merits of both designs, seems like va9 is less well defined and therefore harder to model accurately. We are leaning towards using the vj20 design as a base and exploring the effects of using the EN0005 airfoil and/or the blade end or twist features of the va9 rotor
 	- read [[vj20]] and [[va9]] for better understanding of the top two designs
 		- also read thru the H-vawt-related parameters pages
-`16:00` met w/ Julie to discuss CAD progress (1 hr)
-	- 
 
-Hours: 0
+
+---
+Hours: -15.25
 **Next tasks:**
 	- add shorter time interval data to investigate wind direction fluctuations 
-	- play around in 
+	- start learning how to use simscale to determine what testing we think we can do to inform parameter choices/experimental design
+
 
 
 
