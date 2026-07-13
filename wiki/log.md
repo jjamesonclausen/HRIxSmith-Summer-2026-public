@@ -1,6 +1,52 @@
 #maintenance
 ## Log
 
+### 2026-07-10 - Add VA9 versus VJ20 Cp-TSR curve comparison
+
+- Task: compare the full published `Cp`-versus-TSR curves for VA9 EN0005 and VJ20 rather than comparing only their peak `Cp` values.
+- Actions:
+  - Read the VA9 high-TSR model curve and VJ20 wind-speed-specific hybrid curves.
+  - Added approximate plotted values, TSR-region interpretation, BOS implications, and an apples-to-apples comparison warning to `active/resources/VAWT_basics.md`.
+- Decisions:
+  - Reported plotted values as approximate because the source figures do not provide complete numerical point tables.
+  - Kept the comparison qualitative across TSR regions because the two studies use different geometries, wind speeds, Reynolds numbers, and validation contexts.
+- Open:
+  - A stronger comparison would digitize both plots and rerun both designs under the same geometry scale, Reynolds-number range, wind speeds, and operating-speed control strategy.
+
+### 2026-07-10 - Add BOS cut-in versus Cp tradeoff lesson
+
+- Task: quantify whether VJ20's higher `Cp` can compensate for its higher cut-in speed compared with VA9 using the five-year BOS wind dataset.
+- Actions:
+  - Calculated observation availability above the two cut-in thresholds and a first-pass `Cp * V^3` energy proxy from `attachments/wind data/BOS_07.21_to_07.26.json`.
+  - Added the comparison, break-even `Cp`, assumptions, and rated-speed caveat to `active/resources/VAWT_basics.md`.
+- Decisions:
+  - Presented the result as a simplified proxy rather than a final AEP claim because the designs have different swept areas, incomplete power curves, and scale/context differences.
+- Open:
+  - A fair decision requires matched swept areas, operating TSR/RPM strategies, full power curves, and realistic generator/rated-power limits.
+
+### 2026-07-10 - Add VAWT performance-data workflow lesson
+
+- Task: explain how a turbine designer obtains `Cp`, torque, loads, startup, and power-curve data after creating a CAD model.
+- Actions:
+  - Added a `How To Get Performance Data` section to `active/resources/VAWT_basics.md`.
+  - Documented the roles of rotor-performance models, CFD, and physical tests; a recommended staged workflow; requested CFD outputs; and validation cautions.
+- Decisions:
+  - Made clear that CAD supplies the geometry but does not independently calculate aerodynamic or structural performance results.
+  - Treated fast screening, CFD comparison, and physical validation as complementary rather than interchangeable methods.
+- Open:
+  - The next lesson can choose a specific first-pass tool and walk through TSR, RPM, and `Cp` output for one baseline rotor.
+
+### 2026-07-10 - Create living VAWT basics learning resource
+
+- Task: create `active/resources/VAWT_basics.md` to hold the current VAWT-design lesson and future related learning.
+- Actions:
+  - Added source-backed explanations of the main VAWT performance variables, turbine families, design choices, central tradeoffs, the `va9` EN0005 example, and a first design workflow.
+  - Added a `Future Lessons` section for continuing the learning note in later conversations.
+- Decisions:
+  - Structured the note around the distinction between measured performance variables and changeable design choices, because that is the core framework needed for concept selection and design iteration.
+- Open:
+  - Future lessons should be appended to `Future Lessons` as the user works through TSR, solidity, airfoils, and modeling.
+
 ### 2026-07-10 - Add VA9 CAD prompt handoff note
 
 - Task: add the earlier VA9 CAD-prompt guidance into `active/CAD log/j710_va9_initial.md`.
