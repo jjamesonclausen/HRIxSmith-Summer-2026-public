@@ -9,23 +9,22 @@ https://www.youtube.com/watch?v=WsPy_TJotv4
 	- Boolean, subtract (top middle)
 		- target body = air
 		- tool body = turbine
-			- discard tool, apply
+			- discard tools, apply
 	- save as copy (top right)
-4. delete turbine object from geometries
-5. select air, then Create Simulation
+4. select air, then Create Simulation
 	- Incompressible, create
-6. Materials, air
-7. Boundary conditions
+5. Materials, air
+6. Boundary conditions
 	- air inlet
 	- pressure outlet to 0 Pa
 	- create wall, select other sides, set velocity to slip
-8. Results Control
+7. Results Control
 	- Forces and moments, select all faces of turbine and not air boundary faces
 		- select all faces (top right) then deselect boundary faces
 		- should have white outlines around turbine and black outlines around air cube
 	- maybe set center of rotation
-9. Simulation Runs, start
-10. Post Process Results
+8. Simulation Runs, start
+9. Post Process Results
 	- click on each boundary face and hide selection to hide air cube
 	- default given top view cross section plane, can turn off
 	- Part color, pressure shows pressure on turbine
@@ -36,9 +35,40 @@ https://www.youtube.com/watch?v=WsPy_TJotv4
 		- position particle trace 1 on inlet boundary by inverting visibility
 
 ## HRI2526 lessons learned, set up used
-- k-omega SST turbulence model for all studies
-- had trouble with boundary layer meshing which significantly decreased the reliability of the cfd
-- validated cfd using a naca airfoil and a classical savonius vawt
+- general notes
+	- had trouble with boundary layer meshing which significantly decreased the reliability of the cfd
+	- validated cfd using a naca airfoil and a classical savonius vawt
+- boundary conditions
+	- inlet, uniform velocity w prescribed turbulence intensity and turbulent length scale (?)
+	- outlet, zero gauge pressure
+	- sides/top/bottom, symmetry planes (?) to reduce comp cost
+	- turbine surfaces, no-slip
+- choosing turbulence models
+	- RANS (reynolds-averaged navier stokes)
+		- time averaged flow properties  -> effect of turbulent eddies
+		- fast and cheap, best for when large-scale turbulent structures are not the primary interest
+		- bad for flow instabilities, vortex shedding, transient phenomena
+		- k-epsilon
+			-  good for fully turbulent flow far from walls, or if cost is a major constraint
+			- bad for vawts bc bad at big pressure gradients and boundary layer separation
+		- k-omega, k-omega SST (shear stress transport)
+			- good for wall bounded functions and flows with strong boundary layer effects, adverse pressure gradients, or mild flow separation
+			- resolve all the way to the wall, but need fine mesh near wall so more expensive
+			- SST version switches to k-epsilon in the free stream to reduce sensitivity to freestream turbulence properties
+				- also improved flow separation and pressure gradients
+				- best for vawt bc good power coefficients and torque prediction and reasonably close to experimental data and wake characteristics across TSRs
+				- ideal for design exploration and parametric studies
+	- LES (large eddy simulations)
+		- spacially filter out smallest scale turbulence and resolve large scales w the most energy directly
+		- much higher fidelity than RANS, more expensive, need very fine mesh and small time steps to handle large eddies
+		- captures transient flow structures
+		- good for acoustics, combustion, and flows with very large separation which RANS cant do very well
+		- usually only used in fundamental research, benchmarking studies or simple geometry simulations
+	- hybrids (eg DES, detached eddy simulation)
+		- DES uses RANS in boundary layer near walls and LES in areas with separating flow and large eddies
+- meshing
+	- 
+
 
 
 ## wiki notes

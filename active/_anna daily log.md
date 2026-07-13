@@ -316,12 +316,37 @@
 	- read [[vj20]] and [[va9]] for better understanding of the top two designs
 		- also read thru the H-vawt-related parameters pages
 
+## Week 04
+
+### Monday 07/13
+
+`09:00` met w/ Mike + Julie to get started (0.5 hr)
+`09:30` learning about CFD and SimScale (3 hr)
+	- walked through basic flow simulation tutorial on yt using a grabcad glider
+		- learned basic elements you need to set up a flow study and how to look at the results
+	- read thru CFD section and appendix of [HRI2526] and noted specific things they learned and how they set up their studies
+	- had Luna look through all of the sources and wiki pages and write up some notes on how to approach CFD for vawt design as a beginner
+
 
 ---
 Hours: -15.25
 **Next tasks:**
 	- add shorter time interval data to investigate wind direction fluctuations 
 	- start learning how to use simscale to determine what testing we think we can do to inform parameter choices/experimental design
+
+### Tuesday 07/14
+
+`09:00` met w/ Mike + Julie to get started (0.5 hr)
+### Wednesday 07/15
+
+`09:00` met w/ Mike + Julie to get started (0.5 hr)
+### Thursday 07/16
+
+`09:00` met w/ Mike + Julie to get started (0.5 hr)
+### Friday 07/17
+
+`09:00` met w/ Mike + Julie to get started (0.5 hr)
+
 
 
 

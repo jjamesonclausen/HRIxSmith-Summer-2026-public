@@ -35,9 +35,10 @@ etc
 - [ ] etc
 
 
-`[[backlink]]` <- example wikilink syntax
+`[[backlink]]` <- wikilink (to any note in the vault)
+`[Google.com](https://google.com)` <- link to webpage with custom text
+`[[HRI2526|Display text here]]` <- wikilink with custom text
 
-[outside link](url)
 
 >[!notes] Plugins
 >- Community plugins are made by obsidian users
