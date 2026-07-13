@@ -232,8 +232,13 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 ## Week 4
 
 ### Monday 7/13
-- play around with new models - terra and luna - to learn more about parameters 
+- play around with new models - terra and Luna - to learn more about parameters 
+	- make a page called [[VAWT_basics]] comparing the Cp + cut in for vj20 and va9
+		- also has reports of some information i was asking for to learn more about VAWTs in general 
 - Met with Mike + Anna - 9am
+- stay on call with anna 
+	- play with sim scale - tutorial 
+	- make a [[Decision Making Process]] page to better document the choices made 
 ### Tuesday 7/14
 - Met with Mike + Anna - 9am
 ### Wednesday 7/15
