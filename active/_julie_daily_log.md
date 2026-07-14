@@ -232,14 +232,29 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 ## Week 4
 
 ### Monday 7/13
-- play around with new models - terra and Luna - to learn more about parameters 
+- play around with new models - terra and Luna - to learn more about parameters (2hrs)
 	- make a page called [[VAWT_basics]] comparing the Cp + cut in for vj20 and va9
 		- also has reports of some information i was asking for to learn more about VAWTs in general 
-- Met with Mike + Anna - 9am
-- stay on call with anna 
+- Met with Mike + Anna - 9am (.5 hr)
+- stay on call with anna (2hrs)
 	- play with sim scale - tutorial 
 	- make a [[Decision Making Process]] page to better document the choices made 
+- watch videos on sim scale (2 hr)
+- play with zoo keeper to make simple things to test in sim scale 
+- attempt to run a simulation (2hr )
+- call mike to update on the day (.75hr)
+	- got brief introduction to the theory behind sim scale 
+- stayed on call with anna 
+	- ran through three simulation together 
+	- had issues with verifying the results 
+		- used the LLM to trouble shoot our results - didn't have a ton of success 
+	- confused about last years reporting of their set up 
+	- tried to make a diy 2d simulation (really thin boundary layer) 
 ### Tuesday 7/14
+- some work before meeting (1.75 hrs)
+	- made slides for presentation watched a you tube video in a [Savonius vawt cfd sim scale](https://www.youtube.com/watch?v=bgOTUX5E-f0) 
+	- ran a simulation on a random airfoil to practice the set up 
+	- found an example of a cfd for a VAWT
 - Met with Mike + Anna - 9am
 ### Wednesday 7/15
 - Met with Mike + Anna - 9am

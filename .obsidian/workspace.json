@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "active/resources/VAWT_basics.md",
+                "file": "active/_Julie_daily_log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VAWT_basics"
+              "title": "_Julie_daily_log"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "active/resources/VAWT_basics.md",
+                "file": "active/resources/CFD, SimScale Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VAWT_basics"
+              "title": "CFD, SimScale Notes"
             }
           },
           {
@@ -63,8 +63,7 @@
               "title": "4eed3e3d-51dc-43a6-8dc7-1b7ae205f045"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +116,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "active/resources/VAWT_basics.md",
+                "file": "active/_Julie_daily_log.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for VAWT_basics"
+              "title": "Backlinks for _Julie_daily_log"
             }
           },
           {
@@ -226,18 +226,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "cb6d63aeb15f344f",
+  "active": "a81e6f40380f1d7f",
   "lastOpenFiles": [
+    "active/resources/CFD, SimScale Notes.md",
+    "active/resources/14 CFR Part 77 -- Safe, Efficient Use, and Preservation of the Navigable Airspace.md",
+    "active/_Julie_daily_log.md",
+    "attachments/PDFs/vj20.pdf",
+    "active/CAD log/2d.step",
+    "active/CAD log/example_airfoil.step",
+    "active/_anna daily log.md",
+    "active/resources/VAWT_basics.md",
+    "active/resources/zoo dev notes.pdf",
+    "active/CAD log/a710_vj20.md",
     "active/CAD log/blade-body.step",
     "active/CAD log/main.step",
     "active/CAD log/Basic_VAWT_simscale.step",
     "active/CAD log/Basic_VAWT.step",
-    "active/_Julie_daily_log.md",
     "active/analysis/Decision Making Process.md",
     "active/resources/mtg notes/Notes on meeting July 7.md",
     "active/resources/mtg notes/Notes from meeting June 30th.md",
     "active/resources/mtg notes",
-    "active/resources/VAWT_basics.md",
     "active/analysis/brainstorm.md",
     "active/analysis/Concept ranking worksheet.md",
     "active/analysis/Design goal.md",
@@ -249,16 +257,11 @@
     "images/Pasted image 20260710140714.png",
     "images/Pasted image 20260710135205.png",
     "images/Pasted image 20260710133919.png",
-    "images",
-    "attachments/PDFs/vj20.pdf",
     "wiki/summaries/vj20-summary.md",
     "sources/va9.md",
-    "active/analysis/table of all designs.base",
     "active/CAD log/4eed3e3d-51dc-43a6-8dc7-1b7ae205f045.md",
     "sources/vj20.md",
-    "active/CAD log/initial_va9_en0005.gltf",
     "active/CAD log/b46becaa-ac7e-4343-91b5-307ebca919dc.md",
-    "attachments/PDFs/va9_raw.pdf",
     "attachments/images/va9-fig5.jpg",
     "attachments/zoo images/Pasted image 20260710121856.png",
     "attachments/zoo images/Pasted image 20260710115517.png",
@@ -270,10 +273,6 @@
     "AnuPpuccin/README.md",
     "wiki/designs/vj23 3-Bladed Darrieus VAWT with Gearbox.md",
     "wiki/designs/vj2 Savonius-Darrieus Hybrid Wind Turbine.md",
-    "wiki/designs/vj2 Shaftless Savonius-Darrieus Hybrid Wind Turbine.md",
-    "wiki/designs/vj2 Split Savonius Outside Darrieus Hybrid Wind Turbine.md",
-    "wiki/designs/va20 Involute Rotor with Wind Flow Modifier.md",
-    "wiki/designs/vj9 Scooplet-Based Savonius.md",
     "Untitled.canvas"
   ]
 }
