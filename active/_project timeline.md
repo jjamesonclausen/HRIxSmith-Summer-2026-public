@@ -25,7 +25,7 @@ A final report detailing the design process and results, as well as AI tool refl
 - Tuesday afternoon HRI meeting: use it as the end-of-week technical review and help session.
 - End of each day: update design notes, simulation log, AI tool notes, and decisions while they are still fresh.
 
-### Week 1 (`07/09/2026` to `07/14/2026`) - lock scope and choose the concept
+### Week 1 `07/09/2026` to `07/14/2026` - lock scope and choose the concept
 
 Goals and measurable outcomes for the week:
 - Design requirements sheet completed.

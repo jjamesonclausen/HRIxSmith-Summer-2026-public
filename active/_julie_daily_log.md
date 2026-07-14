@@ -257,7 +257,12 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 	- found an example of a cfd for a VAWT
 - Met with Mike + Anna - 9am
 ### Wednesday 7/15
-- Met with Mike + Anna - 9am
+- continue learning about sim scale + start slides for meeting later (2hr)
+- Met with Mike + Anna - 9am (0.5hr)
+- meeting with anna to make slides (3hr)
+- continue to learn about sim scale + add some speaker notes to the slides (2hr)
+- meeting with the team (1hr)
+- 
 ### Thursday 7/16
 - Met with Mike + Anna - 9am
 ### Friday 7/17
