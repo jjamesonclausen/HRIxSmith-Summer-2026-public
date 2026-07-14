@@ -239,30 +239,33 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 - stay on call with anna (2hrs)
 	- play with sim scale - tutorial 
 	- make a [[Decision Making Process]] page to better document the choices made 
-- watch videos on sim scale (2 hr)
+- watch videos on sim scale (1.75 hr)
 - play with zoo keeper to make simple things to test in sim scale 
 - attempt to run a simulation (2hr )
 - call mike to update on the day (.75hr)
 	- got brief introduction to the theory behind sim scale 
-- stayed on call with anna 
+- stayed on call with anna (2.5hr)
 	- ran through three simulation together 
 	- had issues with verifying the results 
 		- used the LLM to trouble shoot our results - didn't have a ton of success 
 	- confused about last years reporting of their set up 
 	- tried to make a diy 2d simulation (really thin boundary layer) 
+- total hours - 11.5
 ### Tuesday 7/14
-- some work before meeting (1.75 hrs)
+- some work before meeting (2 hrs)
 	- made slides for presentation watched a you tube video in a [Savonius vawt cfd sim scale](https://www.youtube.com/watch?v=bgOTUX5E-f0) 
 	- ran a simulation on a random airfoil to practice the set up 
 	- found an example of a cfd for a VAWT
-- Met with Mike + Anna - 9am
-### Wednesday 7/15
-- continue learning about sim scale + start slides for meeting later (2hr)
-- Met with Mike + Anna - 9am (0.5hr)
+- Met with Mike + Anna - 9am (0.5)
 - meeting with anna to make slides (3hr)
+	- practice presenting on teams 
+	- put in screen shots of 
 - continue to learn about sim scale + add some speaker notes to the slides (2hr)
 - meeting with the team (1hr)
-- 
+- keep working on sim scale / notes on meeting/ reflections/ implement their advice (1hr)
+- total hours - 9.5 
+### Wednesday 7/15
+- Met with Mike + Anna - 9am (0.5hr)
 ### Thursday 7/16
 - Met with Mike + Anna - 9am
 ### Friday 7/17
