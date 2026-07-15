@@ -290,6 +290,7 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 	- use obsidian web clipper to add you tube tutorials 
 		- keeps timing out but overall terra is quite fast 
 		- messing up pictures tho 
+	- had the LLM walk me through a set up of a simscale simulation 
 	- 
 ### Thursday 7/16
 - Met with Mike + Anna - 9am
