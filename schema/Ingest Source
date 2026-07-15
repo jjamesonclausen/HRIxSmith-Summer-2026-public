@@ -2,16 +2,18 @@
 #schema 
 1. Read the converted source fully.
 2. Inspect any extracted figures in `images/` and link relevant ones in the wiki pages you create or update. Include the figure captions directly below the figure, and a link to the figure's source. 
-3. Create a source summary page in `wiki/summaries/` named after the source, eg. `va2-summary.md` .
-4. Summarize the source at a high level on that page, using only what the source supports and include a link to the source. 
-5. Extract key concepts and methods from the source. 
-6. For each concept or method, update the existing wiki page if one already exists.
+3. If the source is a VAWT source (file name beginning with 'v'), create a source summary page in `wiki/summaries/` named after the source, eg. `va2-summary.md` . 
+4. Summarize the vawt source at a high level on that page, using only what the source supports and include a link to the source. 
+5. Extract key concepts and methods from the source. If the source is a CFD source (name beginning with 'c') make sure to extract useful information about simulation set up.
+6. For each concept or method, update the existing wiki page if one already exists. 
 7. If no existing wiki page covers the concept or method, create a new page, with a link back to the source, in the appropriate folder:
 	- `wiki/concepts/` for concepts and entities
 	- `wiki/methods/` for procedures and techniques
+  - `wiki/CFD/` for CDF practices and set up 
 8. Add the appropriate tag to the top of the file:
 	- `#concepts` for concepts and entities
 	- `#methods` for procedures and techniques
+  - `#CFD` for for CDF practices and set up 
 9. If the source discusses any specific turbine designs create a separate wiki page in `wiki/designs/` that includes information about the turbine geometry, any unique design choices or specifications, and the turbine's performance. Title the page according to the source and the design, eg `va9 EN0005 Self-start Darrieus VAWT.md`.These pages should refrence only one source. Also include properties using the format below. If any information is unavailable leave it blank.
     - Input the following information as a number (not text) using the listed units. Convert units if necessary.
     - For Cp, TSR, and starting torque, include only the maximum value reported in the paper, that falls between the listed wind speed range, eg (1-4 m/s).
