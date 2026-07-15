@@ -1,6 +1,16 @@
 #maintenance
 ## Log
 
+### 2026-07-15 - Add learning-log entry on startup versus operating-point screening
+
+- Task: add the user's new learning takeaway to `wiki/learning-log.md`.
+- Actions:
+  - Appended a new `Anna` learning-log entry capturing the distinction between operating-point screening and startup prediction and the limits of CFD for startup prediction.
+- Decisions:
+  - Preserved the user's stated understanding while tightening wording slightly for readability and consistency with the existing learning-log format.
+- Open:
+  - A useful next learning step is to connect this concept to a concrete TSR sweep and to interpreting `Mz` from SimScale runs.
+
 ### 2026-07-15 - Ingest cj7 SimScale rotating-zone documentation
 
 - Task: read the new `sources/cj7.md` documentation page and create any useful wiki pages it supports.
