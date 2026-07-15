@@ -1,6 +1,19 @@
 #maintenance
 ## Log
 
+### 2026-07-15 - Ingest cj1 planetary-cluster CFD paper
+
+- Task: convert `attachments/PDFs/cj1.pdf` into the first Julie CFD source and ingest its relevant CFD material into the new `wiki/CFD/` folder.
+- Actions:
+  - Created `sources/cj1.md` as a structured transcription with seven extracted figures in `attachments/images/`.
+  - Added `wiki/summaries/cj1-summary.md`, `wiki/CFD/cj1 CFD Modelling and Validation.md`, the planetary-cluster design page, and the two source-specific layout-parameter pages.
+  - Updated the existing CFD method and validation-concept pages, plus `wiki/index.md`.
+- Decisions:
+  - Used the user-defined `cj1` identifier rather than the prior VAWT-source naming convention because this is Julie's first CFD-specific source.
+  - Kept the paper's 2D limitation, isolated-only experiment, and inconsistent PCD / improvement wording explicit rather than presenting the reported cluster gain as broadly validated.
+- Open:
+  - The paper does not provide a cluster experiment or enough numerical PCD-comparison results to reproduce or independently assess the claimed optimum spacing.
+
 ### 2026-07-10 - Add fast SimScale learning plan for VAWT work
 
 - Task: define the fastest practical path for learning enough SimScale to test newly designed VAWTs.

@@ -24,7 +24,8 @@ Sources:
   - "[[va9]]"
   - "[[vj2]]"
   - "[[vj29]]"
-Source_count: 22
+  - "[[cj1]]"
+Source_count: 23
 tags:
   - concepts
 ---
@@ -82,6 +83,8 @@ It also compares streamtube, vortex, and cascade models, noting that vortex mode
 
 The hybrid-rotor CFD paper in `vj2` uses 3D SolidWorks Flow Simulation rather than 2D analysis because the authors say the vortex-like structures in the rotor require a full 3D domain. (source: sources/vj2.md)
 It reports a computational domain of 15 m by 12 m by 12 m, 7 m/s inlet wind speed, 5% turbulence intensity, and torque samples at nine attack angles from 0 degrees to 120 degrees. (source: sources/vj2.md)
+
+The `cj1` paper compares a scaled isolated turbine against CFD but does not experimentally validate its planetary cluster; it also states that 2D CFD cannot investigate trailing vortices and tip losses. (source: sources/cj1.md)
 
 ![Source figure](va10-fig5.jpg)
 Original caption: Fig. 5. Computational grid independency study [31]. [[va10|Source]]

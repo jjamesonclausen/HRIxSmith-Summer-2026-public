@@ -25,7 +25,8 @@ Sources:
   - "[[vj20]]"
   - "[[vj27]]"
   - "[[vj8]]"
-Source_count: 23
+  - "[[cj1]]"
+Source_count: 24
 tags:
   - methods
 ---
@@ -88,6 +89,8 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 - It reports more than `2 million` mesh elements, `15` inflation layers, element length `0.005 m` at the interface, no meaningful `Cp` change beyond refinement level `2` (`321,189` nodes in the reported MIT), and a chosen time step of `0.05 s`. (source: sources/vj20.md)
 - The `vj27` review adds that deflector studies commonly rely on commercial CFD plus URANS, and it specifically cites `k-omega` / URANS for one airfoil-shaped Savonius-deflector study and `3D` CFD for flat-plate deflector studies. (source: sources/vj27.md)
 - It also emphasizes that many deflector concepts still lack enough real-time experiments, so CFD-heavy gains should be treated as promising rather than fully mature. (source: sources/vj27.md)
+- The `cj1` cluster study uses 2D transient Fluent with sliding mesh, `k-omega SST`, mesh sensitivity, and torque averaging over a rotation. (source: sources/cj1.md)
+- Its isolated-rotor domain places the inlet 5D upstream, the outlet 10D downstream, and symmetry boundaries 5D from the rotor centerline. (source: sources/cj1.md)
 
 ## Figures
 

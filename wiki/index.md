@@ -11,6 +11,10 @@ The map of this knowledge base. The agent keeps this current: every page it crea
 - [[learning-log]] — what you understood, in your own words.
 - [[evals]] — the test set that keeps this wiki honest.
 
+## CFD Notes
+
+- [[cj1 CFD Modelling and Validation]]
+
 ## Source summaries
 
 _One page per file in `sources/`._
@@ -75,6 +79,7 @@ _One page per file in `sources/`._
 - [[vj27-summary]]
 - [[vj28-summary]]
 - [[vj29-summary]]
+- [[cj1-summary]]
 
 ## Concepts
 
@@ -202,6 +207,7 @@ _Specific turbine design pages live in [`designs/`](designs/)._
 - [[va3 Windside Helical Wind Turbine]]
 - [[va3 Windspire Gyromill]]
 - [[Windkop 5 kW H-Darrieus VAWT]]
+- [[cj1 Planetary Cluster Darrieus VAWT]]
 
 ## Parameters
 
@@ -278,6 +284,8 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[va27 Airfoil Maximum-Thickness Position]]
 - [[va27 Leading-Edge Radius Index]]
 - [[va3 Tip Speed Ratio Classification]]
+- [[cj1 Planetary Oblique Angle]]
+- [[cj1 Planetary Pitch Circle Diameter]]
 
 ## Methods
 
