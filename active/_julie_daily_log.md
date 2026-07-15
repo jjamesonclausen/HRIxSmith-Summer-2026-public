@@ -268,8 +268,37 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 - total hours - 9 
 ### Wednesday 7/15
 - update daily log, write some notes on yesterdays meeting (1hr)
-- Met with Mike + Anna - 9am (0.5hr)
-- 
+- Met with Mike + Anna - 9am talked about plan + yesterdays meeting (0.5hr)
+	- notes from mike for future meetings 
+		- pause more between concepts and try to solicit more questions so that the meetings are more conversational and less presentation like 
+		- slow down more 
+		- include more thoughts about the process and learning about learning 
+	- this week we should orient slightly more toward learning as opposed to strictly project goals 
+		- how to use LLM to learn hot to do CFD
+	- deliverables for this project are to have a "user" manual for a team in the future on how to best use and LLM or other ai tool to learn and aid their project 
+		- we want documentation on best practices not necessarily and amazing final turbine 
+			- in other projects learning is somewhat more forced like being forced to learn how to use fusion, but with ai tools you have to be more intentional to not take a back seat in your own project. have the tools you made help you, have them quiz and teach you. in this project though the force learning is learning how to use all these tools. learning how to set up a wiki and use obsidian and vs code. learning all the ways it can aid you and how to set it up to be tailored to your needs. you learn how to learn form it. 
+	- suggestions from yesterdays meeting 
+		- have the LLM make a visual decision matrix so we can follow its thought process better 
+		- ask for serval diverse answers 
+		- orient the LLM to CDF this week 
+	- 
+- stay on call with anna to start setting up the CFD part of the wiki (4 hrs)
+	- edits to schema pages for naming scheme 
+	- anna adds all documentation form simscale on how to use 
+	- i find some papers on CDF testing of VAWT 
+	- use obsidian web clipper to add you tube tutorials 
+		- keeps timing out but overall terra is quite fast 
+		- messing up pictures tho 
+	- had the LLM walk me through a set up of a simscale simulation 
+	- spent some time looking through public VAWT simscale simulations to see what kind of results they focused on 
+	- had the LLM quiz me on the concepts of CDF in general, what its good at vs not, what information you get out of a simulation, and what is reliable or not. 
+	- got plan from mike 
+		- got live share working 
+		- working on coping an airfoil i found on the one from hri 
+- review the results of the simulations 
+- question LLM about ai in simscale 
+	- doesn't seem to know much about that 
 ### Thursday 7/16
 - Met with Mike + Anna - 9am
 ### Friday 7/17

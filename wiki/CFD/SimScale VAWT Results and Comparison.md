@@ -6,7 +6,7 @@ Sources:
   - "[[ca19]]"
   - "[[ca23]]"
   - "[[ca24]]"
-  - "[[vj6]]"
+  - "[[cj7]]"
 Source_count: 5
 tags:
   - cfd
@@ -17,6 +17,8 @@ tags:
 
 After results are available, open the online post-processor with **Post-process results** or **Solution Fields**. (source: sources/ca24.md)
 
+The `cj7` tutorial adds a rotating-machinery inspection sequence: move to the last timestep, clear predefined filters, hide enclosure walls, and color the rotating geometry by pressure before adding streamline-style filters. (source: sources/cj7.md)
+
 For a transient run, use the frame-selection toolbox to move through saved result sets. (source: sources/ca24.md)
 
 ## Minimum evidence package
@@ -24,7 +26,9 @@ For a transient run, use the frame-selection toolbox to move through saved resul
 - Plot the forces and moments configured before the run; SimScale calculates them on assigned surfaces. (source: sources/ca19.md)
 - Use cutting planes and velocity vectors to inspect flow structure at consistent locations. (source: sources/ca24.md)
 - Use particle traces from a seed face to inspect recirculation and flow patterns. (source: sources/ca24.md)
+- In the `cj7` example, particle traces are seeded below the rotor system and configured more densely to reveal the swirl passing through the rotating region. (source: sources/cj7.md)
 - Use the rotational filter to inspect a rotating region, including blade-to-blade and unwrapped cascade views. (source: sources/ca24.md)
+- The same tutorial also uses a cutting plane with vectors through the rotating region to inspect local acceleration and swirl direction. (source: sources/cj7.md)
 - Save a consistent view for repeated comparisons across simulations. SimScale's Save view stores views and filters for use across runs and projects. (source: sources/ca24.md)
 
 ## Compare designs fairly

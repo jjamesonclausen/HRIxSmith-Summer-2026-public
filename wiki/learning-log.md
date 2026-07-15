@@ -40,16 +40,21 @@ Open:
 - Tripped me up: I was really confused about Kriging and didn't really understand the role of Kriging vs Latin-hypercube sampling. Some of the equations were also unclear to me.
 - Still open: I think I understand the process much better, if we want to look into this again I would want to learn more about how all of the steps work.
 
-## 2026-06-30 — Schema instruction design - julie 
+## 2026-06-30 — Schema instruction design - Julie 
 - Explained: How to tighten a schema procedure so future PDF figure extraction consistently uses Python/PyMuPDF, checks for existing source/image mappings, links images from `sources/*.md`, and verifies counts/paths/order before finishing.
 - Prompt for Anna: Add your own note here if the idea of turning a successful workflow into a reusable schema rule clicked.
 
-## 2026-06-30 — Torque ripple - julie 
+## 2026-06-30 — Torque ripple - Julie 
 - In my words: Torque ripple is when torque is not smooth while the turbine rotates, so it rises and falls instead of staying steady. Those fluctuations can reduce efficiency.
 - Tripped me up: I hadn't heard the term before but it just means uneven torque over the rotation.
 - Still open: How much torque ripple matters depends on the turbine design and operating point.
 
-## 2026-07-01 — PDF ingest and OCR - julie
+## 2026-07-01 — PDF ingest and OCR - Julie
 - In my words: Learned about how the LLM processes PDFs, what OCR is, and why errors can happen when turning a PDF into Markdown. I understand better now how to prompt it when ingesting PDFs.
 - Tripped me up: I was not clear on why the markdown could end up missing or summarizing text even when the PDF looks readable and i can highlight the text.
 - Still open: How to have it systematically check the new markdown so it does not summarize or miss text.
+
+## 2026-07-15 — Operating-point screening vs startup prediction - Julie
+- In my words: Used the LLM to quiz me and learned the difference between operating-point screening and startup prediction. The difference is that operating-point screening looks at the behavior of the turbine under set conditions, whereas startup prediction models how the turbine would act freely in the real world. CFD is much better at operating-point screening than startup prediction.
+- Tripped me up: At first I thought the main difference was that one compared design iterations and the other was just a single prediction, but the real difference is imposed operating conditions versus free self-start behavior.
+- Still open: I want to better understand how to use SimScale outputs like shaft moment to compare designs without over-trusting them as exact real-world startup or performance predictions.

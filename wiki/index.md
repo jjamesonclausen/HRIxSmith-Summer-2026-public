@@ -14,6 +14,12 @@ The map of this knowledge base. The agent keeps this current: every page it crea
 ## CFD Notes
 
 - [[cj1 CFD Modelling and Validation]]
+- [[cj2 Farrah VAWT CFD Setup]]
+- [[cj3 Darrieus Course CFD Workflow]]
+- [[cj4 SimScale Savonius Workflow]]
+- [[cj5 SimScale Virtual Wind Tunnel Workflow]]
+- [[cj6 SimScale Building Wind Workflow]]
+- [[cj7 SimScale MRF Rotating Zone Workflow]]
 
 ## Source summaries
 
@@ -80,6 +86,12 @@ _One page per file in `sources/`._
 - [[vj28-summary]]
 - [[vj29-summary]]
 - [[cj1-summary]]
+- [[cj2-summary]]
+- [[cj3-summary]]
+- [[cj4-summary]]
+- [[cj5-summary]]
+- [[cj6-summary]]
+- [[cj7-summary]]
 
 ## Concepts
 
@@ -208,6 +220,7 @@ _Specific turbine design pages live in [`designs/`](designs/)._
 - [[va3 Windspire Gyromill]]
 - [[Windkop 5 kW H-Darrieus VAWT]]
 - [[cj1 Planetary Cluster Darrieus VAWT]]
+- [[cj2 12-Blade Farrah VAWT]]
 
 ## Parameters
 
@@ -286,6 +299,7 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 - [[va3 Tip Speed Ratio Classification]]
 - [[cj1 Planetary Oblique Angle]]
 - [[cj1 Planetary Pitch Circle Diameter]]
+- [[cj2 Farrah Blade Pitch Angle]]
 
 ## Methods
 
@@ -316,6 +330,8 @@ _Procedure and technique pages live in [`methods/`](methods/)._
 - [[PIV Testing]]
 - [[QBlade]]
 - [[PROFOIL]]
+- [[SimScale]]
+- [[WebPlotDigitizer]]
 - [[Wind Tunnel Testing]]
 - [[XFOIL]]
 - [[Box-Behnken Design]]
