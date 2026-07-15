@@ -1,3 +1,104 @@
+## HRI2526 all things CFD
+- general notes
+	- had trouble with boundary layer meshing which significantly decreased the reliability of the cfd
+	- ended up using simscale's physics-based mesh with three layers, overall relative thickness 0.4, growth rate 1.5
+		- unstructured, prob uses wall functions, but they couldn't plot y+ values to determine if they were correct
+		- future work should directly resolve the boundary layer and use a hybrid mesh
+	- validated cfd using a naca airfoil and a classical savonius vawt
+	- incompressible flow bc vawts operate at low wind speeds so density changes in air are negligible
+	- from savonius validation studies
+		- lift and drag vectors have to be set in the correct orientation
+			- lift force is NOT z direction towards rotor shaft but instead INTO the blades and with MRF, the lift vector gets "moved" around in approximated time frames
+		- reference areas and reference lengths within the force and moment coefficient calculations must be correct
+		- correct axis of rotations centered about the rotor are important
+- boundary conditions
+	- inlet velocity of 2 m/s with 5% turbulence intensity
+	- outlet, zero gauge pressure
+	- sides/top/bottom, symmetry planes (?) to reduce comp cost
+	- turbine blades subtracted from flow volume, surfaces no-slip
+- turbulence models
+	- RANS (reynolds-averaged navier stokes)
+		- time averaged flow properties  -> effect of turbulent eddies
+		- fast and cheap, best for when large-scale turbulent structures are not the primary interest
+		- bad for flow instabilities, vortex shedding, transient phenomena
+		- k-epsilon
+			-  good for fully turbulent flow far from walls, or if cost is a major constraint
+			- bad for vawts bc bad at big pressure gradients and boundary layer separation
+		- k-omega, k-omega SST (shear stress transport)
+			- good for wall bounded functions and flows with strong boundary layer effects, adverse pressure gradients, or mild flow separation
+			- resolve all the way to the wall, but need fine mesh near wall so more expensive
+			- SST version switches to k-epsilon in the free stream to reduce sensitivity to freestream turbulence properties
+				- also improved flow separation and pressure gradients
+				- best for vawt bc good power coefficients and torque prediction and reasonably close to experimental data and wake characteristics across TSRs
+				- ideal for design exploration and parametric studies
+	- LES (large eddy simulations)
+		- spacially filter out smallest scale turbulence and resolve large scales w the most energy directly
+		- much higher fidelity than RANS, more expensive, need very fine mesh and small time steps to handle large eddies
+		- captures transient flow structures
+		- good for acoustics, combustion, and flows with very large separation which RANS cant do very well
+		- usually only used in fundamental research, benchmarking studies or simple geometry simulations
+	- hybrids (eg DES, detached eddy simulation)
+		- DES uses RANS in boundary layer near walls and LES in areas with separating flow and large eddies
+- meshing
+	- types of meshes
+		- structured 
+			- grid pattern
+			- allows for precise control of cell quality
+			- computationally efficient
+			- ideal for boundary layer region around vawt airfoils bc you need orthogonal cells and smooth cell transitions
+			- difficult and time consuming to generate
+		- unstructured 
+			- triangles in 2D or tetrahedra in 3D
+			- more flexible which helps with complex and irregular geometries (vawts)
+			- can be automatically generated
+			- computationally expensive
+			- lower quality cells if not generated carefully
+				- can impact solver convergence and reduce solution accuracy
+		- hybrid 
+			- use structured mesh near blade surface to capture boundary layer
+			- flexible unstructured mesh for the rest of the computational domain
+			- gives high fidelity results in critical flow regions while minimizing cost
+			- most common (and best) for vawts
+	- non-dimensional wall distance, y+ 
+		- represents the distance from the wall to the center of the first mesh cell, normalized by viscous scales
+	- boundary layer meshing (near vawt blades), method depends on turbulence model
+		- directly resolving the boundary layer uses a very fine mesh to compute turbulence viscous effects in the boundary layer with no approximations
+			- requires y+ <= 1 to capture flow details
+			- high accuracy, high cost
+			- often necessary for K omega SST which needs a fine mesh too
+			- often necessary for vawts (esp w dynamic stall) in general to capture boundary layer development and separation for prediction torque and cp
+		- wall modeling fucntions approximate near wall behavior
+			- lower cost bc dont need fine mesh near wall
+			- less accurate
+			- 30 < y+ < 300
+			- can be used for k epsilon turbulence models that are fine with coarser near wall meshes
+- rotation simulation
+	- Multiple Reference Frames (MRF)
+		- steady state approx using a rotating reference frame that modifies the governing equations in the rotating zone to simulate the rotation of the turbine
+		- mesh is not rotated
+		- less expensive than transient models
+		- dont capture unsteady phenomena like dynamic stall, wake interaction, vortex shedding
+		- can be used for initial vawt design iterations but not good for hi fi studies
+	- Arbitrary Mesh Interface (AMI)
+		- fully transient simulation that creates a mesh interface btwn moving and stationary mesh regions
+		- physically rotates the rotating domain at each time step, interpolating at the interface to allow for realistic movement
+		- expensiveeee
+		- considers transient effect
+		- better for hi fi vawt studies
+	- rotating domain is usually a cylinder that encompasses the turbine blades (diameter 1.5 times the turbine diameter)
+- results
+	- convergence plots - good for numerical stability visualization to see if the simulation is running correctly
+	- residuals? what are these
+		- should drop and converge to 10e-4 for a well performing, accurate model per rec from Tom Ramsay at HALO
+- TSR analysis
+	- to find optimal tsr operating range for vawt, usually where cp is highest (cp declines rapidly once tsr surpasses ideal range)
+	- they did tsr analysis to find the optimal range, and check that cp was behaving in a normal way and matched literature results
+	- can't manually set tsr range in simscale so calculated corresponding angular velocities based on tsr values while maintaining rotor radius and incoming velocity (omega = (TSR\*radius)/Ux)
+- transient studies
+	- ![[Pasted image 20260714152313.png]]
+	- 
+
+
 ## flow simulation basic steps
 **note that this example was for a model jet, so some things are not ideal for vawts**
 https://www.youtube.com/watch?v=WsPy_TJotv4 
@@ -34,45 +135,7 @@ https://www.youtube.com/watch?v=WsPy_TJotv4
 	- Particle trace (top left)
 		- position particle trace 1 on inlet boundary by inverting visibility
 
-## HRI2526 lessons learned, set up used
-- general notes
-	- had trouble with boundary layer meshing which significantly decreased the reliability of the cfd
-	- validated cfd using a naca airfoil and a classical savonius vawt
-- boundary conditions
-	- inlet, uniform velocity w prescribed turbulence intensity and turbulent length scale (?)
-	- outlet, zero gauge pressure
-	- sides/top/bottom, symmetry planes (?) to reduce comp cost
-	- turbine surfaces, no-slip
-- choosing turbulence models
-	- RANS (reynolds-averaged navier stokes)
-		- time averaged flow properties  -> effect of turbulent eddies
-		- fast and cheap, best for when large-scale turbulent structures are not the primary interest
-		- bad for flow instabilities, vortex shedding, transient phenomena
-		- k-epsilon
-			-  good for fully turbulent flow far from walls, or if cost is a major constraint
-			- bad for vawts bc bad at big pressure gradients and boundary layer separation
-		- k-omega, k-omega SST (shear stress transport)
-			- good for wall bounded functions and flows with strong boundary layer effects, adverse pressure gradients, or mild flow separation
-			- resolve all the way to the wall, but need fine mesh near wall so more expensive
-			- SST version switches to k-epsilon in the free stream to reduce sensitivity to freestream turbulence properties
-				- also improved flow separation and pressure gradients
-				- best for vawt bc good power coefficients and torque prediction and reasonably close to experimental data and wake characteristics across TSRs
-				- ideal for design exploration and parametric studies
-	- LES (large eddy simulations)
-		- spacially filter out smallest scale turbulence and resolve large scales w the most energy directly
-		- much higher fidelity than RANS, more expensive, need very fine mesh and small time steps to handle large eddies
-		- captures transient flow structures
-		- good for acoustics, combustion, and flows with very large separation which RANS cant do very well
-		- usually only used in fundamental research, benchmarking studies or simple geometry simulations
-	- hybrids (eg DES, detached eddy simulation)
-		- DES uses RANS in boundary layer near walls and LES in areas with separating flow and large eddies
-- meshing
-	- 
-
-
-
 ## wiki notes
-
 ### Recommended VAWT CFD workflow
 - Define one question first: compare geometry, estimate `Cp`, find a useful TSR range, study wake behavior, or assess a site. CFD is strongest for comparisons and trends, not unvalidated absolute performance. (source: [[CFD and Validation]], [[vj6]], [[vj26]])
 - Keep the first CAD model simple: blades, rotor dimensions, shaft, and only major supports or flow modifiers that affect the question (omit stuff like bearings and bolts.

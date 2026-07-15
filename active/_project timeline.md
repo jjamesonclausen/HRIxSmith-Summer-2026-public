@@ -162,3 +162,14 @@ Things the LLM can help with:
 - Tighten language around uncertainty, assumptions, and evidence.
 - Help structure the presentation slides and speaker flow.
 - Edit the final document for clarity, consistency, and concision.
+
+
+## Weekly Goal Summary
+
+| Week | Main goal                                                           |
+| ---- | ------------------------------------------------------------------- |
+| 1    | Define project scope and select turbine concept.                    |
+| 2    | Build the baseline model and establish a runnable simulation setup. |
+| 3    | Simulate and compare baseline and alternate designs.                |
+| 4    | Refine, validate, and select the final design.                      |
+| 5    | Assemble documentation.                                             |
