@@ -3516,3 +3516,13 @@ Open:
   - Used rendered figure-region crops for the PDF figures instead of trying to recover every original embedded image object individually, because the visible review figures are composite page graphics.
 - Open:
   - `sources/vj29.md` is readable and figure-linked, but some table-heavy sections remain rough PDF text extractions rather than fully normalized Markdown tables.
+
+### 2026-07-14 - Add project timeline weekly-goal summary
+
+- Task: add a table at the bottom of the project timeline showing each week and its main goal.
+- Actions:
+  - Updated `active/_project timeline.md` with a five-row `Weekly Goal Summary` table after the final documentation window.
+- Decisions:
+  - Used the existing five weekly headings as the source for the concise goal wording; the final documentation window remains separate because it is not numbered as a work week.
+- Open:
+  - None.

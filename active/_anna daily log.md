@@ -283,7 +283,7 @@
 `09:30` worked w/ Julie to finalize [[Design goal]] and [[_project timeline]] (2 hrs)
 	- made 8-12 m/s bins for metadata
 	- cleaned up file tagging, some naming, and folder organization
-`11:30` utilized wiki to compile list of potential design concepts and considered criteria (2 hrs)
+`11:30` utilized wiki to compile list of [[Concept ranking worksheet | potential design concepts]] and considered criteria (2 hrs)
 `14:30` met w/ Julie to compare notes, discuss final design concept list and criteria (1 hr)
 `15:30` check in w/ Mike + Julie, discussed design ranking and llm use (0.5 hr)
 `16:00` worked w/ Julie to rank designs according to criteria (1.5 hrs)
@@ -326,11 +326,44 @@
 		- learned basic elements you need to set up a flow study and how to look at the results
 	- read thru CFD section and appendix of [HRI2526] and noted specific things they learned and how they set up their studies
 	- had Luna look through all of the sources and wiki pages and write up some notes on how to approach CFD for vawt design as a beginner
+`13:00` attempted SimScale study on airfoil for validation (2.5 hrs)
+`15:30` met w/ Mike + Julie, discussed simscale / cfd in general (0.75 hr)
+`16:15` cont working on airfoil study w Julie (2 hrs)
+	- went through HRI2526 airfoil validation procedure, tried to replicate their study
+		- used llm wiki to help understand their procedure and troubleshoot our cfd results
+			- mesh refinement: inflate boundary layer, growth rate 1.15
+			- mesh set up: hex automatic, medium fineness
+		-  did an approx 2D study
+	*Simscale egr AI might actually be so helpful bc help, llm wiki was kinda helpful but not really, it just told us things we knew for the most part.*
+
+### Tuesday 07/14
+
+`09:00` met w/ Mike + Julie to get started (0.5 hr)
+`09:30` created meeting slides w/ Julie (3 hrs)
+`13:00` researched CFD (3 hrs)
+	- researched history and basics of CFD (briefly) for better context and background knowledge
+	- finished reading and taking notes on all CFD information in [[HRI2526]]
+`16:00` Smith x HRI mtg (1 hr)
+`17:00` go through meeting notes and update documentation (0.5 hrs)
 
 
 ---
-Hours: -15.25
-**Next tasks:**
+Hours: -13.50
+
+**Mtg notes 7/14:**
+	- CFD validation studies! airfoil and simple vawt??
+	- build out wiki for CFD and CAD help
+		- include example simulations and drawings and the settings and prompts that created them, maybe also tutorials etc
+	- LLM prompt improvements
+		- try [magic prompt](https://www.verbalized-sampling.com/) to get more diverse results
+		- define abstractions, give examples
+		- ask for visual decision analysis matrix to justify decisions
+	- consider asking LLM to break down tasks between two people and the LLM
+	- ask LLM about doable ways to estimate cut in speed
+	- ask LLM to ask about potential DOE and/or use similar ranking process for parameters to decide what variables to investigate
+	- consider using similar ranking scheme again to reevaluate how the design is doing for the design criteria
+	- use llm to help summarize and document all of our iterations of CAD and CFD 
+**Misc:**
 	- add shorter time interval data to investigate wind direction fluctuations 
 	- start learning how to use simscale to determine what testing we think we can do to inform parameter choices/experimental design
 
@@ -340,6 +373,9 @@ Hours: -15.25
 ### Wednesday 07/15
 
 `09:00` met w/ Mike + Julie to get started (0.5 hr)
+
+
+*focus this week: how can we use AI tools to help us learn how to do CFD?*
 ### Thursday 07/16
 
 `09:00` met w/ Mike + Julie to get started (0.5 hr)
@@ -351,3 +387,5 @@ Hours: -15.25
 
 
 
+
+next Tuesday 07/21 only ryan will be available for our meeting, if we don't have questions for him we can cancel and catch everybody up the following week. Note that rajeev will have missed two weeks by then!

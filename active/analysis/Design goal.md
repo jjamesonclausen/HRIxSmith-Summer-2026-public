@@ -1,7 +1,7 @@
 # Design Goal
 
 ## Boston Logan International Airport VAWT
-Governor's Island, >= 300 feet from runway edge (see concepts/airport regulations)
+Governor's Island, >= 700 feet from runway edge (see concepts/airport regulations)
 
 ## Motivation
 Airports are particularly bad offenders in terms of carbon emissions, so reducing Logan's dependence on energy from fossil fuels could have a significant impact on the airport's environmental footprint. Plus, Mass Transportation is trying to be net zero by 2028, so this is something that the state cares about (and has invested a lot of money into).
