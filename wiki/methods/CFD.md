@@ -29,7 +29,10 @@ Sources:
   - "[[cj2]]"
   - "[[cj3]]"
   - "[[cj4]]"
-Source_count: 27
+  - "[[cj5]]"
+  - "[[cj6]]"
+  - "[[cj7]]"
+Source_count: 30
 tags:
   - methods
 ---
@@ -102,6 +105,12 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 - It also reports about `30` to `40` inflation layers in the `2D` mesh and a claimed comparison error below `1.38%`, but the source is a promotional transcript and does not provide enough setup detail to reproduce that claim directly. (source: sources/cj3.md)
 - The `cj4` transcript describes a quick SimScale external-flow setup for a semicircular Savonius VAWT using CAD import, boolean subtraction to create the fluid region, incompressible air, an `11 m/s` inlet, zero-pressure outlet, slip walls, and default meshing for speed. (source: sources/cj4.md)
 - It treats cutting planes, pressure views, particle tracing, and force outputs as the main interpretation tools, while also showing that simple orientation mistakes can be diagnosed from post-processing behavior. (source: sources/cj4.md)
+- The `cj5` transcript adds a generic SimScale virtual-wind-tunnel workflow with external flow volume creation, velocity inlet, pressure outlet, slip walls, a `forces and moments` result control, and post-processing through pressure coloring and particle traces. (source: sources/cj5.md)
+- It also emphasizes reading force output from the stabilized end of the plot rather than the early noisy portion of the solution history. (source: sources/cj5.md)
+- The `cj6` transcript adds a simple building-wind SimScale workflow that chooses inlet conditions from local wind data, uses one velocity inlet plus pressure outlets on the remaining outer faces, and treats the ground and building as wall geometry. (source: sources/cj6.md)
+- It also emphasizes leaving enough top head space in the domain so accelerated flow above the object is not artificially clipped out of the simulation region. (source: sources/cj6.md)
+- The `cj7` SimScale documentation adds a rotating-zone workflow with quarter-model symmetry, an MRF rotating cylinder, a custom atmosphere boundary based on `Pressure inlet-outlet velocity`, and non-orthogonal correctors set to `4` for the tetrahedral mesh. (source: sources/cj7.md)
+- It also documents a reusable post-processing pattern for rotating machinery: inspect the last timestep, hide enclosure walls, color by pressure, then use seeded particle traces and cutting-plane vectors to inspect the swirl and accelerated flow around the rotating region. (source: sources/cj7.md)
 
 ## Figures
 

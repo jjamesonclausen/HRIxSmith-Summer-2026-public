@@ -1,6 +1,48 @@
 #maintenance
 ## Log
 
+### 2026-07-15 - Ingest cj7 SimScale rotating-zone documentation
+
+- Task: read the new `sources/cj7.md` documentation page and create any useful wiki pages it supports.
+- Actions:
+  - Read the `cj7` documentation under `schema/Ingest Source` and treated it as a higher-value SimScale rotating-zone workflow source than the earlier short tutorial transcripts.
+  - Created `wiki/summaries/cj7-summary.md` and `wiki/CFD/cj7 SimScale MRF Rotating Zone Workflow.md`.
+  - Updated `wiki/methods/SimScale.md`, `wiki/methods/CFD.md`, `wiki/CFD/SimScale VAWT Rotating Region.md`, `wiki/CFD/SimScale VAWT Results and Comparison.md`, and `wiki/index.md` with source-backed `cj7` setup and post-processing notes.
+  - Marked `sources/cj7.md` as processed.
+- Decisions:
+  - Did not create a design or parameter page because the source is a rotating-drone documentation example rather than a turbine geometry or parameter-study source.
+  - Used `cj7` to strengthen the reusable SimScale rotating-region notes because it finally provides a concrete documented MRF setup, atmosphere boundary, and post-processing sequence.
+- Open:
+  - The source still does not answer which of MRF, AMI, or transient moving-mesh approaches is best for a given VAWT objective; it only gives a documented MRF example on a drone geometry.
+
+### 2026-07-15 - Ingest cj6 SimScale building-wind tutorial
+
+- Task: read the new `sources/cj6.md` transcript and create any useful wiki pages it supports.
+- Actions:
+  - Read the `cj6` transcript under `schema/Ingest Source` and treated it as a building-wind SimScale tutorial ingest rather than a turbine experiment or paper.
+  - Created `wiki/summaries/cj6-summary.md` and `wiki/CFD/cj6 SimScale Building Wind Workflow.md`.
+  - Updated `wiki/methods/SimScale.md`, `wiki/methods/CFD.md`, `wiki/CFD/SimScale VAWT Domain and Boundaries.md`, and `wiki/index.md` with source-backed `cj6` workflow notes and links.
+  - Marked `sources/cj6.md` as processed.
+- Decisions:
+  - Did not create a design or parameter page because the source is a simple building-wind setup tutorial rather than a defined turbine geometry or turbine-parameter study.
+  - Reused the existing SimScale method and domain-boundary pages because `cj6` extends the same setup workflow already represented elsewhere in the wiki.
+- Open:
+  - The transcript does not specify turbulence model, mesh strategy, or any validation benchmark, so it is mainly useful for domain setup and inlet-selection ideas rather than trustworthy performance claims.
+
+### 2026-07-15 - Ingest cj5 SimScale virtual-wind-tunnel tutorial
+
+- Task: read the new `sources/cj5.md` transcript and create any useful wiki pages it supports.
+- Actions:
+  - Read the `cj5` transcript under `schema/Ingest Source` and treated it as a generic SimScale/tutorial ingest rather than a VAWT experiment or paper.
+  - Created `wiki/summaries/cj5-summary.md` and `wiki/CFD/cj5 SimScale Virtual Wind Tunnel Workflow.md`.
+  - Updated `wiki/methods/SimScale.md`, `wiki/methods/CFD.md`, and `wiki/index.md` with source-backed `cj5` workflow notes and links.
+  - Marked `sources/cj5.md` as processed.
+- Decisions:
+  - Did not create a design or parameter page because the source is a generic external-flow tutorial centered on an aircraft-like example rather than a defined turbine geometry or turbine design variable.
+  - Reused the existing `[[SimScale]]` method page instead of creating another general method page, because `cj5` extends the same workflow family already represented by `cj4` and `HRI2526`.
+- Open:
+  - The transcript does not specify turbulence model, mesh settings, or any validation benchmark, so it is helpful for fast SimScale workflow setup but not for grounded turbine-performance claims.
+
 ### 2026-07-15 - Create SimScale VAWT CFD learning notes
 
 - Task: organize the newly added SimScale documentation into reusable teaching pages for VAWT CFD in `wiki/CFD/`.

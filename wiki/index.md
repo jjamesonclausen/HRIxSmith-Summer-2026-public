@@ -17,6 +17,9 @@ The map of this knowledge base. The agent keeps this current: every page it crea
 - [[cj2 Farrah VAWT CFD Setup]]
 - [[cj3 Darrieus Course CFD Workflow]]
 - [[cj4 SimScale Savonius Workflow]]
+- [[cj5 SimScale Virtual Wind Tunnel Workflow]]
+- [[cj6 SimScale Building Wind Workflow]]
+- [[cj7 SimScale MRF Rotating Zone Workflow]]
 
 ## Source summaries
 
@@ -86,6 +89,9 @@ _One page per file in `sources/`._
 - [[cj2-summary]]
 - [[cj3-summary]]
 - [[cj4-summary]]
+- [[cj5-summary]]
+- [[cj6-summary]]
+- [[cj7-summary]]
 
 ## Concepts
 
