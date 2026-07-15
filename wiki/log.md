@@ -1,6 +1,18 @@
 #maintenance
 ## Log
 
+### 2026-07-15 - Create SimScale VAWT CFD learning notes
+
+- Task: organize the newly added SimScale documentation into reusable teaching pages for VAWT CFD in `wiki/CFD/`.
+- Actions:
+  - Added six source-grounded notes covering the workflow, rotating region, domain and boundaries, meshing and quality, transient controls and outputs, and result comparison.
+  - Updated `wiki/index.md` with a `CFD Learning Notes` section.
+- Decisions:
+  - Organized pages by the order a learner sets up and evaluates a VAWT case rather than creating one page per SimScale source.
+  - Explicitly labeled unverified VAWT-specific choices because the supplied documentation describes platform features and general CFD practices, not a dedicated validated VAWT tutorial.
+- Open:
+  - VAWT-specific timestep resolution, mesh and y-plus targets, MRF-versus-AMI selection, torque-axis conventions, and power/Cp calculation need supporting sources or a separately documented validation study.
+
 ### 2026-07-15 - Ingest cj1 planetary-cluster CFD paper
 
 - Task: convert `attachments/PDFs/cj1.pdf` into the first Julie CFD source and ingest its relevant CFD material into the new `wiki/CFD/` folder.

@@ -320,6 +320,17 @@ _Procedure and technique pages live in [`methods/`](methods/)._
 - [[XFOIL]]
 - [[Box-Behnken Design]]
 
+## CFD Learning Notes
+
+_SimScale setup and VAWT-CFD learning notes live in `wiki/CFD/`._
+
+- [[SimScale VAWT CFD Learning Path]]
+- [[SimScale VAWT Rotating Region]]
+- [[SimScale VAWT Domain and Boundaries]]
+- [[SimScale VAWT Mesh and Quality]]
+- [[SimScale VAWT Transient Runs and Outputs]]
+- [[SimScale VAWT Results and Comparison]]
+
 ---
 
 How to read this wiki: start here, follow links. Anything marked `> Unverified:` or `> Inference:` is not directly supported by a source — treat it with extra suspicion.
