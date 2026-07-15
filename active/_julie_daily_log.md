@@ -283,7 +283,7 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 		- ask for serval diverse answers 
 		- orient the LLM to CDF this week 
 	- 
-- stay on call with anna to start setting up the CFD part of the wiki 
+- stay on call with anna to start setting up the CFD part of the wiki (4 hrs)
 	- edits to schema pages for naming scheme 
 	- anna adds all documentation form simscale on how to use 
 	- i find some papers on CDF testing of VAWT 
@@ -291,7 +291,14 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 		- keeps timing out but overall terra is quite fast 
 		- messing up pictures tho 
 	- had the LLM walk me through a set up of a simscale simulation 
-	- 
+	- spent some time looking through public VAWT simscale simulations to see what kind of results they focused on 
+	- had the LLM quiz me on the concepts of CDF in general, what its good at vs not, what information you get out of a simulation, and what is reliable or not. 
+	- got plan from mike 
+		- got live share working 
+		- working on coping an airfoil i found on the one from hri 
+- review the results of the simulations 
+- question LLM about ai in simscale 
+	- doesn't seem to know much about that 
 ### Thursday 7/16
 - Met with Mike + Anna - 9am
 ### Friday 7/17
