@@ -2,12 +2,13 @@
 Created: 2026-07-15
 Updated: 2026-07-15
 Sources:
+  - "[[HRI2526]]"
   - "[[ca3]]"
   - "[[ca4]]"
   - "[[ca6]]"
   - "[[ca15]]"
   - "[[ca21]]"
-Source_count: 5
+Source_count: 6
 tags:
   - cfd
 ---
@@ -19,7 +20,15 @@ SimScale provides rotating zones to model rotating systems including turbines. T
 
 For incompressible analysis, rotating zones are available under Advanced concepts. Solid-body motion is also available there only for transient incompressible analysis. (source: sources/ca15.md)
 
-> Unverified: Which of MRF, AMI, or solid-body motion is appropriate for a particular VAWT objective. The captured source names the options but does not provide their selection criteria or detailed configuration steps. (source: sources/ca15.md)
+## MRF and AMI in the HRI VAWT study
+
+`HRI2526` describes AMI as physically rotating the inner fluid domain at every timestep in a transient study. It describes MRF as a rotating-reference-frame approximation used for a steady-state study. (source: sources/HRI2526.md)
+
+In either representation, HRI set the inner domain to a prescribed angular velocity, so the simulated turbine rotation did not respond to wind speed or aerodynamic blade forces. (source: sources/HRI2526.md)
+
+HRI's AMI transient trial showed more oscillation in torque-coefficient output and allowed animation of the rotating VAWT flow. However, it retained the same physically unrealistic, continuously rising `Cp` trend that appeared in the earlier study. Therefore, this single report does not demonstrate that AMI alone produces a valid VAWT performance prediction. (source: sources/HRI2526.md)
+
+> Uncertainty: The captured SimScale documentation names MRF and AMI but gives no selection rule. HRI describes their differing representations in one project, but does not provide a controlled accuracy or cost comparison. (source: sources/ca15.md, sources/HRI2526.md)
 
 ## CAD preparation sequence
 

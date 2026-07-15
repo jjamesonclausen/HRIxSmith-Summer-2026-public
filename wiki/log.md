@@ -1,6 +1,46 @@
 #maintenance
 ## Log
 
+### 2026-07-15 - Add torque-coefficient normalization to CFD results note
+
+- Task: explain how to calculate VAWT moment/torque coefficient from SimScale torque output.
+- Actions:
+  - Added the `vj6` torque-coefficient equation, variable definitions, `Cp = Ct * TSR` relationship, and coefficient-naming caution to `wiki/CFD/SimScale VAWT Results and Comparison.md`.
+- Decisions:
+  - Specified mean shaft torque after a repeatable period because instantaneous VAWT torque varies through a revolution.
+- Open:
+  - Confirm the coefficient convention and reference area used by the specific SimScale result-control configuration before comparing values with another source.
+
+### 2026-07-15 - Add VAWT Cp result-control guidance
+
+- Task: identify SimScale result controls that support a VAWT coefficient-of-power estimate.
+- Actions:
+  - Updated `wiki/CFD/SimScale VAWT Results and Comparison.md` with the Forces and moments workflow, HRI's reported `Cp = Cm * TSR` calculation, and the role of diagnostic controls.
+- Decisions:
+  - Kept the Cp relationship scoped to the HRI Classical Savonius case rather than presenting it as a built-in SimScale output or universally validated VAWT procedure.
+- Open:
+  - The first live VAWT case must explicitly document its rotor surfaces, shaft axis, sign convention, reference area, and averaging window.
+
+### 2026-07-15 - Add HRI MRF and AMI evidence to rotating-region note
+
+- Task: check the learner's MRF-versus-AMI explanation against `HRI2526` and preserve the source-supported distinction.
+- Actions:
+  - Updated `wiki/CFD/SimScale VAWT Rotating Region.md` with HRI's description of steady MRF and transient, physically rotating AMI, plus its reported outcome.
+- Decisions:
+  - Recorded HRI's AMI result as a project-specific observation rather than proof that AMI is universally more accurate, because its unrealistic rising-`Cp` error remained.
+- Open:
+  - A controlled, validated MRF-versus-AMI VAWT comparison is still needed before selecting a method on accuracy or cost grounds.
+
+### 2026-07-15 - Add orthogonality visual aid to CFD note
+
+- Task: add the user-provided orthogonality and skewness diagram where it supports mesh-quality learning.
+- Actions:
+  - Embedded `images/1697359737162.png` in `wiki/CFD/SimScale VAWT Mesh and Quality.md` beside the non-orthogonality explanation.
+- Decisions:
+  - Identified the figure as user-provided and noted that its original source is not recorded; retained the definition and numerical guidance from `sources/ca22.md` rather than treating the image as a technical source.
+- Open:
+  - Add original-image attribution if it becomes available.
+
 ### 2026-07-15 - Create SimScale VAWT CFD learning notes
 
 - Task: organize the newly added SimScale documentation into reusable teaching pages for VAWT CFD in `wiki/CFD/`.

@@ -33,6 +33,9 @@ Local settings override global mesh settings. Avoid overlapping refinements of t
 
 Mesh density and quality materially affect simulation accuracy and stability. (source: sources/ca22.md)
 
+![Orthogonal, non-orthogonal, skew, and non-skew mesh-cell relationships.](../../images/1697359737162.png)
+Figure: Visual aid distinguishing orthogonality from skewness. User-provided image; original source is not recorded. SimScale defines non-orthogonality as the angle between the line connecting adjacent cell centers and the normal of their shared face. (source: sources/ca22.md)
+
 - Non-orthogonality ranges from `0` (ideal) to `90` (worst); SimScale recommends keeping it below `70`, improving the mesh above `80`, and warns that meshes above `85` likely diverge. (source: sources/ca22.md)
 - The documented maximum CFD non-orthogonality metric is `88`, but this is a divergence-risk threshold rather than a target for a trustworthy design comparison. (source: sources/ca22.md)
 - Use the Mesh Quality viewer and Isovolume to locate poor cells, then address the CAD or mesh settings causing them. (source: sources/ca22.md)

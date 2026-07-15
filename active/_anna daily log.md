@@ -346,6 +346,16 @@
 `16:00` Smith x HRI mtg (1 hr)
 `17:00` go through meeting notes and update documentation (0.5 hrs)
 
+### Wednesday 07/15
+
+`09:00` met w/ Mike + Julie to get started (0.5 hr)
+`09:30` building out wiki for CFD help, learning with it (4 hrs)
+	- added almost all simscale documentation, got it to write a few wiki pages, *now it knows everything about how to use the simscale software!*
+		- this was super fast with obsidian web clipper
+	- had it teach me about all of the elements that go into a cfd simulation (took foreverrrr theres a lot)
+	- ran another attempt at a naca0018 validation study
+`14:00` more learning, research, messing around with settings in simscale, etc
+	
 
 ---
 Hours: -13.50
