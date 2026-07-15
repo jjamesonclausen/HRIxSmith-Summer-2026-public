@@ -1,6 +1,6 @@
 ---
 Created: 2026-06-25
-Updated: 2026-07-07
+Updated: 2026-07-15
 Sources:
   - "[[n1]]"
   - "[[HRI2526]]"
@@ -26,7 +26,10 @@ Sources:
   - "[[vj27]]"
   - "[[vj8]]"
   - "[[cj1]]"
-Source_count: 24
+  - "[[cj2]]"
+  - "[[cj3]]"
+  - "[[cj4]]"
+Source_count: 27
 tags:
   - methods
 ---
@@ -91,6 +94,14 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 - It also emphasizes that many deflector concepts still lack enough real-time experiments, so CFD-heavy gains should be treated as promising rather than fully mature. (source: sources/vj27.md)
 - The `cj1` cluster study uses 2D transient Fluent with sliding mesh, `k-omega SST`, mesh sensitivity, and torque averaging over a rotation. (source: sources/cj1.md)
 - Its isolated-rotor domain places the inlet 5D upstream, the outlet 10D downstream, and symmetry boundaries 5D from the rotor centerline. (source: sources/cj1.md)
+- The `cj2` Farrah study uses 3D transient Fluent with Menter `k-omega SST`, a sliding mesh with rotating/static interfaces, a pressure-farfield boundary at `101,325 Pa` and `293.15 K`, and a half-turbine symmetry model mirrored across the horizontal midplane. (source: sources/cj2.md)
+- It reports coarse, medium, and fine unstructured tetrahedral grids of `3,603,118`, `7,243,248`, and `14,438,984` cells respectively, with `y+` refined from `5` to `1` and inflation layers increased from `10` to `20`. (source: sources/cj2.md)
+- The same source uses second-order discretisation, `SIMPLEC`, least-squares cell-based gradients, `0.3 degree` angular time steps, `50` iterations per step, and `4` simulated revolutions on `64` cores per case. (source: sources/cj2.md)
+- Its grid study also shows that wall-boundary definition matters: the fine-grid prediction is `4.77 W` when the `12` airfoils are separate walls but `2.64 W` when treated as one wall boundary. (source: sources/cj2.md)
+- The `cj3` transcript describes a teaching workflow in ANSYS Fluent built around a transient `2D` mesh-motion Darrieus case, a supplementary steady `3D` frame-motion case, digitized reference `Cp` data from a paper, and torque averaging over the final cycle. (source: sources/cj3.md)
+- It also reports about `30` to `40` inflation layers in the `2D` mesh and a claimed comparison error below `1.38%`, but the source is a promotional transcript and does not provide enough setup detail to reproduce that claim directly. (source: sources/cj3.md)
+- The `cj4` transcript describes a quick SimScale external-flow setup for a semicircular Savonius VAWT using CAD import, boolean subtraction to create the fluid region, incompressible air, an `11 m/s` inlet, zero-pressure outlet, slip walls, and default meshing for speed. (source: sources/cj4.md)
+- It treats cutting planes, pressure views, particle tracing, and force outputs as the main interpretation tools, while also showing that simple orientation mistakes can be diagnosed from post-processing behavior. (source: sources/cj4.md)
 
 ## Figures
 

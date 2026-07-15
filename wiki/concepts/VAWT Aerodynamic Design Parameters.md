@@ -1,6 +1,6 @@
 ---
 Created: 2026-07-06
-Updated: 2026-07-08
+Updated: 2026-07-15
 Sources:
   - "[[vj8]]"
   - "[[vj4]]"
@@ -18,7 +18,8 @@ Sources:
   - "[[va8]]"
   - "[[va9]]"
   - "[[vj28]]"
-Source_count: 16
+  - "[[cj2]]"
+Source_count: 17
 tags:
   - concepts
 ---
@@ -28,6 +29,7 @@ These are the main geometry knobs the sources repeatedly treat as design variabl
 
 - Tip Speed Ratio (TSR) is one of the core performance controls. (source: sources/HRI2526.md, sources/vj1.md)
 - Blade pitch angle is a major tuning variable. (source: sources/vj8.md)
+- The `cj2` paper adds a 12-blade Farrah case where fixed blade pitch is varied over positive and negative `7`, `15`, `20`, and `40` degree settings, with higher pitch and negative orientation giving the strongest reported power trends in that study. (source: sources/cj2.md)
 - Relative airfoil thickness affects performance and should be checked alongside pitch. (source: sources/vj8.md)
 - Rotor spacing matters in contra-rotating arrangements. (source: sources/vj8.md)
 - Included angle is another tuning variable in the contra-rotating study. (source: sources/vj8.md)

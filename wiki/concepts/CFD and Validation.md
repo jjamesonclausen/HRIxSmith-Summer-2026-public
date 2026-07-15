@@ -1,6 +1,6 @@
 ---
 Created: 2026-07-01
-Updated: 2026-07-09
+Updated: 2026-07-15
 Sources:
   - "[[va10]]"
   - "[[vj5]]"
@@ -25,7 +25,10 @@ Sources:
   - "[[vj2]]"
   - "[[vj29]]"
   - "[[cj1]]"
-Source_count: 23
+  - "[[cj2]]"
+  - "[[cj3]]"
+  - "[[cj4]]"
+Source_count: 26
 tags:
   - concepts
 ---
@@ -86,6 +89,17 @@ It reports a computational domain of 15 m by 12 m by 12 m, 7 m/s inlet wind spee
 
 The `cj1` paper compares a scaled isolated turbine against CFD but does not experimentally validate its planetary cluster; it also states that 2D CFD cannot investigate trailing vortices and tip losses. (source: sources/cj1.md)
 
+The `cj2` paper adds a 3D transient Fluent setup for a 12-blade Farrah VAWT, and its grid study shows that splitting the 12 blades into separate wall boundaries materially changes predicted power relative to treating them as one connected wall. (source: sources/cj2.md)
+It reports that `k-omega SST` produced a usable torque history and about `4.02%` error for its chosen comparison, while Spalart-Allmaras gave a minimum reported error of `43.25%` and did not reproduce the expected sinusoidal torque signal. (source: sources/cj2.md)
+It also shows a validation caveat that matters beyond this one rotor: the CFD-versus-experiment agreement depends on assumed mechanical losses of `50%` or `20%`, so the result is better treated as calibrated trend agreement than direct validation of raw power. (source: sources/cj2.md)
+The paper itself recommends transition SST for future work because its fully turbulent setup may overestimate power in the transitional Reynolds-number range it studies. (source: sources/cj2.md)
+
+The `cj3` transcript adds a teaching-oriented validation workflow: build the Darrieus setup from a reference paper, digitize reference `Cp` data with `WebPlotDigitizer`, compute a time step from turbine data, and compare after averaging the last cycle. (source: sources/cj3.md)
+Its stated error is below `1.38%`, but because the source is a promotional transcript without the full reference citation or full Fluent setup, it supports the workflow outline more strongly than the quantitative validation claim itself. (source: sources/cj3.md)
+
+The `cj4` SimScale tutorial adds a more practical beginner-validation mindset: use CFD post-processing to locate strong wake or pressure regions, then compare those locations against sensor measurements in a wind tunnel or field test if possible. (source: sources/cj4.md)
+Because the source is only a quick tutorial transcript with default meshing and no reported benchmark dataset, it supports the idea of validation-by-measurement more than any specific quantitative CFD claim. (source: sources/cj4.md)
+
 ![Source figure](va10-fig5.jpg)
 Original caption: Fig. 5. Computational grid independency study [31]. [[va10|Source]]
 ![Source figure](va11-fig25.jpg)
@@ -119,3 +133,6 @@ Related:
 - [[va25 Reference H-Rotor Darrieus VAWT]]
 - [[va27 Reference One-Bladed H-Type VAWT]]
 - [[va26 3-Bladed H-Type VAWT]]
+- [[cj2 Farrah VAWT CFD Setup]]
+- [[cj3 Darrieus Course CFD Workflow]]
+- [[cj4 SimScale Savonius Workflow]]

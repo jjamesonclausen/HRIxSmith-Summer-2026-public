@@ -1,6 +1,47 @@
 #maintenance
 ## Log
 
+### 2026-07-15 - Ingest cj4 SimScale Savonius tutorial transcript
+
+- Task: read the new `sources/cj4.md` transcript and create any useful wiki pages it supports.
+- Actions:
+  - Read the `cj4` transcript under `schema/Ingest Source` and treated it as a CFD/tutorial ingest with limited methodological detail.
+  - Created `wiki/summaries/cj4-summary.md`, `wiki/CFD/cj4 SimScale Savonius Workflow.md`, and `wiki/methods/SimScale.md`.
+  - Updated `wiki/methods/CFD.md`, `wiki/concepts/CFD and Validation.md`, and `wiki/index.md` with source-backed `cj4` workflow notes and links.
+  - Marked `sources/cj4.md` as processed.
+- Decisions:
+  - Did not create a source-specific design or parameter page because the transcript does not provide enough geometry, operating-point, or parameter-study detail for a reliable single-source design note.
+  - Used both `cj4` and `HRI2526` on the new `[[SimScale]]` method page so the page captures both the quick tutorial workflow and the repo's stronger SimScale validation experience.
+- Open:
+  - The main missing details are the turbulence model, mesh metrics, rotational setup, and any benchmark performance data for the `cj4` case, so it remains a workflow example rather than a reproducible Savonius study.
+
+### 2026-07-15 - Ingest cj3 Darrieus CFD course transcript
+
+- Task: read the new `sources/cj3.md` transcript and create any useful wiki pages it supports.
+- Actions:
+  - Read the `cj3` transcript under `schema/Ingest Source` and treated it as a CFD-source ingest with unusually limited evidentiary detail.
+  - Created `wiki/summaries/cj3-summary.md`, `wiki/CFD/cj3 Darrieus Course CFD Workflow.md`, and `wiki/methods/WebPlotDigitizer.md`.
+  - Updated `wiki/methods/CFD.md`, `wiki/concepts/CFD and Validation.md`, and `wiki/index.md` with source-backed `cj3` workflow notes and links.
+  - Marked `sources/cj3.md` as processed.
+- Decisions:
+  - Did not create a source-specific design or parameter page because the transcript references a Darrieus case from an unnamed paper but does not provide enough concrete geometry or parameter-study detail to make a useful single-source design or parameter note.
+  - Kept the claimed `< 1.38%` error explicitly qualified because the source is a promotional transcript rather than a complete methods document.
+- Open:
+  - The most important missing piece is the underlying reference paper citation; without it, the transcript is useful as a learning workflow outline but not as a reproducible CFD benchmark.
+
+### 2026-07-15 - Finish ingesting cj2 Farrah CFD paper
+
+- Task: pick up the partial `cj2` ingestion and finish integrating the Farrah-turbine CFD source into the wiki.
+- Actions:
+  - Reviewed `schema/Ingest Source` and `schema/Maintain Wiki`, then checked the existing `cj2` summary, CFD note, design page, and parameter page against `sources/cj2.md`.
+  - Updated `wiki/index.md` to include `[[cj2-summary]]`, `[[cj2 Farrah VAWT CFD Setup]]`, `[[cj2 12-Blade Farrah VAWT]]`, and `[[cj2 Farrah Blade Pitch Angle]]`.
+  - Updated `wiki/concepts/CFD and Validation.md`, `wiki/methods/CFD.md`, `wiki/concepts/Wake Effect.md`, and `wiki/concepts/VAWT Aerodynamic Design Parameters.md` with source-backed `cj2` claims.
+- Decisions:
+  - Did not create a separate Farrah concept page because the source-specific design, parameter, summary, and CFD pages already cover the source's distinct content without duplicating it into an extra one-source concept note.
+  - Kept the paper's validation limitations explicit: the half-turbine symmetry assumption, assumed mechanical-loss adjustments, and the authors' recommendation to consider transition SST for future work.
+- Open:
+  - The source supports CFD setup, pitch-angle trends, and wake observations for this specific 12-blade Farrah turbine, but it does not provide enough direct whole-rotor specification data to populate most catalog-style design properties confidently.
+
 ### 2026-07-15 - Ingest cj1 planetary-cluster CFD paper
 
 - Task: convert `attachments/PDFs/cj1.pdf` into the first Julie CFD source and ingest its relevant CFD material into the new `wiki/CFD/` folder.

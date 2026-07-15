@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "71928596d9a1cb5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "active/_Julie_daily_log.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "_Julie_daily_log"
-            }
-          },
-          {
             "id": "9b080656a7125bfb",
             "type": "leaf",
             "state": {
@@ -92,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -254,8 +240,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "430d4667079a6ae2",
+  "active": "9b080656a7125bfb",
   "lastOpenFiles": [
+    "wiki/methods/SimScale.md",
+    "wiki/CFD/cj4 SimScale Savonius Workflow.md",
+    "wiki/summaries/cj4-summary.md",
+    "sources/cj4.md",
+    "wiki/methods/WebPlotDigitizer.md",
+    "wiki/CFD/cj3 Darrieus Course CFD Workflow.md",
+    "wiki/summaries/cj3-summary.md",
+    "sources/cj3.md",
+    "wiki/parameters/cj2 Farrah Blade Pitch Angle.md",
+    "wiki/designs/cj2 12-Blade Farrah VAWT.md",
+    "wiki/CFD/cj2 Farrah VAWT CFD Setup.md",
+    "wiki/summaries/cj2-summary.md",
+    "sources/cj2.md",
+    "attachments/images/cj2-fig33.jpg",
+    "attachments/images/cj2-fig22.jpg",
+    "attachments/images/cj2-fig19.jpg",
+    "attachments/images/cj2-fig18.jpg",
+    "attachments/images/cj2-fig9.jpg",
+    "attachments/images/cj2-fig8.jpg",
+    "attachments/images/cj2-fig6.jpg",
+    "attachments/images/cj2-fig4.jpg",
+    "attachments/images/cj2-fig2.jpg",
+    "attachments/PDFs/cj2.pdf",
     "wiki/parameters/cj1 Planetary Oblique Angle.md",
     "wiki/parameters/cj1 Planetary Pitch Circle Diameter.md",
     "wiki/designs/cj1 Planetary Cluster Darrieus VAWT.md",
@@ -269,27 +278,7 @@
     "sources/ca31.md",
     "sources/ca30.md",
     "sources/ca3.md",
-    "sources/ca29.md",
-    "sources/ca28.md",
-    "sources/ca27.md",
-    "sources/ca26.md",
-    "sources/ca25.md",
-    "sources/ca24.md",
-    "sources/ca23.md",
-    "sources/ca22.md",
-    "sources/ca21.md",
-    "sources/ca20.md",
-    "sources/ca2.md",
-    "sources/ca19.md",
-    "sources/ca18.md",
     "images/Pasted image 20260714152313.png",
-    "attachments/images/cj1-fig7.jpg",
-    "attachments/images/cj1-fig6.jpg",
-    "attachments/images/cj1-fig5.jpg",
-    "attachments/images/cj1-fig4.jpg",
-    "attachments/images/cj1-fig3.jpg",
-    "attachments/images/cj1-fig2.jpg",
-    "attachments/images/cj1-fig1.jpg",
     "wiki/CFD",
     "attachments/PDFs/cj1.pdf",
     "sources/cj1.pdf",
@@ -298,10 +287,7 @@
     "active/planning/progress reports/Project Update 6_30 .pdf",
     "active/planning/progress reports",
     "attachments/PDFs/HRI2526_archival.pdf",
-    "images/Pasted image 20260713125718.png",
-    "images/Pasted image 20260713144652.png",
     "active/CFD log",
-    "attachments/PDFs/va9_raw.pdf",
     "Untitled.canvas"
   ]
 }
