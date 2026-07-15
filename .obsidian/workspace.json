@@ -39,12 +39,14 @@
             "id": "9b080656a7125bfb",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "active/planning/progress reports/Project Update 7_14.pdf"
+                "file": "active/_Julie_daily_log.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Project Update 7_14"
+              "icon": "lucide-file",
+              "title": "_Julie_daily_log"
             }
           },
           {
@@ -147,7 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5
+    "width": 200
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -163,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "active/planning/progress reports/Project Update 7_14.pdf",
+                "file": "active/_Julie_daily_log.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Project Update 7_14"
+              "title": "Backlinks for _Julie_daily_log"
             }
           },
           {
@@ -254,13 +256,15 @@
   },
   "active": "9b080656a7125bfb",
   "lastOpenFiles": [
+    "active/resources/mtg notes/Notes on meeting July 7.md",
+    "active/resources/Notes Meeting July 14.md",
+    "active/_Julie_daily_log.md",
+    "active/planning/progress reports/Project Update 7_14.pdf",
     "active/analysis/Concept ranking worksheet.md",
     "active/planning/progress reports/Project Update 7_7.pdf",
     "active/planning/progress reports/Project Update 6_30 .pdf",
-    "active/planning/progress reports/Project Update 7_14.pdf",
     "active/planning/progress reports",
     "active/resources/Julie initial design screening.md",
-    "active/_Julie_daily_log.md",
     "active/analysis/brainstorm.md",
     "active/CAD log/j710_va9_initial.md",
     "attachments/PDFs/HRI2526_archival.pdf",
@@ -289,7 +293,6 @@
     "active/analysis/Design Comparison.base",
     "active/planning/J_design_selection_plan.md",
     "active/resources/CFD, SimScale Notes.md",
-    "active/analysis/data view testing.md",
     "attachments/wind data/BOS_07.21_to_07.26_histogram.svg",
     "active/CAD log/2d.step",
     "images/Pasted image 20260710142409.png",

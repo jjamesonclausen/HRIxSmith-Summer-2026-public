@@ -261,11 +261,15 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 	- practice presenting on teams 
 	- put in screen shots of 
 - continue to learn about sim scale + add some speaker notes to the slides (2hr)
+	- [helpful video on CFD set up](https://www.youtube.com/watch?v=WsPy_TJotv4) 
 - meeting with the team (1hr)
-- keep working on sim scale / notes on meeting/ reflections/ implement their advice (1hr)
-- total hours - 9.5 
+	- [[Notes Meeting July 14]]
+- keep working on sim scale / notes on meeting/ reflections/ implement their advice (0.5hr)
+- total hours - 9 
 ### Wednesday 7/15
+- update daily log, write some notes on yesterdays meeting (1hr)
 - Met with Mike + Anna - 9am (0.5hr)
+- 
 ### Thursday 7/16
 - Met with Mike + Anna - 9am
 ### Friday 7/17
