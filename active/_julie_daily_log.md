@@ -302,7 +302,16 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 		- doesn't seem to know much about that 
 - total 9.5 hr 
 ### Thursday 7/16
-- Met with Mike + Anna - 9am
+- ran other simulation on the NACA0018 airfoil (1 hr) 
+	- asking LLM for help with settings 
+- Met with Mike + Anna - 9am (.5 hr)
+	- talk about todays plan, how yesterday went, and discussed contacting Ryan for support on how to add in online forums 
+- stay on call with anna ()
+	- gave llm the link to he simscale forum and asked it to read through 
+		- said it read through the parts that it thought would be best 
+	- added another source on airfoil validation 
+	- switched to trying to validate NACA0012 instead of 0018 (so that i could use the smooth airfoil i found online (anna is still working on NACA0018)
+	- two more simulation runs chaning AOA and lift directions t
 ### Friday 7/17
 day off
 ## Week 5

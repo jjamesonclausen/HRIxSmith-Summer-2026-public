@@ -1,6 +1,34 @@
 #maintenance
 ## Log
 
+### 2026-07-16 - Add SimScale NACA0012 validation-case guidance as cj10
+
+- Task: capture the useful setup details from the public SimScale `NACA 0012 Airfoil at Mach 0.15` validation page in the wiki.
+- Actions:
+  - Created `sources/cj10.md` as a traceable source note summarizing the documented geometry, pseudo-`2D` mesh strategy, turbulence model, boundary conditions, `y+ ~ 1` target, coefficient setup, and numerics tweak.
+  - Added `wiki/summaries/cj10-summary.md` and `wiki/CFD/cj10 SimScale NACA0012 High-Re Validation.md`.
+  - Updated `wiki/methods/SimScale.md`, `wiki/CFD/SimScale VAWT Mesh and Quality.md`, `wiki/concepts/CFD and Validation.md`, and `wiki/index.md` with the reusable parts of the validation case.
+- Decisions:
+  - Treated `cj10` as a documented high-Re airfoil benchmark pattern rather than a low-Re VAWT-airfoil recipe, because the case is at Mach `0.15` and Reynolds number `6,000,000`.
+  - Added only the reusable setup lessons: pseudo-`2D` extrusion, Standard meshing, `k-omega SST`, `y+ ~ 1`, inlet-component AoA definition, and the `Gauss-Linear` numerics tweak.
+- Open:
+  - The case is valuable as a SimScale reference example, but its numerical values should not be copied directly into very-low-Re airfoil or VAWT validation cases without recalculating the matched conditions.
+
+### 2026-07-16 - Convert and ingest cj9 low-Re NACA0018 airfoil paper
+
+- Task: convert `attachments/PDFs/cj9.pdf` into `sources/cj9.md`, extract figures, and ingest the source into the wiki.
+- Actions:
+  - Converted the `cj9` PDF into `sources/cj9.md` with frontmatter, section structure, references, and linked figure captions.
+  - Extracted `18` figure images to `attachments/images/cj9-fig1.jpg` through `cj9-fig18.jpg` and linked them from the converted source.
+  - Added `wiki/summaries/cj9-summary.md` and `wiki/CFD/cj9 NACA0018 Low-Re Validation Data.md`.
+  - Updated `wiki/methods/XFOIL.md`, `wiki/concepts/Airfoil Selection for Small Straight-Bladed VAWTs.md`, `wiki/concepts/CFD and Validation.md`, and `wiki/index.md` with source-backed `cj9` evidence.
+  - Marked `sources/cj9.md` as processed.
+- Decisions:
+  - Treated `cj9` primarily as an isolated-airfoil validation and low-Re airfoil-data source rather than creating a turbine design or parameter page, because the paper does not define one whole-turbine geometry or one changed turbine design variable.
+  - Added a source-specific CFD note because the most reusable contribution of the paper is its `NACA0018` low-Re validation data and its experiment-versus-`XFOIL` / `2-D` CFD comparison.
+- Open:
+  - The converted source is usable and figure-linked, but the PDF includes some header/portal front matter and special-character OCR roughness; if desired, a later cleanup pass could further polish typographic details without changing the source content.
+
 ### 2026-07-16 - Add SimScale forum troubleshooting guidance as cj8
 
 - Task: add the public SimScale forum guidance that was not already captured in the wiki as a traceable source-backed note.
