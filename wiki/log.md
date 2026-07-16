@@ -1,6 +1,19 @@
 #maintenance
 ## Log
 
+### 2026-07-16 - Add SimScale forum troubleshooting guidance as cj8
+
+- Task: add the public SimScale forum guidance that was not already captured in the wiki as a traceable source-backed note.
+- Actions:
+  - Created `sources/cj8.md` as a source note summarizing four public SimScale forum troubleshooting threads on coefficient reference values, boundary-layer inflation failure, external flow volume failure, and rotating-zone material/cell-zone errors.
+  - Added `wiki/summaries/cj8-summary.md` and `wiki/CFD/cj8 SimScale Forum Troubleshooting Notes.md`.
+  - Updated `wiki/methods/SimScale.md`, `wiki/CFD/SimScale VAWT Mesh and Quality.md`, `wiki/CFD/SimScale VAWT Results and Comparison.md`, `wiki/CFD/SimScale VAWT Rotating Region.md`, `wiki/CFD/SimScale VAWT Domain and Boundaries.md`, and `wiki/index.md` with the new source-backed troubleshooting details.
+- Decisions:
+  - Treated the forum material as troubleshooting/support guidance rather than formal validation truth, and kept that limitation explicit on the summary and CFD note.
+  - Added only the pieces that were not already substantially captured elsewhere in the SimScale notes: coefficient-reference mistakes, `y+` checks, boundary-layer deletion from abrupt size transitions, external-flow-volume CAD failure, and rotating-zone/material-overlap errors.
+- Open:
+  - The forum guidance is practical but not a substitute for a validated airfoil or turbine benchmark; the next useful step is still to apply these checks to the user's current airfoil case and see which one closes the mismatch.
+
 ### 2026-07-15 - Add torque-coefficient normalization to CFD results note
 
 - Task: explain how to calculate VAWT moment/torque coefficient from SimScale torque output.

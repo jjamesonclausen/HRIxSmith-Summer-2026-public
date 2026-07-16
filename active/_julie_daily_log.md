@@ -296,9 +296,11 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 	- got plan from mike 
 		- got live share working 
 		- working on coping an airfoil i found on the one from hri 
-- review the results of the simulations 
-- question LLM about ai in simscale 
-	- doesn't seem to know much about that 
+- trouble shooting airfoil (4hr)
+	- review the results of the simulations 
+	- question LLM about ai in simscale 
+		- doesn't seem to know much about that 
+- total 9.5 hr 
 ### Thursday 7/16
 - Met with Mike + Anna - 9am
 ### Friday 7/17

@@ -1,6 +1,6 @@
 ---
 Created: 2026-07-15
-Updated: 2026-07-15
+Updated: 2026-07-16
 Sources:
   - "[[HRI2526]]"
   - "[[ca3]]"
@@ -9,7 +9,8 @@ Sources:
   - "[[ca15]]"
   - "[[ca21]]"
   - "[[cj7]]"
-Source_count: 7
+  - "[[cj8]]"
+Source_count: 8
 tags:
   - cfd
 ---
@@ -48,6 +49,8 @@ HRI's AMI transient trial showed more oscillation in torque-coefficient output a
 Creating the CAD cylinder alone does not assign rotating physics. During hex-dominant meshing, assign a closed volume to a surface refinement and enable cell-zone creation; the resulting enclosed cells can be used for MRF or AMI rotating regions. (source: sources/ca21.md)
 
 The `cj7` tutorial adds that with SimScale's standard physics-based meshing, the platform automatically creates the necessary cell zones for the rotating volume. (source: sources/cj7.md)
+
+The `cj8` forum note clarifies a common incompressible rotating-zone failure: the rotating volume must intersect a material-assigned fluid region as a valid `3D` cell zone, otherwise meshing or setup can fail even if the rotating cylinder looks visually correct. (source: sources/cj8.md)
 
 Check that the assigned volume is closed. SimScale states that a closed volume is required for cell-zone creation. (source: sources/ca21.md)
 
