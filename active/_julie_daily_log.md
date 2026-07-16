@@ -306,12 +306,22 @@ Source PDF: `active/Daily Log for Honda Project - Julie & Anna.pdf`
 	- asking LLM for help with settings 
 - Met with Mike + Anna - 9am (.5 hr)
 	- talk about todays plan, how yesterday went, and discussed contacting Ryan for support on how to add in online forums 
-- stay on call with anna ()
+- stay on call with anna (4 hrs)
 	- gave llm the link to he simscale forum and asked it to read through 
 		- said it read through the parts that it thought would be best 
 	- added another source on airfoil validation 
 	- switched to trying to validate NACA0012 instead of 0018 (so that i could use the smooth airfoil i found online (anna is still working on NACA0018)
-	- two more simulation runs chaning AOA and lift directions t
+	- two more simulation runs changing AOA and lift directions 
+	- many iterations biggest aid was modeling a 2d plane - idea from a simscale validated study of naca 0012 
+	- this brough drag to 0.05 and lift to 0.6 (from 0.6 and 0.19) huge improvement
+- played with mesh setting to see any further improvements none found (1 hr)
+	- call with anna to talk about next steps (2hr)
+		- y+ issues?
+		- try reducing first boundary layer 
+		- success with drag when making it 2d but then lift is even lower at 0.48. 
+- total 8.5 
+weekly total: 38.5
+1.5 extra hours needed 
 ### Friday 7/17
 day off
 ## Week 5
