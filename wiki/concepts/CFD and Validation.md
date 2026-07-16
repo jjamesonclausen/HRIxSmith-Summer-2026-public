@@ -1,6 +1,6 @@
 ---
 Created: 2026-07-01
-Updated: 2026-07-15
+Updated: 2026-07-16
 Sources:
   - "[[va10]]"
   - "[[vj5]]"
@@ -28,9 +28,11 @@ Sources:
   - "[[cj2]]"
   - "[[cj3]]"
   - "[[cj4]]"
+  - "[[cj9]]"
+  - "[[cj10]]"
   - "[[ca33]]"
   - "[[fa1]]"
-Source_count: 28
+Source_count: 30
 tags:
   - concepts
 ---
@@ -102,6 +104,12 @@ Its stated error is below `1.38%`, but because the source is a promotional trans
 The `cj4` SimScale tutorial adds a more practical beginner-validation mindset: use CFD post-processing to locate strong wake or pressure regions, then compare those locations against sensor measurements in a wind tunnel or field test if possible. (source: sources/cj4.md)
 Because the source is only a quick tutorial transcript with default meshing and no reported benchmark dataset, it supports the idea of validation-by-measurement more than any specific quantitative CFD claim. (source: sources/cj4.md)
 
+The `cj9` paper adds a useful isolated-airfoil validation target for low-Re VAWT work: `NACA0018` measured in a low-turbulence tunnel from `Re = 30,000` to `160,000`, with two independent lift-measurement methods agreeing strongly across most of the tested range. (source: sources/cj9.md)
+It also adds a model-comparison caution that matches the repo's broader theme: `XFOIL` follows the general low-Re trends reasonably well but overestimates maximum lift, while `2-D` Transition SST predicts the drag rise better but underestimates lift at `Re = 160,000`. (source: sources/cj9.md)
+
+The `cj10` SimScale validation case adds a documented high-Re airfoil benchmark pattern: pseudo-`2D` single-cell extrusion, Standard meshing, `k-omega SST`, full near-wall resolution at `y+ ~ 1`, and angle of attack imposed through inlet velocity components. (source: sources/cj10.md)
+It also makes explicit that a stable, accurate-looking validation case can still need numerics tuning, in this case changing velocity and pressure-gradient interpolation schemes from `Least Squares` to `Gauss-Linear`. (source: sources/cj10.md)
+
 The `ca33` airfoil tutorial provides a sectional-airfoil validation sequence: match airfoil, Reynolds number, and angle of attack; use freestream-aligned coefficient axes; inspect convergence and solved wall `y+`; then compare lift and drag with the matching published coefficient data. (source: sources/ca33.md)
 Its worked result is at `Re = 6 x 10^6` for a NACA 4415 in 2D, so it is not direct validation evidence for a three-dimensional NACA 0018 case at `Re = 50,000`. (source: sources/ca33.md)
 
@@ -143,3 +151,5 @@ Related:
 - [[cj2 Farrah VAWT CFD Setup]]
 - [[cj3 Darrieus Course CFD Workflow]]
 - [[cj4 SimScale Savonius Workflow]]
+- [[cj9 NACA0018 Low-Re Validation Data]]
+- [[cj10 SimScale NACA0012 High-Re Validation]]

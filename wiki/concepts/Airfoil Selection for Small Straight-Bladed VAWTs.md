@@ -1,9 +1,10 @@
 ---
 Created: 2026-07-08
-Updated: 2026-07-08
+Updated: 2026-07-16
 Sources:
   - "[[vj28]]"
-Source_count: 1
+  - "[[cj9]]"
+Source_count: 2
 tags:
   - concepts
 ---
@@ -17,11 +18,12 @@ Airfoil-selection framework for smaller-capacity fixed-pitch straight-bladed Dar
 - For fixed-pitch cambered blades, the paper prefers the concave-out configuration, because the upstream pass sees positive incidence and contributes most of the extracted energy. (source: sources/vj28.md)
 - It explicitly argues that the older symmetric `NACA` 4-digit sections widely reused in SB-VAWT work are a poor fit for this application, and that a high-lift, low-drag asymmetric thick airfoil is more appropriate. (source: sources/vj28.md)
 - The public-domain candidate comparison still shows tradeoffs rather than one universally best section: `S1210` is strongest on several positive-incidence force metrics, `NLF(1)-0416` has the widest low-Re drag bucket, `LS(1)-0417` is least roughness-sensitive in `Cdo`, and `NACA 4415` is the quietest in the model-based noise comparison. (source: sources/vj28.md)
+- The `cj9` wind-tunnel study adds a cautionary low-Re `NACA0018` data point: at `Re = 30k`, lift is practically negligible, and at `Re = 50k` the reported `Clmax` is only `0.435` at `3` degrees. It also says drag at zero angle of attack falls dramatically as Reynolds number rises, reaching `0.0084` by `Re = 160k`. (source: sources/cj9.md)
 
 ![Source figure](vj28-fig22.jpg)
 Original caption: Figure 22. Geometric Features of a Typical Asymmetric Airfoil [[vj28|Source]]
 
-> Uncertainty: the paper's framework is stronger as a screening guide than as proof of one best airfoil, because some results rely on `XFOIL` plus extrapolated post-stall data and several dedicated VAWT airfoils could not be fully evaluated. (source: sources/vj28.md)
+> Uncertainty: the `vj28` framework is stronger as a screening guide than as proof of one best airfoil, and `cj9` reinforces that low-Re behaviour can change drastically even for a familiar section like `NACA0018`. The isolated-airfoil tunnel data are valuable, but they do not directly resolve the full rotating-blade problem. (source: sources/vj28.md, sources/cj9.md)
 
 Related:
 - [[Straight-bladed Darrieus]]

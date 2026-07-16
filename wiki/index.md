@@ -21,6 +21,8 @@ The map of this knowledge base. The agent keeps this current: every page it crea
 - [[cj6 SimScale Building Wind Workflow]]
 - [[cj7 SimScale MRF Rotating Zone Workflow]]
 - [[cj8 SimScale Forum Troubleshooting Notes]]
+- [[cj9 NACA0018 Low-Re Validation Data]]
+- [[cj10 SimScale NACA0012 High-Re Validation]]
 
 ## Source summaries
 
@@ -96,6 +98,8 @@ _One page per file in `sources/`._
 - [[cj6-summary]]
 - [[cj7-summary]]
 - [[cj8-summary]]
+- [[cj9-summary]]
+- [[cj10-summary]]
 
 ## Concepts
 

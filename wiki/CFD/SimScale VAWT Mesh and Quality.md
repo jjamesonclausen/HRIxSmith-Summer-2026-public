@@ -7,7 +7,8 @@ Sources:
   - "[[ca21]]"
   - "[[ca22]]"
   - "[[cj8]]"
-Source_count: 5
+  - "[[cj10]]"
+Source_count: 6
 tags:
   - cfd
 ---
@@ -18,6 +19,8 @@ tags:
 Incompressible analysis supports standard, hex-dominant, and hex-dominant parametric meshers. (source: sources/ca6.md)
 
 Hex-dominant automatic meshing reduces the number of manual controls and is intended for a quick preliminary CFD mesh. Its external mode is intended for aerodynamic flows around bodies. (source: sources/ca21.md)
+
+The `cj10` validation case adds one documented airfoil pattern: use Standard meshing plus single-cell extrusion for a pseudo-`2D` external-airfoil case rather than relying on a full 3D span. (source: sources/cj10.md)
 
 Use the first mesh to expose CAD and setup problems, then refine deliberately. SimScale describes global fineness `2 - coarse` as a typical first-trial compromise and recommends later refinement for mesh-independence or convergence studies. (source: sources/ca21.md)
 
@@ -44,6 +47,7 @@ Figure: Visual aid distinguishing orthogonality from skewness. User-provided ima
 - The documented maximum CFD non-orthogonality metric is `88`, but this is a divergence-risk threshold rather than a target for a trustworthy design comparison. (source: sources/ca22.md)
 - Use the Mesh Quality viewer and Isovolume to locate poor cells, then address the CAD or mesh settings causing them. (source: sources/ca22.md)
 - The forum troubleshooting note adds a practical drag-focused check: inspect the `y+` field and deliberately choose either about `y+ ~ 1` for direct near-wall resolution or a log-law wall-function regime around `30 < y+ < 300`. (source: sources/cj8.md)
+- The `cj10` validation case reinforces the direct-resolution option by explicitly targeting `y+ ~ 1` and using full near-wall resolution with `k-omega SST`. (source: sources/cj10.md)
 
 ## What to compare
 
