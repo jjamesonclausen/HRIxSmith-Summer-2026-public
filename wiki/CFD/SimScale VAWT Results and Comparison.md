@@ -1,13 +1,14 @@
 ---
 Created: 2026-07-15
-Updated: 2026-07-15
+Updated: 2026-07-16
 Sources:
   - "[[HRI2526]]"
   - "[[ca19]]"
   - "[[ca23]]"
   - "[[ca24]]"
   - "[[cj7]]"
-Source_count: 5
+  - "[[cj8]]"
+Source_count: 6
 tags:
   - cfd
 ---
@@ -40,6 +41,8 @@ SimScale's Compare tool shows two runs side by side using synchronized views and
 ## Quantities not yet established
 
 For a VAWT `Cp` estimate, configure a **Forces and moments** result control on the rotor surfaces and extract the moment component about the rotor shaft axis. SimScale establishes that this control calculates forces and moments on selected surfaces; `HRI2526` reports using the total moment about its VAWT's centered Z-axis. (source: sources/ca19.md, sources/HRI2526.md)
+
+The `cj8` forum note adds a practical warning for any coefficient output: wrong reference area, reference velocity, or reference density in the coefficient setup can make the reported coefficient physically meaningless even when the underlying force value is reasonable. (source: sources/cj8.md)
 
 `HRI2526` reports a moment coefficient of about `0.3` for its validated Classical Savonius case at TSR `0.8`, then calculates `Cp` as moment coefficient multiplied by TSR: `Cp = Cm * TSR`. This is a project-specific reported calculation, not a general SimScale result-control setting. (source: sources/HRI2526.md)
 

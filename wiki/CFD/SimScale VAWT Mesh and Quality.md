@@ -1,12 +1,13 @@
 ---
 Created: 2026-07-15
-Updated: 2026-07-15
+Updated: 2026-07-16
 Sources:
   - "[[ca6]]"
   - "[[ca20]]"
   - "[[ca21]]"
   - "[[ca22]]"
-Source_count: 4
+  - "[[cj8]]"
+Source_count: 5
 tags:
   - cfd
 ---
@@ -26,8 +27,11 @@ Use the first mesh to expose CAD and setup problems, then refine deliberately. S
 - Region refinement can refine inside, outside, or at specified distances from selected volumes. (source: sources/ca21.md)
 - Surface refinement refines selected faces or volumes. (source: sources/ca21.md)
 - Boundary-layer inflation creates surface-aligned cells using layer count, expansion ratio, minimum thickness, and first-layer thickness. (source: sources/ca21.md)
+- The `cj8` forum note adds a practical failure mode: in hex-dominant meshing, boundary layers can be deleted if the near-wall layers transition too abruptly into a much larger surface mesh. (source: sources/cj8.md)
 
 Local settings override global mesh settings. Avoid overlapping refinements of the same type on the same entity because SimScale warns they can conflict. (source: sources/ca21.md)
+
+The same forum guidance says the standard mesher can sometimes maintain boundary layers more consistently than the hex-dominant mesher in difficult aerodynamic cases. (source: sources/cj8.md)
 
 ## Mesh-quality review
 
@@ -39,6 +43,7 @@ Figure: Visual aid distinguishing orthogonality from skewness. User-provided ima
 - Non-orthogonality ranges from `0` (ideal) to `90` (worst); SimScale recommends keeping it below `70`, improving the mesh above `80`, and warns that meshes above `85` likely diverge. (source: sources/ca22.md)
 - The documented maximum CFD non-orthogonality metric is `88`, but this is a divergence-risk threshold rather than a target for a trustworthy design comparison. (source: sources/ca22.md)
 - Use the Mesh Quality viewer and Isovolume to locate poor cells, then address the CAD or mesh settings causing them. (source: sources/ca22.md)
+- The forum troubleshooting note adds a practical drag-focused check: inspect the `y+` field and deliberately choose either about `y+ ~ 1` for direct near-wall resolution or a log-law wall-function regime around `30 < y+ < 300`. (source: sources/cj8.md)
 
 ## What to compare
 

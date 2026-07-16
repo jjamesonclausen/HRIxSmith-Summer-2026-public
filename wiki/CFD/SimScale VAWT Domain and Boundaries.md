@@ -1,6 +1,6 @@
 ---
 Created: 2026-07-15
-Updated: 2026-07-15
+Updated: 2026-07-16
 Sources:
   - "[[ca4]]"
   - "[[ca6]]"
@@ -9,7 +9,8 @@ Sources:
   - "[[ca14]]"
   - "[[ca21]]"
   - "[[cj6]]"
-Source_count: 7
+  - "[[cj8]]"
+Source_count: 8
 tags:
   - cfd
 ---
@@ -47,5 +48,6 @@ The `cj6` example uses one velocity-inlet face, pressure outlets on the remainin
 - Check CAD units before setup; unit discrepancies can produce unrealistic dimensions, and SimScale's default Workbench unit is meters. (source: sources/ca3.md)
 - Remove small manufacturing details that do not affect the target flow because they can increase meshing and compute time, and remove small sharp faces that can make surface meshing fail. (source: sources/ca3.md)
 - Check for interferences before meshing; overlapping solids can cause meshing failure. (source: sources/ca4.md)
+- The `cj8` forum note adds that external flow volume creation can still fail on apparently valid CAD if small geometry flaws remain. In that case, creating the flow volume in an external CAD tool may be the faster workaround. (source: sources/cj8.md)
 
 Related pages: [[SimScale VAWT CFD Learning Path]], [[SimScale VAWT Rotating Region]], [[SimScale VAWT Mesh and Quality]].

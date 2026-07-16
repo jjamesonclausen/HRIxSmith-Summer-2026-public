@@ -1,13 +1,14 @@
 ---
 Created: 2026-07-15
-Updated: 2026-07-15
+Updated: 2026-07-16
 Sources:
   - "[[HRI2526]]"
   - "[[cj4]]"
   - "[[cj5]]"
   - "[[cj6]]"
   - "[[cj7]]"
-Source_count: 5
+  - "[[cj8]]"
+Source_count: 6
 tags:
   - methods
 ---
@@ -25,10 +26,12 @@ Browser-based simulation platform used in this repo's sources for VAWT CFD workf
 - In that example, the outer box uses a velocity inlet on one face, pressure outlets on the other exposed faces, and wall geometry for the ground and building surfaces. (source: sources/cj6.md)
 - The `cj7` documentation adds a more detailed rotating-zone workflow: use a flow region with removed solids plus a cylinder around the rotating part, define symmetry planes where possible, assign an `MRF rotating zone`, and let physics-based meshing create the needed cell zones automatically. (source: sources/cj7.md)
 - It also documents a custom atmospheric boundary using `Pressure inlet-outlet velocity` with total gauge pressure `0 Pa`, plus post-processing through pressure coloring, particle traces, and cutting-plane vectors. (source: sources/cj7.md)
+- The `cj8` forum troubleshooting note adds two practical support checks: coefficient outputs can be badly wrong if reference area, velocity, or density are mis-set, and boundary-layer inflation can fail if tiny near-wall layers transition too abruptly into much larger surface cells. (source: sources/cj8.md)
+- The same forum note also says rotating-zone failures in incompressible cases often come from a rotating volume that does not intersect a material-assigned fluid region correctly. (source: sources/cj8.md)
 - The HRI report adds an important caution that default physics-based meshing can be expedient, but unresolved boundary-layer treatment can limit confidence in the result. (source: sources/HRI2526.md)
 
-> Uncertainty: these sources support SimScale as a practical learning and early-analysis tool, but they do not establish one universally correct SimScale recipe for VAWTs. `cj4`, `cj5`, and `cj6` are quick tutorials, `cj7` is a drone-oriented rotating-zone example, and `HRI2526` explicitly notes unresolved meshing limitations in part of its validation path. (source: sources/HRI2526.md, sources/cj4.md, sources/cj5.md, sources/cj6.md, sources/cj7.md)
+> Uncertainty: these sources support SimScale as a practical learning and early-analysis tool, but they do not establish one universally correct SimScale recipe for VAWTs. `cj4`, `cj5`, and `cj6` are quick tutorials, `cj7` is a drone-oriented rotating-zone example, `cj8` is forum troubleshooting guidance, and `HRI2526` explicitly notes unresolved meshing limitations in part of its validation path. (source: sources/HRI2526.md, sources/cj4.md, sources/cj5.md, sources/cj6.md, sources/cj7.md, sources/cj8.md)
 
-Related: [[CFD]], [[cj4 SimScale Savonius Workflow]], [[cj5 SimScale Virtual Wind Tunnel Workflow]], [[cj6 SimScale Building Wind Workflow]], [[cj7 SimScale MRF Rotating Zone Workflow]], [[HRI2526-summary]]
+Related: [[CFD]], [[cj4 SimScale Savonius Workflow]], [[cj5 SimScale Virtual Wind Tunnel Workflow]], [[cj6 SimScale Building Wind Workflow]], [[cj7 SimScale MRF Rotating Zone Workflow]], [[cj8 SimScale Forum Troubleshooting Notes]], [[HRI2526-summary]]
 
 #methods

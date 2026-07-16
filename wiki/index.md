@@ -20,6 +20,7 @@ The map of this knowledge base. The agent keeps this current: every page it crea
 - [[cj5 SimScale Virtual Wind Tunnel Workflow]]
 - [[cj6 SimScale Building Wind Workflow]]
 - [[cj7 SimScale MRF Rotating Zone Workflow]]
+- [[cj8 SimScale Forum Troubleshooting Notes]]
 
 ## Source summaries
 
@@ -92,6 +93,7 @@ _One page per file in `sources/`._
 - [[cj5-summary]]
 - [[cj6-summary]]
 - [[cj7-summary]]
+- [[cj8-summary]]
 
 ## Concepts
 
