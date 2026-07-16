@@ -354,8 +354,15 @@
 		- this was super fast with obsidian web clipper
 	- had it teach me about all of the elements that go into a cfd simulation (took foreverrrr theres a lot)
 	- ran another attempt at a naca0018 validation study
-`14:00` more learning, research, messing around with settings in simscale, etc
-	
+`14:00` more learning, research, messing around with settings in simscale, trying to troubleshoot airfoil study (3 hr)
+*Giving the llm all of the SimScale documentation was initially very helpful for general CFD and SimScale learning, but ultimately not enough information to get valuable troubleshooting advice. Need to add more cfd sources like simscale forum, write ups of other cfd studies, etc.*
+
+### Thursday 07/16
+
+`09:00` met w/ Mike + Julie to get started (0.5 hr)
+`09:30` troubleshooting airfoil studies
+	- re-drew airfoil in fusion to improve smoothness
+	- 
 
 ---
 Hours: -13.50
