@@ -16,7 +16,9 @@ Sources:
   - "[[vj26]]"
   - "[[n2]]"
   - "[[vj2]]"
-Source_count: 14
+  - "[[va29]]"
+  - "[[va30]]"
+Source_count: 16
 tags:
   - concepts
 ---
@@ -86,6 +88,10 @@ Original caption: Figure 10. Evolution of the Savonius design for water pumping 
 - Elliptical blades and ~45° twist can improve performance. (source: sources/n2.md)
 - Endplates, curtains/shields, and auxiliary blades can reduce losses and improve efficiency. (source: sources/n2.md)
 - In one hybrid-CFD study, a 38 mm shaft occupying about 66% of the Savonius overlap space was treated as a flow obstruction, and removing it increased average hybrid-rotor torque by 10.5% at 7 m/s. (source: sources/vj2.md)
+- A 3D-CFD global optimization of circular-arc Savonius designs reports cP increases from `0.242` for its optimized two-blade design to `0.318` and `0.321` for optimized four- and six-blade designs at `AR = 1.5`; the paper finds little difference between its four- and six-blade results. (source: sources/va29.md)
+- The same source's two-blade optimum uses practically zero overlap and TSR `1.2`, while its four- and six-blade optima resemble scooplet-based configurations. These are source-specific CFD findings, not a universal Savonius prescription. (source: sources/va29.md)
+- The `va30` wind-tunnel campaign tested a two-bucket, `180-degree` semicircular geometry with bucket radius `0.25 m`; among its tested configurations, it reports strongest performance at inside-edge gap ratios `S/D = 0.10-0.15`. (source: sources/va30.md)
+- It finds two buckets outperform three on peak power but have lower minimum static torque at some azimuths; its proposed response is two two-bucket stages offset by `90 degrees`. (source: sources/va30.md)
 
 Related:
 - [[VAWT]]

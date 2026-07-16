@@ -32,7 +32,9 @@ Sources:
   - "[[cj5]]"
   - "[[cj6]]"
   - "[[cj7]]"
-Source_count: 30
+  - "[[va29]]"
+  - "[[ca33]]"
+Source_count: 32
 tags:
   - methods
 ---
@@ -111,6 +113,11 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 - It also emphasizes leaving enough top head space in the domain so accelerated flow above the object is not artificially clipped out of the simulation region. (source: sources/cj6.md)
 - The `cj7` SimScale documentation adds a rotating-zone workflow with quarter-model symmetry, an MRF rotating cylinder, a custom atmosphere boundary based on `Pressure inlet-outlet velocity`, and non-orthogonal correctors set to `4` for the tetrahedral mesh. (source: sources/cj7.md)
 - It also documents a reusable post-processing pattern for rotating machinery: inspect the last timestep, hide enclosure walls, color by pressure, then use seeded particle traces and cutting-plane vectors to inspect the swirl and accelerated flow around the rotating region. (source: sources/cj7.md)
+- The `va29` optimization study uses transient 3D CFD with a sliding mesh, a half-rotor symmetry model, and the 4-equation transitional SST turbulence model. Its `40d x 30d x 5d` domain places the rotor axis `15d` from the inlet and `25d` from the outlet, with a `3d`-wide refined wake zone beginning `2d` downwind. (source: sources/va29.md)
+- Its high-resolution mesh uses 20 blade-wall prism layers, first-layer height `0.01 mm` for `y+ ≈ 1`, plus `0.5 mm` blade-edge refinement. The selected 500,000-cell, `0.5 degree`-step approach is supported by the paper's grid/time-step sensitivity study and two-revolution average. (source: sources/va29.md)
+- The source compares its CFD model with separate experimental integral-power and local-pressure datasets, but the globally optimized configurations themselves are not experimentally tested. (source: sources/va29.md)
+- The `ca33` airfoil tutorial demonstrates a 2D steady SST `k-omega` workflow with a C-type outer domain, structured quadrilateral mesh, velocity inlet, pressure outlet, slip far boundaries, and no-slip airfoil wall. (source: sources/ca33.md)
+- For nonzero angle of attack, it resolves both the inlet velocity and coefficient force directions into freestream-aligned drag and normal lift vectors, then checks solved wall `y+`, residuals, and coefficient histories before comparing against same-condition reference data. (source: sources/ca33.md)
 
 ## Figures
 

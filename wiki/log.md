@@ -1,6 +1,55 @@
 #maintenance
 ## Log
 
+### 2026-07-16 - Ingest fa1 finite-wing aerodynamics reference
+
+- Task: ingest the added finite-wing aerodynamics reference and connect it to the active airfoil-validation work.
+- Actions:
+  - Created [[Finite Wing Aerodynamics]] and updated [[CFD and Validation]] and [[index]].
+  - Marked `sources/fa1.md` processed and removed its unresolved author wikilink.
+- Decisions:
+  - Used the source to distinguish a finite wing from a two-dimensional airfoil section: exposed tips create downwash and induced drag, so their coefficients are not directly comparable.
+- Open:
+  - The user's pseudo-2D NACA 0018 case still needs a controlled y+-based mesh study and a benchmark whose transition assumptions are documented.
+
+### 2026-07-16 - Ingest ca33 airfoil CFD tutorial and diagnose NACA 0018 mismatch
+
+- Task: ingest the added airfoil CFD tutorial and use it with the user's Batch 2 Run 1 setup to investigate a failed NACA 0018 validation.
+- Actions:
+  - Created `wiki/CFD/ca33 ANSYS Airfoil Validation Workflow.md` and updated [[CFD]], [[CFD and Validation]], and [[index]] with tutorial-supported C-domain, coefficient-axis, convergence, and solved-`y+` checks.
+  - Reviewed `active/CFD log/Airfoil Validation Studies.md` Batch 2 Run 1, including its `Cl = 0.177` and `Cd = 0.060` result at NACA 0018, `Re = 50,000`, and `alpha = 5 degrees`.
+- Decisions:
+  - Identified the finite `1 m` span with `1 m` chord as the first issue to isolate: it is a 3D finite wing of aspect ratio `1`, whereas the cited AirfoilTools target is sectional airfoil data. This is an inference from the setup and the known distinction between 2D and 3D flow, not a claim made by ca33.
+  - Did not copy the tutorial's high-Reynolds-number numerical settings into the user's case because its NACA 4415, `Re = 6 x 10^6`, 2D example is not a matching benchmark.
+- Open:
+  - Rerun as a 2D section or use spanwise symmetry boundaries, verify the actual solved `y+`, and correct the force-direction vectors for 5 degrees before judging turbulence-model or mesh changes.
+
+### 2026-07-16 - Convert and ingest va30 Savonius wind-tunnel benchmark
+
+- Task: convert the cited Sheldahl, Blackwell, and Feltz Savonius wind-tunnel paper and ingest it for CFD validation use.
+- Actions:
+  - Created `sources/va30.md`, extracted and linked eight figures plus two equation images, and marked the source processed.
+  - Created a summary, a source-specific two-bucket semicircular Savonius benchmark design page, four parameter pages, and `[[va30 Savonius Wind-Tunnel Benchmark]]` for repeatable CFD-comparison guidance.
+  - Updated [[Wind Tunnel Testing]], [[Savonius Turbine]], and [[index]] with the experimental procedure, geometry, and benchmark links.
+- Decisions:
+  - Treated cP approximately `0.24` and TSR approximately `0.7` as graph-read validation targets rather than exact tabulated values.
+  - Kept the tunnel-blockage correction caveat visible because the authors state it is not proven for Savonius geometry.
+- Open:
+  - The paper does not specify endplate/blade thickness, shaft geometry, tunnel turbulence, or provide tabulated data; a strict CFD validation needs digitized curves and documented geometric assumptions.
+
+### 2026-07-16 - Convert and ingest va29 global Savonius optimization paper
+
+- Task: convert `attachments/PDFs/va29_raw.pdf` to a source Markdown file and ingest its supported VAWT knowledge.
+- Actions:
+  - Created `sources/va29.md`, rendered and linked all 19 numbered PDF figures in `images/va29-fig1.jpg` through `images/va29-fig19.jpg`, and marked the source processed.
+  - Created `wiki/summaries/va29-summary.md`, three source-specific optimized Savonius design pages, and three parameter pages for blade number, circular-arc profile, and aspect ratio.
+  - Updated [[CFD]], [[Savonius Turbine]], and [[index]] with the source-backed 3D CFD setup, design outcomes, and links.
+- Decisions:
+  - Kept the reported cP gains scoped to the authors' validated CFD model because only the classical Savonius validation configurations, not the optimized designs, have experimental comparisons in this source.
+  - Recorded the four-, six-, and two-blade cases as separate design pages because they are distinct globally optimized geometries.
+- Open:
+  - The paper gives useful CFD-domain and mesh evidence for Savonius work, but its symmetry model and `12 m/s` operating condition need separate suitability checks before applying them to a user's full-rotor or lower-wind case.
+
 ### 2026-07-16 - Add SimScale forum troubleshooting guidance as cj8
 
 - Task: add the public SimScale forum guidance that was not already captured in the wiki as a traceable source-backed note.

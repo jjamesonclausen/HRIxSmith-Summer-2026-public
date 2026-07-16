@@ -109,9 +109,12 @@
 - [ ] define simulation behavior
 	- set material, turbulence model, initial conditions, and ALL boundary conditions
 - [ ] create and inspect mesh
+	- check non-orthogonality and adjust # correctors (in numerics) as needed
 - [ ] set transient/numerical controls (**Simulation Control**)
 	- end time, delta t or adjustable timestep/CFL limit, write interval, runtime limit
 - [ ] configure result controls
+	- force and moment coefficients, and make sure velocity, coef axes, and area are correct!
+	- field calculations --> turbulence --> y+
 ### set up
 
 before CAD and CFD, identify the following:
@@ -173,17 +176,19 @@ before CAD and CFD, identify the following:
 	- **field calculations** for diagnostics like vorticity, turbulence quantities, wall shear stress, pressure coefficient
 	- **surface data** for averages or integrals over a selected surface
 - post processing
-	- cutting planes
-	- **vectors**
+	- cutting planes --> pressure or velocity field
+		- can add vectors
+	- Iso volume --> iso scalar = yPlus --> set range to find values of concern
+		- 0–5 for direct near-wall resolution
+		- 5–30 to reveal the undesirable intermediate regime
+		- 30–300 for wall-function operation
 	- particle trances
-	- pressure gradients
 	- rotational view
 - residuals
 	- measure used by solver to judge if the current estimate of a variable field (like velocity or pressure) is sufficiently solved
 	- residual controls are in the iterative pressure and velocity solver settings
 	- low = good, equations are adequately resolved *for the current timestep*
 	- stable physical output = good, the thing you're looking at has behaved consistently/repeatably *over the simulated interval*
-
 
 ### simulation control
 1. end time: total physical time simulated
@@ -195,7 +200,19 @@ before CAD and CFD, identify the following:
 for a pilot run prob good to choose adjustable timestep, max CFL = 0.7, conservative max timestep, and write interval enough to resolve the output you need. after the run instpect the timestep and result histories.
 
 
+## Classical Savonius CFD validation, [[va29]], [[HRI2526]]
+Yes, [[va29]] describes a repeatable CFD setup framework, but not enough to reproduce the classical Savonius geometry exactly from a prompt alone.
+### CFD Set Up
+- Transient 3D CFD in ANSYS Fluent with a sliding-mesh interface and 4-equation transitional SST turbulence model. (source: sources/va29.md)
+- Half-rotor model with symmetry at the mid-plane. (source: sources/va29.md)
+- Domain: 40d streamwise, 30d transverse, 5d height; rotor center 15d from inlet and 25d from outlet. (source: sources/va29.md)
+- Rotating zone diameter: 1.8d; refined wake zone: 3d wide, beginning 2d downstream. (source: sources/va29.md)
+- 12 m/s inlet, zero-pressure outlet, symmetry on outer lateral/top faces. (source: sources/va29.md)
+- d = 0.68 m; baseline operating point: TSR 0.9, giving omega = 31.4 rad/s. (source: sources/va29.md)
+- Mesh guidance: 20 prism layers, 0.01 mm first layer targeting y+ ≈ 1, 0.5 mm blade-edge refinement, and selected 0.5° azimuthal timestep. (source: sources/va29.md)
+- Validation targets: classical rotor s/d = 0.1 power curve plus local pressure differences from a second experiment. (source: sources/va29.md)
 
+See [[a716_va29_sav]] for rotor geometry / cad info
 ## basic flow simulation steps
 https://www.youtube.com/watch?v=WsPy_TJotv4 
 1. export STEP file from Zoo
@@ -232,32 +249,6 @@ https://www.youtube.com/watch?v=WsPy_TJotv4
 		- position particle trace 1 on inlet boundary by inverting visibility
 
 
-## wiki notes
-### Recommended VAWT CFD workflow
-- Define one question first: compare geometry, estimate `Cp`, find a useful TSR range, study wake behavior, or assess a site. CFD is strongest for comparisons and trends, not unvalidated absolute performance. (source: [[CFD and Validation]], [[vj6]], [[vj26]])
-- Keep the first CAD model simple: blades, rotor dimensions, shaft, and only major supports or flow modifiers that affect the question (omit stuff like bearings and bolts.
-- Learn the workflow with a known airfoil, then validate a published reference VAWT before analyzing the proposed design. (source: [[HRI2526]])
-- Use 2D for early airfoil and design screening; use 3D for final performance, blade-tip losses, spanwise flow, support drag, and realistic wake studies. 2D can overpredict `Cp`. (source: [[vj11]], [[vj29]], [[va26]])
-- Change one major design variable at a time and keep a case log of geometry, wind speed, TSR, mesh, time step, solver, and results.
 
-### Validation
-- Check lift and drag for a known airfoil at a matching Reynolds number and angle of attack.
-- Check a reference VAWT against published torque, `Cp`, velocity-field, or wake data.
-- Run mesh-independence, time-step-independence, and domain-size-sensitivity studies before trusting performance results. (source: [[va10]], [[va14]], [[va25]])
-- Validate more than one `Cp`-versus-TSR curve when possible: compare wake velocity, pressure, separation, vorticity, and blade-tip vortices. PIV or wind-tunnel data are useful targets. (source: [[vj5]], [[vj29]], [[va11]])
-
-### Operating conditions and model choices
-- Use incompressible air for ordinary low-speed VAWT cases, set the inlet wind speed and turbulence intensity explicitly, and set the pressure outlet to zero gauge pressure. Match the wind speed and TSR of any validation case. (source: [[HRI2526]], [[vj2]])
-- Start with transient URANS and `k-omega SST`, the most common practical design-stage choice. Consider transition SST for low-Reynolds-number transition and separation; use DES or LES only when detailed dynamic stall or vortex fidelity justifies the extra cost. (source: [[vj11]], [[va10]], [[vj5]])
-- Use an inner rotating domain and an outer stationary domain. MRF is a cheaper steady approximation; sliding mesh or AMI physically moves the rotating region and is preferable for transient blade-wake interaction, dynamic stall, and fluctuating torque. (source: [[HRI2526]], [[va10]])
-- Begin with an outer domain of about `15D` upstream, `10D` downstream, and `20D` laterally, then test whether enlarging it changes torque or `Cp`. Use a larger domain when reproducing an open-field or wind-tunnel condition requires it. (source: [[vj11]], [[va10]], [[va25]])
-
-### Mesh setup
-- Refine around blade surfaces, the rotating-domain interface, and the wake. Add boundary-layer layers at the blades and choose near-wall resolution (`y+`) that matches the turbulence-model wall treatment. (source: [[va10]], [[vj6]])
-- Increase mesh fineness until torque or `Cp` changes little. Poor or unresolved boundary-layer meshing can make the result unreliable, as the HRI project found. (source: [[HRI2526]], [[va14]], [[va25]])
-- Consider running a mesh sensitivity analysis to determine minimum viable mesh size.
-
-### Important limits
-- CFD alone cannot reliably establish self-starting, cut-in speed, rooftop performance in multidirectional urban wind, generator losses, or full-scale behavior from a small model. Use site measurements and physical testing where possible. (source: [[HRI2526]], [[va17]], [[va18]], [[vj26]])
 
 Helpful pages: [[CFD and Validation]], [[CFD]], [[Dynamic Stall]], [[Urban Wind Conditions]], [[Wind Tunnel Testing]], [[HRI2526]]

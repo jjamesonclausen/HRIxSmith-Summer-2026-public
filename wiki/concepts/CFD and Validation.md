@@ -28,7 +28,9 @@ Sources:
   - "[[cj2]]"
   - "[[cj3]]"
   - "[[cj4]]"
-Source_count: 26
+  - "[[ca33]]"
+  - "[[fa1]]"
+Source_count: 28
 tags:
   - concepts
 ---
@@ -99,6 +101,11 @@ Its stated error is below `1.38%`, but because the source is a promotional trans
 
 The `cj4` SimScale tutorial adds a more practical beginner-validation mindset: use CFD post-processing to locate strong wake or pressure regions, then compare those locations against sensor measurements in a wind tunnel or field test if possible. (source: sources/cj4.md)
 Because the source is only a quick tutorial transcript with default meshing and no reported benchmark dataset, it supports the idea of validation-by-measurement more than any specific quantitative CFD claim. (source: sources/cj4.md)
+
+The `ca33` airfoil tutorial provides a sectional-airfoil validation sequence: match airfoil, Reynolds number, and angle of attack; use freestream-aligned coefficient axes; inspect convergence and solved wall `y+`; then compare lift and drag with the matching published coefficient data. (source: sources/ca33.md)
+Its worked result is at `Re = 6 x 10^6` for a NACA 4415 in 2D, so it is not direct validation evidence for a three-dimensional NACA 0018 case at `Re = 50,000`. (source: sources/ca33.md)
+
+The `fa1` finite-wing reference explains why a finite-span validation model cannot be compared directly with a two-dimensional airfoil polar: exposed tips create vortices, downwash, reduced effective angle of attack, lower lift, and induced drag. (source: sources/fa1.md)
 
 ![Source figure](va10-fig5.jpg)
 Original caption: Fig. 5. Computational grid independency study [31]. [[va10|Source]]
