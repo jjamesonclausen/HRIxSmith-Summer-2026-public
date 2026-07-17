@@ -1,6 +1,111 @@
 #maintenance
 ## Log
 
+### 2026-07-17 - Read and synthesize indexed SimScale airfoil threads
+
+- Task: read every thread in [[SimScale Forum Airfoil Validation Threads]] and create useful wiki notes.
+- Actions:
+  - Read all twelve indexed threads: eight direct airfoil-study/comparison threads and four setup/debugging threads.
+  - Created [[SimScale Forum Airfoil Validation Notes]] and updated the thread index and [[index]].
+- Decisions:
+  - Preserved all takeaways as explicitly unverified forum observations because the threads do not form a controlled, complete, reproducible validation set.
+  - Extracted the reusable checks: match reference conditions and dimensionality, rotate force axes into lift/drag, configure coefficient controls, inspect generated first-layer height and `y+`, inspect realized refinement, separate endplate forces, and avoid treating unstable steady near-stall values as validated results.
+  - Did not promote project authors' reported accuracy or turbulence-model performance to general CFD guidance.
+- Open:
+  - A stronger SimScale airfoil-validation recipe should be built from an accessible documented benchmark with complete geometry, boundary conditions, mesh, force axes, convergence criteria, and published coefficient data.
+
+### 2026-07-17 - Index SimScale Forum airfoil-validation threads
+
+- Task: search the public SimScale Forum for airfoil-validation threads and link the relevant threads on one wiki page.
+- Actions:
+  - Queried the forum's public Discourse search API using airfoil, NACA, lift-coefficient, and external-aerodynamic `y+` terms.
+  - Created [[SimScale Forum Airfoil Validation Threads]] with eight direct airfoil-study threads and four setup/debugging threads.
+  - Updated [[index]].
+- Decisions:
+  - Kept the page as an explicitly unverified link index rather than treating forum snippets as controlled validation evidence.
+  - Included the hydrofoil thread as methodologically relevant but labeled its water-flow scope.
+- Open:
+  - The API returns search snapshots rather than a complete export, and two rapid queries were rate-limited. Broader coverage would require a paced, paginated crawl and a review of every candidate thread.
+
+### 2026-07-17 - Ingest ca38 Reynolds-number CFD primer
+
+- Task: ingest `sources/ca38.md` under the wiki schema.
+- Actions:
+  - Created [[Reynolds Number]] and updated [[CFD]], [[CFD and Validation]], and [[index]].
+  - Captured the Reynolds-number definition, transition influences, and source-scoped cylinder examples for CFD model-selection context.
+- Decisions:
+  - Kept pipe, flat-plate, and cylinder regime values explicitly non-transferable to airfoils and VAWTs without a matched benchmark.
+  - Did not embed the source's externally hosted images because no local `ca38` figure assets were provided.
+  - Did not modify the source metadata because `sources/` is immutable under the repository rules.
+- Open:
+  - For any target VAWT case, calculate blade-relative Reynolds-number variation through the rotation and select a transition/turbulence treatment against appropriate airfoil or rotor evidence.
+
+### 2026-07-17 - Ingest ca34 ANSYS Fluent airfoil tutorial
+
+- Task: ingest `sources/ca34.md` under the wiki schema.
+- Actions:
+  - Created [[ca34 ANSYS Fluent Airfoil Workflow]].
+  - Updated [[CFD]], [[CFD and Validation]], and [[index]] with the tutorial's setup sequence, `y+`-based near-wall-mesh advice, velocity-component angle-of-attack method, force monitoring, and validation direction.
+- Decisions:
+  - Treated `ca34` as workflow guidance only because it supplies neither a named airfoil benchmark nor numerical setup and comparison results sufficient for reproduction.
+  - Did not embed its externally hosted images because no local `ca34` figure assets were provided.
+  - Did not modify the source metadata because `sources/` is immutable under the repository rules.
+- Open:
+  - The source's author metadata contains an unresolved wikilink in the immutable source file. It should be corrected by the source owner if that link is intended to resolve.
+
+### 2026-07-17 - Convert and ingest ca36 boundary-layer airfoil design paper
+
+- Task: convert `attachments/PDFs/ca36_raw.pdf` to `sources/ca36.md`, extract all numbered figures, and ingest only directly related CFD and method evidence.
+- Actions:
+  - Converted the full 16-page paper with headings, displayed-equation images, tables, references, and all 16 numbered figure captions; rendered `images/ca36-fig1.jpg` through `images/ca36-fig16.jpg` from visible PDF regions and linked every caption from the source.
+  - Created [[MSES]] and [[ca36 Boundary-Layer-Informed Airfoil Design and Validation]]. Updated [[CFD]], [[CFD and Validation]], and [[index]].
+  - Marked `sources/ca36.md` processed after the source, image links, wiki pages, index, and this log entry were updated.
+- Decisions:
+  - Did not create a source summary because `ca36` is a non-VAWT CFD source; its reusable contribution is captured in the source-specific CFD note, consistent with the current CFD-source convention.
+  - Treated the source as a high-Re, transonic, two-dimensional airfoil-design and validation reference, not as direct VAWT performance evidence.
+- Open:
+  - The paper does not validate MSES or its `ncrit` assumptions for rotating blades, low-Re VAWT airfoils, deep dynamic stall, or three-dimensional rotor flow.
+
+### 2026-07-17 - Convert and ingest ca35 SC1095 RANS airfoil comparison
+
+- Task: convert `attachments/PDFs/ca35_raw.pdf` to `sources/ca35.md`, extract all numbered figures, and ingest the CFD-specific validation evidence.
+- Actions:
+  - Created `sources/ca35.md` with frontmatter, paper structure, tables, two equation images, references, and 16 in-order figure links.
+  - Rendered `images/ca35-fig1.jpg` through `images/ca35-fig16.jpg` from the visible PDF figure regions, plus `images/ca35-eq1.jpg` and `images/ca35-eq2.jpg` for the displayed equations.
+  - Created [[ca35 SC1095 RANS Airfoil Validation]] and updated [[CFD]], [[CFD and Validation]], [[SimScale VAWT Mesh and Quality]], and [[index]] with source-grounded mesh-refinement, wall-resolution, turbulence-model, and transition-modelling evidence.
+  - Marked `sources/ca35.md` processed after source, figures, wiki note, index, and log were complete.
+- Decisions:
+  - Did not create a source-summary page because `ca35` is a non-VAWT CFD source and the ingestion schema mandates source summaries only for identifiers beginning with `v`.
+  - Kept the source evidence explicitly scoped to a two-dimensional, high-Reynolds-number SC1095 rotorcraft-airfoil study; it is a validation-method reference, not a direct VAWT simulation recipe.
+- Open:
+  - The PDF scan contains minor OCR uncertainty in the two equation crops and historic typography; before reproducing the study, verify equations and any ambiguous reference typography against the PDF.
+
+### 2026-07-17 - Convert and ingest ca37 NACA 2412 airfoil CFD paper
+
+- Task: convert `attachments/PDFs/ca37_raw.pdf` into `sources/ca37.md`, extract every numbered figure, and ingest its useful CFD validation content.
+- Actions:
+  - Created `sources/ca37.md` as a complete Markdown transcription with seven rendered equation images and three rendered figure images.
+  - Created `wiki/CFD/ca37 NACA 2412 Airfoil Validation.md` and updated [[CFD]], [[CFD and Validation]], and [[index]].
+  - Marked `sources/ca37.md` processed after figure links, source-specific CFD note, index, and log updates were complete.
+- Decisions:
+  - Did not create a source summary because `ca37` is a non-VAWT CFD source and its reusable contribution is fully captured in the source-specific CFD note, consistent with the ingestion schema.
+  - Preserved the PDF's final caption as `Fig. 1` even though its preceding text refers to Fig. 3; the extracted asset is named `ca37-fig3.jpg` by its third visible figure order to avoid a filename collision.
+- Open:
+  - The paper omits solved `y+`, residual-convergence, and grid-independence evidence, so its claimed Spalart-Allmaras advantage should be checked against a matched benchmark before it is used to choose a VAWT CFD model.
+
+### 2026-07-17 - Verify and complete fa1 finite-wing source ingestion
+
+- Task: ingest the newly added `sources/fa1.md` under the wiki schema.
+- Actions:
+  - Confirmed the source was already marked processed and already grounded [[Finite Wing Aerodynamics]] and [[CFD and Validation]].
+  - Read the complete source and verified that no local `fa1` figure assets are available to embed.
+  - Added the ideal and non-elliptical finite-wing induced-drag relations, plus a clearly marked limit on applying this fixed-wing model directly to VAWT performance.
+  - Confirmed the index already links the finite-wing concept page and found no local Markdown links in the workspace.
+- Decisions:
+  - Did not create a source summary because `fa1` is not a VAWT source; the ingestion procedure only requires source-summary pages for identifiers beginning with `v`.
+- Open:
+  - The source supports a finite-wing correction and airfoil-validation warning, but not a quantitative correction for a rotating VAWT blade. Any such model needs VAWT-specific validation.
+
 ### 2026-07-16 - Add SimScale NACA0012 validation-case guidance as cj10
 
 - Task: capture the useful setup details from the public SimScale `NACA 0012 Airfoil at Mach 0.15` validation page in the wiki.

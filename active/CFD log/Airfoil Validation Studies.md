@@ -82,7 +82,7 @@ flop, forgot to set up results control before running
 
 # batch 2
 ***new project in simscale: 7.16 airfoil vals****
-## Run 1:  0018
+## Run 1:  0018, new CAD - NADA
 ### Set up
 Incompressible flow simulation, air
 - External flow volume: (\[-3, 8], \[-4, 4], \[-4, 4])
@@ -143,7 +143,7 @@ Mesh:
 **Cd:** 0.045
 
 
-## Run 3:  0018
+## Run 3:  0018, inc domain - NADA
 ### Set up
 Incompressible flow simulation, air
 - **External flow volume: (\[-10, 15], \[-8, 8], \[-8, 8])**
@@ -174,7 +174,7 @@ Mesh:
 **Cl:**
 **Cd:** 
 
-## Run 4:  0018
+## Run 4:  0018, 2D approx - ERR
 ### Set up
 Incompressible flow simulation, air
 - **External flow volume: (\[-10, 15], \[-8, 8], \[-0.25, 0.25])**
@@ -206,7 +206,7 @@ Mesh:
 **Cd:** 0.026
 
 
-## Run 5:  0018
+## Run 5:  0018, 2D approx - GOOD
 ### Set up
 Incompressible flow simulation, air
 - **External flow volume: (\[-10, 15], \[-8, 8], \[-0.25, 0.25])**
@@ -239,7 +239,7 @@ Mesh:
 
 \*\*run 6 was a duplicate of this, but with y+ analysis turned on. The max y+ was 18.61.
 
-## Run 7:  0018
+## Run 7:  0018, y+ - NADA
 ### Set up
 Incompressible flow simulation, air
 - **External flow volume: (\[-10, 15], \[-8, 8], \[-0.25, 0.25])**
@@ -270,3 +270,36 @@ Mesh:
 **Notes:** no improvement
 **Cl:** 0.583
 **Cd:** 0.052
+
+
+## Run 8:  0018, fineness - MIN
+### Set up
+Incompressible flow simulation, air
+- **External flow volume: (\[-10, 15], \[-8, 8], \[-0.25, 0.25])**
+- Turbulence: k-omega SST
+- Time dep: steady-state
+Boundary conditions
+- velocity inlet, Ux = 0.7645 m/s, turbulence: automatic
+- pressure outlet, gauge = 0 Pa
+- slip walls, top/bottom/sides
+- no slip wall, airfoil faces, turbulence: wall function
+Advanced concepts
+- Numerics: 1 non-orthogonal corrector
+- Simulation control
+	- end time: 1000s
+	- delta t: 1s
+	- write control, interval: timestep, 1000
+Result control:
+- forces and moment coefficients
+	- lift: +y, drag: +x
+	- U = 0.7645 m/s
+	- L = 1m
+	- **A = 0.5 m2**
+Mesh:
+- ![[Pasted image 20260716102707.png|203]]
+- **fineness: 8!**
+### Results
+**Notes:** slight decrease in lift, getting closer to good drag
+**Cl:** 0.515
+**Cd:** 0.041
+

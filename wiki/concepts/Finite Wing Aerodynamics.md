@@ -1,6 +1,6 @@
 ---
 Created: 2026-07-16
-Updated: 2026-07-16
+Updated: 2026-07-17
 Sources:
   - "[[fa1]]"
 Source_count: 1
@@ -16,6 +16,14 @@ A finite wing has physical spanwise ends, so its aerodynamic behavior differs fr
 - The rearward tilt of the lift vector adds induced drag. (source: sources/fa1.md)
 - The source defines wing aspect ratio as `AR = span^2 / planform area`; a larger aspect ratio reduces the influence of tip vortices over most of the wing. (source: sources/fa1.md)
 - Finite-wing lift and drag coefficients use planform area as the reference area, not wetted surface area. (source: sources/fa1.md)
+
+## Preliminary relations
+
+For an ideally elliptically loaded wing, the induced angle of attack and induced-drag coefficient are `alpha_i = C_L / (pi AR)` and `C_Di = C_L^2 / (pi AR)`, respectively. (source: sources/fa1.md)
+
+For a non-elliptical spanwise lift distribution, the source gives `C_Di = (1 + delta) C_L^2 / (pi AR)`, where `delta >= 0` is a span-loading correction factor; elliptical loading has `delta = 0` and gives the minimum induced drag for specified lift, span, and dynamic pressure. (source: sources/fa1.md)
+
+> Inference: these finite-wing relations provide a first reminder that VAWT blade tips produce three-dimensional losses, but they are not a complete VAWT performance model. A rotating VAWT blade has time-varying relative flow, dynamic stall, and blade-wake interaction that this fixed-wing treatment does not represent.
 
 ## Airfoil-validation implication
 

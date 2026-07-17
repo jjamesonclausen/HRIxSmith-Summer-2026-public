@@ -23,6 +23,11 @@ The map of this knowledge base. The agent keeps this current: every page it crea
 - [[cj8 SimScale Forum Troubleshooting Notes]]
 - [[cj9 NACA0018 Low-Re Validation Data]]
 - [[cj10 SimScale NACA0012 High-Re Validation]]
+- [[SimScale Forum Airfoil Validation Threads]]
+- [[SimScale Forum Airfoil Validation Notes]]
+- [[ca34 ANSYS Fluent Airfoil Workflow]]
+- [[ca37 NACA 2412 Airfoil Validation]]
+- [[ca36 Boundary-Layer-Informed Airfoil Design and Validation]]
 
 ## Source summaries
 
@@ -133,6 +138,7 @@ _Concept and entity pages live in [`concepts/`](concepts/)._
 - [[Work Plan A1|Work Plan A1]]
 - [[Work Plan A2|Work Plan A2]]
 - [[Rules of Thumb]]
+- [[Reynolds Number]]
 - [[H-VAWT]]
 - [[H-rotor Wake Aerodynamics]]
 - [[Helical Darrieus]]
@@ -354,6 +360,7 @@ _Procedure and technique pages live in [`methods/`](methods/)._
 - [[WebPlotDigitizer]]
 - [[Wind Tunnel Testing]]
 - [[XFOIL]]
+- [[MSES]]
 - [[Box-Behnken Design]]
 
 ## CFD Learning Notes
@@ -368,6 +375,7 @@ _SimScale setup and VAWT-CFD learning notes live in `wiki/CFD/`._
 - [[SimScale VAWT Results and Comparison]]
 - [[va30 Savonius Wind-Tunnel Benchmark]]
 - [[ca33 ANSYS Airfoil Validation Workflow]]
+- [[ca35 SC1095 RANS Airfoil Validation]]
 
 ---
 

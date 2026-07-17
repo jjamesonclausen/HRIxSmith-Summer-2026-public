@@ -8,7 +8,8 @@ Sources:
   - "[[ca22]]"
   - "[[cj8]]"
   - "[[cj10]]"
-Source_count: 6
+  - "[[ca35]]"
+Source_count: 7
 tags:
   - cfd
 ---
@@ -48,6 +49,7 @@ Figure: Visual aid distinguishing orthogonality from skewness. User-provided ima
 - Use the Mesh Quality viewer and Isovolume to locate poor cells, then address the CAD or mesh settings causing them. (source: sources/ca22.md)
 - The forum troubleshooting note adds a practical drag-focused check: inspect the `y+` field and deliberately choose either about `y+ ~ 1` for direct near-wall resolution or a log-law wall-function regime around `30 < y+ < 300`. (source: sources/cj8.md)
 - The `cj10` validation case reinforces the direct-resolution option by explicitly targeting `y+ ~ 1` and using full near-wall resolution with `k-omega SST`. (source: sources/cj10.md)
+- The SC1095 multi-code comparison adds that the relevant first off-wall spacing is model- and code-dependent: it must meet the selected turbulence model's recommended `y+` range, and inadequate surface/near-wall resolution warrants a refinement study. (source: sources/ca35.md)
 
 ## What to compare
 

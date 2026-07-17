@@ -1,6 +1,6 @@
 ---
 Created: 2026-06-25
-Updated: 2026-07-15
+Updated: 2026-07-17
 Sources:
   - "[[n1]]"
   - "[[HRI2526]]"
@@ -34,7 +34,12 @@ Sources:
   - "[[cj7]]"
   - "[[va29]]"
   - "[[ca33]]"
-Source_count: 32
+  - "[[ca34]]"
+  - "[[ca38]]"
+  - "[[ca37]]"
+  - "[[ca35]]"
+  - "[[ca36]]"
+Source_count: 37
 tags:
   - methods
 ---
@@ -118,6 +123,15 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 - The source compares its CFD model with separate experimental integral-power and local-pressure datasets, but the globally optimized configurations themselves are not experimentally tested. (source: sources/va29.md)
 - The `ca33` airfoil tutorial demonstrates a 2D steady SST `k-omega` workflow with a C-type outer domain, structured quadrilateral mesh, velocity inlet, pressure outlet, slip far boundaries, and no-slip airfoil wall. (source: sources/ca33.md)
 - For nonzero angle of attack, it resolves both the inlet velocity and coefficient force directions into freestream-aligned drag and normal lift vectors, then checks solved wall `y+`, residuals, and coefficient histories before comparing against same-condition reference data. (source: sources/ca33.md)
+- The `ca35` multi-code SC1095 comparison adds that a coarse grid can create false early separation, that first off-wall spacing must meet the selected turbulence model's recommended `y+` range, and that grid refinement is needed before trusting a CFD result. (source: sources/ca35.md)
+- Its fully turbulent calculations generally under-predicted maximum `L/D` against mostly untripped tests; the authors state that moderate-Re airfoils with laminar flow require transition modelling for accurate drag and `L/D`. (source: sources/ca35.md)
+- The `ca37` NACA 2412 study uses a steady `2D` RANS comparison at `Re = 4.4 x 10^5` across `0-16 degrees` angle of attack, with a `10C` C-type domain, a reported `70,000-80,000`-cell mesh, SIMPLE coupling, and first-order upwind discretisation. (source: sources/ca37.md)
+- It compares Spalart-Allmaras, realizable `k-epsilon`, and `k-omega SST`, but does not report convergence criteria, solved `y+`, or grid independence; its reported Spalart-Allmaras result is therefore a case-specific validation outcome, not a general model-selection rule. (source: sources/ca37.md)
+- The `ca36` study uses a MATLAB integral-boundary-layer solver to screen pressure distributions, followed by viscous-coupled MSES inverse design and wind-tunnel pressure/wake measurements; it demonstrates a validation sequence for an airfoil design workflow rather than a full Navier-Stokes CFD setup. (source: sources/ca36.md)
+- Its experimental comparison shows why transition assumptions need verification: the nominal `ncrit = 9` MSES setup did not reproduce all free-transition behavior, while `ncrit = 3.05` better matched the tunnel pressure distribution under its inferred turbulence conditions. (source: sources/ca36.md)
+- The `ca34` tutorial outlines an ANSYS Fluent sectional-airfoil workflow: external-domain construction, near-wall mesh refinement and `y+`-based first-cell sizing, a pressure-based steady solver, component-based inlet angle of attack, force monitors, and residual/force-history checks. (source: sources/ca34.md)
+- Its recommendation of `k-omega SST` or GEKO for airfoil separation is tutorial guidance, not a reported benchmark result; the tutorial does not provide enough case data to select a turbulence model for a VAWT. (source: sources/ca34.md)
+- The `ca38` Reynolds-number primer recommends calculating `Re` before CFD to assess the relative importance of inertial and viscous effects and whether transition treatment is likely to matter. Its cylinder examples show that transition-model choices can change separation, wake, lift, and drag predictions in transitional regimes. (source: sources/ca38.md)
 
 ## Figures
 

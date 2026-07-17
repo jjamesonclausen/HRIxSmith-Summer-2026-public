@@ -360,13 +360,29 @@
 ### Thursday 07/16
 
 `09:00` met w/ Mike + Julie to get started (0.5 hr)
-`09:30` troubleshooting airfoil studies (3 hrs)
-	- re-drew airfoil in fusion to improve smoothness, did not improve results
-	- repeated identical study on naca 0012, 
-`13:00` 
+`09:30` troubleshooting airfoil studies, see CFD log (3 hrs)
+`13:00` more troubleshooting airfoil studies, see CFD log (4.25 hrs)
+	- re-drew airfoil in fusion, no change
+	- tried 0012, no change
+	- increased comp domain, no change
+	- approximated 2D by shortening comp dom in z direction, big lift improvement
+		- learned about tip vortices
+	- learned about y+, started tracking it, changed first layer thickness to get y+ = 1, no change
+	- increased fineness to 8, drag got slightly better, lift slightly worse
+*Sometimes it seems like generic AI like gemini gives more helpful troubleshooting advice... probably because it is pulling from the entire internet and is therefore able to find info that is more relevant to the specific issue. But, obviously, it isn't very trustworthy, which is where our LLM wiki is far superior... but it really needs more sources.*
+### Friday 07/17
+
+`09:00` met w/ Mike to get started (0.5 hr)
+`09:30` airfoil troubleshooting
+	- looking into the following:
+		- ~~air temperature / conditions?~~ Re normalizes for v, U, A already
+		- turbulence model, and amount?
+			- airfoil cutoff for laminar vs turbulent flow
+	- added more sources about airfoil fluid dynamics and cfd
+	- had the LLM select relevant threads from the SimScale forum and ingest them
 
 ---
-Hours: -13.50
+Hours: -13.25
 
 **Mtg notes 7/14:**
 	- CFD validation studies! airfoil and simple vawt??
@@ -384,26 +400,6 @@ Hours: -13.50
 **Misc:**
 	- add shorter time interval data to investigate wind direction fluctuations 
 	- start learning how to use simscale to determine what testing we think we can do to inform parameter choices/experimental design
-
-### Tuesday 07/14
-
-`09:00` met w/ Mike + Julie to get started (0.5 hr)
-### Wednesday 07/15
-
-`09:00` met w/ Mike + Julie to get started (0.5 hr)
-
-
-*focus this week: how can we use AI tools to help us learn how to do CFD?*
-### Thursday 07/16
-
-`09:00` met w/ Mike + Julie to get started (0.5 hr)
-### Friday 07/17
-
-`09:00` met w/ Mike + Julie to get started (0.5 hr)
-
-
-
-
 
 
 next Tuesday 07/21 only ryan will be available for our meeting, if we don't have questions for him we can cancel and catch everybody up the following week. Note that rajeev will have missed two weeks by then!

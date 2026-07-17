@@ -1,6 +1,6 @@
 ---
 Created: 2026-07-01
-Updated: 2026-07-16
+Updated: 2026-07-17
 Sources:
   - "[[va10]]"
   - "[[vj5]]"
@@ -31,8 +31,13 @@ Sources:
   - "[[cj9]]"
   - "[[cj10]]"
   - "[[ca33]]"
+  - "[[ca34]]"
+  - "[[ca38]]"
   - "[[fa1]]"
-Source_count: 30
+  - "[[ca37]]"
+  - "[[ca35]]"
+  - "[[ca36]]"
+Source_count: 35
 tags:
   - concepts
 ---
@@ -113,7 +118,19 @@ It also makes explicit that a stable, accurate-looking validation case can still
 The `ca33` airfoil tutorial provides a sectional-airfoil validation sequence: match airfoil, Reynolds number, and angle of attack; use freestream-aligned coefficient axes; inspect convergence and solved wall `y+`; then compare lift and drag with the matching published coefficient data. (source: sources/ca33.md)
 Its worked result is at `Re = 6 x 10^6` for a NACA 4415 in 2D, so it is not direct validation evidence for a three-dimensional NACA 0018 case at `Re = 50,000`. (source: sources/ca33.md)
 
+The `ca37` NACA 2412 study compares three steady `2D` RANS models against selected experimental data at `Re = 4.4 x 10^5` over `0-16 degrees` angle of attack, reporting Spalart-Allmaras as its lowest-error model. (source: sources/ca37.md)
+Its stated least error is `6.04%`, but it does not report a grid-independence study, solved `y+`, residual convergence, or its full validation dataset; the result supports a case-specific comparison rather than a transferable turbulence-model choice. (source: sources/ca37.md)
+
+The `ca36` airfoil study adds a boundary-layer/inverse-design validation lesson: compare the measured pressure distribution and wake-derived drag at matched Mach, Reynolds, lift, and transition/turbulence conditions rather than accepting a converged MSES result alone. (source: sources/ca36.md)
+It also reports that the tunnel's higher inferred turbulence required a lower transition amplification factor (`ncrit = 3.05` rather than the design assumption of `9`) for closer pressure-distribution agreement. (source: sources/ca36.md)
+
 The `fa1` finite-wing reference explains why a finite-span validation model cannot be compared directly with a two-dimensional airfoil polar: exposed tips create vortices, downwash, reduced effective angle of attack, lower lift, and induced drag. (source: sources/fa1.md)
+
+The `ca35` SC1095 multi-code comparison demonstrates a specific validation failure mode: coarse grids in two independently checked calculations predicted early separation that disappeared on refinement. Its authors also found that fully turbulent calculations can substantially under-predict `L/D` against mostly untripped wind-tunnel data when boundary-layer transition is not modelled. (source: sources/ca35.md)
+
+The `ca34` Fluent tutorial contributes a basic workflow only: apply near-wall refinement based on `y+`, resolve angle of attack through inlet-velocity components, monitor forces as well as residuals, and compare the final coefficients with source-matched experimental data. It does not supply a named validation case or quantitative agreement, so it is not validation evidence by itself. (source: sources/ca34.md)
+
+The `ca38` primer reinforces a pre-processing check: calculate Reynolds number before selecting a CFD treatment. It uses cylinder examples to show that a fully laminar or fully turbulent assumption can misplace separation and distort force prediction in transition-sensitive flow; those numerical examples are not airfoil or VAWT thresholds. (source: sources/ca38.md)
 
 ![Source figure](va10-fig5.jpg)
 Original caption: Fig. 5. Computational grid independency study [31]. [[va10|Source]]
