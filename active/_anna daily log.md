@@ -373,24 +373,28 @@
 ### Friday 07/17
 
 `09:00` met w/ Mike to get started (0.5 hr)
-`09:30` airfoil troubleshooting
-	- looking into the following:
+`09:30` airfoil troubleshooting (7.2 hrs)
+	- looking into the following, see [[Airfoil Validation Studies]] for all study details
 		- ~~air temperature / conditions?~~ Re normalizes for v, U, A already
 		- turbulence model, and intensity?
 			- when/where does airfoil transition from laminar to turbulent flow
 	- added more sources about airfoil fluid dynamics and cfd
 		- *helped get better advice w more specific low Re airfoil info, plus some 0018 studies*
 	- had the LLM select relevant threads from the SimScale forum and ingest them
+		- *didn't really give me anything particularly enlightening but I think that was just bc of the content of the forum threads not the LLM*
+	- tried [magic prompt](https://www.verbalized-sampling.com/) to get more diverse results... *it thought and generated some info but never actually responded...*
+*In general the LLM advice was very repetitive and it wasn't super awesome at keeping track of what changes I had made during each sim run which was a little annoying. With better sources it did have some useful insights and generally made the process feel more informed since I don't know that much about CFD or simscale. Overall a good resource.*
+	- conclusion today was that I seem to have landed on a pretty good simulation set up and my CAD airfoils are good (*yay for LLM being able to analyze .step files!*)
 
 ---
-Hours: -13.25
+Hours: -13.00
 
 **Mtg notes 7/14:**
 	- CFD validation studies! airfoil and simple vawt??
 	- build out wiki for CFD and CAD help
 		- include example simulations and drawings and the settings and prompts that created them, maybe also tutorials etc
 	- LLM prompt improvements
-		- try [magic prompt](https://www.verbalized-sampling.com/) to get more diverse results
+		- 
 		- define abstractions, give examples
 		- ask for visual decision analysis matrix to justify decisions
 	- consider asking LLM to break down tasks between two people and the LLM

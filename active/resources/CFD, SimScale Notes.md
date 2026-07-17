@@ -70,7 +70,7 @@
 		- wall modeling fucntions approximate near wall behavior
 			- lower cost bc dont need fine mesh near wall
 			- less accurate
-			- 30 < y+ < 300
+			- y+ <= 1, or 30 < y+ < 300
 			- can be used for k epsilon turbulence models that are fine with coarser near wall meshes
 - rotation simulation
 	- Multiple Reference Frames (MRF)
@@ -182,6 +182,7 @@ before CAD and CFD, identify the following:
 		- 0–5 for direct near-wall resolution
 		- 5–30 to reveal the undesirable intermediate regime
 		- 30–300 for wall-function operation
+		- new first-layer thickness = old thickness \ (target y+ / measured y+)
 	- particle trances
 	- rotational view
 - residuals

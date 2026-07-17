@@ -1,6 +1,19 @@
 #maintenance
 ## Log
 
+### 2026-07-17 - Document NACA airfoil control-case conclusion
+
+- Task: append the current NACA 0018 airfoil-validation conclusion to `active/CFD log/Airfoil Validation Studies.md`, including the NACA 0012 control result and direct STEP-file comparison.
+- Actions:
+  - Recorded Run 15's rounded NACA 0012 control result of `Cl = 0.614` and `Cd = 0.028` under the same key setup used for the rounded NACA 0018 case.
+  - Inspected `naca0012_1m.step`, `naca0018_1m.step`, and their rounded variants. Recorded opposite zero-AoA export directions, approximately `1 m` chord, nominal `12%` and `18%` thicknesses, matching rounded-model topology, and the original `1 m` extrusion span.
+  - Recorded the user's clarification that the `0.5 m` external-flow volume is formed by subtracting the body, making the `0.5 m2` reference area correct for the wetted CFD section.
+- Decisions:
+  - Preserved the earlier LLM advice and appended a separate conclusion rather than rewriting prior study history.
+  - Concluded that the shared setup and detectable STEP geometry do not explain the NACA 0018 AirfoilTools discrepancy; the case should be reported with its reference discrepancy rather than tuned toward the target.
+- Open:
+  - The rounded trailing edge prevents strict comparison with an ideal sharp NACA 0018, and the exact AirfoilTools transition assumptions remain unavailable.
+
 ### 2026-07-17 - Convert and ingest ca39 NACA 0018 flow-control CFD report
 
 - Task: convert `attachments/PDFs/ca39_raw.pdf` to `sources/ca39.md`, render every numbered figure and equation, and ingest directly supported reusable CFD material.
