@@ -303,3 +303,64 @@ Mesh:
 **Cl:** 0.515
 **Cd:** 0.041
 
+## Run 9:  0018, turb intensity - ERR
+### Set up
+Incompressible flow simulation, air
+- **External flow volume: (\[-10, 15], \[-8, 8], \[-0.25, 0.25])**
+- Turbulence: k-omega SST
+- Time dep: steady-state
+Boundary conditions
+- velocity inlet, Ux = 0.7645 m/s, **turbulence: intensity = 0.001**
+- pressure outlet, gauge = 0 Pa
+- slip walls, top/bottom/sides
+- no slip wall, airfoil faces, turbulence: wall function
+Advanced concepts
+- Numerics: 1 non-orthogonal corrector
+- Simulation control
+	- end time: 1000s
+	- delta t: 1s
+	- write control, interval: timestep, 1000
+Result control:
+- forces and moment coefficients
+	- lift: +y, drag: +x
+	- U = 0.7645 m/s
+	- L = 1m
+	- **A = 0.5 m2**
+Mesh:
+- ![[Pasted image 20260716102707.png|203]]
+### Results
+**Notes:** hmm, i seem to have lost the improved mesh settings bc y+ went up to 18 again, and this time the Cl line was oscillating at the end which is new
+![[Pasted image 20260717113550.png]]
+**Cl:** 0.
+**Cd:** 0.0
+
+## Run 10:  0018, turb intensity + mesh - 
+### Set up
+Incompressible flow simulation, air
+- **External flow volume: (\[-10, 15], \[-8, 8], \[-0.25, 0.25])**
+- Turbulence: k-omega SST
+- Time dep: steady-state
+Boundary conditions
+- velocity inlet, Ux = 0.7645 m/s, **turbulence: intensity = 0.001**
+- pressure outlet, gauge = 0 Pa
+- slip walls, top/bottom/sides
+- no slip wall, airfoil faces, turbulence: wall function
+Advanced concepts
+- Numerics: 1 non-orthogonal corrector
+- Simulation control
+	- end time: 1000s
+	- delta t: 1s
+	- write control, interval: timestep, 1000
+Result control:
+- forces and moment coefficients
+	- lift: +y, drag: +x
+	- U = 0.7645 m/s
+	- L = 1m
+	- **A = 0.5 m2**
+**Mesh:**
+- ![[Pasted image 20260717113826.png|234]]
+- inflate boundary layer, growth rate = 1.15
+### Results
+**Notes:** basically no change, although the y+ was still up to 20 ish which is not good
+**Cl:** 0.570
+**Cd:** 0.051

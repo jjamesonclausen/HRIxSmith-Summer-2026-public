@@ -1,6 +1,19 @@
 #maintenance
 ## Log
 
+### 2026-07-17 - Convert and ingest ca39 NACA 0018 flow-control CFD report
+
+- Task: convert `attachments/PDFs/ca39_raw.pdf` to `sources/ca39.md`, render every numbered figure and equation, and ingest directly supported reusable CFD material.
+- Actions:
+  - Converted the full 39-page NASA technical memorandum, retaining report metadata, text structure, references, report-documentation page, two equation images, and all 25 numbered figure captions linked in source order.
+  - Rendered and visually checked `images/ca39-fig1.jpg` through `images/ca39-fig25.jpg`, plus `images/ca39-eq1.jpg` and `images/ca39-eq2.jpg`.
+  - Created [[ca39 NACA 0018 Flow-Control CFD Limits]] and updated [[CFD]], [[CFD and Validation]], and [[index]]. Marked `sources/ca39.md` processed after those updates.
+- Decisions:
+  - Kept turbulence, transition, wall, mesh, separation, and time-accurate findings explicitly limited to the report's `Re_c = 250,000` NACA 0018 slot-blowing wind-tunnel case.
+  - Did not create a summary because `ca39` is a CFD source, and did not use it to make model-selection claims or validate the separate `Re = 50,000` case.
+- Open:
+  - A target case requires its own matched Reynolds number, transition inputs, confinement/domain treatment, dimensionality, mesh, and experimental comparison before these observations can be transferred.
+
 ### 2026-07-17 - Read and synthesize indexed SimScale airfoil threads
 
 - Task: read every thread in [[SimScale Forum Airfoil Validation Threads]] and create useful wiki notes.

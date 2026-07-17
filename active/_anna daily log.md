@@ -376,9 +376,10 @@
 `09:30` airfoil troubleshooting
 	- looking into the following:
 		- ~~air temperature / conditions?~~ Re normalizes for v, U, A already
-		- turbulence model, and amount?
-			- airfoil cutoff for laminar vs turbulent flow
+		- turbulence model, and intensity?
+			- when/where does airfoil transition from laminar to turbulent flow
 	- added more sources about airfoil fluid dynamics and cfd
+		- *helped get better advice w more specific low Re airfoil info, plus some 0018 studies*
 	- had the LLM select relevant threads from the SimScale forum and ingest them
 
 ---

@@ -39,7 +39,8 @@ Sources:
   - "[[ca37]]"
   - "[[ca35]]"
   - "[[ca36]]"
-Source_count: 37
+  - "[[ca39]]"
+Source_count: 38
 tags:
   - methods
 ---
@@ -132,6 +133,7 @@ Numerical method for simulating fluid flow by dividing the domain into discrete 
 - The `ca34` tutorial outlines an ANSYS Fluent sectional-airfoil workflow: external-domain construction, near-wall mesh refinement and `y+`-based first-cell sizing, a pressure-based steady solver, component-based inlet angle of attack, force monitors, and residual/force-history checks. (source: sources/ca34.md)
 - Its recommendation of `k-omega SST` or GEKO for airfoil separation is tutorial guidance, not a reported benchmark result; the tutorial does not provide enough case data to select a turbulence model for a VAWT. (source: sources/ca34.md)
 - The `ca38` Reynolds-number primer recommends calculating `Re` before CFD to assess the relative importance of inertial and viscous effects and whether transition treatment is likely to matter. Its cylinder examples show that transition-model choices can change separation, wake, lift, and drag predictions in transitional regimes. (source: sources/ca38.md)
+- In the `ca39` NACA 0018 blowing-slot tunnel case at `Re_c = 250,000`, fully turbulent SA and SST gave useful qualitative trends, while the tested `gamma-Re_theta` transition model and forced-transition study did not reproduce the observed nonlinear lift behavior. This is a case-specific result, not a general turbulence-model selection rule. (source: sources/ca39.md)
 
 ## Figures
 

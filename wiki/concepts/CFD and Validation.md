@@ -37,7 +37,8 @@ Sources:
   - "[[ca37]]"
   - "[[ca35]]"
   - "[[ca36]]"
-Source_count: 35
+  - "[[ca39]]"
+Source_count: 36
 tags:
   - concepts
 ---
@@ -131,6 +132,10 @@ The `ca35` SC1095 multi-code comparison demonstrates a specific validation failu
 The `ca34` Fluent tutorial contributes a basic workflow only: apply near-wall refinement based on `y+`, resolve angle of attack through inlet-velocity components, monitor forces as well as residuals, and compare the final coefficients with source-matched experimental data. It does not supply a named validation case or quantitative agreement, so it is not validation evidence by itself. (source: sources/ca34.md)
 
 The `ca38` primer reinforces a pre-processing check: calculate Reynolds number before selecting a CFD treatment. It uses cylinder examples to show that a fully laminar or fully turbulent assumption can misplace separation and distort force prediction in transition-sensitive flow; those numerical examples are not airfoil or VAWT thresholds. (source: sources/ca38.md)
+
+The `ca39` NACA 0018 blowing-slot experiment at `Re_c = 250,000` shows a matched-tunnel validation requirement: including the experiment's close inviscid upper and lower walls improved CFD lift and pressure agreement relative to free-air grids. Its limited three-dimensional results also showed side-wall effects reaching the nominally two-dimensional center region, so its two-dimensional results support qualitative trends only, especially at high angle of attack. (source: sources/ca39.md)
+
+For this source's strongly separated cases, steady RANS solutions oscillated or did not converge; time-accurate RANS reduced oscillation but did not make stalled pressure distributions accurate. This is evidence for this NACA 0018 slot-blowing tunnel configuration, not direct validation or a model-selection result for a `Re = 50,000` NACA 0018 case. (source: sources/ca39.md)
 
 ![Source figure](va10-fig5.jpg)
 Original caption: Fig. 5. Computational grid independency study [31]. [[va10|Source]]
