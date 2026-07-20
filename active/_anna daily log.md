@@ -382,9 +382,21 @@
 		- *helped get better advice w more specific low Re airfoil info, plus some 0018 studies*
 	- had the LLM select relevant threads from the SimScale forum and ingest them
 		- *didn't really give me anything particularly enlightening but I think that was just bc of the content of the forum threads not the LLM*
-	- tried [magic prompt](https://www.verbalized-sampling.com/) to get more diverse results... *it thought and generated some info but never actually responded...*
-*In general the LLM advice was very repetitive and it wasn't super awesome at keeping track of what changes I had made during each sim run which was a little annoying. With better sources it did have some useful insights and generally made the process feel more informed since I don't know that much about CFD or simscale. Overall a good resource.*
-	- conclusion today was that I seem to have landed on a pretty good simulation set up and my CAD airfoils are good (*yay for LLM being able to analyze .step files!*)
+	- tried [magic prompt](https://www.verbalized-sampling.com/) to get more diverse results... *it thought and generated some info but never actually responded...should try again*
+*In general the LLM advice was very repetitive and it wasn't super awesome at keeping track of what changes I had made during each sim run which was a little annoying. With better sources it did have some useful insights and generally made the process feel more informed since I don't know that much about CFD or simscale.*
+	- conclusion today was that I seem to have landed on a pretty good simulation set up? and my CAD airfoils are good (*yay for LLM being able to analyze .step files!*) but still need to confirm bc the 0018 failure is strange
+## Week 05
+### Monday 07/20
+
+`09:00` met w/ Mike + Julie to get started (0.5 hr)
+`09:30` airfoil troubleshooting ( hrs)
+	- try a third airfoil with the current settings to confirm or reject
+	- try higher Re to make k-omega SST more accurate
+	- try 0018 in COMSOL (see if the issue is simscale)
+	- check simscale forum manually to see if there is something useful, if 
+	- try fusion AI capability to compare with zookeeper
+	- get CAD model CFD-ready
+
 
 ---
 Hours: -13.00

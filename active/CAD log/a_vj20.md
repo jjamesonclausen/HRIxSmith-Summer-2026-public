@@ -94,14 +94,15 @@ This note has my llm wiki and zookeeper work for recreating the  `vj20` proposed
 - If Zookeeper has trouble with tiny scaled-down wall thicknesses, prioritize preserving the outer geometry and increase only the inferred support thicknesses.
 - If a cleaner visual model is preferred, the hubs can be simplified to flat circular plates and the struts to plain rectangular beams without changing the source-backed rotor geometry.
 
-## Modeling notes
+### Modeling notes
 
 - Figure `1` is the best source for the conceptual layout and the idea of outer symmetric plus inner asymmetric blades. (source: sources/vj20.md)
 - Figure `2` is the best source for the CAD-like appearance of the scaled-down arrangement. (source: sources/vj20.md)
 - Figure `3` is useful only as a rough test-fixture sanity check, not as a geometric source for the final turbine. (source: sources/vj20.md)
 - The source later compares rough and smooth blade surfaces, but explicitly says smoothing caused negligible dimensional or profile change, so surface roughness should not become a geometry change in the main CAD. (source: sources/vj20.md)
 
-## Detailed Zookeeper Prompt
+# Zookeeper
+## Detailed Prompt
 \***fairly significantly shortened by Anna
 
 ```text
@@ -230,7 +231,7 @@ Confirm before finalizing that:
 
 ![[Pasted image 20260710115544.png|323]]![[Pasted image 20260710115517.png|291]]
 
-## Short Production-Ready Zookeeper Prompt
+## Short Production-Ready Prompt
 
 ```prompt
 Model the proposed hybrid VAWT as a parameterized concentric dual-H-rotor CAD assembly based only on given geometry. Use one shared vertical shaft, three outer straight `NACA0018` blades, and three inner straight `DU 06-W-200` blades. The inner rotor must be phase-shifted `60 deg` from the outer rotor, and each rotor's three blades must be spaced `120 deg` apart.
@@ -629,3 +630,94 @@ The small blocks are gone but now the top strut for one of the inner blades is m
 
 *not fixed, also the inner blade brackets seem to be messed up*
 ![[Pasted image 20260710140714.png|306]]![[Pasted image 20260710142409.png|372]]
+
+
+
+# Fusion
+## Short Production-Ready Prompt
+
+```prompt
+Model the proposed hybrid VAWT as a parameterized concentric dual-H-rotor CAD assembly based only on given geometry. Use one shared vertical shaft, three outer straight `NACA0018` blades, and three inner straight `DU 06-W-200` blades. The inner rotor must be phase-shifted `60 deg` from the outer rotor, and each rotor's three blades must be spaced `120 deg` apart.
+
+Build the full-scale configuration first with these exact values:
+- outer rotor diameter `3.854 m`, height `3.120 m`, chord `0.546 m`, pitch `-2.82 deg`
+- inner rotor diameter `1.578 m`, height `1.605 m`, chord `0.547 m`, pitch `-3.41 deg`
+
+Then create a scaled-down configuration with these exact values:
+- outer rotor diameter `0.35 m`, height `0.283 m`, chord `0.0496 m`, pitch `-2.82 deg`
+- inner rotor diameter `0.143 m`, height `0.146 m`, chord `0.0497 m`, pitch `-3.41 deg`
+
+Rules:
+- use true `NACA0018` and `DU 06-W-200` airfoil sections
+- blades must be straight, constant-chord, and vertically extruded
+- do not add a Savonius rotor, helicity, taper, variable pitch, shrouds, or guide vanes
+- infer shaft, hub, strut, bearing, and generator-mount dimensions conservatively and label them clearly as inferred
+- do not let inferred hardware change any source-stated rotor geometry
+
+Deliver:
+- full-scale CAD assembly
+- scaled-down CAD configuration
+- top view, front view, isometric render
+- short assumptions list
+- parameter table separating source-backed dimensions from inferred ones
+```
+### Results:
+
+> [!NOTE]- Response (4 min)
+> All three views captured. Here is the complete deliverable.
+> ## Hybrid VAWT — Concentric Dual-H-Rotor CAD Assembly
+> 
+> The model is built and live in your Fusion document (`VAWT_Dual_H_Rotor_Assembly`), containing two sub-components: **FullScale** and **ScaledDown** (offset 6 m apart for clarity).
+> ### Views
+> 
+> **Top View** — 6-blade azimuthal layout clearly showing the 60° inner/outer phase offset and 120° blade spacing
+> 
+> **Front View** — both configurations side by side; height difference between outer (taller) and inner rotor visible; shaft protrudes above and below both rotors
+> 
+> **Isometric View** — full-scale assembly showing the concentric dual-H-rotor layout with struts, hub disks, and shaft
+> ### Parameter Table
+> |Parameter|Value|Config|Status|
+> |---|---|---|---|
+> |Outer rotor diameter|**3.854 m**|Full-scale|✅ SOURCE|
+> |Outer blade height|**3.120 m**|Full-scale|✅ SOURCE|
+> |Outer chord|**0.546 m**|Full-scale|✅ SOURCE|
+> |Outer pitch|**−2.82°**|Full-scale|✅ SOURCE|
+> |Inner rotor diameter|**1.578 m**|Full-scale|✅ SOURCE|
+> |Inner blade height|**1.605 m**|Full-scale|✅ SOURCE|
+> |Inner chord|**0.547 m**|Full-scale|✅ SOURCE|
+> |Inner pitch|**−3.41°**|Full-scale|✅ SOURCE|
+> |Outer rotor diameter|**0.35 m**|Scaled-down|✅ SOURCE|
+> |Outer blade height|**0.283 m**|Scaled-down|✅ SOURCE|
+> |Outer chord|**0.0496 m**|Scaled-down|✅ SOURCE|
+> |Outer pitch|**−2.82°**|Scaled-down|✅ SOURCE|
+> |Inner rotor diameter|**0.143 m**|Scaled-down|✅ SOURCE|
+> |Inner blade height|**0.146 m**|Scaled-down|✅ SOURCE|
+> |Inner chord|**0.0497 m**|Scaled-down|✅ SOURCE|
+> |Inner pitch|**−3.41°**|Scaled-down|✅ SOURCE|
+> |Shaft diameter|**120 mm** (FS) / **12 mm** (SD)|Both|⚠️ INFERRED|
+> |Total shaft height|**4.50 m** (FS) / **0.42 m** (SD)|Both|⚠️ INFERRED|
+> |Hub disk diameter|**200 mm** (FS) / **20 mm** (SD)|Both|⚠️ INFERRED|
+> |Hub disk thickness|**50 mm** (FS) / **5 mm** (SD)|Both|⚠️ INFERRED|
+> |Strut width|**60 mm** (FS) / **6 mm** (SD)|Both|⚠️ INFERRED|
+> |Strut thickness|**30 mm** (FS) / **3 mm** (SD)|Both|⚠️ INFERRED|
+> 
+> All 16 source-backed rotor dimensions are exact. All 6 hardware groups are clearly labelled `INFERRED` in user parameters.
+> 
+> ### Assumptions List
+> 
+> 1. **Airfoil sections** — NACA 0018 implemented via the standard 4-digit thickness formula (`t = 0.18`); DU 06-W-200 implemented via a polynomial thickness distribution fitted to the published ~20% symmetric DU series profile. Both are constant-chord, straight, vertically extruded with no twist or taper.
+> 2. **Pitch convention** — pitch angle is applied as a rotation of the chord line relative to the local tangent direction at each blade's azimuthal station. Negative pitch = leading edge swept slightly inward.
+> 3. **Blade azimuthal placement** — outer blades at 0°/120°/240°; inner blades at 60°/180°/300° (exactly 60° phase shift). Quarter-chord point placed on the pitch circle of the respective rotor radius.
+> 4. **Vertical centering** — both rotors are vertically centered at Z = 0. The outer and inner rotors are co-axial on the shared shaft; their differing heights create the visible vertical offset.
+> 5. **Shaft** — single cylindrical shaft, diameter and height inferred conservatively. Does not interfere with any source rotor geometry.
+> 6. **Hub disks** — flat circular disks at blade top and bottom attachment points. Dimensions scaled proportionally between configurations.
+> 7. **Struts** — rectangular cross-section bars from shaft surface to blade quarter-chord radius, at top and bottom of each blade span. No aerodynamic shaping applied.
+> 8. **No generator mount, bearing housings, base tower, or foundation** are modeled — scope limited to the rotor assembly as specified.
+> 9. **No Savonius, helicity, taper, variable pitch, shrouds, or guide vanes** — strictly H-rotor straight blades as required.
+> 
+> 
+> Use the Open or Download buttons above each image to view full-resolution renders. All parameters are editable in the **User Parameters** table (`Modify → Change Parameters`) — source-backed parameters are labelled `SOURCE`, inferred ones are labelled `INFERRED`.
+
+*looks really good and was very fast*
+
+![[Pasted image 20260720102520.png|301]]![[Pasted image 20260720102541.png|311]]
