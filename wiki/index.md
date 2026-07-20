@@ -64,6 +64,9 @@ _One page per file in `sources/`._
 - [[va28-summary]]
 - [[va29-summary]]
 - [[va30-summary]]
+- [[va31-summary]]
+- [[va32-summary]]
+- [[va33-summary]]
 - [[va5-summary]]
 - [[va4-summary]]
 - [[va3-summary]]
@@ -235,6 +238,9 @@ _Specific turbine design pages live in [`designs/`](designs/)._
 - [[va29 4-Blade Scooplet Savonius VAWT]]
 - [[va29 6-Blade Scooplet Savonius VAWT]]
 - [[va30 Two-Bucket Semicircular Savonius Benchmark]]
+- [[va31 Reference H-Type VAWT]]
+- [[va32 Reference H-Type VAWT]]
+- [[va33 Moderate-TSR Reference H-Type VAWT]]
 - [[va1 Windside WS-12]]
 - [[va3 Windside Helical Wind Turbine]]
 - [[va3 Windspire Gyromill]]
@@ -378,6 +384,8 @@ _SimScale setup and VAWT-CFD learning notes live in `wiki/CFD/`._
 - [[ca33 ANSYS Airfoil Validation Workflow]]
 - [[ca35 SC1095 RANS Airfoil Validation]]
 - [[ca39 NACA 0018 Flow-Control CFD Limits]]
+- [[va31 Operational Effects on H-VAWT CFD]]
+- [[va32 VAWT URANS Computational Guidelines]]
 
 ---
 

@@ -390,11 +390,16 @@
 
 `09:00` met w/ Mike + Julie to get started (0.5 hr)
 `09:30` airfoil troubleshooting ( hrs)
-	- try a third airfoil with the current settings to confirm or reject
-	- try higher Re to make k-omega SST more accurate
+	- tested 0010 and 0016 with the same settings
+		- mesh non orthogonality was above recommended range but solutions converged, though prob less accurate?
+		- 0010 had correct Cd and Cl 7% high
+		- 0015 had Cd and Cl
+	- Julie ran 0018 w Re = 50,000 and got good Cd, Cl too low (~0.3 instead of ~0.5)
+	- Tested Fusion AI agent, used same prompt as zookeeper and got very good vj20 model in 4 min! *less than 1/3 of the time it took zookeeper and an equally good if not better model*
+		- *had it make an airfoil and by the time I had typed in detailed instructions and it thought and made it I could have finished it. also it was facing the opposite direction than what I wanted even after two requests that specifically stated the direction.* 
+	To Do:
 	- try 0018 in COMSOL (see if the issue is simscale)
 	- check simscale forum manually to see if there is something useful, if 
-	- try fusion AI capability to compare with zookeeper
 	- get CAD model CFD-ready
 
 

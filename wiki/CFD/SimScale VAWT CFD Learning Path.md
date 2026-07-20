@@ -20,7 +20,9 @@ Sources:
   - "[[ca22]]"
   - "[[ca23]]"
   - "[[ca24]]"
-Source_count: 18
+  - "[[va32]]"
+  - "[[va33]]"
+Source_count: 20
 tags:
   - cfd
 ---
@@ -55,6 +57,7 @@ See [[SimScale VAWT Domain and Boundaries]] and [[SimScale VAWT Transient Runs a
 - SimScale offers standard, hex-dominant, and hex-dominant parametric meshers for incompressible analysis. (source: sources/ca6.md)
 - Hex-dominant external meshing is intended for aerodynamic flow around bodies, and its automatic mode is appropriate for a preliminary run before detailed mesh tuning. (source: sources/ca21.md)
 - Inspect the completed mesh and its quality metrics before trusting a run; mesh density and quality affect accuracy and stability. (source: sources/ca22.md)
+- A validated 2D H-rotor URANS study provides a concrete starting check: about `400,000` quadrilateral cells with average/max blade `y+` of `1.37/4`; this is not a universal mesh target. (source: sources/va32.md)
 
 See [[SimScale VAWT Mesh and Quality]].
 
@@ -63,6 +66,7 @@ See [[SimScale VAWT Mesh and Quality]].
 - Add result controls before starting the simulation. For CFD, SimScale provides forces and moments, surface data, probe points, and field calculations. (source: sources/ca19.md)
 - Use force and moment histories to monitor a rotating rotor, and use plots, planes, particle traces, and transient frames to inspect the flow. (source: sources/ca19.md, sources/ca24.md)
 - Treat a visually plausible contour as inspection evidence, not as proof that the calculation is converged or mesh independent. > Inference: SimScale states that result controls help assess stabilization and that mesh quality influences stability and accuracy. (source: sources/ca19.md, sources/ca22.md)
+- For studied 2D NACA0018 H-rotor URANS cases, use `0.1 degrees` azimuthal increment when the flow regime is uncertain, run at least `20-30` revolutions before sampling, and test convergence rather than treating these as universal settings. (source: sources/va32.md, sources/va33.md)
 
 See [[SimScale VAWT Transient Runs and Outputs]] and [[SimScale VAWT Results and Comparison]].
 
@@ -74,6 +78,6 @@ See [[SimScale VAWT Transient Runs and Outputs]] and [[SimScale VAWT Results and
 
 ## What these sources do not establish
 
-> Unverified: A specific VAWT rotor-domain size, mesh cell count, near-wall target, turbulence-model choice, MRF-versus-AMI selection rule, number of revolutions, torque-axis convention, or power-coefficient calculation procedure. The captured SimScale documentation describes available tools and broad setup guidance, not a validated VAWT case recipe. (source: sources/ca15.md, sources/ca21.md, sources/ca25.md, sources/ca26.md)
+> Unverified: A SimScale-specific VAWT rotor-domain size, mesh cell count, near-wall target, turbulence-model choice, MRF-versus-AMI selection rule, number of revolutions, torque-axis convention, or power-coefficient calculation procedure. A separate validated ANSYS Fluent 2D URANS H-rotor study offers conditional numerical guidance, but it does not establish a SimScale recipe. (source: sources/ca15.md, sources/ca21.md, sources/ca25.md, sources/ca26.md, sources/va32.md)
 
 Related pages: [[CFD]], [[CFD and Validation]], [[cj1 CFD Modelling and Validation]].

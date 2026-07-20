@@ -1,6 +1,31 @@
 #maintenance
 ## Log
 
+### 2026-07-20 - Convert and ingest va33 moderate-TSR H-VAWT CFD study
+
+- Task: convert `attachments/PDFs/va33_raw.pdf`, render its figures, and ingest its source-supported CFD validation and setup findings.
+- Actions:
+  - Converted the full 14-page paper to `sources/va33.md` and rendered/linked all `25` numbered figures.
+  - Created [[va33-summary]] and [[va33 Moderate-TSR Reference H-Type VAWT]].
+  - Updated [[va32 VAWT URANS Computational Guidelines]], [[SimScale VAWT CFD Learning Path]], and [[index]]; marked the source processed.
+- Decisions:
+  - Recorded `va33`'s `10D` upstream result as limited to its moderate-TSR, low-solidity case, and retained `va32`'s `15D` upstream guidance as the broader result.
+- Open:
+  - The common reference model omits support structures and cannot fully reproduce the measured windward-side wake asymmetry.
+
+### 2026-07-20 - Convert and ingest va31 and va32 H-VAWT CFD papers
+
+- Task: convert `attachments/PDFs/va31_raw.pdf` and `attachments/PDFs/va32_raw.pdf`, then ingest their source-grounded H-VAWT CFD content.
+- Actions:
+  - Converted the full papers to `sources/va31.md` and `sources/va32.md`; rendered and linked `28` and `25` numbered figures, respectively.
+  - Created [[va31-summary]], [[va32-summary]], [[va31 Reference H-Type VAWT]], [[va32 Reference H-Type VAWT]], [[va31 Operational Effects on H-VAWT CFD]], and [[va32 VAWT URANS Computational Guidelines]].
+  - Updated [[SimScale VAWT CFD Learning Path]] and [[index]]; marked both sources processed.
+- Decisions:
+  - Kept the papers' numerical guidance explicitly limited to their validated two-dimensional transition-SST URANS NACA0018 H-rotor cases.
+  - Did not present their domain, time-step, mesh, or revolution values as a universal or SimScale-specific recipe.
+- Open:
+  - The reference rotor models omit physical support details and tip effects; a target 3D turbine needs its own mesh, time-step, and convergence study.
+
 ### 2026-07-17 - Document NACA airfoil control-case conclusion
 
 - Task: append the current NACA 0018 airfoil-validation conclusion to `active/CFD log/Airfoil Validation Studies.md`, including the NACA 0012 control result and direct STEP-file comparison.

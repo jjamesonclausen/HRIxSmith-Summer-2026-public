@@ -718,6 +718,6 @@ Deliver:
 > 
 > Use the Open or Download buttons above each image to view full-resolution renders. All parameters are editable in the **User Parameters** table (`Modify → Change Parameters`) — source-backed parameters are labelled `SOURCE`, inferred ones are labelled `INFERRED`.
 
-*looks really good and was very fast*
+*looks really good and was very fast, but on second glance it didn't use the correct asymmetric airfoil shape for the inner blades*
 
 ![[Pasted image 20260720102520.png|301]]![[Pasted image 20260720102541.png|311]]

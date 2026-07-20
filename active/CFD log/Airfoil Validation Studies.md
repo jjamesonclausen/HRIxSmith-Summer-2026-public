@@ -465,7 +465,7 @@ exact same settings, fineness 5
 **Cl:** 0.614
 **Cd:** 0.028
 
-# 7.17 LLM conclusion (after NACA 0012 control and STEP review)
+## 7.17 LLM conclusion (after NACA 0012 control and STEP review)
 
 ### NACA 0012 control result
 
@@ -494,3 +494,9 @@ The NACA 0012 control and STEP comparison provide no evidence that the domain, r
 Do not continue changing general simulation settings simply to force the NACA 0018 result toward the AirfoilTools value of approximately `Cl = 0.75`. Record the result as the prediction of this steady, `k-omega SST`, rounded-NACA-0018 SimScale case and report its discrepancy from AirfoilTools. A low-turbulence NACA 0018 experiment in the project sources reports substantially different low-Re behavior, including `Clmax = 0.435` at `Re = 50,000` and `3 deg`, so the AirfoilTools curve is not the only available reference and the mismatch cannot be assigned to the CFD setup alone. (source: sources/cj9.md)
 
 > Uncertainty: this control case does not prove that the NACA 0018 AirfoilTools value is wrong, nor does it validate a sharp, ideal NACA 0018 profile because the simulated profile has a rounded trailing edge. It does establish that no currently observed shared workflow or STEP-geometry issue explains the NACA 0018 lift gap.
+
+## Run 17: 0010 control (same settings as 13) - GOOD
+same settings but very high non-orthogonality even with rounded tail (~87)
+ran anyway, got Cl 0.61 (7% high) and Cd = 0.27 (correct)
+## Run 19: 0015 - 
+same settings again, again bad non-orthogonality (~89)
