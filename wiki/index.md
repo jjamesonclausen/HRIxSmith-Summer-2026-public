@@ -13,7 +13,8 @@ The map of this knowledge base. The agent keeps this current: every page it crea
 
 ## Project Documentation
 
-- [[Weeks 1-4 Project Summary and Report Outline]]
+- [[active/documentation/Weeks 1-4 Project Summary and Report Outline]]
+- [[active/documentation/Airfoil Validation Study Summary and Report Outline]]
 
 ## CFD Notes
 

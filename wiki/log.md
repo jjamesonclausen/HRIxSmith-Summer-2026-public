@@ -1,6 +1,30 @@
 #maintenance
 ## Log
 
+### 2026-07-21 - Consolidate report-outline citations
+
+- Task: replace repeated line-by-line source citations in the two active report-preparation notes with a single citation to each referenced record.
+- Actions:
+  - Added a top-of-page source link to [[active/_anna daily log]] in [[active/documentation/Weeks 1-4 Project Summary and Report Outline]].
+  - Added a top-of-page source link to [[active/documentation/CFD log/Airfoil Validation Studies]] in [[active/documentation/Airfoil Validation Study Summary and Report Outline]].
+  - Removed the repeated inline source tags from both notes.
+- Decisions:
+  - Retained the reports' explicit uncertainty sections and their citations in the source documents, while simplifying the report-preparation notes for readability.
+- Open:
+  - None.
+
+### 2026-07-21 - Summarize active airfoil validation study for reporting
+
+- Task: synthesize the active NACA0018 airfoil-validation log into a documentation-ready report outline covering tests, parameter changes, lessons, and current status.
+- Actions:
+  - Created [[active/documentation/Airfoil Validation Study Summary and Report Outline]] with the exploratory, pseudo-2D, mesh-quality, and control-case sequence; a parameter-change table; a report outline; and explicit uncertainty limits.
+  - Updated [[index]] to link the new active documentation note.
+- Decisions:
+  - Preserved the NACA0018 work as incomplete: its current result is a model-specific prediction with an unresolved comparison discrepancy, not a validated CFD workflow.
+  - Flagged the recorded NACA0010 drag value for output review because its numerical value conflicts with the note's description of it as correct.
+- Open:
+  - Identify a condition-matched low-Re NACA0018 benchmark and complete the validation evidence needed before applying this workflow to VAWT comparisons.
+
 ### 2026-07-21 - Create NACA 0018 CFD validation decision matrix
 
 - Task: recommend next steps for the NACA 0018 validation discrepancy and create a visual decision matrix, drawing on the CFD log, daily log, and source-grounded wiki notes.
