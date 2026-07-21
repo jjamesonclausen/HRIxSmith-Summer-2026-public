@@ -1,6 +1,28 @@
 #maintenance
 ## Log
 
+### 2026-07-21 - Write first-person reflection on the AI-assisted project
+
+- Task: turn Julie's documented thoughts on the wiki, LLMs, and AI into a cohesive project reflection under `active/documentation/`.
+- Actions:
+  - Created `active/documentation/refections on project.md` as a first-person reflection on wiki design, LLM-supported decisions, intentional learning, and CAD/CFD validation.
+  - Kept the reflection grounded in `active/_Julie_daily_log.md` and stated its scope limitation.
+- Decisions:
+  - Wrote a narrative reflection rather than an itemized extraction so it can serve as starting material for project documentation or a blog post.
+- Open:
+  - Julie can revise the voice and add specific examples or images before sharing it publicly.
+
+### 2026-07-21 - Extract Julie's reflections on the wiki and AI workflow
+
+- Task: identify Julie's documented thoughts and opinions about the project, particularly the wiki, LLMs, and AI, from `active/_Julie_daily_log.md`.
+- Actions:
+  - Created `active/resources/Julie reflections on the wiki, LLM, and AI.md` with dated, source-attributed reflections grouped by wiki design, LLM-supported decisions, AI/CAD/CFD reliability, and intentional learning.
+  - Preserved both positive observations and stated reservations, then added blog-post uses and a scope limitation.
+- Decisions:
+  - Distinguished Julie's personal observations from independently established conclusions about the tools.
+- Open:
+  - Julie can identify which reflections should be expanded in her own voice for a public blog post.
+
 ### 2026-07-21 - Create Julie's four-week LLM blog outline
 
 - Task: review Weeks 1-4 of `active/_Julie_daily_log.md` and create a high-level outline for a blog post, excluding task durations and routine calls with Mike.
