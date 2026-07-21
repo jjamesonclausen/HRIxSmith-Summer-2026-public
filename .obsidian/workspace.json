@@ -11,12 +11,14 @@
             "id": "a81e6f40380f1d7f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "attachments/PDFs/vj20.pdf"
+                "file": "active/documentation/LLM blog outline julie.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "vj20"
+              "icon": "lucide-file",
+              "title": "LLM blog outline julie"
             }
           },
           {
@@ -128,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -234,14 +235,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "a81e6f40380f1d7f",
+  "active": "430d4667079a6ae2",
   "lastOpenFiles": [
-    "active/_Julie_daily_log.md",
+    "active/documentation",
     "attachments/PDFs/vj20.pdf",
+    "active/_Julie_daily_log.md",
     "active/analysis/Concept ranking worksheet.md",
     "active/analysis/table of all designs.base",
     "active/resources/CFD, SimScale Notes.md",
-    "active/CAD log/a_vj20.md",
+    "active/documentation/CAD log/a_vj20.md",
     "active/_project timeline.md",
     "wiki/summaries/va33-summary.md",
     "wiki/summaries/va32-summary.md",
@@ -267,11 +269,11 @@
     "attachments/PDFs/va33_raw.pdf",
     "attachments/PDFs/va32_raw.pdf",
     "attachments/PDFs/va31_raw.pdf",
-    "active/CAD log/naca0016_roundtail.step",
-    "active/CAD log/naca0016.dat",
-    "active/CAD log/naca0015.step",
-    "active/CAD log/naca0015.dat",
-    "active/CAD log/naca0010_roundtail.step",
+    "active/documentation/CAD log/naca0016_roundtail.step",
+    "active/documentation/CAD log/naca0016.dat",
+    "active/documentation/CAD log/naca0015.step",
+    "active/documentation/CAD log/naca0015.dat",
+    "active/documentation/CAD log/naca0010_roundtail.step",
     "wiki/summaries/va29-summary.md",
     "wiki/summaries/va30-summary.md",
     "wiki/parameters/va29 Blade Number.md",
