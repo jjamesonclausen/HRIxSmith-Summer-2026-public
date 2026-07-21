@@ -327,7 +327,31 @@ day off
 ## Week 5
 
 ### Monday 7/20
-- Met with Mike + Anna - 9am
+- Met with Mike + Anna - 9am (0.5 hr) 
+- discussed annas progress + next moves 
+	- try a new airfoil 
+	- try a new Reynolds number 
+	- look in forum 
+	- try COMSOL as last option 
+		- get vpn 
+- stay on call with anna (3 hrs)
+	- anna runs new airfoil
+	- i run with new Reynolds number of 500,000 
+		- not much change - lift was too low 
+		- LLM calculated the wrong velocity so settings were messed up - re did myself and re ran which didn't change much 
+	- tried to download COMSOL 
+	- got vpn 
+	- anna tested out fusions ai tools - said they were just ass good as zoo keeper but faster 
+		- played around with fusions ai and it seems to be a bit faster 
+	- download fusion 
+- try to validate the vj20 hybrid in simscale with anna (3 hrs)
+	- anna got the cad done in fusion to use for the simulation 
+	- i ready through vj20 to see what settings they used 
+		- while reading through the paper I saw that the LLM had been reporting the cut in speed wrong. it had miss read the paper and used the reported cut in speed from another design and reported it as real 
+		- i verified by finding another paper where they cited vj20 and reported the cut in speed at 1.5 not 2.9 
+			- this kind of throws our design selection out of the window bc we just trusted the llm to read through and pull out the raw numbers and use them to rank the designs. Vj20 was loosing some rankings because of its "higher" cut in speed that wasn't even real. this is bad for the obvious reason but also means that the design we chose is even better?
+	- anna having issues with fusions ai tool really slowing down 
+- call with Mike and anna (0.5 hr)
 ### Tuesday 7/21
 - Met with Mike + Anna - 9am
 - meeting with Ryan and Duane -4 pm
