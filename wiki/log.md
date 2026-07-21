@@ -1,6 +1,53 @@
 #maintenance
 ## Log
 
+### 2026-07-21 - Move four-week report preparation note to active documentation
+
+- Task: relocate the four-week summary and narrative-report outline to the active documentation area.
+- Actions:
+  - Moved the note to [[active/documentation/Weeks 1-4 Project Summary and Report Outline]].
+  - Updated [[index]] to use the path-qualified Obsidian link.
+- Decisions:
+  - Kept the note indexed because it remains current project documentation even though it is outside the maintained wiki content.
+- Open:
+  - None.
+
+### 2026-07-21 - Summarize first four project weeks and prepare report outline
+
+- Task: synthesize the completed-work bullets and italicized AI-use reflections in `active/_anna daily log.md` for the first four project weeks into a narrative-report preparation note.
+- Actions:
+  - Created [[active/documentation/Weeks 1-4 Project Summary and Report Outline]] with a week-by-week activity summary, AI-utility lessons, a narrative report structure, drafting evidence needs, and uncertainty checks.
+  - Updated [[index]] to include the new project-documentation note.
+- Decisions:
+  - Treated the daily log as the traceable source for chronology and reported experience, not as validation evidence for technical VAWT or CFD performance claims.
+  - Limited the summary to Weeks 1-4, ending on July 17, rather than incorporating the partial Week 5 entry.
+- Open:
+  - The final report needs supporting citations from the underlying VAWT, wind, CAD, and CFD records, plus confirmation of the final design selection and CFD validation status.
+
+### 2026-07-20 - Add vj20 SimScale validation procedure to active CFD log
+
+- Task: copy the source-grounded SimScale workflow for validating the scaled `vj20` hybrid H-VAWT into the active CFD log.
+- Actions:
+  - Created `active/CFD log/vj20 SimScale Validation Study.md` with CAD, fluid-domain, AMI, physics, boundary-condition, mesh, transient-control, result-control, and validation instructions.
+  - Preserved `vj20` and `HRI2526` limitations, including the source's scaled rotational-speed inconsistency and HRI's unresolved rising-`Cp` TSR trend.
+- Decisions:
+  - Used `HRI2526` because no `HRI2525` source exists in the repository.
+  - Set the main validation point by calculating angular velocity from the reported `TSR = 3`, `U = 3.63 m/s`, and outer radius, rather than copying the contradictory table value.
+- Open:
+  - The live study still needs a documented inlet turbulence intensity/length scale and separate mesh, timestep, turbulence-model, and cycle-repeatability checks.
+
+### 2026-07-20 - Add VAWT CFD setup checklist
+
+- Task: write step-by-step, source-grounded instructions for a VAWT CFD study, with emphasis on correctly constructing a rotating zone.
+- Actions:
+  - Created [[VAWT CFD Study Setup Checklist]] covering the study target, rotor and fluid CAD, rotating-cylinder creation, cell-zone generation, rotating-physics assignment, boundaries, mesh, transient controls, outputs, and validation order.
+  - Indexed the checklist in [[index]].
+- Decisions:
+  - Distinguished documented SimScale cell-zone requirements from inferred transient-AMI guidance for torque validation.
+  - Kept 2D H-rotor domain and time-resolution values as conditional checks rather than universal 3D settings.
+- Open:
+  - A target rotor still needs a source-matched 3D validation benchmark and its own mesh, time-step, and cycle-repeatability study.
+
 ### 2026-07-20 - Convert and ingest va33 moderate-TSR H-VAWT CFD study
 
 - Task: convert `attachments/PDFs/va33_raw.pdf`, render its figures, and ingest its source-supported CFD validation and setup findings.

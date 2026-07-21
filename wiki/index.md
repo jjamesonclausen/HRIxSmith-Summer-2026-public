@@ -11,6 +11,10 @@ The map of this knowledge base. The agent keeps this current: every page it crea
 - [[learning-log]] — what you understood, in your own words.
 - [[evals]] — the test set that keeps this wiki honest.
 
+## Project Documentation
+
+- [[active/documentation/Weeks 1-4 Project Summary and Report Outline]]
+
 ## CFD Notes
 
 - [[cj1 CFD Modelling and Validation]]
@@ -386,6 +390,7 @@ _SimScale setup and VAWT-CFD learning notes live in `wiki/CFD/`._
 - [[ca39 NACA 0018 Flow-Control CFD Limits]]
 - [[va31 Operational Effects on H-VAWT CFD]]
 - [[va32 VAWT URANS Computational Guidelines]]
+- [[VAWT CFD Study Setup Checklist]]
 
 ---
 

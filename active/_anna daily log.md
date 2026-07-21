@@ -389,27 +389,37 @@
 ### Monday 07/20
 
 `09:00` met w/ Mike + Julie to get started (0.5 hr)
-`09:30` airfoil troubleshooting ( hrs)
+`09:30` airfoil troubleshooting (3 hrs)
 	- tested 0010 and 0016 with the same settings
 		- mesh non orthogonality was above recommended range but solutions converged, though prob less accurate?
 		- 0010 had correct Cd and Cl 7% high
-		- 0015 had Cd and Cl
+		- 0015 had Cl 0.58 (1/7 too low) and Cd 0.029 pretty good
 	- Julie ran 0018 w Re = 50,000 and got good Cd, Cl too low (~0.3 instead of ~0.5)
 	- Tested Fusion AI agent, used same prompt as zookeeper and got very good vj20 model in 4 min! *less than 1/3 of the time it took zookeeper and an equally good if not better model*
 		- *had it make an airfoil and by the time I had typed in detailed instructions and it thought and made it I could have finished it. also it was facing the opposite direction than what I wanted even after two requests that specifically stated the direction.* 
-	To Do:
-	- try 0018 in COMSOL (see if the issue is simscale)
-	- check simscale forum manually to see if there is something useful, if 
-	- get CAD model CFD-ready
+`13:00` (4.25 hrs)
+	- continued experimenting with Fusion AI, it was having errors that prevented it from running for a while but then seemed to get better again
+	- got full scale and 1/11.01 scale vj20 models done
+	- tried to set up vj20 cfd validation study
+		- harder than anticpated, ended up researching and llming to figure out what to do. Have an LLM-written plan that I started implementing. Will finish in the morning. 
+	- tried to download COMSOL, could not
+`15:30` met with Mike + Julie to check in (0.5 hr)
+To Do:
+	- Ai stuff --> ryan
+		- test magic prompt
+		- make visual decision analysis matrix
+		- ask llm to make an outline for documentation or to consolidate information learned
+		- have it make slides?
+	- work on documentation prep if we are out of things to do
+	- post lunch, go back to full turbine cfd study
+	- prep a slide or two to briefly discuss AI stuff with Ryan tomorrow 
 
+*LLM misreported the cut-in speed of a turbine... this kind of erodes some of our trust in it and its ability to pull quantitative information. It seems like if you ask for a specific piece of information it will find some piece of information that generally fits the request but it may not be what you actually wanted. If, on the other hand, *
 
 ---
-Hours: -13.00
+Hours: -12.25
 
 **Mtg notes 7/14:**
-	- CFD validation studies! airfoil and simple vawt??
-	- build out wiki for CFD and CAD help
-		- include example simulations and drawings and the settings and prompts that created them, maybe also tutorials etc
 	- LLM prompt improvements
 		- 
 		- define abstractions, give examples

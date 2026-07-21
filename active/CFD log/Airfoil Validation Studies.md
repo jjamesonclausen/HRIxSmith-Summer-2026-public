@@ -465,7 +465,7 @@ exact same settings, fineness 5
 **Cl:** 0.614
 **Cd:** 0.028
 
-## 7.17 LLM conclusion (after NACA 0012 control and STEP review)
+## 7.17 LLM thoughts
 
 ### NACA 0012 control result
 
@@ -498,5 +498,8 @@ Do not continue changing general simulation settings simply to force the NACA 00
 ## Run 17: 0010 control (same settings as 13) - GOOD
 same settings but very high non-orthogonality even with rounded tail (~87)
 ran anyway, got Cl 0.61 (7% high) and Cd = 0.27 (correct)
-## Run 19: 0015 - 
+## Run 19: 0015 - OK
 same settings again, again bad non-orthogonality (~89)
+seems like the thicker we go the less accurate it gets
+Cl= 0.58, should be more like 0.68
+Cd = 0.029, pretty good
