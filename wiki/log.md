@@ -1,6 +1,28 @@
 #maintenance
 ## Log
 
+### 2026-07-21 - Create NACA 0018 CFD validation decision matrix
+
+- Task: recommend next steps for the NACA 0018 validation discrepancy and create a visual decision matrix, drawing on the CFD log, daily log, and source-grounded wiki notes.
+- Actions:
+  - Created `active/documentation/NACA0018 Validation Decision Matrix.md` with a Mermaid decision flow, prioritized matrix, baseline evidence, and a recommended escalation path.
+  - Compared the NACA 0018 record with the NACA 0012 and NACA 0010 controls, low-Re `cj9` experiment, the documented SimScale pseudo-2D workflow, and CFD/mesh limitations.
+- Decisions:
+  - Recommended freezing the current case and resolving reference applicability, geometry, dimensionality, and mesh evidence before changing broad solver settings or selecting another turbulence model.
+- Open:
+  - Build the benchmark dossier, perform sharp-versus-rounded and pseudo-2D controlled comparisons, then request human CFD review if the discrepancy remains.
+
+### 2026-07-21 - Document the CAD modeling process
+
+- Task: review `active/documentation/CAD log/` and Julie's CAD-related daily-log notes, then create a process document under `active/documentation/`.
+- Actions:
+  - Created `active/documentation/CAD Modeling Process.md` covering the VA9 Zoo/KCL refinement history, the `vj20` Zoo and Fusion attempts, the Savonius benchmark scope, CFD preparation, and documented limitations.
+  - Included Julie's daily-log observations on AI-CAD learning, prompt tracking, Fusion, ZooKeeper, and early airfoil/SimScale work.
+- Decisions:
+  - Distinguished tool-reported CAD checks from physical, aerodynamic, and CFD validation; retained known model defects and unresolved geometry issues.
+- Open:
+  - Validate selected CAD geometries before CFD use, especially the `vj20` inner airfoil and the VA9 multi-body blade assembly.
+
 ### 2026-07-21 - Write first-person reflection on the AI-assisted project
 
 - Task: turn Julie's documented thoughts on the wiki, LLMs, and AI into a cohesive project reflection under `active/documentation/`.
@@ -38,7 +60,7 @@
 
 - Task: relocate the four-week summary and narrative-report outline to the active documentation area.
 - Actions:
-  - Moved the note to [[active/documentation/Weeks 1-4 Project Summary and Report Outline]].
+  - Moved the note to [[Weeks 1-4 Project Summary and Report Outline]].
   - Updated [[index]] to use the path-qualified Obsidian link.
 - Decisions:
   - Kept the note indexed because it remains current project documentation even though it is outside the maintained wiki content.
@@ -49,7 +71,7 @@
 
 - Task: synthesize the completed-work bullets and italicized AI-use reflections in `active/_anna daily log.md` for the first four project weeks into a narrative-report preparation note.
 - Actions:
-  - Created [[active/documentation/Weeks 1-4 Project Summary and Report Outline]] with a week-by-week activity summary, AI-utility lessons, a narrative report structure, drafting evidence needs, and uncertainty checks.
+  - Created [[Weeks 1-4 Project Summary and Report Outline]] with a week-by-week activity summary, AI-utility lessons, a narrative report structure, drafting evidence needs, and uncertainty checks.
   - Updated [[index]] to include the new project-documentation note.
 - Decisions:
   - Treated the daily log as the traceable source for chronology and reported experience, not as validation evidence for technical VAWT or CFD performance claims.

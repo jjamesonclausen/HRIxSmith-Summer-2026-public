@@ -354,6 +354,21 @@ day off
 - call with Mike and anna (0.5 hr)
 ### Tuesday 7/21
 - Met with Mike + Anna - 9am
+	- made a to do list for today and tomorrow
+		- try magic prompts 
+		- ask llm to make a visual decision matrix 
+		- work on documentation 
+		- make slides for Ryan 
+		- work on simulation 
+- stay on call with anna 
+	- slack ryan 
+	- individually work on documentation 
+		- have llm read through daily log and make organized bullet list of what we did 
+		- have llm pull out and reflections i wrote about the llm/wiki in a new doc 
+		- have llm read through the cad 
+	- try out the visual decision matrix 
+		- prompt: I am really stuck with my cfd, I am trying to simulate the NACA 0018 airfoil and validate it using published data I found but I keep getting incorrect data, I have used the same settings to correctly validate the NACA 0010 and 0012 airfoils so I feel stuck. I have asked the LLM for tips on what to do with no success. what would you recommend i do now. (your recommendations can go beyond setting adjustments) please make a visual decision matrix for your result
+	- 
 - meeting with Ryan and Duane -4 pm
 ### Wednesday 7/22
 - Met with Mike + Anna - 9am

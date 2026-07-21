@@ -64,3 +64,6 @@ This note extracts Julie's project reflections and opinions from the daily log. 
 ## Scope and Limitations
 
 These are Julie's recorded reflections during the first four weeks of the project. They are observations from an evolving workflow, not independently verified conclusions about LLMs, AI CAD tools, or CFD software generally. (source: active/_Julie_daily_log.md)
+
+
+prompt given: okay now read through my daily log and pull out any thoughts or opinions about the project that i have written, in preticualar about the wiki the llm or ai 
