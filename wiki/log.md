@@ -1,6 +1,17 @@
 #maintenance
 ## Log
 
+### 2026-07-21 - Create Julie's four-week LLM blog outline
+
+- Task: review Weeks 1-4 of `active/_Julie_daily_log.md` and create a high-level outline for a blog post, excluding task durations and routine calls with Mike.
+- Actions:
+  - Created `active/resources/LLM blog outline julie.md` with chronological sections covering research foundations, the LLM wiki, site constraints, design screening, CAD/CFD learning, and AI-learning lessons.
+  - Grounded each documented activity and challenge in the daily log; included a short publication-preparation checklist.
+- Decisions:
+  - Kept the outline at project-theme level rather than reproducing daily entries, and retained limitations around LLM, CAD, and CFD reliability as central blog material.
+- Open:
+  - Julie should add first-person reflections, select shareable visuals, and confirm what project details can be published.
+
 ### 2026-07-21 - Move four-week report preparation note to active documentation
 
 - Task: relocate the four-week summary and narrative-report outline to the active documentation area.

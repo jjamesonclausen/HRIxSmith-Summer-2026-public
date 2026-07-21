@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "active/analysis/Concept ranking worksheet.md",
+                "file": "active/documentation/LLM blog outline julie.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concept ranking worksheet"
+              "title": "LLM blog outline julie"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "active/_Julie_daily_log.md",
+                "file": "active/analysis/Concept ranking worksheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Julie_daily_log"
+              "title": "Concept ranking worksheet"
             }
           },
           {
@@ -73,8 +73,7 @@
               "title": "Salp Swarm Algorithm"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,8 +126,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -237,54 +235,54 @@
       "bases:Create new base": false
     }
   },
-  "active": "9b080656a7125bfb",
+  "active": "430d4667079a6ae2",
   "lastOpenFiles": [
-    "images/Pasted image 20260716102707.png",
-    "attachments/naca0018_1m.step",
-    "attachments/naca0018.dat",
-    "wiki/CFD/cj10 SimScale NACA0012 High-Re Validation.md",
-    "wiki/summaries/cj10-summary.md",
-    "sources/cj10.md",
-    "sources/cj9.md",
+    "active/documentation",
+    "attachments/PDFs/vj20.pdf",
     "active/_Julie_daily_log.md",
-    "wiki/CFD/cj9 NACA0018 Low-Re Validation Data.md",
-    "wiki/summaries/cj9-summary.md",
-    "attachments/images/cj9-fig18.jpg",
-    "attachments/images/cj9-fig17.jpg",
-    "attachments/images/cj9-fig16.jpg",
-    "attachments/images/cj9-fig15.jpg",
-    "attachments/images/cj9-fig14.jpg",
-    "attachments/images/cj9-fig13.jpg",
-    "attachments/images/cj9-fig12.jpg",
-    "attachments/images/cj9-fig11.jpg",
-    "attachments/images/cj9-fig10.jpg",
-    "attachments/images/cj9-fig9.jpg",
-    "attachments/PDFs/cj9.pdf",
-    "wiki/CFD/cj8 SimScale Forum Troubleshooting Notes.md",
-    "wiki/summaries/cj8-summary.md",
-    "sources/cj8.md",
-    "attachments/PDFs/cj8.pdf",
-    "active/_anna daily log.md",
-    "wiki/CFD/SimScale VAWT CFD Learning Path.md",
-    "active/CFD log/NACA0018 Validation Studies.md",
-    "wiki/concepts/VAWT.md",
-    "wiki/concepts/Rules of Thumb.md",
     "active/analysis/Concept ranking worksheet.md",
-    "wiki/designs/HRI2526 Classical Savonius.md",
     "active/analysis/table of all designs.base",
-    "wiki/designs/HRI2526 Double Darrieus with Inner H-rotor and Outer Eggbeater.md",
-    "wiki/learning-log.md",
-    "active/CAD log/EN0005_first_draft.step",
-    "wiki/CFD/cj7 SimScale MRF Rotating Zone Workflow.md",
-    "wiki/summaries/cj7-summary.md",
-    "sources/cj7.md",
-    "wiki/CFD/cj6 SimScale Building Wind Workflow.md",
-    "wiki/summaries/cj6-summary.md",
-    "sources/cj6.md",
-    "attachments/PDFs/cj2.pdf",
-    "wiki/CFD",
-    "attachments/PDFs/cj1.pdf",
-    "sources/cj1.pdf",
+    "active/resources/CFD, SimScale Notes.md",
+    "active/documentation/CAD log/a_vj20.md",
+    "active/_project timeline.md",
+    "wiki/summaries/va33-summary.md",
+    "wiki/summaries/va32-summary.md",
+    "wiki/summaries/va31-summary.md",
+    "wiki/designs/va33 Moderate-TSR Reference H-Type VAWT.md",
+    "wiki/designs/va32 Reference H-Type VAWT.md",
+    "wiki/designs/va31 Reference H-Type VAWT.md",
+    "wiki/CFD/va32 VAWT URANS Computational Guidelines.md",
+    "wiki/CFD/va31 Operational Effects on H-VAWT CFD.md",
+    "sources/va33.md",
+    "sources/va32.md",
+    "sources/va31.md",
+    "images/va33-fig9.jpg",
+    "images/va33-fig8.jpg",
+    "images/va33-fig7.jpg",
+    "images/va33-fig6.jpg",
+    "images/va33-fig5.jpg",
+    "images/va33-fig4.jpg",
+    "images/va33-fig3.jpg",
+    "images/va33-fig25.jpg",
+    "images/va33-fig24.jpg",
+    "images/va33-fig23.jpg",
+    "attachments/PDFs/va33_raw.pdf",
+    "attachments/PDFs/va32_raw.pdf",
+    "attachments/PDFs/va31_raw.pdf",
+    "active/documentation/CAD log/naca0016_roundtail.step",
+    "active/documentation/CAD log/naca0016.dat",
+    "active/documentation/CAD log/naca0015.step",
+    "active/documentation/CAD log/naca0015.dat",
+    "active/documentation/CAD log/naca0010_roundtail.step",
+    "wiki/summaries/va29-summary.md",
+    "wiki/summaries/va30-summary.md",
+    "wiki/parameters/va29 Blade Number.md",
+    "wiki/parameters/va29 Circular-Arc Blade Profile.md",
+    "wiki/parameters/va29 Rotor Aspect Ratio.md",
+    "wiki/parameters/va30 Bucket Number.md",
+    "wiki/parameters/va30 Gap Ratio.md",
+    "wiki/parameters/va30 Reynolds Number.md",
+    "wiki/parameters/va30 Rotor Height.md",
     "Untitled.canvas"
   ]
 }
