@@ -43,14 +43,12 @@
             "id": "2a07e31cf6aa9e24",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "active/CFD log/NACA0018 Validation Studies.md",
-                "mode": "source",
-                "source": false
+                "file": "attachments/PDFs/vj20.pdf"
               },
-              "icon": "lucide-file",
-              "title": "NACA0018 Validation Studies"
+              "icon": "lucide-file-text",
+              "title": "vj20"
             }
           },
           {
@@ -62,8 +60,22 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "f3c36eebe8cd66ef",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "active/analysis/Design Comparison.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Design Comparison"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -225,12 +237,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "a81e6f40380f1d7f",
+  "active": "2a07e31cf6aa9e24",
   "lastOpenFiles": [
-    "active/documentation/Airfoil Validation Study Summary and Report Outline.md",
     "active/_Julie_daily_log.md",
-    "wiki/methods/Salp Swarm Algorithm.md",
+    "active/analysis/Design Comparison.base",
+    "active/documentation/CFD log/vj20 SimScale Validation Study.md",
     "active/documentation/NACA0018 Validation Decision Matrix.md",
+    "active/documentation/LLM Prompting Experiments.md",
+    "active/documentation/Airfoil Validation Study Summary and Report Outline.md",
+    "wiki/methods/Salp Swarm Algorithm.md",
     "active/documentation/CAD Modeling Process.md",
     "active/resources/Julie reflections on the wiki, LLM, and AI.md",
     "active/_anna daily log.md",
@@ -238,7 +253,6 @@
     "active/documentation/LLM blog outline julie.md",
     "active/documentation/refections on project.md",
     "wiki/CFD/VAWT CFD Study Setup Checklist.md",
-    "active/documentation/CFD log/vj20 SimScale Validation Study.md",
     "active/documentation/CAD log/VAWT_Dual_H_Rotor_ScaledDown.step",
     "active/documentation/CAD log/VAWT_Dual_H_Rotor_Assembly.step",
     "active/analysis/Concept ranking worksheet.md",
@@ -256,8 +270,6 @@
     "wiki/designs/va31 Reference H-Type VAWT.md",
     "wiki/CFD/va32 VAWT URANS Computational Guidelines.md",
     "wiki/CFD/va31 Operational Effects on H-VAWT CFD.md",
-    "sources/va33.md",
-    "sources/va32.md",
     "images/va33-fig9.jpg",
     "images/va33-fig8.jpg",
     "images/va33-fig7.jpg",
@@ -272,7 +284,6 @@
     "attachments/PDFs/va32_raw.pdf",
     "attachments/PDFs/va31_raw.pdf",
     "active/documentation/CAD log/naca0016_roundtail.step",
-    "active/documentation/CAD log/naca0016.dat",
     "Untitled.canvas"
   ]
 }
