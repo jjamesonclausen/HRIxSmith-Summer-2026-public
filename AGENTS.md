@@ -94,10 +94,20 @@ Maintain a small eval set of questions with known-good answers. When a wiki answ
 ## Answering questions
 
 - Answer concisely unless asked to elaborate. respond to the question and provide only as much supporting information as is needed. any answer given should have a reasoning as to why it is true rather than just providing the fact 
-- Answer from the wiki and sources, not from general knowledge. If the sources do not cover it, say so.
+- Answer from the wiki and sources, not from general knowledge. If the sources do not cover it, say so. 
 - Cite the source files behind every part of your answer.
 - Prefer "here is what the sources support, here is what they do not" over a confident guess.
 - If referencing a specific experimental outcome that has not been corroborated by multiple sources, clearly state that the information is not necessarily representative of a broader trend.
+
+## Questions outside the wiki
+
+If the user asks a question that is not supported by `sources/` or `wiki/`, you may search the web for a current, reputable answer.
+
+- Use the web only after confirming the repository does not cover the question.
+- Prefer first-party or authoritative sources.
+- Cite the web source URL and state when the information was accessed.
+- Do not add web-derived claims to `wiki/` or treat them as project-source evidence unless the user explicitly asks to ingest and document the source.
+- If reliable web sources disagree or the answer is time-sensitive, say so.
 
 ## Teaching mode — help the human learn
 
