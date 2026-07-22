@@ -1,6 +1,85 @@
 #maintenance
 ## Log
 
+### 2026-07-21 - Prevent feature-refinement override of vj20 rotor-wall mesh
+
+- Task: identify additional changes after the rotor-wall surface refinement did not retain faces assigned to vj20 boundary and result controls.
+- Actions:
+  - Corrected [[active/documentation/CFD log/Tutorial vj20 SimScale Validation]] to state that feature refinement overrides surface refinement at geometry edges.
+  - Added an isolation sequence: verify control face selection, disable custom feature refinement, test the rotor-wall surface refinement, then re-enable feature refinement only at equal-or-finer levels.
+  - Added CAD cleanup of non-aerodynamic tiny faces as the fallback when required faces still defeature.
+- Decisions:
+  - Removed the earlier unverified lower feature-refinement levels because they could override and coarsen the blade-edge region that the rotor-wall surface refinement needed to preserve.
+- Open:
+  - Remesh with the custom feature refinement disabled and identify whether the omitted faces are required rotor walls before changing any other numerical setting.
+
+### 2026-07-21 - Target vj20 rotor-wall surface refinement
+
+- Task: interpret the user's surface-refinement configuration after it showed `147` assigned faces: all flow-region faces except the six external-domain faces.
+- Actions:
+  - Updated [[active/documentation/CFD log/Tutorial vj20 SimScale Validation]] to split rotor-wall and AMI-cylinder surface refinements.
+  - Added a local rotor-wall screening refinement of levels `2-3`, use of a reusable blade/shaft topological entity set, and a source-limited feature-refinement starting configuration.
+- Decisions:
+  - Did not recommend refining every internal flow-region face because it mixes the rotor walls, AMI interface, and unrelated internal geometry, increasing cost without directly correcting the ignored rotor-face assignments.
+- Open:
+  - Create or select the blade-and-shaft face set, remesh, and verify that the Event log retains every required no-slip and Forces and moments face.
+
+### 2026-07-21 - Add defeatured-face mesh gate to vj20 tutorial
+
+- Task: diagnose zero `y+`, force, and moment outputs after the vj20 screening run's event log reported that result-control and boundary-condition faces were defeatured and ignored.
+- Actions:
+  - Added a required mesh Event-log check to [[active/documentation/CFD log/Tutorial vj20 SimScale Validation]].
+  - Documented the corrective sequence: identify omitted faces, locally refine required blade or shaft geometry, reduce feature suppression if needed, remesh, and do not run until required wall and result-control faces remain.
+- Decisions:
+  - Treated the warnings as the direct explanation for zero outputs when the omitted faces are rotor walls, rather than as non-critical mesh warnings.
+- Open:
+  - The user must identify the listed faces using the Event-log selection tool and confirm whether they are blade/shaft walls, outer boundaries, or another geometry group before remeshing.
+
+### 2026-07-21 - Add zero-output diagnostic to vj20 tutorial
+
+- Task: diagnose a vj20 transient screening run that completed in about three minutes with zero `y+`, forces, and moments.
+- Actions:
+  - Added a zero-output check to [[active/documentation/CFD log/Tutorial vj20 SimScale Validation]] covering final simulated time, solver log, fluid-volume material assignment, wall/result-control face assignment, inlet face, and AMI cell-zone assignment.
+- Decisions:
+  - Treated the outputs as a setup failure rather than evidence of negligible aerodynamic load; the run must be checked before changing mesh, timestep, or physical-model settings.
+- Open:
+  - Inspect the completed run's final simulated time and the boundary/mesh visualizations to identify the missing or incorrect assignment.
+
+### 2026-07-21 - Stage vj20 transient validation to control AMI runtime
+
+- Task: revise the `vj20` SimScale tutorial after the original 20-revolution, `0.25 degree` 3D AMI setup estimated `2,213-3,319` minutes and `1,164-1,746` core hours.
+- Actions:
+  - Replaced the initial run with a `4`-revolution, `0.50 degree` screening case: `Delta t = 1.40e-4 s`, `End time = 0.404 s`, and about `2,880` solver steps.
+  - Set its field-output intervals to `72` timesteps or `0.01 s`, depending on the selected SimScale write-control mode.
+  - Added a staged coarse-mesh comparison and deferred the long, finer time-step comparison until the AMI case is functioning and its cost is known.
+- Decisions:
+  - Classified the revised first run as a setup and cost screen, not a validated `Cp` result, because the relevant 2D evidence limits `0.5 degree` resolution to attached-flow cases and samples after `20-30` revolutions.
+  - Did not reduce the source-backed domain extents, boundary-layer treatment, or rotating-zone physics before inspecting a working screening case.
+- Open:
+  - Compare the screening torque history and mesh quality, then decide whether the selected mesh requires a longer periodicity run and the `0.25 degree` timestep sensitivity check.
+
+### 2026-07-21 - Clarify vj20 transient write-control modes
+
+- Task: correct the field-output recommendation after the user reported that a write interval of `600` would collect no data.
+- Actions:
+  - Updated [[active/documentation/CFD log/Tutorial vj20 SimScale Validation]] to specify that `600` is valid only with **Write control = Time step**.
+  - Added the alternate **Runtime** / **Adjustable runtime** setting of `0.05 s` for about `40` field states in the `2.02 s` run.
+- Decisions:
+  - Did not change the physical `7.02e-5 s` solver timestep; the field-output mode and interval, not the physics timestep, determine saved-result frequency.
+- Open:
+  - If the user has selected **Time step** and SimScale still says `600` saves no data, capture the exact validation message and current end time so the platform-specific constraint can be diagnosed.
+
+### 2026-07-21 - Correct vj20 transient field-output guidance
+
+- Task: resolve SimScale's warning that the tutorial's initial transient setup would create too many saved time states.
+- Actions:
+  - Updated [[active/documentation/CFD log/Tutorial vj20 SimScale Validation]] to distinguish physical solver timesteps from saved field-output intervals.
+  - Set the initial `2.02 s`, `0.25 degree` run's field write interval to `600` timesteps, yielding about `48` saved field states, while retaining force/moment sampling at every timestep.
+- Decisions:
+  - Kept the `7.02e-5 s` solver timestep because it is the intended angular-resolution setting; reducing saved outputs should use the write interval rather than coarsening physics time resolution.
+- Open:
+  - Confirm in the current SimScale analysis type that its Forces and moments result control can retain one-timestep history independently of the global field-output write interval. If it cannot, export or capture the available torque history and use a separate short run for dense field snapshots.
+
 ### 2026-07-21 - Consolidate report-outline citations
 
 - Task: replace repeated line-by-line source citations in the two active report-preparation notes with a single citation to each referenced record.

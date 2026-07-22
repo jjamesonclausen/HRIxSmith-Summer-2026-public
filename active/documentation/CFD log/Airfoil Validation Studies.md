@@ -503,3 +503,6 @@ same settings again, again bad non-orthogonality (~89)
 seems like the thicker we go the less accurate it gets
 Cl= 0.58, should be more like 0.68
 Cd = 0.029, pretty good
+## Run 20: 0018, AOA = 3 - NADA
+tested same settings as Run 13 but with AOA = 3 deg, got Cl = 0.352, Cd = 0.025
+according to LLM/wiki should be Cl = 0.43 ish
