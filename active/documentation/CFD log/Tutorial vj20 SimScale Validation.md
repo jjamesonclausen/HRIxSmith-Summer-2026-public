@@ -109,38 +109,47 @@ The table's scaled `37.06 rad/s` does not produce TSR 3 with the table's scaled 
 
 ## 10. Set Transient Controls
 
-1. Start with an angular timestep of `0.25 degrees`:
+1. For the first AMI and mesh screening run, use an angular timestep of `0.50 degrees`:
 
 ```text
 Delta t = Delta theta * pi / (180 * omega)
-        = 0.25 * pi / (180 * 62.2)
-        = 7.02e-5 s
+        = 0.50 * pi / (180 * 62.2)
+        = 1.40e-4 s
 ```
 
-2. Simulate an initial `20` revolutions:
+2. Simulate `4` revolutions for this screening run:
 
 ```text
 T_revolution = 2*pi / 62.2 = 0.101 s
-End time = 20 * 0.101 = 2.02 s
+End time = 4 * 0.101 = 0.404 s
 ```
 
-3. Write field data every `20` timesteps (`5 degrees`) and retain force/moment output every timestep.
-4. Repeat the selected mesh at `0.10 degrees` and `0.50 degrees`. Compare final-period mean shaft torque and `Cp`; do not copy `vj20`'s `0.05 s` time step, which was specific to its Fluent case and passed its own sensitivity test. (source: sources/vj20.md, sources/va32.md)
+3. This screening case has about `2,880` solver steps, about one tenth of the former `20`-revolution, `0.25 degree` setup. Set **Maximum runtime** only high enough for this screen's revised estimate; do not solve the runtime problem by simply allowing the original run to consume more time.
+4. Choose **Write control = Time step** and **Write interval = 72** for about `40` field states. If the selected mode is **Runtime** or **Adjustable runtime**, use `0.01 s` instead. SimScale defines the interval units differently for these modes. (source: sources/ca18.md)
+5. Keep the **Forces and moments** result-control interval at `1` timestep so the shaft-torque history remains time-resolved. Use the sparse field outputs only to inspect the overall solution and wake.
+6. Treat this run as a setup and cost screen only. A `0.5 degree` step was sufficient only for moderate-to-high-TSR attached-flow cases in the available 2D evidence; separation may require a finer step. It is not enough to claim time-step independence or validated `Cp` for this 3D hybrid. (source: sources/va32.md)
+7. If the screen completes cleanly, create a coarser mesh by changing only blade, AMI, and near-wake refinement; retain inflation, boundary conditions, domain, and physics. Compare its torque waveform and mean torque with the current mesh before committing to a longer run. Do not simultaneously coarsen the mesh and increase the timestep. (source: sources/vj20.md)
+8. For a later accuracy check, rerun the selected mesh at `0.25 degrees` and `0.50 degrees` over a duration long enough to compare repeatable final cycles. Do not copy `vj20`'s `0.05 s` Fluent timestep. The available 2D evidence samples only after `20-30` revolutions, which is a target to reassess rather than copy directly to this 3D case. (source: sources/vj20.md, sources/va32.md)
 
 ## 11. Create Meshes
 
 1. Select **Hex-dominant parametric** meshing.
 2. Add a **surface refinement** to the closed AMI cylinder. Enable **With cell zone** and name it `AMI_rotor_zone`.
-3. Add surface refinement to blades and shaft, and feature refinement to blade leading and trailing edges.
-4. Add region refinement inside the AMI zone, then in a near-wake box immediately downstream, then a coarser far-wake box.
-5. Add boundary-layer inflation to blade and shaft walls:
+3. Create a separate **Surface refinement - rotor walls**. Clear its default face list, then assign only the same blade and shaft faces used by the no-slip wall condition and Forces and moments result control. Do not assign every non-external face: keep the AMI-cylinder interface and unrelated internal faces out of this refinement.
+   - Start with **Min level = 2** and **Max level = 3**. These are a local screening increase because levels `1-2` defeatured required rotor faces; confirm against the Event log before running.
+   - If selecting many rotor sub-faces is impractical, create a topological entity set for all blade and shaft faces and reuse that set for the wall condition, result control, and rotor-wall surface refinement. (source: sources/ca1.md)
+4. Keep the AMI-cylinder surface refinement separate and set it **With cell zone** named `AMI_rotor_zone`; it must not use the rotor-wall face list.
+5. Feature refinement overrides surface refinement at geometry edges. While diagnosing defeatured rotor walls, temporarily disable the custom feature refinement and remesh so the rotor-wall surface refinement can be tested in isolation. If the required faces are retained, re-enable feature refinement with every edge-level at least as fine as the rotor-wall surface refinement; do not use a `1 m` distance. (source: sources/ca21.md)
+6. Add region refinement inside the AMI zone, then in a near-wake box (1.7) immediately downstream, then a coarser far-wake box (1.2).
+7. Add boundary-layer inflation to blade and shaft walls:
    - Layers: `15`
    - Growth ratio: `1.4`
-   - First layer: calculate for the selected wall treatment, then verify using solved `y+`.
-6. These layer settings match `vj20`. Target solved `y+ < 5` in the k-epsilon source-matched case and approximately `y+ = 1` in the SST sensitivity case. (source: sources/vj20.md, sources/HRI2526.md, sources/cj2.md)
-7. Generate coarse, medium, and fine meshes. Change only blade, AMI, and near-wake sizes; keep all physics, timestep, and output controls fixed.
-8. Select the first mesh whose cycle-mean torque and `Cp` change negligibly against the next finer mesh. `vj20`'s `321,189` nodes are not a transferable target. (source: sources/vj20.md)
-9. Inspect mesh quality. Keep maximum non-orthogonality below `70`, improve above `80`, and do not accept above `85`. (source: https://www.simscale.com/docs/simulation-setup/meshing/mesh-quality/)
+   - First layer: calculate for the selected wall treatment, then verify using solved `y+`. (started at 1e-4)
+1. These layer settings match `vj20`. Target solved `y+ < 5` in the k-epsilon source-matched case and approximately `y+ = 1` in the SST sensitivity case. (source: sources/vj20.md, sources/HRI2526.md, sources/cj2.md)
+2. Generate a coarse screening mesh before the medium and fine meshes. Change only blade, AMI, and near-wake sizes; keep all physics, timestep, and output controls fixed.
+3. Select the first mesh whose cycle-mean torque and `Cp` change negligibly against the next finer mesh. `vj20`'s `321,189` nodes are not a transferable target. (source: sources/vj20.md)
+4. Inspect mesh quality. Keep maximum non-orthogonality below `70`, improve above `80`, and do not accept above `85`. (source: https://www.simscale.com/docs/simulation-setup/meshing/mesh-quality/)
+5. Open the mesh **Event log** before running. If it says that faces assigned to a no-slip boundary condition or Forces and moments control were defeatured and will be ignored, do not run. Click **select all** in the warning to identify the omitted faces. First verify that only required blade and shaft faces are assigned to the wall and result controls. Next, test the rotor-wall surface refinement with custom feature refinement disabled; then reintroduce feature refinement at equal-or-finer levels. If required faces still disappear, inspect the CAD for unnecessary tiny manufacturing faces or sharp details and repair/remove only details that are not part of the aerodynamic geometry. Do not rely on global fineness alone, because local refinement targets the geometry that must remain in the mesh. (source: sources/ca3.md, sources/ca21.md)
 
 ## 12. Post-process And Compare
 
@@ -165,7 +174,18 @@ Cp = P / (0.5 * rho * A * U_infinity^3)
 
 ## Acceptance And Failure Checks
 
+- **Zero-output diagnostic:** If `y+`, forces, and moments are all zero, do not interpret the run or continue refining it. First check the completed run's final simulated time and solver log: it must reach the configured `0.404 s`. Then inspect the mesh and boundary-condition visualization: the external-flow volume must be a material-assigned fluid body with blade and shaft cavities; the selected no-slip walls and Forces and moments surfaces must be those resulting fluid-volume faces; the velocity inlet must be on `X min`; and the AMI cylinder must be a fluid cell zone, not a wall. A zero result commonly indicates that the monitored walls or rotating zone are not in the solved fluid region. (source: sources/ca6.md, sources/ca14.md, sources/ca19.md, sources/cj8.md)
 - Treat the case as technically usable only after mesh and timestep changes no longer materially change mean torque or `Cp`.
 - Use the `vj20` target as a reported comparison, not proof: `Cp` about `0.478` at the stated experimental condition and `0.486` in the paper's computational comparison. (source: sources/vj20.md)
 - If `Cp` rises indefinitely as TSR rises, stop interpreting the sweep as validated. HRI reported this failure even with AMI and attributed it to unresolved parasitic-force prediction. (source: sources/HRI2526.md)
 - Next check: complete a separate airfoil-level validation at a matching Reynolds number before relying on whole-rotor performance.
+
+
+
+## Run 1: FAIL
+defeatured faces resulted in forces and moments not being captured
+
+## Run 2:
+adjusted mesh settings with LLM guidance as follows:
+
+![[Pasted image 20260721140548.png|209]] ![[Pasted image 20260721140634.png|224]]

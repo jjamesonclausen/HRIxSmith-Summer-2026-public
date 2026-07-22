@@ -414,19 +414,27 @@
 	- summarized CFD airfoil validation studies so far
 	- test magic prompt
 	- make visual decision analysis matrix
-To Do:
-	- AI stuff --> ryan
-		- have it make slides?
-	- work on documentation prep if we are out of things to do
-	- post lunch, go back to full turbine cfd study
-	- prep a slide or two to briefly discuss AI stuff with Ryan tomorrow 
+`11:30` work through vj20 vawt validation study set up with julie (1 hr)
+	- used LLM tutorial from yesterday, had it make some changes to fix various errors
+	- also just looked some stuff up ourselves which was refreshing tbh
+	- generated mesh to check y+ and non orthogonality
+`13:30`  mesh troubleshooting, meeting prep (2.5 hrs)
+	- analyzed mesh (max non orthog  = 70!), started run 1
+	- run 1 failed, took 3 min and did not capture forces and moments, same with 2
+		- changed some mesh settings based on LLM guidance to fix, regenerated
+		- run 3 didn't complete, idk why switched to mtg mode
+	- made slides with julie, thinking about AI successes/failures from the week
+		- *used LLM to look through daily logs for the week and come up with a list of what went well and what didn't and what questions we could ask, pretty helpful (at least a good starting point)*
+`16:00` met w/ Ryan + Julie (0.5 hrs)
+	- should add functionality to search the internet if the wiki doesn't have the answer (AND SAY VERY CLEARLY WHAT CAME FROM THE INTERNET)
+	- can add agent skills for repeated tasks
+		- might be useful for having the llm validate its own work (like quantitative reporting)
+
 ---
 Hours: -12.25
 
 **Mtg notes 7/14:**
 	- LLM prompt improvements
-		- 
-		- define abstractions, give examples
 		- ask for visual decision analysis matrix to justify decisions
 	- consider asking LLM to break down tasks between two people and the LLM
 	- ask LLM about doable ways to estimate cut in speed
@@ -435,7 +443,6 @@ Hours: -12.25
 	- use llm to help summarize and document all of our iterations of CAD and CFD 
 **Misc:**
 	- add shorter time interval data to investigate wind direction fluctuations 
-	- start learning how to use simscale to determine what testing we think we can do to inform parameter choices/experimental design
 
 
-next Tuesday 07/21 only ryan will be available for our meeting, if we don't have questions for him we can cancel and catch everybody up the following week. Note that rajeev will have missed two weeks by then!
+next tuesday 07/28 everyone will be back, but note that rajeev will have missed two weeks by then!
