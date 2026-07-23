@@ -1,6 +1,28 @@
 #maintenance
 ## Log
 
+### 2026-07-23 - Prepare CFD expert meeting brief
+
+- Task: consolidate the NACA 0018 validation history and VJ20 SimScale setup record into a concise briefing document for an upcoming CFD-expert meeting.
+- Actions:
+  - Created [[active/documentation/CFD Expert Meeting Brief]] with the current airfoil case, tested changes, strongest recorded result, benchmark limitations, control cases, VJ20 source case, current zero-output failure, and targeted expert questions.
+  - Linked the brief to the run log, existing airfoil summary, VJ20 tutorial, CFD notes, and underlying `cj9` and `vj20` sources.
+- Decisions:
+  - Framed the airfoil work as incomplete validation and the VJ20 run as a setup failure until it produces resolved forces and moments.
+  - Prioritized an expert-approved benchmark and one-variable-at-a-time airfoil reruns before interpreting VJ20 `Cp`.
+- Open:
+  - Record the expert's chosen benchmark, acceptance criteria, and approved staged VJ20 setup in the meeting brief after the meeting.
+
+### 2026-07-23 - Flag airfoil wall-treatment discrepancy
+
+- Task: capture a discrepancy between the NACA 0018 run log and the user's report of the current SimScale wall setting.
+- Actions:
+  - Updated [[active/documentation/CFD Expert Meeting Brief]] to state that the run log labels the final rounded-tail case as wall-function while the user reports full resolution.
+- Decisions:
+  - Kept the original run log unchanged and made saved-case verification an explicit expert-review item.
+- Open:
+  - Confirm the wall-treatment setting in the saved SimScale case and record the solved `y+` distribution.
+
 ### 2026-07-23 - Reject vj20 Run 4 mesh-quality warning
 
 - Task: assess the Run 4 mesh warning after its required faces were retained.
@@ -130,6 +152,28 @@
 - Open:
   - Identify a condition-matched low-Re NACA0018 benchmark and complete the validation evidence needed before applying this workflow to VAWT comparisons.
 
+### 2026-07-21 - Create NACA 0018 CFD validation decision matrix
+
+- Task: recommend next steps for the NACA 0018 validation discrepancy and create a visual decision matrix, drawing on the CFD log, daily log, and source-grounded wiki notes.
+- Actions:
+  - Created `active/documentation/NACA0018 Validation Decision Matrix.md` with a Mermaid decision flow, prioritized matrix, baseline evidence, and a recommended escalation path.
+  - Compared the NACA 0018 record with the NACA 0012 and NACA 0010 controls, low-Re `cj9` experiment, the documented SimScale pseudo-2D workflow, and CFD/mesh limitations.
+- Decisions:
+  - Recommended freezing the current case and resolving reference applicability, geometry, dimensionality, and mesh evidence before changing broad solver settings or selecting another turbulence model.
+- Open:
+  - Build the benchmark dossier, perform sharp-versus-rounded and pseudo-2D controlled comparisons, then request human CFD review if the discrepancy remains.
+
+### 2026-07-21 - Document the CAD modeling process
+
+- Task: review `active/documentation/CAD log/` and Julie's CAD-related daily-log notes, then create a process document under `active/documentation/`.
+- Actions:
+  - Created `active/documentation/CAD Modeling Process.md` covering the VA9 Zoo/KCL refinement history, the `vj20` Zoo and Fusion attempts, the Savonius benchmark scope, CFD preparation, and documented limitations.
+  - Included Julie's daily-log observations on AI-CAD learning, prompt tracking, Fusion, ZooKeeper, and early airfoil/SimScale work.
+- Decisions:
+  - Distinguished tool-reported CAD checks from physical, aerodynamic, and CFD validation; retained known model defects and unresolved geometry issues.
+- Open:
+  - Validate selected CAD geometries before CFD use, especially the `vj20` inner airfoil and the VA9 multi-body blade assembly.
+
 ### 2026-07-21 - Write first-person reflection on the AI-assisted project
 
 - Task: turn Julie's documented thoughts on the wiki, LLMs, and AI into a cohesive project reflection under `active/documentation/`.
@@ -167,7 +211,7 @@
 
 - Task: relocate the four-week summary and narrative-report outline to the active documentation area.
 - Actions:
-  - Moved the note to [[active/documentation/Weeks 1-4 Project Summary and Report Outline]].
+  - Moved the note to [[Weeks 1-4 Project Summary and Report Outline]].
   - Updated [[index]] to use the path-qualified Obsidian link.
 - Decisions:
   - Kept the note indexed because it remains current project documentation even though it is outside the maintained wiki content.
@@ -178,7 +222,7 @@
 
 - Task: synthesize the completed-work bullets and italicized AI-use reflections in `active/_anna daily log.md` for the first four project weeks into a narrative-report preparation note.
 - Actions:
-  - Created [[active/documentation/Weeks 1-4 Project Summary and Report Outline]] with a week-by-week activity summary, AI-utility lessons, a narrative report structure, drafting evidence needs, and uncertainty checks.
+  - Created [[Weeks 1-4 Project Summary and Report Outline]] with a week-by-week activity summary, AI-utility lessons, a narrative report structure, drafting evidence needs, and uncertainty checks.
   - Updated [[index]] to include the new project-documentation note.
 - Decisions:
   - Treated the daily log as the traceable source for chronology and reported experience, not as validation evidence for technical VAWT or CFD performance claims.

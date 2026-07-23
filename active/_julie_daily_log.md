@@ -354,11 +354,52 @@ day off
 - call with Mike and anna (0.5 hr)
 ### Tuesday 7/21
 - Met with Mike + Anna - 9am
-- meeting with Ryan and Duane -4 pm
+	- made a to do list for today and tomorrow
+		- try magic prompts 
+		- ask llm to make a visual decision matrix 
+		- work on documentation 
+		- make slides for Ryan 
+		- work on simulation 
+- stay on call with anna 
+	- slack ryan 
+	- individually work on documentation 
+		- have llm read through daily log and make organized bullet list of what we did 
+		- have llm pull out and reflections i wrote about the llm/wiki in a new doc 
+		- have llm read through the cad 
+	- try out the visual decision matrix 
+		- prompt: I am really stuck with my cfd, I am trying to simulate the NACA 0018 airfoil and validate it using published data I found but I keep getting incorrect data, I have used the same settings to correctly validate the NACA 0010 and 0012 airfoils so I feel stuck. I have asked the LLM for tips on what to do with no success. what would you recommend i do now. (your recommendations can go beyond setting adjustments) please make a visual decision matrix for your result
+		- wasn't super helpful, found a lot of the steps were quite vague and the final step was just to have a human check it 
+- make slides for meeting with ryan 
+- watch some you tube tutorials on how to set up a simulation for VAWT 
+	- the one that anna and i set up failed and the reported forces were just zero 
+		- might be an issue with the mesh 
+- [[interesting convo with LLm abt vj20]]
+- meeting with Ryan -4 pm
+	- his advice:
+		- make an evaluation  prompt 
+		- be explicit in ranking 
+		- you might need to use python 
+		- is there something to add to agents file to reduce errors 
+		- make skills in opencode (read abt this in the opencode website)
+		- have the llm search the internet for you 
+		- ask simscale people for help 
+		- ask llm to continuously log all cdf for you 
 ### Wednesday 7/22
-- Met with Mike + Anna - 9am
+- Met with Anna - 9am
+- added the internet access to agents page 
+- email Phillip 
 ### Thursday 7/23
 - Met with Mike + Anna - 9am
+- Stay on with anna 
+	- talk about what the meeting will look like with Phil 
+		- had llm make a summary doc of our work to explain to phil 
+	- trouble shoot some more sim scale 
+	- respond to Phil 
+	- email about what the report style will look like 
+	- email Ryan about medium 
+- simulations 
+	- re-ran the settings that worked for the naca 0012 on the naca 0018 but changed the boundary layers from 3 to 6 set the overall thickness to .2 and the first layer thickness to 0.001 - not successful/no change 
+	- did some questioning with Gemini and it recommended changing the simulation type from steady state to transient so i tried that and got worse numbers for lift and drag
 ### Friday 7/24
 - Met with Mike + Anna - 9am
 ## Week 6

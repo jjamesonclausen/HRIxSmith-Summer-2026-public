@@ -64,3 +64,6 @@ This note extracts Julie's project reflections and opinions from the daily log. 
 ## Scope and Limitations
 
 These are Julie's recorded reflections during the first four weeks of the project. They are observations from an evolving workflow, not independently verified conclusions about LLMs, AI CAD tools, or CFD software generally. (source: active/_Julie_daily_log.md)
+
+
+the prompt given: i want to have some more documentation for my project. i have been keeping a daily log called _julie_daily_log where i write down what i have done each day. can you read through the first 4 weeks can make and outline/ list of the things i did. dont include how long tasks took me or daily calls with mike. i want to have a big picture outline of what i have done thus far that i can use to write a blog post. please put all this info in a new doc under resources called LLM blog outline julie
