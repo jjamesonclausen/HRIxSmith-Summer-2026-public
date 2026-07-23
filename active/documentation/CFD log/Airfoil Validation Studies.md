@@ -508,6 +508,7 @@ tested same settings as Run 13 but with AOA = 3 deg, got Cl = 0.352, Cd = 0.025
 according to LLM/wiki should be Cl = 0.43 ish
 
 
+
 # Batch three - mesh refinements 
 ### 1
 ![[Pasted image 20260723151130.png]]

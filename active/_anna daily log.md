@@ -431,6 +431,34 @@
 		- might be useful for having the llm validate its own work (like quantitative reporting)
 
 ---
+### Wednesday 07/21
+
+`09:00` met w/ Julie, implemented internet search functionality for the llm wiki, responded to emails, slacked mike (1 hr)
+
+### Thursday 07/22
+
+`09:00` met w/ Mike + Julie
+`09:30` tried more LLM assisted SimScale troubleshooting (3 hrs)
+`13:00` started getting organized for and writing outline of concept selection process (1 hr)
+`14:00` mtg w/ Philip for CFD help
+	Notes:
+		- high aspect ratio - very squished/flat, high surface area to volume ratio, or angle size (check how simscale actually quantifies it)
+		- when checking mesh quality look at the ends of a bell curve, a few bad cells can crash the simulation
+		- interface between boundary cells and free stream nice mesh cells
+			- often near sharp corners or areas where geometry isn't well defined
+		- add refinement layers = add another subdivision
+			- forces more of the mesh to be nice and structured and less in the messy boundary conforming region
+			- increases computational cost very quickly
+		- can also simplify geometry (remove weird edges where mesher is struggling)
+		- residuals should be def under e-10, ideally at e-15
+`15:00` played around with mesh settings w Julie trying to match what it visually looks like to something like this ![[Pasted image 20260723154144.png]]
+	- it seems like increasing the number of boundary layers and their overall relative thickness is good
+	- regional refinement around entire airfoil is also good
+	- global mesh fineness can be 3-4 if you do a good job around the airfoil
+
+
+
+
 Hours: -12.25
 
 **Mtg notes 7/14:**
@@ -445,4 +473,15 @@ Hours: -12.25
 	- add shorter time interval data to investigate wind direction fluctuations 
 
 
+
+
+
+
 next tuesday 07/28 everyone will be back, but note that rajeev will have missed two weeks by then!
+
+MIKE SCHEDULE
+monday 27th, mike not avilable, 
+tuesday, available in the morning not afternoon mtg, 
+wendesday camping so prob not, 
+thursday, no, 
+friday - wednesday, available
