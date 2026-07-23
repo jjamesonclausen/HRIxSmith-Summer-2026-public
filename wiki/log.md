@@ -23,6 +23,17 @@
 - Open:
   - Confirm the wall-treatment setting in the saved SimScale case and record the solved `y+` distribution.
 
+### 2026-07-23 - Create combined LLM wiki blog outline
+
+- Task: read Julie's and Anna's daily logs and create a blog-style outline about setting up the LLM wiki and reflecting on the process.
+- Actions:
+  - Created [[active/documentation/LLM set up blog]] with a narrative structure covering initial setup, source ingestion, information architecture, design screening, failure cases, learning tradeoffs, and practical takeaways.
+  - Grounded the outline in both daily logs and added personal-reflection prompts and publication checks.
+- Decisions:
+  - Framed the wiki as source-grounded infrastructure for learning and engineering judgment, rather than an autonomous expert or a validated substitute for human review.
+- Open:
+  - Replace reflection prompts with personal examples and confirm shareable material before publishing.
+
 ### 2026-07-21 - Prevent feature-refinement override of vj20 rotor-wall mesh
 
 - Task: identify additional changes after the rotor-wall surface refinement did not retain faces assigned to vj20 boundary and result controls.

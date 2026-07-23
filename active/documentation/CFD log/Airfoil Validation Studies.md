@@ -506,3 +506,28 @@ Cd = 0.029, pretty good
 ## Run 20: 0018, AOA = 3 - NADA
 tested same settings as Run 13 but with AOA = 3 deg, got Cl = 0.352, Cd = 0.025
 according to LLM/wiki should be Cl = 0.43 ish
+
+
+# Batch three - mesh refinements 
+### 1
+![[Pasted image 20260723151130.png]]
+![[Pasted image 20260723151102.png]]
+![[Pasted image 20260723151017.png]]
+
+### 2
+went from 6 --> 15 
+![[Pasted image 20260723153102.png]]
+
+### 3 
+changed overall thickness from 0.5 to 1 
+![[Pasted image 20260723153455.png]]
+
+### 4
+changed overall thickness from 1 --> 2 
+![[Pasted image 20260723153935.png]]
+
+### 5 
+changed the growth rate 1.2 --> 1.5 and changed the overall thickness from 2 --> 2.5 
+![[Pasted image 20260723154246.png]]
+
+

@@ -101,9 +101,51 @@
               "icon": "lucide-file",
               "title": "CFD Expert Meeting Brief"
             }
+          },
+          {
+            "id": "08a04dec33ed1b3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "active/documentation/CFD log/Airfoil Validation Studies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Airfoil Validation Studies"
+            }
+          },
+          {
+            "id": "8aabf7f8d975f369",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "active/documentation/CFD log/Airfoil Validation Studies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Airfoil Validation Studies"
+            }
+          },
+          {
+            "id": "ff752bbadb4087b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "active/documentation/LLM blog outline julie.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LLM blog outline julie"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -135,7 +177,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "magic prompt",
+                "query": "tag:#report",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -160,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.50499725341797
+    "width": 451.50418853759766
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -265,11 +307,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "9b080656a7125bfb",
+  "active": "8aabf7f8d975f369",
   "lastOpenFiles": [
+    "Pasted image 20260723154246.png",
+    "Pasted image 20260723153935.png",
+    "Pasted image 20260723153455.png",
+    "Pasted image 20260723153102.png",
+    "Pasted image 20260723151130.png",
+    "Pasted image 20260723151102.png",
+    "Pasted image 20260723151017.png",
+    "Untitled.md",
+    "active/documentation/CFD log/Airfoil Validation Studies.md",
+    "active/documentation/LLM set up blog.md",
+    "active/documentation/LLM blog outline julie.md",
+    "active/_Julie_daily_log.md",
     "active/documentation/CFD Expert Meeting Brief.md",
     "active/documentation/Airfoil Validation Study Summary and Report Outline.md",
-    "active/_Julie_daily_log.md",
     "active/resources/interesting convo with LLm abt vj20.md",
     "attachments/PDFs/vj20.pdf",
     "images/Pasted image 20260721140634.png",
@@ -284,7 +337,6 @@
     "active/resources/Julie reflections on the wiki, LLM, and AI.md",
     "active/_anna daily log.md",
     "active/documentation/Weeks 1-4 Project Summary and Report Outline.md",
-    "active/documentation/LLM blog outline julie.md",
     "active/documentation/refections on project.md",
     "wiki/CFD/VAWT CFD Study Setup Checklist.md",
     "active/documentation/CAD log/VAWT_Dual_H_Rotor_ScaledDown.step",
@@ -297,18 +349,8 @@
     "active/_project timeline.md",
     "wiki/summaries/va33-summary.md",
     "wiki/summaries/va32-summary.md",
-    "wiki/summaries/va31-summary.md",
-    "wiki/designs/va33 Moderate-TSR Reference H-Type VAWT.md",
-    "wiki/designs/va32 Reference H-Type VAWT.md",
-    "wiki/designs/va31 Reference H-Type VAWT.md",
     "images/va33-fig9.jpg",
     "images/va33-fig8.jpg",
-    "images/va33-fig7.jpg",
-    "images/va33-fig6.jpg",
-    "images/va33-fig5.jpg",
-    "images/va33-fig4.jpg",
-    "images/va33-fig3.jpg",
-    "images/va33-fig25.jpg",
     "attachments/PDFs/va33_raw.pdf",
     "attachments/PDFs/va32_raw.pdf",
     "attachments/PDFs/va31_raw.pdf",

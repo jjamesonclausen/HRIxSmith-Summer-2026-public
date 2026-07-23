@@ -400,6 +400,9 @@ day off
 - simulations 
 	- re-ran the settings that worked for the naca 0012 on the naca 0018 but changed the boundary layers from 3 to 6 set the overall thickness to .2 and the first layer thickness to 0.001 - not successful/no change 
 	- did some questioning with Gemini and it recommended changing the simulation type from steady state to transient so i tried that and got worse numbers for lift and drag
+- writting for blog 
+	- had llm go through daily log and make an outline of what we did to set up the wiki 
+	- also had it make me reflection prompts 
 ### Friday 7/24
 - Met with Mike + Anna - 9am
 ## Week 6
