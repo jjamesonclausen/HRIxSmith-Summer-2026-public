@@ -26,9 +26,6 @@ Figure 2: Histogram of hourly wind speed from Jul 2021 - Jul 2026. This is the f
 - should design turbine to be at a similar height as wind measurements for best estimations of power production. (Wind speed can vary dramatically in the turbulent boundary layer near the ground.)
 - 
 
-
-
-
 ## Anna 
 ### Design Criteria 
 - competitive efficiency compared to current on-the-market vawts

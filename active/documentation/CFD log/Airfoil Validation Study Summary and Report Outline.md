@@ -1,3 +1,8 @@
+---
+tags:
+  - report
+---
+
 `Prompt:` Read through Airfoil Validation Studies.md and write a similar outline \[to [[Weeks 1-4 Project Summary and Report Outline]]\] that includes the most important tests done, what parameters were changed, what was learned, and where we left off. Remember that the process is not complete.
 
 **Source:** [[active/documentation/CFD log/Airfoil Validation Studies]]
@@ -62,6 +67,13 @@ This note summarizes the ongoing NACA0018 airfoil CFD comparison at `Re = 50,000
 - The NACA0012 control supports the shared workflow but does not validate NACA0018 or determine that the AirfoilTools reference is wrong. The rounded trailing edge also prevents a strict comparison with an ideal sharp NACA0018.
 - The log advises against continuing to alter general settings simply to force the NACA0018 result toward one reference curve. The current result should be reported as the prediction of this steady, `k-omega SST`, rounded-NACA0018 pseudo-2D case.
 - The next defensible step is a condition-matched low-Re benchmark with documented geometry, trailing-edge treatment, transition/turbulence conditions, dimensionality, mesh, convergence evidence, and measured coefficients. Only then should the workflow guide VAWT comparisons.
+
+
+
+
+
+
+
 
 ## Narrative Report Outline
 

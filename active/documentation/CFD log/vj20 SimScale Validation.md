@@ -136,20 +136,21 @@ End time = 4 * 0.101 = 0.404 s
 1. Select **Hex-dominant parametric** meshing.
 2. Add a **surface refinement** to the closed AMI cylinder. Enable **With cell zone** and name it `AMI_rotor_zone`.
 3. Create a separate **Surface refinement - rotor walls**. Clear its default face list, then assign only the same blade and shaft faces used by the no-slip wall condition and Forces and moments result control. Do not assign every non-external face: keep the AMI-cylinder interface and unrelated internal faces out of this refinement.
-   - Start with **Min level = 2** and **Max level = 3**. These are a local screening increase because levels `1-2` defeatured required rotor faces; confirm against the Event log before running.
+    - For the Run 4 recovery mesh, use **Min level = 3** and **Max level = 4** on the blade and shaft wall faces. This is a targeted increase from Run 2's levels `2-3`, which still defeatured `101` required faces.
+    - Temporarily disable the custom feature refinement for this recovery mesh. Run 2 used feature levels `1` at `0.01 m` and `2` at `0.005 m`; those levels are coarser than the rotor-wall setting and can override it at blade edges.
    - If selecting many rotor sub-faces is impractical, create a topological entity set for all blade and shaft faces and reuse that set for the wall condition, result control, and rotor-wall surface refinement. (source: sources/ca1.md)
 4. Keep the AMI-cylinder surface refinement separate and set it **With cell zone** named `AMI_rotor_zone`; it must not use the rotor-wall face list.
-5. Feature refinement overrides surface refinement at geometry edges. While diagnosing defeatured rotor walls, temporarily disable the custom feature refinement and remesh so the rotor-wall surface refinement can be tested in isolation. If the required faces are retained, re-enable feature refinement with every edge-level at least as fine as the rotor-wall surface refinement; do not use a `1 m` distance. (source: sources/ca21.md)
+5. Feature refinement overrides surface refinement at geometry edges. For Run 4, leave the custom feature refinement disabled until the Event log confirms that every required blade and shaft face is retained. Only then re-enable it with every edge-level at least as fine as the rotor-wall setting (level `3` or finer at the relevant blade edges); do not use a `1 m` distance. Remesh and repeat the Event-log check after re-enabling it. (source: sources/ca21.md)
 6. Add region refinement inside the AMI zone, then in a near-wake box (1.7) immediately downstream, then a coarser far-wake box (1.2).
-7. Add boundary-layer inflation to blade and shaft walls:
-   - Layers: `15`
-   - Growth ratio: `1.4`
-   - First layer: calculate for the selected wall treatment, then verify using solved `y+`. (started at 1e-4)
+7. Add boundary-layer inflation only to the blade and shaft wall face set used by the no-slip and Forces and moments controls. Do not assign all `147` internal flow-region faces: this includes the AMI interface and unrelated faces that must not receive inflation.
+    - Layers: `15`
+    - Growth ratio: `1.4`
+    - First layer: calculate for the selected wall treatment, then verify using solved `y+`. The previous trial began at `1e-4 m`; do not use Run 4's `0.2 m` final-layer thickness because it is larger than the `0.0496 m` blade chord.
 1. These layer settings match `vj20`. Target solved `y+ < 5` in the k-epsilon source-matched case and approximately `y+ = 1` in the SST sensitivity case. (source: sources/vj20.md, sources/HRI2526.md, sources/cj2.md)
 2. Generate a coarse screening mesh before the medium and fine meshes. Change only blade, AMI, and near-wake sizes; keep all physics, timestep, and output controls fixed.
 3. Select the first mesh whose cycle-mean torque and `Cp` change negligibly against the next finer mesh. `vj20`'s `321,189` nodes are not a transferable target. (source: sources/vj20.md)
 4. Inspect mesh quality. Keep maximum non-orthogonality below `70`, improve above `80`, and do not accept above `85`. (source: https://www.simscale.com/docs/simulation-setup/meshing/mesh-quality/)
-5. Open the mesh **Event log** before running. If it says that faces assigned to a no-slip boundary condition or Forces and moments control were defeatured and will be ignored, do not run. Click **select all** in the warning to identify the omitted faces. First verify that only required blade and shaft faces are assigned to the wall and result controls. Next, test the rotor-wall surface refinement with custom feature refinement disabled; then reintroduce feature refinement at equal-or-finer levels. If required faces still disappear, inspect the CAD for unnecessary tiny manufacturing faces or sharp details and repair/remove only details that are not part of the aerodynamic geometry. Do not rely on global fineness alone, because local refinement targets the geometry that must remain in the mesh. (source: sources/ca3.md, sources/ca21.md)
+5. Open the mesh **Event log** before running. If it says that faces assigned to a no-slip boundary condition or Forces and moments control were defeatured and will be ignored, do not run. Click **select all** in the warning to identify the omitted faces. First verify that only required blade and shaft faces are assigned to the wall and result controls. For Run 4, use the rotor-wall surface levels `3-4` with custom feature refinement disabled, then remesh. Do not proceed until the warning lists zero required blade or shaft faces. If required faces still disappear, inspect the CAD for unnecessary tiny manufacturing faces or sharp details and repair/remove only details that are not part of the aerodynamic geometry. Do not rely on global fineness alone, because local refinement targets the geometry that must remain in the mesh. (source: sources/ca3.md, sources/ca21.md)
 
 ## 12. Post-process And Compare
 
@@ -175,6 +176,8 @@ Cp = P / (0.5 * rho * A * U_infinity^3)
 ## Acceptance And Failure Checks
 
 - **Zero-output diagnostic:** If `y+`, forces, and moments are all zero, do not interpret the run or continue refining it. First check the completed run's final simulated time and solver log: it must reach the configured `0.404 s`. Then inspect the mesh and boundary-condition visualization: the external-flow volume must be a material-assigned fluid body with blade and shaft cavities; the selected no-slip walls and Forces and moments surfaces must be those resulting fluid-volume faces; the velocity inlet must be on `X min`; and the AMI cylinder must be a fluid cell zone, not a wall. A zero result commonly indicates that the monitored walls or rotating zone are not in the solved fluid region. (source: sources/ca6.md, sources/ca14.md, sources/ca19.md, sources/cj8.md)
+- **Defeatured-face gate:** Run 3 again reported `101` faces assigned to both result controls and boundary conditions as defeatured. This invalidates the load result and is a likely contributor to the early divergence. Do not reduce relaxation factors or change numerical schemes yet: first produce a mesh that retains every required blade and shaft face, inspect its quality near walls and sharp corners, and only then assess any remaining divergence. (source: SimScale Run 3 error message)
+- **Quality gate:** Do not solve a mesh with maximum non-orthogonality above `85`. Run 4's `88.5` maximum and `93` cells above `88 degrees` must be located in the Mesh Quality viewer/Isovolume and corrected through CAD or mesh settings before a transient run. Non-orthogonal correctors are not a remedy above `85`; SimScale directs the user to improve the mesh instead. (source: sources/ca22.md, SimScale Run 4 warning)
 - Treat the case as technically usable only after mesh and timestep changes no longer materially change mean torque or `Cp`.
 - Use the `vj20` target as a reported comparison, not proof: `Cp` about `0.478` at the stated experimental condition and `0.486` in the paper's computational comparison. (source: sources/vj20.md)
 - If `Cp` rises indefinitely as TSR rises, stop interpreting the sweep as validated. HRI reported this failure even with AMI and attributed it to unresolved parasitic-force prediction. (source: sources/HRI2526.md)
@@ -182,10 +185,54 @@ Cp = P / (0.5 * rho * A * U_infinity^3)
 
 
 
-## Run 1: FAIL
-defeatured faces resulted in forces and moments not being captured
+## Run History
 
-## Run 2:
-adjusted mesh settings with LLM guidance as follows:
-
+### Run 1: FAIL
+- Outcome: defeatured faces resulted in forces and moments not being captured.
+- Mesh settings: not recorded in the available run notes.
+### Run 2: FAIL
+- Outcome: faces were still defeatured and `y+`, forces, and moments were all `0`.
+- Mesh settings:
+	- Feature refinement 6: included angle `150 degrees`; distance refinement `0.01 m` at level `1` and `0.005 m` at level `2`.
+	- Surface refinement 2: min level `2`, max level `3`, without cell zone, with `147` assigned flow-region faces.
 ![[Pasted image 20260721140548.png|209]] ![[Pasted image 20260721140634.png|224]]
+
+## Run 3: FAIL
+
+- Outcome: `101` faces assigned to both the result controls and boundary conditions were defeatured; the solution diverged after `1%` progress.
+![[Pasted image 20260723102150.png|184]]![[Pasted image 20260723102211.png|200]]![[Pasted image 20260723102319.png|198]]![[Pasted image 20260723102355.png|187]]![[Pasted image 20260723102420.png|218]]![[Pasted image 20260723102430.png|203]]![[Pasted image 20260723102442.png|208]]![[Pasted image 20260723102502.png|214]]
+
+> [!Error]- Error Message
+> |   |   |
+|---|---|
+|**Result controls** have been applied on the following topological entities: [face 2560@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), [face 2416@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), [face 2422@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), [face 2509@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), [face 2187@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), [face 2303@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), [face 1990@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), [face 2299@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), [face 2584@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), and 91 more ([select all](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#)). These faces have been defeatured because the meshing parameters are too coarse and will be ignored. However, if they are pertinent to your simulation, please refine the mesh further or review your result control setup.|   |
+|**Boundary conditions** have been applied on the following faces: [face 2560@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), [face 2416@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), [face 2422@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), [face 2509@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), [face 2187@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), [face 2303@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), [face 1990@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), [face 2299@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), [face 2584@Flow region](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#), and 91 more ([select all](https://www.simscale.com/workbench/?pid=4544377268423106958&mi=run:49%2Csimulation:22&mt=SIMULATION_RUN#)). These faces have been defeatured because the meshing parameters are too coarse. The boundary conditions will be ignored because they have been assessed to be non-critical to the simulation setup. However, if they are pertinent to your simulation, please refine the mesh further or review your boundary condition setup.|   |
+|Job was prepared successfully.|   |
+|Run pre-processing finished.|   |
+|The solution diverged, please check your simulation setup. Divergence can also be caused by bad elements in the mesh. Such elements tend to exist near walls and sharp corners. Visually inspect your mesh to locate them and re-mesh with additional refinements in their vicinity. If you are confident about the mesh-quality, please reduce relaxation factors and use more conservative numerical schemes.|   |
+
+## Run 4: MESH REJECTED
+
+- Outcome: the supplied note did not report a defeatured-face warning, but the Event log must still be checked for it. Maximum non-orthogonality was `88.5` with `93` cells above `88 degrees`. Do not run this mesh.
+- Recorded settings before the Run 5 guidance update:
+  - Rotating-zone refinement min/max levels `3/4`.
+  - Rotor-wall surface refinement min/max levels `7/8`.
+  - Wake-region refinement levels `3` and `4`.
+  - Boundary-layer inflation assigned to `147` flow-region faces: `15` layers, expansion ratio `1.2`, minimum thickness `1e-5 m`, and final-layer thickness `0.2 m`.
+
+![[Pasted image 20260723113343.png|220]]
+
+> [!Warning]- Mesh Quality Warning
+> |   |   |
+|---|---|
+|Max. Non-orthogonality:|88.5|
+|Number of cells with Non-orthogonality > 88 deg:|93|
+|Some mesh elements have quality metrics outside the recommended ranges. We suggest you refine the mesh before running a simulation. Please find more in-depth information in [our documentation.](https://www.simscale.com/docs/simulation-setup/meshing/mesh-quality)|   |
+
+### Run 5: Mesh-Only Recovery
+
+1. Keep Run 4's rotating-zone, rotor-wall, and wake refinements unchanged. This isolates the boundary-layer correction rather than increasing multiple refinements again.
+2. Clear the `147`-face boundary-layer assignment. Create or reuse a blade-and-shaft-only topological face set, use it for the no-slip boundary condition, Forces and moments control, and inflation, and exclude AMI and all unrelated internal faces.
+3. Use `15` layers and growth ratio `1.4`. Replace the `0.2 m` final-layer thickness with a wall-treatment-based first-layer thickness; start from the prior `1e-4 m` trial only if a calculated value is not yet available.
+4. Generate the mesh but do not solve it. Use Mesh Quality/Isovolume to locate the cells above `88 degrees`; hide parts and use the view reset if they are too small to find. Inspect whether they occur at blade edges, the AMI interface, inflation transitions, or a CAD detail.
+5. Release the mesh only when both gates pass: no required blade/shaft face is defeatured and maximum non-orthogonality is below `85` (target below `70`). Do not add non-orthogonal correctors or use more conservative schemes while the maximum remains above `85`. (source: sources/ca22.md)

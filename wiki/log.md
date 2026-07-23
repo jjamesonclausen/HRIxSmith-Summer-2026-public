@@ -1,11 +1,37 @@
 #maintenance
 ## Log
 
+### 2026-07-23 - Reject vj20 Run 4 mesh-quality warning
+
+- Task: assess the Run 4 mesh warning after its required faces were retained.
+- Actions:
+  - Recorded Run 4's refinements and boundary-layer settings before adding a new recovery sequence.
+  - Added a quality gate rejecting the `88.5` maximum non-orthogonality and `93` cells above `88 degrees`.
+  - Replaced the broad `147`-face boundary-layer assignment with blade-and-shaft-only inflation and directed the next attempt to a mesh-only quality inspection.
+- Decisions:
+  - Held Run 4's local refinements fixed to isolate the likely quality problem: inflation across the AMI and unrelated internal faces, with a `0.2 m` final layer exceeding the blade chord.
+  - Did not recommend non-orthogonal correctors, relaxation changes, or conservative schemes because SimScale directs mesh improvement rather than numerical compensation above `85` degrees.
+- Open:
+  - Locate the `93` bad cells using Mesh Quality/Isovolume. If the revised, wall-only inflation still produces cells above `85` degrees, record their location and inspect the corresponding CAD or AMI-interface geometry.
+
+### 2026-07-23 - Recover vj20 mesh after Run 3 divergence
+
+- Task: read the Run 3 error in [[vj20 SimScale Validation]] and update the live instructions without losing the prior run settings.
+- Actions:
+  - Recorded Run 1's available outcome and Run 2's feature-refinement and surface-refinement settings under a new Run History section.
+  - Added a Run 4 recovery mesh: blade/shaft surface refinement levels `3-4` with custom feature refinement disabled.
+  - Added a mesh-release gate requiring every no-slip and Forces and moments blade/shaft face to remain in the mesh before another solve.
+- Decisions:
+  - Deferred relaxation-factor and numerical-scheme changes because Run 3's `101` defeatured boundary/result-control faces make the setup invalid and may explain the early divergence.
+  - Retained the existing AMI, physics, timestep, boundary, and inflation settings so the next run isolates the mesh correction.
+- Open:
+  - After remeshing, inspect the Event log and local mesh quality at blade walls and sharp corners. If no required face is defeatured and the case still diverges, capture the solver residuals and mesh-quality metrics before changing numerics.
+
 ### 2026-07-21 - Prevent feature-refinement override of vj20 rotor-wall mesh
 
 - Task: identify additional changes after the rotor-wall surface refinement did not retain faces assigned to vj20 boundary and result controls.
 - Actions:
-  - Corrected [[active/documentation/CFD log/Tutorial vj20 SimScale Validation]] to state that feature refinement overrides surface refinement at geometry edges.
+  - Corrected [[vj20 SimScale Validation]] to state that feature refinement overrides surface refinement at geometry edges.
   - Added an isolation sequence: verify control face selection, disable custom feature refinement, test the rotor-wall surface refinement, then re-enable feature refinement only at equal-or-finer levels.
   - Added CAD cleanup of non-aerodynamic tiny faces as the fallback when required faces still defeature.
 - Decisions:
@@ -17,7 +43,7 @@
 
 - Task: interpret the user's surface-refinement configuration after it showed `147` assigned faces: all flow-region faces except the six external-domain faces.
 - Actions:
-  - Updated [[active/documentation/CFD log/Tutorial vj20 SimScale Validation]] to split rotor-wall and AMI-cylinder surface refinements.
+  - Updated [[vj20 SimScale Validation]] to split rotor-wall and AMI-cylinder surface refinements.
   - Added a local rotor-wall screening refinement of levels `2-3`, use of a reusable blade/shaft topological entity set, and a source-limited feature-refinement starting configuration.
 - Decisions:
   - Did not recommend refining every internal flow-region face because it mixes the rotor walls, AMI interface, and unrelated internal geometry, increasing cost without directly correcting the ignored rotor-face assignments.
@@ -28,7 +54,7 @@
 
 - Task: diagnose zero `y+`, force, and moment outputs after the vj20 screening run's event log reported that result-control and boundary-condition faces were defeatured and ignored.
 - Actions:
-  - Added a required mesh Event-log check to [[active/documentation/CFD log/Tutorial vj20 SimScale Validation]].
+  - Added a required mesh Event-log check to [[vj20 SimScale Validation]].
   - Documented the corrective sequence: identify omitted faces, locally refine required blade or shaft geometry, reduce feature suppression if needed, remesh, and do not run until required wall and result-control faces remain.
 - Decisions:
   - Treated the warnings as the direct explanation for zero outputs when the omitted faces are rotor walls, rather than as non-critical mesh warnings.
@@ -39,7 +65,7 @@
 
 - Task: diagnose a vj20 transient screening run that completed in about three minutes with zero `y+`, forces, and moments.
 - Actions:
-  - Added a zero-output check to [[active/documentation/CFD log/Tutorial vj20 SimScale Validation]] covering final simulated time, solver log, fluid-volume material assignment, wall/result-control face assignment, inlet face, and AMI cell-zone assignment.
+  - Added a zero-output check to [[vj20 SimScale Validation]] covering final simulated time, solver log, fluid-volume material assignment, wall/result-control face assignment, inlet face, and AMI cell-zone assignment.
 - Decisions:
   - Treated the outputs as a setup failure rather than evidence of negligible aerodynamic load; the run must be checked before changing mesh, timestep, or physical-model settings.
 - Open:
@@ -62,7 +88,7 @@
 
 - Task: correct the field-output recommendation after the user reported that a write interval of `600` would collect no data.
 - Actions:
-  - Updated [[active/documentation/CFD log/Tutorial vj20 SimScale Validation]] to specify that `600` is valid only with **Write control = Time step**.
+  - Updated [[vj20 SimScale Validation]] to specify that `600` is valid only with **Write control = Time step**.
   - Added the alternate **Runtime** / **Adjustable runtime** setting of `0.05 s` for about `40` field states in the `2.02 s` run.
 - Decisions:
   - Did not change the physical `7.02e-5 s` solver timestep; the field-output mode and interval, not the physics timestep, determine saved-result frequency.
@@ -73,7 +99,7 @@
 
 - Task: resolve SimScale's warning that the tutorial's initial transient setup would create too many saved time states.
 - Actions:
-  - Updated [[active/documentation/CFD log/Tutorial vj20 SimScale Validation]] to distinguish physical solver timesteps from saved field-output intervals.
+  - Updated [[vj20 SimScale Validation]] to distinguish physical solver timesteps from saved field-output intervals.
   - Set the initial `2.02 s`, `0.25 degree` run's field write interval to `600` timesteps, yielding about `48` saved field states, while retaining force/moment sampling at every timestep.
 - Decisions:
   - Kept the `7.02e-5 s` solver timestep because it is the intended angular-resolution setting; reducing saved outputs should use the write interval rather than coarsening physics time resolution.
@@ -85,7 +111,7 @@
 - Task: replace repeated line-by-line source citations in the two active report-preparation notes with a single citation to each referenced record.
 - Actions:
   - Added a top-of-page source link to [[active/_anna daily log]] in [[active/documentation/Weeks 1-4 Project Summary and Report Outline]].
-  - Added a top-of-page source link to [[active/documentation/CFD log/Airfoil Validation Studies]] in [[active/documentation/Airfoil Validation Study Summary and Report Outline]].
+  - Added a top-of-page source link to [[active/documentation/CFD log/Airfoil Validation Studies]] in [[Airfoil Validation Study Summary and Report Outline]].
   - Removed the repeated inline source tags from both notes.
 - Decisions:
   - Retained the reports' explicit uncertainty sections and their citations in the source documents, while simplifying the report-preparation notes for readability.
@@ -96,7 +122,7 @@
 
 - Task: synthesize the active NACA0018 airfoil-validation log into a documentation-ready report outline covering tests, parameter changes, lessons, and current status.
 - Actions:
-  - Created [[active/documentation/Airfoil Validation Study Summary and Report Outline]] with the exploratory, pseudo-2D, mesh-quality, and control-case sequence; a parameter-change table; a report outline; and explicit uncertainty limits.
+  - Created [[Airfoil Validation Study Summary and Report Outline]] with the exploratory, pseudo-2D, mesh-quality, and control-case sequence; a parameter-change table; a report outline; and explicit uncertainty limits.
   - Updated [[index]] to link the new active documentation note.
 - Decisions:
   - Preserved the NACA0018 work as incomplete: its current result is a model-specific prediction with an unresolved comparison discrepancy, not a validated CFD workflow.
