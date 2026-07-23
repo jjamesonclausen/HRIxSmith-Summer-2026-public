@@ -1,6 +1,28 @@
 #maintenance
 ## Log
 
+### 2026-07-23 - Prepare CFD expert meeting brief
+
+- Task: consolidate the NACA 0018 validation history and VJ20 SimScale setup record into a concise briefing document for an upcoming CFD-expert meeting.
+- Actions:
+  - Created [[active/documentation/CFD Expert Meeting Brief]] with the current airfoil case, tested changes, strongest recorded result, benchmark limitations, control cases, VJ20 source case, current zero-output failure, and targeted expert questions.
+  - Linked the brief to the run log, existing airfoil summary, VJ20 tutorial, CFD notes, and underlying `cj9` and `vj20` sources.
+- Decisions:
+  - Framed the airfoil work as incomplete validation and the VJ20 run as a setup failure until it produces resolved forces and moments.
+  - Prioritized an expert-approved benchmark and one-variable-at-a-time airfoil reruns before interpreting VJ20 `Cp`.
+- Open:
+  - Record the expert's chosen benchmark, acceptance criteria, and approved staged VJ20 setup in the meeting brief after the meeting.
+
+### 2026-07-23 - Flag airfoil wall-treatment discrepancy
+
+- Task: capture a discrepancy between the NACA 0018 run log and the user's report of the current SimScale wall setting.
+- Actions:
+  - Updated [[active/documentation/CFD Expert Meeting Brief]] to state that the run log labels the final rounded-tail case as wall-function while the user reports full resolution.
+- Decisions:
+  - Kept the original run log unchanged and made saved-case verification an explicit expert-review item.
+- Open:
+  - Confirm the wall-treatment setting in the saved SimScale case and record the solved `y+` distribution.
+
 ### 2026-07-21 - Prevent feature-refinement override of vj20 rotor-wall mesh
 
 - Task: identify additional changes after the rotor-wall surface refinement did not retain faces assigned to vj20 boundary and result controls.

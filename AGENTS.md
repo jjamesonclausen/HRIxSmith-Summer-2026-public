@@ -108,6 +108,7 @@ If the user asks a question that is not supported by `sources/` or `wiki/`, you 
 - Cite the web source URL and state when the information was accessed.
 - Do not add web-derived claims to `wiki/` or treat them as project-source evidence unless the user explicitly asks to ingest and document the source.
 - If reliable web sources disagree or the answer is time-sensitive, say so.
+- Separate internet-search answers from wiki-backed answers when responding to the user.
 
 ## Teaching mode — help the human learn
 

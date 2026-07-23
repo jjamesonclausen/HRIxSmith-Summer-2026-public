@@ -373,26 +373,33 @@ day off
 - watch some you tube tutorials on how to set up a simulation for VAWT 
 	- the one that anna and i set up failed and the reported forces were just zero 
 		- might be an issue with the mesh 
-- [interesting convo with LLm abt vj20] 
-		- what is the cut in speed for the vj20 vawt
-	- The VJ20 paper lists a full-scale cut-in speed of 2.81 m/s. Its scaled model is listed as 1.405 m/s in the scaling table. (source: sources/vj20.md) However, the paper’s wind-tunnel results report that the scaled model actually began rotating at 1.72 m/s. (source: sources/vj20.md) So use 2.81 m/s for VJ20’s reported full-scale cut-in speed, while noting the source has a discrepancy between the scaled-table value and measured scaled-model result.
-		- i founds another paper that cited the cut in speed of the vawt as 1.405 why are you saying 2.81
-	- You are right to question it. The VJ20 paper reports both values for different scales:
-		- 2.81 m/s: listed cut-in speed for the full-scale model.
-		- 1.405 m/s: listed cut-in speed for the scaled-down model. (source: sources/vj20.md, Table 4)
-	- The same paper then reports the scaled model’s experimentally observed minimum starting wind speed as 1.72 m/s, so its own scaled-model values are not fully consistent. (source: sources/vj20.md) I should have led with the scale distinction rather than presenting 2.81 m/s as the unqualified answer. For the physical scaled VJ20 tested in the paper, use 1.405 m/s as the table value, with 1.72 m/s as the reported experimental result.
-		- what is the 2.8 number coming from - a cfd?
-	- No. The 2.81 m/s value is the paper’s full-scale cut-in-speed entry in its scaling table, not a CFD result. (source: sources/vj20.md) The authors created a scaled-down turbine for wind-tunnel testing and used similarity/scaling rules to present full-scale and scaled-model parameters side by side. The table lists 2.81 m/s full-scale and 1.405 m/s scaled-model cut-in speed. (source: sources/vj20.md) The paper does not clearly show the calculation or an independent full-scale experiment that produced 2.81 m/s, so it should be treated as a scaling-based reported value, not a CFD-validated or experimentally measured full-scale cut-in speed. The directly reported wind-tunnel startup observation is 1.72 m/s for the scaled model. (source: sources/vj20.md)
-		- where does the 1.4 number come from
-	+ The 1.405 m/s number comes from Table 4 of the VJ20 paper, where the authors label it as the scaled-down model’s cut-in speed under “parameters ... based on similarity analysis.” (source: sources/vj20.md) The paper does not show a separate calculation, CFD result, or wind-tunnel measurement that derives 1.405 m/s. Its reported wind-speed scaling factor is 2.05, but 2.81 / 2.05 = 1.37 m/s, not 1.405 m/s. (source: sources/vj20.md) So 1.405 m/s is an unexplained table value. The direct experimental startup result reported later in the same paper is 1.72 m/s for the scaled model. (source: sources/vj20.md)
-		+ so what should i treat as the cut in speed 
-	+ Treat 1.72 m/s as the VJ20 paper’s most defensible cut-in speed because it is the reported measured wind-tunnel startup speed for the scaled prototype. (source: sources/vj20.md) For a full-scale VJ20 comparison, record 2.81 m/s as the authors’ scaling-based claim, not as a validated measured result. The paper does not show how it derived that value, and its 1.405 m/s scaled-table value conflicts with the reported 1.72 m/s measurement. (source: sources/vj20.md) Suggested table entry: “Cut-in: 1.72 m/s measured, scaled prototype; full-scale claim 2.81 m/s, unverified scaling extrapolation.”
-- 
+- [[interesting convo with LLm abt vj20]]
 - meeting with Ryan -4 pm
+	- his advice:
+		- make an evaluation  prompt 
+		- be explicit in ranking 
+		- you might need to use python 
+		- is there something to add to agents file to reduce errors 
+		- make skills in opencode (read abt this in the opencode website)
+		- have the llm search the internet for you 
+		- ask simscale people for help 
+		- ask llm to continuously log all cdf for you 
 ### Wednesday 7/22
-- Met with Mike + Anna - 9am
+- Met with Anna - 9am
+- added the internet access to agents page 
+- email Phillip 
 ### Thursday 7/23
 - Met with Mike + Anna - 9am
+- Stay on with anna 
+	- talk about what the meeting will look like with Phil 
+		- had llm make a summary doc of our work to explain to phil 
+	- trouble shoot some more sim scale 
+	- respond to Phil 
+	- email about what the report style will look like 
+	- email Ryan about medium 
+- simulations 
+	- re-ran the settings that worked for the naca 0012 on the naca 0018 but changed the boundary layers from 3 to 6 set the overall thickness to .2 and the first layer thickness to 0.001 - not successful/no change 
+	- did some questioning with Gemini and it recommended changing the simulation type from steady state to transient so i tried that and got worse numbers for lift and drag
 ### Friday 7/24
 - Met with Mike + Anna - 9am
 ## Week 6
