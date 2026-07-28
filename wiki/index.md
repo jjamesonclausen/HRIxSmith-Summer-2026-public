@@ -342,7 +342,7 @@ _Design-parameter pages live in [`parameters/`](parameters/)._
 
 ## Methods
 
-_Procedure and technique pages live in [`methods/`](methods/)._
+_Procedure and technique pages live in `methods/`._
 
 - [[AEO Calculation]]
 - [[Life Cycle Assessment]]
@@ -375,6 +375,7 @@ _Procedure and technique pages live in [`methods/`](methods/)._
 - [[XFOIL]]
 - [[MSES]]
 - [[Box-Behnken Design]]
+- [[VAWT Cut-In Speed Estimation Plan]]
 
 ## CFD Learning Notes
 
