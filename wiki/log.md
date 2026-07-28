@@ -1,6 +1,17 @@
 #maintenance
 ## Log
 
+### 2026-07-28 - Move loose pasted images into attachments
+
+- Task: move loose pasted-image files into the attachments folder.
+- Actions:
+  - Moved the 35 root-level `Pasted image *.png` files into `attachments/` without renaming them.
+  - Verified that the image filenames remain unique within `attachments/`, preserving their Obsidian embeds by filename.
+- Decisions:
+  - Left existing attachment subfolders and non-pasted image files unchanged.
+- Open:
+  - None.
+
 ### 2026-07-28 - Save generated VJ20/VA9 DOE recommendation
 
 - Task: save the tailored DOE recommendation for the VJ20 hybrid baseline and VA9 EN0005 interest in `active/analysis/`.
