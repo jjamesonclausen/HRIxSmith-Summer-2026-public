@@ -620,7 +620,7 @@ says that the inflated boundary layer settings look good
 says that lift can be too low if the solution is not fully stabilized yet so letting it run longer might fix the results 
 
 Got it — thanks, that helps.
-
+ final message from ray: 
 If the hole is there, your geometry is correct. So this is likely **not a setup error anymore**.
 
 At this point, the difference (0.47 vs 0.75) is usually **physical**, not a bug.
