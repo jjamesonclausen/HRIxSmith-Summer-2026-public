@@ -452,7 +452,12 @@ day off
 - experimented with using ray - simscale ai chatbot- to trouble shoot and check over settings 
 	- you do have to tell it how everything is setup but once you tell it can give suggestions 
 	- links documentations pages and gives supporting images on where settings are and how things should be looking which is helpful 
-- 
+- called with anna 
+	- wrote the slides for team meeting at four 
+	- discussed our timeline for the next few days (want to finish airfoil val by eod Wednesday and finish VAWT set up by Tuesday)
+	- continue fixing the mesh 
+		- should email Phill a picture and ask what the issues are bc we have tried everything 
+	- i think that the problem might be the reference data we are using, maybe we should shift to using wind tunnel data instead of xfoil 
 ### Wednesday 7/29
 
 ### Thursday 7/30
