@@ -1,6 +1,17 @@
 #maintenance
 ## Log
 
+### 2026-07-27 - Draft LLM wiki setup blog post
+
+- Task: write a short blog-style account of how establishing the LLM wiki and starting the project went, using Anna's and Julie's daily logs.
+- Actions:
+  - Created [[active/documentation/LLM Wiki Setup Blog Post]] with two source-grounded paragraphs covering initial tooling and collaboration, source-ingestion and organization work, revisions prompted by failures, and the workflow's learning and verification limits.
+  - Updated [[index]] to include the blog-post draft.
+- Decisions:
+  - Kept the prose concise and process-focused rather than treating the wiki as an independently proven engineering tool.
+- Open:
+  - Anna and Julie should add personal examples and confirm publication permissions for project details before sharing the draft.
+
 ### 2026-07-23 - Prepare CFD expert meeting brief
 
 - Task: consolidate the NACA 0018 validation history and VJ20 SimScale setup record into a concise briefing document for an upcoming CFD-expert meeting.
@@ -53,7 +64,7 @@
 
 - Task: read Julie's and Anna's daily logs and create a blog-style outline about setting up the LLM wiki and reflecting on the process.
 - Actions:
-  - Created [[active/documentation/LLM set up blog]] with a narrative structure covering initial setup, source ingestion, information architecture, design screening, failure cases, learning tradeoffs, and practical takeaways.
+  - Created [[blog writing - setting up the wiki]] with a narrative structure covering initial setup, source ingestion, information architecture, design screening, failure cases, learning tradeoffs, and practical takeaways.
   - Grounded the outline in both daily logs and added personal-reflection prompts and publication checks.
 - Decisions:
   - Framed the wiki as source-grounded infrastructure for learning and engineering judgment, rather than an autonomous expert or a validated substitute for human review.

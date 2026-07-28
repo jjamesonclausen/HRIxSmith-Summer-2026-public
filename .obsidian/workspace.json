@@ -40,66 +40,17 @@
             }
           },
           {
-            "id": "2a07e31cf6aa9e24",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "attachments/PDFs/vj20.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "vj20"
-            }
-          },
-          {
-            "id": "cb6d63aeb15f344f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "f3c36eebe8cd66ef",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "active/analysis/Design Comparison.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Design Comparison"
-            }
-          },
-          {
             "id": "b5e50ffac3de1820",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "active/resources/interesting convo with LLm abt vj20.md",
+                "file": "active/documentation/blog writing - setting up the wiki.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "interesting convo with LLm abt vj20"
-            }
-          },
-          {
-            "id": "3abf8e4a5644c7eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "active/documentation/CFD Expert Meeting Brief.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CFD Expert Meeting Brief"
+              "title": "blog writing - setting up the wiki"
             }
           },
           {
@@ -117,35 +68,35 @@
             }
           },
           {
-            "id": "8aabf7f8d975f369",
+            "id": "a582902c82fd444e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "active/documentation/CFD log/Airfoil Validation Studies.md",
+                "file": "active/_project timeline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Airfoil Validation Studies"
+              "title": "_project timeline"
             }
           },
           {
-            "id": "ff752bbadb4087b3",
+            "id": "7b35b5762c018dca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "active/documentation/LLM blog outline julie.md",
+                "file": "active/resources/mtg notes/Notes on meeting July 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM blog outline julie"
+              "title": "Notes on meeting July 7"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -307,50 +258,50 @@
       "bases:Create new base": false
     }
   },
-  "active": "8aabf7f8d975f369",
+  "active": "08a04dec33ed1b3e",
   "lastOpenFiles": [
-    "images/Pasted image 20260723154144.png",
-    "images/Pasted image 20260723113343.png",
-    "images/Pasted image 20260723102502.png",
-    "images/Pasted image 20260723102442.png",
-    "images/Pasted image 20260723102430.png",
-    "images/Pasted image 20260723102420.png",
-    "images/Pasted image 20260723102355.png",
-    "images/Pasted image 20260723102319.png",
-    "images/Pasted image 20260723102211.png",
-    "images/Pasted image 20260723102150.png",
+    "active/_Julie_daily_log.md",
+    "active/documentation/CFD log/Airfoil Validation Studies.md",
+    "active/_project timeline.md",
+    "active/resources/mtg notes/Notes on meeting July 7.md",
+    "Pasted image 20260727155703.png",
+    "Pasted image 20260727155633.png",
+    "active/documentation/blog writing - setting up the wiki.md",
+    "active/documentation/LLM Wiki Setup Blog Post.md",
+    "active/documentation/Weeks 1-4 Project Summary and Report Outline.md",
+    "active/analysis/Concept ranking worksheet.md",
+    "active/analysis/Decision Making Process.md",
+    "active/documentation/LLM blog outline julie.md",
+    "active/documentation/CAD Modeling Process.md",
+    "active/documentation/NACA0018 Validation Decision Matrix.md",
+    "active/documentation/refections on project.md",
+    "active/resources/interesting convo with LLm abt vj20.md",
+    "Pasted image 20260727111418.png",
+    "Pasted image 20260727100426.png",
+    "Pasted image 20260727100405.png",
+    "Pasted image 20260724142623.png",
+    "Pasted image 20260724141620.png",
+    "Pasted image 20260724141559.png",
+    "Pasted image 20260724140807.png",
+    "Pasted image 20260724140114.png",
     "active/documentation/CFD log/vj20 SimScale Validation.md",
     "active/documentation/CFD log/Airfoil Validation Study Summary and Report Outline.md",
-    "Pasted image 20260723154246.png",
     "Untitled.md",
-    "active/documentation/CFD log/Airfoil Validation Studies.md",
-    "active/documentation/LLM set up blog.md",
-    "active/documentation/LLM blog outline julie.md",
-    "active/_Julie_daily_log.md",
     "active/documentation/CFD Expert Meeting Brief.md",
     "active/documentation/Airfoil Validation Study Summary and Report Outline.md",
-    "active/resources/interesting convo with LLm abt vj20.md",
     "attachments/PDFs/vj20.pdf",
     "active/documentation/CFD log/Tutorial vj20 SimScale Validation.md",
     "active/analysis/Design Comparison.base",
     "active/documentation/CFD log/vj20 SimScale Validation Study.md",
-    "active/documentation/NACA0018 Validation Decision Matrix.md",
     "active/documentation/LLM Prompting Experiments.md",
     "wiki/methods/Salp Swarm Algorithm.md",
-    "active/documentation/CAD Modeling Process.md",
     "active/resources/Julie reflections on the wiki, LLM, and AI.md",
     "active/_anna daily log.md",
-    "active/documentation/Weeks 1-4 Project Summary and Report Outline.md",
-    "active/documentation/refections on project.md",
     "wiki/CFD/VAWT CFD Study Setup Checklist.md",
     "active/documentation/CAD log/VAWT_Dual_H_Rotor_ScaledDown.step",
     "active/documentation/CAD log/VAWT_Dual_H_Rotor_Assembly.step",
-    "active/analysis/Concept ranking worksheet.md",
     "active/documentation",
     "active/analysis/table of all designs.base",
-    "active/resources/CFD, SimScale Notes.md",
-    "active/documentation/CAD log/a_vj20.md",
-    "active/_project timeline.md",
     "attachments/PDFs/va33_raw.pdf",
     "attachments/PDFs/va32_raw.pdf",
     "attachments/PDFs/va31_raw.pdf",

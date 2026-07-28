@@ -390,27 +390,69 @@ day off
 - email Phillip 
 ### Thursday 7/23
 - Met with Mike + Anna - 9am
-- Stay on with anna 
+- Stay on with anna (3hr)
 	- talk about what the meeting will look like with Phil 
 		- had llm make a summary doc of our work to explain to phil 
 	- trouble shoot some more sim scale 
 	- respond to Phil 
 	- email about what the report style will look like 
 	- email Ryan about medium 
-- simulations 
+- simulations (1 hr)
 	- re-ran the settings that worked for the naca 0012 on the naca 0018 but changed the boundary layers from 3 to 6 set the overall thickness to .2 and the first layer thickness to 0.001 - not successful/no change 
 	- did some questioning with Gemini and it recommended changing the simulation type from steady state to transient so i tried that and got worse numbers for lift and drag
-- writting for blog 
+- writing for blog (0.5hr)
 	- had llm go through daily log and make an outline of what we did to set up the wiki 
 	- also had it make me reflection prompts 
+- meeting with Phil about simscale (1 hr)
+	- use filter tool to visually inspect the worst cells 
+		- to fix the bad ones add local refinements (refinement layers) - you can set minimum levels 
+			- careful of making the mesh size really big 
+		- sometimes simplifying the geometry is the answer (probably not for the airfoil though)
+		- increasing number of boundary layers or thickness 
+		- ask ai "You can say, I want like a script to run in simscale or in simscale to, to check my mesh quality and it will probably give you like some nice commands or some. Or maybe a nice script that you could run on the mesh here to try to find these things"
+		- maybe decrease overall mesh size from 5 to 4 but needs much more refinement at the airfoil 
+		- change the iso range so that some of the small cells near the transition are highlighted 
+		- could be a non-orthogonality problem 
+		- you want the residuals for k and omega to be around 1e-15 
+		- y+ <1 
+- work on airfoil (1hr) 
+- meet with mike to update (.25 hr)
+- update daily log + take notes from meeting (1 hr) 
 ### Friday 7/24
-- Met with Mike + Anna - 9am
+- Met with Mike - 9am (0.5hr)
+	- talked about day plan and what we talked about with phil 
+- worked on mesh in simscale (5 hr)
+	- all edits are logged in [[Airfoil Validation Studies]]
+		- i was using a combination of gemmi to check how the airfoil was looking visually and the llm to recommend changes 
+		- i also found someone else's airfoil mesh settings in simscale and told it to the ai and asked what parts i should borrow - minimal success 
+		- mad around 20 editions of the mesh, getting a lot closer but i ran a simulation to see what the residuals were looking like and they were just as bad 
+		- having some troubles with the mesh refinement boxes, i think some settings are clashing with each other 
+		- overall the mesh is looking a lot better but is not all the way there 
+			- i am thinking that this is one of the places ai is not as applicable because it can't see all the settings and output all at once which leads it to make suggestions that are already applied, could overrule current settings or repeat suggestions 
 ## Week 6
 
 ### Monday 7/27
+- tried again to install COMSOL with the advice from email - it worked!! (0.5 hr)
+- things is could do today 
+	- start slides 
+	- write for blog post 
+	- continue fixing the mesh 
+- work on mesh settings - continued to log (3.5 hr)
+	- either my home wifi or the increased mesh size is causing this to go somewhat slowly 
+- note: phil said in our meeting that the residuals for the simulation were way to high and we would want k and omega to be around 1e-15 (they were about 1e-5) but i have looked into this and can't find any source that says that would be achievable, and most have been saying that 1e-7 is very good 
+- switched to work on some writing for the blog post (1 hr)
+- back to airfoil - am finding that the llm is getting hard to work with because it doesn't have the ability to look at the mesh visually so it recommends running a simulation after every change - and it need that feedback to evaluate the change, however Phill told us explicitly not to waste time doing this and to just change the mesh and look at its improvement (1.5 hr)
+		- shorter 
 
 ### Tuesday 7/28
-
+- meeting with Mike and Anna (0.5 hr)
+- started the slide show for later 
+- chatted with Gemini about the airfoil 
+- read through some simscale documentation on what boundary layers should look like 
+- experimented with using ray - simscale ai chatbot- to trouble shoot and check over settings 
+	- you do have to tell it how everything is setup but once you tell it can give suggestions 
+	- links documentations pages and gives supporting images on where settings are and how things should be looking which is helpful 
+- 
 ### Wednesday 7/29
 
 ### Thursday 7/30

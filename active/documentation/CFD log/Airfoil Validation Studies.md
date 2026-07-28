@@ -516,19 +516,101 @@ according to LLM/wiki should be Cl = 0.43 ish
 ![[Pasted image 20260723151017.png]]
 
 ### 2
-went from 6 --> 15 
+went from 6 --> 15 boundary layers 
 ![[Pasted image 20260723153102.png]]
 
 ### 3 
-changed overall thickness from 0.5 to 1 
+changed overall thickness from 0.5 to 1 for the boundary layers 
 ![[Pasted image 20260723153455.png]]
 
 ### 4
-changed overall thickness from 1 --> 2 
+changed overall thickness from 1 --> 2 for the boundary layers 
 ![[Pasted image 20260723153935.png]]
 
 ### 5 
 changed the growth rate 1.2 --> 1.5 and changed the overall thickness from 2 --> 2.5 
 ![[Pasted image 20260723154246.png]]
 
+### 6 
+added surface refinement --> surface custom sizing --> default size 0.005 (which is 0.5% of the chord length - recommended by Gemini to fix the jump in cell size)
+![[Pasted image 20260724094203.png]]
 
+### 7 
+added in a volume refinement box around airfoil 
+![[Pasted image 20260724094733.png]]
+![[Pasted image 20260724094744.png]]
+### 8 
+that fixed a lot of the boundary layer crushing but the wake is cut short so i expanded the box further out ( from x max of 1 to x max of 2)
+![[Pasted image 20260724095233.png]]
+![[Pasted image 20260724095249.png]]
+### 9 
+still missing some wake i am going to shift the whole box downward 
+now x (.7 to 4) y (1.5 to -1.5) z (-0.5 to 0.5)
+![[Pasted image 20260724101719.png]]
+![[Pasted image 20260724101743.png]]
+### 10 
+added another volume refinement with a smaller internal box x(0.8 -0.8) y(-0.5 0.5) and z (-0.5 0.5)
+kept the other larger box with the extended wake (the geometries are named Cartesian box 3 and 4 )
+![[Pasted image 20260724102518.png]]
+![[Pasted image 20260724102530.png]]
+### 11 
+re ordered the mesh tree so that the wake refinement came first ( fineness of 5) and the volume refinement around the airfoil (fineness of 6) comes second 
+![[Pasted image 20260724103644.png]]
+![[Pasted image 20260724103702.png]]
+### 12 
+fixing up the wake mesh (both were selected so it wasn't generating)
+![[Pasted image 20260724104154.png]]
+![[Pasted image 20260724104212.png]]
+### 13 
+moved the wake box over so it cut through the center of the airfoil 
+![[Pasted image 20260724104948.png]]![[Pasted image 20260724105003.png]]
+Did a test run to see what the residuals are looking like - about the same 
+### 14 
+turned off hex element core 
+turned off physics based meshing 
+turned of automatic boundary layers 
+![[Pasted image 20260724135438.png]]![[Pasted image 20260724135456.png]]
+### 16 
+adding back in the boundary layers via a refinement 
+15 layers with thickness of 2.5 and a growth rate of 1.5
+![[Pasted image 20260724140057.png]]
+![[Pasted image 20260724140114.png]]
+### 17
+15 layers overall thickness of 2 growth rate of 1.5 
+
+![[Pasted image 20260724141559.png]]
+![[Pasted image 20260724141620.png]]
+
+### 18
+default size ( in surface custom sizing) from 0.05 to 0.035
+changed the minimum size from 0 to 0.0001
+![[Pasted image 20260724142623.png]]
+### 19 
+change growth rate from 1.5 to 1.1
+assigned volumes to the wake and region refinement (they had geometry primitives but i had not selected the volume as the flow region - Gemini suggested)
+![[Pasted image 20260727100405.png]]
+![[Pasted image 20260727100426.png]]
+
+### 20 
+making several nested refinement boxes to smooth the transition 
+![[Pasted image 20260727111418.png]]
+set the fineness to 5.5
+
+![[Pasted image 20260727155633.png]]
+![[Pasted image 20260727155703.png]]
+### 21 
+
+
+changing the small feature suppression to be  0.0005 instead of 0.00005
+
+
+ideas for future:
+
+Increase Max Iterations from 1000 to 3000 -  gives the solver more time to push those residuals down
+https://www.simscale.com/docs/simulation-setup/meshing/standard/#extrusion-mesh-refinement
+
+chatting with ray - the simscale chatbot 
+suggestions: 
+Numerics – for stability, try changing velocity and pressure gradient schemes to Gauss‑Linear
+Run longer. Keep iterating until the lift and drag curves flatten. Convergence is important before trusting coefficients (maybe change this through the max iterations thing mentioned above)
+says that the infalted boundary layer settings look good 

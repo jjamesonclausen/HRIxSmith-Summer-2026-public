@@ -1,14 +1,12 @@
 # LLM Wiki Setup Blog Outline
 
-## Add Tittle 
 #report
-## Core Argument
+llm generated: 
 
-The project did not begin with a finished AI assistant. It began with unfamiliar software, scattered VAWT research, and a need to learn fluid mechanics and design at the same time. The team built an LLM wiki to make project sources searchable, organized, and useful for learning and design decisions. Its value came from the rules, source traceability, testing, and repeated human review around it. 
+This project did not begin with a finished AI assistant. It began with unfamiliar software, scattered VAWT research, and a need to learn fluid mechanics and design at the same time. The team built an LLM wiki to make project sources searchable, organized, and useful for learning and design decisions. Its value came from the rules, source traceability, testing, and repeated human review around it. 
 
 ## Introduction
 
-something to the effect of this is an extention of a
 an LLM can synthesize a large research collection much faster than a student can read every paper, but that speed can hide weak understanding or unsupported quantitative claims. State that this post documents an experiment in building a system that helps students ask better questions, rather than replacing their judgment. 
 
 ## 1. The Starting Point: A Research and Learning Problem
@@ -102,3 +100,9 @@ Return to the opening tension: the LLM wiki was most valuable when it made the t
 - Confirm what project screenshots, source figures, and company/project details can be shared publicly.
 - Add screenshots of the repository structure, source-to-wiki pipeline, Obsidian organization, decision matrix, CAD workflow, and CFD validation record.
 - Verify every numerical claim and named design used in the final prose against its primary source before publication.
+---------------------------------------------------------------
+idk how much detail we want in here - how long each section needs to be 
+We did not begin this project with a finished AI research assistant. We began with little to know prior knowledge on the topic, fluid-mechanics concepts we still needed to learn, and unfamiliar tools. This projects goals have been two fold, one to design a VAWT, but also to learn and document where and how agentic tools can assist in the learning and designing process. this process was lead by first learning how to use new tools such as Opencode, VScode, Obsidian, and Github.  The first week was therefore not spent researching VAWT but rather experimenting and learning about these new tools.  
+We completed the workshop, learned enough GitHub to work in one shared repository, and wrote rules for the wiki that required it to rely on project sources, cite its claims, and label unsupported material. We also built an evaluation loop instead of assuming that an answer which sounded confident was reliable. The aim was not to hand off our judgment to an LLM, but to create a source-grounded workspace that could help us find information, surface gaps, and ask better technical questions. (source: active/_anna daily log.md; source: active/_Julie_daily_log.md)
+
+The real setup work came when we started feeding research into that system. Converting PDFs to Markdown, preserving figures and equations, maintaining metadata and links, and organizing pages around concepts, methods, designs, and parameters took repeated testing and revision. We ran into missing images, poor formatting, unwanted edits to source text, slow or inconsistent runs, and broken links; in response, we tightened the instructions, split detailed procedures into schema documents, added Python-based image extraction, and manually repaired earlier conversions. That effort made the wiki more useful, but it also made its limits clearer. A source-grounded LLM can synthesize material quickly, yet it can still produce plausible answers that need checking, and fast summarization can tempt us to skip the slower learning that engineering requires. The value of the wiki has come from treating it as an evolving research process, not as an expert whose first answer should be accepted.
