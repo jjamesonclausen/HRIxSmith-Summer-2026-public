@@ -480,8 +480,11 @@ Hours: -12.25
 next tuesday 07/28 everyone will be back, but note that rajeev will have missed two weeks by then!
 
 MIKE SCHEDULE
-monday 27th, mike not avilable, 
+monday 27th, not avilable, 
 tuesday, available in the morning not afternoon mtg, 
-wendesday camping so prob not, 
+wendesday, maybe morning but not rest of day 
 thursday, no, 
 friday - wednesday, available
+
+goal - 
+by eod wed stop working on airfoil validation (except make up hours)
