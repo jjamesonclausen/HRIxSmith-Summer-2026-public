@@ -459,32 +459,23 @@
 
 
 
-Hours: -12.25
+Hours: -14.75
 
 **Mtg notes 7/14:**
 	- LLM prompt improvements
 		- ask for visual decision analysis matrix to justify decisions
+		- ~~magic prompt for diversity~~
 	- consider asking LLM to break down tasks between two people and the LLM
-	- ask LLM about doable ways to estimate cut in speed
-	- ask LLM to ask about potential DOE and/or use similar ranking process for parameters to decide what variables to investigate
+	- ~~ask LLM about doable ways to estimate cut in speed~~ *see wiki/methods*
+	- ~~ask LLM to ask about potential DOE and/or use similar ranking process for parameters to decide what variables to investigate~~ *see active/analysis*
 	- consider using similar ranking scheme again to reevaluate how the design is doing for the design criteria
-	- use llm to help summarize and document all of our iterations of CAD and CFD 
+	- ~~use llm to help summarize and document all of our iterations of CAD and CFD~~ 
 **Misc:**
 	- add shorter time interval data to investigate wind direction fluctuations 
-
-
-
-
-
-
-next tuesday 07/28 everyone will be back, but note that rajeev will have missed two weeks by then!
+	- next tuesday 07/28 everyone will be back, but note that rajeev will have missed two weeks by then!
+	- stop airfoil val work by EOD wednesday
 
 MIKE SCHEDULE
-monday 27th, not avilable, 
-tuesday, available in the morning not afternoon mtg, 
 wendesday, maybe morning but not rest of day 
-thursday, no, 
+thursday, no
 friday - wednesday, available
-
-goal - 
-by eod wed stop working on airfoil validation (except make up hours)

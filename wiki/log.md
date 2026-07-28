@@ -1,6 +1,29 @@
 #maintenance
 ## Log
 
+### 2026-07-28 - Save generated VJ20/VA9 DOE recommendation
+
+- Task: save the tailored DOE recommendation for the VJ20 hybrid baseline and VA9 EN0005 interest in `active/analysis/`.
+- Actions:
+  - Created `active/analysis/VJ20 VA9 DOE Recommendation.md` with the generated concept-screening and DOE sequence.
+- Decisions:
+  - Added a prominent warning that the recommendation is AI-generated, not a validated workflow or source claim.
+  - Kept VJ20 and VA9 comparisons source-cited and labeled the proposed EN0005 inner-rotor substitution as an inference.
+- Open:
+  - Define the site-specific height limit, generator/load curve, target power, and installation-point wind distribution before setting DOE factor ranges.
+
+### 2026-07-28 - Add unvalidated cut-in estimation plan
+
+- Task: document how to estimate cut-in speed for a novel VAWT without wind-tunnel testing.
+- Actions:
+  - Created [[VAWT Cut-In Speed Estimation Plan]] with a generated torque-balance, low-fidelity screening, and transient-CFD refinement plan.
+  - Updated [[index]] to include the new methods page.
+- Decisions:
+  - Marked the workflow prominently as unverified because no captured source validates the combined procedure or its absolute cut-in predictions.
+  - Kept source-backed statements separate from generated steps and labelled the dynamic torque extension as an inference.
+- Open:
+  - Select a source-matched benchmark rotor and define the intended drivetrain and electrical-load model before applying the plan to a novel design.
+
 ### 2026-07-27 - Draft LLM wiki setup blog post
 
 - Task: write a short blog-style account of how establishing the LLM wiki and starting the project went, using Anna's and Julie's daily logs.
