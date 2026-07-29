@@ -2,6 +2,21 @@
 tags:
   - "#report"
 ---
+**Design Goal**
+
+
+**Concept Selection Process**
+After defining our design goal we moved onto the concept selection phase to determine which VAWT designs or design concepts in the wiki would be best suited to use as a starting point for optimization. To begin narrowing the list of 63 VAWT designs in the wiki, both Julie and Anna did a first pass of the wiki, with LLM assistance, and selected 8-10 promising designs based on their perceived potential for efficacy at BOS, and if they were interesting concepts to pursue. After comparing the initial design lists, we agreed upon six designs to evaluate further. A list of selection criteria was developed based on our design goal, and used to score these potential VAWT designs. Anna and Julie first manually scored the designs before asking the LLM to repeat the exercise. The human and LLM scores were very similar for most categories, especially for quantitative criteria. The LLM scores for qualitative criteria such as difficulty to model in CAD software or interest in pursuing, were replaced with the average of Anna and Julie's scores. After scoring, we weighted the criteria based on their importance to our design goal and project feasibility and ranked the designs.
+In order to perform a sensitivity analysis of our scores and weights, we prompted the LLM to rank the designs using three different weighting schemes based on different 'personas'. These were a beginner/student engineer with minimal CAD or CFD experience, an expert engineer with extensive CAD and CFD experience, and an engineer whose primary goal was simply to produce the most optimal VAWT for BOS, regardless of constraints. After ranking the six selected designs with these weights the same two designs repeatedly came out on top, validating our selection process. To ensure that our initial pass hadn't prematurely eliminated any designs, we then used the LLM to apply the same ranking system to all 63 designs in the wiki.
+
+
+**CAD**
+
+
+
+
+
+
 
 ## AI Outline
 

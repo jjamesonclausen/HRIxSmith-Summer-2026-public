@@ -431,11 +431,11 @@
 		- might be useful for having the llm validate its own work (like quantitative reporting)
 
 ---
-### Wednesday 07/21
+### Wednesday 07/22
 
 `09:00` met w/ Julie, implemented internet search functionality for the llm wiki, responded to emails, slacked mike (1 hr)
 
-### Thursday 07/22
+### Thursday 07/23
 
 `09:00` met w/ Mike + Julie
 `09:30` tried more LLM assisted SimScale troubleshooting (3 hrs)
@@ -457,9 +457,40 @@
 	- global mesh fineness can be 3-4 if you do a good job around the airfoil
 
 
+### Friday 07/24 - day off
+
+## Week 06
+### Monday 07/27 - day off
+### Tuesday 07/28
+
+`09:30` met w/ Mike + Julie to get started (0.5 hrs)
+\---
+`12:30` (3.5 hrs)
+	- prepared meeting slides with Julie 
+	- used LLM to catch up on the mesh changes Julie made
+	- set up a new mesh to figure out the settings myself
+	- worked through some of list of LLM prompts to try
+		- asked for cut in speed estimation method
+		- DOE / what variables to investigate
+`16:00` met w/ Duane and Ryan for weekly update (1 hr)
+\---
+`20:30` continued troubleshooting mesh until one generated (1.5 hrs)
+
+### Wednesday 07/29
+
+`07:30` updated daily log and cfd documentation (0.5 hrs)
+`08:00` continued working on my mesh and julie's - veryy slow (wifi?) (1 hr)
+`09:00` met w/ Mike + Julie (0.5 hr)
+`09:30` mesh work (1.5 hrs)
+	- inspecting mesh, good non othogonality and aspect ratio, visually good
+	- ran a simulation, good y+ and good mesh but bad results
+		- had to extend the run several times to get residuals down
+	- slacked julie about emailing phil and next steps
+`11:00` worked on writing blog draft (concept selection and cad) (2 hrs)
 
 
-Hours: -14.75
+
+Hours: -13.50
 
 **Mtg notes 7/14:**
 	- LLM prompt improvements
