@@ -446,20 +446,32 @@ day off
 
 ### Tuesday 7/28
 - meeting with Mike and Anna (0.5 hr)
-- started the slide show for later 
-- chatted with Gemini about the airfoil 
-- read through some simscale documentation on what boundary layers should look like 
-- experimented with using ray - simscale ai chatbot- to trouble shoot and check over settings 
+- started the slide show for later (0.25 hr)
+- chatted with Gemini about the airfoil (.5 hrs)
+- read through some simscale documentation on what boundary layers should look like (1 hr)
+- experimented with using ray - simscale ai chatbot- to trouble shoot and check over settings (2 hrs)
 	- you do have to tell it how everything is setup but once you tell it can give suggestions 
 	- links documentations pages and gives supporting images on where settings are and how things should be looking which is helpful 
-- called with anna 
+- called with anna  (2.5 hrs)
 	- wrote the slides for team meeting at four 
 	- discussed our timeline for the next few days (want to finish airfoil val by eod Wednesday and finish VAWT set up by Tuesday)
 	- continue fixing the mesh 
 		- should email Phill a picture and ask what the issues are bc we have tried everything 
 	- i think that the problem might be the reference data we are using, maybe we should shift to using wind tunnel data instead of xfoil 
-### Wednesday 7/29
+- call with team (1 hr)
 
+### Wednesday 7/29
+- no call with mike today 
+-  work on simulations (1 hr)
+	- compare mesh with anna 
+	- try different re numbers 
+	- look into viscosity differences 
+	- read through a naca 0012 simscale airfoil val and note differences 
+- write email to phil/ gather info to send to him (0.75 hr)
+- work on writing the blog (1 hr)
+	- anna is working on decision making process and i am working on setting up the wiki 
+- Phil email 
+- 
 ### Thursday 7/30
 
 ### Friday 7/31
