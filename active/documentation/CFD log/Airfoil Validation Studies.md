@@ -599,6 +599,9 @@ set the fineness to 5.5
 ![[Pasted image 20260727155633.png]]
 ![[Pasted image 20260727155703.png]]
 ### 21 
+![[Pasted image 20260728143851.png]]
+i found a new paper with the naca 0018 and for a re of 100,00 and angle of 5 they got cl of 0.6 ish so i am going to try that 
+so velocity will be 1.529
 
 
 changing the small feature suppression to be  0.0005 instead of 0.00005
@@ -613,8 +616,26 @@ chatting with ray - the simscale chatbot
 suggestions: 
 Numerics – for stability, try changing velocity and pressure gradient schemes to Gauss‑Linear
 Run longer. Keep iterating until the lift and drag curves flatten. Convergence is important before trusting coefficients (maybe change this through the max iterations thing mentioned above)
-says that the infalted boundary layer settings look good 
+says that the inflated boundary layer settings look good 
+says that lift can be too low if the solution is not fully stabilized yet so letting it run longer might fix the results 
 
+Got it — thanks, that helps.
+ final message from ray: 
+If the hole is there, your geometry is correct. So this is likely **not a setup error anymore**.
+
+At this point, the difference (0.47 vs 0.75) is usually **physical**, not a bug.
+
+A few things to keep in mind:
+
+- Lift coefficient depends on the exact airfoil, Reynolds number, and flow conditions
+- Reference values (like 0.75) often come from experiments or specific cases
+- Your simulation is a simplified model, so it won’t always match exactly
+
+Also, your result can still be valid even if it’s different — it just means your case is different from the reference. [](https://www.simscale.com/knowledge-base/why-are-my-lift-and-drag-coefficients-too-big-small/)
+
+So you’re not doing anything wrong here 👍
+
+![[Pasted image 20260728151121.png]]
 
 
 # Batch 4 - Anna mesh refinements
