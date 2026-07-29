@@ -21,7 +21,7 @@ Fig 1: NACA0018 coefficients of lift and drag vs angle of attack at Re = 50,000.
 ![[Pasted image 20260716110725.png]]
 
 
-# batch 1 (experimental)
+# Batch 1 (experimental)
 ## Run 1
 ### Set up
 **External flow volume:** 10 m in all directions
@@ -80,7 +80,7 @@ flop, forgot to set up results control before running
 **Cd:** 0.052 still a bit high
 
 
-# batch 2
+# Batch 2
 ***new project in simscale: 7.16 airfoil vals****
 ## Run 1:  0018, new CAD - NADA
 ### Set up
@@ -509,7 +509,7 @@ according to LLM/wiki should be Cl = 0.43 ish
 
 
 
-# Batch three - mesh refinements 
+# Batch 3 - Julie mesh refinements 
 ### 1
 ![[Pasted image 20260723151130.png]]
 ![[Pasted image 20260723151102.png]]
@@ -568,7 +568,7 @@ Did a test run to see what the residuals are looking like - about the same
 ### 14 
 turned off hex element core 
 turned off physics based meshing 
-turned of automatic boundary layers 
+turned off automatic boundary layers 
 ![[Pasted image 20260724135438.png]]![[Pasted image 20260724135456.png]]
 ### 16 
 adding back in the boundary layers via a refinement 
@@ -614,3 +614,137 @@ suggestions:
 Numerics – for stability, try changing velocity and pressure gradient schemes to Gauss‑Linear
 Run longer. Keep iterating until the lift and drag curves flatten. Convergence is important before trusting coefficients (maybe change this through the max iterations thing mentioned above)
 says that the infalted boundary layer settings look good 
+
+
+
+# Batch 4 - Anna mesh refinements
+
+## Mesh A1 
+starting with all baseline settings, changes are the following:
+\**strikethroughs indicate changes made to get the mesh to generate*
+
+algorithm: hex dom 
+manual mesh sizing
+min edge length: 0.00~~0~~5
+max edge length: 10
+auto boundary layers off
+#### Refinements
+##### Surface refinement 1
+Levels: ~~\[7, 8]~~ \[4, 5]
+no cell zone
+faces: airfoil surfaces
+##### Inflate boundary layer 2
+layers: 10
+expansion ratio: 1.2
+min thickness: 0.0005
+surface layer relative thickness: 0.001
+faces: airfoil surfaces
+##### Region refinement 3
+boundaries: (\[-0.7, 1], \[-0.3. 0.3], \[-0.25, 0.25])
+max edge length: 0.01
+
+~~##### Region refinement 4
+wake: (\[0, 1.5], \[-0.5. 0.5], \[-0.25, 0.25])
+max edge length: 0.1~~
+##### ~~Region refinement 5
+large: (\[-2, 2], \[-1, 1], \[-0.25, 0.25])
+max edge length: 0.5~~
+
+## Mesh JA1
+### algorithm:
+standard, fineness 4
+### refinements:
+#### surface custom sizing 1
+default size: 0.015 m
+min size: 1e-4 m
+#### volume custom sizing 2
+outer: (\[-1, 2], \[-1.5. 1.5], \[-0.25, 0.25])
+fineness: 5.5
+#### volume custom sizing 3
+wake: (\[0, 2], \[-0.7. 0.7], \[-0.25, 0.25])
+fineness: 6.5
+#### volume custom sizing 5
+inner: (\[-0.7, 1], \[-0.3. 0.3], \[-0.25, 0.25])
+fineness: 7
+#### inflate boundary layer 5
+specify growth rate
+num layers: 15
+relative thickness: 2
+growth rate: 1.1
+### Outcome:
+**Max non-orthogonality:** 72.85
+**Max aspect ratio:** 35.05
+
+![[Pasted image 20260729083846.png]]![[Pasted image 20260729084006.png]]![[Pasted image 20260729084039.png]]
+
+## Mesh JA2
+### algorithm:
+standard, fineness 4
+### refinements:
+#### surface custom sizing 1
+default size: 0.015 m
+min size: 1e-4 m
+#### volume custom sizing 2
+outer: (\[-1, 2], \[-1.5. 1.5], \[-0.25, 0.25])
+fineness: 5.5
+#### volume custom sizing 3
+wake: (\[0, 2], \[-0.7. 0.7], \[-0.25, 0.25])
+fineness: 6.5
+#### volume custom sizing 5
+inner: (\[-0.7, 1], \[-0.3. 0.3], \[-0.25, 0.25])
+fineness: 7
+#### inflate boundary layer 5
+specify growth rate
+**num layers: 10**
+relative thickness: 2
+growth rate: 1.1
+### Outcome:
+**Max non-orthogonality:** 72.64
+**Max aspect ratio:** 16.98
+![[Pasted image 20260729090114.png|268]]      ![[Pasted image 20260729090145.png|265]]  
+
+### Simulation
+note from julie's settings the airfoil surface was no-slip with a turbulence wall function, i changed it to full resolution turbulence
+also, velocity was 0.765, I changed it back to 0.7645 m/s -- this may have been incorrect bc the viscosity mightve been changed so that julies velocity was correct
+
+**Residuals:**
+![[Pasted image 20260729101629.png]]
+
+**Max y+:** 5.307
+
+**Cl:** 0.422 bruhhhh
+**Cd:** 0.036 ok
+
+## Mesh JA3
+### algorithm:
+standard, fineness 4
+### refinements:
+#### surface custom sizing 1
+default size: 0.015 m
+min size: 1e-4 m
+#### volume custom sizing 2
+outer: (\[-1, 2], \[-1.5. 1.5], \[-0.25, 0.25])
+fineness: 5
+#### volume custom sizing 3
+wake: (\[0, 2], \[-0.7. 0.7], \[-0.25, 0.25])
+fineness: 6
+#### volume custom sizing 5
+inner: (\[-0.7, 1], \[-0.3. 0.3], \[-0.25, 0.25])
+fineness: 6.5
+#### inflate boundary layer 5
+specify growth rate
+**num layers: 10**
+relative thickness: 2.5
+growth rate: 1.5
+### Outcome:
+**Max non-orthogonality:** 
+**Max aspect ratio:** 
+### Simulation
+
+**Residuals:**
+
+**Max y+:** 
+
+**Cl:** 
+**Cd:** 
+

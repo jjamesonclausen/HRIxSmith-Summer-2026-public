@@ -188,7 +188,7 @@
 
 - Task: replace repeated line-by-line source citations in the two active report-preparation notes with a single citation to each referenced record.
 - Actions:
-  - Added a top-of-page source link to [[active/_anna daily log]] in [[active/documentation/Weeks 1-4 Project Summary and Report Outline]].
+  - Added a top-of-page source link to [[_anna daily log]] in [[active/documentation/Weeks 1-4 Project Summary and Report Outline]].
   - Added a top-of-page source link to [[active/documentation/CFD log/Airfoil Validation Studies]] in [[Airfoil Validation Study Summary and Report Outline]].
   - Removed the repeated inline source tags from both notes.
 - Decisions:

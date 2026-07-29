@@ -5,7 +5,7 @@ tags:
 
 `Prompt:` I need to start preparing to write a narrative-style report about this project. Recall that the two goals of the project are to design a vawt and to learn how to implement AI tools into an engineering workflow. Read through \_anna daily log.md and note the bullet points indicating what tasks have been completed each day, as well as the italic text that documents my experience using AI. Write a log summary and report outline that captures the progress that was made in the first four weeks and the lessons learned about AI utility.
 
-**Source:** [[active/_anna daily log]]
+**Source:** [[_anna daily log]]
 
 ## Scope
 
