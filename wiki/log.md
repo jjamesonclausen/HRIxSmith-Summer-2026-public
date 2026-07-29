@@ -98,7 +98,7 @@
 
 - Task: read Julie's and Anna's daily logs and create a blog-style outline about setting up the LLM wiki and reflecting on the process.
 - Actions:
-  - Created [[blog writing - setting up the wiki]] with a narrative structure covering initial setup, source ingestion, information architecture, design screening, failure cases, learning tradeoffs, and practical takeaways.
+  - Created [[Julie blog  + setting up the wiki]] with a narrative structure covering initial setup, source ingestion, information architecture, design screening, failure cases, learning tradeoffs, and practical takeaways.
   - Grounded the outline in both daily logs and added personal-reflection prompts and publication checks.
 - Decisions:
   - Framed the wiki as source-grounded infrastructure for learning and engineering judgment, rather than an autonomous expert or a validated substitute for human review.
