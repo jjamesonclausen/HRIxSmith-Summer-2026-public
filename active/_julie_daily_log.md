@@ -470,8 +470,10 @@ day off
 - write email to phil/ gather info to send to him (0.75 hr)
 - work on writing the blog (1 hr)
 	- anna is working on decision making process and i am working on setting up the wiki 
-- Phil email 
-- 
+- Phil emailed back working on mesh (1hr)
+	- fixing growth rate?
+	- can you have two inflate boundary layer settings? 
+	- 10 layers first size of 0.001 overall size of 2.5 and growth rate of 1.5
 ### Thursday 7/30
 
 ### Friday 7/31
