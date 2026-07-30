@@ -1,6 +1,18 @@
 #maintenance
 ## Log
 
+### 2026-07-29 - Add CAD outline and AI-use summary
+
+- Task: reread the Concept Selection AI outline and add a similar CAD-process outline and AI-use summary using Anna's and Julie's daily logs and the CAD documentation.
+- Actions:
+  - Updated [[active/documentation/Anna blog + report writing]] with a six-step CAD-process outline and five AI-use findings.
+  - Synthesized the VA9 Zoo/KCL iterations, VJ20 Zoo and Fusion comparison, prompt-design lessons, source-versus-inferred-geometry practice, and CFD-readiness limitations from the daily logs and CAD records.
+- Decisions:
+  - Kept software execution and constrained-sketch checks distinct from source fidelity, mechanical coherence, manufacturability, and CFD validation.
+  - Retained known defects and open geometry work, including the VA9 multi-body union and VJ20 inner-airfoil issue, rather than presenting either generated model as finished.
+- Open:
+  - Confirm the final CAD baseline and independently verify its airfoil geometry, connected/watertight bodies, and CFD-specific simplifications before using it for aerodynamic conclusions.
+
 ### 2026-07-28 - Move loose pasted images into attachments
 
 - Task: move loose pasted-image files into the attachments folder.
@@ -4239,3 +4251,15 @@ Open:
   - Used the existing five weekly headings as the source for the concise goal wording; the final documentation window remains separate because it is not numbered as a work week.
 - Open:
   - None.
+
+### 2026-07-30 - Measure VJ20 blade refinement boxes
+
+- Task: inspect `active/documentation/CAD log/VAWT_Dual_H_Rotor_Assembly.step` and provide Cartesian refinement-box locations for its six blades.
+- Actions:
+  - Parsed the exported STEP coordinates at the blade-tip planes and measured the tight global-axis-aligned envelopes of the three outer and three inner blades.
+  - Confirmed that the STEP is a millimetre-based, full-scale-only assembly; reported the resulting centers and dimensions in metres for CFD setup.
+- Decisions:
+  - Measured blade envelopes only, excluding the radial struts, so the boxes can be used as blade-local mesh refinements.
+  - Kept the boxes axis-aligned in the exported STEP coordinate system; small padding remains a CFD-meshing choice rather than a property of the CAD geometry.
+- Open:
+  - Confirm the unit conversion shown by the SimScale import and add a suitable refinement margin before meshing.

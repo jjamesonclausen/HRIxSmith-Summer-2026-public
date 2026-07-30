@@ -486,13 +486,16 @@
 	- ran a simulation, good y+ and good mesh but bad results
 		- had to extend the run several times to get residuals down
 	- slacked julie about emailing phil and next steps
-`11:00` worked on writing blog draft (concept selection and cad) (2 hrs)
-
+`11:00` writing and more mesh/cfd work (6 hrs)
+	- worked on writing blog draft (design goal, concept selection, and cad)
+	- refined mesh according to phil's advice
+		- ran another simulation, inspected mesh and outcomes
+		- emailed back with more details and questions
 
 
 Hours: -13.50
 
-**Mtg notes 7/14:**
+**Mtg notes 7/14:** 
 	- LLM prompt improvements
 		- ask for visual decision analysis matrix to justify decisions
 		- ~~magic prompt for diversity~~

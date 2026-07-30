@@ -507,8 +507,6 @@ Cd = 0.029, pretty good
 tested same settings as Run 13 but with AOA = 3 deg, got Cl = 0.352, Cd = 0.025
 according to LLM/wiki should be Cl = 0.43 ish
 
-
-
 # Batch 3 - Julie mesh refinements 
 ### 1
 ![[Pasted image 20260723151130.png]]
@@ -758,14 +756,13 @@ specify growth rate
 relative thickness: 2.5
 growth rate: 1.5
 ### Outcome:
-**Max non-orthogonality:** 
-**Max aspect ratio:** 
+**Max non-orthogonality:** 72.42
+![[Pasted image 20260729145502.png]]
 ### Simulation
-
 **Residuals:**
+![[Pasted image 20260729145520.png]]
+**Max y+:** 5.59
 
-**Max y+:** 
-
-**Cl:** 
-**Cd:** 
+**Cl:** 0.452
+**Cd:** 0.035
 
