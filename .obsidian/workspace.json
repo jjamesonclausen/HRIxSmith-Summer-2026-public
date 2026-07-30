@@ -54,32 +54,6 @@
             }
           },
           {
-            "id": "a582902c82fd444e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "active/planning/progress reports/Project Update 7_14.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Project Update 7_14"
-            }
-          },
-          {
-            "id": "7b35b5762c018dca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/designs/HRI2526 H-Rotor Darrieus with Savonius Compartments.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HRI2526 H-Rotor Darrieus with Savonius Compartments"
-            }
-          },
-          {
             "id": "062668cb54d73dc8",
             "type": "leaf",
             "state": {
@@ -271,18 +245,18 @@
   "active": "9b080656a7125bfb",
   "lastOpenFiles": [
     "active/documentation/CFD log/Airfoil Validation Studies.md",
+    "active/_Julie_daily_log.md",
+    "active/documentation/Julie blog  + setting up the wiki.md",
     "active/planning/progress reports/Project Update 7_14.pdf",
+    "wiki/designs/HRI2526 H-Rotor Darrieus with Savonius Compartments.md",
     "active/planning/progress reports/Project Update 7_28.pdf",
     "active/planning/progress reports/Project Update 7_21.pdf",
     "active/documentation/Anna blog + report writing.md",
     "active/planning/progress reports/Project Update 7_28 2.pptx",
     "active/planning/progress reports/Project Update 7_28 1.pptx",
     "active/planning/progress reports/Project Update 7_28.pptx",
-    "active/documentation/Julie blog  + setting up the wiki.md",
-    "wiki/designs/HRI2526 H-Rotor Darrieus with Savonius Compartments.md",
     "active/resources/mtg notes/Notes on meeting July 7.md",
     "Pasted image 20260729220720.png",
-    "active/_Julie_daily_log.md",
     "active/documentation/Weeks 1-4 Project Summary and Report Outline.md",
     "active/analysis/Decision Making Process.md",
     "active/analysis/Concept ranking worksheet.md",
