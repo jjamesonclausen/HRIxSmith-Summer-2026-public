@@ -1,6 +1,16 @@
 #maintenance
 ## Log
 
+### 2026-07-29 - Record airfoil boundary-layer thickness change
+
+- Task: document the user's boundary-layer adjustment after Phil's CFD mesh review.
+- Actions:
+  - Added Mesh JA4 to [[active/documentation/CFD log/Airfoil Validation Studies]], recording the reduction in overall relative thickness from `2.5` to `0.5` while holding Mesh JA3's `10` layers, `1.5` growth rate, surface sizing, and volume refinements fixed.
+- Decisions:
+  - Marked the mesh-quality inspection, solved-`y+` check, and CFD run as pending so the setting change is not represented as a validated improvement.
+- Open:
+  - Regenerate the mesh and assess the prism-stack shape and mesh-quality metrics before running the airfoil case.
+
 ### 2026-07-28 - Move loose pasted images into attachments
 
 - Task: move loose pasted-image files into the attachments folder.

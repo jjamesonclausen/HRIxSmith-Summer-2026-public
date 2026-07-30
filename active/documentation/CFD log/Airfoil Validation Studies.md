@@ -652,7 +652,6 @@ So you’re not doing anything wrong here 👍
 
 ![[Pasted image 20260728151121.png]]
 
-
 # Batch 4 - Anna mesh refinements
 
 ## Mesh A1 
@@ -786,3 +785,15 @@ growth rate: 1.5
 
 
 ![[Pasted image 20260728151121.png|428]]
+
+## Mesh JA4: Boundary-layer thickness reduction
+
+Copied Mesh JA3 and changed only the inflate-boundary-layer relative thickness from `2.5` to `0.5`, following Phil's review. Kept the `10` layers, `1.5` growth rate, surface sizing, and volume refinements unchanged to isolate a thinner prism stack.
+
+Purpose: retain smooth cell-size transitions while making the boundary-layer cells thinner normal to the airfoil surface.
+
+### Outcome
+max non-orthogonality - 83 
+![[Pasted image 20260729220720.png|399]]
+
+Pending mesh generation, mesh-quality inspection, solved-`y+` check, and CFD run.
