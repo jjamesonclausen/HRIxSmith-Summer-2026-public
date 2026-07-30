@@ -8,22 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a81e6f40380f1d7f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://github.com/afeuer07/HRIxSmith-Summer-2026/commits/main/",
-                "title": "Commits · afeuer07/HRIxSmith-Summer-2026",
-                "mode": "webview"
-              },
-              "pinned": true,
-              "icon": "globe-2",
-              "title": "Commits · afeuer07/HRIxSmith-Summer-2026"
-            }
-          },
-          {
             "id": "9b080656a7125bfb",
             "type": "leaf",
             "pinned": true,
@@ -42,6 +26,7 @@
           {
             "id": "b5e50ffac3de1820",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -49,8 +34,23 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Julie blog  + setting up the wiki"
+            }
+          },
+          {
+            "id": "96da851c7b4acb73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "active/documentation/Anna blog + report writing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Anna blog + report writing"
             }
           },
           {
@@ -68,15 +68,31 @@
             }
           },
           {
-            "id": "96da851c7b4acb73",
+            "id": "c2f40065b383f9b9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "active/resources/llm wiki resources.pdf"
+                "file": "active/documentation/LLM blog outline julie.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "llm wiki resources"
+              "icon": "lucide-file",
+              "title": "LLM blog outline julie"
+            }
+          },
+          {
+            "id": "5b6cd49f1b11c7a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "active/documentation/Weeks 1-4 Project Summary and Report Outline.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Weeks 1-4 Project Summary and Report Outline"
             }
           }
         ],
@@ -112,7 +128,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:report",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -137,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.50418853759766
+    "width": 288.50418853759766,
+    "collapsed": true
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -242,27 +259,30 @@
       "bases:Create new base": false
     }
   },
-  "active": "9b080656a7125bfb",
+  "active": "b5e50ffac3de1820",
   "lastOpenFiles": [
-    "active/documentation/CFD log/Airfoil Validation Studies.md",
-    "active/_Julie_daily_log.md",
+    "active/documentation/Anna blog + report writing.md",
     "active/documentation/Julie blog  + setting up the wiki.md",
+    "active/documentation/CFD log/Airfoil Validation Studies.md",
+    "active/documentation/LLM blog outline julie.md",
+    "active/_Julie_daily_log.md",
+    "active/documentation/Weeks 1-4 Project Summary and Report Outline.md",
+    "active/resources/llm wiki resources.pdf",
+    "images/Pasted image 20260729145520.png",
+    "images/Pasted image 20260729145502.png",
     "active/planning/progress reports/Project Update 7_14.pdf",
     "wiki/designs/HRI2526 H-Rotor Darrieus with Savonius Compartments.md",
     "active/planning/progress reports/Project Update 7_28.pdf",
     "active/planning/progress reports/Project Update 7_21.pdf",
-    "active/documentation/Anna blog + report writing.md",
     "active/planning/progress reports/Project Update 7_28 2.pptx",
     "active/planning/progress reports/Project Update 7_28 1.pptx",
     "active/planning/progress reports/Project Update 7_28.pptx",
     "active/resources/mtg notes/Notes on meeting July 7.md",
     "Pasted image 20260729220720.png",
-    "active/documentation/Weeks 1-4 Project Summary and Report Outline.md",
     "active/analysis/Decision Making Process.md",
     "active/analysis/Concept ranking worksheet.md",
     "active/_anna daily log.md",
     "active/documentation/LLM Prompting Experiments.md",
-    "active/documentation/LLM blog outline julie.md",
     "active/documentation/Concept Selection Process Write-Up.md",
     "images/Pasted image 20260729101629.png",
     "images/Pasted image 20260729090145.png",
@@ -273,9 +293,6 @@
     "active/documentation/CFD log/CFD Expert Meeting Brief.md",
     "active/documentation/CAD log/CAD Modeling Process.md",
     "Pasted image 20260729134743.png",
-    "Pasted image 20260729133728.png",
-    "Pasted image 20260729133654.png",
-    "active/resources/llm wiki resources.pdf",
     "active/resources/Julie reflections on the wiki, LLM, and AI.md",
     "active/resources/Julie initial design screening.md",
     "active/resources/interesting convo with LLm abt vj20.md",
