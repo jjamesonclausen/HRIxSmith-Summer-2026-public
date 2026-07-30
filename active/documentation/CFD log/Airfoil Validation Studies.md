@@ -788,15 +788,28 @@ growth rate: 1.5
 Copied Mesh JA3 and changed only the inflate-boundary-layer relative thickness from `2.5` to `0.5`, following Phil's review. Kept the `10` layers, `1.5` growth rate, surface sizing, and volume refinements unchanged to isolate a thinner prism stack.
 
 Purpose: retain smooth cell-size transitions while making the boundary-layer cells thinner normal to the airfoil surface.
-## J1 
-switch overall size of boundary layers from 2 to 0.5 
- much better results cl=0.55 ( improved from 0.45) 
-## J2 
-add another volume refinement to fix the jump in size - set to a fineness of 7.5 
-- now the non-orthogonality and aspect ratio are way too high 
-	- changed to 2 non orthgonality corectors 
+
 ### Outcome
 max non-orthogonality - 83 
 ![[Pasted image 20260729220720.png|399]]
 
 Pending mesh generation, mesh-quality inspection, solved-`y+` check, and CFD run.
+
+# post Phil email July 30th
+## J1 - best thus far 
+switch overall size of boundary layers from 2 to 0.5 
+ much better results cl=0.55 ( improved from 0.45) 
+## J2 
+add another volume refinement to fix the jump in size - set to a fineness of 7.5 
+- now the non-orthogonality and aspect ratio are way too high 
+	- changed to 2 non orthogonality correctors 
+result was lower lift than before 
+## J3 
+increased the gap refinement factor from 0.05 to 0.5 - ray said that 0.05 was super conservative and that increasing this can prevent cells from squishing together which can cause high non-orthogonality 
+generated - used iso volume tool to see where the non-orthgo is abouve 75 - at the leading edge - create refinement there to fix this 
+new volume for just the front - fineness of 8 
+
+
+
+
+

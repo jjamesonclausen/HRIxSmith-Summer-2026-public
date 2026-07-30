@@ -486,7 +486,13 @@ day off
 	- caught mike up to speed from Tuesday 
 - stay on call with anna 
 	- decided for anna to start the full turbine and Julie to keep working on mesh for a little bit 
+		- anna used the llm to read the step file of the turbine so that she can get the coordinates for the volume refinement boxes 
 	- made some changes to the mesh and reran the simulation 
+	- found a [you tube video](https://smith-hri-summer2026.slack.com/archives/D0BCDLHNXAT/p1785421968983919) of someone walking through how they set up their VAWT in simscale 
+	- found a [simscale project](https://www.simscale.com/projects/Jon_Wilde/wind_turbine/) of a VAWT testing to model our settings off of 
+- emailed Phil in response to his email saying we have to move on to the whole turbine and asked for his help 
+	- also shared the project with him 
+	- 
 ### Friday 7/31
 
 ## Week 7
