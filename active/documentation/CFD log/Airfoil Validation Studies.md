@@ -539,65 +539,80 @@ added in a volume refinement box around airfoil
 ![[Pasted image 20260724094744.png]]
 ### 8 
 that fixed a lot of the boundary layer crushing but the wake is cut short so i expanded the box further out ( from x max of 1 to x max of 2)
-![[Pasted image 20260724095233.png]]
-![[Pasted image 20260724095249.png]]
+![[Pasted image 20260724095233.png|471]]
+![[Pasted image 20260724095249.png|470]]
 ### 9 
 still missing some wake i am going to shift the whole box downward 
 now x (.7 to 4) y (1.5 to -1.5) z (-0.5 to 0.5)
-![[Pasted image 20260724101719.png]]
-![[Pasted image 20260724101743.png]]
+![[Pasted image 20260724101719.png|391]]
+![[Pasted image 20260724101743.png|395]]
 ### 10 
 added another volume refinement with a smaller internal box x(0.8 -0.8) y(-0.5 0.5) and z (-0.5 0.5)
 kept the other larger box with the extended wake (the geometries are named Cartesian box 3 and 4 )
-![[Pasted image 20260724102518.png]]
-![[Pasted image 20260724102530.png]]
+![[Pasted image 20260724102518.png|499]]
+![[Pasted image 20260724102530.png|463]]
 ### 11 
 re ordered the mesh tree so that the wake refinement came first ( fineness of 5) and the volume refinement around the airfoil (fineness of 6) comes second 
-![[Pasted image 20260724103644.png]]
-![[Pasted image 20260724103702.png]]
+![[Pasted image 20260724103644.png|456]]
+![[Pasted image 20260724103702.png|446]]
 ### 12 
 fixing up the wake mesh (both were selected so it wasn't generating)
-![[Pasted image 20260724104154.png]]
-![[Pasted image 20260724104212.png]]
+![[Pasted image 20260724104154.png|434]]
+![[Pasted image 20260724104212.png|407]]
 ### 13 
 moved the wake box over so it cut through the center of the airfoil 
-![[Pasted image 20260724104948.png]]![[Pasted image 20260724105003.png]]
+![[Pasted image 20260724104948.png|496]]![[Pasted image 20260724105003.png|441]]
 Did a test run to see what the residuals are looking like - about the same 
 ### 14 
 turned off hex element core 
 turned off physics based meshing 
 turned off automatic boundary layers 
 ![[Pasted image 20260724135438.png]]![[Pasted image 20260724135456.png]]
+turned of automatic boundary layers 
+![[Pasted image 20260724135438.png|444]]![[Pasted image 20260724135456.png|491]]
 ### 16 
 adding back in the boundary layers via a refinement 
 15 layers with thickness of 2.5 and a growth rate of 1.5
-![[Pasted image 20260724140057.png]]
-![[Pasted image 20260724140114.png]]
+![[Pasted image 20260724140057.png|477]]
+![[Pasted image 20260724140114.png|414]]
 ### 17
 15 layers overall thickness of 2 growth rate of 1.5 
 
-![[Pasted image 20260724141559.png]]
-![[Pasted image 20260724141620.png]]
+![[Pasted image 20260724141559.png|451]]
+![[Pasted image 20260724141620.png|519]]
 
 ### 18
 default size ( in surface custom sizing) from 0.05 to 0.035
 changed the minimum size from 0 to 0.0001
-![[Pasted image 20260724142623.png]]
+![[Pasted image 20260724142623.png|449]]
 ### 19 
 change growth rate from 1.5 to 1.1
 assigned volumes to the wake and region refinement (they had geometry primitives but i had not selected the volume as the flow region - Gemini suggested)
-![[Pasted image 20260727100405.png]]
-![[Pasted image 20260727100426.png]]
+![[Pasted image 20260727100405.png|447]]
+![[Pasted image 20260727100426.png|443]]
 
 ### 20 
 making several nested refinement boxes to smooth the transition 
-![[Pasted image 20260727111418.png]]
+![[Pasted image 20260727111418.png|213]]
 set the fineness to 5.5
 
-![[Pasted image 20260727155633.png]]
-![[Pasted image 20260727155703.png]]
+![[Pasted image 20260727155633.png|459]]
+![[Pasted image 20260727155703.png|458]]
 ### 21 
-![[Pasted image 20260728143851.png]]
+phil emailed an suggested to smoothen out the jump in size increase form the boundary layer to the next layer in cells as it it was to steep right now. asked ray what they would suggest from this recommendation and they said to specify the first layer thickness to be smaller 
+changing the first layer settings from
+![[Pasted image 20260729133728.png|220]] to ![[Pasted image 20260729133654.png|204]]
+now the growth rate is not specified but ray "calculated" that this would leave a better size for the final layer 
+
+![[Pasted image 20260729134743.png|409]]
+looks like the first three layers are wayyyy to small and the last two are huge 
+
+
+
+
+
+### alternative ideas: 
+![[Pasted image 20260728143851.png|257]]
 i found a new paper with the naca 0018 and for a re of 100,00 and angle of 5 they got cl of 0.6 ish so i am going to try that 
 so velocity will be 1.529
 
@@ -634,7 +649,6 @@ Also, your result can still be valid even if it’s different — it just means 
 So you’re not doing anything wrong here 👍
 
 ![[Pasted image 20260728151121.png]]
-
 
 # Batch 4 - Anna mesh refinements
 
@@ -766,3 +780,23 @@ growth rate: 1.5
 **Cl:** 0.452
 **Cd:** 0.035
 
+
+![[Pasted image 20260728151121.png|428]]
+
+## Mesh JA4: Boundary-layer thickness reduction
+
+Copied Mesh JA3 and changed only the inflate-boundary-layer relative thickness from `2.5` to `0.5`, following Phil's review. Kept the `10` layers, `1.5` growth rate, surface sizing, and volume refinements unchanged to isolate a thinner prism stack.
+
+Purpose: retain smooth cell-size transitions while making the boundary-layer cells thinner normal to the airfoil surface.
+## J1 
+switch overall size of boundary layers from 2 to 0.5 
+ much better results cl=0.55 ( improved from 0.45) 
+## J2 
+add another volume refinement to fix the jump in size - set to a fineness of 7.5 
+- now the non-orthogonality and aspect ratio are way too high 
+	- changed to 2 non orthgonality corectors 
+### Outcome
+max non-orthogonality - 83 
+![[Pasted image 20260729220720.png|399]]
+
+Pending mesh generation, mesh-quality inspection, solved-`y+` check, and CFD run.

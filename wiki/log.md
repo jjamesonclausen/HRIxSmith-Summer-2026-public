@@ -1,6 +1,16 @@
 #maintenance
 ## Log
 
+### 2026-07-29 - Record airfoil boundary-layer thickness change
+
+- Task: document the user's boundary-layer adjustment after Phil's CFD mesh review.
+- Actions:
+  - Added Mesh JA4 to [[active/documentation/CFD log/Airfoil Validation Studies]], recording the reduction in overall relative thickness from `2.5` to `0.5` while holding Mesh JA3's `10` layers, `1.5` growth rate, surface sizing, and volume refinements fixed.
+- Decisions:
+  - Marked the mesh-quality inspection, solved-`y+` check, and CFD run as pending so the setting change is not represented as a validated improvement.
+- Open:
+  - Regenerate the mesh and assess the prism-stack shape and mesh-quality metrics before running the airfoil case.
+
 ### 2026-07-29 - Add CAD outline and AI-use summary
 
 - Task: reread the Concept Selection AI outline and add a similar CAD-process outline and AI-use summary using Anna's and Julie's daily logs and the CAD documentation.
@@ -110,7 +120,7 @@
 
 - Task: read Julie's and Anna's daily logs and create a blog-style outline about setting up the LLM wiki and reflecting on the process.
 - Actions:
-  - Created [[blog writing - setting up the wiki]] with a narrative structure covering initial setup, source ingestion, information architecture, design screening, failure cases, learning tradeoffs, and practical takeaways.
+  - Created [[Julie blog  + setting up the wiki]] with a narrative structure covering initial setup, source ingestion, information architecture, design screening, failure cases, learning tradeoffs, and practical takeaways.
   - Grounded the outline in both daily logs and added personal-reflection prompts and publication checks.
 - Decisions:
   - Framed the wiki as source-grounded infrastructure for learning and engineering judgment, rather than an autonomous expert or a validated substitute for human review.
@@ -4263,3 +4273,15 @@ Open:
   - Kept the boxes axis-aligned in the exported STEP coordinate system; small padding remains a CFD-meshing choice rather than a property of the CAD geometry.
 - Open:
   - Confirm the unit conversion shown by the SimScale import and add a suitable refinement margin before meshing.
+
+### 2026-07-30 - Add design-goal AI outline
+
+- Task: add a design-goal summary under the AI outlines in [[active/documentation/Anna blog + report writing]], using both daily logs, the analysis notes, and weekly project-update slides.
+- Actions:
+  - Added a five-step design-goal process covering the BOS/Governor's Island framing, site constraints, design priorities, preliminary operating targets, and how the goal directed the next work sequence.
+  - Added a four-point account of AI's role in rapidly synthesizing the brief, supporting retrieval, exposing unresolved inputs, and preserving the need for human judgment.
+- Decisions:
+  - Explicitly retained the conflict between the early `10-15 m/s`/`>=20 m/s` screening targets and the later `7-10 m/s`/`>15 m/s` slide targets instead of treating either as a final requirement.
+  - Labeled the proposed height and runway separation as planning assumptions rather than airport approvals.
+- Open:
+  - Resolve the final operating-speed targets and confirm site-specific height, clearance, wind, load, and target-power constraints before treating the design goal as a fixed specification.

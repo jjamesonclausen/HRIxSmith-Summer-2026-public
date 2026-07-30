@@ -470,10 +470,23 @@ day off
 - write email to phil/ gather info to send to him (0.75 hr)
 - work on writing the blog (1 hr)
 	- anna is working on decision making process and i am working on setting up the wiki 
-- Phil email 
-- 
+- Phil emailed back working on mesh (2hr)
+	- fixing growth rate?
+	- can you have two inflate boundary layer settings? 
+	- 10 layers first size of 0.001 overall size of 2.5 and growth rate of 1.5
+- emailed phil back with more changes 
+- work more on blog writing 
+- phil wrote back - some edits to the mesh with improvements! 
+- more blog editing/writing 
 ### Thursday 7/30
-
+- call with mike and anna 
+	- talk about what's going well in the project 
+	- how online work is going 
+	- talked about time line 
+	- caught mike up to speed from Tuesday 
+- stay on call with anna 
+	- decided for anna to start the full turbine and Julie to keep working on mesh for a little bit 
+	- made some changes to the mesh and reran the simulation 
 ### Friday 7/31
 
 ## Week 7

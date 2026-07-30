@@ -45,26 +45,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "active/documentation/blog writing - setting up the wiki.md",
+                "file": "active/documentation/Julie blog  + setting up the wiki.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "blog writing - setting up the wiki"
+              "title": "Julie blog  + setting up the wiki"
             }
           },
           {
             "id": "a582902c82fd444e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "active/_anna daily log.md",
-                "mode": "source",
-                "source": false
+                "file": "active/planning/progress reports/Project Update 7_14.pdf"
               },
-              "icon": "lucide-file",
-              "title": "_anna daily log"
+              "icon": "lucide-file-text",
+              "title": "Project Update 7_14"
             }
           },
           {
@@ -73,12 +71,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "active/resources/mtg notes/Notes on meeting July 7.md",
+                "file": "wiki/designs/HRI2526 H-Rotor Darrieus with Savonius Compartments.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes on meeting July 7"
+              "title": "HRI2526 H-Rotor Darrieus with Savonius Compartments"
             }
           },
           {
@@ -140,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "blog",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -165,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.50418853759766,
-    "collapsed": true
+    "width": 288.50418853759766
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -273,7 +270,37 @@
   },
   "active": "9b080656a7125bfb",
   "lastOpenFiles": [
-    "active/documentation/blog writing - setting up the wiki.md",
+    "active/documentation/CFD log/Airfoil Validation Studies.md",
+    "active/planning/progress reports/Project Update 7_14.pdf",
+    "active/planning/progress reports/Project Update 7_28.pdf",
+    "active/planning/progress reports/Project Update 7_21.pdf",
+    "active/documentation/Anna blog + report writing.md",
+    "active/planning/progress reports/Project Update 7_28 2.pptx",
+    "active/planning/progress reports/Project Update 7_28 1.pptx",
+    "active/planning/progress reports/Project Update 7_28.pptx",
+    "active/documentation/Julie blog  + setting up the wiki.md",
+    "wiki/designs/HRI2526 H-Rotor Darrieus with Savonius Compartments.md",
+    "active/resources/mtg notes/Notes on meeting July 7.md",
+    "Pasted image 20260729220720.png",
+    "active/_Julie_daily_log.md",
+    "active/documentation/Weeks 1-4 Project Summary and Report Outline.md",
+    "active/analysis/Decision Making Process.md",
+    "active/analysis/Concept ranking worksheet.md",
+    "active/_anna daily log.md",
+    "active/documentation/LLM Prompting Experiments.md",
+    "active/documentation/LLM blog outline julie.md",
+    "active/documentation/Concept Selection Process Write-Up.md",
+    "images/Pasted image 20260729101629.png",
+    "images/Pasted image 20260729090145.png",
+    "images/Pasted image 20260729090114.png",
+    "images/Pasted image 20260729084039.png",
+    "images/Pasted image 20260729084006.png",
+    "images/Pasted image 20260729083846.png",
+    "active/documentation/CFD log/CFD Expert Meeting Brief.md",
+    "active/documentation/CAD log/CAD Modeling Process.md",
+    "Pasted image 20260729134743.png",
+    "Pasted image 20260729133728.png",
+    "Pasted image 20260729133654.png",
     "active/resources/llm wiki resources.pdf",
     "active/resources/Julie reflections on the wiki, LLM, and AI.md",
     "active/resources/Julie initial design screening.md",
@@ -283,41 +310,11 @@
     "active/resources/CFD, SimScale Notes.md",
     "active/resources/14 CFR Part 77 -- Safe, Efficient Use, and Preservation of the Navigable Airspace.md",
     "active/resources/RESOURCES.md",
-    "active/_Julie_daily_log.md",
-    "active/_anna daily log.md",
     "active/_project timeline.md",
-    "active/documentation/CFD log/Airfoil Validation Studies.md",
     "wiki/methods/VAWT Cut-In Speed Estimation Plan.md",
-    "attachments/Pasted image 20260727155703.png",
-    "attachments/Pasted image 20260727155633.png",
-    "attachments/Pasted image 20260727111418.png",
-    "attachments/Pasted image 20260727100426.png",
-    "attachments/Pasted image 20260727100405.png",
-    "attachments/Pasted image 20260724142623.png",
-    "attachments/Pasted image 20260724141620.png",
-    "attachments/Pasted image 20260724141559.png",
-    "attachments/Pasted image 20260724140807.png",
-    "attachments/Pasted image 20260724140114.png",
-    "active/documentation/Concept Selection Process Write-Up.md",
     "active/analysis/VJ20 VA9 DOE Recommendation.md",
-    "active/documentation/CFD log/Airfoil Validation Study Summary and Report Outline.md",
     "attachments/PDFs/vj20.pdf",
     "attachments/PDFs/cj9.pdf",
-    "active/resources/mtg notes/Notes on meeting July 7.md",
-    "active/documentation/LLM Wiki Setup Blog Post.md",
-    "active/documentation/Weeks 1-4 Project Summary and Report Outline.md",
-    "active/analysis/Concept ranking worksheet.md",
-    "active/analysis/Decision Making Process.md",
-    "active/documentation/LLM blog outline julie.md",
-    "active/documentation/CAD Modeling Process.md",
-    "active/documentation/NACA0018 Validation Decision Matrix.md",
-    "active/documentation/refections on project.md",
-    "active/analysis/Design Comparison.base",
-    "active/documentation/CAD log/VAWT_Dual_H_Rotor_ScaledDown.step",
-    "active/documentation/CAD log/VAWT_Dual_H_Rotor_Assembly.step",
-    "active/documentation",
-    "active/analysis/table of all designs.base",
-    "attachments/PDFs/va33_raw.pdf",
     "Untitled.canvas"
   ]
 }
