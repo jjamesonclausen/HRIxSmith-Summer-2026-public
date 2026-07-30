@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -268,8 +268,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "a582902c82fd444e",
+  "active": "9b080656a7125bfb",
   "lastOpenFiles": [
+    "active/documentation/CFD log/Airfoil Validation Studies.md",
+    "active/planning/progress reports/Project Update 7_14.pdf",
     "active/planning/progress reports/Project Update 7_28.pdf",
     "active/planning/progress reports/Project Update 7_21.pdf",
     "active/documentation/Anna blog + report writing.md",
@@ -277,10 +279,8 @@
     "active/planning/progress reports/Project Update 7_28 1.pptx",
     "active/planning/progress reports/Project Update 7_28.pptx",
     "active/documentation/Julie blog  + setting up the wiki.md",
-    "active/planning/progress reports/Project Update 7_14.pdf",
     "wiki/designs/HRI2526 H-Rotor Darrieus with Savonius Compartments.md",
     "active/resources/mtg notes/Notes on meeting July 7.md",
-    "active/documentation/CFD log/Airfoil Validation Studies.md",
     "Pasted image 20260729220720.png",
     "active/_Julie_daily_log.md",
     "active/documentation/Weeks 1-4 Project Summary and Report Outline.md",
@@ -315,7 +315,6 @@
     "active/analysis/VJ20 VA9 DOE Recommendation.md",
     "attachments/PDFs/vj20.pdf",
     "attachments/PDFs/cj9.pdf",
-    "active/analysis/Design Comparison.base",
     "Untitled.canvas"
   ]
 }

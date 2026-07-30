@@ -791,7 +791,13 @@ growth rate: 1.5
 Copied Mesh JA3 and changed only the inflate-boundary-layer relative thickness from `2.5` to `0.5`, following Phil's review. Kept the `10` layers, `1.5` growth rate, surface sizing, and volume refinements unchanged to isolate a thinner prism stack.
 
 Purpose: retain smooth cell-size transitions while making the boundary-layer cells thinner normal to the airfoil surface.
-
+## J1 
+switch overall size of boundary layers from 2 to 0.5 
+ much better results cl=0.55 ( improved from 0.45) 
+## J2 
+add another volume refinement to fix the jump in size - set to a fineness of 7.5 
+- now the non-orthogonality and aspect ratio are way too high 
+	- changed to 2 non orthgonality corectors 
 ### Outcome
 max non-orthogonality - 83 
 ![[Pasted image 20260729220720.png|399]]

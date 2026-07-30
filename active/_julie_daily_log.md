@@ -476,8 +476,17 @@ day off
 	- 10 layers first size of 0.001 overall size of 2.5 and growth rate of 1.5
 - emailed phil back with more changes 
 - work more on blog writing 
+- phil wrote back - some edits to the mesh with improvements! 
+- more blog editing/writing 
 ### Thursday 7/30
-
+- call with mike and anna 
+	- talk about what's going well in the project 
+	- how online work is going 
+	- talked about time line 
+	- caught mike up to speed from Tuesday 
+- stay on call with anna 
+	- decided for anna to start the full turbine and Julie to keep working on mesh for a little bit 
+	- made some changes to the mesh and reran the simulation 
 ### Friday 7/31
 
 ## Week 7
