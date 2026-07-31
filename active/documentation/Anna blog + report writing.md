@@ -3,9 +3,9 @@ tags:
   - "#report"
 ---
 **Design Goal**
-In order to narrow down our design space and ensure realistic simulations were performed we opted to select a specific location for our proposed VAWT. In order to capitalize on the unique benefits of VAWTs we were looking for urban or suburban locations with moderate wind speeds and a demand for renewable energy. However, our primary concern for selecting a site was that it should have readily accessible wind data that was acquired in a location where we could theoretically install our VAWT. For these reasons, we considered several airports in eastern Massachusetts at which wind data has been collected roughly every minute for many years. Ultimately, we chose Boston Logan International Airport because of its accessible, high-resolution wind data and its average wind speed of about `5 m/s`. Additionally, we identified the airport as a high energy demand location with an interest in renewable energy since the Massachusetts Department of Transportation intends to reach net-zero emissions by 2028.  
+In order to narrow down our design space and ensure realistic simulations were performed we opted to select a specific location for our proposed VAWT. To capitalize on the unique benefits of VAWTs we were looking for urban or suburban locations with moderate wind speeds and a demand for renewable energy. However, our primary concern for selecting a site was that it should have readily accessible wind data that was acquired in a location where we could theoretically install our VAWT. For these reasons, we considered several airports in eastern Massachusetts at which wind data has been collected roughly every minute for many years. Ultimately, we chose Boston Logan International Airport because of its accessible, high-resolution wind data and its average wind speed of about `5 m/s`. Additionally, we identified the airport as a high energy demand location with an interest in renewable energy since the Massachusetts Department of Transportation intends to reach net-zero emissions by 2028.  
 
-In order for BOS to meet our criteria we needed to ensure it would (at least theoretically) be possible to install our VAWT on the premises, ideally as close as possible to the location at which the wind data is collected which happens to be in the center of the airfield at about 9 m from the ground. We utilized the LLM to read through the Federal Aviation Administration regulations about construction in and around airports and determined that Governor's Island, an outer section of the airfield that faces the bay on two sides, includes at least 10 acres of VAWT-compatible space.   
+In order for BOS to meet our criteria we needed to ensure it would be possible to install our VAWT on the premises, ideally as close as possible to the location at which the wind data is collected in the center of the airfield about 9 m from the ground. We utilized the LLM to read through the Federal Aviation Administration regulations about construction in and around airports and determined that Governor's Island, an outer section of the airfield that faces the bay on two sides, includes at least 10 acres of VAWT-compatible space.   
 
 With a location selected our next step was to analyze the wind data and determine what criteria our design should meet in order to perform optimally in the particular wind conditions on Governor's Island. We added two years of wind data to the wiki and used the LLM to generate a histogram of the data, sorting it by wind speed. The LLM was also able to quickly analyze the data and, with its access to information about VAWT performance, helped us determine what design parameters we should aim for in order to design a VAWT that would take full advantage of the available wind power at BOS.
 
@@ -20,10 +20,6 @@ The use of AI significantly accelerated the process of reviewing research papers
  As per the AI-exploration objective of this project, we explored two CAD AI tools: Zoo Design Studio's Zookeeper, and Fusion's Autodesk Assistant. 
 
 We used the LLM wiki to generate prompts for the CAD AI agents based on the design specifications in the research papers for the two selected VAWT designs. The dual-phase H-type design was very well described so the AI prompt was quite robust and very successful. The unique Darrieus design provided more of a prompting challenge due to a lack of design specifications in the source paper. 
-
-
-
-
 
 
 # AI Outlines

@@ -492,7 +492,19 @@
 		- ran another simulation, inspected mesh and outcomes
 		- emailed back with more details and questions
 
+### Thursday 07/30
 
+`09:00` met w/ Mike + Julie (0.5 hr)
+`09:30` airfoil troubleshooting + setting up vj20 cfd sim (3.5 hrs)
+	- read phil's email, looked at airfoil mesh again
+	- started setting up vj20 cfd simulation again
+	- youtube videos/research for help
+	- emailed phil back asking about the full turbine settings
+`13:30` writing and more mesh/cfd work (6 hrs)
+	- worked on writing blog draft (design goal, concept selection, and cad)
+	- refined mesh according to phil's advice
+		- ran another simulation, inspected mesh and outcomes
+		- emailed back with more details and questions
 Hours: -13.50
 
 **Mtg notes 7/14:** 
