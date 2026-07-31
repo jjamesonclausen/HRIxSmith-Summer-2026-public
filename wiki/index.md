@@ -36,6 +36,7 @@ The map of this knowledge base. The agent keeps this current: every page it crea
 - [[ca37 NACA 2412 Airfoil Validation]]
 - [[ca36 Boundary-Layer-Informed Airfoil Design and Validation]]
 - [[ca39 NACA 0018 Flow-Control CFD Limits]]
+- [[vj20 Scaled Hybrid VAWT CFD Setup]]
 
 ## Source summaries
 

@@ -1,6 +1,17 @@
 #maintenance
 ## Log
 
+### 2026-07-31 - Document vj20 scaled-model CFD setup
+
+- Task: add a detailed, source-specific wiki record of the `vj20` scaled hybrid VAWT CFD setup, emphasizing mesh and flow conditions.
+- Actions:
+  - Created [[vj20 Scaled Hybrid VAWT CFD Setup]] in `wiki/CFD/` with scaled geometry, the `5 m x 2 m x 2 m` domain, boundary conditions, URANS sliding-mesh formulation, mesh settings, mesh/time-step studies, and known omissions.
+  - Added the note to [[index]] and included the source Figure 10 mesh/domain image with its original caption and source link.
+- Decisions:
+  - Preserved the source's unclear SST wording and the `37.06 rad/s` versus `TSR = 3` scaling inconsistency as uncertainties rather than inventing solver or rotational settings.
+- Open:
+  - A reproduction still needs explicit inlet-turbulence, air-property, rotating-zone, solver-coupling, residual, iteration, and run-duration settings.
+
 ### 2026-07-30 - Draft CAD modeling process blog post
 
 - Task: write a detailed blog post about the project's CAD modeling process using Anna's and Julie's daily logs and related project documentation.
