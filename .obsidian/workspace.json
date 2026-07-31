@@ -87,16 +87,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "active/documentation/Weeks 1-4 Project Summary and Report Outline.md",
+                "file": "active/documentation/CAD Modeling Process Blog Post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Weeks 1-4 Project Summary and Report Outline"
+              "title": "CAD Modeling Process Blog Post"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,8 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.50418853759766,
-    "collapsed": true
+    "width": 288.50418853759766
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -259,14 +257,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "b5e50ffac3de1820",
+  "active": "9b080656a7125bfb",
   "lastOpenFiles": [
-    "active/documentation/Anna blog + report writing.md",
     "active/documentation/Julie blog  + setting up the wiki.md",
-    "active/documentation/CFD log/Airfoil Validation Studies.md",
-    "active/documentation/LLM blog outline julie.md",
+    "active/documentation/CAD Modeling Process Blog Post.md",
     "active/_Julie_daily_log.md",
     "active/documentation/Weeks 1-4 Project Summary and Report Outline.md",
+    "active/documentation/CFD log/Airfoil Validation Studies.md",
+    "active/documentation/Anna blog + report writing.md",
+    "active/documentation/LLM blog outline julie.md",
     "active/resources/llm wiki resources.pdf",
     "images/Pasted image 20260729145520.png",
     "images/Pasted image 20260729145502.png",

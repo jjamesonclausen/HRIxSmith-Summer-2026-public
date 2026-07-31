@@ -492,9 +492,16 @@ day off
 	- found a [simscale project](https://www.simscale.com/projects/Jon_Wilde/wind_turbine/) of a VAWT testing to model our settings off of 
 - emailed Phil in response to his email saying we have to move on to the whole turbine and asked for his help 
 	- also shared the project with him 
-	- 
+- working on the blog posts 
+- finished up the wiki building section 
+- started the cad modeling section 
+	- tried what Ryan suggested - asked for high level short one and then a long one then for one in the middle 
 ### Friday 7/31
-
+- call with anna 
+- review Phills email + CFD work 
+	- fix mesh by increasing fineness every per Phills suggestion 
+		- when looking at new mesh i noticed that there were some bad cells at the intersection of the struts to the center --> fix geometry - the center struts arnt full connected 
+- 
 ## Week 7
 
 ### Monday 8/3

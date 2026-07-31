@@ -1,6 +1,48 @@
 #maintenance
 ## Log
 
+### 2026-07-30 - Draft CAD modeling process blog post
+
+- Task: write a detailed blog post about the project's CAD modeling process using Anna's and Julie's daily logs and related project documentation.
+- Actions:
+  - Created [[active/documentation/CAD Modeling Process Blog Post]], covering design selection, ZooKeeper/KCL learning, VA9 reconstruction and blade-end iterations, VJ20 ZooKeeper and Fusion trials, CFD preparation, and lessons from AI-assisted modeling.
+  - Grounded the narrative in the daily logs and CAD records, with source citations throughout, and added it to [[index]].
+- Decisions:
+  - Treated the post as a process record rather than evidence that either model is manufacturable, source-faithful, aerodynamically accurate, or CFD-validated.
+  - Preserved reported tool failures and unresolved geometry issues alongside the successful modeling iterations.
+- Open:
+  - Add author-specific voice, choose approved screenshots, and confirm which project and source images can be published before sharing the draft.
+
+### 2026-07-30 - Add short CAD blog version
+
+- Task: add a very short high-level blog post covering the CAD process to the existing CAD blog document.
+- Actions:
+  - Added a standalone three-paragraph short version to [[active/documentation/CAD Modeling Process Blog Post]].
+- Decisions:
+  - Retained the same evidence limits: the CAD outputs are exploratory and require source checking, visual inspection, and validation before use in manufacturing or CFD.
+- Open:
+  - Select whether the detailed or short version is appropriate for the intended publication format.
+
+### 2026-07-30 - Add medium CAD blog version
+
+- Task: add a medium-length CAD-process blog post to the existing CAD blog document.
+- Actions:
+  - Added a medium version between the detailed and short versions in [[active/documentation/CAD Modeling Process Blog Post]].
+- Decisions:
+  - Kept the post mostly high-level while retaining the VA9 reconstruction, VJ20 tool-comparison, and CFD-readiness limits that explain the project's core CAD lessons.
+- Open:
+  - Select the detailed, medium, or short version based on the final publication length and audience.
+
+### 2026-07-30 - Revise CAD blog voice
+
+- Task: revise all three CAD blog versions to use first-person, active voice.
+- Actions:
+  - Rewrote the detailed, medium, and short versions in [[active/documentation/CAD Modeling Process Blog Post]] around a consistent team "we" voice.
+- Decisions:
+  - Preserved the source citations and the uncertainty limits while replacing impersonal and passive phrasing.
+- Open:
+  - Review the voice against the intended authors' preferred tone before publication.
+
 ### 2026-07-29 - Record airfoil boundary-layer thickness change
 
 - Task: document the user's boundary-layer adjustment after Phil's CFD mesh review.
