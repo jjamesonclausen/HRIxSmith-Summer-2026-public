@@ -505,7 +505,27 @@
 	- refined mesh according to phil's advice
 		- ran another simulation, inspected mesh and outcomes
 		- emailed back with more details and questions
-Hours: -13.50
+
+### Friday 07/31
+
+`09:00` met w/ Julie (0.5 hr)
+`09:30` vj20 cfd meshing (3 hrs)
+`13:30`  met w/ Mike + Julie (0.5 hr)
+`14:00` more vj20 meshing (4 hrs)
+
+### Sunday 08/02
+
+`09:00` general cfd mesh research (0.5 hr)
+`09:30` geometry improvements to reduce non-orthogonality (2.5 hr)
+	- added fillets to blade trailing edges
+	- added fillets to blade-strut interfaces
+	- replaced rectangular struts with cylindrical to reduce num faces/edges
+*Fusion AI keeps running into mcp execute errors and being unable to actually edit the model and instead gives me instructions on how to do it. Helpful to learn but annoying when I have to slowly do repetitive changes that it should be able to do. Tried to upload the file to Zoo to see if Zookeeper could do it but it was having trouble importing the files which is quite annoying as well. Restarted Fusion and regained mcp execute functionality. Proceeded to spend almost an hour trying to prompt Fusion *
+
+
+Hours: -6
+
+
 
 **Mtg notes 7/14:** 
 	- LLM prompt improvements
@@ -518,10 +538,4 @@ Hours: -13.50
 	- ~~use llm to help summarize and document all of our iterations of CAD and CFD~~ 
 **Misc:**
 	- add shorter time interval data to investigate wind direction fluctuations 
-	- next tuesday 07/28 everyone will be back, but note that rajeev will have missed two weeks by then!
-	- stop airfoil val work by EOD wednesday
-
-MIKE SCHEDULE
-wendesday, maybe morning but not rest of day 
-thursday, no
-friday - wednesday, available
+	- tuesday ~~07/28~~ 8/4 everyone will be back, but note that rajeev will have missed ~~two~~ three weeks by then!
