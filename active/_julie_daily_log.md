@@ -501,11 +501,16 @@ day off
 - review Phills email + CFD work 
 	- fix mesh by increasing fineness every per Phills suggestion 
 		- when looking at new mesh i noticed that there were some bad cells at the intersection of the struts to the center --> fix geometry - the center struts arnt full connected 
+- more cfd work 
 - 
 ## Week 7
 
 ### Monday 8/3
-
+- no meeting with mike today 
+- start with some work in simscale - over the weekend anna fixed up the geometry so that the mesh can be more easily made 
+- adding pictures to the blog post 
+- working with the LLM to start the report (2 hrs)
+- call with anna to work on mesh 
 ### Tuesday 8/4
 
 ### Wednesday 8/5

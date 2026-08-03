@@ -1,6 +1,30 @@
 #maintenance
 ## Log
 
+### 2026-08-03 - Draft interim narrative technical report
+
+- Task: create a detailed narrative-style technical-report draft through the current project status, using Anna's and Julie's daily logs, project progress records, CAD documentation, and CFD documentation.
+- Actions:
+  - Created `active/documentation/Interim Narrative Technical Report Draft - 2026-08-03.md` with an abstract, research and setup narrative, Logan design context, 63-design concept screening, CAD development, CFD validation status, AI-workflow assessment, conclusions, and six technical appendices.
+  - Included report-ready numerical details for the selection weights and scores, VA9/VJ20 geometry and reported screening values, and the NACA0018/NACA0012 CFD cases.
+  - Explicitly separated provisional and model-specific results from validated engineering conclusions, and listed unresolved design, regulatory, geometry, and CFD questions.
+- Decisions:
+  - Located the draft in `active/documentation/` because it is active project documentation rather than a maintained wiki knowledge page.
+  - Used the current reporting cutoff of 3 August 2026 and did not present the two remaining weeks as completed work.
+- Open:
+  - Reconcile the conflicting VJ20 cut-in-speed records using the primary paper, insert approved figures, and update the draft with final geometry and CFD outcomes after the remaining project work is complete.
+
+### 2026-08-03 - Remove inline report citations
+
+- Task: remove source listings that followed technical and narrative statements in the interim report draft.
+- Actions:
+  - Removed the inline parenthetical source citations and per-appendix source lines from `active/documentation/Interim Narrative Technical Report Draft - 2026-08-03.md`.
+  - Retained Appendix F as the report-level list of source records used for the draft.
+- Decisions:
+  - Kept the report's uncertainty statements and quantitative details while making the prose read as a conventional narrative technical report.
+- Open:
+  - Choose and apply the final required citation/reference style if the report submission has one.
+
 ### 2026-07-31 - Document vj20 scaled-model CFD setup
 
 - Task: add a detailed, source-specific wiki record of the `vj20` scaled hybrid VAWT CFD setup, emphasizing mesh and flow conditions.
