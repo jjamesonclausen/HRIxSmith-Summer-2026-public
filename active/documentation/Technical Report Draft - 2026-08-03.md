@@ -29,9 +29,9 @@ The CFD work began with NACA0018 airfoil validation attempt at Reynolds number 5
 
 ### 1.1 Project purpose
 
-The project was framed as both a VAWT design exercise and an investigation of practical AI use in engineering. The team did not seek to demonstrate that an AI system could autonomously design a turbine. Instead, the project examined whether a deliberately constrained system could help novice engineers find and organize information, identify knowledge gaps, and learn technical concepts while retaining human control over consequential decisions.
+The project was framed as a an exercise vertical axis wind turbine design  and as an investigation of practical AI use in engineering. The team did not set out to make an AI driven design of a wind turbine to demonstrate that an AI system could autonomously design a turbine. Instead, the project examined whether a deliberately constrained system could help novice engineers find and organize information, identify knowledge gaps, and learn technical concepts while retaining human control over consequential decisions.
 
-This distinction shaped the work from the outset. The project by tracked four main risks of AI usage: fluency mistaken for correctness, automation bias, anchoring on an initial answer, and sycophancy. The LLM wiki was therefore built with source-only answer rules, citation requirements, explicit labels for unsupported material, and an evaluation loop intended to expose failures.
+This distinction shaped the work from the outset. The team recognized early on the ways that AI can fail, and built safeguards into the project structure to avoid these pitfalls. The project by tracked four main risks of AI usage: fluency mistaken for correctness, automation bias, anchoring on an initial answer, and sycophancy. The LLM wiki was therefore built with source-only answer rules, citation requirements, explicit labels for unsupported material, and an evaluation loop intended to expose failures.
 
 ### 1.2 Scope and reporting boundary
 
@@ -41,13 +41,13 @@ This report covers work completed during an eight week span. It includes researc
 
 ### 2.1 Establishing the technical baseline
 
-During the first week, Anna and Julie reviewed fluid-mechanics notes, a previous capstone report, VAWT literature, and report appendices while meeting with the HRI and 99P collaborators. This initial study established the technical vocabulary and identified the need to learn both VAWT design and the new software workflow before attempting a design decision.
+During the first week, Anna and Julie reviewed fluid-mechanics concepts, a previous capstone report, VAWT literature, and report appendices while meeting with the HRI 99P team. This initial study established the technical vocabulary and identified the need to learn both about VAWT design and the new software workflow before attempting to begin the design phase.
 
-The team also set up OpenCode, Visual Studio Code, Obsidian, Slack, GitHub, and VS Code Live Share. The early collaboration work included an introductory LLM-wiki workshop, repository creation, shared GitHub access, and asynchronous Git practice. These setup tasks were project work, not incidental administration, because the resulting repository was intended to be the shared technical record for research, decisions, CAD, CFD, and AI-use lessons.
+The team also set up OpenCode, Visual Studios, Obsidian, Slack, GitHub, and VS Code Live Share. The early collaboration work included an introductory LLM-wiki workshop, repository creation, shared GitHub access, and asynchronous Git practice. These setup tasks were mandatory project work that help set up the baseline knowledge of the structure of the wiki. The resulting repository was intended to be the shared technical record for research, decisions, CAD, CFD, AI-use lessons, and to organize all the information gathered about VAWTs. 
 
 ### 2.2 Building a source-grounded LLM wiki
 
-The team organized the repository so that raw source material was separated from the editable wiki and from procedural guidance. Broad behavior and quality rules were retained in `AGENTS.md`, while detailed conversion, ingestion, extraction, organization, and maintenance procedures were separated into `schema/` documents. This separation was introduced after early failures made it clear that general instructions did not reliably produce all required steps.
+The team organized the repository so that raw source material was separated from the editable wiki. Broad behavior and quality rules were retained in `AGENTS.md`, while detailed conversion, ingestion, extraction, organization, and maintenance procedures were separated into `schema/` documents. This separation was introduced after early failures made it clear that general instructions did not reliably produce all required steps.
 
 The source-ingestion workflow converted research PDFs to Markdown while attempting to preserve headings, figures, captions, equations, source identifiers, and traceability. Python and PyMuPDF were added to improve image extraction. The team subsequently repaired incorrectly converted files, restored original PDFs that had been removed before the current procedure, corrected unwanted source summarization, repaired image placement and links, and added missing metadata.
 
@@ -55,7 +55,7 @@ The wiki was organized around concepts, methods, designs, and parameters rather 
 
 ### 2.3 Reliability findings from the research stage
 
-The wiki became useful for source-grounded retrieval and quiz-based learning, but it did not reliably perform every ingestion task without supervision. Recorded failures included timeouts, missing figures and equations, poor formatting, malformed links, altered source content, incomplete metadata, and difficulty extracting graph-derived values such as `Cp`. The team responded by tightening procedures and manually checking outputs rather than treating the generated pages as automatically trustworthy.
+The wiki became useful for source-grounded retrieval and quiz-based learning, but it did not reliably perform every ingestion task without supervision. Recorded failures included timeouts, missing figures and equations, poor formatting, malformed links, altered source content, incomplete metadata, and difficulty extracting graph-derived values such as `Cp`. The team responded by tightening procedures and manually checking outputs rather than treating the generated pages as automatically correct. The team discovered that using different models lead to variable outputs which were hard to manage. Through creating specific repeatable tasks with instructions pages, like on how to ingest sources or extract figures, these failures significantly decreased in frequency.
 
 This stage established a central project result: information architecture and verification determine whether AI-assisted retrieval is useful. A polished answer, a complete-looking wiki page, or a calculated ranking is not independently valid unless its underlying source evidence and assumptions are checked.
 

@@ -1,6 +1,17 @@
 #maintenance
 ## Log
 
+### 2026-08-04 - Consolidate VJ20 CFD replication settings
+
+- Task: extract the reported VJ20 CFD settings, especially meshing controls, for recreating the paper's computational case.
+- Actions:
+  - Updated [[vj20 Scaled Hybrid VAWT CFD Setup]] with a single settings table covering Fluent, domain and boundaries, URANS/sliding-mesh formulation, turbulence/discretisation, mesh sizing and inflation, mesh/time-step independence, and the displayed quasi-steady response.
+  - Added an explicit list of CFD controls the paper does not report so a reconstructed case does not treat assumptions as published settings.
+- Decisions:
+  - Kept the paper's conflicting/unclear `k-epsilon` and SST wording as an uncertainty; no turbulence-model variant or near-wall treatment was inferred.
+- Open:
+  - Choose and document the omitted Fluent solver, turbulence-inlet, convergence, and run-duration settings before treating a recreated case as a faithful reproduction.
+
 ### 2026-08-03 - Draft interim narrative technical report
 
 - Task: create a detailed narrative-style technical-report draft through the current project status, using Anna's and Julie's daily logs, project progress records, CAD documentation, and CFD documentation.

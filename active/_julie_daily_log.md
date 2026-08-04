@@ -512,7 +512,9 @@ day off
 - working with the LLM to start the report (2 hrs)
 - call with anna to work on mesh 
 ### Tuesday 8/4
-
+- met with mike and anna 
+- run mesh 26 - the best mesh we had made with standard algorithm 
+- work on the hex dominate parametric mesh settings 
 ### Wednesday 8/5
 
 ### Thursday 8/6
