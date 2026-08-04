@@ -514,7 +514,13 @@ day off
 ### Tuesday 8/4
 - met with mike and anna 
 - run mesh 26 - the best mesh we had made with standard algorithm 
+	- this is taking a long time 111 minutes with 0% progress 
 - work on the hex dominate parametric mesh settings 
+	- added the surface refinements 
+	- anna added boxes around the connections 
+	- now trying to get the boundary layers to show up - for some reason they wont generate 
+	- non-orthogonality is still at 89 - mostly around trailing edge of two blades though 
+		- some on a leading edge of one of the airfoils - on the top 
 ### Wednesday 8/5
 
 ### Thursday 8/6

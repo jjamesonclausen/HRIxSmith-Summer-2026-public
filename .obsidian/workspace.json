@@ -81,8 +81,7 @@
               "title": "vj20 Scaled Hybrid VAWT CFD Setup"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -141,8 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.50418853759766,
-    "collapsed": true
+    "width": 288.50418853759766
   },
   "right": {
     "id": "1ec4136efd87e397",
@@ -247,11 +245,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "e7d350eb6af5fa03",
+  "active": "9b080656a7125bfb",
   "lastOpenFiles": [
     "wiki/CFD/vj20 Scaled Hybrid VAWT CFD Setup.md",
-    "active/documentation/CFD log/Airfoil Validation Studies.md",
     "active/documentation/Technical Report Draft - 2026-08-03.md",
+    "active/documentation/CFD log/Airfoil Validation Studies.md",
     "active/_Julie_daily_log.md",
     "active/documentation/Julie blog  + setting up the wiki.md",
     "active/documentation/CAD log/VAWT_Dual_H_Rotor_ScaledDown_smooth.step",
