@@ -236,3 +236,82 @@ Cp = P / (0.5 * rho * A * U_infinity^3)
 3. Use `15` layers and growth ratio `1.4`. Replace the `0.2 m` final-layer thickness with a wall-treatment-based first-layer thickness; start from the prior `1e-4 m` trial only if a calculated value is not yet available.
 4. Generate the mesh but do not solve it. Use Mesh Quality/Isovolume to locate the cells above `88 degrees`; hide parts and use the view reset if they are too small to find. Inspect whether they occur at blade edges, the AMI interface, inflation transitions, or a CAD detail.
 5. Release the mesh only when both gates pass: no required blade/shaft face is defeatured and maximum non-orthogonality is below `85` (target below `70`). Do not add non-orthogonal correctors or use more conservative schemes while the maximum remains above `85`. (source: sources/ca22.md)
+
+# August 5 
+
+### Mesh 49 progress
+- **General Settings:**
+    - Standard algorithm
+    - Automatic sizing
+    - Fineness of 5
+    - Automatic curvature
+    - Automatic boundary layers is turned off
+    - Physics based meshing is turned on
+    - Hex element core is off
+    - Automatic extrusion meshing is off
+    - 48 preferred number of CPUs and a max meshing run time of 1.8e+4
+- **Advanced Settings:**
+    - Automatic feature suppression of 1e-5
+    - Gap refinement factor of 0.5
+    - Global graduation rate of 1.22
+- **Surface Custom Refinements:**
+    - Outer Blades, Inner Blades, Blade Tips, & Trailing Edges
+        - _Default size:_ 0.001 m
+        - _Min size:_ 0.00025 m
+    - Shaft & Supporting Struts
+        - _Default size:_ 0.0015 m
+        - _Min size:_ 0.0004 m
+    - Cylinder Surface Refinement
+        - _Sizing mode:_ Automatic
+        - _Fineness:_ 9.2
+- **Volumetric Region Refinements:**
+	- Cylinder: global automatic settings - fineness of 9 
+    - Small Wake Box: global automatic sizing- fineness of 8.5
+    - Large Wake Box: global automatic sizing- fineness of 8
+- **Boundary Layer Inflation Refinements:**
+    - Outer Blades, Inner Blades, Shaft + Struts, & Blade Tips (Trailing Edge Face)
+        - _Number of layers:_ 7
+        - _Overall relative thickness:_ 0.5
+        - _Growth rate:_ 1.4
+
+
+### Mesh 50 progress 
+#### Settings overview:
+- **General Settings:** 
+	- standard algorithm 
+		- automatic sizing
+		- fineness of 5 
+		- automatic curvature
+	- automatic boundary layers is turned off
+	- physics based meshing is turned off 
+	- hex element core is off 
+	- automatic extrusion meshing is off 
+	- 48 preferred number of CPUs and a max meshing run time of 1.8e+4
+	- **advanced settings:** 
+		- automatic feature suppression of 1e-5
+		- gap refinement factor of 0.5 
+		- global graduation rate of 1.22
+- **Surface Custom Refinements:**
+	- Outer Blades, Inner Blades, Blade Tips, & Trailing Edges
+		- *Default size:* 0.0015 m 
+		- *Min size*: 0.00035 m 
+	- Shaft & Supporting Struts
+		- *Default size:* 0.0015 m
+		- *Min size:* 0.0004 m
+- **Volumetric Region Refinements:**
+	- Cylinder Box
+		- *Default size:* 0.002 m
+	-  Small Wake Box 
+		- *Default size:* 0.003 m
+	- Large Wake Box
+		- *Default size:* 0.006 m
+- **Boundary Layer Inflation Refinements:**
+	- Outer Blades, Inner Blades, & Shaft + Struts
+		- *Number of layers:* 6
+		- *Overall relative thickness*: 0.3
+		- *Growth rate*: 1.2
+	- Blade Tips (Trailing Edge Face)
+		- *Number of layers:* 6
+		- *Overall relative thickness*: 0.3 
+		- *Growth rate*: 1.2
+
