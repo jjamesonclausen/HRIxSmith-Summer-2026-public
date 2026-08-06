@@ -79,8 +79,7 @@
               "title": "CAD Modeling Process Blog Post"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -244,12 +243,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "56742a86d7b8dc56",
+  "active": "9b080656a7125bfb",
   "lastOpenFiles": [
-    "active/_Julie_daily_log.md",
-    "active/documentation/CAD Modeling Process Blog Post.md",
-    "active/documentation/CFD log/Airfoil Validation Study Summary and Report Outline.md",
     "active/documentation/CFD log/vj20 SimScale Validation.md",
+    "active/documentation/CAD Modeling Process Blog Post.md",
+    "active/_Julie_daily_log.md",
+    "active/documentation/CFD log/Airfoil Validation Study Summary and Report Outline.md",
     "active/documentation/Technical Report Draft - 2026-08-03.md",
     "active/documentation/Anna blog + report writing.md",
     "active/documentation/Julie blog  + setting up the wiki.md",

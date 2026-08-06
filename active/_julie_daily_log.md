@@ -657,6 +657,7 @@ day off
 		- switched back to manual sizing and increases the size to .005 
 			- worked but boundary layers are slightly crushed so now i will change the settings on those from relative to absolute 
 ### Thursday 8/6
+- mesh 56 is a copy of 49 - but with global graduation rate of 1.1, no blade tips boundary layers and physics based meshing off 
 
 ### Friday 8/7
 
