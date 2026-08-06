@@ -315,3 +315,39 @@ Cp = P / (0.5 * rho * A * U_infinity^3)
 		- *Overall relative thickness*: 0.3 
 		- *Growth rate*: 1.2
 
+### Mesh 50 progress 
+#### Settings overview:
+- **General Settings:** 
+	- standard algorithm 
+		- automatic sizing
+		- fineness of 5 
+		- automatic curvature
+	- automatic boundary layers is turned off
+	- physics based meshing is turned off 
+	- hex element core is off 
+	- automatic extrusion meshing is off 
+	- 96 preferred number of CPUs and a max meshing run time of 1.8e+4
+	- **advanced settings:** 
+		- automatic feature suppression of 1e-5
+		- gap refinement factor of 0.5 
+		- global graduation rate of 1.22
+- **Surface Custom Refinements:**
+	- Outer Blades, Inner Blades, Blade Tips, & Trailing Edges
+		- *Default size:* 0.0015 m 
+		- *Min size*: 0.00035 m 
+	- Shaft & Supporting Struts
+		- *Default size:* 0.0015 m
+		- *Min size:* 0.0004 m
+- **Volumetric Region Refinements:**
+	- Cylinder Box
+		- *Default size:* 0.002 m
+- **Boundary Layer Inflation Refinements:**
+	- Outer Blades, Inner Blades, & Shaft + Struts
+		- *Number of layers:* 6
+		- *Overall relative thickness*: 0.3
+		- *Growth rate*: 1.2
+	- Blade Tips (Trailing Edge Face)
+		- *Number of layers:* 6
+		- *Overall relative thickness*: 0.3 
+		- *Growth rate*: 1.2
+

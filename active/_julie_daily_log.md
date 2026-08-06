@@ -587,6 +587,75 @@ day off
 		- after 20 mins of running there were still 0 faces so i stopped it and turned off physics based meshing 
 		- tried again with no luck - deleted the cylinder with custom refinement to see if that was interfering with the small + large wake boxes 
 		- running a test : one mesh with only wake boxes and one with only the cylinder to see which is the problem that's causing the stall
+		- mesh 53 finished - no wake boxes and cylinder is automatic sizing 
+			- Mesh quality metrics:
+				Min Edge Length: 0.0
+				Element type: Tetrahedra
+				Non Orthogonality
+				Acceptable range: 0.0 to 88.0
+					min: 0.0
+					max: 68.7
+					average: 33.0
+					99.99-th percentile: 68.7
+				Edge Ratio
+				Acceptable range: 0.0 to 100.0
+					min: 1.0
+					max: 6.4
+					average: 1.7
+					99.99-th percentile: 6.4
+				Volume Ratio
+				Acceptable range: 0.0 to 100.0
+					min: 1.0
+					max: 10.1
+					average: 1.9
+					99.99-th percentile: 10.1
+				Aspect Ratio
+				Acceptable range: 0.0 to 100.0
+					min: 1.0
+					max: 3.9
+					average: 1.7
+					99.99-th percentile: 3.9
+				Skewness
+				Acceptable range: 0.0 to 100.0
+					min: 0.0
+					max: 1.4
+					average: 0.3
+					99.99-th percentile: 1.4
+				Min Edge Length: 0.0
+				Element type: Prisms
+				Non Orthogonality
+				Acceptable range: 0.0 to 88.0
+					min: 0.2
+					max: 82.1
+					average: 18.1
+					99.99-th percentile: 82.1
+				Edge Ratio
+				Acceptable range: 0.0 to 100.0
+					min: 6.9
+					max: 58.5
+					average: 23.5
+					99.99-th percentile: 58.5
+				Volume Ratio
+				Acceptable range: 0.0 to 100.0
+					min: 1.2
+					max: 19.2
+					average: 1.8
+					99.99-th percentile: 19.2
+				Aspect Ratio
+				Acceptable range: 0.0 to 100.0
+					min: 9.5
+					max: 94.3
+					average: 28.2
+					99.99-th percentile: 94.3
+				Skewness
+				Acceptable range: 0.0 to 100.0
+					min: 0.0
+					max: 3.1
+					average: 0.2
+					99.99-th percentile: 3.1
+				Min Edge Length: 0.0
+		- switched back to manual sizing and increases the size to .005 
+			- worked but boundary layers are slightly crushed so now i will change the settings on those from relative to absolute 
 ### Thursday 8/6
 
 ### Friday 8/7
