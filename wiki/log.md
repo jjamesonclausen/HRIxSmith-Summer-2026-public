@@ -1,6 +1,18 @@
 #maintenance
 ## Log
 
+### 2026-08-10 - Add airfoil CFD validation appendix to technical report
+
+- Task: append a technical record of the NACA0018 validation goal, setup, troubleshooting process, targets, and current limitations to the technical-report draft.
+- Actions:
+  - Added Appendix I to `active/documentation/Technical Report Draft - 2026-08-03.md`.
+  - Documented the later pseudo-2D `k-omega SST` case, boundary conditions, coefficient normalization, mesh changes, issue-response-result sequence, validation targets, and best recorded NACA0018 and NACA0012 outputs.
+- Decisions:
+  - Treated the `Cl = 0.57` and `Cd = 0.028-0.030` NACA0018 values as model-specific predictions, not validated aerodynamic coefficients.
+  - Preserved conflicts in the documented wall treatment and residual acceptance target instead of resolving them by assumption.
+- Open:
+  - Select a condition-matched NACA0018 benchmark, confirm the saved wall treatment, and complete controlled mesh, domain, convergence, and transition sensitivity studies before applying the workflow to VAWT performance claims.
+
 ### 2026-08-10 - Add concept-selection appendix to technical report
 
 - Task: append a detailed, report-ready record of the concept-selection process, criteria, candidate screens, persona weights, and full-wiki ranking to the technical-report draft.

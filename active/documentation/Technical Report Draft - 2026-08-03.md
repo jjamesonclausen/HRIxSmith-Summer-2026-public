@@ -408,3 +408,76 @@ Several trends emerged. Straight-bladed H-rotor or Darrieus-derived designs domi
 The ranking was a structured design-screening tool, not a final validation exercise. It mixed concept families with individual designs, relied in part on informed estimates when sources omitted data, and contained a later-identified VJ20 cut-in-speed reporting conflict. The daily logs document that the team recognized this risk: AI accelerated comparison but could infer values not directly supported by a source, which would make a numerical ranking appear more certain than it was. The team therefore used the results to identify VA9 and VJ20 as two leading directions for CAD feasibility testing, not to claim that either was already the best turbine for BOS.
 
 **Appendix H source records:** `active/_anna daily log.md`; `active/_Julie_daily_log.md`; `active/analysis/Concept ranking worksheet.md`; `active/analysis/Decision Making Process.md`; `active/analysis/brainstorm.md`; `active/analysis/Design goal.md`.
+
+# Appendix I. Airfoil CFD Validation Process and Current Status
+
+## I.1 Goal and general approach
+
+Before applying CFD to a full VAWT, the team attempted to establish a defensible airfoil-level workflow using a NACA0018 case. The purpose was to determine whether the selected SimScale setup could reproduce a suitable reference lift and drag condition before interpreting full-turbine torque or power-coefficient results. This was a validation attempt, not a completed validation of the airfoil, the final turbine, or SimScale as a general CFD workflow.
+
+The work began by adapting the prior HRI airfoil-validation procedure, then progressed through exploratory domain and mesh tests, a pseudo-two-dimensional comparison setup, mesh-quality and near-wall refinements, and control cases using NACA0012, NACA0010, and NACA0015. The team used the logs to track each case, inspected mesh images and quality metrics, checked STEP geometry and coefficient normalization, and sought CFD-expert feedback when AI-assisted troubleshooting did not resolve the discrepancy.
+
+## I.2 Best-documented later simulation setup
+
+The later rounded-trailing-edge NACA0018 case was the most consistently documented configuration. It should be treated as the definition of the reported model output, not as a universally correct validation recipe.
+
+| Setup item | Recorded configuration |
+| --- | --- |
+| Airfoil | NACA0018 with a rounded trailing edge in the later cases |
+| Angle of attack | `5 deg` |
+| Nominal Reynolds number | `50,000` |
+| Chord | `1.0 m` |
+| Fluid | Air; density `1.196 kg/m3`; kinematic viscosity `1.5293e-5 m2/s` |
+| Inlet velocity | `0.7645 m/s` |
+| Solver | Incompressible, steady-state `k-omega SST` |
+| Computational domain | External-flow volume: `x = -10` to `15 m`; `y = -8` to `8 m`; `z = -0.25` to `0.25 m` |
+| Dimensionality treatment | A `0.5 m` spanwise external-flow volume was used as a pseudo-2D approximation so the case could be compared more meaningfully with sectional airfoil data. |
+| Inlet | Velocity inlet, `Ux = 0.7645 m/s`; later cases specified turbulence intensity `0.001`. |
+| Outlet | Pressure outlet, gauge pressure `0 Pa`. |
+| Outer boundaries | Slip walls on the outer boundaries. |
+| Airfoil boundary | No-slip airfoil wall. The run log labels the later rounded-tail case as a wall-function case, while a later meeting brief reports full-resolution treatment; the saved SimScale case must be checked before either wall-treatment label is used as final evidence. |
+| Force-coefficient controls | Lift along `+y`; drag along `+x`; reference velocity `0.7645 m/s`; reference length `1 m`; reference area `0.5 m2`. |
+| Numerics | Two non-orthogonal correctors in the best-documented rounded-tail case. |
+| Simulation control | End time `1000 s`; time step `1 s`; write interval `1000` time steps. |
+| Near-wall mesh changes in Run 13 | First-layer size `0.00001 m`; small-feature suppression `0.000001 m`; rounded trailing edge. |
+
+The `0.5 m2` reference area is important. The STEP review found that the `1 m`-chord airfoil body was physically extruded to `1 m` span, but the pseudo-2D external-flow volume retained only `0.5 m` of wetted span after subtraction. Using `A = chord x span = 1.0 m x 0.5 m = 0.5 m2` therefore corrected an earlier coefficient-normalization inconsistency.
+
+## I.3 Troubleshooting record: issue, response, and impact
+
+| Issue encountered | What was changed or checked | What was learned | Impact on mesh or simulation result |
+| --- | --- | --- | --- |
+| Early NACA0018 runs predicted very low lift and high drag. | Tested default meshing, boundary-layer inflation, Hex Automatic meshing, and different external-flow volumes. | The first cases were exploratory and did not provide a sufficient validation basis. | Batch 1 results ranged from `Cl = 0.1306-0.261` and `Cd = 0.0397-0.061`; no early configuration matched the intended lift comparison. |
+| The first attempted pseudo-2D run produced no usable results. | Rebuilt the case with explicit force and moment result controls. | Result controls must be configured before a run; solver completion alone does not produce usable validation evidence. | The failed run was not used for coefficient comparison. |
+| A finite-span model was being compared with a sectional airfoil reference. | Reduced the spanwise domain from a large finite span to `z = -0.25` to `0.25 m`. | A pseudo-2D treatment was more appropriate for comparison with 2D reference data; finite-span effects were distorting the comparison. | Before correcting area, the reduced-span case gave `Cl = 0.291`, `Cd = 0.026`; after area correction, the same general setup gave `Cl = 0.583`, `Cd = 0.052`. |
+| Coefficients were normalized with the former `1 m2` area after the span was shortened. | Changed the force-coefficient reference area to `0.5 m2` and later checked the retained wetted span in the STEP/domain geometry. | Coefficient reference area is part of the physical setup, not a cosmetic postprocessing choice. | Reported lift increased from `Cl = 0.291` to `Cl = 0.583`; the corrected area was retained. |
+| Enlarging the outer domain did not improve the low-lift result. | Expanded the finite-span domain from `x = -3` to `8 m`, `y = -4` to `4 m`, `z = -4` to `4 m` to `x = -10` to `15 m`, `y = -8` to `8 m`, `z = -8` to `8 m`. | Domain enlargement alone was not the main explanation for the discrepancy. | The log records essentially no change before the pseudo-2D change. |
+| Maximum solved `y+` was too high for the intended near-wall target. | Added `y+` monitoring; varied first-layer thickness, wall treatment, and boundary-layer settings. | Tracking `y+` exposed that early near-wall changes did not automatically improve the solution; an inflation refinement can also override automatic boundary-layer settings. | The duplicate corrected pseudo-2D case recorded maximum `y+ = 18.61`; later turbulence/mesh cases recorded maximum `y+` near `20.11`. |
+| Global mesh fineness changed drag more than lift. | Increased fineness to `8`. | More global refinement was not a substitute for a controlled near-wall and trailing-edge mesh strategy. | `Cl` decreased to `0.515`, while `Cd` improved to `0.041`. |
+| Changing inlet turbulence and wall treatment did not resolve the lift gap. | Changed turbulence from automatic to intensity `0.001`; tried full-resolution treatment in one run. | These changes were not isolated enough to determine a universal effect, but they did not materially remove the NACA0018 lift discrepancy. | A stabilized low-intensity case recorded `Cl = 0.570`, `Cd = 0.051`, and maximum `y+ = 20.11`; subsequent full-resolution testing was recorded as essentially unchanged. |
+| Sharp trailing-edge meshing produced high non-orthogonality near the trailing edge. | Reduced first-layer size, adjusted small-feature suppression, and rounded the trailing edge; increased non-orthogonal correctors from one to two. | Geometry repair can be necessary when the mesher cannot create a usable prism-layer transition at a sharp feature. The rounded geometry is no longer an ideal sharp NACA0018. | Run 13 reached maximum `y+ = 4.913`, with `Cl = 0.570` and `Cd = 0.028`; drag and near-wall quality improved, but lift did not. |
+| Mesh refinements looked better but residuals and coefficients remained unsatisfactory. | Julie created multiple boundary-layer, surface, volume, and wake refinement variants; Anna and Julie inspected non-orthogonality, aspect ratio, and local cell transitions with expert feedback. | A visually improved mesh is necessary but does not itself validate force coefficients. Refinement boxes can conflict, create abrupt size changes, or increase run cost. | Later meshes improved local quality in some cases, but the logs record residuals around `1e-5` and no final convergence or mesh-independence demonstration. |
+| It was unclear whether a shared setup or the NACA0018 geometry caused the discrepancy. | Ran a NACA0012 control under the rounded-tail setup and inspected STEP scale, thickness, orientation, span, and topology. | The shared domain, reference area, scale, and orientation workflow could produce a close NACA0012 comparison, but that did not validate NACA0018. | NACA0012 Run 15 gave `Cl = 0.614`, `Cd = 0.028`, and maximum `y+ = 5.33`; NACA0018 remained near `Cl = 0.57`. |
+| The reference target itself was not condition-matched. | Compared the AirfoilTools target with the low-Reynolds-number NACA0018 source record and discussed shifting to wind-tunnel data. | Different reference sources can represent different Reynolds numbers, transition states, geometry, or turbulence conditions; matching one curve is not a sufficient definition of validation. | The work stopped short of forcing the NACA0018 result to the AirfoilTools value and instead recorded the result as model-specific. |
+
+## I.4 Validation targets compared with the current evidence
+
+| Quantity or acceptance question | Target or expectation during the study | Best documented end state | Interpretation |
+| --- | --- | --- | --- |
+| NACA0018 lift coefficient at `Re = 50,000`, `5 deg` | AirfoilTools-based comparison of approximately `Cl = 0.75`. | Best rounded-tail pseudo-2D cases recorded `Cl = 0.570-0.572`. | The original lift comparison was not met. A separate low-Re source has a different reference context, so the gap cannot be attributed confidently to one simulation setting. |
+| NACA0018 drag coefficient | Match the selected reference curve; the project record did not establish one final numerical `Cd` acceptance value. | Best rounded-tail cases recorded `Cd = 0.028-0.030`. | Drag improved substantially from the early `0.04-0.06` range, but no condition-matched drag-validation criterion was completed. |
+| Residual convergence | CFD-expert guidance recorded a target below `1e-10`, ideally around `1e-15`, for `k` and `omega`. | Julie recorded residuals around `1e-5` in the later mesh work and questioned whether the expert target was achievable; no final residual-history acceptance result was documented. | The record does not demonstrate convergence to the stated expert target. |
+| Boundary-layer appearance | Smooth, uncrushed prism layers with a gradual transition from near-wall cells to the free stream; no abrupt jump in cell size. | Many boundary-layer count, thickness, growth-rate, and refinement variants were tested. The rounded-tail Run 13 mesh reduced `y+`, while later variants still showed crushed layers or abrupt size transitions. | Boundary-layer quality improved but was not closed by a documented mesh-independence or final visual acceptance criterion. |
+| Solved `y+` | CFD-expert guidance was `y+ < 1` for the intended wall-resolution approach. | Run 13 recorded maximum `y+ = 4.913`; Run 14 recorded `4.924`; the NACA0012 control recorded `5.33`. | The recorded cases improved greatly from roughly `18-20`, but did not meet the stated `< 1` target. The appropriate wall-treatment and `y+` requirement remain unresolved because the log contains conflicting wall-function and full-resolution labels. |
+| Mesh quality | Avoid high non-orthogonality, high aspect ratio, crushed prism layers, and isolated poor cells near sharp features or transitions. | Rounding the trailing edge reduced a key trailing-edge issue; later mesh variants reported non-orthogonality from approximately `72` to `83` in selected cases, while supplemental NACA0010/0015 controls reached roughly `87-89`. | Mesh quality was actively improved and inspected, but no final mesh-quality threshold or mesh-independence result was satisfied and documented. |
+| Coefficient stability | Lift and drag histories should flatten before coefficients are interpreted. | Some runs were extended to reduce residuals; one low-turbulence case showed oscillating `Cl`. | No complete force-history or convergence acceptance record exists for the NACA0018 result. |
+| Geometry and normalization | Correct chord, thickness, orientation, wetted span, and reference area. | STEP review confirmed nominal `1 m` chord, nominal `18%` thickness, `0.5 m` retained span, and `A = 0.5 m2`; orientation was corrected in SimScale. | These checks ruled out several shared setup errors but do not validate the rounded NACA0018 aerodynamic result. |
+| Control-case behavior | A common setup should produce a credible result for a suitable control profile. | NACA0012 Run 15 recorded `Cl = 0.614`, `Cd = 0.028`, and maximum `y+ = 5.33`, described in the log as close to its target. | This supports parts of the shared workflow, but one successful control cannot validate a different airfoil with a different trailing-edge response or transition behavior. |
+
+## I.5 Current conclusion and required next checks
+
+The best-supported current result is not a validated NACA0018 coefficient. It is a prediction from a steady, `k-omega SST`, rounded-trailing-edge, pseudo-2D SimScale case at the recorded condition: approximately `Cl = 0.57`, `Cd = 0.028-0.030`, and maximum `y+` near `4.9`. The strongest improvements were the pseudo-2D/reference-area correction and the trailing-edge mesh repair; these improved coefficient normalization, drag, and near-wall metrics without resolving the lift gap.
+
+Before this workflow is used to compare VAWT aerodynamic performance, the project needs a condition-matched NACA0018 benchmark with documented geometry, Reynolds number, angle of attack, transition and turbulence conditions, dimensionality, and measured coefficients. It also needs a controlled one-variable-at-a-time mesh and domain sensitivity sequence, a verified wall-treatment and `y+` target, residual and force-history acceptance criteria, and confirmation of the final saved SimScale settings. Until then, the airfoil coefficients should be presented as model outputs rather than validated physical values.
+
+**Appendix I source records:** `active/_anna daily log.md`; `active/_Julie_daily_log.md`; `active/documentation/CFD log/Airfoil Validation Studies.md`; `active/documentation/CFD log/Airfoil Validation Study Summary and Report Outline.md`; `active/documentation/CFD log/CFD Expert Meeting Brief.md`; `sources/cj9.md`.
