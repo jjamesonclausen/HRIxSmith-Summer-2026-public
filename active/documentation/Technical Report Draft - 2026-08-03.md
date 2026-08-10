@@ -270,3 +270,141 @@ The next two weeks should prioritize the smallest set of actions that produce de
 - `active/documentation/CFD log/Airfoil Validation Study Summary and Report Outline.md`
 - `active/documentation/Weeks 1-4 Project Summary and Report Outline.md`
 - `sources/cj9.md`
+
+# Appendix G. Boston Logan Location Selection and Wind Analysis
+
+## G.1 Purpose and site-selection basis
+
+The project required a specific urban or suburban context so that VAWT design choices could be screened against an actual wind record rather than against a generic wind-speed assumption. Boston Logan International Airport (BOS) was selected from the Boston-area locations considered because station data were available at high temporal resolution over multiple years and the airport provided a plausible high-energy-demand, decarbonization-relevant use context. The intended use of the location was early design screening, not a claim that a turbine has been approved for installation.
+
+Governor's Island was identified as a preliminary perimeter-area candidate because it is separated from the central runway field and exposed to the bay on two sides. The project design-goal note records a planning target of at least `700 ft` from a runway edge. That distance is a preliminary screening assumption, not a surveyed clearance, FAA determination, Massport approval, or confirmation that a turbine can be installed at that location.
+
+## G.2 Airport-airspace screening
+
+Airport construction is subject to FAA notice and obstruction-review requirements. Under 14 CFR Part 77, notice is required for construction taller than `200 ft` above ground level and for shorter construction that exceeds the relevant imaginary surface. The applicable civil-airport surfaces include horizontal, conical, primary, approach, and transitional surfaces. The primary surface may be up to `1,000 ft` wide for precision and some non-precision instrument runways; approach surfaces can rise at `20:1`, `34:1`, or `50:1`; and transitional surfaces rise at `7:1` from the sides of the primary and approach surfaces.
+
+These regulations support treating outer side-perimeter areas as more plausible preliminary candidates than locations between runways or directly beyond runway ends. They do not establish an allowable height at Governor's Island. A site-specific conclusion would require an airport layout and runway-approach information, a surveyed turbine position and ground elevation, the proposed turbine height, and an FAA obstruction evaluation. Any final siting decision would also require approval from the airport owner and other applicable authorities.
+
+## G.3 Wind-data record and processing
+
+Wind records were obtained for station `BOS` (`BOSTON/LOGAN INTL`) through the Iowa Environmental Mesonet ASOS request interface. The project record identifies the measurement height as approximately `9 m` above ground. The processed one-year table contains hourly UTC observations with wind speed, direction, gust direction, and gust speed. Wind and gust values were converted from knots to metres per second using `1 knot = 0.514444 m/s`.
+
+Two distributions were retained for different purposes:
+
+| Dataset | Period | Intended use | Limitation |
+| --- | --- | --- | --- |
+| One-year BOS record | July 2025 to July 2026 | Early site characterization and initial histogram | Significant gaps leave approximately `73%` of the year represented. |
+| Five-year BOS record | July 2021 to July 2026 | Annual-energy-oriented distribution and broader design screening | The station record is not a measurement at the proposed Governor's Island installation point. |
+
+The histograms use `0.5 m/s` wind-speed bins from `0` to `18 m/s` and plot the share of observations in each bin. The one-year and five-year histogram files are retained with the data so that the distribution can be inspected instead of relying only on a mean wind speed. Observations above `18 m/s` are not shown as separate histogram bins in the five-year rendering.
+
+## G.4 Results used in concept screening
+
+The early design record reports an average BOS wind speed of `4.8 m/s` and average gusts of `6.3 m/s`. A separate narrative description rounds the mean wind speed to approximately `5 m/s`; these are treated as the same preliminary characterization rather than independent site measurements. The distribution was used to emphasize designs capable of low-speed startup, while retaining rated-speed, efficiency, structural, manufacturing, maintenance, and airport-constraint considerations. It did not provide a turbine power curve, annual energy production estimate, or proof that a particular VAWT will perform at BOS.
+
+The main wind-analysis limitation is representativeness. The available observations describe the BOS weather-station record at approximately `9 m`, whereas the final turbine location, height, surface roughness, local obstructions, turbulence intensity, and wind-direction effects remain unspecified. Because wind power varies with the cube of velocity, even a modest mismatch between the station and installed conditions could materially change energy predictions. Site-specific anemometry at the selected installation point, supplemented by a completeness check and a documented treatment of missing data, is required before using the distribution for final annual-energy or economic conclusions.
+
+## G.5 Evidence and remaining work
+
+| Evidence item | Role in this project | What it does not establish |
+| --- | --- | --- |
+| BOS station wind records and histograms | Establishes an accessible, multi-year reference distribution for early design screening | Wind conditions at the final turbine position or annual energy production |
+| `4.8 m/s` mean wind and `6.3 m/s` mean gust values | Frames the site as a low-to-moderate-wind design context | A universal VAWT operating target or guaranteed performance |
+| Governor's Island perimeter concept | Provides a preliminary location for discussing installation constraints | A confirmed parcel, turbine footprint, permitted height, or approval |
+| 14 CFR Part 77 review | Identifies the need to evaluate airport imaginary surfaces and obstruction requirements | An FAA determination or authorization to construct |
+
+Before a design is presented as site-specific, the project should reconcile the precise analysis period and the reported wind summary, identify a surveyed candidate point, measure wind speed and direction at the intended hub height, complete a site-specific obstruction review, and combine the resulting wind distribution with a validated turbine power curve and generator/load model.
+
+**Appendix G source records:** `active/analysis/Design goal.md`; `active/analysis/brainstorm.md`; `attachments/wind data/BOS_07.25_to_07.26.md`; `attachments/wind data/BOS_07.21_to_07.26.json`; `attachments/wind data/BOS_07.25_to_07.26_histogram.svg`; `attachments/wind data/BOS_07.21_to_07.26_histogram.svg`; `active/resources/14 CFR Part 77 -- Safe, Efficient Use, and Preservation of the Navigable Airspace.md`; `wiki/concepts/Airport Regulations.md`; `wiki/log.md`.
+
+# Appendix H. Concept-Selection Process and Ranking Record
+
+## H.1 Purpose and decision method
+
+The concept-selection process narrowed a broad VAWT research corpus into a small set of designs suitable for further CAD exploration. The selection was intentionally site-informed: the BOS reference record indicated a low-to-moderate wind context, and the preliminary airport setting added constraints related to maintainability, manufacturability, height, and regulatory feasibility. The resulting process combined source-grounded wiki retrieval, independent human scoring, AI-assisted score calculation, and sensitivity analysis through alternative weighting schemes.
+
+Scores in the initial worksheet use a `1-5` scale, where `5` is best relative to that candidate set. An asterisk in the original worksheet marks an informed estimate made when the source did not provide a direct metric or when the row described a broader concept family rather than one tested turbine. The scores therefore support comparative early screening, not a validated prediction of BOS energy production or a final design choice.
+
+## H.2 Selection criteria
+
+| Criterion | Why it was selected | Best or target value used in screening |
+| --- | --- | --- |
+| Startup ability | BOS wind conditions made the ability to begin rotating in low wind especially important; a design that cannot start frequently cannot use much of the available resource. | Cut-in or self-start at or below `3 m/s`. |
+| Efficiency / economics | A VAWT needed sufficient aerodynamic efficiency and energy capture to have a plausible path toward economic value. | Highest credible `Cp` or strongest efficiency evidence, while recognizing that `Cp` alone does not establish economics. |
+| Rated-speed fit | The rated-speed target was used to favor designs whose reported operating range was compatible with the project design brief. | Approximately `10-15 m/s`. |
+| Cut-out-speed fit | The design needed a credible high-wind operating or survival limit rather than only low-wind performance. | At least `20 m/s`. |
+| Room for growth | The project required a baseline that could support later parameter studies rather than a geometry with no practical tuning variables. | Clearly identifiable, plausible parameters for further modeling and optimization. |
+| CAD + manufacturability | The team needed a concept that could be represented in the available CAD tools and could plausibly be fabricated without unnecessary complexity. | Simple, editable, and feasible geometry relative to the project timeline and available tools. |
+| Interest to the team | The team included this qualitative criterion to retain ownership of the exploratory project direction. | Highest interest score; this criterion was not included in the weighted numerical total. |
+
+The first six criteria were used in the weighted score. Startup and efficiency initially received the greatest weight because the team judged low-wind use and economic performance to be the dominant BOS design concerns. Interest was recorded but deliberately excluded from the calculated total so that a preferred concept could not win solely because it was appealing to pursue.
+
+## H.3 Initial screening and eight-candidate comparison
+
+The daily logs show that the team first used Boston wind data and airport constraints to make the problem specific, then developed the selection categories and weights together. Anna and Julie independently reviewed candidates before asking the LLM to repeat the ranking and calculate the weighted totals. The early process also used a narrower H-type comparison and a broader all-design search so that an initially attractive family would not be accepted without checking alternatives.
+
+The eight concepts below were the documented initial recommendation and non-traditional candidate set. They include both concept families and specific source-backed designs, so this table is an early concept screen rather than a uniform comparison of eight identical prototypes.
+
+| Candidate | Screening rationale | Primary caution |
+| --- | --- | --- |
+| Self-starting straight-bladed H-rotor Darrieus | Strong low-wind path: VA9 reported `1.25 m/s` self-start and `Cp = 0.416`; the straight H-rotor form also offered a relatively clean modeling and iteration path. | Darrieus startup is a broader risk; the claimed benefit depends on the EN0005 blade and blade-end behavior carrying into the modeled design. |
+| Low-TSR helical Darrieus | Offered smoother torque, lower cyclic loading, and an urban-oriented architecture; the cited example reported `3.5 m/s` startup and `100 W` at `9 m/s`. | More difficult to model and manufacture, and the strongest cited rated condition was below the target band. |
+| Reduced-interference hybrid | Offered a possible startup-efficiency compromise; VJ20 reported `Cp = 0.486`, while another hybrid source reported a torque benefit from relocating the Savonius rotor. | Greater aerodynamic and structural complexity, with source-dependent startup and scaling claims. |
+| Compact drag-based J-type / Savonius-derived fallback | Retained as a simple, self-starting, low-wind fallback; the J-type example reported `3 m/s` cut-in and easy installation and maintenance. | Lower peak-efficiency potential than the leading lift-based concepts. |
+| Involute rotor with wind-flow modifier | The modifier-assisted case reported `Cp = 0.397` at `5 m/s`, making it relevant to low-wind BOS screening. | The CFD-heavy evidence and directional rectangular modifier conflict with the desired omnidirectional use case. |
+| VJ20 proposed hybrid VAWT | Combined high reported `Cp` (`0.486` at `TSR = 3`), self-starting behavior, and a listed `2.81 m/s` full-scale cut-in. | It was more complex than a simple H-rotor and its reported startup values varied by scale and source context. |
+| 50% STS-VAWT | Offered a reported corrected `Cp` improvement of approximately `10%` by reducing blade-wake interaction. | It was supported as a wake-management and efficiency concept, not as a low-speed startup solution. |
+| Scooplet-based Savonius | Offered simple manufacture from straight lines and circular arcs, with a reported `39%` `Cp` improvement over a classical Savonius reference. | It remained a drag-rotor concept with a lower expected efficiency ceiling than the top lift-based candidates. |
+
+The original six-row ranking table retained six representative candidates for detailed scoring: self-starting straight-bladed H-rotor Darrieus, low-TSR helical Darrieus, involute rotor with wind-flow modifier, VJ20, 50% STS-VAWT, and scooplet Savonius. Under the original weighting, the self-starting H-rotor scored first at `4.40/5`, followed by VJ20 at `4.25/5`. The small difference led the team to retain both directions for further reading and CAD exploration instead of declaring one final winner.
+
+## H.4 Weighting schemes and persona rationale
+
+The sensitivity analysis tested whether the outcome depended on the initial priorities. The original weighting emphasized the project brief as initially framed. The BOS-focused weighting redistributed some emphasis toward rated-speed fit and iterative potential. The beginner-friendly weighting represented a team with limited CAD and simulation experience, so it prioritized feasibility and modelability. The expert-performance weighting assumed strong CAD and CFD capability, allowing more emphasis on operating performance and optimization potential than on simple fabrication.
+
+| Weighting scheme | Startup | Efficiency / economics | Rated-speed fit | Cut-out-speed fit | Room for growth / modelability | CAD + manufacturability | Rationale |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Original performance-first concept weighting | `35%` | `35%` | `10%` | `2.5%` | `2.5%` | `15%` | Represents the initial priority on low-wind startup and efficiency, while retaining a practical CAD/manufacturing constraint. |
+| BOS-focused all-design weighting | `30%` | `25%` | `15%` | `5%` | `10%` | `15%` | Represents a site-specific screening view that gives more credit to operating-speed fit and the ability to refine a design. |
+| Beginner-friendly all-design weighting | `20%` | `15%` | `5%` | `5%` | `25%` | `30%` | Represents a novice team whose main constraint is finishing a credible, editable, manufacturable design. |
+| Expert BOS-performance weighting | `20%` | `25%` | `20%` | `10%` | `20%` | `5%` | Represents an expert team seeking the best BOS-specific performance and willing to accept greater CAD and manufacturing complexity. |
+
+## H.5 Persona results: top six designs in each full-corpus screen
+
+The worksheet reports three persona-based rankings across the broader design corpus. The table below preserves the top six from each view. These are separate rankings, not a direct claim that every design had equally complete underlying data. In particular, the worksheet notes that missing startup, rated-speed, or cut-out values make lower-ranked positions less stable.
+
+| Rank | BOS-focused design | Score | Beginner-friendly design | Score | Expert BOS-performance design | Score |
+| --- | --- | ---: | --- | ---: | --- | ---: |
+| 1 | VA9 EN0005 self-start Darrieus | `4.30` | VA9 EN0005 self-start Darrieus | `4.45` | VJ20 proposed hybrid VAWT | `4.28` |
+| 2 | VJ20 proposed hybrid VAWT | `4.15` | VJ20 proposed hybrid VAWT | `4.15` | VA9 EN0005 self-start Darrieus | `4.13` |
+| 3 | VJ25 1-kW twin-bladed H-rotor, `AR = 0.4` | `3.60` | VA5 J-type VAWT | `4.00` | VJ25 1-kW twin-bladed H-rotor, `AR = 0.4` | `4.00` |
+| 4 | VA3 Solwind vertical-axis wind turbine | `3.45` | VJ19 curved-blade Savonius VAWT | `3.90` | VJ25 1-kW twin-bladed H-rotor, `AR = 2` | `3.95` |
+| 5 | VJ25 1-kW twin-bladed H-rotor, `AR = 2` | `3.40` | VJ25 1-kW twin-bladed H-rotor, `AR = 0.4` | `3.80` | VA3 Solwind vertical-axis wind turbine | `3.80` |
+| 6 | VJ19 curved-blade Savonius VAWT | `3.35` | VA26 3-bladed H-type VAWT | `3.70` | VA24 variable-pitch 3-bladed NACA0015 VAWT | `3.72` |
+
+Across all weighting schemes, VA9 and VJ20 occupied the top two positions. VA9 was favored when startup, simplicity, and practical robustness were emphasized. VJ20 moved ahead only in the expert-performance case, where efficiency, rated-speed fit, and optimization room outweighed CAD simplicity. This result justified advancing both concepts into CAD rather than treating the score as a definitive selection.
+
+## H.6 Full-wiki BOS-focused ranking: top ten of 63 designs
+
+After the initial screen, the ranking process was applied to the broader 63-design wiki set using the BOS-focused weighting. Duplicate real machines were collapsed so that the same turbine did not fill multiple ranks. The table reports the top ten results from that full-corpus screening.
+
+| Rank | Design | Score (/5) | Recorded reason for position |
+| --- | --- | ---: | --- |
+| 1 | VA9 EN0005 self-start Darrieus | `4.30` | Reported `1.25 m/s` self-start, `Cp = 0.416`, and stability at `25 m/s`. |
+| 2 | VJ20 proposed hybrid VAWT | `4.15` | Reported `Cp = 0.486`, explicit self-starting, and `2.81 m/s` full-scale cut-in. |
+| 3 | VJ25 1-kW twin-bladed H-rotor, `AR = 0.4` | `3.60` | Reported `cpmax = 0.475`, explicit `10 m/s` design point, and a strong modeling baseline. |
+| 4 | VA3 Solwind vertical-axis wind turbine | `3.45` | Reported `1.5 m/s` startup, `3.7 m/s` power onset, `10 m/s` rated output, and slowdown around `27 m/s`. |
+| 5 | VJ25 1-kW twin-bladed H-rotor, `AR = 2` | `3.40` | Reported `cpmax = 0.464` and a `10 m/s` design point. |
+| 6 | VJ19 curved-blade Savonius VAWT | `3.35` | Reported `3 m/s` cut-in, `9 m/s` rated-speed claim, and `3.5 year` simple payback. |
+| 7 | VA3 Ropatec WRE.060 WindRotor | `3.35` | Reported `2 m/s` cut-in, `14 m/s` rated speed, and hybrid low-speed intent. |
+| 8 | VA24 variable-pitch 3-bladed NACA0015 VAWT | `3.10` | Reported `Cp = 0.568` peak and improved low-TSR behavior, offset by active-pitch complexity and incomplete whole-turbine operating data. |
+| 9 | VA26 3-bladed H-type VAWT | `3.10` | Simple fixed-pitch layout, `7 m/s` operating case, and clear parameter-tuning opportunities. |
+| 10 | VA5 J-type VAWT | `3.00` | Reported `3 m/s` cut-in, `23.3%` prototype efficiency, and simple fabrication and maintenance. |
+
+Several trends emerged. Straight-bladed H-rotor or Darrieus-derived designs dominated the top positions because they combined low-speed evidence, relatively high reported `Cp`, and clear optimization variables. The VJ25 aspect-ratio pair also ranked highly, indicating that a simple H-rotor can remain attractive when a study supplies a clear operating point and parameterized geometry. Drag-based designs remained competitive when their startup, fabrication, or operating data were unusually complete, but their efficiency ceiling generally limited their rank. The variable-pitch design rose despite its complexity because the expert and BOS-oriented views recognized its high reported performance and potential for further optimization.
+
+## H.7 Limits and decision outcome
+
+The ranking was a structured design-screening tool, not a final validation exercise. It mixed concept families with individual designs, relied in part on informed estimates when sources omitted data, and contained a later-identified VJ20 cut-in-speed reporting conflict. The daily logs document that the team recognized this risk: AI accelerated comparison but could infer values not directly supported by a source, which would make a numerical ranking appear more certain than it was. The team therefore used the results to identify VA9 and VJ20 as two leading directions for CAD feasibility testing, not to claim that either was already the best turbine for BOS.
+
+**Appendix H source records:** `active/_anna daily log.md`; `active/_Julie_daily_log.md`; `active/analysis/Concept ranking worksheet.md`; `active/analysis/Decision Making Process.md`; `active/analysis/brainstorm.md`; `active/analysis/Design goal.md`.

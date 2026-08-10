@@ -658,9 +658,12 @@ day off
 			- worked but boundary layers are slightly crushed so now i will change the settings on those from relative to absolute 
 ### Thursday 8/6
 - mesh 56 is a copy of 49 - but with global graduation rate of 1.1, no blade tips boundary layers and physics based meshing off 
-
+- basically all day was on call with anna running meshes and writing blog while they genrerate 
 ### Friday 8/7
-
+- call with anna at 9 
+	- make new mesh with surafce refinements 
+	- work on blog 
+- call with mike at 11 
 ## Week 8
 
 ### Monday 8/10
