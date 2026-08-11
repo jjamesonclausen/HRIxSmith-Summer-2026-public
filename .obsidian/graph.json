@@ -1,44 +1,44 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": true,
-  "collapse-color-groups": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#designs  ",
       "color": {
         "a": 1,
-        "rgb": 14048348
+        "rgb": 6062550
       }
     },
     {
       "query": "tag:#concepts  ",
       "color": {
         "a": 1,
-        "rgb": 14069084
+        "rgb": 109908
       }
     },
     {
       "query": "tag:#sources  ",
       "color": {
         "a": 1,
-        "rgb": 11392604
+        "rgb": 15222234
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -2,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 0.529347910972276,
+  "nodeSizeMultiplier": 2.64995328558082,
+  "lineSizeMultiplier": 1.13615696044846,
   "collapse-forces": false,
-  "centerStrength": 0.617415072237407,
+  "centerStrength": 0.336032388663968,
   "repelStrength": 20,
-  "linkStrength": 1,
-  "linkDistance": 341,
-  "scale": 0.5234751794440027,
-  "close": false
+  "linkStrength": 0.637282207396852,
+  "linkDistance": 499,
+  "scale": 0.09009382857206572,
+  "close": true
 }

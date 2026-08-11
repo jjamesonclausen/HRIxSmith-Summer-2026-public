@@ -513,14 +513,157 @@ day off
 - call with anna to work on mesh 
 ### Tuesday 8/4
 - met with mike and anna 
-- run mesh 26 - the best mesh we had made with standard algorithm 
-- work on the hex dominate parametric mesh settings 
+- stay on call with anna (4 hrs)
+	- run mesh 26 - the best mesh we had made with standard algorithm 
+		- this is taking a long time 111 minutes with 0% progress 
+	- work on the hex dominate parametric mesh settings 
+		- added the surface refinements 
+		- anna added boxes around the connections 
+		- now trying to get the boundary layers to show up - for some reason they wont generate 
+		- non-orthogonality is still at 89 - mostly around trailing edge of two blades though 
+			- some on a leading edge of one of the airfoils - on the top 
+	- made slides for meeting later 
+	- more work on CFD - increasing the bounding box after a mesh failed to generate
+- after lunch mesh had finished the increased fineness on the blade ends helped a lot but needs even more refinement 
+	- also the center shaft as some issues to i will refine that area as well
+		- mesh 42 has further refinement with higher level on the blade ends of the outer blades and one step up in refinement on the center shaft top and bottom - because there was some high non-orthogonality 
+			- result - the issue at the top of the shat is gone! now main problem is the inner blades so i will further refine that 
+- call with team 
 ### Wednesday 8/5
-
+- zoom with anna 
+	- she caught me up on her progress  
+		- mostly blog writing - some ideas for the intro maybe a brief explanation of what VAWTs are and also the purpose of an LLM wiki 
+		- also discussed the need for further thinking about what the end will look like given our progress at the moment 
+		- anna said she tried to run a simulation last night but it crashed 
+		- also tried to run a mesh today but it took 2 hours with no progress 
+	- work on mesh:
+		- switching back to standard algorithm 
+		- **Mesh 46** overall settings are back to automatic with fineness of six - non-orthogonality is too high + boundary layer problems 
+		- **Mesh 47** refined the shaft and outer blades - worse non-orthogonality 
+		- **Mesh 48** boundary layer reduction 6 layers growth rate 1.2 thickness of 0.3 + leading edge surface refinement to help with a crushed boundary layer - best non- orthogonality yet 86 
+			- put pictures and all settings into Gemini and it said to switch to manual sizing for the surface refinements and asked for the chord length to calculate the sizes for me 
+				- logic for that:
+					- Changing your surface refinements to these manual dimensions directly solves your high non-orthogonality issue by eliminating the extreme, uncontrolled cell size changes that happen when SimScale's automatic mesher attempts to transition between your coarse background grid and the micro-scale boundary layers. 
+					- it calcuated the sizes for these my doing 2% for the chord length 
+		- **Mesh 49** - all surface refinements are custom sizes now (taking longer to generate ~15 min) - way better results! max non orthogonality is only 80! still high aspect ratio though ~140
+		- **Mesh 50** now I am adding in the wake boxes with custom sizes - which Gemini calculated based on the sizes we set for the surface refinements + also deleting the cylinder custom refinement (Gemini this is not needed now that we are doing the manual sizing) + also making all the boundary layer settings the same - 6 layers, 0.3 thickness, 1.2 growth rate 
+			- ##### Settings overview:
+				- **General Settings:** 
+					- standard algorithm with automatic sizing at a fineness of 5 and automatic curvature
+					- automatic boundary layers is turned off
+					- physics based meshing is turned on 
+					- hex element core is off 
+					- automatic extrusion meshing is off 
+					- 48 preferred number of CPUs and a max meshing run time of 1.8e+4
+					- automatic feature suppression of 1e-5
+					- gap refinement factor of 0.5 
+					- global graduation rate of 1.22
+				- **Surface Custom Refinements:**
+					- Outer Blades, Inner Blades, Blade Tips, & Trailing Edges
+						- *Default size:* 0.001 m 
+						- *Min size*: 0.00025 m 
+					- Shaft & Supporting Struts
+						- *Default size:* 0.0015 m
+						- *Min size:* 0.0004 m
+				- **Volumetric Region Refinements:**
+					- Cylinder Box
+						- *Default size:* 0.0015 m
+					- Small Wake Box 
+						- *Default size:* 0.003 m
+					- Large Wake Box
+						- *Default size:* 0.006 m
+				- **Boundary Layer Inflation Refinements:**
+					- Outer Blades, Inner Blades, & Shaft + Struts
+						- *Number of layers:* 6
+						- *Overall relative thickness*: 0.3
+						- *Growth rate*: 1.2
+					- Blade Tips (Trailing Edge Face)
+						- *Number of layers:* 6
+						- *Overall relative thickness*: 0.3 
+						- *Growth rate*: 1.2
+		- also in the background running a simulation with mesh 49 - said it would take 75-100 mins 
+		- mesh 50 failed - ran out of memory --> increase 48 to 96 preferred cores so it has enough memory to generate the mesh 
+		- after 25 minutes it was still at 0 faces so i canceled and coarsened the mesh by increasing the cell size in the cylinder to 0.002 and changed the custom size on the blades from 0.001 to 0.0015 (with a new min of 0.00035)
+		- after 20 mins of running there were still 0 faces so i stopped it and turned off physics based meshing 
+		- tried again with no luck - deleted the cylinder with custom refinement to see if that was interfering with the small + large wake boxes 
+		- running a test : one mesh with only wake boxes and one with only the cylinder to see which is the problem that's causing the stall
+		- mesh 53 finished - no wake boxes and cylinder is automatic sizing 
+			- Mesh quality metrics:
+				Min Edge Length: 0.0
+				Element type: Tetrahedra
+				Non Orthogonality
+				Acceptable range: 0.0 to 88.0
+					min: 0.0
+					max: 68.7
+					average: 33.0
+					99.99-th percentile: 68.7
+				Edge Ratio
+				Acceptable range: 0.0 to 100.0
+					min: 1.0
+					max: 6.4
+					average: 1.7
+					99.99-th percentile: 6.4
+				Volume Ratio
+				Acceptable range: 0.0 to 100.0
+					min: 1.0
+					max: 10.1
+					average: 1.9
+					99.99-th percentile: 10.1
+				Aspect Ratio
+				Acceptable range: 0.0 to 100.0
+					min: 1.0
+					max: 3.9
+					average: 1.7
+					99.99-th percentile: 3.9
+				Skewness
+				Acceptable range: 0.0 to 100.0
+					min: 0.0
+					max: 1.4
+					average: 0.3
+					99.99-th percentile: 1.4
+				Min Edge Length: 0.0
+				Element type: Prisms
+				Non Orthogonality
+				Acceptable range: 0.0 to 88.0
+					min: 0.2
+					max: 82.1
+					average: 18.1
+					99.99-th percentile: 82.1
+				Edge Ratio
+				Acceptable range: 0.0 to 100.0
+					min: 6.9
+					max: 58.5
+					average: 23.5
+					99.99-th percentile: 58.5
+				Volume Ratio
+				Acceptable range: 0.0 to 100.0
+					min: 1.2
+					max: 19.2
+					average: 1.8
+					99.99-th percentile: 19.2
+				Aspect Ratio
+				Acceptable range: 0.0 to 100.0
+					min: 9.5
+					max: 94.3
+					average: 28.2
+					99.99-th percentile: 94.3
+				Skewness
+				Acceptable range: 0.0 to 100.0
+					min: 0.0
+					max: 3.1
+					average: 0.2
+					99.99-th percentile: 3.1
+				Min Edge Length: 0.0
+		- switched back to manual sizing and increases the size to .005 
+			- worked but boundary layers are slightly crushed so now i will change the settings on those from relative to absolute 
 ### Thursday 8/6
-
+- mesh 56 is a copy of 49 - but with global graduation rate of 1.1, no blade tips boundary layers and physics based meshing off 
+- basically all day was on call with anna running meshes and writing blog while they genrerate 
 ### Friday 8/7
-
+- call with anna at 9 
+	- make new mesh with surafce refinements 
+	- work on blog 
+- call with mike at 11 
 ## Week 8
 
 ### Monday 8/10

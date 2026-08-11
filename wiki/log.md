@@ -1,6 +1,42 @@
 #maintenance
 ## Log
 
+### 2026-08-10 - Add airfoil CFD validation appendix to technical report
+
+- Task: append a technical record of the NACA0018 validation goal, setup, troubleshooting process, targets, and current limitations to the technical-report draft.
+- Actions:
+  - Added Appendix I to `active/documentation/Technical Report Draft - 2026-08-03.md`.
+  - Documented the later pseudo-2D `k-omega SST` case, boundary conditions, coefficient normalization, mesh changes, issue-response-result sequence, validation targets, and best recorded NACA0018 and NACA0012 outputs.
+- Decisions:
+  - Treated the `Cl = 0.57` and `Cd = 0.028-0.030` NACA0018 values as model-specific predictions, not validated aerodynamic coefficients.
+  - Preserved conflicts in the documented wall treatment and residual acceptance target instead of resolving them by assumption.
+- Open:
+  - Select a condition-matched NACA0018 benchmark, confirm the saved wall treatment, and complete controlled mesh, domain, convergence, and transition sensitivity studies before applying the workflow to VAWT performance claims.
+
+### 2026-08-10 - Add concept-selection appendix to technical report
+
+- Task: append a detailed, report-ready record of the concept-selection process, criteria, candidate screens, persona weights, and full-wiki ranking to the technical-report draft.
+- Actions:
+  - Added Appendix H to `active/documentation/Technical Report Draft - 2026-08-03.md`.
+  - Included the seven screening criteria and targets, eight-candidate initial screen, four weighting schemes, top-six results for the three full-corpus persona screens, and the BOS-focused top ten from the 63-design wiki ranking.
+- Decisions:
+  - Preserved worksheet scores and documented uncertainty instead of treating ranks as performance predictions.
+  - Distinguished the initial eight-candidate concept screen from the later full-corpus persona screens, since the former mixes design families and individual source-backed designs.
+- Open:
+  - Reconcile the primary-source VJ20 cut-in value and replace informed estimates with source-supported values before using any ranking as a final design decision.
+
+### 2026-08-07 - Add Boston location and wind-analysis appendix
+
+- Task: append a technical appendix on Boston Logan location selection and wind analysis to the active technical-report draft.
+- Actions:
+  - Added Appendix G to `active/documentation/Technical Report Draft - 2026-08-03.md`.
+  - Documented the Logan/Governor's Island screening rationale, FAA Part 77 constraints, BOS wind-record fields and unit conversion, one-year versus five-year datasets, histogram configuration, reported `4.8 m/s` mean wind and `6.3 m/s` mean gust values, and the limits of the available evidence.
+- Decisions:
+  - Kept Governor's Island, the `>= 700 ft` runway-edge criterion, and the wind record explicitly preliminary; none is presented as an approved installation, a surveyed clearance, or site-specific energy evidence.
+  - Identified the five-year distribution as the more appropriate retained record for annual-energy-oriented screening because the one-year record is incomplete.
+- Open:
+  - Reconcile the final wind-summary calculation, measure the selected installation point at the proposed hub height, and complete a site-specific FAA/airport review before making siting or annual-energy claims.
+
 ### 2026-08-10 - Collect figures for initial concept screening
 
 - Task: find a picture for each of the eight turbine designs or concepts in the initial concept-screening set.
