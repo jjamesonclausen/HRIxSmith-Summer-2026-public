@@ -1,6 +1,56 @@
 #maintenance
 ## Log
 
+### 2026-08-10 - Collect figures for initial concept screening
+
+- Task: find a picture for each of the eight turbine designs or concepts in the initial concept-screening set.
+- Actions:
+  - Verified the eight candidates from `active/analysis/Concept ranking worksheet.md`.
+  - Created `active/documentation/Initial Screening Concept Figures.md` with an original, source-backed attachment embed and caption for each candidate: VA9 EN0005, VA22 low-TSR helical, VA20 involute with wind-flow modifier, VJ20 hybrid, VA23 50% STS, VJ9 scooplet Savonius, VJ2 reduced-interference hybrid, and VA5 J-type fallback.
+- Decisions:
+  - Used figures already extracted from the project sources rather than web images, preserving source traceability and avoiding a separate copyright/provenance search.
+  - Retained source figures that compare several configurations where they are the clearest available depiction, and documented the selected subconfiguration.
+- Open:
+  - Choose whether the VA20, VA23, and VJ9 comparison figures should be cropped or annotated for final-report presentation.
+
+### 2026-08-10 - Add AI-use lessons technical-report appendix
+
+- Task: create a technical-report appendix that synthesizes Anna's and Julie's AI-use learning into future-project advice and a categorized issue-to-solution table.
+- Actions:
+  - Created `active/documentation/Appendix - AI-Use Lessons and Recommendations.md` from both daily logs, the technical-report draft, CAD records, the prompting experiment, Julie's wiki reflections, and the Obsidian reference note.
+  - Documented a human-led operating pattern, summary recommendations, reusable prompting patterns, and categorized countermeasures for the LLM wiki, Obsidian, general prompting, AI-assisted CAD, CFD/simulation AI, and collaboration records.
+  - Included the value of detailed daily logs and exported CAD-agent conversations as reusable project-context infrastructure, not merely administrative documentation.
+- Decisions:
+  - Presented observations as project-specific lessons rather than universal claims about particular models or tools.
+  - Retained the need for primary-source quantitative verification, independent CAD inspection, and expert escalation where the project record showed AI limitations.
+- Open:
+  - Review the appendix against the final report's preferred citation style and add any lessons from the remaining project work before submission.
+
+### 2026-08-07 - Revise interim report for technical passive voice
+
+- Task: revise the active VAWT report into a detailed third-person, predominantly passive technical report, while keeping the already edited abstract and introduction substantially intact.
+- Actions:
+  - Replaced `active/documentation/Technical Report Draft - 2026-08-03.md` with the supplied current reporting-period framing and a revised report through research, site definition, selection, CAD, CFD, AI assessment, conclusions, and appendices.
+  - Rewrote Sections 2-8 to foreground completed methods, recorded evidence, numerical results, limitations, and decisions rather than the authors' actions.
+  - Added an explicit assessment of AI costs: review and repair time, quantitative-verification requirements, reproducibility risk, workflow-management overhead, and the learning tradeoff. No unmeasured monetary comparison was claimed.
+- Decisions:
+  - Retained uncertainty around VJ20 operating values, airport installation feasibility, CAD fidelity, and CFD validation rather than presenting provisional results as validated conclusions.
+  - Kept the supplied abstract and introduction close to their original wording; only grammar, clarity, and the incomplete 1.2 placeholder were addressed.
+- Open:
+  - Confirm whether the future reporting cutoff of 14 August 2026 is intentional, reconcile the wind-data and VJ20 startup records, apply the required external citation style, and insert approved figures.
+
+### 2026-08-06 - Revise interim technical report from blog narrative
+
+- Task: revise the interim VAWT and AI-workflow report using Anna's blog post as the style and process reference, while retaining the detailed evidence in project records.
+- Actions:
+  - Rewrote `active/documentation/Technical Report Draft - 2026-08-03.md` in clear third-person narrative prose.
+  - Incorporated the blog's project framing, research-to-design sequence, AI-tool observations, and learning tradeoffs while retaining the detailed concept-ranking, CAD, and CFD evidence records.
+  - Clarified that a reported full-turbine `Cp` match would be a replication checkpoint rather than validation, because the current report cutoff does not contain validated turbine evidence.
+- Decisions:
+  - Preserved uncertainty around VJ20 startup values, Governor's Island installation feasibility, CAD fidelity, and airfoil CFD validation rather than harmonizing conflicting records into a stronger claim.
+- Open:
+  - Select final figures, reconcile the Boston wind-data and VJ20 startup records, apply the required external citation style, and update the report after final CFD work.
+
 ### 2026-08-04 - Consolidate VJ20 CFD replication settings
 
 - Task: extract the reported VJ20 CFD settings, especially meshing controls, for recreating the paper's computational case.

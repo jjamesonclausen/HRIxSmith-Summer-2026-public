@@ -520,22 +520,28 @@
 	- added fillets to blade trailing edges
 	- added fillets to blade-strut interfaces
 	- replaced rectangular struts with cylindrical to reduce num faces/edges
-*Fusion AI keeps running into mcp execute errors and being unable to actually edit the model and instead gives me instructions on how to do it. Helpful to learn but annoying when I have to slowly do repetitive changes that it should be able to do. Tried to upload the file to Zoo to see if Zookeeper could do it but it was having trouble importing the files which is quite annoying as well. Restarted Fusion and regained mcp execute functionality. Proceeded to spend almost an hour trying to prompt Fusion *
+*Fusion AI keeps running into mcp execute errors and being unable to actually edit the model and instead gives me instructions on how to do it. Helpful to learn but annoying when I have to slowly do repetitive changes that it should be able to do. Tried to upload the file to Zoo to see if Zookeeper could do it but it was having trouble importing the files which is quite annoying as well. Restarted Fusion and regained mcp execute functionality. Proceeded to spend almost an hour trying to prompt Fusion to make the desired changes. Did some manually but then with much more specific prompts (step by step - which requires knowing how to do the process manually!) had more success.*
+
+## Week 7
+### Monday 08/03
+`09:00` new mesh set up (5 hrs)
+	- set up standard mesh with the new geometry (takes foreverrrr)
+	- no real improvement, started looking into a hex-dominant mesh, ended up in a geometry rabbit hole
+		- seems like fillets are prob a bad move
+		- and trailing edge strips are def an issue, fusion claimed to have a tool to simplify geometry and remove those but not working
+		- more fighting with fusion and doing things manually, eventually gave up on simplifying blade geometry
+	- worked with julie a bit to discuss changes we could make to improve the mesh
+`16:00` hex dominant parametric meshing algorithm, learn + set up (2 hrs)
+	- asking ray about each setting one at a time, learning what they do and getting recommendations for our specific application
+
+### Tuesday 08/04
+`09:00` met w Mike + Julie to get started (0.5 hrs)
+`09:30` (4 hrs)
+
+`16:00` (1hr)
 
 
-Hours: -6
+Hours: -5
 
 
 
-**Mtg notes 7/14:** 
-	- LLM prompt improvements
-		- ask for visual decision analysis matrix to justify decisions
-		- ~~magic prompt for diversity~~
-	- consider asking LLM to break down tasks between two people and the LLM
-	- ~~ask LLM about doable ways to estimate cut in speed~~ *see wiki/methods*
-	- ~~ask LLM to ask about potential DOE and/or use similar ranking process for parameters to decide what variables to investigate~~ *see active/analysis*
-	- consider using similar ranking scheme again to reevaluate how the design is doing for the design criteria
-	- ~~use llm to help summarize and document all of our iterations of CAD and CFD~~ 
-**Misc:**
-	- add shorter time interval data to investigate wind direction fluctuations 
-	- tuesday ~~07/28~~ 8/4 everyone will be back, but note that rajeev will have missed ~~two~~ three weeks by then!
