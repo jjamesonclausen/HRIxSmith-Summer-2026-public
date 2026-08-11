@@ -664,12 +664,24 @@ day off
 	- make new mesh with surafce refinements 
 	- work on blog 
 - call with mike at 11 
+- work on the report for the rest of the day 
 ## Week 8
 
 ### Monday 8/10
+- call with mike + anna 
+	- talked about getting more core hours to run the final few tweaks to the mesh 
+	- talked about where we are at with the blog/report - mike will review and leave notes 
+- stay on call with anna 3 hr total 
+	- work on report 
+		- together wrote prompts for the appendices for the LLM 
+		- had them generate them and go though and edit 
+- had to cut day short spent one more hour in er editing the report 
 
 ### Tuesday 8/11
-
+- meeting with mike + anna - cought up on yesterday 
+- stay on with anna 
+	- finish concept selection appendix 
+- edit some comments on report main body 
 ### Wednesday 8/12
 
 ### Thursday 8/13
