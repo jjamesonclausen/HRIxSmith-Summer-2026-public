@@ -1,6 +1,86 @@
 #maintenance
 ## Log
 
+### 2026-08-13 - Document full-turbine CFD process in report body
+
+- Task: replace the full-turbine CFD placeholder in the active report body with the process followed and an honest account of the incomplete final simulation.
+- Actions:
+  - Added a `Full-Turbine CFD Modeling Process` subsection to `active/documentation/report body.md`.
+  - Documented the VJ20 geometry scope, external flow domain, AMI rotating-cylinder approach, source-matched operating point, result controls, staged transient plan, and mesh-recovery sequence.
+  - Recorded the defeatured-face, divergence, and non-orthogonality failures, including the final reduction to `75` maximum non-orthogonality.
+- Decisions:
+  - Stated that the team was close to a usable transient setup without implying that a valid turbine run or performance result was obtained.
+  - Excluded torque, `Cp`, and flow conclusions because mesh face-retention, mesh-quality, time-step, and periodicity checks were not completed.
+- Open:
+  - Complete the mesh acceptance gates, then demonstrate mesh and time-step sensitivity and repeatable torque cycles before comparing the model with VJ20 performance data.
+
+### 2026-08-13 - Add CFD design-iteration intent to report body
+
+- Task: explain that the validated VJ20 CFD model was intended to become a controlled platform for design iterations, including an EN0005 blade-profile variant.
+- Actions:
+  - Replaced the marked placeholder in `active/documentation/report body.md` with the planned validation-to-iteration sequence.
+  - Documented the proposed EN0005 inner-rotor comparison, one-variable-at-a-time control approach, and performance outputs intended to judge each change.
+- Decisions:
+  - Treated EN0005 as a hypothesis to test within the VJ20 hybrid, not as evidence that it would improve the hybrid turbine.
+  - Noted that authoritative EN0005 coordinates or a documented profile approximation are required before that CFD variant can be interpreted.
+- Open:
+  - Validate the baseline first, then compare the EN0005 variant under identical numerical and operating conditions.
+
+### 2026-08-13 - Add Appendix B IEEE references
+
+- Task: provide IEEE-formatted references for the sources used in the current Appendix B report body.
+- Actions:
+  - Added a seven-item `References` section covering the six papers underlying the selected turbine candidates and the internal concept-ranking worksheet.
+  - Added a note that the source of the hourly BOS wind dataset in Figure B1 is not recorded in the report body.
+- Decisions:
+  - Retained the incomplete bibliographic information available for the compact J-type and scooplet source records rather than inventing journal or DOI metadata.
+- Open:
+  - Add bracket citations in Appendix B and identify the original BOS wind-data provider, dataset URL, and access date before final submission.
+
+### 2026-08-13 - Replace internal ranking reference with design sources
+
+- Task: remove the internal concept-ranking worksheet from Appendix B references and cite the original design sources instead.
+- Actions:
+  - Replaced the internal worksheet entry with the source for the two aspect-ratio H-rotor designs, the Solwind reference source, and the curved-blade Savonius source.
+  - Added an IEEE bracket-citation source map for every design named in Appendix B.
+- Decisions:
+  - The two `AR` H-rotor designs share one source because they are alternative cases in the same Brusca, Lanzafame, and Messina study.
+- Open:
+  - Complete missing journal or DOI metadata for the scooplet, compact J-type, Solwind, and curved-blade Savonius records if required by the final report standard.
+
+### 2026-08-13 - Add main-report IEEE references
+
+- Task: place references for the main report body before the appendices.
+- Actions:
+  - Added a main-report `References` section immediately before Appendix B in `active/documentation/report body.md`.
+  - Included the HRI VAWT report, Karpathy's LLM-wiki gist, Massport net-zero page, AirfoilTools NACA0018 page, VJ20 and EN0005 papers, and Dr. Aquino's CFD guidance.
+- Decisions:
+  - Kept the Appendix B design bibliography separate because it supports appendix-specific design comparisons.
+- Open:
+  - Replace the remaining report-body citation placeholders with the applicable reference numbers before final submission.
+
+### 2026-08-13 - Mark dual-H-rotor source citations
+
+- Task: add inline citations for the dual-H-rotor published reference study in the main report body.
+- Actions:
+  - Added `[5]` to the full-turbine CFD-study description and the conclusion's reference-study comparison statement.
+  - Added `[6]` to the proposed EN0005 inner-blade iteration statement.
+- Open:
+  - Replace the remaining `[cite]` placeholders and add citations for the other externally supported report claims.
+
+### 2026-08-12 - Add full-turbine CFD appendix to report body
+
+- Task: add a report-ready VJ20 full-turbine CFD appendix with the documented issues, changes, outcomes, lessons, and supporting figures.
+- Actions:
+  - Added `Appendix: Full-Turbine VJ20 CFD Setup and Mesh Troubleshooting` to `active/documentation/report body.md`.
+  - Included a seven-row issue-response-result-lesson table synthesized from the VJ20 SimScale validation record and team daily logs.
+  - Added source-paper mesh-zone and transient-moment figures, explicitly labeled as reference figures rather than project results.
+- Decisions:
+  - Preserved the distinction between setup/mesh progress and a validated performance result; no project torque or Cp value is presented.
+  - Retained the VJ20 rotational-speed inconsistency as an unresolved source issue.
+- Open:
+  - Replace the reference figures with final project mesh and result images if available, and complete mesh, timestep, force-control, and periodicity checks before interpreting turbine Cp.
+
 ### 2026-08-10 - Add airfoil CFD validation appendix to technical report
 
 - Task: append a technical record of the NACA0018 validation goal, setup, troubleshooting process, targets, and current limitations to the technical-report draft.

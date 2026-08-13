@@ -658,10 +658,10 @@ day off
 			- worked but boundary layers are slightly crushed so now i will change the settings on those from relative to absolute 
 ### Thursday 8/6
 - mesh 56 is a copy of 49 - but with global graduation rate of 1.1, no blade tips boundary layers and physics based meshing off 
-- basically all day was on call with anna running meshes and writing blog while they genrerate 
+- basically all day was on call with anna running meshes and writing blog while they generate 
 ### Friday 8/7
 - call with anna at 9 
-	- make new mesh with surafce refinements 
+	- make new mesh with surface refinements 
 	- work on blog 
 - call with mike at 11 
 - work on the report for the rest of the day 
@@ -678,10 +678,14 @@ day off
 - had to cut day short spent one more hour in er editing the report 
 
 ### Tuesday 8/11
-- meeting with mike + anna - cought up on yesterday 
+- meeting with mike + anna - caught up on yesterday 
 - stay on with anna 
 	- finish concept selection appendix 
 - edit some comments on report main body 
+- write the ai section 
+- meet with mike at 2 
+	- should send off the blog by eod tomorrow 
+- keep editing the report 
 ### Wednesday 8/12
 
 ### Thursday 8/13

@@ -540,17 +540,17 @@ added in a volume refinement box around airfoil
 ### 8 
 that fixed a lot of the boundary layer crushing but the wake is cut short so i expanded the box further out ( from x max of 1 to x max of 2)
 ![[Pasted image 20260724095233.png|471]]
-![[Pasted image 20260724095249.png|470]]
+![[Pasted image 20260724095249.png|604]]
 ### 9 
 still missing some wake i am going to shift the whole box downward 
 now x (.7 to 4) y (1.5 to -1.5) z (-0.5 to 0.5)
 ![[Pasted image 20260724101719.png|391]]
-![[Pasted image 20260724101743.png|395]]
+![[Pasted image 20260724101743.png|923]]
 ### 10 
 added another volume refinement with a smaller internal box x(0.8 -0.8) y(-0.5 0.5) and z (-0.5 0.5)
 kept the other larger box with the extended wake (the geometries are named Cartesian box 3 and 4 )
 ![[Pasted image 20260724102518.png|499]]
-![[Pasted image 20260724102530.png|463]]
+![[Pasted image 20260724102530.png|724]]
 ### 11 
 re ordered the mesh tree so that the wake refinement came first ( fineness of 5) and the volume refinement around the airfoil (fineness of 6) comes second 
 ![[Pasted image 20260724103644.png|456]]
@@ -573,8 +573,8 @@ turned of automatic boundary layers
 ### 16 
 adding back in the boundary layers via a refinement 
 15 layers with thickness of 2.5 and a growth rate of 1.5
-![[Pasted image 20260724140057.png|477]]
-![[Pasted image 20260724140114.png|414]]
+![[Pasted image 20260724140057.png|1117]]
+![[Pasted image 20260724140114.png|1050]]
 ### 17
 15 layers overall thickness of 2 growth rate of 1.5 
 
@@ -791,7 +791,7 @@ Purpose: retain smooth cell-size transitions while making the boundary-layer cel
 
 ### Outcome
 max non-orthogonality - 83 
-![[Pasted image 20260729220720.png|399]]
+![[Pasted image 20260729220720.png|428]]
 
 Pending mesh generation, mesh-quality inspection, solved-`y+` check, and CFD run.
 

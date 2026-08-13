@@ -350,4 +350,128 @@ Cp = P / (0.5 * rho * A * U_infinity^3)
 		- *Number of layers:* 6
 		- *Overall relative thickness*: 0.3 
 		- *Growth rate*: 1.2
+## mesh 61
+Settings overview:
+- **General Settings:** 
+	- standard algorithm 
+		- maual sizing
+			- Maximum edge length 0.2
+			- minimum edge length 0.075
+	- automatic boundary layers is turned off
+	- physics based meshing is turned off 
+	- hex element core is off 
+	- automatic extrusion meshing is off 
+	- 96 preferred number of CPUs and a max meshing run time of 1.8e+4
+	- **advanced settings:** 
+		- automatic feature suppression of 1e-5
+		- gap refinement factor of 0.5 
+		- global graduation rate of 1.22
+- **Surface Custom Refinements:**
+	- Outer Blades, Inner Blades, Blade Tips, & Trailing Edges
+		- *Default size:* 0.0015 m 
+		- *Min size*: 0.00035 m 
+	- Shaft & Supporting Struts
+		- *Default size:* 0.0015 m
+		- *Min size:* 0.0004 m
+- **Volumetric Region Refinements:**
+	- Cylinder Box
+		- sizing mode distance 
+		- ![[Pasted image 20260812110335.png|220]]
+	- close wake 
+		- sizng mode distance 
+			- ![[Pasted image 20260812110311.png|194]]
+- **Boundary Layer Inflation Refinements:**
+	- Outer Blades, & Shaft + Struts
+		- *Number of layers:* 6
+		- *Overall relative thickness*: 0.3
+		- *Growth rate*: 1.2
+	- Blade Tips (Trailing Edge Face)
+		- *Number of layers:* 6
+		- *Overall relative thickness*: 0.3 
+		- *Growth rate*: 1.2
+	- Inner Blades
+		- *Number of layers:* 7
+		- *Overall relative thickness*: 0.5
+		- *Growth rate*: 1.2
+## mesh 62 - an attempt to fix the boundary layers 
+- **General Settings:** 
+	- standard algorithm 
+		- maual sizing
+			- Maximum edge length 0.2
+			- minimum edge length 0.075
+	- automatic boundary layers is turned off
+	- physics based meshing is turned off 
+	- hex element core is off 
+	- automatic extrusion meshing is off 
+	- 96 preferred number of CPUs and a max meshing run time of 1.8e+4
+	- **advanced settings:** 
+		- automatic feature suppression of 1e-5
+		- gap refinement factor of 0.5 
+		- global graduation rate of 1.22
+- **Surface Custom Refinements:**
+	- Outer Blades, Inner Blades, Blade Tips, & Trailing Edges
+		- *Default size:* 0.0015 m 
+		- *Min size*: 0.00035 m 
+	- Shaft & Supporting Struts
+		- *Default size:* 0.0015 m
+		- *Min size:* 0.0004 m
+- **Volumetric Region Refinements:**
+	- Cylinder Box
+		- sizing mode distance 
+		- ![[Pasted image 20260812110335.png|220]]
+	- close wake 
+		- sizng mode distance 
+			- ![[Pasted image 20260812110311.png|194]]
+- **Boundary Layer Inflation Refinements:**
+	- Outer Blades, Blade Tips, Inner Blades, & Shaft + Struts
+		- *Number of layers:* 7
+		- *Overall absolute thickness*: 0.002
+		- *First layer thickness*: 0.0001
+-the difference between this and the last is that i switched from relative boundary layers to absolute - no more growth rate 
+- the non-orthogonality is down to 75!!!! 
 
+## mesh 63: 
+Settings overview:
+- **General Settings:** 
+	- standard algorithm 
+		- maual sizing
+			- Maximum edge length 0.2
+			- minimum edge length 0.075
+	- automatic boundary layers is turned off
+	- physics based meshing is turned off 
+	- hex element core is off 
+	- automatic extrusion meshing is off 
+	- 96 preferred number of CPUs and a max meshing run time of 1.8e+4
+	- **advanced settings:** 
+		- automatic feature suppression of 1e-5
+		- gap refinement factor of 0.5 
+		- global graduation rate of 1.22
+- **Surface Custom Refinements:**
+	- Outer Blades, Inner Blades, Blade Tips, & Trailing Edges
+		- *Default size:* 0.0015 m 
+		- *Min size*: 0.00035 m 
+	- Shaft & Supporting Struts
+		- *Default size:* 0.0015 m
+		- *Min size:* 0.0004 m
+- **Volumetric Region Refinements:**
+	- Cylinder Box
+		- sizing mode distance 
+		- ![[Pasted image 20260812110335.png|220]]
+	- close wake 
+		- sizng mode distance 
+			- ![[Pasted image 20260812110311.png|194]]
+- **Boundary Layer Inflation Refinements:**
+	- Outer Blades, Blade Tips, Inner Blades, & Shaft + Struts
+		- *Number of layers:* 6
+		- *Overall absolute thickness*: 0.0015
+		- *First layer thickness*: 0.0001
+-only change is to the boundary layers bc mesh 62 was looking too thick so i made the overall thickness smaller and reduced the number of layers 
+
+post cylinder 
+Gemini said 
+increase the cylinder size 
+made the cylinder refinement smaller 0.005 --> 0.0045
+
+
+now dropped global graduation rate from 1.22 to 1.12 
+also made the minimum size of the surface refinements larger going from 0.00035 to 0.0008
